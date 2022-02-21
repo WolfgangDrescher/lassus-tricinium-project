@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router';
             <nav>
                 <RouterLink :to="{ name: 'index' }">Home</RouterLink>
                 <RouterLink :to="{ name: 'about' }">About</RouterLink>
-                <RouterLink :to="{ name: 'tricinium_list' }">tricinium</RouterLink>
+                <RouterLink :to="{ name: 'tricinium_list' }">Tricinium</RouterLink>
             </nav>
         </div>
     </header>
