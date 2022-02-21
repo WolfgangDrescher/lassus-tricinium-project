@@ -1,4 +1,5 @@
 <script setup>
+import Container from './components/Container.vue';
 import { RouterLink, RouterView } from 'vue-router';
 </script>
 
@@ -13,6 +14,8 @@ import { RouterLink, RouterView } from 'vue-router';
         </div>
     </header>
     <main>
-        <RouterView />
+        <Container>
+            <RouterView />
+        </Container>
     </main>
 </template>
