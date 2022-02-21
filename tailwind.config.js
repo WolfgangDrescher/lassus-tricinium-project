@@ -5,6 +5,9 @@ module.exports = {
     ],
     theme: {
         extend: {},
+        fontFamily: {
+            fraktur: "'UnifrakturMaguntia', cursive",
+        },
         container: {
             center: true,
             padding: {
