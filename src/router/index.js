@@ -9,6 +9,21 @@ const router = createRouter({
             name: 'index',
             component: IndexView,
         },
+        {
+            path: '/about/',
+            name: 'about',
+            component: () => import('../views/AboutView.vue'),
+        },
+        {
+            path: '/tricinium/',
+            name: 'tricinium_list',
+            component: () => import('../views/TriciniumListView.vue'),
+        },
+        {
+            path: '/tricinium/:id',
+            name: 'tricinium',
+            component: () => import('../views/TriciniumView.vue'),
+        },
     ],
 });
 
