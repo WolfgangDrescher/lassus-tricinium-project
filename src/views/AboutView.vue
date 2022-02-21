@@ -1,3 +1,7 @@
+<script setup>
+import Heading from '../components/Heading.vue';
+</script>
+
 <template>
-    <h1>About</h1>
+    <Heading>About</Heading>
 </template>

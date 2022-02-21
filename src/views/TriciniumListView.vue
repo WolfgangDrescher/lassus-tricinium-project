@@ -1,3 +1,7 @@
+<script setup>
+import Heading from '../components/Heading.vue';
+</script>
+
 <template>
-    <h1>Tricinium Liste</h1>
+    <Heading>Tricinium Liste</Heading>
 </template>
