@@ -10,12 +10,12 @@ const router = createRouter({
             component: IndexView,
         },
         {
-            path: '/about/',
+            path: '/about',
             name: 'about',
             component: () => import('../views/AboutView.vue'),
         },
         {
-            path: '/tricinium/',
+            path: '/tricinium',
             name: 'tricinium_list',
             component: () => import('../views/TriciniumListView.vue'),
         },
