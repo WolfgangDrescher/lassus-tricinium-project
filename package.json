@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "vue": "^3.2.29",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vue-verovio-canvas": "file:../../vue-verovio-canvas"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
