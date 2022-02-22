@@ -12,8 +12,7 @@ const filterByTitle = (filter, element) => {
 
 const filterByNr = (filter, element) => {
     if(!filter.nr) return true;
-    console.log(filter.nr, element.nr);
-    return element.nr === filter.nr;
+    return parseInt(element.nr, 10) === parseInt(filter.nr, 10);
 };
 
 export function useFilter(elements, filter) {
