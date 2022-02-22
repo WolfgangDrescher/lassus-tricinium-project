@@ -8,6 +8,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "lassus-geistliche-psalmen": "file:../lassus-geistliche-psalmen",
     "vue": "^3.2.29",
     "vue-router": "^4.0.12",
     "vue-verovio-canvas": "file:../../vue-verovio-canvas"
