@@ -15,7 +15,7 @@ export function useHumdrumScoreFormatter(data, options) {
             return filters.value.map((f) => (showFilterPrefix ? `${filterPrefix}${f}` : f)).join('\n');
         },
         set(value) {
-            filters.value = value.split('\n').map((f) => {
+            filters.value = value.split('\n').map((line) => {
                 line = showFilterPrefix ? line.replace(new RegExp(`/${filterPrefix}/`), '') : line;
                 return line.trim();
             });
