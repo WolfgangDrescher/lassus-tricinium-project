@@ -33,7 +33,7 @@ export function useHumdrumScoreFormatter(data, options) {
     });
 
     const prefixedFiltersAsString = computed(() => {
-        return filters.value.map((f) => `${filterPrefix}${f}`).join('\n'); 
+        return filters.value.map((f) => `${filterPrefix}${f}`).join('\n');
     });
 
     const formattedScoreData = computed(() => {
@@ -44,5 +44,5 @@ export function useHumdrumScoreFormatter(data, options) {
         filters: readonly(filters),
         filtersAsString,
         formattedScoreData: readonly(formattedScoreData),
-    }
-};
+    };
+}
