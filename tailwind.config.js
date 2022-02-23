@@ -1,5 +1,6 @@
 module.exports = {
     content: [
+        './src/App.vue',
         './src/components/**/*.{vue,html,js}',
         './src/views/**/*.{vue,html,js}',
     ],
