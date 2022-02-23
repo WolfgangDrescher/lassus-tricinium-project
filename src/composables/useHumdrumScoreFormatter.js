@@ -41,6 +41,8 @@ export function useHumdrumScoreFormatter(data, options) {
     });
 
     return {
+        addFilter,
+        removeFilter,
         filters: readonly(filters),
         filtersAsString,
         formattedScoreData: readonly(formattedScoreData),
