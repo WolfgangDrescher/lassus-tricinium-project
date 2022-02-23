@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router';
     <header>
         <TheNavigation />
     </header>
-    <main>
+    <main class="py-8">
         <Container>
             <RouterView />
         </Container>
