@@ -13,12 +13,11 @@ const filter = reactive({
 });
 
 const { filteredElements } = useFilter(meta, filter);
-
 </script>
 
 <template>
     <Heading>Tricinium Liste</Heading>
-    
+
     <TriciniumFilter :filter="filter" />
 
     <div class="grid grid-cols-4 gap-4">

@@ -1,9 +1,5 @@
 module.exports = {
-    content: [
-        './src/App.vue',
-        './src/components/**/*.{vue,html,js}',
-        './src/views/**/*.{vue,html,js}',
-    ],
+    content: ['./src/App.vue', './src/components/**/*.{vue,html,js}', './src/views/**/*.{vue,html,js}'],
     theme: {
         extend: {},
         fontFamily: {
