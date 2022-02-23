@@ -10,6 +10,16 @@ export function useHumdrumScoreFormatter(data, options) {
         'cint -O --search "3 -2 3"',
     ]);
 
+    function addFilter(item) {
+        if (!filters.value.includes(item)) {
+            filters.value.push(item);
+        }
+    }
+
+    function removeFilter(item) {
+        filters.value = filters.value.filter((value) => value !== item);
+    }
+
     const filtersAsString = computed({
         get() {
             return filters.value.map((f) => (showFilterPrefix ? `${filterPrefix}${f}` : f)).join('\n');
