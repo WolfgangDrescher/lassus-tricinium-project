@@ -1,3 +1,8 @@
+<script setup>
+import { usePageContext } from '../composables/usePageContext';
+const pageContext = usePageContext();
+</script>
+
 <template>
     <a :href="href" :class="{ active: pageContext.urlPathname === $attrs.href }">
         <slot />
@@ -13,7 +18,3 @@ a.active {
     background-color: #eee;
 }
 </style>
-<script setup>
-import { usePageContext } from '../composables/usePageContext';
-const pageContext = usePageContext();
-</script>
