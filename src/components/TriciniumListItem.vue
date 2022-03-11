@@ -1,4 +1,5 @@
 <script setup>
+import Link from './Link.vue';
 defineProps({
     tricinium: {
         type: Object,
@@ -11,12 +12,12 @@ defineProps({
     <div
         class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
     >
-        <RouterLink :to="{ name: 'tricinium', params: { id: tricinium.id } }">
+        <Link :href="`/tricinium/${tricinium.id}`">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ tricinium.title }}</h5>
-        </RouterLink>
+        </Link>
         <pre v-text="tricinium"></pre>
-        <RouterLink
-            :to="{ name: 'tricinium', params: { id: tricinium.id } }"
+        <Link
+            :href="`/tricinium/${tricinium.id}`"
             class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
             Read more
@@ -27,6 +28,6 @@ defineProps({
                     clip-rule="evenodd"
                 ></path>
             </svg>
-        </RouterLink>
+        </Link>
     </div>
 </template>

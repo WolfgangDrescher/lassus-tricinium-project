@@ -21,9 +21,9 @@ import Container from './Container.vue';
                 </button>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-navigation">
                     <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0">
-                        <NavigationItem :to="{ name: 'index' }">Home</NavigationItem>
-                        <NavigationItem :to="{ name: 'about' }">About</NavigationItem>
-                        <NavigationItem :to="{ name: 'tricinium_list' }">Tricinium</NavigationItem>
+                        <NavigationItem href="/">Home</NavigationItem>
+                        <NavigationItem href="/about">About</NavigationItem>
+                        <NavigationItem href="/tricinium">Tricinium</NavigationItem>
                     </ul>
                 </div>
             </div>
