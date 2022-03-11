@@ -18,7 +18,6 @@
     "lassus-geistliche-psalmen": "file:../lassus-geistliche-psalmen",
     "vite-plugin-ssr": "^0.3.59",
     "vue": "^3.2.29",
-    "vue-router": "^4.0.12",
     "vue-verovio-canvas": "file:../../vue-verovio-canvas"
   },
   "devDependencies": {
