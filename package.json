@@ -8,6 +8,7 @@
     "server": "node ./server",
     "server:prod": "cross-env NODE_ENV=production node ./server",
     "preview": "vite preview --port 5050",
+    "generate": "vite build && vite build --ssr && vite-plugin-ssr prerender",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
