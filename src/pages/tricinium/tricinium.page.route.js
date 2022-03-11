@@ -1,0 +1,1 @@
+export default '/tricinium/:name';
