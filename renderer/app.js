@@ -8,11 +8,15 @@ function createApp(pageContext) {
     const { Page, pageProps } = pageContext;
     const PageWithLayout = {
         render() {
-            return h(PageShell, {}, {
-                default() {
-                    return h(Page, pageProps || {});
-                },
-            });
+            return h(
+                PageShell,
+                {},
+                {
+                    default() {
+                        return h(Page, pageProps || {});
+                    },
+                }
+            );
         },
     };
 
