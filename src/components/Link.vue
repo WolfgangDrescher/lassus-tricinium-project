@@ -1,5 +1,6 @@
 <script setup>
 import { usePageContext } from '../composables/usePageContext';
+defineProps(['href'])
 const pageContext = usePageContext();
 </script>
 
