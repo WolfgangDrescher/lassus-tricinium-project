@@ -12,6 +12,6 @@ a.active {
 }
 </style>
 <script setup>
-import { usePageContext } from './usePageContext';
+import { usePageContext } from '../composables/usePageContext';
 const pageContext = usePageContext();
 </script>

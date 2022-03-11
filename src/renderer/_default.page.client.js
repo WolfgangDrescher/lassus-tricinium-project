@@ -1,5 +1,6 @@
 import { getPage } from 'vite-plugin-ssr/client';
-import { createApp } from './app';
+import { createApp } from '../app';
+import '../assets/base.css';
 
 hydrate();
 
