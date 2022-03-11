@@ -2,12 +2,18 @@
   "name": "lassus-tricinium-project",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "npm run server",
+    "prod": "npm run build && npm run server:prod",
+    "build": "vite build && vite build --ssr",
+    "server": "node ./server",
+    "server:prod": "cross-env NODE_ENV=production node ./server",
     "preview": "vite preview --port 5050",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@vue/server-renderer": "^3.2.31",
+    "compression": "^1.7.4",
+    "express": "^4.17.3",
     "lassus-geistliche-psalmen": "file:../lassus-geistliche-psalmen",
     "vite-plugin-ssr": "^0.3.59",
     "vue": "^3.2.29",
