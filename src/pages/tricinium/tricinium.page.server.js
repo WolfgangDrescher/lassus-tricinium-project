@@ -12,7 +12,7 @@ async function onBeforeRender(pageContext) {
 }
 
 function prerender() {
-    const names = ['01-beatur-vir', '02-quare-fremuerunt-gentes'];
+    const names = ['01-beatus-vir', '02-quare-fremuerunt-gentes'];
     const urls = names.map((name) => `/tricinium/${name}`);
     return urls;
 }
