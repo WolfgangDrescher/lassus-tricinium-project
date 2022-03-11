@@ -1,10 +1,10 @@
 <script setup>
 import { reactive } from 'vue';
-import Heading from '../components/Heading.vue';
+import Heading from '../../components/Heading.vue';
 import meta from 'lassus-geistliche-psalmen/meta.json';
-import TriciniumListItem from '../components/TriciniumListItem.vue';
-import TriciniumFilter from '../components/TriciniumFilter.vue';
-import { useFilter } from '../composables/useFilter.js';
+import TriciniumListItem from '../../components/TriciniumListItem.vue';
+import TriciniumFilter from '../../components/TriciniumFilter.vue';
+import { useFilter } from '../../composables/useFilter.js';
 
 const filter = reactive({
     composer: '',
