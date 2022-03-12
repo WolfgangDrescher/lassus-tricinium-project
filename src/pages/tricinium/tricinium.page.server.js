@@ -1,11 +1,10 @@
 import tricinia from 'lassus-geistliche-psalmen';
-import { useTricinium } from '../../composables/useTricinium';
 
 export async function onBeforeRender(pageContext) {
     const { name } = pageContext.routeParams;
     const tricinium = tricinia.find((t) => t.id === name);
     if (!tricinium) throw new Error(`Tricinium "${name}" not found`);
-    const pageProps = { tricinium: useTricinium(tricinium) };
+    const pageProps = { tricinium };
 
     return {
         pageContext: {
