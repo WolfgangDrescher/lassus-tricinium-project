@@ -1,6 +1,6 @@
 import { computed } from 'vue';
 
-class Tricinium {
+export class Tricinium {
     constructor(tricinium) {
         this.tricinium = tricinium;
     }
