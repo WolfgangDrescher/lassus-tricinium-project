@@ -1,11 +1,19 @@
 <script setup>
 import { reactive } from 'vue';
 import Heading from '../../components/Heading.vue';
-import meta from 'lassus-geistliche-psalmen/meta.json';
 import TriciniumListItem from '../../components/TriciniumListItem.vue';
 import TriciniumFilter from '../../components/TriciniumFilter.vue';
 import { useFilter } from '../../composables/useFilter.js';
 import { useTricinium } from '../../composables/useTricinium';
+
+const props = defineProps({
+    tricinia: {
+        type: Array,
+        required: true,
+    },
+});
+
+const tricinia = useTricinium(props.tricinia);
 
 const filter = reactive({
     composer: '',
@@ -13,7 +21,7 @@ const filter = reactive({
     nr: '',
 });
 
-const { filteredElements } = useFilter(useTricinium(meta), filter);
+const { filteredElements } = useFilter(tricinia, filter);
 </script>
 
 <template>
