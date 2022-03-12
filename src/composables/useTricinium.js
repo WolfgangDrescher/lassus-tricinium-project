@@ -65,7 +65,7 @@ class Tricinium {
 export function useTricinium(elements) {
     if (Array.isArray(elements)) {
         return elements.map((t) => new Tricinium(t))
-    } else if(elements === 'object' && elements !== null) {
+    } else if (typeof elements === 'object' && elements !== null) {
         return new Tricinium(elements);
     }
     throw new Error('Cannot convert passsed argument to Tricinium object');
