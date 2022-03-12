@@ -15,6 +15,7 @@
   "dependencies": {
     "@vue/server-renderer": "^3.2.31",
     "compression": "^1.7.4",
+    "diff2html": "^3.4.16",
     "express": "^4.17.3",
     "lassus-geistliche-psalmen": "file:../lassus-geistliche-psalmen",
     "vite-plugin-ssr": "^0.3.59",
