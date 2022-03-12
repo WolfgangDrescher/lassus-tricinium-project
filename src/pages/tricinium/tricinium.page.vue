@@ -1,4 +1,5 @@
 <script setup>
+import { toRefs } from 'vue';
 import Heading from '../../components/Heading.vue';
 
 const props = defineProps({
@@ -7,8 +8,11 @@ const props = defineProps({
         required: true,
     },
 });
+
+const { tricinium } = toRefs(props);
 </script>
 
 <template>
     <Heading>Tricinium</Heading>
+    <pre v-text="tricinium"></pre>
 </template>
