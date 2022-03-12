@@ -1,21 +1,5 @@
-<script setup>
-import { usePageContext } from '../composables/usePageContext';
-defineProps(['href'])
-const pageContext = usePageContext();
-</script>
-
 <template>
-    <a :href="href" :class="{ active: pageContext.urlPathname === $attrs.href }">
-        <slot />
+    <a v-bind="{...$props, ...$attrs}">
+        <slot></slot>
     </a>
 </template>
-
-<style scoped>
-
-a {
-    padding: 3px 10px;
-}
-a.active {
-    background-color: #eee;
-}
-</style>
