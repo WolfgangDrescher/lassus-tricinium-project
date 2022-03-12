@@ -2,6 +2,7 @@
 import { toRefs } from 'vue';
 import Heading from '../../components/Heading.vue';
 import AsyncVerovioCanvas from '../../components/AsyncVerovioCanvas.vue';
+import { useTricinium } from '../../composables/useTricinium';
 
 const props = defineProps({
     tricinium: {
@@ -9,8 +10,7 @@ const props = defineProps({
         required: true,
     },
 });
-
-const { tricinium } = toRefs(props);
+const tricinium = useTricinium(props.tricinium);
 </script>
 
 <template>
