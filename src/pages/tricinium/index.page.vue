@@ -20,7 +20,7 @@ const { filteredElements } = useFilter(meta, filter);
 
     <TriciniumFilter :filter="filter" />
 
-    <div class="grid grid-cols-4 gap-4">
+    <div class="grid grid-cols-2 gap-4">
         <div v-for="tricinium in filteredElements" :key="tricinium.id">
             <TriciniumListItem :tricinium="tricinium" />
         </div>
