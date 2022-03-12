@@ -1,6 +1,7 @@
 <script setup>
 import { toRefs } from 'vue';
 import Heading from '../../components/Heading.vue';
+import AsyncVerovioCanvas from '../../components/AsyncVerovioCanvas.vue';
 
 const props = defineProps({
     tricinium: {
@@ -15,4 +16,5 @@ const { tricinium } = toRefs(props);
 <template>
     <Heading>Tricinium</Heading>
     <pre v-text="tricinium"></pre>
+    <AsyncVerovioCanvas :url="tricinium.rawFile" :options="{spacingSystem: 25}" />
 </template>
