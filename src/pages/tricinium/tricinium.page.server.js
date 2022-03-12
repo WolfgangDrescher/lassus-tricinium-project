@@ -15,7 +15,7 @@ export async function onBeforeRender(pageContext) {
 }
 
 export function prerender() {
-    const names = ['01-beatus-vir', '02-quare-fremuerunt-gentes'];
+    const names = tricinia.map(t => t.id);
     const urls = names.map((name) => `/tricinium/${name}`);
     return urls;
 }
