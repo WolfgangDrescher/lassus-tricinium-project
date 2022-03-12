@@ -5,6 +5,7 @@ import meta from 'lassus-geistliche-psalmen/meta.json';
 import TriciniumListItem from '../../components/TriciniumListItem.vue';
 import TriciniumFilter from '../../components/TriciniumFilter.vue';
 import { useFilter } from '../../composables/useFilter.js';
+import { useTricinium } from '../../composables/useTricinium';
 
 const filter = reactive({
     composer: '',
@@ -12,7 +13,7 @@ const filter = reactive({
     nr: '',
 });
 
-const { filteredElements } = useFilter(meta, filter);
+const { filteredElements } = useFilter(useTricinium(meta), filter);
 </script>
 
 <template>
