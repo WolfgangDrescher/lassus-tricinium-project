@@ -13,7 +13,7 @@ defineProps({
         class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
     >
         <Link :href="`/tricinium/${tricinium.id}`">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ tricinium.title }}</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ `${tricinium.nr}. ${tricinium.title}` }}</h5>
         </Link>
         <pre v-text="tricinium"></pre>
         <Link
