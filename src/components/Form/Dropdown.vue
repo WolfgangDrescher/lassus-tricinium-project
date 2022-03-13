@@ -14,9 +14,18 @@ const props = defineProps({
         type: Array,
         required: true,
     },
+    searchEnabled: {
+        type: Boolean,
+        default: true,
+    },
 });
 
 const isOpen = ref(false);
+const searchString = ref('');
+
+watch(searchString, () => {
+    isOpen.value = true;
+});
 
 function toggleDropdown() {
     isOpen.value = !isOpen.value;
@@ -47,6 +56,15 @@ const optionIsSelected = computed(() => {
     return (value) => props.modelValue.includes(value);
 });
 
+const filteredOptions = computed(() => {
+    if(searchString.value.length && props.searchEnabled) {
+        return props.options.filter(o => {
+            return o.value.includes(searchString.value) || o.label.includes(searchString.value);
+        });
+    }
+    return props.options;
+});
+
 </script>
 
 <template>
@@ -57,6 +75,9 @@ const optionIsSelected = computed(() => {
                     <div class="my-2 p-1 flex border border-gray-200 bg-white rounded">
                         <div class="flex flex-auto flex-wrap">
                            <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :label="getOptionLabelFromValue(value)" :value="value" @removeOption="removeOption" />
+                            <div v-if="props.searchEnabled" class="flex-1">
+                                <input v-model="searchString" placeholder="" class="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-gray-800">
+                            </div>
                         </div>
                         <div class="text-gray-300 w-8 py-1 pl-2 pr-1 border-l flex items-center border-gray-200">
                             <button @click="toggleDropdown" class="cursor-pointer w-6 h-6 text-gray-600 outline-none focus:outline-none">
@@ -72,7 +93,7 @@ const optionIsSelected = computed(() => {
                 </div>
                 <div v-if="isOpen" v-on-click-outside="closeDropdown" class="absolute shadow top-full bg-white z-40 w-full lef-0 rounded max-h-80 overflow-y-auto">
                     <div class="flex flex-col w-full">
-                        <DropdownOption v-for="(option, index) in props.options" :key="index" :value="option.value" :label="option.label" :selected="optionIsSelected(option.value)" @toggleOption="toggleOption" />
+                        <DropdownOption v-for="(option, index) in filteredOptions" :key="index" :value="option.value" :label="option.label" :selected="optionIsSelected(option.value)" @toggleOption="toggleOption" />
                     </div>
                 </div>
             </div>
