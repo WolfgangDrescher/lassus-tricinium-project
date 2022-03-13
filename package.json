@@ -20,6 +20,7 @@
     "diff2html": "^3.4.16",
     "express": "^4.17.3",
     "lassus-geistliche-psalmen": "file:../lassus-geistliche-psalmen",
+    "midi-player-js": "^2.0.16",
     "vite-plugin-ssr": "^0.3.59",
     "vue": "^3.2.29",
     "vue-verovio-canvas": "file:../../vue-verovio-canvas"
