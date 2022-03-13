@@ -18,6 +18,10 @@ const props = defineProps({
         type: Boolean,
         default: true,
     },
+    emptyValuePlaceholder: {
+        type: String,
+        default: 'No items selected',
+    }
 });
 
 const isOpen = ref(false);
@@ -74,6 +78,7 @@ const filteredOptions = computed(() => {
                 <div class="w-full">
                     <div class="p-1 flex border border-gray-200 bg-white rounded">
                         <div class="flex flex-auto flex-wrap">
+                            <div v-if="props.modelValue.length === 0 && props.emptyValuePlaceholder" class="p-1 px-2 text-gray-500" v-text="props.emptyValuePlaceholder"></div>
                             <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :label="getOptionLabelFromValue(value)" :value="value" @removeOption="removeOption" />
                             <div v-if="props.searchEnabled" class="flex-1">
                                 <input v-model="searchString" placeholder="" class="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-gray-800">
