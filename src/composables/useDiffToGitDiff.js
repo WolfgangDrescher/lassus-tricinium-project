@@ -6,8 +6,12 @@ function getLinePrefix(line) {
     return ' ';
 }
 
+function trimNewLine(str) {
+    return str?.replace(/^\s+|\s+$/g, '') || null;
+}
+
 function numberOfLines(str) {
-    return str?.split(/\n/).length || 0;
+    return trimNewLine(str)?.split(/\n/).length || 0;
 }
 
 function getGitDiffString(a, b) {
@@ -18,6 +22,8 @@ function getGitDiffString(a, b) {
 }
 
 export function useDiffToGitDiff(a, b, fileName) {
+    a = `${trimNewLine(a)}\n`;
+    b = `${trimNewLine(b)}\n`;
     return `--- a/${fileName}
 +++ b/${fileName}
 @@ -1,${numberOfLines(a)} +1,${numberOfLines(b)} @@
