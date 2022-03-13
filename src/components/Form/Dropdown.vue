@@ -26,6 +26,10 @@ const props = defineProps({
         type: Boolean,
         default: false,
     },
+    badgeShowRemoveButton: {
+        type: Boolean,
+        default: true,
+    },
 });
 
 const isOpen = ref(false);
@@ -96,9 +100,9 @@ const filteredOptions = computed(() => {
                         <div class="flex flex-auto flex-wrap">
                             <div v-if="!props.modelValue?.length && props.emptyValuePlaceholder" class="p-1 px-2 text-gray-500" v-text="props.emptyValuePlaceholder"></div>
                             <template v-if="props.multiple">
-                                <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :label="getOptionLabelFromValue(value)" :value="value" @removeOption="removeOption" />
+                                <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :label="getOptionLabelFromValue(value)" :value="value" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
                             </template>
-                            <DropdownBadge v-else-if="props.modelValue" :label="getOptionLabelFromValue(props.modelValue)" :value="props.modelValue" @removeOption="removeOption" />
+                            <DropdownBadge v-else-if="props.modelValue" :label="getOptionLabelFromValue(props.modelValue)" :value="props.modelValue" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
                             <div v-if="props.searchEnabled" class="flex-1">
                                 <input v-model="searchString" placeholder="" class="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-gray-800">
                             </div>
