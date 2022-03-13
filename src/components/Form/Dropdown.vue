@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, ref, watch } from 'vue';
 import DropdownBadge from './DropdownBadge.vue';
 import DropdownOption from './DropdownOption.vue';
 import { vOnClickOutside } from '@vueuse/components';
