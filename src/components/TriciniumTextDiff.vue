@@ -17,8 +17,8 @@ const options = reactive({
 
 const activeVoices = reactive({
     cantus: true,
-    tenor: false,
-    bassus: false,
+    tenor: true,
+    bassus: true,
 });
 
 function getActiveVoices() {
