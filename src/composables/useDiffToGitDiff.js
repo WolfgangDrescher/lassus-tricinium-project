@@ -7,7 +7,7 @@ function getLinePrefix(line) {
 }
 
 function numberOfLines(str) {
-    return str.split(/\n/).length;
+    return str?.split(/\n/).length || 0;
 }
 
 function getGitDiffString(a, b) {
