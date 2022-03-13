@@ -21,7 +21,11 @@ const props = defineProps({
     emptyValuePlaceholder: {
         type: String,
         default: 'No items selected',
-    }
+    },
+    multiple: {
+        type: Boolean,
+        default: false,
+    },
 });
 
 const isOpen = ref(false);
@@ -41,15 +45,23 @@ function closeDropdown() {
 }
 
 function toggleOption(value) {
-    if(props.modelValue.includes(value)) {
-        emit('update:modelValue', props.modelValue.filter(v => v !== value));
+    if(props.multiple) {
+        if(props.modelValue.includes(value)) {
+            emit('update:modelValue', props.modelValue.filter(v => v !== value));
+        } else {
+            emit('update:modelValue', [...props.modelValue, value]);
+        }
     } else {
-        emit('update:modelValue', [...props.modelValue, value]);
+        emit('update:modelValue', value);
     }
 };
 
 function removeOption(value) {
-    emit('update:modelValue', props.modelValue.filter(v => v !== value));
+    if(props.multiple) {
+        emit('update:modelValue', props.modelValue.filter(v => v !== value));
+    } else {
+        emit('update:modelValue', null);
+    }
 };
 
 const getOptionLabelFromValue = computed(() => {
@@ -57,7 +69,11 @@ const getOptionLabelFromValue = computed(() => {
 });
 
 const optionIsSelected = computed(() => {
-    return (value) => props.modelValue.includes(value);
+    if(props.multiple) {
+        return (value) => props.modelValue.includes(value);
+    } else {
+        return (value) => props.modelValue === value;
+    }
 });
 
 const filteredOptions = computed(() => {
@@ -78,8 +94,11 @@ const filteredOptions = computed(() => {
                 <div class="w-full">
                     <div class="p-1 flex border border-gray-200 bg-white rounded">
                         <div class="flex flex-auto flex-wrap">
-                            <div v-if="props.modelValue.length === 0 && props.emptyValuePlaceholder" class="p-1 px-2 text-gray-500" v-text="props.emptyValuePlaceholder"></div>
-                            <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :label="getOptionLabelFromValue(value)" :value="value" @removeOption="removeOption" />
+                            <div v-if="!props.modelValue?.length && props.emptyValuePlaceholder" class="p-1 px-2 text-gray-500" v-text="props.emptyValuePlaceholder"></div>
+                            <template v-if="props.multiple">
+                                <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :label="getOptionLabelFromValue(value)" :value="value" @removeOption="removeOption" />
+                            </template>
+                            <DropdownBadge v-else-if="props.modelValue" :label="getOptionLabelFromValue(props.modelValue)" :value="props.modelValue" @removeOption="removeOption" />
                             <div v-if="props.searchEnabled" class="flex-1">
                                 <input v-model="searchString" placeholder="" class="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-gray-800">
                             </div>
