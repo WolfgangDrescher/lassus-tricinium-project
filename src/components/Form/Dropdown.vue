@@ -72,6 +72,7 @@ const filteredOptions = computed(() => {
         <div class="w-full">
             <div class="flex flex-col items-center relative">
                 <div class="w-full">
+                    <div class="p-1 flex border border-gray-200 bg-white rounded">
                         <div class="flex flex-auto flex-wrap">
                             <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :label="getOptionLabelFromValue(value)" :value="value" @removeOption="removeOption" />
                             <div v-if="props.searchEnabled" class="flex-1">
