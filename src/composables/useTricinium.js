@@ -58,7 +58,7 @@ export class Tricinium {
     }
 
     getVoiceLyrics(voice) {
-        return this.tricinium[`lyrics.${voice}`]?.replace(/^\s+|\s+$/g, '') || '';
+        return this.tricinium[`lyrics.${voice}`]?.replace(/^\s+|\s+$/g, '') || null;
     }
 
     get vhvHref() {
