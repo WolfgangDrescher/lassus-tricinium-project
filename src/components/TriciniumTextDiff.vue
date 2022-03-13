@@ -38,6 +38,17 @@ const voiceOptions = [
     },
 ];
 
+const diffOutputFormatOptions = [
+    {
+        value: 'line-by-line',
+        label: 'Line by line',
+    },
+    {
+        value: 'side-by-side',
+        label: 'Side by side',
+    },
+];
+
 const diff = computed(() => {
     return selectedVoices.value.map(voice => {
         const fileName = voice.charAt(0).toUpperCase() + voice.slice(1);
@@ -49,10 +60,9 @@ const diff = computed(() => {
 </script>
 
 <template>
-    <select v-model="diffOptions.outputFormat">
-        <option value="line-by-line">Line by line</option>
-        <option value="side-by-side">Side by side</option>
-    </select>
-    <Dropdown v-model="selectedVoices" :options="voiceOptions"/>
+    <div class="grid grid-cols-2 gap-4 my-4">
+        <Dropdown v-model="selectedVoices" :options="voiceOptions" :multiple="true" />
+        <Dropdown v-model="diffOptions.outputFormat" :options="diffOutputFormatOptions" :badge-show-remove-button="false" />
+    </div>
     <TextDiff :diff="diff" :options="diffOptions" />
 </template>
