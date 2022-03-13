@@ -34,7 +34,7 @@ const diff = computed(() => {
     return getActiveVoices().map(voice => {
         const fileName = voice.charAt(0).toUpperCase() + voice.slice(1);
         const a = props.tricinium.lyricsAsString(false, '\n');
-        const b = props.tricinium.lyricsAsString(false, ',\n');
+        const b = props.tricinium.getVoiceLyrics(voice);
         return useDiffToGitDiff(a, b, fileName);
     }).join('\n');
 });
