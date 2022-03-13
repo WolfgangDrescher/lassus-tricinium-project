@@ -1,3 +1,5 @@
+const { purple } = require('tailwindcss/colors');
+
 module.exports = {
     content: [
         './src/layouts/**.{vue,html,js}',
@@ -5,7 +7,11 @@ module.exports = {
         './src/pages/**/*.{vue,html,js}',
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                primary: purple,
+            },
+        },
         fontFamily: {
             fraktur: "'UnifrakturMaguntia', cursive",
         },
