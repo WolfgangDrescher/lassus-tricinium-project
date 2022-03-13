@@ -68,13 +68,12 @@ const filteredOptions = computed(() => {
 </script>
 
 <template>
-    <div class="flex flex-col items-center mx-auto">
+    <div class="flex flex-col items-center">
         <div class="w-full">
             <div class="flex flex-col items-center relative">
                 <div class="w-full">
-                    <div class="my-2 p-1 flex border border-gray-200 bg-white rounded">
                         <div class="flex flex-auto flex-wrap">
-                           <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :label="getOptionLabelFromValue(value)" :value="value" @removeOption="removeOption" />
+                            <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :label="getOptionLabelFromValue(value)" :value="value" @removeOption="removeOption" />
                             <div v-if="props.searchEnabled" class="flex-1">
                                 <input v-model="searchString" placeholder="" class="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-gray-800">
                             </div>
@@ -91,7 +90,7 @@ const filteredOptions = computed(() => {
                         </div>
                     </div>
                 </div>
-                <div v-if="isOpen" v-on-click-outside="closeDropdown" class="absolute shadow top-full bg-white z-40 w-full lef-0 rounded max-h-80 overflow-y-auto">
+                <div v-if="isOpen" v-on-click-outside="closeDropdown" class="absolute shadow border border-gray-200 mt-2 top-full bg-white z-40 w-full lef-0 rounded max-h-80 overflow-y-auto">
                     <div class="flex flex-col w-full">
                         <DropdownOption v-for="(option, index) in filteredOptions" :key="index" :value="option.value" :label="option.label" :selected="optionIsSelected(option.value)" @toggleOption="toggleOption" />
                     </div>
