@@ -11,7 +11,7 @@ const props = defineProps({
     },
 });
 
-const options = reactive({
+const diffOptions = reactive({
     outputFormat: 'side-by-side',
 });
 
@@ -50,9 +50,9 @@ const diff = computed(() => {
     <label>
         <input type="checkbox" v-model="activeVoices.bassus"> Bassus
     </label>
-    <select v-model="options.outputFormat">
+    <select v-model="diffOptions.outputFormat">
         <option value="line-by-line">Line by line</option>
         <option value="side-by-side">Side by side</option>
     </select>
-    <TextDiff :diff="diff" :options="options" />
+    <TextDiff :diff="diff" :options="diffOptions" />
 </template>
