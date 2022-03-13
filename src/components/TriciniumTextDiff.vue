@@ -1,5 +1,5 @@
 <script setup>
-import { computed, reactive, ref } from 'vue';
+import { computed, reactive, ref, watchEffect } from 'vue';
 import { Tricinium } from '../composables/useTricinium';
 import TextDiff from './TextDiff.vue';
 import { useDiffToGitDiff } from '../composables/useDiffToGitDiff.js'
@@ -17,6 +17,11 @@ const diffOptions = reactive({
 });
 
 const selectedVoices = ref(['cantus', 'tenor', 'bassus']);
+
+watchEffect(() => {
+    const voicesOrdering = ['cantus', 'tenor', 'bassus'];
+    selectedVoices.value.sort((a, b) => voicesOrdering.indexOf(a) - voicesOrdering.indexOf(b));
+});
 
 const voiceOptions = [
     {
