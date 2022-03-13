@@ -1,8 +1,9 @@
 <script setup>
-import { computed, reactive, toRef } from 'vue';
+import { computed, reactive, ref } from 'vue';
 import { Tricinium } from '../composables/useTricinium';
 import TextDiff from './TextDiff.vue';
 import { useDiffToGitDiff } from '../composables/useDiffToGitDiff.js'
+import Dropdown from './Form/Dropdown.vue';
 
 const props = defineProps({
     tricinium: {
@@ -15,23 +16,25 @@ const diffOptions = reactive({
     outputFormat: 'side-by-side',
 });
 
-const activeVoices = reactive({
-    cantus: true,
-    tenor: true,
-    bassus: true,
-});
+const selectedVoices = ref(['cantus', 'tenor', 'bassus']);
 
-function getActiveVoices() {
-    return Object.entries(activeVoices).reduce((previousValue, [key, value]) => {
-        if(value) {
-            previousValue.push(key);
-        }
-        return previousValue;
-    }, []);
-}
+const voiceOptions = [
+    {
+        value: 'cantus',
+        label: 'Cantus',
+    },
+    {
+        value: 'tenor',
+        label: 'Tenor',
+    },
+    {
+        value: 'bassus',
+        label: 'Bassus',
+    },
+];
 
 const diff = computed(() => {
-    return getActiveVoices().map(voice => {
+    return selectedVoices.value.map(voice => {
         const fileName = voice.charAt(0).toUpperCase() + voice.slice(1);
         const a = props.tricinium.lyricsAsString(false, '\n');
         const b = props.tricinium.getVoiceLyrics(voice);
@@ -41,18 +44,10 @@ const diff = computed(() => {
 </script>
 
 <template>
-    <label>
-        <input type="checkbox" v-model="activeVoices.cantus"> Cantus
-    </label>
-    <label>
-        <input type="checkbox" v-model="activeVoices.tenor"> Tenor
-    </label>
-    <label>
-        <input type="checkbox" v-model="activeVoices.bassus"> Bassus
-    </label>
     <select v-model="diffOptions.outputFormat">
         <option value="line-by-line">Line by line</option>
         <option value="side-by-side">Side by side</option>
     </select>
+    <Dropdown v-model="selectedVoices" :options="voiceOptions"/>
     <TextDiff :diff="diff" :options="diffOptions" />
 </template>
