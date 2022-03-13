@@ -57,6 +57,10 @@ export class Tricinium {
         return this.lyrics?.map((l) => (trimSlash ? l.text.replace(/\/$/g, '') : l.text)).join(separator) || null;
     }
 
+    getVoiceLyrics(voice) {
+        return this.tricinium[`lyrics.${voice}`]?.replace(/^\s+|\s+$/g, '') || null;
+    }
+
     get vhvHref() {
         return `https://verovio.humdrum.org/?file=${this.rawFile}`;
     }

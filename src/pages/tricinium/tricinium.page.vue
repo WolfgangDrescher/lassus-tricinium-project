@@ -3,6 +3,7 @@ import { toRefs } from 'vue';
 import Heading from '../../components/Heading.vue';
 import AsyncVerovioCanvas from '../../components/AsyncVerovioCanvas.vue';
 import { useTricinium } from '../../composables/useTricinium';
+import TriciniumTextDiff from '../../components/TriciniumTextDiff.vue';
 
 const props = defineProps({
     tricinium: {
@@ -15,6 +16,7 @@ const tricinium = useTricinium(props.tricinium);
 
 <template>
     <Heading>Tricinium</Heading>
+    <TriciniumTextDiff :tricinium="tricinium" />
     <pre v-text="tricinium"></pre>
     <AsyncVerovioCanvas :url="tricinium.rawFile" :options="{spacingSystem: 25}" />
 </template>
