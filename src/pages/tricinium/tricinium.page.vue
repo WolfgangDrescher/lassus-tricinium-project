@@ -18,6 +18,6 @@ const tricinium = useTricinium(props.tricinium);
     <Heading>Tricinium</Heading>
     <DataTable :items="tricinium.lyrics.map((l, i) => ({'#': i + 1, ...l}))"></DataTable>
     <TriciniumTextDiff :tricinium="tricinium" />
-    <pre v-text="tricinium"></pre>
     <AsyncVerovioCanvas :url="tricinium.rawFile" :options="{spacingSystem: 25}" />
+    <pre v-text="tricinium" class="w-full overflow-y-auto"></pre>
 </template>
