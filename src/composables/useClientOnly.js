@@ -6,7 +6,7 @@ export function useClientOnly(asyncComponent) {
     return defineComponent({
         name: 'ClientOnly',
         setup(props, context) {
-            return () => isBrowser ? h(asyncComponent, { ...props, ...context.attrs }) : h('div');
+            return () => isBrowser ? h(asyncComponent, {}) : h('div');
         },
     });
 };
