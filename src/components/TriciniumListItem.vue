@@ -1,6 +1,6 @@
 <script setup>
 import Link from './Link.vue';
-import BadgeCloud from './BadgeCloud.vue';
+import BadgeCloud from './BadgeGroup.vue';
 import Badge from './Badge.vue';
 
 defineProps({
