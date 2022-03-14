@@ -12,12 +12,12 @@ const props = defineProps({
 });
 
 const fields = computed(() => {
-    return Object.entries(props.items[0]).map(([key, value]) => {
+    return props.items.length ? Object.entries(props.items[0]).map(([key, value]) => {
         return {
             prop: key,
             name: key.charAt(0).toUpperCase() + key.slice(1),
         };
-    });
+    }) : [];
 });
 </script>
 
