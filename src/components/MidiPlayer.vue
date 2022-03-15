@@ -20,7 +20,7 @@ const instrument = ref(null);
 const midiPlayer = new MidiPlayer.Player();
 
 
-Promise.all([midiPlayerIsReady, soundFrontIsReady]).then(() => {
+Promise.all([midiPlayerIsReady.promise, soundFrontIsReady.promise]).then(() => {
     isReady.resolve();
     isLoading.value = false;
 });
