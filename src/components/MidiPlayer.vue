@@ -3,7 +3,7 @@ import { watch, ref } from 'vue';
 import MidiPlayer from 'midi-player-js';
 import Soundfont from 'soundfont-player';
 import { useDeferred } from '../composables/useDeferred';
-import Loading from 'vue-verovio-canvas/src/components/Loading.vue';
+// import Loading from 'vue-verovio-canvas/src/components/Loading.vue';
 import Button from '../components/Button.vue';
 import ButtonGroup from './ButtonGroup.vue';
 
@@ -83,8 +83,8 @@ Soundfont.instrument(ac, 'marimba').then(value => {
 </script>
 
 <template>
-    <Loading v-if="isLoading" />
-    <template v-else>
+    <!-- <Loading v-if="isLoading" /> -->
+    <template v-if="!isLoading">
         <ButtonGroup>
             <Button @click="play">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
