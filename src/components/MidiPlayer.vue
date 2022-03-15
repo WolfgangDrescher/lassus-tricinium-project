@@ -51,7 +51,7 @@ midiPlayer.on('midiEvent', ({name, velocity, noteNumber, ...event}) => {
 });
 
 midiPlayer.on('endOfFile', () => {
-    pause();
+    stop();
 });
 
 midiPlayer.on('fileLoaded', () => {
