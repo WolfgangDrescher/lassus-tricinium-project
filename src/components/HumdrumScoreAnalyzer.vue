@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import VerovioCanvas from 'vue-verovio-canvas';
 import { useHumdrumScoreFormatter } from '../composables/useHumdrumScoreFormatter';
 import HumdrumScoreAnalyzerFilterGroup from './HumdrumScoreAnalyzerFilterGroup.vue';
@@ -11,11 +11,14 @@ const props = defineProps({
     },
 })
 
+const emit = defineEmits('mounted');
+
 const response = await fetch(props.url);
 if (!response.ok) {
     throw new Error(`${response.status} ${response.statusText}`);
 }
 
+const verovioCanvas = ref(null);
 const data = ref(await response.text());
 
 const { formattedScoreData, filtersAsString, filters, addFilter, removeFilter } = useHumdrumScoreFormatter(data, {});
@@ -29,6 +32,10 @@ const verovioOptions = computed(() => {
     };
 });
 
+onMounted(() => {
+    emit('mounted');
+});
+
 function addFilterEvent(filter) {
     addFilter(filter);
 }
@@ -36,6 +43,10 @@ function addFilterEvent(filter) {
 function removeFilterEvent(filterId) {
     removeFilter(filterId);
 }
+
+defineExpose({
+    verovioCanvas,
+});
 </script>
 
 <template>
@@ -47,5 +58,5 @@ function removeFilterEvent(filterId) {
         v-model.lazy="filtersAsString"
         class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
     ></textarea> -->
-    <VerovioCanvas v-bind="verovioOptions" />
+    <VerovioCanvas ref="verovioCanvas" v-bind="verovioOptions" />
 </template>

@@ -19,12 +19,14 @@ const tricinium = useTricinium(props.tricinium);
 const humdrumScoreAnalyzer = ref(null);
 const audioDataUrl = ref(null);
 
-onMounted(() => {
-    nextTick(async () => { 
-        const midiBase64 = await verovioCanvas.value.callVerovioMethod('renderToMIDI');
+async function humdrumScoreAnalyzerMounted() {
+    const midiBase64 = await humdrumScoreAnalyzer.value?.verovioCanvas?.callVerovioMethod('renderToMIDI', {
+            midiTempoAdjustment: 4,
+        });
+    if(midiBase64) {
         audioDataUrl.value = `data:audio/midi;base64,${midiBase64}`;
-    });
-});
+    }
+}
 </script>
 
 <template>
