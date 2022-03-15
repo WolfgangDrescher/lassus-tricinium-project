@@ -1,50 +1,42 @@
 import { ref, computed, readonly } from 'vue';
 
-export function useHumdrumScoreFormatter(data, options) {
-    const filterPrefix = '!!!filter: ';
 
-    const showFilterPrefix = false;
+export function useHumdrumScoreFormatter(data,) {
 
-    const filters = ref([
-        'cint -O --search "3 2 3"',
-        'cint -O --search "3 -2 3"',
-    ]);
+    const filters = ref([]);
 
-    function addFilter(item) {
-        if (!filters.value.includes(item)) {
-            filters.value.push(item);
+    function addFilter(filter) {
+        if (filter.unique) {
+            const matchedFilter = filters.value.find((f) => f.className === filter.className);
+            if (matchedFilter && filter.changeable) {
+                removeFilter(matchedFilter.id);
+            } else if (matchedFilter) {
+                throw new Error(`Filter ${filter.className} is unique and already in use.`);
+            }
         }
+        filters.value.push(filter);
     }
 
-    function removeFilter(item) {
-        filters.value = filters.value.filter((value) => value !== item);
+    function removeFilter(filterId) {
+        filters.value = filters.value.filter(f => f.id !== filterId);
     }
 
-    const filtersAsString = computed({
-        get() {
-            return filters.value.map((f) => (showFilterPrefix ? `${filterPrefix}${f}` : f)).join('\n');
-        },
-        set(value) {
-            filters.value = value.split('\n').map((line) => {
-                line = showFilterPrefix ? line.replace(new RegExp(`/${filterPrefix}/`), '') : line;
-                return line.trim();
-            });
-        },
-    });
-
-    const prefixedFiltersAsString = computed(() => {
-        return filters.value.map((f) => `${filterPrefix}${f}`).join('\n');
+    const filtersAsString = computed(() => {
+        const sortedFilters = [...filters.value].sort((a, b) => {
+            return a.priority > b.priority ? -1 : 1;
+        });
+        return sortedFilters.map((f) => f.toString()).join('\n');
     });
 
     const formattedScoreData = computed(() => {
-        return `${prefixedFiltersAsString.value}\n${data.value}`.replace(/^\s+|\s+$/g, '');
+        return `${filtersAsString.value}\n${data.value}`.replace(/^\s+|\s+$/g, '');
     });
 
     return {
         addFilter,
         removeFilter,
         filters: readonly(filters),
-        filtersAsString,
+        filtersAsString: readonly(filtersAsString),
         formattedScoreData: readonly(formattedScoreData),
     };
 }
