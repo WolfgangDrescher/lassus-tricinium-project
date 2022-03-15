@@ -2,13 +2,14 @@
   "name": "lassus-tricinium-project",
   "version": "0.0.0",
   "scripts": {
+    "debug": "rm -rf node_modules && npm i && npm run generate && npm run dev",
     "dev": "npm run server",
     "prod": "npm run build && npm run server:prod",
     "build": "vite build && vite build --ssr",
     "server": "node ./server",
     "server:prod": "cross-env NODE_ENV=production node ./server",
     "preview": "vite preview --port 5050",
-    "generate": "rm -rf dist/ && vite build && vite build --ssr && vite-plugin-ssr prerender",
+    "generate": "npm r vue-verovio-canvas && rm -rf node_modules/.vite && npm i github:WolfgangDrescher/vue-verovio-canvas && rm -rf dist/ && vite build && vite build --ssr && vite-plugin-ssr prerender && npm r vue-verovio-canvas && rm -rf node_modules/.vite && npm i ../../vue-verovio-canvas",
     "prerender": "vite-plugin-ssr prerender",
     "deploy": "npm run generate && rsync -azP dist/client/ wolfgang:lassus.wolfgangdrescher.ch --delete",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
@@ -23,6 +24,7 @@
     "lassus-geistliche-psalmen": "file:../lassus-geistliche-psalmen",
     "midi-player-js": "^2.0.16",
     "soundfont-player": "^0.12.0",
+    "uuid": "^8.3.2",
     "vite-plugin-ssr": "^0.3.59",
     "vue": "^3.2.29",
     "vue-verovio-canvas": "file:../../vue-verovio-canvas"
