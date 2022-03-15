@@ -21,7 +21,9 @@ const { formattedScoreData, filtersAsString, } = useHumdrumScoreFormatter(data, 
 
 const verovioOptions = computed(() => {
     return {
-        spacingSystem: 24,
+        options: {
+            spacingSystem: 24,
+        },
         data: formattedScoreData.value,
     };
 });
