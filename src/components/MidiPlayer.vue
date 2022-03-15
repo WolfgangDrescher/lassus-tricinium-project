@@ -84,7 +84,7 @@ Soundfont.instrument(ac, 'marimba').then(value => {
 
 <template>
     <!-- <Loading v-if="isLoading" /> -->
-    <template v-if="!isLoading">
+    <div v-if="!isLoading">
         <ButtonGroup>
             <Button @click="play">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -104,5 +104,5 @@ Soundfont.instrument(ac, 'marimba').then(value => {
                 </svg>
             </Button>
         </ButtonGroup>
-    </template>
+    </div>
 </template>
