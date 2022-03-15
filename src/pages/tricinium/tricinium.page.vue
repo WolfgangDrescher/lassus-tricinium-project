@@ -1,10 +1,11 @@
 <script setup>
-import { defineAsyncComponent } from 'vue';
+import { ref, onMounted, nextTick } from 'vue';
 import Heading from '../../components/Heading.vue';
 import DataTable from '../../components/DataTable.vue';
-import AsyncVerovioCanvas from '../../components/AsyncVerovioCanvas.vue';
+import VerovioCanvas from 'vue-verovio-canvas';
+import MidiPlayer from '../../components/MidiPlayer.vue';
+import ClientOnly from '../../components/ClientOnly.js';
 import { useTricinium } from '../../composables/useTricinium';
-import { useClientOnly } from '../../composables/useClientOnly';
 import TriciniumTextDiff from '../../components/TriciniumTextDiff.vue';
 
 const props = defineProps({
@@ -15,15 +16,15 @@ const props = defineProps({
 });
 const tricinium = useTricinium(props.tricinium);
 
-const MidiPlayer = defineAsyncComponent(() => import('../../components/MidiPlayer.vue'));
-const AsyncMidiPlayer = useClientOnly(MidiPlayer);
 </script>
 
 <template>
     <Heading>Tricinium</Heading>
     <DataTable :items="tricinium.lyrics?.map((l, i) => ({'#': i + 1, ...l})) || []"></DataTable>
     <TriciniumTextDiff :tricinium="tricinium" />
-    <AsyncVerovioCanvas :url="tricinium.rawFile" :options="{spacingSystem: 25}" />
-    <AsyncMidiPlayer :url="audioDataUrl" />
+    <ClientOnly>
+        <MidiPlayer :url="audioDataUrl" />
+        <VerovioCanvas :url="tricinium.rawFile" :options="{spacingSystem: 25}" />
+    </ClientOnly>
     <pre v-text="tricinium" class="w-full overflow-y-auto"></pre>
 </template>
