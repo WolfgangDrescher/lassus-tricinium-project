@@ -16,6 +16,7 @@ const props = defineProps({
 });
 const tricinium = useTricinium(props.tricinium);
 
+const audioDataUrl = ref(null);
 </script>
 
 <template>
