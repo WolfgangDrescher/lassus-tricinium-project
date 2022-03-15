@@ -16,7 +16,15 @@ const props = defineProps({
 });
 const tricinium = useTricinium(props.tricinium);
 
+const verovioCanvas = ref(null);
 const audioDataUrl = ref(null);
+
+onMounted(() => {
+    nextTick(async () => { 
+        const midiBase64 = await verovioCanvas.value.callVerovioMethod('renderToMIDI');
+        audioDataUrl.value = `data:audio/midi;base64,${midiBase64}`;
+    });
+});
 </script>
 
 <template>
@@ -25,7 +33,7 @@ const audioDataUrl = ref(null);
     <TriciniumTextDiff :tricinium="tricinium" />
     <ClientOnly>
         <MidiPlayer :url="audioDataUrl" />
-        <VerovioCanvas :url="tricinium.rawFile" :options="{spacingSystem: 25}" />
+        <VerovioCanvas ref="verovioCanvas" :url="tricinium.rawFile" :options="{spacingSystem: 25}" />
     </ClientOnly>
     <pre v-text="tricinium" class="w-full overflow-y-auto"></pre>
 </template>
