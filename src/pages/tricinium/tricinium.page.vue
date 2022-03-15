@@ -2,9 +2,9 @@
 import { ref, onMounted, nextTick } from 'vue';
 import Heading from '../../components/Heading.vue';
 import DataTable from '../../components/DataTable.vue';
-import VerovioCanvas from 'vue-verovio-canvas';
 import TriciniumTextDiff from '../../components/TriciniumTextDiff.vue';
 import MidiPlayer from '../../components/MidiPlayer.vue';
+import HumdrumScoreAnalyzer from '../../components/HumdrumScoreAnalyzer.vue';
 import ClientOnly from '../../components/ClientOnly.js';
 import { useTricinium } from '../../composables/useTricinium';
 
@@ -16,7 +16,7 @@ const props = defineProps({
 });
 const tricinium = useTricinium(props.tricinium);
 
-const verovioCanvas = ref(null);
+const humdrumScoreAnalyzer = ref(null);
 const audioDataUrl = ref(null);
 
 onMounted(() => {
@@ -33,7 +33,9 @@ onMounted(() => {
     <TriciniumTextDiff :tricinium="tricinium" />
     <ClientOnly>
         <MidiPlayer :url="audioDataUrl" />
-        <VerovioCanvas ref="verovioCanvas" :url="tricinium.rawFile" :options="{spacingSystem: 25}" />
+        <Suspense>
+            <HumdrumScoreAnalyzer ref="humdrumScoreAnalyzer" :url="tricinium.rawFile" @mounted="humdrumScoreAnalyzerMounted" />
+        </Suspense>
     </ClientOnly>
     <pre v-text="tricinium" class="w-full overflow-y-auto"></pre>
 </template>
