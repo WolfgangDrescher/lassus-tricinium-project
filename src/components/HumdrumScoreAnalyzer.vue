@@ -17,7 +17,7 @@ if (!response.ok) {
 }
 const data = ref(await response.text());
 
-const { formattedScoreData, filtersAsString, } = useHumdrumScoreFormatter(data, {});
+const { formattedScoreData, filtersAsString, filters, addFilter, removeFilter } = useHumdrumScoreFormatter(data, {});
 
 const verovioOptions = computed(() => {
     return {
@@ -28,6 +28,13 @@ const verovioOptions = computed(() => {
     };
 });
 
+function addFilterEvent(filter) {
+    addFilter(filter);
+}
+
+function removeFilterEvent(filterId) {
+    removeFilter(filterId);
+}
 </script>
 
 <template>
