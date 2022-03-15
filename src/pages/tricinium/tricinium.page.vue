@@ -3,10 +3,10 @@ import { ref, onMounted, nextTick } from 'vue';
 import Heading from '../../components/Heading.vue';
 import DataTable from '../../components/DataTable.vue';
 import VerovioCanvas from 'vue-verovio-canvas';
+import TriciniumTextDiff from '../../components/TriciniumTextDiff.vue';
 import MidiPlayer from '../../components/MidiPlayer.vue';
 import ClientOnly from '../../components/ClientOnly.js';
 import { useTricinium } from '../../composables/useTricinium';
-import TriciniumTextDiff from '../../components/TriciniumTextDiff.vue';
 
 const props = defineProps({
     tricinium: {
