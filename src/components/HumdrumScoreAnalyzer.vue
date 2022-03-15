@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue';
 import VerovioCanvas from 'vue-verovio-canvas';
 import { useHumdrumScoreFormatter } from '../composables/useHumdrumScoreFormatter';
+import HumdrumScoreAnalyzerFilterGroup from './HumdrumScoreAnalyzerFilterGroup.vue';
 
 const props = defineProps({
     url: {
@@ -28,10 +29,13 @@ const verovioOptions = computed(() => {
 </script>
 
 <template>
-    <textarea
+    <HumdrumScoreAnalyzerFilterGroup :filters="filters" @addFilter="addFilterEvent" @removeFilter="removeFilterEvent"></HumdrumScoreAnalyzerFilterGroup>
+    <pre v-text="filtersAsString"></pre>
+    <!-- <pre v-text="formattedScoreData"></pre> -->
+    <!-- <textarea
         rows="10"
         v-model.lazy="filtersAsString"
         class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-    ></textarea>
+    ></textarea> -->
     <VerovioCanvas v-bind="verovioOptions" />
 </template>
