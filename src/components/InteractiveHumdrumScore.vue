@@ -2,7 +2,7 @@
 import { computed, onMounted, ref } from 'vue';
 import VerovioCanvas from 'vue-verovio-canvas';
 import { useHumdrumScoreFormatter } from '../composables/useHumdrumScoreFormatter';
-import HumdrumScoreAnalyzerFilterGroup from './HumdrumScoreAnalyzerFilterGroup.vue';
+import InteractiveHumdrumScoreFilterGroup from './InteractiveHumdrumScoreFilterGroup.vue';
 
 const props = defineProps({
     url: {
@@ -50,7 +50,7 @@ defineExpose({
 </script>
 
 <template>
-    <HumdrumScoreAnalyzerFilterGroup :filters="filters" @addFilter="addFilterEvent" @removeFilter="removeFilterEvent"></HumdrumScoreAnalyzerFilterGroup>
+    <InteractiveHumdrumScoreFilterGroup :filters="filters" @addFilter="addFilterEvent" @removeFilter="removeFilterEvent" />
     <pre v-text="filtersAsString"></pre>
     <!-- <pre v-text="formattedScoreData"></pre> -->
     <!-- <textarea
