@@ -15,6 +15,7 @@ const response = await fetch(props.url);
 if (!response.ok) {
     throw new Error(`${response.status} ${response.statusText}`);
 }
+
 const data = ref(await response.text());
 
 const { formattedScoreData, filtersAsString, filters, addFilter, removeFilter } = useHumdrumScoreFormatter(data, {});
