@@ -98,3 +98,63 @@ export class HumdrumExtractFilter extends HumdrumFilter {
         return false;
     }
 }
+
+export class HumdrumCintFilter extends HumdrumFilter {
+    unique = false;
+    static chars = createMatchedNoteList();
+    static usedChars = [];
+    constructor(interval1, direction, interval2, color) {
+        super();
+        if (!this.validateInterval(interval1)) {
+            throw new Error(`Cannot set "${interval1}" as interval 1 for ${this.className}`);
+        }
+        if (!this.validateDirection(direction)) {
+            throw new Error(`Cannot set "${direction}" as direction for ${this.className}`);
+        }
+        if (!this.validateInterval(interval2)) {
+            throw new Error(`Cannot set "${interval2}" as interval 2 for ${this.className}`);
+        }
+        if (!this.validateColor(color)) {
+            throw new Error(`Cannot set "${color}" as color for ${this.className}`);
+        }
+        this.interval1 = interval1;
+        this.direction = direction;
+        this.interval2 = interval2;
+        this.color = color;
+        this.char = this.getNextMatchedNoteChar();
+        this.addLine(`cint -O --search "${this.interval1} ${this.direction} ${this.interval2}" -N ${this.char}`);
+        this.addLine(`${this.char} = matched note, color=${this.color}`, '!!!RDF**kern: ');
+    }
+
+    validateInterval(value) {
+        return /^[1-8]$/.test(value);
+    }
+
+    validateDirection(value) {
+        return Number.isInteger(parseInt(value, 10));
+    }
+
+    validateColor(value) {
+        return /^#([A-Z0-9]{3}){1,2}$/i.test(value);
+    }
+
+    getNextMatchedNoteChar() {
+        let char = null;
+        HumdrumCintFilter.chars.some(c => {
+            const isUsed = HumdrumCintFilter.usedChars.includes(c);
+            if(!isUsed) {
+                char = c;
+            }
+            return !isUsed;
+        });
+        if(char) {
+            HumdrumCintFilter.usedChars.push(char);
+            return char;
+        }
+        throw new Error('Cannot create an unused char for matched notes mapping');
+    }
+
+    beforeRemove() {
+        HumdrumCintFilter.usedChars = HumdrumCintFilter.usedChars.filter(c => c !== this.char);
+    }
+}
