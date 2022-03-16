@@ -92,6 +92,11 @@ export class HumdrumMelismaFilter extends HumdrumFilter {
     lines = [new Line('melisma')];
 }
 
+export class HumdrumSicFilter extends HumdrumFilter {
+    unique = true;
+    lines = [new Line('sic -v')];
+}
+
 export class HumdrumMeasureFilter extends HumdrumFilter {
     unique = true;
     changeable = true;
