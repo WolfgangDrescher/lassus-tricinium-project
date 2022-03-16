@@ -18,6 +18,10 @@ export function useHumdrumScoreFormatter(data,) {
     }
 
     function removeFilter(filterId) {
+        const filter = filters.value.find(f => f.id === filterId);
+        if(filter) {
+            filter.beforeRemove();
+        }
         filters.value = filters.value.filter(f => f.id !== filterId);
     }
 
