@@ -72,6 +72,26 @@ export class HumdrumCompositeRhythmFilter extends HumdrumFilter {
     lines = [new Line('composite')];
 }
 
+export class HumdrumDissonantFilter extends HumdrumFilter {
+    unique = true;
+    lines = [new Line('dissonant')];
+}
+
+export class HumdrumAutobeamFilter extends HumdrumFilter {
+    unique = true;
+    lines = [new Line('autobeam')];
+}
+
+export class HumdrumImitationFilter extends HumdrumFilter {
+    unique = true;
+    lines = [new Line('imitation')];
+}
+
+export class HumdrumMelismaFilter extends HumdrumFilter {
+    unique = true;
+    lines = [new Line('melisma')];
+}
+
 export class HumdrumMeasureFilter extends HumdrumFilter {
     unique = true;
     changeable = true;
