@@ -83,7 +83,7 @@ const optionIsSelected = computed(() => {
 const filteredOptions = computed(() => {
     if(searchString.value.length && props.searchEnabled) {
         return props.options.filter(o => {
-            return o.value.includes(searchString.value) || o.label.includes(searchString.value);
+            return o.value.toLowerCase().includes(searchString.value.toLowerCase()) || o.label.toLowerCase().includes(searchString.value.toLowerCase());
         });
     }
     return props.options;
