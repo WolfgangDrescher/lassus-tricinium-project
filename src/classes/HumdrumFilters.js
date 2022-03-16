@@ -1,5 +1,14 @@
 import { v4 as uuidv4 } from 'uuid';
 
+function createMatchedNoteList() {
+    const list = [];
+    let i;
+    for (i = 0; i < 50; i++) {
+        list.push(String.fromCodePoint(`0x1F6${i.toString().padStart(2, '0')}`));
+    }
+    return list;
+}
+
 class Line {
     constructor(value, linePrefix) {
         this.value = value || '';
