@@ -53,6 +53,7 @@ export class HumdrumClefFilter extends HumdrumFilter {
 
 export class HumdrumMensuralFilter extends HumdrumFilter {
     unique = true;
+    priority = -2;
     lines = [new Line('kern2mens')];
 }
 
