@@ -7,7 +7,7 @@ import MidiPlayer from '../../components/MidiPlayer.vue';
 import InteractiveHumdrumScore from '../../components/InteractiveHumdrumScore.vue';
 import ClientOnly from '../../components/ClientOnly.js';
 import { useTricinium } from '../../composables/useTricinium';
-import { HumdrumMeasureFilter } from '../../classes/HumdrumFilters';
+import { MeasureFilter } from '../../classes/HumdrumFilters';
 import HyperLink from '../../components/HyperLink.vue';
 
 const props = defineProps({
@@ -31,7 +31,7 @@ async function interactiveHumdrumScoreMounted() {
 }
 
 function addMeasureFilter(value) {
-    interactiveHumdrumScore.value.addFilter(new HumdrumMeasureFilter(value));
+    interactiveHumdrumScore.value.addFilter(new MeasureFilter(value));
 }
 </script>
 

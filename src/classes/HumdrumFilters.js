@@ -44,61 +44,61 @@ export class HumdrumFilter {
     }
 }
 
-export class HumdrumClefFilter extends HumdrumFilter {
+export class ClefFilter extends HumdrumFilter {
     unique = true;
     lines = [
         new Line('shed -e "s/^clefC[12]/clefG2/I; s/^clefC[34]/clefGv2/I; s/^clefC5/clefF4/I; s/^clefF[35]/clefF4/I; s/^clefG[13]/clefG2/I"'),
     ];
 }
 
-export class HumdrumMensuralFilter extends HumdrumFilter {
+export class MensuralFilter extends HumdrumFilter {
     unique = true;
     priority = -2;
     lines = [new Line('kern2mens')];
 }
 
-export class HumdrumLyricsFilter extends HumdrumFilter {
+export class LyricsFilter extends HumdrumFilter {
     unique = true;
     priority = -1;
     lines = [new Line('extract -I **text')];
 }
 
-export class HumdrumEditorialAccidentalsFilter extends HumdrumFilter {
+export class EditorialAccidentalsFilter extends HumdrumFilter {
     unique = true;
     lines = [new Line("shed -ke 's/i/y/g'")];
 }
 
-export class HumdrumCompositeRhythmFilter extends HumdrumFilter {
+export class CompositeRhythmFilter extends HumdrumFilter {
     unique = true;
     lines = [new Line('composite')];
 }
 
-export class HumdrumDissonantFilter extends HumdrumFilter {
+export class DissonantFilter extends HumdrumFilter {
     unique = true;
     lines = [new Line('dissonant')];
 }
 
-export class HumdrumAutobeamFilter extends HumdrumFilter {
+export class AutobeamFilter extends HumdrumFilter {
     unique = true;
     lines = [new Line('autobeam')];
 }
 
-export class HumdrumImitationFilter extends HumdrumFilter {
+export class ImitationFilter extends HumdrumFilter {
     unique = true;
     lines = [new Line('imitation')];
 }
 
-export class HumdrumMelismaFilter extends HumdrumFilter {
+export class MelismaFilter extends HumdrumFilter {
     unique = true;
     lines = [new Line('melisma')];
 }
 
-export class HumdrumSicFilter extends HumdrumFilter {
+export class SicFilter extends HumdrumFilter {
     unique = true;
     lines = [new Line('sic -v')];
 }
 
-export class HumdrumMeasureFilter extends HumdrumFilter {
+export class MeasureFilter extends HumdrumFilter {
     unique = true;
     changeable = true;
     constructor(value) {
@@ -117,7 +117,7 @@ export class HumdrumMeasureFilter extends HumdrumFilter {
     }
 }
 
-export class HumdrumExtractFilter extends HumdrumFilter {
+export class ExtractFilter extends HumdrumFilter {
     unique = true;
     changeable = true;
     constructor(value) {
@@ -136,7 +136,7 @@ export class HumdrumExtractFilter extends HumdrumFilter {
     }
 }
 
-export class HumdrumCintFilter extends HumdrumFilter {
+export class CintFilter extends HumdrumFilter {
     unique = false;
     static chars = createMatchedNoteList();
     static usedChars = [];
@@ -177,26 +177,26 @@ export class HumdrumCintFilter extends HumdrumFilter {
 
     getNextMatchedNoteChar() {
         let char = null;
-        HumdrumCintFilter.chars.some(c => {
-            const isUsed = HumdrumCintFilter.usedChars.includes(c);
+        CintFilter.chars.some(c => {
+            const isUsed = CintFilter.usedChars.includes(c);
             if(!isUsed) {
                 char = c;
             }
             return !isUsed;
         });
         if(char) {
-            HumdrumCintFilter.usedChars.push(char);
+            CintFilter.usedChars.push(char);
             return char;
         }
         throw new Error('Cannot create an unused char for matched notes mapping');
     }
 
     beforeRemove() {
-        HumdrumCintFilter.usedChars = HumdrumCintFilter.usedChars.filter(c => c !== this.char);
+        CintFilter.usedChars = CintFilter.usedChars.filter(c => c !== this.char);
     }
 }
 
-export class HumdrumParallelIntervalsFilter extends HumdrumCintFilter {
+export class ParallelIntervalsFilter extends CintFilter {
     static DIRECTION_UP = 2;
     static DIRECTION_DOWN = -2;
 
@@ -206,13 +206,13 @@ export class HumdrumParallelIntervalsFilter extends HumdrumCintFilter {
 
     validateDirection(value) {
         return [
-            HumdrumParallelIntervalsFilter.DIRECTION_UP,
-            HumdrumParallelIntervalsFilter.DIRECTION_DOWN
+            ParallelIntervalsFilter.DIRECTION_UP,
+            ParallelIntervalsFilter.DIRECTION_DOWN
         ].includes(parseInt(value, 10));
     }
 }
 
-export class HumdrumShedFilter extends HumdrumFilter {
+export class ShedFilter extends HumdrumFilter {
     constructor(value) {
         super()
         this.value = value;
@@ -220,7 +220,7 @@ export class HumdrumShedFilter extends HumdrumFilter {
     }
 }
 
-export class HumdrumTransposeFilter extends HumdrumFilter {
+export class TransposeFilter extends HumdrumFilter {
     static MODE_KEY = '-k';
     static MODE_INTERVAL = '-t';
 
@@ -242,16 +242,16 @@ export class HumdrumTransposeFilter extends HumdrumFilter {
 
     validateMode(value) {
         return [
-            HumdrumTransposeFilter.MODE_KEY,
-            HumdrumTransposeFilter.MODE_INTERVAL,
+            TransposeFilter.MODE_KEY,
+            TransposeFilter.MODE_INTERVAL,
         ].includes(value);
     }
 
     validateKey(value, mode) {
-        if (mode === HumdrumTransposeFilter.MODE_KEY) {
+        if (mode === TransposeFilter.MODE_KEY) {
             return /^[A-G][-#]?$/i.test(value);
         }
-        if (mode === HumdrumTransposeFilter.MODE_INTERVAL) {
+        if (mode === TransposeFilter.MODE_INTERVAL) {
             return /^-?([mM][2367]|[PdA][1458])$/.test(value);
         }
             
