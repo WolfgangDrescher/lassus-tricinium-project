@@ -100,6 +100,7 @@ export class HumdrumMeasureFilter extends HumdrumFilter {
         if (!this.validateValue(value)) {
             throw new Error(`Cannot set "${value}" as value for ${this.className}`);
         }
+        this.value = value;
         this.addLine(`myank -m ${value}`);
     }
 
@@ -118,6 +119,7 @@ export class HumdrumExtractFilter extends HumdrumFilter {
         if (!this.validateValue(value)) {
             throw new Error(`Cannot set "${value}" as value for ${this.className}`);
         }
+        this.value = value
         this.addLine(`extract -f ${value}`);
     }
 
