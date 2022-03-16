@@ -9,6 +9,7 @@ import {
     HumdrumCompositeRhythmFilter,
     HumdrumMeasureFilter,
     HumdrumExtractFilter,
+    HumdrumParallelIntervalsFilter,
 } from '../classes/HumdrumFilters.js';
 import BadgeGroup from './BadgeGroup.vue';
 import Badge from './Badge.vue';
@@ -20,6 +21,9 @@ const emit = defineEmits(['addFilter', 'removeFilter']);
 
 const measureFilterValue = ref(null);
 const extractFilterValue = ref(null);
+const cintFilterInterval = ref(6);
+const cintFilterDirection = ref(2);
+const cintFilterColor = ref('#f97316');
 
 function removeFilter(filterId) {
     emit('removeFilter', filterId);
@@ -40,9 +44,10 @@ function addFilter(filter) {
     <Button @click="addFilter(new HumdrumMeasureFilter(measureFilterValue))">Measure filter</Button>
     <input v-model="extractFilterValue" />
     <Button @click="addFilter(new HumdrumExtractFilter(extractFilterValue))">Extract filter</Button>
-    <!-- <Button>Filter spines</Button> -->
-    <!-- <Button>Parallels (interval/direction/color)</Button> -->
-    <Button>Filter measures(start/end)</Button>
+    <input v-model="cintFilterInterval" />
+    <input v-model="cintFilterDirection" />
+    <input v-model="cintFilterColor" />
+    <Button @click="addFilter(new HumdrumParallelIntervalsFilter(cintFilterInterval, cintFilterDirection, cintFilterColor))">Extract filter</Button>
     <div class="my-4 w-full border-t-4 border-gray-300"></div>
     <BadgeGroup>
         <Badge v-for="filter in filters" :key="filter.id">
