@@ -14,6 +14,7 @@ import {
     HumdrumAutobeamFilter,
     HumdrumImitationFilter,
     HumdrumMelismaFilter,
+    HumdrumShedFilter,
     HumdrumSicFilter,
 } from '../classes/HumdrumFilters.js';
 import BadgeGroup from './BadgeGroup.vue';
@@ -29,6 +30,7 @@ const extractFilterValue = ref(null);
 const cintFilterInterval = ref(6);
 const cintFilterDirection = ref(2);
 const cintFilterColor = ref('#f97316');
+const shedValue = ref(null);
 
 function removeFilter(filterId) {
     emit('removeFilter', filterId);
@@ -58,6 +60,8 @@ function addFilter(filter) {
     <input v-model="cintFilterDirection" />
     <input v-model="cintFilterColor" />
     <Button @click="addFilter(new HumdrumParallelIntervalsFilter(cintFilterInterval, cintFilterDirection, cintFilterColor))">Parallel intervals</Button>
+    <input v-model="shedValue" />
+    <Button @click="addFilter(new HumdrumShedFilter(shedValue))">Shed</Button>
     <div class="my-4 w-full border-t-4 border-gray-300"></div>
     <BadgeGroup>
         <Badge v-for="filter in filters" :key="filter.id">

@@ -210,3 +210,11 @@ export class HumdrumParallelIntervalsFilter extends HumdrumCintFilter {
         ].includes(parseInt(value, 10));
     }
 }
+
+export class HumdrumShedFilter extends HumdrumFilter {
+    constructor(value) {
+        super()
+        this.value = value;
+        this.addLine(`shed ${value}`);
+    }
+}
