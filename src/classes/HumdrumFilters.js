@@ -5,7 +5,7 @@ export class HumdrumFilter {
 
     id = null;
     className = null;
-    unique = true;
+    unique = false;
     changeable = false;
     priority = 0;
     lines = [];
@@ -28,19 +28,23 @@ export class HumdrumClefFilter extends HumdrumFilter {
 
 export class HumdrumMensuralFilter extends HumdrumFilter {
     lines = ['kern2mens'];
+    unique = true;
 }
 
 export class HumdrumLyricsFilter extends HumdrumFilter {
+    unique = true;
     priority = -1;
     lines = ['extract -I **text'];
 }
 
 export class HumdrumEditorialAccidentalsFilter extends HumdrumFilter {
     lines = ["shed -ke 's/i/y/g'"];
+    unique = true;
 }
 
 export class HumdrumCompositeRhythmFilter extends HumdrumFilter {
     lines = ['composite'];
+    unique = true;
 }
 
 export class HumdrumMeasureFilter extends HumdrumFilter {
@@ -61,6 +65,7 @@ export class HumdrumMeasureFilter extends HumdrumFilter {
 }
 
 export class HumdrumExtractFilter extends HumdrumFilter {
+    unique = true;
     changeable = true;
     constructor(value) {
         super();
