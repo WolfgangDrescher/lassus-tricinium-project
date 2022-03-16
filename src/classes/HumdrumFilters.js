@@ -33,6 +33,7 @@ export class HumdrumFilter {
 }
 
 export class HumdrumClefFilter extends HumdrumFilter {
+    unique = true;
     lines = [
         new Line('shed -e "s/^clefC[12]/clefG2/I; s/^clefC[34]/clefGv2/I; s/^clefC5/clefF4/I; s/^clefF[35]/clefF4/I; s/^clefG[13]/clefG2/I"'),
     ];
@@ -60,6 +61,7 @@ export class HumdrumCompositeRhythmFilter extends HumdrumFilter {
 }
 
 export class HumdrumMeasureFilter extends HumdrumFilter {
+    unique = true;
     changeable = true;
     constructor(value) {
         super();
