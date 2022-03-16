@@ -27,6 +27,9 @@ export class HumdrumFilter {
     addLine(value, prefix) {
         this.lines.push(new Line(value, prefix));
     }
+
+    beforeRemove() {}
+
     toString() {
         return this.lines.map(l => l.toString()).join('\n');
     }
