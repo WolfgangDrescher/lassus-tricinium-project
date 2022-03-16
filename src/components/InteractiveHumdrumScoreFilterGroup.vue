@@ -10,6 +10,10 @@ import {
     HumdrumMeasureFilter,
     HumdrumExtractFilter,
     HumdrumParallelIntervalsFilter,
+    HumdrumDissonantFilter,
+    HumdrumAutobeamFilter,
+    HumdrumImitationFilter,
+    HumdrumMelismaFilter,
 } from '../classes/HumdrumFilters.js';
 import BadgeGroup from './BadgeGroup.vue';
 import Badge from './Badge.vue';
@@ -40,6 +44,10 @@ function addFilter(filter) {
     <Button @click="addFilter(new HumdrumLyricsFilter())">Remove lyrics</Button>
     <Button @click="addFilter(new HumdrumEditorialAccidentalsFilter())">Remove editorial accidentals</Button>
     <Button @click="addFilter(new HumdrumCompositeRhythmFilter())">Composite rhythm</Button>
+    <Button @click="addFilter(new HumdrumDissonantFilter())">Dissonant</Button>
+    <Button @click="addFilter(new HumdrumAutobeamFilter())">Autobeam</Button>
+    <Button @click="addFilter(new HumdrumImitationFilter())">Imitation</Button>
+    <Button @click="addFilter(new HumdrumMelismaFilter())">Melisma</Button>
     <input v-model="measureFilterValue" />
     <Button @click="addFilter(new HumdrumMeasureFilter(measureFilterValue))">Measure filter</Button>
     <input v-model="extractFilterValue" />
