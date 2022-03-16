@@ -218,3 +218,42 @@ export class HumdrumShedFilter extends HumdrumFilter {
         this.addLine(`shed ${value}`);
     }
 }
+
+export class HumdrumTransposeFilter extends HumdrumFilter {
+    static MODE_KEY = '-k';
+    static MODE_INTERVAL = '-t';
+
+    unique = true;
+    changeable = true;
+
+    constructor(mode, value) {
+        super();
+        if (!this.validateMode(mode)) {
+            throw new Error(`Cannot set "${mode}" as mode for ${this.className}`);
+        }
+        if (!this.validateKey(value, mode)) {
+            throw new Error(`Cannot set "${value}" as value for ${this.className}`);
+        }
+        this.mode = mode;
+        this.value = value;
+        this.addLine(`transpose ${this.mode} ${this.value}`);
+    }
+
+    validateMode(value) {
+        return [
+            HumdrumTransposeFilter.MODE_KEY,
+            HumdrumTransposeFilter.MODE_INTERVAL,
+        ].includes(value);
+    }
+
+    validateKey(value, mode) {
+        if (mode === HumdrumTransposeFilter.MODE_KEY) {
+            return /^[A-G][-#]?$/i.test(value);
+        }
+        if (mode === HumdrumTransposeFilter.MODE_INTERVAL) {
+            return /^-?([mM][2367]|[PdA][1458])$/.test(value);
+        }
+            
+        return false;
+    }
+}

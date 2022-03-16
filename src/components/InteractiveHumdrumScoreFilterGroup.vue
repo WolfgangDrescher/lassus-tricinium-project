@@ -16,6 +16,7 @@ import {
     HumdrumMelismaFilter,
     HumdrumShedFilter,
     HumdrumSicFilter,
+    HumdrumTransposeFilter,
 } from '../classes/HumdrumFilters.js';
 import BadgeGroup from './BadgeGroup.vue';
 import Badge from './Badge.vue';
@@ -27,6 +28,8 @@ const emit = defineEmits(['addFilter', 'removeFilter']);
 
 const measureFilterValue = ref(null);
 const extractFilterValue = ref(null);
+const transposeValue = ref('');
+const transposeMode = ref('-t');
 const cintFilterInterval = ref(6);
 const cintFilterDirection = ref(2);
 const cintFilterColor = ref('#f97316');
@@ -52,6 +55,9 @@ function addFilter(filter) {
     <Button @click="addFilter(new HumdrumImitationFilter())">Imitation</Button>
     <Button @click="addFilter(new HumdrumMelismaFilter())">Melisma</Button>
     <Button @click="addFilter(new HumdrumSicFilter())">Sic</Button>
+    <input v-model="transposeMode" />
+    <input v-model="transposeValue" />
+    <Button @click="addFilter(new HumdrumTransposeFilter(transposeMode, transposeValue))">Transpose</Button>
     <input v-model="measureFilterValue" />
     <Button @click="addFilter(new HumdrumMeasureFilter(measureFilterValue))">Measure</Button>
     <input v-model="extractFilterValue" />
