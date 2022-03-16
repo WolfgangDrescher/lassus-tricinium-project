@@ -198,6 +198,7 @@ export class HumdrumCintFilter extends HumdrumFilter {
 export class HumdrumParallelIntervalsFilter extends HumdrumCintFilter {
     static DIRECTION_UP = 2;
     static DIRECTION_DOWN = -2;
+
     constructor(interval, direction, color) {
         super(interval, direction, interval, color);
     }
