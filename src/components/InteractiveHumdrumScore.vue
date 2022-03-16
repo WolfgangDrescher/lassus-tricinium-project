@@ -46,6 +46,7 @@ function removeFilterEvent(filterId) {
 
 defineExpose({
     verovioCanvas,
+    addFilter,
 });
 </script>
 
