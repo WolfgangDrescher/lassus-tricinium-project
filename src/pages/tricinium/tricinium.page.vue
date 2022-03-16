@@ -7,6 +7,8 @@ import MidiPlayer from '../../components/MidiPlayer.vue';
 import InteractiveHumdrumScore from '../../components/InteractiveHumdrumScore.vue';
 import ClientOnly from '../../components/ClientOnly.js';
 import { useTricinium } from '../../composables/useTricinium';
+import { HumdrumMeasureFilter } from '../../classes/HumdrumFilters';
+import HyperLink from '../../components/HyperLink.vue';
 
 const props = defineProps({
     tricinium: {
@@ -27,12 +29,22 @@ async function interactiveHumdrumScoreMounted() {
         audioDataUrl.value = `data:audio/midi;base64,${midiBase64}`;
     }
 }
+
+function addMeasureFilter(value) {
+    interactiveHumdrumScore.value.addFilter(new HumdrumMeasureFilter(value));
+}
 </script>
 
 <template>
     <Heading>Tricinium</Heading>
-    <!-- <DataTable :items="tricinium.lyrics?.map((l, i) => ({'#': i + 1, ...l})) || []"></DataTable>
-    <TriciniumTextDiff :tricinium="tricinium" /> -->
+    <DataTable :items="tricinium.lyrics?.map((l, i) => ({'#': i + 1, ...l})) || []">
+        <template #item.measures="{ item }">
+            <HyperLink href="#0" @click="addMeasureFilter(item.measures)">
+                {{ item.measures }}
+            </HyperLink>
+        </template>
+    </DataTable>
+    <TriciniumTextDiff :tricinium="tricinium" />
     <ClientOnly>
         <MidiPlayer :url="audioDataUrl" />
         <Suspense>
