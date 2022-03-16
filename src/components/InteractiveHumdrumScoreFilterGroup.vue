@@ -49,13 +49,13 @@ function addFilter(filter) {
     <Button @click="addFilter(new HumdrumImitationFilter())">Imitation</Button>
     <Button @click="addFilter(new HumdrumMelismaFilter())">Melisma</Button>
     <input v-model="measureFilterValue" />
-    <Button @click="addFilter(new HumdrumMeasureFilter(measureFilterValue))">Measure filter</Button>
+    <Button @click="addFilter(new HumdrumMeasureFilter(measureFilterValue))">Measure</Button>
     <input v-model="extractFilterValue" />
-    <Button @click="addFilter(new HumdrumExtractFilter(extractFilterValue))">Extract filter</Button>
+    <Button @click="addFilter(new HumdrumExtractFilter(extractFilterValue))">Extract</Button>
     <input v-model="cintFilterInterval" />
     <input v-model="cintFilterDirection" />
     <input v-model="cintFilterColor" />
-    <Button @click="addFilter(new HumdrumParallelIntervalsFilter(cintFilterInterval, cintFilterDirection, cintFilterColor))">Extract filter</Button>
+    <Button @click="addFilter(new HumdrumParallelIntervalsFilter(cintFilterInterval, cintFilterDirection, cintFilterColor))">Parallel intervals</Button>
     <div class="my-4 w-full border-t-4 border-gray-300"></div>
     <BadgeGroup>
         <Badge v-for="filter in filters" :key="filter.id">
