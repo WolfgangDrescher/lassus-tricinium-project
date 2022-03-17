@@ -20,6 +20,8 @@ import {
 } from '../classes/HumdrumFilters.js';
 import BadgeGroup from './BadgeGroup.vue';
 import Badge from './Badge.vue';
+import Dropdown from './Form/Dropdown.vue';
+import HumdrumFilterConfigurator from './HumdrumFilterConfigurator.vue';
 
 defineProps({
     filters: Array,
@@ -35,6 +37,34 @@ const cintFilterDirection = ref(2);
 const cintFilterColor = ref('#f97316');
 const shedValue = ref(null);
 
+const selectedFilter = ref(null);
+
+const allFilters = [
+    ClefFilter,
+    MensuralFilter,
+    LyricsFilter,
+    EditorialAccidentalsFilter,
+    CompositeRhythmFilter,
+    MeasureFilter,
+    ExtractFilter,
+    ParallelIntervalsFilter,
+    DissonantFilter,
+    AutobeamFilter,
+    ImitationFilter,
+    MelismaFilter,
+    ShedFilter,
+    SicFilter,
+    TransposeFilter,
+]
+
+const filterOptions = allFilters.map(filter => {
+    return {
+        label: filter.name,
+        value: filter.name,
+        filter,
+    };
+});
+
 function removeFilter(filterId) {
     emit('removeFilter', filterId);
 }
@@ -42,13 +72,23 @@ function removeFilter(filterId) {
 function addFilter(filter) {
     emit('addFilter', filter);
 }
+
+function applyFilter(args) {
+    const item = filterOptions.find(f => selectedFilter.value === f.value)
+    console.log(item);
+    try {
+        addFilter(new item.filter(...(args || [])));
+    } catch (e) {
+        console.error(e.message);
+    }
+}
 </script>
 
 <template>
 
     <div class="grid grid-cols-2 gap-4 my-4">
         <Dropdown v-model="selectedFilter" :options="filterOptions" />
-        <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilter" :key="selectedFilter"></HumdrumFilterConfigurator>
+        <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilter"></HumdrumFilterConfigurator>
     </div>
     <div class="my-4 w-full border-t-4 border-gray-300"></div>
     <Button @click="addFilter(new ClefFilter())">Modern clefs</Button>
