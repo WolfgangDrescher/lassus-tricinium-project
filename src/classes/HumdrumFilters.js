@@ -159,6 +159,8 @@ export class CintFilter extends HumdrumFilter {
         this.interval2 = interval2;
         this.color = color;
         this.char = this.getNextMatchedNoteChar();
+        // https://github.com/rism-digital/verovio/issues/2690
+        // this.addLine(`cint -O --search "${this.interval1} ${this.direction} ${this.interval2}" -N ${this.char} --color ${this.color}`);
         this.addLine(`cint -O --search "${this.interval1} ${this.direction} ${this.interval2}" -N ${this.char}`);
         this.addLine(`${this.char} = matched note, color=${this.color}`, '!!!RDF**kern: ');
     }
