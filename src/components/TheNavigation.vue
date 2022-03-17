@@ -24,6 +24,7 @@ import Container from './Container.vue';
                         <NavigationItem href="/">Home</NavigationItem>
                         <NavigationItem href="/about">About</NavigationItem>
                         <NavigationItem href="/tricinium">Tricinium</NavigationItem>
+                        <NavigationItem href="/statistics">Statistics</NavigationItem>
                     </ul>
                 </div>
             </div>
