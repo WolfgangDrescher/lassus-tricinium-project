@@ -46,7 +46,12 @@ export class Tricinium {
     }
 
     get clefs() {
-        return this.tricinium.clefs;
+        const clefs = [
+            this.tricinium.voices?.cantus?.clef,
+            this.tricinium.voices?.tenor?.clef,
+            this.tricinium.voices?.bassus?.clef,
+        ];
+        return clefs.join(', ') || null;
     }
 
     get hasLyrics() {
