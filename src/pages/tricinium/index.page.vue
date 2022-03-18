@@ -1,9 +1,8 @@
 <script setup>
-import { reactive } from 'vue';
 import Heading from '../../components/Heading.vue';
 import TriciniumListItem from '../../components/TriciniumListItem.vue';
 import TriciniumFilter from '../../components/TriciniumFilter.vue';
-import { useFilter } from '../../composables/useFilter.js';
+import { useTriciniumFilter } from '../../composables/useTriciniumFilter.js';
 import { useTricinium } from '../../composables/useTricinium';
 
 const props = defineProps({
@@ -15,13 +14,7 @@ const props = defineProps({
 
 const tricinia = useTricinium(props.tricinia);
 
-const filter = reactive({
-    composer: '',
-    title: '',
-    nr: '',
-});
-
-const { filteredElements } = useFilter(tricinia, filter);
+const { filteredElements, filter } = useTriciniumFilter(tricinia);
 </script>
 
 <template>
