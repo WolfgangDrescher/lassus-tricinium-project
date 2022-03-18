@@ -50,7 +50,6 @@ export function useTriciniumFilter(elements) {
 
     const filteredElements = computed(() => {
         const filteredElements = elements.filter((element) => {
-            console.log({...filter}, element);
             const composerMatches = filterByComposer(filter, element);
             const titleMatches = filterByTitle(filter, element);
             const lyricsMatches = filterByLyrics(filter, element);
