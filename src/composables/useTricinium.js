@@ -54,7 +54,7 @@ export class Tricinium {
     }
 
     lyricsAsString(trimSlash = true, separator = ', ') {
-        return this.lyrics?.map((l) => (trimSlash ? l.text.replace(/\/$/g, '') : l.text)).join(separator) || null;
+        return this.lyrics?.map((l) => (trimSlash ? l.text.replace(/\/$/g, '') : l.text)).join(separator) || '';
     }
 
     getVoiceLyrics(voice) {
