@@ -1,18 +1,22 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch, toRefs, computed } from 'vue';
 import Chart from 'chart.js/auto';
 
-const props = defineProps(['options'])
 
-const chartRef = ref(null);
+const props = defineProps(['config'])
+
+const { config } = toRefs(props);
+
+let chart = null;
+const chartElem = ref(null);
 
 onMounted(() => {
-    new Chart(chartRef.value, props.options);
+    chart = new Chart(chartElem.value, colorizedConfig.value);
 });
 </script>
 
 <template>
     <div class="aspect-video">
-        <canvas ref="chartRef"></canvas>
+        <canvas ref="chartElem"></canvas>
     </div>
 </template>
