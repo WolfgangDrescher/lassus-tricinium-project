@@ -2,71 +2,36 @@
 import StatisticsIndexPage from './index.page.vue';
 import Heading from '../../components/Heading.vue';
 import Chart from '../../components/Chart.vue';
-import { computed } from 'vue';
-import colors from 'tailwindcss/colors';
+import TriciniumFilter from '../../components/TriciniumFilter.vue';
+import { useTricinium } from '../../composables/useTricinium.js';
+import { useTriciniumFilter } from '../../composables/useTriciniumFilter.js';
+import { useChartGenerator } from '../../composables/useChartGenerator.js';
 
 const props = defineProps(['tricinia']);
 
-const options = computed(() => {
-    return {
-        type: 'bar',
-        data: {
-            datasets: clefDatasets.value,
-        },
-        options:  {
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    ticks: {
-                        precision: 0,
-                    },
-                },
-            },
-        },
-    };
-});
+const tricinia = useTricinium(props.tricinia);
 
-const dimension = 'composer';
-
-const filteredTricinia = computed(() => props.tricinia);
-
-const filteredTriciniaDatasets = computed(() => {
-    return filteredTricinia.value.reduce((previousValue, tricinium) => {
-        let index = previousValue.findIndex(d => d.label === (dimension ? tricinium[dimension] : 'All'));
-        if(index === -1) {
-            index = -1 + previousValue.push({
-                label: dimension ? tricinium[dimension] : 'All',
-                data: [],
-            });
-        }
-        previousValue[index].data.push(tricinium);
-        return previousValue;
-    }, []);
-});
-
-const clefDatasets = computed(() => {
-    return filteredTriciniaDatasets.value.map(dataset => {
-        return {...dataset, data: dataset.data.reduce((previousValue, tricinium) => {
-            const voiceClefs = Object.entries(tricinium.voices || []).map(([,voice]) => voice.clef) || [];
-            const x = voiceClefs.join(', ');
-            let index = previousValue.findIndex(d => d.x === x);
-            if(index === -1) {
-                index = -1 + previousValue.push({
-                    x,
-                    y: 0,
-                });
-            }
-            previousValue[index].y++;
-            return previousValue;
-        }, [])};
-    });
-});
+const { filteredElements, filter } = useTriciniumFilter(tricinia);
+const { config, dimension } = useChartGenerator(filteredElements, (tricinium) => tricinium.mode);
 </script>
 
 <template>
     <StatisticsIndexPage>
         <Heading>Clef statistics</Heading>
-        <Chart :options="options"/>
-        <pre v-text="props.tricinia"></pre>
+        <TriciniumFilter :filter="filter"></TriciniumFilter>
+            <select
+                v-model="dimension"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            >
+            <option value="">all</option>
+            <option value="id">id</option>
+            <option value="title">title</option>
+            <option value="composer">composer</option>
+            <option value="mode">mode</option>
+            <option value="transposed">transposed</option>
+            <option value="clefs">clefs</option>
+            <option value="finalis">finalis</option>
+        </select>
+        <Chart :config="config" />
     </StatisticsIndexPage>
 </template>
