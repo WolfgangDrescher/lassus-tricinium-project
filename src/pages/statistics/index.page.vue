@@ -8,12 +8,12 @@ import StatisticsSidebarItem from '../../components/StatisticsSidebarItem.vue';
             <aside>
                 <div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
                     <ul class="space-y-2">
-                        <StatisticsSidebarItem href="/statistics/">Overview</StatisticsSidebarItem>
-                        <StatisticsSidebarItem href="/statistics/clefs/">Clefs</StatisticsSidebarItem>
-                        <StatisticsSidebarItem href="/statistics/finalis/">Finalis</StatisticsSidebarItem>
-                        <StatisticsSidebarItem href="/statistics/modes/">Modes</StatisticsSidebarItem>
-                        <StatisticsSidebarItem href="/statistics/transpositions/">Transpositions</StatisticsSidebarItem>
-                        <StatisticsSidebarItem href="/statistics/cadences/">Cadences</StatisticsSidebarItem>
+                        <StatisticsSidebarItem href="/statistics">Overview</StatisticsSidebarItem>
+                        <StatisticsSidebarItem href="/statistics/clefs">Clefs</StatisticsSidebarItem>
+                        <StatisticsSidebarItem href="/statistics/finalis">Finalis</StatisticsSidebarItem>
+                        <StatisticsSidebarItem href="/statistics/modes">Modes</StatisticsSidebarItem>
+                        <StatisticsSidebarItem href="/statistics/transposition">Transposition</StatisticsSidebarItem>
+                        <StatisticsSidebarItem href="/statistics/cadences">Cadences</StatisticsSidebarItem>
                     </ul>
                 </div>
             </aside>
