@@ -72,6 +72,17 @@ export class Tricinium {
     get normalizedLyrics() {
         return this.lyricsAsString().replace(/[^\p{Letter}\p{Mark}\s]/gu, '').replace(/\s\s/g, ' ');
     }
+
+    get wordOccurrenceCount() {
+        const words = {};
+        this.normalizedLyrics.split(' ').forEach(el => {
+            if(el !== '') {
+                words[el] = words[el] ? ++words[el] : 1;
+            }
+        });
+        return Object.fromEntries(Object.entries(words).sort(([, a], [, b]) => b - a));
+    }
+
     get vhvHref() {
         return `https://verovio.humdrum.org/?file=${this.rawFile}`;
     }
