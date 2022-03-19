@@ -69,6 +69,9 @@ export class Tricinium {
         return null;
     }
 
+    get normalizedLyrics() {
+        return this.lyricsAsString().replace(/[^\p{Letter}\p{Mark}\s]/gu, '').replace(/\s\s/g, ' ');
+    }
     get vhvHref() {
         return `https://verovio.humdrum.org/?file=${this.rawFile}`;
     }
