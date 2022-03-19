@@ -1,6 +1,6 @@
 import { computed, ref } from 'vue';
 
-export function useChartGenerator(elements, filterValue) {
+export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength) {
     const dimension = ref('composer');
 
     const elementsGroupedByDimension = computed(() => {
@@ -54,10 +54,18 @@ export function useChartGenerator(elements, filterValue) {
         });
     });
 
+    const orderedDatasets = computed(() => {
+       return datasets.value.map(dataset => {
+            return {...dataset, ...{
+                data: dataset.data.sort(compareFunction).slice(0, maxDatasetLength || dataset.data.length)
+            }};
+        });
+    });
+
     const config = computed(() => ({
         type: 'bar',
         data: {
-            datasets: datasets.value,
+            datasets: orderedDatasets.value,
         },
         options: {
             responsive: true,
@@ -80,7 +88,7 @@ export function useChartGenerator(elements, filterValue) {
 
     return {
         dimension,
-        datasets,
+        datasets: orderedDatasets,
         config,
     };
 }
