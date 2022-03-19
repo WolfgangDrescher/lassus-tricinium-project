@@ -34,6 +34,10 @@ const filterByFinalis = (finalis, element) => {
     if (!finalis) return true;
     return element.finalis.toLowerCase() === finalis.toLowerCase();
 };
+
+const filterBySearchText = (searchText, element) => {
+    if (!searchText) return true;
+    return filterByTitle(searchText, element) || filterByNr(searchText, element) || filterByLyrics(searchText, element);
 };
 
 export function useTriciniumFilter(elements) {
@@ -47,6 +51,7 @@ export function useTriciniumFilter(elements) {
         transposed: null,
         finalis: null,
         clefs: null,
+        searchText: null,
     });
 
     const filteredElements = computed(() => {
@@ -58,6 +63,7 @@ export function useTriciniumFilter(elements) {
             const modeMatched = filterByMode(filter.mode, element);
             const transposedMatched = filterByTransposed(filter.transposed, element);
             const finalisMatched = filterByFinalis(filter.finalis, element);
+            const searchTextMatched = filterBySearchText(filter.searchText, element);
 
             return (
                 composerMatches &&
@@ -66,7 +72,8 @@ export function useTriciniumFilter(elements) {
                 nrMatches &&
                 modeMatched &&
                 transposedMatched &&
-                finalisMatched
+                finalisMatched &&
+                searchTextMatched
             );
         });
 
