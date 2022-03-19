@@ -6,7 +6,7 @@ const props = defineProps({
         type: String,
         required: true,
     },
-    label: {
+    text: {
         type: String,
     },
     showRemoveButton: {
@@ -22,7 +22,7 @@ const removeOption = () => {
 
 <template>
     <div class="flex justify-center items-center m-1 font-medium py-1 px-2 bg-white rounded-full text-primary-700 bg-primary-100 border border-primary-300">
-        <div class="text-xs font-normal leading-none max-w-full flex-initial">{{ props.label || props.value }}</div>
+        <div class="text-xs font-normal leading-none max-w-full flex-initial">{{ props.text || props.value }}</div>
         <div v-if="props.showRemoveButton" @click="removeOption" class="cursor-pointer flex flex-auto flex-row-reverse">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
