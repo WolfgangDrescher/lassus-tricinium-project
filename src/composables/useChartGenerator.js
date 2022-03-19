@@ -23,14 +23,31 @@ export function useChartGenerator(elements, filterValue) {
                 ...dataset,
                 data: dataset.data.reduce((previousValue, tricinium) => {
                     const x = filterValue(tricinium);
-                    let index = previousValue.findIndex((d) => d.x === x);
-                    if (index === -1) {
-                        index = -1 + previousValue.push({
-                            x,
-                            y: 0,
+                    if(Array.isArray(x)) {
+                        x.forEach((item) => {
+                            if(item) {
+                                let index = previousValue.findIndex((d) => d.x === item);
+                                if (index === -1) {
+                                    index = -1 + previousValue.push({
+                                        x: item,
+                                        y: 0,
+                                    });
+                                }
+                                previousValue[index].y++;
+                            }
                         });
+                    } else {
+                        if(x) {
+                            let index = previousValue.findIndex((d) => d.x === x);
+                            if (index === -1) {
+                                index = -1 + previousValue.push({
+                                    x,
+                                    y: 0,
+                                });
+                            }
+                            previousValue[index].y++;
+                        }
                     }
-                    previousValue[index].y++;
                     return previousValue;
                 }, []),
             };
