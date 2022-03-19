@@ -45,6 +45,8 @@ export function useChartGenerator(elements, filterValue) {
             datasets: datasets.value,
         },
         options: {
+            responsive: true,
+            maintainAspectRatio: false,
             plugins: {
                 legend: {
                     display: !!dimension.value,
