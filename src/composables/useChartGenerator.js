@@ -1,4 +1,4 @@
-import { computed, ref, readonly } from 'vue';
+import { computed, ref } from 'vue';
 
 export function useChartGenerator(elements, filterValue) {
     const dimension = ref('composer');
