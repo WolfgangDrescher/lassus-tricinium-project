@@ -46,12 +46,7 @@ function onChange(value) {
 </script>
 
 <template>
-    <div class="grid grid-cols-3 gap-4 my-4">
-        <div class="flex items-center">
-            Add additional chart dimension
-        </div>
-        <div class="col-span-2">
-            <Dropdown :options="options" :model-value="props.modelValue" @update:modelValue="onChange"></Dropdown>
-        </div>
+    <div class="grid grid-cols-2 my-4">
+        <Dropdown :options="options" label="Add additional chart dimension" :model-value="props.modelValue" @update:modelValue="onChange"></Dropdown>
     </div>
 </template>
