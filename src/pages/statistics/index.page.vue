@@ -13,6 +13,7 @@ import StatisticsSidebarItem from '../../components/StatisticsSidebarItem.vue';
                         <StatisticsSidebarItem href="/statistics/finalis">Finalis</StatisticsSidebarItem>
                         <StatisticsSidebarItem href="/statistics/modes">Modes</StatisticsSidebarItem>
                         <StatisticsSidebarItem href="/statistics/transposition">Transposition</StatisticsSidebarItem>
+                        <StatisticsSidebarItem href="/statistics/words">Words</StatisticsSidebarItem>
                         <StatisticsSidebarItem href="/statistics/cadences">Cadences</StatisticsSidebarItem>
                     </ul>
                 </div>
