@@ -3,8 +3,16 @@ import { computed } from 'vue';
 
 export function useDatasetTransformer(datasets, title) {
 
+    const mainPropKey = '_index';
+
     const headers = computed(() => {
-        return [title, ...datasets.value.map((dataset) => dataset.label)];
+        return [{
+            value: mainPropKey,
+            text: title || null,
+        }, ...datasets.value.map((dataset) => ({
+            value: dataset.label,
+            text: dataset.label,
+        }))];
     });
 
     function normalizeItems(items) {
@@ -29,7 +37,7 @@ export function useDatasetTransformer(datasets, title) {
         return normalizeItems(datasets.value.reduce((accumulator, currentItem) => {
             return currentItem.data.reduce((_, currentDataItem) => {
                 const index = accumulator.findIndex(i => {
-                    return i._index === currentDataItem.x;
+                    return i[mainPropKey] === currentDataItem.x;
                 });
                 if (index >= 0) {
                     const prop = accumulator[index][currentItem.label];
@@ -40,7 +48,7 @@ export function useDatasetTransformer(datasets, title) {
                     }
                 } else {
                     accumulator.push({
-                        _index: currentDataItem.x,
+                        [mainPropKey]: currentDataItem.x,
                         [currentItem.label]: currentDataItem.y,
                     });
                 }
