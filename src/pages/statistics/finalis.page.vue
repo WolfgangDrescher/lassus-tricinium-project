@@ -15,13 +15,13 @@ const props = defineProps(['tricinia']);
 const tricinia = useTricinium(props.tricinia);
 
 const { filteredElements, filter } = useTriciniumFilter(tricinia);
-const { datasets, config, dimension } = useChartGenerator(filteredElements, (tricinium) => tricinium.clefs);
-const { headers, items } = useDatasetTransformer(datasets, 'Clefs');
+const { datasets, config, dimension } = useChartGenerator(filteredElements, (tricinium) => tricinium.finalis);
+const { headers, items } = useDatasetTransformer(datasets, 'Finalis');
 </script>
 
 <template>
     <StatisticsIndexPage>
-        <Heading>Clef statistics</Heading>
+        <Heading>Finalis statistics</Heading>
         <TriciniumFilter :filter="filter" />
         <ChartDimensionSelector v-model="dimension" />
         <Chart :config="config" />
