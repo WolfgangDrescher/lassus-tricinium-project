@@ -21,7 +21,6 @@ const { headers, items } = useDatasetTransformer(datasets, 'Mode');
 <template>
     <StatisticsIndexPage>
         <Heading>Clef statistics</Heading>
-        <TriciniumFilter :filter="filter"></TriciniumFilter>
             <select
                 v-model="dimension"
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -35,6 +34,7 @@ const { headers, items } = useDatasetTransformer(datasets, 'Mode');
             <option value="clefs">clefs</option>
             <option value="finalis">finalis</option>
         </select>
+        <TriciniumFilter :filter="filter" />
         <Chart :config="config" />
         <DataTable :headers="headers" :items="items"></DataTable>
     </StatisticsIndexPage>
