@@ -25,12 +25,10 @@ export function useChartGenerator(elements, filterValue) {
                     const x = filterValue(tricinium);
                     let index = previousValue.findIndex((d) => d.x === x);
                     if (index === -1) {
-                        index =
-                            -1 +
-                            previousValue.push({
-                                x,
-                                y: 0,
-                            });
+                        index = -1 + previousValue.push({
+                            x,
+                            y: 0,
+                        });
                     }
                     previousValue[index].y++;
                     return previousValue;
