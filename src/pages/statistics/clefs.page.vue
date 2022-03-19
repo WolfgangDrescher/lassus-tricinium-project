@@ -4,6 +4,7 @@ import Heading from '../../components/Heading.vue';
 import Chart from '../../components/Chart.vue';
 import TriciniumFilter from '../../components/TriciniumFilter.vue';
 import DataTable from '../../components/DataTable.vue';
+import ChartDimensionSelector from '../../components/ChartDimensionSelector.vue';
 import { useTricinium } from '../../composables/useTricinium.js';
 import { useTriciniumFilter } from '../../composables/useTriciniumFilter.js';
 import { useChartGenerator } from '../../composables/useChartGenerator.js';
@@ -21,20 +22,8 @@ const { headers, items } = useDatasetTransformer(datasets, 'Mode');
 <template>
     <StatisticsIndexPage>
         <Heading>Clef statistics</Heading>
-            <select
-                v-model="dimension"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            >
-            <option value="">all</option>
-            <option value="id">id</option>
-            <option value="title">title</option>
-            <option value="composer">composer</option>
-            <option value="mode">mode</option>
-            <option value="transposed">transposed</option>
-            <option value="clefs">clefs</option>
-            <option value="finalis">finalis</option>
-        </select>
         <TriciniumFilter :filter="filter" />
+        <ChartDimensionSelector v-model="dimension" />
         <Chart :config="config" />
         <DataTable :headers="headers" :items="items"></DataTable>
     </StatisticsIndexPage>
