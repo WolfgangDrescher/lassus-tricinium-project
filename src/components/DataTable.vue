@@ -41,7 +41,7 @@ const fields = computed(() => {
                             <tr v-for="(item, j) in items" :key="j" class="bg-white border-b border-gray-200">
                                 <td v-for="(field, k) in fields" :key="k" class="py-4 px-6 whitespace-nowrap">
                                     <slot :name="`item.${field.value}`" :item="item">
-                                        {{ item[field.value] }}
+                                        {{ `${item[field.value]}` }}
                                     </slot>
                                 </td>
                             </tr>
