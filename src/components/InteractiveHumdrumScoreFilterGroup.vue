@@ -59,8 +59,8 @@ const allFilters = [
 
 const filterOptions = allFilters.map(filter => {
     return {
-        label: filter.name,
-        value: filter.name,
+        label: filter.NAME,
+        value: filter.NAME,
         filter,
     };
 });
