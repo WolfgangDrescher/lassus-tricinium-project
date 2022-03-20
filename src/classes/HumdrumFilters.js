@@ -21,8 +21,8 @@ class Line {
 }
 
 export class HumdrumFilter {
+    static NAME = 'HumdrumFilter';
     id = null;
-    className = null;
     unique = false;
     changeable = false;
     priority = 0;
@@ -30,7 +30,10 @@ export class HumdrumFilter {
 
     constructor() {
         this.id = uuidv4();
-        this.className = this.constructor.name;
+    }
+
+    get className() {
+        return this.constructor.NAME;
     }
 
     addLine(value, prefix) {
@@ -45,6 +48,7 @@ export class HumdrumFilter {
 }
 
 export class ClefFilter extends HumdrumFilter {
+    static NAME = 'ClefFilter';
     unique = true;
     lines = [
         new Line('shed -e "s/^clefC[12]/clefG2/I; s/^clefC[34]/clefGv2/I; s/^clefC5/clefF4/I; s/^clefF[35]/clefF4/I; s/^clefG[13]/clefG2/I"'),
@@ -52,53 +56,63 @@ export class ClefFilter extends HumdrumFilter {
 }
 
 export class MensuralFilter extends HumdrumFilter {
+    static NAME = 'MensuralFilter';
     unique = true;
     priority = -2;
     lines = [new Line('kern2mens')];
 }
 
 export class LyricsFilter extends HumdrumFilter {
+    static NAME = 'LyricsFilter';
     unique = true;
     priority = -1;
     lines = [new Line('extract -I **text')];
 }
 
 export class EditorialAccidentalsFilter extends HumdrumFilter {
+    static NAME = 'EditorialAccidentalsFilter';
     unique = true;
     lines = [new Line("shed -ke 's/i/y/g'")];
 }
 
 export class CompositeRhythmFilter extends HumdrumFilter {
+    static NAME = 'CompositeRhythmFilter';
     unique = true;
     lines = [new Line('composite')];
 }
 
 export class DissonantFilter extends HumdrumFilter {
+    static NAME = 'DissonantFilter';
     unique = true;
     lines = [new Line('dissonant')];
 }
 
 export class AutobeamFilter extends HumdrumFilter {
+    static NAME = 'AutobeamFilter';
     unique = true;
     lines = [new Line('autobeam')];
 }
 
 export class ImitationFilter extends HumdrumFilter {
+    static NAME = 'ImitationFilter';
     unique = true;
     lines = [new Line('imitation')];
 }
 
 export class MelismaFilter extends HumdrumFilter {
+    static NAME = 'MelismaFilter';
     unique = true;
     lines = [new Line('melisma')];
 }
 
 export class SicFilter extends HumdrumFilter {
+    static NAME = 'SicFilter';
     unique = true;
     lines = [new Line('sic -v')];
 }
 
 export class MeasureFilter extends HumdrumFilter {
+    static NAME = 'MeasureFilter';
     unique = true;
     changeable = true;
     constructor(value) {
@@ -118,6 +132,7 @@ export class MeasureFilter extends HumdrumFilter {
 }
 
 export class ExtractFilter extends HumdrumFilter {
+    static NAME = 'ExtractFilter';
     unique = true;
     changeable = true;
     constructor(value) {
@@ -137,6 +152,7 @@ export class ExtractFilter extends HumdrumFilter {
 }
 
 export class CintFilter extends HumdrumFilter {
+    static NAME = 'CintFilter';
     unique = false;
     static chars = createMatchedNoteList();
     static usedChars = [];
@@ -199,6 +215,7 @@ export class CintFilter extends HumdrumFilter {
 }
 
 export class ParallelIntervalsFilter extends CintFilter {
+    static NAME = 'ParallelIntervalsFilter';
     static DIRECTION_UP = 2;
     static DIRECTION_DOWN = -2;
 
@@ -215,6 +232,7 @@ export class ParallelIntervalsFilter extends CintFilter {
 }
 
 export class ShedFilter extends HumdrumFilter {
+    static NAME = 'ShedFilter';
     constructor(value) {
         super()
         this.value = value;
