@@ -46,7 +46,12 @@ export class Tricinium {
     }
 
     get clefs() {
-        return this.tricinium.clefs;
+        const clefs = [
+            this.tricinium.voices?.cantus?.clef,
+            this.tricinium.voices?.tenor?.clef,
+            this.tricinium.voices?.bassus?.clef,
+        ];
+        return clefs.join(', ') || null;
     }
 
     get hasLyrics() {
@@ -54,7 +59,7 @@ export class Tricinium {
     }
 
     lyricsAsString(trimSlash = true, separator = ', ') {
-        return this.lyrics?.map((l) => (trimSlash ? l.text.replace(/\/$/g, '') : l.text)).join(separator) || null;
+        return this.lyrics?.map((l) => (trimSlash ? l.text.replace(/\/$/g, '') : l.text)).join(separator) || '';
     }
 
     getVoiceLyrics(voice) {
@@ -62,6 +67,20 @@ export class Tricinium {
             return this.tricinium.voices[voice]?.lyrics?.replace(/^\s+|\s+$/g, '');
         }
         return null;
+    }
+
+    get normalizedLyrics() {
+        return this.lyricsAsString().replace(/[^\p{Letter}\p{Mark}\s]/gu, '').replace(/\s\s/g, ' ');
+    }
+
+    get wordOccurrenceCount() {
+        const words = {};
+        this.normalizedLyrics.split(' ').forEach(el => {
+            if(el !== '') {
+                words[el] = words[el] ? ++words[el] : 1;
+            }
+        });
+        return Object.fromEntries(Object.entries(words).sort(([, a], [, b]) => b - a));
     }
 
     get vhvHref() {

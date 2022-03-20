@@ -11,6 +11,9 @@ module.exports = {
             colors: {
                 primary: purple,
             },
+            gridTemplateColumns: {
+                filter: 'repeat(auto-fill, minmax(200px, 1fr))',
+            },
         },
         fontFamily: {
             fraktur: "'UnifrakturMaguntia', cursive",

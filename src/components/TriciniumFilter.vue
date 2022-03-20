@@ -1,32 +1,105 @@
 <script setup>
+import InputField from './Form/InputField.vue';
+import Dropdown from './Form/Dropdown.vue';
+
 defineProps({
     filter: {
         type: Object,
         required: true,
     },
 });
+
+const composerOptions = [
+    {
+        value: 'Orlandus Lassus',
+        text: 'Orlandus Lassus',
+    },
+    {
+        value: 'Rudolphus Lassus',
+        text: 'Rudolphus Lassus',
+    },
+]
+
+const modeOptions = [
+    {
+        value: 'ionian',
+        text: 'Ionian',
+    },
+    {
+        value: 'dorian',
+        text: 'Dorian',
+    },
+    {
+        value: 'phrygian',
+        text: 'Phrygian',
+    },
+    {
+        value: 'lydian',
+        text: 'Lydian',
+    },
+    {
+        value: 'mixolydian',
+        text: 'Mixolydian',
+    },
+    {
+        value: 'aeolian',
+        text: 'Aeolian',
+    },
+    {
+        value: 'locrian',
+        text: 'Locrian',
+    },
+]
+
+const transposedOptions = [
+    {
+        value: 'true',
+        text: 'true',
+    },
+    {
+        value: 'false',
+        text: 'false',
+    },
+]
+
+const finalisOptions = [
+    {
+        value: 'c',
+        text: 'c',
+    },
+    {
+        value: 'd',
+        text: 'd',
+    },
+    {
+        value: 'e',
+        text: 'e',
+    },
+    {
+        value: 'f',
+        text: 'f',
+    },
+    {
+        value: 'g',
+        text: 'g',
+    },
+    {
+        value: 'a',
+        text: 'a',
+    },
+    {
+        value: 'h',
+        text: 'h',
+    },
+]
 </script>
 
 <template>
-    {{ filter }}
-    <input
-        v-model="filter.nr"
-        type="text"
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-        placeholder="Search number"
-    />
-    <input
-        v-model="filter.title"
-        type="text"
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-        placeholder="Search in title"
-    />
-    <select
-        v-model="filter.composer"
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-    >
-        <option value="Orlandus Lassus">Orlandus Lassus</option>
-        <option value="Rudolphus Lassus">Rudolphus Lassus</option>
-        <option value="">Both</option>
-    </select>
+    <div class="grid grid-cols-filter gap-4">
+        <InputField v-model="filter.searchText" label="Search text" placeholder="Title, number, lyrics…" />
+        <Dropdown v-model="filter.composer" label="Composer" :options="composerOptions" />
+        <Dropdown v-model="filter.mode" label="Mode" :options="modeOptions" />
+        <Dropdown v-model="filter.transposed" label="Transposed" :options="transposedOptions" />
+        <Dropdown v-model="filter.finalis" label="Finalis" :options="finalisOptions" />
+    </div>
 </template>

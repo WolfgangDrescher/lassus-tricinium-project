@@ -12,10 +12,13 @@ const props = defineProps({
 });
 
 const fields = computed(() => {
+    if (props.headers && props.headers.length) {
+        return props.headers;
+    }
     return props.items.length ? Object.entries(props.items[0]).map(([key, value]) => {
         return {
-            prop: key,
-            name: key.charAt(0).toUpperCase() + key.slice(1),
+            value: key,
+            text: key.charAt(0).toUpperCase() + key.slice(1),
         };
     }) : [];
 });
@@ -30,15 +33,15 @@ const fields = computed(() => {
                         <thead class="bg-gray-50">
                             <tr>
                                 <th v-for="(field, i) in fields" :key="i" scope="col" class="py-3 px-6 text-left border-b border-gray-200">
-                                    {{ field.name }}
+                                    {{ field.text }}
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr v-for="(item, j) in items" :key="j" class="bg-white border-b border-gray-200">
                                 <td v-for="(field, k) in fields" :key="k" class="py-4 px-6 whitespace-nowrap">
-                                    <slot :name="`item.${field.prop}`" :item="item">
-                                        {{ item[field.prop] }}
+                                    <slot :name="`item.${field.value}`" :item="item">
+                                        <span v-text="item[field.value]"></span>
                                     </slot>
                                 </td>
                             </tr>
