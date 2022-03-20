@@ -7,7 +7,7 @@
     "prod": "npm run build && npm run server:prod",
     "build": "vite build && vite build --ssr",
     "server": "node ./server",
-    "server:prod": "cross-env NODE_ENV=production node ./server",
+    "server:prod": "NODE_ENV=production node ./server",
     "preview": "vite preview --port 5050",
     "generate": "npm r vue-verovio-canvas && rm -rf node_modules/.vite && npm i github:WolfgangDrescher/vue-verovio-canvas && rm -rf dist/ && vite build && vite build --ssr && vite-plugin-ssr prerender && npm r vue-verovio-canvas && rm -rf node_modules/.vite && npm i ../../vue-verovio-canvas",
     "prerender": "vite-plugin-ssr prerender",
