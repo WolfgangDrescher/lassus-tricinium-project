@@ -140,7 +140,7 @@ export class ExtractFilter extends HumdrumFilter {
         if (!this.validateValue(value)) {
             throw new Error(`Cannot set "${value}" as value for ${this.className}`);
         }
-        this.value = value
+        this.value = value;
         this.addLine(`extract -f ${value}`);
     }
 
@@ -234,13 +234,14 @@ export class ParallelIntervalsFilter extends CintFilter {
 export class ShedFilter extends HumdrumFilter {
     static NAME = 'ShedFilter';
     constructor(value) {
-        super()
+        super();
         this.value = value;
         this.addLine(`shed ${value}`);
     }
 }
 
 export class TransposeFilter extends HumdrumFilter {
+    static NAME = 'TransposeFilter';
     static MODE_KEY = '-k';
     static MODE_INTERVAL = '-t';
 
@@ -274,7 +275,7 @@ export class TransposeFilter extends HumdrumFilter {
         if (mode === TransposeFilter.MODE_INTERVAL) {
             return /^-?([mM][2367]|[PdA][1458])$/.test(value);
         }
-            
+
         return false;
     }
 }
