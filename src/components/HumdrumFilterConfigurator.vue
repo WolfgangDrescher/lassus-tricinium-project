@@ -2,7 +2,6 @@
 import { defineComponent, reactive, h } from 'vue';
 import Button from './Button.vue';
 import InputField from './Form/InputField.vue';
-import { ColorPicker } from 'vue-color-kit';
 
 const props = defineProps({
     filter: String,
