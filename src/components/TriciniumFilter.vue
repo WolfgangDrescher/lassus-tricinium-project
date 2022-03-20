@@ -96,7 +96,7 @@ const finalisOptions = [
 
 <template>
     <div class="grid grid-cols-filter gap-4">
-        <InputField v-model="filter.searchText" label="Search text" placeholder="Search in title, number and lyrics…" />
+        <InputField v-model="filter.searchText" label="Search text" placeholder="Title, number, lyrics…" />
         <Dropdown v-model="filter.composer" label="Composer" :options="composerOptions" />
         <Dropdown v-model="filter.mode" label="Mode" :options="modeOptions" />
         <Dropdown v-model="filter.transposed" label="Transposed" :options="transposedOptions" />
