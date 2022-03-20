@@ -75,7 +75,6 @@ function addFilter(filter) {
 
 function applyFilter(args) {
     const item = filterOptions.find(f => selectedFilter.value === f.value)
-    console.log(item);
     try {
         addFilter(new item.filter(...(args || [])));
     } catch (e) {
