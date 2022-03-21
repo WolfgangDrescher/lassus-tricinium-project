@@ -1,4 +1,4 @@
-import { computed, readonly } from 'vue';
+import { computed } from 'vue';
 import { useFilterStore } from '../stores/filter';
 
 const filterByComposer = (composer, element) => {
@@ -79,6 +79,6 @@ export function useTriciniumFilter(elements) {
     });
 
     return {
-        filteredElements: readonly(filteredElements),
+        filteredElements: filteredElements,
     };
 }
