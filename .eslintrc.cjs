@@ -7,5 +7,24 @@ module.exports = {
     extends: ['plugin:vue/vue3-essential', 'eslint:recommended'],
     env: {
         'vue/setup-compiler-macros': true,
+        node: true,
+    },
+    rules: {
+        indent: ['error', 4, {
+            SwitchCase: 1,
+        }],
+        'comma-dangle': ['error', 'always-multiline'],
+        semi: [2, 'always'],
+        quotes: [2, 'single'],
+        'no-console': 'off',
+        'no-unused-vars': 'off',
+        'vue/max-attributes-per-line': ['error', {
+            singleline: {
+                max: 20,
+            },
+            multiline: {
+                max: 1,
+            },
+        }],
     },
 };
