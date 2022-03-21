@@ -33,7 +33,9 @@ const verovioOptions = computed(() => {
 });
 
 onMounted(() => {
-    emit('mounted');
+    emit('mounted', {
+        callVerovioMethod: verovioCanvas.value.callVerovioMethod,
+    });
 });
 
 function addFilterEvent(filter) {
