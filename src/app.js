@@ -15,7 +15,7 @@ function createApp(pageContext) {
                     default() {
                         return h(Page, pageProps || {});
                     },
-                }
+                },
             );
         },
     };

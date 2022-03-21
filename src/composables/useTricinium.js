@@ -1,5 +1,3 @@
-import { computed } from 'vue';
-
 export class Tricinium {
     constructor(tricinium) {
         this.tricinium = tricinium;
@@ -59,11 +57,11 @@ export class Tricinium {
     }
 
     lyricsAsString(trimSlash = true, separator = ', ') {
-        return this.lyrics?.map((l) => (trimSlash ? l.text.replace(/\/$/g, '') : l.text)).join(separator) || '';
+        return this.lyrics?.map(l => (trimSlash ? l.text.replace(/\/$/g, '') : l.text)).join(separator) || '';
     }
 
     getVoiceLyrics(voice) {
-        if(this.tricinium.voices) {
+        if (this.tricinium.voices) {
             return this.tricinium.voices[voice]?.lyrics?.replace(/^\s+|\s+$/g, '');
         }
         return null;
@@ -76,7 +74,7 @@ export class Tricinium {
     get wordOccurrenceCount() {
         const words = {};
         this.normalizedLyrics.split(' ').forEach(el => {
-            if(el !== '') {
+            if (el !== '') {
                 words[el] = words[el] ? ++words[el] : 1;
             }
         });
@@ -90,7 +88,7 @@ export class Tricinium {
 
 export function useTricinium(elements) {
     if (Array.isArray(elements)) {
-        return elements.map((t) => new Tricinium(t))
+        return elements.map(t => new Tricinium(t));
     } else if (typeof elements === 'object' && elements !== null) {
         return new Tricinium(elements);
     }

@@ -45,7 +45,7 @@ function toggleDropdown() {
 }
 
 function closeDropdown() {
-    if(!isOpen.value) return;
+    if (!isOpen.value) return;
     isOpen.value = false;
 }
 
@@ -59,7 +59,7 @@ function toggleOption(value) {
     } else {
         emit('update:modelValue', value);
     }
-};
+}
 
 function removeOption(value) {
     if(props.multiple) {
@@ -67,29 +67,28 @@ function removeOption(value) {
     } else {
         emit('update:modelValue', null);
     }
-};
+}
 
 const getOptionTextFromValue = computed(() => {
-    return (value) => props.options.find(o => o.value === value)?.text;
+    return value => props.options.find(o => o.value === value)?.text;
 });
 
 const optionIsSelected = computed(() => {
-    if(props.multiple) {
-        return (value) => props.modelValue.includes(value);
+    if (props.multiple) {
+        return value => props.modelValue.includes(value);
     } else {
-        return (value) => props.modelValue === value;
+        return value => props.modelValue === value;
     }
 });
 
 const filteredOptions = computed(() => {
-    if(searchString.value.length && props.searchEnabled) {
+    if (searchString.value.length && props.searchEnabled) {
         return props.options.filter(o => {
-            return o.value.toLowerCase().includes(searchString.value.toLowerCase()) || o.text.toLowerCase().includes(searchString.value.toLowerCase());
+            return o.value?.toLowerCase().includes(searchString.value.toLowerCase()) || o.text?.toLowerCase().includes(searchString.value.toLowerCase());
         });
     }
     return props.options;
 });
-
 </script>
 
 <template>
@@ -128,6 +127,6 @@ const filteredOptions = computed(() => {
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
     </FormLabel>
 </template>

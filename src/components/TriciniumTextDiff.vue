@@ -2,7 +2,7 @@
 import { computed, reactive, ref, watchEffect } from 'vue';
 import { Tricinium } from '../composables/useTricinium';
 import TextDiff from './TextDiff.vue';
-import { useDiffToGitDiff } from '../composables/useDiffToGitDiff.js'
+import { useDiffToGitDiff } from '../composables/useDiffToGitDiff.js';
 import Dropdown from './Form/Dropdown.vue';
 
 const props = defineProps({
@@ -26,26 +26,26 @@ watchEffect(() => {
 const voiceOptions = [
     {
         value: 'cantus',
-        label: 'Cantus',
+        text: 'Cantus',
     },
     {
         value: 'tenor',
-        label: 'Tenor',
+        text: 'Tenor',
     },
     {
         value: 'bassus',
-        label: 'Bassus',
+        text: 'Bassus',
     },
 ];
 
 const diffOutputFormatOptions = [
     {
         value: 'line-by-line',
-        label: 'Line by line',
+        text: 'Line by line',
     },
     {
         value: 'side-by-side',
-        label: 'Side by side',
+        text: 'Side by side',
     },
 ];
 

@@ -1,13 +1,11 @@
 import { ref, computed, readonly } from 'vue';
 
-
-export function useHumdrumScoreFormatter(data,) {
-
+export function useHumdrumScoreFormatter(data) {
     const filters = ref([]);
 
     function addFilter(filter) {
         if (filter.unique) {
-            const matchedFilter = filters.value.find((f) => f.className === filter.className);
+            const matchedFilter = filters.value.find(f => f.className === filter.className);
             if (matchedFilter && filter.changeable) {
                 removeFilter(matchedFilter.id);
             } else if (matchedFilter) {
@@ -19,7 +17,7 @@ export function useHumdrumScoreFormatter(data,) {
 
     function removeFilter(filterId) {
         const filter = filters.value.find(f => f.id === filterId);
-        if(filter) {
+        if (filter) {
             filter.beforeRemove();
         }
         filters.value = filters.value.filter(f => f.id !== filterId);
@@ -29,7 +27,7 @@ export function useHumdrumScoreFormatter(data,) {
         const sortedFilters = [...filters.value].sort((a, b) => {
             return a.priority > b.priority ? -1 : 1;
         });
-        return sortedFilters.map((f) => f.toString()).join('\n');
+        return sortedFilters.map(f => f.toString()).join('\n');
     });
 
     const formattedScoreData = computed(() => {

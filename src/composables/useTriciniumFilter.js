@@ -41,7 +41,6 @@ const filterBySearchText = (searchText, element) => {
 };
 
 export function useTriciniumFilter(elements) {
-
     const filter = reactive({
         composer: null,
         title: null,
@@ -55,7 +54,7 @@ export function useTriciniumFilter(elements) {
     });
 
     const filteredElements = computed(() => {
-        const filteredElements = elements.filter((element) => {
+        const filteredElements = elements.filter(element => {
             const composerMatches = filterByComposer(filter.composer, element);
             const titleMatches = filterByTitle(filter.title, element);
             const lyricsMatches = filterByLyrics(filter.lyrics, element);

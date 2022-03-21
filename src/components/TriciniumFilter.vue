@@ -18,7 +18,7 @@ const composerOptions = [
         value: 'Rudolphus Lassus',
         text: 'Rudolphus Lassus',
     },
-]
+];
 
 const modeOptions = [
     {
@@ -49,7 +49,7 @@ const modeOptions = [
         value: 'locrian',
         text: 'Locrian',
     },
-]
+];
 
 const transposedOptions = [
     {
@@ -60,7 +60,7 @@ const transposedOptions = [
         value: 'false',
         text: 'false',
     },
-]
+];
 
 const finalisOptions = [
     {
@@ -91,7 +91,7 @@ const finalisOptions = [
         value: 'h',
         text: 'h',
     },
-]
+];
 </script>
 
 <template>

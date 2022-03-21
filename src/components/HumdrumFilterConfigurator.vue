@@ -29,48 +29,59 @@ const DynamicHumdrumFilter = defineComponent({
     setup(props) {
         return () => {
             console.log(props.filter);
-            switch(props.filter) {
+            let elems = ['No arguments to set'];
+            switch (props.filter) {
                 case 'MeasureFilter':
                 case 'ExtractFilter':
                 case 'ShedFilter':
-                    return h(InputField, {
-                        onInput: event => { args.value = event.target.value },
+                    elems = [h(InputField, {
+                        onInput: event => { args.value = event.target.value; },
                         // label: 'value',
                         placeholder: 'Value',
-                    });
+                    })];
+                    break;
                 case 'ParallelIntervalsFilter':
-                    return h('div', {}, [
+                    elems = [
                         h(InputField, {
-                            onInput: event => { args.value = event.target.value },
+                            onInput: event => { args.value = event.target.value; },
                             // label: 'Interval',
                             placeholder: 'Interval',
                         }),
                         h(InputField, {
-                            onInput: event => { args.direction = event.target.value },
+                            onInput: event => { args.direction = event.target.value; },
                             // label: 'Direction',
-                            placeholder: 'Direction',
+                            placeholder: 'Direction (2/-2)',
                         }),
                         h(InputField, {
-                            onInput: event => { args.color = event.target.value },
+                            onInput: event => { args.color = event.target.value; },
                             // label: 'Color',
                             placeholder: 'Color',
-                        })
-                    ]);
+                        }),
+                    ];
+                    break;
                 case 'TransposeFilter':
-                    return h('div', {}, [
+                    elems = [
                         h(InputField, {
-                            onInput: event => { args.mode = event.target.value },
+                            onInput: event => { args.mode = event.target.value; },
                             // label: 'Mode',
                             placeholder: 'Mode (-k / -t)',
                         }),
                         h(InputField, {
-                            onInput: event => { args.value = event.target.value },
+                            onInput: event => { args.value = event.target.value; },
                             // label: 'Value',
                             placeholder: 'Value (c,d,e,f,g; M3 P5)',
                         }),
-                    ]);
+                    ];
+                    break;
             }
-            return h('div', 'No arguments to set');
+            return h('div', {
+                class: 'grid grid-cols-filter gap-4 w-full',
+            }, [
+                ...elems,
+                h(Button, {
+                    onClick: applyFilter,
+                }, 'Apply'),
+            ]);
         };
     },
 });
@@ -78,10 +89,5 @@ const DynamicHumdrumFilter = defineComponent({
 </script>
 
 <template>
-    <div class="flex items-center">
-        <DynamicHumdrumFilter :filter="filter" />
-        <div class="ml-auto">
-            <Button @click="applyFilter">Apply</Button>
-        </div>
-    </div>
+    <DynamicHumdrumFilter :filter="filter" />
 </template>

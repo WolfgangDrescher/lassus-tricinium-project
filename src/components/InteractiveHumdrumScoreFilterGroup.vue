@@ -25,7 +25,7 @@ import HumdrumFilterConfigurator from './HumdrumFilterConfigurator.vue';
 
 defineProps({
     filters: Array,
-})
+});
 const emit = defineEmits(['addFilter', 'removeFilter']);
 
 const selectedFilter = ref(null);
@@ -46,11 +46,11 @@ const allFilters = [
     ShedFilter,
     SicFilter,
     TransposeFilter,
-]
+];
 
 const filterOptions = allFilters.map(filter => {
     return {
-        label: filter.NAME,
+        text: filter.NAME,
         value: filter.NAME,
         filter,
     };
@@ -65,7 +65,7 @@ function addFilter(filter) {
 }
 
 function applyFilter(args) {
-    const item = filterOptions.find(f => selectedFilter.value === f.value)
+    const item = filterOptions.find(f => selectedFilter.value === f.value);
     try {
         addFilter(new item.filter(...(args || [])));
     } catch (e) {
@@ -75,16 +75,16 @@ function applyFilter(args) {
 </script>
 
 <template>
-
-    <div class="grid grid-cols-2 gap-4 my-4">
+    <div class="grid grid-cols-4 gap-4 my-4">
         <Dropdown v-model="selectedFilter" :options="filterOptions" />
-        <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilter"></HumdrumFilterConfigurator>
+        <div class="col-span-3">
+            <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilter"></HumdrumFilterConfigurator>
+        </div>
     </div>
 
     <BadgeGroup>
-        <Badge v-for="filter in filters" :key="filter.id">
+        <Badge v-for="filter in filters" :key="filter.id" :removable="true" @remove="removeFilter(filter.id)">
             {{ filter.className }}
-            <button @click="removeFilter(filter.id)">remove</button>    
         </Badge>
     </BadgeGroup>
 </template>
