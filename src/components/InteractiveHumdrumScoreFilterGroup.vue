@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue';
-import Button from './Button.vue';
 import {
     ClefFilter,
     MensuralFilter,
