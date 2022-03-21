@@ -8,7 +8,7 @@ import Button from './Button.vue';
 const filter = useFilterStore();
 
 function updateStore(prop, value) {
-    filter.updateFilter(prop, value);
+    filter.update(prop, value);
 }
 
 function resetFilter() {
