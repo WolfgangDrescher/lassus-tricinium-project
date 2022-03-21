@@ -2,11 +2,10 @@ import { renderToString } from '@vue/server-renderer';
 import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr';
 import { createApp } from '../app';
 
-export { render };
 // See https://vite-plugin-ssr.com/data-fetching
 export const passToClient = ['pageProps', 'urlPathname'];
 
-async function render(pageContext) {
+export async function render(pageContext) {
     const app = createApp(pageContext);
     const appHtml = await renderToString(app);
 
