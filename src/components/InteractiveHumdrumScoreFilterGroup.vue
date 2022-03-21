@@ -84,9 +84,8 @@ function applyFilter(args) {
     </div>
 
     <BadgeGroup>
-        <Badge v-for="filter in filters" :key="filter.id">
+        <Badge v-for="filter in filters" :key="filter.id" :removable="true" @remove="removeFilter(filter.id)">
             {{ filter.className }}
-            <button @click="removeFilter(filter.id)">remove</button>    
         </Badge>
     </BadgeGroup>
 </template>
