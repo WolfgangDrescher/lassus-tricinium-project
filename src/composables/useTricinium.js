@@ -74,7 +74,7 @@ export class Tricinium {
     get wordOccurrenceCount() {
         const words = {};
         this.normalizedLyrics.split(' ').forEach(el => {
-            if(el !== '') {
+            if (el !== '') {
                 words[el] = words[el] ? ++words[el] : 1;
             }
         });

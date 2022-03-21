@@ -65,7 +65,7 @@ function addFilter(filter) {
 }
 
 function applyFilter(args) {
-    const item = filterOptions.find(f => selectedFilter.value === f.value)
+    const item = filterOptions.find(f => selectedFilter.value === f.value);
     try {
         addFilter(new item.filter(...(args || [])));
     } catch (e) {
@@ -75,7 +75,6 @@ function applyFilter(args) {
 </script>
 
 <template>
-
     <div class="grid grid-cols-4 gap-4 my-4">
         <Dropdown v-model="selectedFilter" :options="filterOptions" />
         <div class="col-span-3">
