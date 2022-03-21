@@ -103,11 +103,11 @@ const finalisOptions = [
 <template>
     <ClientOnly>
         <div class="grid grid-cols-filter gap-4">
-            <InputField v-model="filter.searchText" :modelvalue="filter.searchText" @updatemodelValue="updateStore('searchText', $event)" label="Search text" placeholder="Title, number, lyrics…" />
-            <Dropdown v-model="filter.composer" :modelvalue="filter.composer" @updatemodelValue="updateStore('composer', $event)" label="Composer" :options="composerOptions" />
-            <Dropdown v-model="filter.mode" :modelvalue="filter.mode" @updatemodelValue="updateStore('mode', $event)" label="Mode" :options="modeOptions" />
-            <Dropdown v-model="filter.transposed" :modelvalue="filter.transposed" @updatemodelValue="updateStore('transposed', $event)" label="Transposed" :options="transposedOptions" />
-            <Dropdown v-model="filter.finalis" :modelvalue="filter.finalis" @updatemodelValue="updateStore('finalis', $event)" label="Finalis" :options="finalisOptions" />
+            <InputField :model-value="filter.searchText" @update:model-value="updateStore('searchText', $event)" label="Search text" placeholder="Title, number, lyrics…" />
+            <Dropdown :model-value="filter.composer" @update:model-value="updateStore('composer', $event)" label="Composer" :options="composerOptions" />
+            <Dropdown :model-value="filter.mode" @update:model-value="updateStore('mode', $event)" label="Mode" :options="modeOptions" />
+            <Dropdown :model-value="filter.transposed" @update:model-value="updateStore('transposed', $event)" label="Transposed" :options="transposedOptions" />
+            <Dropdown :model-value="filter.finalis" @update:model-value="updateStore('finalis', $event)" label="Finalis" :options="finalisOptions" />
             <Button @click="resetFilter">Reset</Button>
         </div>
     </ClientOnly>
