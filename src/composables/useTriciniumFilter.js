@@ -1,4 +1,5 @@
-import { computed, reactive, readonly } from 'vue';
+import { computed, readonly } from 'vue';
+import { useFilterStore } from '../stores/filter';
 
 const filterByComposer = (composer, element) => {
     if (!composer) return true;
@@ -41,17 +42,8 @@ const filterBySearchText = (searchText, element) => {
 };
 
 export function useTriciniumFilter(elements) {
-    const filter = reactive({
-        composer: null,
-        title: null,
-        lyrics: null,
-        nr: null,
-        mode: null,
-        transposed: null,
-        finalis: null,
-        clefs: null,
-        searchText: null,
-    });
+
+    const filter = useFilterStore();
 
     const filteredElements = computed(() => {
         const filteredElements = elements.filter(element => {
@@ -88,6 +80,5 @@ export function useTriciniumFilter(elements) {
 
     return {
         filteredElements: readonly(filteredElements),
-        filter: filter,
     };
 }
