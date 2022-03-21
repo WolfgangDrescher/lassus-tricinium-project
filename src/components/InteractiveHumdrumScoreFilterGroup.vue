@@ -76,9 +76,11 @@ function applyFilter(args) {
 
 <template>
 
-    <div class="grid grid-cols-2 gap-4 my-4">
+    <div class="grid grid-cols-4 gap-4 my-4">
         <Dropdown v-model="selectedFilter" :options="filterOptions" />
-        <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilter"></HumdrumFilterConfigurator>
+        <div class="col-span-3">
+            <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilter"></HumdrumFilterConfigurator>
+        </div>
     </div>
 
     <BadgeGroup>
