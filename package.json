@@ -32,6 +32,7 @@
     "vue-verovio-canvas": "file:../../vue-verovio-canvas"
   },
   "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
     "@rushstack/eslint-patch": "^1.1.0",
     "@vitejs/plugin-vue": "^2.1.0",
     "@vue/eslint-config-prettier": "^7.0.0",
