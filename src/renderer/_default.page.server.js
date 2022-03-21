@@ -3,7 +3,7 @@ import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr';
 import { createApp } from '../app';
 
 // See https://vite-plugin-ssr.com/data-fetching
-export const passToClient = ['pageProps', 'urlPathname'];
+export const passToClient = ['pageProps', 'urlPathname', 'locale'];
 
 export async function render(pageContext) {
     const app = createApp(pageContext);
