@@ -15,7 +15,7 @@ export const useFilterStore = defineStore('filter', {
         searchText: null,
     }),
     actions: {
-        updateFilter(prop, value) {
+        update(prop, value) {
             this[prop] = value;
         },
     },
