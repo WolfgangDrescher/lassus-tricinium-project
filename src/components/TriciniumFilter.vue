@@ -12,8 +12,7 @@ function updateStore(prop, value) {
 }
 
 function resetFilter() {
-    filter.$reset();
-    console.log('resetFilter');
+    filter.reset();
 }
 
 const composerOptions = [
