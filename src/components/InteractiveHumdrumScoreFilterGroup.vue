@@ -50,7 +50,7 @@ const allFilters = [
 
 const filterOptions = allFilters.map(filter => {
     return {
-        label: filter.NAME,
+        text: filter.NAME,
         value: filter.NAME,
         filter,
     };
