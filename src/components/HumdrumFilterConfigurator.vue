@@ -28,7 +28,6 @@ const DynamicHumdrumFilter = defineComponent({
     props: ['filter'],
     setup(props) {
         return () => {
-            console.log(props.filter);
             let elems = ['No arguments to set'];
             switch (props.filter) {
                 case 'MeasureFilter':
