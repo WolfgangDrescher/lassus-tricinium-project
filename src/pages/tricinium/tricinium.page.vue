@@ -48,7 +48,7 @@ function addMeasureFilter(value) {
     <ClientOnly>
         <MidiPlayer :url="audioDataUrl" />
         <Suspense>
-            <InteractiveHumdrumScore :url="tricinium.rawFile" @mounted="interactiveHumdrumScoreMounted" />
+            <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.rawFile" @mounted="interactiveHumdrumScoreMounted" />
         </Suspense>
     </ClientOnly>
     <!-- <pre v-text="tricinium" class="w-full overflow-y-auto"></pre> -->
