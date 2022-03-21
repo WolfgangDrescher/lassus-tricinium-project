@@ -6,7 +6,7 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
     const chartOptions = useChartStore();
 
     const { dimension } = storeToRefs(chartOptions);
-    
+
     const elementsGroupedByDimension = computed(() => {
         return elements.value.reduce((previousValue, tricinium) => {
             let index = previousValue.findIndex((d) => d.label === (dimension.value ? tricinium[dimension.value] : 'All'));
