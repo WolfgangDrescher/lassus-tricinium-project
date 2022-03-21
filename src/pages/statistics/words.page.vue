@@ -19,7 +19,7 @@ const { datasets, config, dimension } = useChartGenerator(
     filteredElements,
     tricinium => tricinium.normalizedLyrics.split(' '),
     (a, b) => b.y - a.y,
-    10
+    10,
 );
 const { headers, items } = useDatasetTransformer(datasets, 'Word');
 </script>

@@ -55,9 +55,9 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
     });
 
     const orderedDatasets = computed(() => {
-       return datasets.value.map(dataset => {
+        return datasets.value.map(dataset => {
             return {...dataset, ...{
-                data: dataset.data.sort(compareFunction).slice(0, maxDatasetLength || dataset.data.length)
+                data: dataset.data.sort(compareFunction).slice(0, maxDatasetLength || dataset.data.length),
             }};
         });
     });
