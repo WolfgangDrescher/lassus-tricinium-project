@@ -21,12 +21,6 @@ const { hydrationPromise } = useClientRouter({
         }
         // document.title = getPageTitle(pageContext);
     },
-
-    // If `ensureHydration: true` then `vite-plugin-ssr` ensures that the first render is always
-    // a hydration. (In other words, the hydration process is never interrupted — even if the
-    // user clicks on a link before the hydration started. Default value: `false`.)
-    // If we use Vue, we need `ensureHydration: true` to avoid "Hydration Mismatch" errors.
-    // If we use React, we can leave `ensureHydration: false` for a slight performance improvement.
     ensureHydration: true,
     prefetchLinks: true,
 });
