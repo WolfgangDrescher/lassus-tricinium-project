@@ -38,7 +38,7 @@ function addMeasureFilter(value) {
 <template>
     <Heading>Tricinium</Heading>
     <DataTable :items="tricinium.lyrics?.map((l, i) => ({ '#': i + 1, ...l })) || []">
-        <template #item.measures="{ item }">
+        <template #[`item.measures`]="{ item }">
             <HyperLink href="#0" @click="addMeasureFilter(item.measures)">
                 {{ item.measures }}
             </HyperLink>
