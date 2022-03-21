@@ -26,26 +26,26 @@ watchEffect(() => {
 const voiceOptions = [
     {
         value: 'cantus',
-        label: 'Cantus',
+        text: 'Cantus',
     },
     {
         value: 'tenor',
-        label: 'Tenor',
+        text: 'Tenor',
     },
     {
         value: 'bassus',
-        label: 'Bassus',
+        text: 'Bassus',
     },
 ];
 
 const diffOutputFormatOptions = [
     {
         value: 'line-by-line',
-        label: 'Line by line',
+        text: 'Line by line',
     },
     {
         value: 'side-by-side',
-        label: 'Side by side',
+        text: 'Side by side',
     },
 ];
 
