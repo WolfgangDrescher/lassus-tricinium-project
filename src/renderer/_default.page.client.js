@@ -29,20 +29,4 @@ const { hydrationPromise } = useClientRouter({
     // If we use React, we can leave `ensureHydration: false` for a slight performance improvement.
     ensureHydration: true,
     prefetchLinks: true,
-    onTransitionStart,
-    onTransitionEnd,
 });
-
-hydrationPromise.then(() => {
-    console.log('Hydration finished; page is now interactive.');
-});
-
-function onTransitionStart() {
-    console.log('Page transition start');
-    document.body.classList.add('page-transition');
-}
-
-function onTransitionEnd() {
-    console.log('Page transition end');
-    document.body.classList.remove('page-transition');
-}
