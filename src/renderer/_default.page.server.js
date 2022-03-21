@@ -35,3 +35,27 @@ export async function render(pageContext) {
         },
     };
 }
+
+export function onBeforePrerender(globalContext) {
+    const prerenderPageContexts = [];
+    globalContext.prerenderPageContexts.forEach((pageContext) => {
+        prerenderPageContexts.push({
+            ...pageContext,
+            locale: localeDefault,
+        });
+        locales
+            .filter((locale) => locale !== localeDefault)
+            .forEach((locale) => {
+                prerenderPageContexts.push({
+                    ...pageContext,
+                    url: `/${locale}${pageContext.url}`,
+                    locale,
+                });
+            });
+    });
+    return {
+        globalContext: {
+            prerenderPageContexts,
+        },
+    };
+}
