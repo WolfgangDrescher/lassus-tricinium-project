@@ -57,7 +57,7 @@ export class Tricinium {
     }
 
     lyricsAsString(trimSlash = true, separator = ', ') {
-        return this.lyrics?.map((l) => (trimSlash ? l.text.replace(/\/$/g, '') : l.text)).join(separator) || '';
+        return this.lyrics?.map(l => (trimSlash ? l.text.replace(/\/$/g, '') : l.text)).join(separator) || '';
     }
 
     getVoiceLyrics(voice) {
@@ -88,7 +88,7 @@ export class Tricinium {
 
 export function useTricinium(elements) {
     if (Array.isArray(elements)) {
-        return elements.map((t) => new Tricinium(t));
+        return elements.map(t => new Tricinium(t));
     } else if (typeof elements === 'object' && elements !== null) {
         return new Tricinium(elements);
     }

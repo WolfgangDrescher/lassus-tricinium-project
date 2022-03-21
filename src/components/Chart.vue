@@ -31,7 +31,7 @@ const colorizedConfig = computed(() => {
     };
 });
 
-watch(colorizedConfig, (value) => {
+watch(colorizedConfig, value => {
     clearTimeout(chartTimeout);
     chartTimeout = setTimeout(() => {
         chart.data.datasets = value.data.datasets;

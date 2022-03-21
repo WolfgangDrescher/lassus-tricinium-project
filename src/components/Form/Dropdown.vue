@@ -70,14 +70,14 @@ function removeOption(value) {
 }
 
 const getOptionTextFromValue = computed(() => {
-    return (value) => props.options.find(o => o.value === value)?.text;
+    return value => props.options.find(o => o.value === value)?.text;
 });
 
 const optionIsSelected = computed(() => {
     if (props.multiple) {
-        return (value) => props.modelValue.includes(value);
+        return value => props.modelValue.includes(value);
     } else {
-        return (value) => props.modelValue === value;
+        return value => props.modelValue === value;
     }
 });
 

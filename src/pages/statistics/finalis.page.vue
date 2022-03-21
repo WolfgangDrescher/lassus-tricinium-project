@@ -15,7 +15,7 @@ const props = defineProps(['tricinia']);
 const tricinia = useTricinium(props.tricinia);
 
 const { filteredElements, filter } = useTriciniumFilter(tricinia);
-const { datasets, config, dimension } = useChartGenerator(filteredElements, (tricinium) => tricinium.finalis);
+const { datasets, config, dimension } = useChartGenerator(filteredElements, tricinium => tricinium.finalis);
 const { headers, items } = useDatasetTransformer(datasets, 'Finalis');
 </script>
 

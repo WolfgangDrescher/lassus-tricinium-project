@@ -18,15 +18,15 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
     });
 
     const datasets = computed(() => {
-        return elementsGroupedByDimension.value.map((dataset) => {
+        return elementsGroupedByDimension.value.map(dataset => {
             return {
                 ...dataset,
                 data: dataset.data.reduce((previousValue, tricinium) => {
                     const x = filterValue(tricinium);
                     if (Array.isArray(x)) {
-                        x.forEach((item) => {
+                        x.forEach(item => {
                             if (item) {
-                                let index = previousValue.findIndex((d) => d.x === item);
+                                let index = previousValue.findIndex(d => d.x === item);
                                 if (index === -1) {
                                     index = -1 + previousValue.push({
                                         x: item,
@@ -38,7 +38,7 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
                         });
                     } else {
                         if (x) {
-                            let index = previousValue.findIndex((d) => d.x === x);
+                            let index = previousValue.findIndex(d => d.x === x);
                             if (index === -1) {
                                 index = -1 + previousValue.push({
                                     x,
