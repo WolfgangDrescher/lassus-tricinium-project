@@ -14,7 +14,7 @@ const props = defineProps(['tricinia']);
 
 const tricinia = useTricinium(props.tricinia);
 
-const { filteredElements, filter } = useTriciniumFilter(tricinia);
+const { filteredElements } = useTriciniumFilter(tricinia);
 const { datasets, config, dimension } = useChartGenerator(filteredElements, tricinium => tricinium.transposed);
 const { headers, items } = useDatasetTransformer(datasets, 'Transposition');
 </script>
@@ -22,7 +22,7 @@ const { headers, items } = useDatasetTransformer(datasets, 'Transposition');
 <template>
     <StatisticsIndexPage>
         <Heading>Transposition statistics</Heading>
-        <TriciniumFilter :filter="filter" />
+        <TriciniumFilter />
         <ChartDimensionSelector v-model="dimension" />
         <Chart :config="config" />
         <DataTable :headers="headers" :items="items"></DataTable>

@@ -1,7 +1,11 @@
+import { storeToRefs } from 'pinia';
 import { computed, ref } from 'vue';
+import { useChartStore } from '../stores/chart';
 
 export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength) {
-    const dimension = ref('composer');
+    const chartOptions = useChartStore();
+
+    const { dimension } = storeToRefs(chartOptions);
 
     const elementsGroupedByDimension = computed(() => {
         return elements.value.reduce((previousValue, tricinium) => {

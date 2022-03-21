@@ -24,7 +24,6 @@ Promise.all([midiPlayerIsReady.promise, soundFrontIsReady.promise]).then(() => {
     isLoading.value = false;
 });
 
-
 watch(() => props.url, (value) => {
     midiPlayer.loadDataUri(value);
 });

@@ -1,13 +1,19 @@
 <script setup>
+import ClientOnly from './ClientOnly.js';
 import InputField from './Form/InputField.vue';
 import Dropdown from './Form/Dropdown.vue';
+import { useFilterStore } from '../stores/filter';
+import Button from './Button.vue';
 
-defineProps({
-    filter: {
-        type: Object,
-        required: true,
-    },
-});
+const filter = useFilterStore();
+
+function updateFilter(prop, value) {
+    filter.update(prop, value);
+}
+
+function resetFilter() {
+    filter.reset();
+}
 
 const composerOptions = [
     {
@@ -95,11 +101,14 @@ const finalisOptions = [
 </script>
 
 <template>
-    <div class="grid grid-cols-filter gap-4">
-        <InputField v-model="filter.searchText" label="Search text" placeholder="Title, number, lyrics…" />
-        <Dropdown v-model="filter.composer" label="Composer" :options="composerOptions" />
-        <Dropdown v-model="filter.mode" label="Mode" :options="modeOptions" />
-        <Dropdown v-model="filter.transposed" label="Transposed" :options="transposedOptions" />
-        <Dropdown v-model="filter.finalis" label="Finalis" :options="finalisOptions" />
-    </div>
+    <ClientOnly>
+        <div class="grid grid-cols-filter gap-4">
+            <InputField :model-value="filter.searchText" @update:model-value="updateFilter('searchText', $event)" label="Search text" placeholder="Title, number, lyrics…" />
+            <Dropdown :model-value="filter.composer" @update:model-value="updateFilter('composer', $event)" label="Composer" :options="composerOptions" />
+            <Dropdown :model-value="filter.mode" @update:model-value="updateFilter('mode', $event)" label="Mode" :options="modeOptions" />
+            <Dropdown :model-value="filter.transposed" @update:model-value="updateFilter('transposed', $event)" label="Transposed" :options="transposedOptions" />
+            <Dropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" label="Finalis" :options="finalisOptions" />
+            <Button @click="resetFilter">Reset</Button>
+        </div>
+    </ClientOnly>
 </template>

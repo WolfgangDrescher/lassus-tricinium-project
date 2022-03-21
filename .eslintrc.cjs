@@ -18,6 +18,10 @@ module.exports = {
         quotes: [2, 'single'],
         'no-console': 'off',
         'no-unused-vars': 'off',
+        'no-trailing-spaces': 'error',
+        'no-multiple-empty-lines': ['error', {
+            max: 1,
+        }],
         'vue/max-attributes-per-line': ['error', {
             singleline: {
                 max: 20,
