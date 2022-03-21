@@ -1,16 +1,22 @@
-import { ref } from 'vue';
 import { defineStore } from 'pinia';
 import { useLocalStorage } from '@vueuse/core';
 
 
-export const useFilterStore = defineStore('filter', () => {
-    const filters = ref(useLocalStorage('vueUseFilter', {
-        a: null,
-        b: null,
-        c: null,
-    }));
-
-    return {
-        filters,
-    };
+export const useFilterStore = defineStore('filter', {
+    state: () => useLocalStorage('tricinium_filter', {
+        composer: null,
+        title: null,
+        lyrics: null,
+        nr: null,
+        mode: null,
+        transposed: null,
+        finalis: null,
+        clefs: null,
+        searchText: null,
+    }),
+    actions: {
+        updateFilter(prop, value) {
+            this[prop] = value;
+        },
+    },
 });
