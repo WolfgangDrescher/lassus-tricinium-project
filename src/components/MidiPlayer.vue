@@ -15,10 +15,9 @@ const midiPlayerIsReady = useDeferred();
 const soundFrontIsReady = useDeferred();
 const isReady = useDeferred();
 const isLoading = ref(true);
-const ac = new AudioContext;
+const ac = new AudioContext();
 const instrument = ref(null);
 const midiPlayer = new MidiPlayer.Player();
-
 
 Promise.all([midiPlayerIsReady.promise, soundFrontIsReady.promise]).then(() => {
     isReady.resolve();
@@ -30,7 +29,7 @@ watch(() => props.url, (value) => {
     midiPlayer.loadDataUri(value);
 });
 
-if(props.url) {
+if (props.url) {
     midiPlayer.loadDataUri(props.url);
 }
 
@@ -40,7 +39,7 @@ midiPlayer.on('playing', ({ tick }) => {
     }
 });
 
-midiPlayer.on('midiEvent', ({name, velocity, noteNumber, ...event}) => {
+midiPlayer.on('midiEvent', ({ name, velocity, noteNumber, ...event }) => {
     if (name === 'Note on') {
         if (velocity === 0) {
             // TODO stop note
@@ -72,7 +71,6 @@ async function pause() {
     await isReady.promise;
     midiPlayer.pause();
 }
-
 
 // marimba acoustic_grand_piano trumpet
 Soundfont.instrument(ac, 'marimba').then(value => {

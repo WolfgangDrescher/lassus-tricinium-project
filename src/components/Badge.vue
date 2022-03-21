@@ -1,6 +1,4 @@
 <script setup>
-import { toRefs } from 'vue';
-
 const props = defineProps({
     textSize: {
         default: 'base',
@@ -18,7 +16,6 @@ function remove() {
 }
 
 // text-xs text-sm text-base text-lg text-xl
-const { text } = toRefs(props);
 </script>
 
 <template>

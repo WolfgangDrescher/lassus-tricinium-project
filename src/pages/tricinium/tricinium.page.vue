@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, nextTick } from 'vue';
+import { ref } from 'vue';
 import Heading from '../../components/Heading.vue';
 import DataTable from '../../components/DataTable.vue';
 import TriciniumTextDiff from '../../components/TriciniumTextDiff.vue';
@@ -21,11 +21,11 @@ const tricinium = useTricinium(props.tricinium);
 const interactiveHumdrumScore = ref(null);
 const audioDataUrl = ref(null);
 
-async function interactiveHumdrumScoreMounted({callVerovioMethod}) {
+async function interactiveHumdrumScoreMounted({ callVerovioMethod }) {
     const midiBase64 = await callVerovioMethod('renderToMIDI', {
         midiTempoAdjustment: 4,
     });
-    if(midiBase64) {
+    if (midiBase64) {
         audioDataUrl.value = `data:audio/midi;base64,${midiBase64}`;
     }
 }
@@ -37,7 +37,7 @@ function addMeasureFilter(value) {
 
 <template>
     <Heading>Tricinium</Heading>
-    <DataTable :items="tricinium.lyrics?.map((l, i) => ({'#': i + 1, ...l})) || []">
+    <DataTable :items="tricinium.lyrics?.map((l, i) => ({ '#': i + 1, ...l })) || []">
         <template #item.measures="{ item }">
             <HyperLink href="#0" @click="addMeasureFilter(item.measures)">
                 {{ item.measures }}

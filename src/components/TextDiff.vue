@@ -6,7 +6,7 @@ import { computed } from 'vue';
 const defaultOptions = {
     drawFileList: false,
     outputFormat: 'side-by-side',
-}
+};
 
 const props = defineProps({
     diff: {
@@ -16,7 +16,7 @@ const props = defineProps({
     options: {
         type: Object,
         default: () => ({}),
-    }
+    },
 });
 
 const diffHtml = computed(() => {

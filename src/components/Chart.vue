@@ -7,7 +7,7 @@ const defaultColors = [
     '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92'
 ];
 
-const props = defineProps(['config'])
+const props = defineProps(['config']);
 
 const { config } = toRefs(props);
 

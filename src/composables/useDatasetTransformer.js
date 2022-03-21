@@ -1,8 +1,6 @@
 import { computed } from 'vue';
 
-
 export function useDatasetTransformer(datasets, title) {
-
     const mainPropKey = '_index';
 
     const headers = computed(() => {
@@ -26,10 +24,10 @@ export function useDatasetTransformer(datasets, title) {
         }, []);
         return items.reduce((accumulator, currentValue) => {
             accumulator.push({
-                ...props.reduce((a, v) => ({ ...a, [v]: null}), {}),
-                ...currentValue
+                ...props.reduce((a, v) => ({ ...a, [v]: null }), {}),
+                ...currentValue,
             });
-            return accumulator
+            return accumulator;
         }, []);
     }
 

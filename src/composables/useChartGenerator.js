@@ -23,9 +23,9 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
                 ...dataset,
                 data: dataset.data.reduce((previousValue, tricinium) => {
                     const x = filterValue(tricinium);
-                    if(Array.isArray(x)) {
+                    if (Array.isArray(x)) {
                         x.forEach((item) => {
-                            if(item) {
+                            if (item) {
                                 let index = previousValue.findIndex((d) => d.x === item);
                                 if (index === -1) {
                                     index = -1 + previousValue.push({
@@ -37,7 +37,7 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
                             }
                         });
                     } else {
-                        if(x) {
+                        if (x) {
                             let index = previousValue.findIndex((d) => d.x === x);
                             if (index === -1) {
                                 index = -1 + previousValue.push({

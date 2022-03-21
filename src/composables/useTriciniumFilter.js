@@ -41,7 +41,6 @@ const filterBySearchText = (searchText, element) => {
 };
 
 export function useTriciniumFilter(elements) {
-
     const filter = reactive({
         composer: null,
         title: null,

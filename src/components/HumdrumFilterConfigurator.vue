@@ -30,7 +30,7 @@ const DynamicHumdrumFilter = defineComponent({
         return () => {
             console.log(props.filter);
             let elems = ['No arguments to set'];
-            switch(props.filter) {
+            switch (props.filter) {
                 case 'MeasureFilter':
                 case 'ExtractFilter':
                 case 'ShedFilter':
@@ -56,7 +56,7 @@ const DynamicHumdrumFilter = defineComponent({
                             onInput: event => { args.color = event.target.value },
                             // label: 'Color',
                             placeholder: 'Color',
-                        })
+                        }),
                     ];
                     break;
                 case 'TransposeFilter':

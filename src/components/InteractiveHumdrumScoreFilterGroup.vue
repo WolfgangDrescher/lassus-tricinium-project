@@ -25,7 +25,7 @@ import HumdrumFilterConfigurator from './HumdrumFilterConfigurator.vue';
 
 defineProps({
     filters: Array,
-})
+});
 const emit = defineEmits(['addFilter', 'removeFilter']);
 
 const selectedFilter = ref(null);
@@ -46,7 +46,7 @@ const allFilters = [
     ShedFilter,
     SicFilter,
     TransposeFilter,
-]
+];
 
 const filterOptions = allFilters.map(filter => {
     return {
