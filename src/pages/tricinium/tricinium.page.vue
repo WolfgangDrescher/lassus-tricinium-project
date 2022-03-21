@@ -21,10 +21,10 @@ const tricinium = useTricinium(props.tricinium);
 const interactiveHumdrumScore = ref(null);
 const audioDataUrl = ref(null);
 
-async function interactiveHumdrumScoreMounted() {
-    const midiBase64 = await interactiveHumdrumScore.value?.verovioCanvas?.callVerovioMethod('renderToMIDI', {
-            midiTempoAdjustment: 4,
-        });
+async function interactiveHumdrumScoreMounted({callVerovioMethod}) {
+    const midiBase64 = await callVerovioMethod('renderToMIDI', {
+        midiTempoAdjustment: 4,
+    });
     if(midiBase64) {
         audioDataUrl.value = `data:audio/midi;base64,${midiBase64}`;
     }
@@ -48,7 +48,7 @@ function addMeasureFilter(value) {
     <ClientOnly>
         <MidiPlayer :url="audioDataUrl" />
         <Suspense>
-            <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.rawFile" @mounted="interactiveHumdrumScoreMounted" />
+            <InteractiveHumdrumScore :url="tricinium.rawFile" @mounted="interactiveHumdrumScoreMounted" />
         </Suspense>
     </ClientOnly>
     <!-- <pre v-text="tricinium" class="w-full overflow-y-auto"></pre> -->
