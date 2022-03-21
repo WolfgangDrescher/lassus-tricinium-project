@@ -1,6 +1,7 @@
 import { renderToString } from '@vue/server-renderer';
 import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr';
 import { createApp } from '../app';
+import { createPinia } from 'pinia';
 
 export { render };
 // See https://vite-plugin-ssr.com/data-fetching
@@ -8,6 +9,7 @@ export const passToClient = ['pageProps', 'urlPathname'];
 
 async function render(pageContext) {
     const app = createApp(pageContext);
+    app.use(createPinia());
     const appHtml = await renderToString(app);
 
     // See https://vite-plugin-ssr.com/head

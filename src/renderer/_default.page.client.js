@@ -1,5 +1,6 @@
 import { getPage } from 'vite-plugin-ssr/client';
 import { createApp } from '../app';
+import { createPinia } from 'pinia';
 import '../assets/base.css';
 
 hydrate();
@@ -9,5 +10,6 @@ async function hydrate() {
     // instead of `getPage()`, see https://vite-plugin-ssr.com/useClientRouter
     const pageContext = await getPage();
     const app = createApp(pageContext);
+    app.use(createPinia());
     app.mount('#app');
 }
