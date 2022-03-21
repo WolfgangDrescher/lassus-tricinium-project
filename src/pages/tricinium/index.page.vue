@@ -14,13 +14,13 @@ const props = defineProps({
 
 const tricinia = useTricinium(props.tricinia);
 
-const { filteredElements, filter } = useTriciniumFilter(tricinia);
+const { filteredElements } = useTriciniumFilter(tricinia);
 </script>
 
 <template>
     <Heading>Tricinium Liste</Heading>
 
-    <TriciniumFilter :filter="filter" />
+    <TriciniumFilter />
 
     <div class="grid grid-cols-2 gap-4">
         <div v-for="tricinium in filteredElements" :key="tricinium.id">
