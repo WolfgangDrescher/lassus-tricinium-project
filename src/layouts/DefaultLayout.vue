@@ -1,5 +1,4 @@
 <script setup>
-import Container from '../components/Container.vue';
 import TheNavigation from '../components/TheNavigation.vue';
 </script>
 
@@ -8,8 +7,6 @@ import TheNavigation from '../components/TheNavigation.vue';
         <TheNavigation />
     </header>
     <main class="py-8">
-        <Container>
-            <slot></slot>
-        </Container>
+        <slot></slot>
     </main>
 </template>

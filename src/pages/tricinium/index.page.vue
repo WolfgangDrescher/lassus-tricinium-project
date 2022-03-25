@@ -4,6 +4,7 @@ import TriciniumListItem from '../../components/TriciniumListItem.vue';
 import TriciniumFilter from '../../components/TriciniumFilter.vue';
 import { useTriciniumFilter } from '../../composables/useTriciniumFilter.js';
 import { useTricinium } from '../../composables/useTricinium';
+import Container from '../../components/Container.vue';
 
 const props = defineProps({
     tricinia: {
@@ -18,13 +19,15 @@ const { filteredElements } = useTriciniumFilter(tricinia);
 </script>
 
 <template>
-    <Heading>Tricinium Liste</Heading>
+    <Container>
+        <Heading>Tricinium Liste</Heading>
 
-    <TriciniumFilter />
+        <TriciniumFilter />
 
-    <div class="grid grid-cols-2 gap-4">
-        <div v-for="tricinium in filteredElements" :key="tricinium.id">
-            <TriciniumListItem :tricinium="tricinium" />
+        <div class="grid grid-cols-2 gap-4">
+            <div v-for="tricinium in filteredElements" :key="tricinium.id">
+                <TriciniumListItem :tricinium="tricinium" />
+            </div>
         </div>
-    </div>
+    </Container>
 </template>

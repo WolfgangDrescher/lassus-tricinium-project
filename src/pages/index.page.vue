@@ -1,7 +1,10 @@
 <script setup>
 import Heading from '../components/Heading.vue';
+import Container from '../components/Container.vue';
 </script>
 
 <template>
-    <Heading>Home</Heading>
+    <Container>
+        <Heading>Home</Heading>
+    </Container>
 </template>

@@ -1,10 +1,11 @@
 <script setup>
 import StatisticsSidebarItem from '../../components/StatisticsSidebarItem.vue';
+import Container from '../../components/Container.vue';
 </script>
 
 <template>
-    <div class="grid grid-cols-4 gap-4">
-        <div>
+    <Container>
+        <div class="grid grid-cols-4 gap-4">
             <aside>
                 <div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
                     <ul class="space-y-2">
@@ -18,11 +19,11 @@ import StatisticsSidebarItem from '../../components/StatisticsSidebarItem.vue';
                     </ul>
                 </div>
             </aside>
+            <div class="col-span-3">
+                <slot>
+                    Index
+                </slot>
+            </div>
         </div>
-        <div class="col-span-3">
-            <slot>
-                Index
-            </slot>
-        </div>
-    </div>
+    </Container>
 </template>
