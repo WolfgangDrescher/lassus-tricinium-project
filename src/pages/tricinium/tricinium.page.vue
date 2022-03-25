@@ -9,6 +9,7 @@ import ClientOnly from '../../components/ClientOnly.js';
 import { useTricinium } from '../../composables/useTricinium';
 import { MeasureFilter } from '../../classes/HumdrumFilters';
 import HyperLink from '../../components/HyperLink.vue';
+import Container from '../../components/Container.vue';
 
 const props = defineProps({
     tricinium: {
@@ -36,20 +37,22 @@ function addMeasureFilter(value) {
 </script>
 
 <template>
-    <Heading>Tricinium</Heading>
-    <DataTable :items="tricinium.lyrics?.map((l, i) => ({ '#': i + 1, ...l })) || []">
-        <template #[`item.measures`]="{ item }">
-            <HyperLink href="#0" @click="addMeasureFilter(item.measures)">
-                {{ item.measures }}
-            </HyperLink>
-        </template>
-    </DataTable>
-    <TriciniumTextDiff :tricinium="tricinium" />
-    <ClientOnly>
-        <MidiPlayer :url="audioDataUrl" />
-        <Suspense>
-            <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.rawFile" @mounted="interactiveHumdrumScoreMounted" />
-        </Suspense>
-    </ClientOnly>
-    <!-- <pre v-text="tricinium" class="w-full overflow-y-auto"></pre> -->
+    <Container :fluid="true">
+        <Heading>Tricinium</Heading>
+        <DataTable :items="tricinium.lyrics?.map((l, i) => ({ '#': i + 1, ...l })) || []">
+            <template #[`item.measures`]="{ item }">
+                <HyperLink href="#0" @click="addMeasureFilter(item.measures)">
+                    {{ item.measures }}
+                </HyperLink>
+            </template>
+        </DataTable>
+        <TriciniumTextDiff :tricinium="tricinium" />
+        <ClientOnly>
+            <MidiPlayer :url="audioDataUrl" />
+            <Suspense>
+                <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.rawFile" @mounted="interactiveHumdrumScoreMounted" />
+            </Suspense>
+        </ClientOnly>
+        <!-- <pre v-text="tricinium" class="w-full overflow-y-auto"></pre> -->
+    </Container>
 </template>
