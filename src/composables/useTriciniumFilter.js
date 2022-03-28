@@ -3,17 +3,17 @@ import { useFilterStore } from '../stores/filter';
 
 const filterByComposer = (composer, element) => {
     if (!composer) return true;
-    return element.composer.toLowerCase().includes(composer.toLowerCase());
+    return element.composer?.toLowerCase().includes(composer?.toLowerCase());
 };
 
 const filterByTitle = (title, element) => {
     if (!title) return true;
-    return element.title.toLowerCase().includes(title.toLowerCase());
+    return element.title?.toLowerCase().includes(title?.toLowerCase());
 };
 
 const filterByLyrics = (lyrics, element) => {
     if (!lyrics) return true;
-    return element.lyricsAsString().toLowerCase().includes(lyrics.toLowerCase());
+    return element.lyricsAsString()?.toLowerCase().includes(lyrics?.toLowerCase());
 };
 
 const filterByNr = (nr, element) => {
@@ -23,7 +23,7 @@ const filterByNr = (nr, element) => {
 
 const filterByMode = (mode, element) => {
     if (!mode) return true;
-    return element.mode.toLowerCase() === mode.toLowerCase();
+    return element.mode?.toLowerCase() === mode?.toLowerCase();
 };
 
 const filterByTransposed = (transposed, element) => {
@@ -33,7 +33,7 @@ const filterByTransposed = (transposed, element) => {
 
 const filterByFinalis = (finalis, element) => {
     if (!finalis) return true;
-    return element.finalis.toLowerCase() === finalis.toLowerCase();
+    return element.finalis?.toLowerCase() === finalis?.toLowerCase();
 };
 
 const filterBySearchText = (searchText, element) => {
