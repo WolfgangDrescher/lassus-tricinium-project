@@ -50,8 +50,12 @@ const tabItems = [
         text: 'Ambitus',
     },
     {
-        value: 'test',
-        text: 'Test',
+        value: 'ulenberg',
+        text: 'Ulenberg',
+    },
+    {
+        value: 'notes',
+        text: 'Notes',
     },
 ];
 </script>
