@@ -58,6 +58,10 @@ const tabItems = [
         text: 'Notes',
     },
 ];
+
+const triciniumVerovioOptions = {
+    spacingSystem: 24,
+};
 </script>
 
 <template>
@@ -68,7 +72,7 @@ const tabItems = [
                 <ClientOnly>
                     <MidiPlayer :url="audioDataUrl" />
                     <Suspense>
-                        <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.rawFile" @mounted="interactiveHumdrumScoreMounted" />
+                        <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.rawFile" @mounted="interactiveHumdrumScoreMounted" :verovio-options="triciniumVerovioOptions" />
                     </Suspense>
                 </ClientOnly>
             </div>
