@@ -9,6 +9,10 @@ const props = defineProps({
         type: String,
         required: true,
     },
+    verovioOptions: {
+        type: Object,
+        default: () => ({}),
+    },
 })
 
 const emit = defineEmits('mounted');
@@ -23,13 +27,14 @@ const data = ref(await response.text());
 
 const { formattedScoreData, filtersAsString, filters, addFilter, removeFilter } = useHumdrumScoreFormatter(data, {});
 
-const verovioOptions = computed(() => {
-    return {
+const verovioCanvasOptions = computed(() => {
+    return Object.assign({
+        pageMargin: 50,
         options: {
-            spacingSystem: 24,
+            ...props.verovioOptions,
         },
         data: formattedScoreData.value,
-    };
+    });
 });
 
 onMounted(() => {
@@ -61,5 +66,5 @@ defineExpose({
         v-model.lazy="filtersAsString"
         class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
     ></textarea> -->
-    <VerovioCanvas ref="verovioCanvas" v-bind="verovioOptions" />
+    <VerovioCanvas ref="verovioCanvas" v-bind="verovioCanvasOptions" />
 </template>
