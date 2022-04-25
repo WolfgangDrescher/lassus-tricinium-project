@@ -28,7 +28,6 @@
     "pinia": "^2.0.12",
     "soundfont-player": "^0.12.0",
     "uuid": "^8.3.2",
-    "vite-plugin-ssr": "^0.3.59",
     "vue": "^3.2.29",
     "vue-verovio-canvas": "file:../../vue-verovio-canvas"
   },
