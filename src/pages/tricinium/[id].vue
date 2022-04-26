@@ -11,13 +11,8 @@ import HyperLink from '../../components/HyperLink.vue';
 import Container from '../../components/Container.vue';
 import Tabs from '../../components/Tabs.vue';
 
-const props = defineProps({
-    tricinium: {
-        type: Object,
-        required: true,
-    },
-});
-const tricinium = useTricinium(props.tricinium);
+const route = useRoute();
+const tricinium = useTricinium(await $fetch(`/api/tricinium/${route.params.id}`));
 
 const interactiveHumdrumScore = ref(null);
 const audioDataUrl = ref(null);
