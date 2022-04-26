@@ -1,5 +1,5 @@
 <script setup>
-import StatisticsIndexPage from './index.page.vue';
+import StatisticsIndexPage from './index.vue';
 import Heading from '../../components/Heading.vue';
 import Chart from '../../components/Chart.vue';
 import TriciniumFilter from '../../components/TriciniumFilter.vue';
