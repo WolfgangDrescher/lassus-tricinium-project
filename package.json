@@ -17,7 +17,6 @@
     "compression": "^1.7.4",
     "diff": "^5.0.0",
     "diff2html": "^3.4.16",
-    "express": "^4.17.3",
     "lassus-geistliche-psalmen": "file:../lassus-geistliche-psalmen",
     "midi-player-js": "^2.0.16",
     "pinia": "^2.0.12",
