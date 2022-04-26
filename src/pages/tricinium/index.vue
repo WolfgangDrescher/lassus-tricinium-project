@@ -6,15 +6,7 @@ import { useTriciniumFilter } from '../../composables/useTriciniumFilter.js';
 import { useTricinium } from '../../composables/useTricinium';
 import Container from '../../components/Container.vue';
 
-const props = defineProps({
-    tricinia: {
-        type: Array,
-        required: true,
-    },
-});
-
-const tricinia = useTricinium(props.tricinia);
-
+const tricinia = useTricinium(await $fetch('/api/tricinium'))
 const { filteredElements } = useTriciniumFilter(tricinia);
 </script>
 
