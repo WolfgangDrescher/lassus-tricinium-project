@@ -2,15 +2,10 @@
   "name": "lassus-tricinium-project",
   "version": "0.0.0",
   "scripts": {
-    "debug": "rm -rf node_modules && npm i && npm run generate && npm run dev",
-    "dev": "npm run server",
-    "prod": "npm run build && npm run server:prod",
-    "build": "vite build && vite build --ssr",
-    "server": "node ./server",
-    "server:prod": "NODE_ENV=production node ./server",
-    "preview": "vite preview --port 5050",
-    "generate": "npm r vue-verovio-canvas && rm -rf node_modules/.vite && npm i github:WolfgangDrescher/vue-verovio-canvas && rm -rf dist/ && vite build && vite build --ssr && vite-plugin-ssr prerender && npm r vue-verovio-canvas && rm -rf node_modules/.vite && npm i ../../vue-verovio-canvas",
-    "prerender": "vite-plugin-ssr prerender",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
     "deploy": "npm run generate && rsync -azP dist/client/ wolfgang:lassus.wolfgangdrescher.ch --delete",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
@@ -37,6 +32,7 @@
     "autoprefixer": "^10.4.2",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",
+    "nuxt": "^3.0.0-rc.1",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.23",
     "vite": "^2.7.13"
