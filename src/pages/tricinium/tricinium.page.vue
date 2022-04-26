@@ -5,7 +5,6 @@ import DataTable from '../../components/DataTable.vue';
 import TriciniumTextDiff from '../../components/TriciniumTextDiff.vue';
 import MidiPlayer from '../../components/MidiPlayer.vue';
 import InteractiveHumdrumScore from '../../components/InteractiveHumdrumScore.vue';
-import ClientOnly from '../../components/ClientOnly.js';
 import { useTricinium } from '../../composables/useTricinium';
 import { MeasureFilter } from '../../classes/HumdrumFilters';
 import HyperLink from '../../components/HyperLink.vue';

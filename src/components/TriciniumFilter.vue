@@ -1,5 +1,4 @@
 <script setup>
-import ClientOnly from './ClientOnly.js';
 import InputField from './Form/InputField.vue';
 import Dropdown from './Form/Dropdown.vue';
 import { useFilterStore } from '../stores/filter';
