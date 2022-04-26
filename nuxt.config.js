@@ -19,4 +19,5 @@ export default defineNuxtConfig({
             '/about'
         ],
     },
+    modules: ['@nuxtjs/tailwindcss'],
 });
