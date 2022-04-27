@@ -1,6 +1,6 @@
 <script setup>
 import Link from './Link.vue';
-import BadgeCloud from './BadgeGroup.vue';
+import BadgeGroup from './BadgeGroup.vue';
 import Badge from './Badge.vue';
 
 defineProps({
@@ -39,11 +39,11 @@ defineProps({
             <div v-if="tricinium.hasLyrics" class="text-sm leading-5 py-4 text-gray-600">
                 {{ tricinium.lyricsAsString() }}
             </div>
-            <BadgeCloud>
+            <BadgeGroup>
                 <Badge text-size="sm" v-if="tricinium.transposed">Transponiert</Badge>
                 <Badge text-size="sm" v-if="tricinium.finalis">{{ tricinium.finalis }}</Badge>
                 <Badge text-size="sm" v-if="tricinium.mode">{{ tricinium.mode }}</Badge>
-            </BadgeCloud>
+            </BadgeGroup>
         </div>
     </div>
 </template>
