@@ -1,8 +1,4 @@
 <script setup>
-import { computed, ref, watch } from 'vue';
-import DropdownBadge from './DropdownBadge.vue';
-import DropdownOption from './DropdownOption.vue';
-import FormLabel from './FormLabel.vue';
 import { onClickOutside } from '@vueuse/core';
 
 const emit = defineEmits(['update:modelValue']);

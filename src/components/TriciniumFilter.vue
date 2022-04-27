@@ -1,8 +1,5 @@
 <script setup>
-import InputField from './Form/InputField.vue';
-import Dropdown from './Form/Dropdown.vue';
 import { useFilterStore } from '../stores/filter';
-import Button from './Button.vue';
 
 const filter = useFilterStore();
 

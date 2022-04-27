@@ -1,11 +1,4 @@
 <script setup>
-import Heading from '../../components/Heading.vue';
-import TriciniumListItem from '../../components/TriciniumListItem.vue';
-import TriciniumFilter from '../../components/TriciniumFilter.vue';
-import { useTriciniumFilter } from '../../composables/useTriciniumFilter.js';
-import { useTricinium } from '../../composables/useTricinium';
-import Container from '../../components/Container.vue';
-
 const tricinia = useTricinium(await $fetch('/api/tricinium'))
 const { filteredElements } = useTriciniumFilter(tricinia);
 </script>

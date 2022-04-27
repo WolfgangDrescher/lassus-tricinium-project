@@ -1,5 +1,4 @@
 <script setup>
-import { defineComponent, reactive, h } from 'vue';
 import Button from './Button.vue';
 import InputField from './Form/InputField.vue';
 

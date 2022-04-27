@@ -1,16 +1,4 @@
 <script setup>
-import { ref } from 'vue';
-import Heading from '../../components/Heading.vue';
-import DataTable from '../../components/DataTable.vue';
-import TriciniumTextDiff from '../../components/TriciniumTextDiff.vue';
-import MidiPlayer from '../../components/MidiPlayer.vue';
-import InteractiveHumdrumScore from '../../components/InteractiveHumdrumScore.vue';
-import { useTricinium } from '../../composables/useTricinium';
-import { MeasureFilter } from '../../classes/HumdrumFilters';
-import HyperLink from '../../components/HyperLink.vue';
-import Container from '../../components/Container.vue';
-import Tabs from '../../components/Tabs.vue';
-
 const route = useRoute();
 const tricinium = useTricinium(await $fetch(`/api/tricinium/${route.params.id}`));
 

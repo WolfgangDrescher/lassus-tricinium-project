@@ -1,5 +1,3 @@
-import { ref, computed, readonly } from 'vue';
-
 export function useHumdrumScoreFormatter(data) {
     const filters = ref([]);
 

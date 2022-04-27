@@ -1,9 +1,5 @@
 <script setup>
-import { computed, reactive, ref, watchEffect } from 'vue';
 import { Tricinium } from '../composables/useTricinium';
-import TextDiff from './TextDiff.vue';
-import { useDiffToGitDiff } from '../composables/useDiffToGitDiff.js';
-import Dropdown from './Form/Dropdown.vue';
 
 const props = defineProps({
     tricinium: {

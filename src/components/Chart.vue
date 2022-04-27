@@ -1,5 +1,4 @@
 <script setup>
-import { ref, onMounted, watch, toRefs, computed } from 'vue';
 import Chart from 'chart.js/auto';
 
 const defaultColors = [

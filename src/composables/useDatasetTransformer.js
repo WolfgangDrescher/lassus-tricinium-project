@@ -1,5 +1,3 @@
-import { computed } from 'vue';
-
 export function useDatasetTransformer(datasets, title) {
     const mainPropKey = '_index';
 

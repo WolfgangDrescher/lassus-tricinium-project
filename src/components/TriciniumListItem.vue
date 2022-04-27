@@ -1,8 +1,4 @@
 <script setup>
-import Link from './Link.vue';
-import BadgeGroup from './BadgeGroup.vue';
-import Badge from './Badge.vue';
-
 defineProps({
     tricinium: {
         type: Object,

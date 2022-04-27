@@ -1,8 +1,3 @@
-<script setup>
-import NavigationItem from './NavigationItem.vue';
-import Container from './Container.vue';
-</script>
-
 <template>
     <nav class="bg-gray-100 px-2 sm:px-4 py-5">
         <Container>

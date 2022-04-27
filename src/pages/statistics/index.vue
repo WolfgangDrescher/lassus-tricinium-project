@@ -1,8 +1,3 @@
-<script setup>
-import StatisticsSidebarItem from '../../components/StatisticsSidebarItem.vue';
-import Container from '../../components/Container.vue';
-</script>
-
 <template>
     <Container>
         <div class="grid grid-cols-4 gap-4">

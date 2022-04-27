@@ -1,14 +1,5 @@
 <script setup>
 import StatisticsIndexPage from './index.vue';
-import Heading from '../../components/Heading.vue';
-import Chart from '../../components/Chart.vue';
-import TriciniumFilter from '../../components/TriciniumFilter.vue';
-import DataTable from '../../components/DataTable.vue';
-import ChartDimensionSelector from '../../components/ChartDimensionSelector.vue';
-import { useTricinium } from '../../composables/useTricinium.js';
-import { useTriciniumFilter } from '../../composables/useTriciniumFilter.js';
-import { useChartGenerator } from '../../composables/useChartGenerator.js';
-import { useDatasetTransformer } from '../../composables/useDatasetTransformer.js';
 
 const tricinia = useTricinium(await $fetch('/api/tricinium'));
 

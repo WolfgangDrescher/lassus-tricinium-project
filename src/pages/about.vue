@@ -1,9 +1,3 @@
-<script setup>
-import Heading from '../components/Heading.vue';
-import Container from '../components/Container.vue';
-import HyperLink from '../components/HyperLink.vue';
-</script>
-
 <template>
     <Container>
         <Heading>About</Heading>

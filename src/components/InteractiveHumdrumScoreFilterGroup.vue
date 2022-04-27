@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue';
 import {
     ClefFilter,
     MensuralFilter,
@@ -17,10 +16,6 @@ import {
     SicFilter,
     TransposeFilter,
 } from '../classes/HumdrumFilters.js';
-import BadgeGroup from './BadgeGroup.vue';
-import Badge from './Badge.vue';
-import Dropdown from './Form/Dropdown.vue';
-import HumdrumFilterConfigurator from './HumdrumFilterConfigurator.vue';
 
 defineProps({
     filters: Array,

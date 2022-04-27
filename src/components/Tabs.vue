@@ -1,7 +1,4 @@
 <script setup>
-import { processExpression } from '@vue/compiler-core';
-import { computed, ref } from 'vue';
-import TabPill from './TabPill.vue';
 const props = defineProps({
     items: Object,
 });

@@ -1,6 +1,4 @@
 <script setup>
-import { computed } from 'vue';
-
 const props = defineProps({
     headers: {
         type: Array,

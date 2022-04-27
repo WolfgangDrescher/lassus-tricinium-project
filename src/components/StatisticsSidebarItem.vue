@@ -1,7 +1,3 @@
-<script setup>
-import Link from './Link.vue';
-</script>
-
 <template>
     <li>
         <Link

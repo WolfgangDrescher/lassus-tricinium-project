@@ -1,7 +1,6 @@
 <script setup>
 import * as Diff2html from 'diff2html';
 import 'diff2html/bundles/css/diff2html.min.css';
-import { computed } from 'vue';
 
 const defaultOptions = {
     drawFileList: false,

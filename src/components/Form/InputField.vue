@@ -1,5 +1,4 @@
 <script setup>
-import FormLabel from './FormLabel.vue';
 const props = defineProps(['label', 'modelValue']);
 const emit = defineEmits(['update:modelValue']);
 

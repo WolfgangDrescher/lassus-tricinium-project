@@ -1,8 +1,5 @@
 <script setup>
-import { computed, onMounted, ref } from 'vue';
 import VerovioCanvas from 'vue-verovio-canvas';
-import { useHumdrumScoreFormatter } from '../composables/useHumdrumScoreFormatter';
-import InteractiveHumdrumScoreFilterGroup from './InteractiveHumdrumScoreFilterGroup.vue';
 
 const props = defineProps({
     url: {

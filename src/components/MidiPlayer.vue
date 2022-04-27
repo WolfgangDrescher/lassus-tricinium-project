@@ -1,11 +1,6 @@
 <script setup>
-import { watch, ref } from 'vue';
 import MidiPlayer from 'midi-player-js';
 import Soundfont from 'soundfont-player';
-import { useDeferred } from '../composables/useDeferred';
-// import Loading from 'vue-verovio-canvas/src/components/Loading.vue';
-import Button from '../components/Button.vue';
-import ButtonGroup from './ButtonGroup.vue';
 
 const props = defineProps({
     url: String,

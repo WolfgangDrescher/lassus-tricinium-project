@@ -1,4 +1,3 @@
-import { computed } from 'vue';
 import { useFilterStore } from '../stores/filter';
 
 const filterByComposer = (composer, element) => {
