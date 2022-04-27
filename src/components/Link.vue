@@ -1,5 +1,5 @@
 <template>
-    <a v-bind="{ ...$props, ...$attrs }">
+    <NuxtLink v-bind="{ ...$props, ...$attrs }">
         <slot></slot>
-    </a>
+    </NuxtLink>
 </template>
