@@ -3,7 +3,7 @@ import { computed, ref, watch } from 'vue';
 import DropdownBadge from './DropdownBadge.vue';
 import DropdownOption from './DropdownOption.vue';
 import FormLabel from './FormLabel.vue';
-import { vOnClickOutside } from '@vueuse/components';
+import { onClickOutside } from '@vueuse/core';
 
 const emit = defineEmits(['update:modelValue']);
 
@@ -32,6 +32,10 @@ const props = defineProps({
         default: true,
     },
 });
+
+const dropdownOptions = ref();
+
+onClickOutside(dropdownOptions, closeDropdown);
 
 const isOpen = ref(false);
 const searchString = ref('');
@@ -120,7 +124,7 @@ const filteredOptions = computed(() => {
                             </div>
                         </div>
                     </div>
-                    <div v-if="isOpen" v-on-click-outside="closeDropdown" class="absolute shadow border border-gray-200 mt-2 top-full bg-white z-40 w-full lef-0 rounded max-h-80 overflow-y-auto">
+                    <div v-if="isOpen" ref="dropdownOptions" class="absolute shadow border border-gray-200 mt-2 top-full bg-white z-40 w-full lef-0 rounded max-h-80 overflow-y-auto">
                         <div class="flex flex-col w-full">
                             <DropdownOption v-for="(option, index) in filteredOptions" :key="index" :value="option.value" :text="option.text" :selected="optionIsSelected(option.value)" @toggleOption="toggleOption" />
                         </div>
