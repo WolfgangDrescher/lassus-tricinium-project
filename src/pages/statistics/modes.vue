@@ -10,9 +10,7 @@ import { useTriciniumFilter } from '../../composables/useTriciniumFilter.js';
 import { useChartGenerator } from '../../composables/useChartGenerator.js';
 import { useDatasetTransformer } from '../../composables/useDatasetTransformer.js';
 
-const props = defineProps(['tricinia']);
-
-const tricinia = useTricinium(props.tricinia);
+const tricinia = useTricinium(await $fetch('/api/tricinium'));
 
 const { filteredElements } = useTriciniumFilter(tricinia);
 const { datasets, config, dimension } = useChartGenerator(filteredElements, tricinium => tricinium.mode);
