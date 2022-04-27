@@ -70,7 +70,7 @@ function applyFilter(args) {
 
 <template>
     <div class="grid grid-cols-4 gap-4 my-4">
-        <Dropdown v-model="selectedFilter" :options="filterOptions" />
+        <FormDropdown v-model="selectedFilter" :options="filterOptions" />
         <div class="col-span-3">
             <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilter"></HumdrumFilterConfigurator>
         </div>
