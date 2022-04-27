@@ -61,8 +61,8 @@ const diff = computed(() => {
 
 <template>
     <div class="grid grid-cols-2 gap-4 my-4">
-        <Dropdown v-model="selectedVoices" :options="voiceOptions" :multiple="true" />
-        <Dropdown v-model="diffOptions.outputFormat" :options="diffOutputFormatOptions" :badge-show-remove-button="false" />
+        <FormDropdown v-model="selectedVoices" :options="voiceOptions" :multiple="true" />
+        <FormDropdown v-model="diffOptions.outputFormat" :options="diffOutputFormatOptions" :badge-show-remove-button="false" />
     </div>
     <TextDiff :diff="diff" :options="diffOptions" />
 </template>

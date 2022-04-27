@@ -105,9 +105,9 @@ const filteredOptions = computed(() => {
                             <div class="flex flex-auto flex-wrap">
                                 <div v-if="!props.modelValue?.length && props.emptyValuePlaceholder" class="p-1 px-2 text-gray-500" v-text="props.emptyValuePlaceholder"></div>
                                 <template v-if="props.multiple">
-                                    <DropdownBadge v-for="(value, index) in props.modelValue" :key="index" :text="getOptionTextFromValue(value)" :value="value" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
+                                    <FormDropdownBadge v-for="(value, index) in props.modelValue" :key="index" :text="getOptionTextFromValue(value)" :value="value" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
                                 </template>
-                                <DropdownBadge v-else-if="props.modelValue" :text="getOptionTextFromValue(props.modelValue)" :value="props.modelValue" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
+                                <FormDropdownBadge v-else-if="props.modelValue" :text="getOptionTextFromValue(props.modelValue)" :value="props.modelValue" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
                                 <div v-if="props.searchEnabled" class="flex-1">
                                     <input v-model="searchString" placeholder="" class="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-gray-800">
                                 </div>
@@ -126,7 +126,7 @@ const filteredOptions = computed(() => {
                     </div>
                     <div v-if="isOpen" ref="dropdownOptions" class="absolute shadow border border-gray-200 mt-2 top-full bg-white z-40 w-full lef-0 rounded max-h-80 overflow-y-auto">
                         <div class="flex flex-col w-full">
-                            <DropdownOption v-for="(option, index) in filteredOptions" :key="index" :value="option.value" :text="option.text" :selected="optionIsSelected(option.value)" @toggleOption="toggleOption" />
+                            <FormDropdownOption v-for="(option, index) in filteredOptions" :key="index" :value="option.value" :text="option.text" :selected="optionIsSelected(option.value)" @toggleOption="toggleOption" />
                         </div>
                     </div>
                 </div>
