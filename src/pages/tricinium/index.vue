@@ -1,5 +1,5 @@
 <script setup>
-const tricinia = useTricinium(await $fetch('/api/tricinium'))
+const tricinia = useTricinium(await $fetch('/api/tricinium'));
 const { filteredElements } = useTriciniumFilter(tricinia);
 </script>
 
