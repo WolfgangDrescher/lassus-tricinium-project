@@ -20,4 +20,7 @@ export default defineNuxtConfig({
         ],
     },
     modules: ['@nuxtjs/tailwindcss'],
+    buildModules: [
+        ['@pinia/nuxt', { disableVuex: true }],
+    ],
 });
