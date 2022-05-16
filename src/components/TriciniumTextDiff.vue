@@ -1,9 +1,8 @@
 <script setup>
-import { Tricinium } from '../composables/useTricinium';
 
 const props = defineProps({
     tricinium: {
-        type: Tricinium,
+        type: Object,
         required: true,
     },
 });
