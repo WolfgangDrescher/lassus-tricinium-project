@@ -1,4 +1,4 @@
-export class Tricinium {
+class Tricinium {
     constructor(tricinium) {
         this.tricinium = tricinium;
     }
