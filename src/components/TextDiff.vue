@@ -1,5 +1,5 @@
 <script setup>
-import * as Diff2html from 'diff2html';
+import * as Diff2html from 'diff2html/bundles/js/diff2html.min.js';
 import 'diff2html/bundles/css/diff2html.min.css';
 
 const defaultOptions = {
