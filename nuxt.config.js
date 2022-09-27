@@ -5,15 +5,6 @@ export default defineNuxtConfig({
     srcDir: 'src/',
     // target: 'static',
     ssr: true,
-    // routes: {
-    //     '/': {
-    //         prerender: true
-    //     },
-    //     '*': {
-    //         static: true,
-    //         prerender: true,
-    //     },
-    // },
     generate: {
         routes: [
             '/about'
