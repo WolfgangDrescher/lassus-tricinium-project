@@ -98,13 +98,27 @@ const finalisOptions = [
 
 <template>
     <ClientOnly>
-        <div class="grid grid-cols-filter gap-4">
-            <FormInputField :model-value="filter.searchText" @update:model-value="updateFilter('searchText', $event)" label="Search text" placeholder="Title, number, lyrics…" />
-            <FormDropdown :model-value="filter.composer" @update:model-value="updateFilter('composer', $event)" label="Composer" :options="composerOptions" />
-            <FormDropdown :model-value="filter.mode" @update:model-value="updateFilter('mode', $event)" label="Mode" :options="modeOptions" />
-            <FormDropdown :model-value="filter.transposed" @update:model-value="updateFilter('transposed', $event)" label="Transposed" :options="transposedOptions" />
-            <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" label="Finalis" :options="finalisOptions" />
-            <Button @click="resetFilter">Reset</Button>
+        <div class="grid grid-cols-filter gap-4 mb-4">
+            <div>
+                <FormInputField :model-value="filter.searchText" @update:model-value="updateFilter('searchText', $event)" label="Search text" placeholder="Title, number, lyrics…" />
+            </div>
+            <div>
+                <FormDropdown :model-value="filter.composer" @update:model-value="updateFilter('composer', $event)" label="Composer" :options="composerOptions" :search-enabled="false" />
+            </div>
+            <div>
+                <FormDropdown :model-value="filter.mode" @update:model-value="updateFilter('mode', $event)" label="Mode" :options="modeOptions" :search-enabled="false" />
+            </div>
+            <div>
+                <FormDropdown :model-value="filter.transposed" @update:model-value="updateFilter('transposed', $event)" label="Transposed" :options="transposedOptions" :search-enabled="false" />
+            </div>
+            <div>
+                <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" label="Finalis" :options="finalisOptions" :search-enabled="false" />
+            </div>
+            <div>
+                <FormLabel :label="''">
+                    <Button @click="resetFilter" block>Reset</Button>
+                </FormLabel>
+            </div>
         </div>
     </ClientOnly>
 </template>
