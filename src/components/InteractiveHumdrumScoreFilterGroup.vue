@@ -69,9 +69,11 @@ function applyFilter(args) {
 </script>
 
 <template>
-    <div class="grid grid-cols-4 gap-4 my-4">
-        <FormDropdown v-model="selectedFilter" :options="filterOptions" />
-        <div class="col-span-3">
+    <div class="grid 2xl:grid-cols-4 gap-4 my-4">
+        <div class="2xl:col-span-1">
+            <FormDropdown v-model="selectedFilter" :options="filterOptions" />
+        </div>
+        <div class="2xl:col-span-3">
             <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilter"></HumdrumFilterConfigurator>
         </div>
     </div>
