@@ -1,6 +1,6 @@
 <script setup>
 const route = useRoute();
-const { data } = await useFetch(`/api/tricinium/${route.params.id}`);
+const { data } = await useFetch(`/api/tricinium/${route.params.id}`, { initialCache: false });
 const tricinium = useTricinium(data.value);
 
 const interactiveHumdrumScore = ref(null);
