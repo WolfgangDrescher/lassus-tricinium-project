@@ -1,5 +1,6 @@
 <script setup>
-const tricinia = useTricinium(await $fetch('/api/tricinium'));
+const { data } = await useFetch('/api/tricinium');
+const tricinia = useTricinium(data.value);
 const { filteredElements } = useTriciniumFilter(tricinia);
 </script>
 

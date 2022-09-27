@@ -1,6 +1,7 @@
 <script setup>
 const route = useRoute();
-const tricinium = useTricinium(await $fetch(`/api/tricinium/${route.params.id}`));
+const { data } = await useFetch(`/api/tricinium/${route.params.id}`);
+const tricinium = useTricinium(data.value);
 
 const interactiveHumdrumScore = ref(null);
 const audioDataUrl = ref(null);
