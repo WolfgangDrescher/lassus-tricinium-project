@@ -3,11 +3,6 @@ export default defineNuxtConfig({
     srcDir: 'src/',
     // target: 'static',
     ssr: true,
-    generate: {
-        routes: [
-            '/about'
-        ],
-    },
     modules: [
         '@nuxtjs/tailwindcss',
         '@pinia/nuxt',
