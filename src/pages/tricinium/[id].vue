@@ -19,6 +19,12 @@ function addMeasureFilter(value) {
     interactiveHumdrumScore.value.addFilter(new MeasureFilter(value));
 }
 
+const sidebarOpen = ref(true);
+
+function toggleSidebar() {
+    sidebarOpen.value = !sidebarOpen.value;
+}
+
 const tabItems = [
     {
         value: 'info',
@@ -49,9 +55,23 @@ const triciniumVerovioOptions = {
 
 <template>
     <Container :fluid="true">
-        <Heading>{{ `${tricinium.nr}. ${tricinium.title}` }}</Heading>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="flex">
+            <div class="flex-auto">
+                <Heading>{{ `${tricinium.nr}. ${tricinium.title}` }}</Heading>
+            </div>
             <div>
+                <Button @click="toggleSidebar">
+                    <template v-if="sidebarOpen">
+                        Hide Sidebar
+                    </template>
+                    <template v-else>
+                        Show Sidebar
+                    </template>
+                </Button>
+            </div>
+        </div>
+        <div class="flex gap-4">
+            <div class="overflow-hidden flex-auto " :class="sidebarOpen ? 'w-1/2' : 'w-full'">
                 <ClientOnly>
                     <MidiPlayer :url="audioDataUrl" />
                     <Suspense>
@@ -59,7 +79,7 @@ const triciniumVerovioOptions = {
                     </Suspense>
                 </ClientOnly>
             </div>
-            <div>
+            <div class="overflow-hidden flex-auto" :class="sidebarOpen ? 'w-1/2' : 'w-0'">
                 <Tabs :items="tabItems">
                     <template #[`tabItem.info`]>
                         <pre v-text="tricinium" class="w-full overflow-y-auto"></pre>
