@@ -13,8 +13,8 @@
   "dependencies": {
     "@pinia/nuxt": "^0.4.2",
     "@vue/server-renderer": "^3.2.31",
-    "@vueuse/components": "^8.0.0",
-    "@vueuse/core": "^8.1.2",
+    "@vueuse/components": "^9.3.0",
+    "@vueuse/core": "^9.3.0",
     "chart.js": "^3.7.1",
     "compression": "^1.7.4",
     "diff": "^5.0.0",
@@ -23,7 +23,7 @@
     "midi-player-js": "^2.0.16",
     "pinia": "^2.0.12",
     "soundfont-player": "^0.12.0",
-    "uuid": "^8.3.2",
+    "uuid": "^9.0.0",
     "vue": "^3.2.29",
     "vue-verovio-canvas": "github:WolfgangDrescher/vue-verovio-canvas"
   },
