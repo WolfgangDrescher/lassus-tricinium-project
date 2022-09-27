@@ -12,4 +12,7 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         '@pinia/nuxt',
     ],
+    css: [
+        '@/assets/base.css',
+    ],
 });
