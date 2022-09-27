@@ -99,7 +99,7 @@ const filteredOptions = computed(() => {
                     <div class="w-full">
                         <div class="p-1 flex border border-gray-200 bg-white rounded">
                             <div class="flex flex-auto flex-wrap">
-                                <div v-if="!props.modelValue?.length && props.emptyValuePlaceholder" class="p-1 px-2 text-gray-500" v-text="props.emptyValuePlaceholder"></div>
+                                <div v-if="!props.modelValue?.length && props.emptyValuePlaceholder" class="p-1 px-2 text-gray-500 whitespace-nowrap" v-text="props.emptyValuePlaceholder"></div>
                                 <template v-if="props.multiple">
                                     <FormDropdownBadge v-for="(value, index) in props.modelValue" :key="index" :text="getOptionTextFromValue(value)" :value="value" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
                                 </template>
