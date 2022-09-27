@@ -15,4 +15,12 @@ export default defineNuxtConfig({
     css: [
         '@/assets/base.css',
     ],
+    vite: {
+        optimizeDeps: {
+            include: [
+                'verovio/wasm',
+                'verovio/wasm-hum',
+            ],
+        },
+    },
 });
