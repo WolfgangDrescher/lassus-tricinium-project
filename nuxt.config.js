@@ -4,7 +4,7 @@ import { defineNuxtConfig } from 'nuxt';
 export default defineNuxtConfig({
     srcDir: 'src/',
     // target: 'static',
-    ssr: false,
+    ssr: true,
     // routes: {
     //     '/': {
     //         prerender: true
