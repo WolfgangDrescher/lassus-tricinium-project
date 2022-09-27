@@ -4,11 +4,17 @@ const props = defineProps(['label']);
 
 <template>
     <div class="flex flex-col w-full">
-        <div v-if="label">
-            <label class="text-gray-800 text-sm font-bold leading-tight tracking-normal mb-2">{{ label }}</label>
+        <div v-if="label || label === ''">
+            <label class="label-text text-gray-800 text-sm font-bold leading-tight tracking-normal mb-2">{{ label }}</label>
         </div>
         <div>
             <slot></slot>
         </div>
     </div>
 </template>
+
+<style scoped>
+.label-text:empty:before {
+    content: "\00a0";
+}
+</style>
