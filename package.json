@@ -11,7 +11,7 @@
   },
   "overrides": {"ufo": "^0.8.4"},
   "dependencies": {
-    "@pinia/nuxt": "^0.1.8",
+    "@pinia/nuxt": "^0.4.2",
     "@vue/server-renderer": "^3.2.31",
     "@vueuse/components": "^8.0.0",
     "@vueuse/core": "^8.1.2",
