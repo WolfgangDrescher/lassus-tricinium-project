@@ -12,7 +12,6 @@ const slideDirection = computed(() => {
 });
 
 onMounted(() => {
-    console.log(typeof qwe);
     const hash = typeof location !== 'undefined' && location.hash ? location.hash.split('#')[1] : null;
     if(hash) {
         selectedTab.value = hash;
