@@ -3,7 +3,7 @@
         <Container>
             <div class="flex flex-wrap justify-between items-center mx-auto">
                 <a href="/" class="flex">
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap">Lassus Tricinium Project</span>
+                    <span class="self-center text-2xl font-bold whitespace-nowrap">Lassus Tricinium Project</span>
                 </a>
                 <button
                     data-collapse-toggle="navbar-navigation"
