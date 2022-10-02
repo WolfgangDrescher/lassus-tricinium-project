@@ -9,7 +9,6 @@
     "deploy": "npm run generate && rsync -azP .output/public/ wolfgang:lassus.wolfgangdrescher.ch --delete",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
-  "overrides": {"ufo": "^0.8.4"},
   "dependencies": {
     "@pinia/nuxt": "^0.4.2",
     "@vueuse/components": "^9.3.0",
