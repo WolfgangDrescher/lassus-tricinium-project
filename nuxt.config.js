@@ -8,9 +8,6 @@ export default defineNuxtConfig({
         '@pinia/nuxt',
         '@nuxtjs/google-fonts',
     ],
-    css: [
-        '@/assets/base.css',
-    ],
     vite: {
         optimizeDeps: {
             include: [
