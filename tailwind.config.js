@@ -1,4 +1,5 @@
 const { purple } = require('tailwindcss/colors');
+const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
     content: [
@@ -14,9 +15,11 @@ module.exports = {
             gridTemplateColumns: {
                 filter: 'repeat(auto-fill, minmax(200px, 1fr))',
             },
-        },
-        fontFamily: {
-            fraktur: "'UnifrakturMaguntia', cursive",
+            fontFamily: {
+                ...fontFamily,
+                serif: ['Alegreya', 'serif'],
+                sans: ['Alegreya Sans', 'sans-serif'],
+            },
         },
         container: {
             center: true,
