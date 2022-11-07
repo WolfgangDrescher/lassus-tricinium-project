@@ -111,12 +111,8 @@ const filteredOptions = computed(() => {
                             </div>
                             <div class="text-gray-300 w-8 py-1 pl-2 pr-1 border-l flex items-center border-gray-200">
                                 <button @click="toggleDropdown" class="cursor-pointer w-6 h-6 text-gray-600 outline-none focus:outline-none">
-                                    <svg v-if="isOpen" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
-                                    </svg>
-                                    <svg v-else xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                                    </svg>
+                                    <Icon v-if="isOpen" name="heroicons-solid:chevron-up"/>
+                                    <Icon v-else name="heroicons-solid:chevron-down" />
                                 </button>
                             </div>
                         </div>
