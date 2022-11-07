@@ -44,7 +44,8 @@ function toggleDropdown() {
     isOpen.value = !isOpen.value;
 }
 
-function closeDropdown() {
+function closeDropdown(e) {
+    e.stopPropagation();
     if (!isOpen.value) return;
     isOpen.value = false;
 }
