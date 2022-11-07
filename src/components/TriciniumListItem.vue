@@ -16,9 +16,9 @@ defineProps({
             <div class="flex items-start justify-between w-full">
                 <div class="pl-3 w-full">
                     <div class="text-xl font-medium leading-5 text-gray-800">
-                        <Link :href="`/tricinium/${tricinium.id}`">
+                        <NuxtLink :href="`/tricinium/${tricinium.id}`">
                             {{ tricinium.title }}
-                        </Link>
+                        </NuxtLink>
                     </div>
                     <div class="text-sm leading-normal pt-1 text-gray-500">
                         {{ tricinium.composer }}
