@@ -5,7 +5,7 @@ const props = defineProps(['label']);
 <template>
     <div class="flex flex-col w-full">
         <div v-if="label || label === ''">
-            <label class="label-text text-gray-800 text-sm font-bold leading-tight tracking-normal mb-2">{{ label }}</label>
+            <label class="label-text text-gray-800 text-sm mb-2">{{ label }}</label>
         </div>
         <div>
             <slot></slot>
