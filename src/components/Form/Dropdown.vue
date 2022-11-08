@@ -113,9 +113,9 @@ const filteredOptions = computed(() => {
                 <div class="w-full">
                     <div v-if="!props.modelValue?.length && props.emptyValuePlaceholder" class="text-gray-500 whitespace-nowrap" v-text="props.emptyValuePlaceholder"></div>
                     <div v-if="(!props.multiple && props.modelValue) || (props.multiple && props.modelValue.length)" class="pl-3 pr-0 py-2 absolute top-1/2 -translate-y-1/2 left-0 flex flex-auto flex-wrap">
-                        <template v-if="props.multiple">
+                        <BadgeGroup v-if="props.multiple">
                             <FormDropdownBadge v-for="(value, index) in props.modelValue" :key="index" :text="getOptionTextFromValue(value)" :value="value" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
-                        </template>
+                        </BadgeGroup>
                         <FormDropdownBadge v-else-if="props.modelValue" :text="getOptionTextFromValue(props.modelValue)" :value="props.modelValue" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
                     </div>
                 </div>
