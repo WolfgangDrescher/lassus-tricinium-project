@@ -1,6 +1,4 @@
 <script setup>
-import { useFilterStore } from '../stores/filter';
-
 const filter = useFilterStore();
 
 function updateFilter(prop, value) {

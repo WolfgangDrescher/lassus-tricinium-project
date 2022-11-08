@@ -1,5 +1,4 @@
 import { storeToRefs } from 'pinia';
-import { useChartStore } from '../stores/chart';
 
 export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength) {
     const chartOptions = useChartStore();

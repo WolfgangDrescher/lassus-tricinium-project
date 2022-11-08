@@ -1,5 +1,3 @@
-import { useFilterStore } from '../stores/filter';
-
 const filterByComposer = (composer, element) => {
     if (!composer) return true;
     return element.composer?.toLowerCase().includes(composer?.toLowerCase());
