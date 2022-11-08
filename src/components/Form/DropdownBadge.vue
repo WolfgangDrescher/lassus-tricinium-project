@@ -22,7 +22,7 @@ const removeOption = () => {
 
 <template>
     <div class="flex justify-center items-center font-medium px-2 bg-white rounded-full text-primary-700 border border-primary-300">
-        <div class="text-xs font-normal leading-none max-w-full flex-initial">{{ props.text || props.value }}</div>
+        <div class="text-xs font-normal leading-none max-w-full flex-initial py-1">{{ props.text || props.value }}</div>
         <div v-if="props.showRemoveButton" @click="removeOption" class="cursor-pointer flex flex-auto flex-row-reverse ml-1">
             <div>
                 <Icon name="heroicons-solid:x-mark" size="0.75em" />
