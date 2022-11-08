@@ -21,11 +21,11 @@ const removeOption = () => {
 </script>
 
 <template>
-    <div class="flex justify-center items-center m-1 font-medium py-1 px-2 bg-white rounded-full text-primary-700 bg-primary-100 border border-primary-300">
+    <div class="flex justify-center items-center font-medium px-2 bg-white rounded-full text-primary-700 border border-primary-300">
         <div class="text-xs font-normal leading-none max-w-full flex-initial">{{ props.text || props.value }}</div>
-        <div v-if="props.showRemoveButton" @click="removeOption" class="cursor-pointer flex flex-auto flex-row-reverse">
+        <div v-if="props.showRemoveButton" @click="removeOption" class="cursor-pointer flex flex-auto flex-row-reverse ml-1">
             <div>
-                <Icon name="heroicons-solid:x-mark" />
+                <Icon name="heroicons-solid:x-mark" size="0.75em" />
             </div>
         </div>
     </div>
