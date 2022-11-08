@@ -25,7 +25,7 @@ defineProps({
                     </div>
                 </div>
                 <div>
-                    <a :href="tricinium.vhvHref" target="_blank">
+                    <a :href="tricinium.vhvHref" target="_blank" title="Verovio Humdrum Viewer">
                         VHV
                     </a>
                 </div>
