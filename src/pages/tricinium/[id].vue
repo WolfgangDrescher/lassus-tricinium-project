@@ -74,7 +74,7 @@ const triciniumVerovioOptions = {
             </div>
         </div>
         <div class="flex gap-4">
-            <div class="overflow-hidden flex-auto " :class="sidebarOpen ? 'w-1/2' : 'w-full'">
+            <div class="flex-auto " :class="sidebarOpen ? 'w-1/2' : 'w-full'">
                 <ClientOnly>
                     <MidiPlayer :url="audioDataUrl" />
                     <Suspense>
@@ -82,7 +82,7 @@ const triciniumVerovioOptions = {
                     </Suspense>
                 </ClientOnly>
             </div>
-            <div class="overflow-hidden flex-auto" :class="sidebarOpen ? 'w-1/2' : 'w-0'">
+            <div class="flex-auto" :class="sidebarOpen ? 'w-1/2' : 'w-0'">
                 <Tabs :items="tabItems">
                     <template #[`tabItem.info`]>
                         <pre v-text="tricinium" class="w-full overflow-y-auto"></pre>

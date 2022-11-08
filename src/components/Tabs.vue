@@ -26,7 +26,7 @@ onMounted(() => {
                 <TabPill v-for="item in items" :key="item.value" :hash="item.value" @click="selectedTab = item.value" :active="selectedTab === item.value">{{ item.text }}</TabPill>
             </div>
         </div>
-        <div class="py-4 overflow-x-hidden">
+        <div class="py-4">
             <template v-for="item in items" :key="item.value">
                 <div v-if="selectedTab === item.value">
                     <slot :name="`tabItem.${item.value}`"></slot>
