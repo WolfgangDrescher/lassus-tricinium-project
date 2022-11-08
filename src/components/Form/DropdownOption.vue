@@ -1,5 +1,5 @@
 <script setup>
-const emit = defineEmits(['toggle']);
+const emit = defineEmits(['toggleOption']);
 
 const props = defineProps({
     value: {
