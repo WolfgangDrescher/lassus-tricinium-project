@@ -11,9 +11,14 @@ const { filteredElements } = useTriciniumFilter(tricinia);
         <TriciniumFilter />
 
         <div class="grid grid-cols-2 gap-4">
-            <div v-for="tricinium in filteredElements" :key="tricinium.id">
-                <TriciniumListItem :tricinium="tricinium" />
+            <div v-if="!filteredElements.length">
+                Keine Tricinien gefunden für diese Suchparameter.
             </div>
+            <template v-else>
+                <div v-for="tricinium in filteredElements" :key="tricinium.id">
+                    <TriciniumListItem :tricinium="tricinium" />
+                </div>
+            </template>
         </div>
     </Container>
 </template>
