@@ -12,7 +12,7 @@ const props = defineProps({
     },
 })
 
-const emit = defineEmits('mounted');
+const emit = defineEmits(['mounted']);
 
 const response = await fetch(props.url);
 if (!response.ok) {
