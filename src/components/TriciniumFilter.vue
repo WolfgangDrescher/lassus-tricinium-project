@@ -115,9 +115,9 @@ const finalisOptions = [
                 <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" label="Finalis" :options="finalisOptions" :search-enabled="false" />
             </div>
             <div>
-                <FormLabel :label="''">
+                <FormGroup :label="''">
                     <Button @click="resetFilter" block>Reset</Button>
-                </FormLabel>
+                </FormGroup>
             </div>
         </div>
     </ClientOnly>

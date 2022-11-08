@@ -8,7 +8,7 @@ function onChange(event) {
 </script>
 
 <template>
-    <FormLabel :label="props.label">
-        <input :value="props.modelValue" @input="onChange" class="text-gray-600 focus:outline-none focus:border focus:border-indigo-700 bg-white font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow" />
-    </FormLabel>
+    <FormGroup :label="props.label">
+        <input :value="props.modelValue" @input="onChange" class="text-gray-600 focus:outline-none focus:border focus:border-primary-300 focus:ring focus:ring-primary-200 bg-white font-normal w-full flex items-center px-3 py-2 text-sm border-gray-300 rounded border shadow-sm" v-bind="{...$attrs, ...$props}" />
+    </FormGroup>
 </template>

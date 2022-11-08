@@ -93,7 +93,6 @@ const filteredOptions = computed(() => {
 </script>
 
 <template>
-    <FormLabel>
         <div class="flex flex-col items-center">
             <div class="w-full">
                 <div class="flex flex-col items-center relative">
@@ -116,6 +115,7 @@ const filteredOptions = computed(() => {
                                 </button>
                             </div>
                         </div>
+    <FormGroup>
                     </div>
                     <div v-if="isOpen" ref="dropdownOptions" class="absolute shadow border border-gray-200 mt-2 top-full bg-white z-40 w-full lef-0 rounded max-h-80 overflow-y-auto">
                         <div class="flex flex-col w-full">
@@ -125,5 +125,5 @@ const filteredOptions = computed(() => {
                 </div>
             </div>
         </div>
-    </FormLabel>
+    </FormGroup>
 </template>
