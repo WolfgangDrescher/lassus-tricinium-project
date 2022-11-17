@@ -10,7 +10,6 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "deploy": "npm run generate && rsync -azP .output/public/ wolfgang:lassus.wolfgangdrescher.ch --delete",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
