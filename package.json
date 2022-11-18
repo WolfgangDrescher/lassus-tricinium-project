@@ -13,6 +13,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@nuxtjs/i18n-edge": "^8.0.0-beta.4-27812700.b832f07",
     "@pinia/nuxt": "^0.4.2",
     "@vueuse/components": "^9.3.0",
     "@vueuse/core": "^9.3.0",
