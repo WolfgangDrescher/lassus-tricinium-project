@@ -35,8 +35,8 @@ class Tricinium {
         return this.tricinium.mode;
     }
 
-    get transposed() {
-        return this.tricinium.transposed;
+    get transposition() {
+        return this.tricinium.transposition;
     }
 
     get finalis() {
