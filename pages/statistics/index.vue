@@ -15,7 +15,9 @@
             </aside>
             <div class="col-span-3">
                 <slot>
-                    Index
+                    <Heading>
+                        {{ $t('overview') }}
+                    </Heading>
                 </slot>
             </div>
         </div>
