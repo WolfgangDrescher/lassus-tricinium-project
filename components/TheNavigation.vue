@@ -16,10 +16,10 @@
                 </button>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-navigation">
                     <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0">
-                        <NavigationItem href="/">{{ $t('home') }}</NavigationItem>
-                        <NavigationItem href="/about">{{ $t('about') }}</NavigationItem>
-                        <NavigationItem href="/tricinium">{{ $t('tricinia') }}</NavigationItem>
-                        <NavigationItem href="/statistics">{{ $t('statistics') }}</NavigationItem>
+                        <NavigationItem :href="localePath('index')">{{ $t('home') }}</NavigationItem>
+                        <NavigationItem :href="localePath('about')">{{ $t('about') }}</NavigationItem>
+                        <NavigationItem :href="localePath('tricinium')">{{ $t('tricinia') }}</NavigationItem>
+                        <NavigationItem :href="localePath('statistics')">{{ $t('statistics') }}</NavigationItem>
                     </ul>
                 </div>
             </div>

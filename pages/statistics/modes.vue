@@ -4,6 +4,12 @@ import StatisticsIndexPage from './index.vue';
 const { data } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(data.value);
 
+defineI18nRoute({
+    paths: {
+        de: '/statistiken/modi',
+    },
+});
+
 const { filteredElements } = useTriciniumFilter(tricinia);
 const { datasets, config, dimension } = useChartGenerator(filteredElements, tricinium => tricinium.mode);
 const { headers, items } = useDatasetTransformer(datasets, 'Mode');
