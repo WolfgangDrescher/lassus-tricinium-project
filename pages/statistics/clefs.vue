@@ -11,7 +11,7 @@ const { headers, items } = useDatasetTransformer(datasets, 'Clefs');
 
 <template>
     <StatisticsIndexPage>
-        <Heading>Clef statistics</Heading>
+        <Heading>{{ $t('clefs')}}</Heading>
         <TriciniumFilter />
         <ChartDimensionSelector v-model="dimension" />
         <Chart :config="config" />

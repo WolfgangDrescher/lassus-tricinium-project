@@ -11,7 +11,7 @@ const { headers, items } = useDatasetTransformer(datasets, 'Finalis');
 
 <template>
     <StatisticsIndexPage>
-        <Heading>Finalis statistics</Heading>
+        <Heading>{{ $t('finalis') }}</Heading>
         <TriciniumFilter />
         <ChartDimensionSelector v-model="dimension" />
         <Chart :config="config" />

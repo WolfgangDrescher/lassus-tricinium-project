@@ -2,6 +2,7 @@
 import { onClickOutside } from '@vueuse/core';
 
 const emit = defineEmits(['update:modelValue']);
+const { t } = useI18n();
 
 const props = defineProps({
     modelValue: {
@@ -17,7 +18,7 @@ const props = defineProps({
     },
     emptyValuePlaceholder: {
         type: String,
-        default: 'No items selected',
+        default: null,
     },
     multiple: {
         type: Boolean,
@@ -27,6 +28,10 @@ const props = defineProps({
         type: Boolean,
         default: true,
     },
+});
+
+const emptyValuePlaceholderText = computed(() => {
+    return props.emptyValuePlaceholder || t('noItemsSelected');
 });
 
 const dropdownOptions = ref();
@@ -111,7 +116,7 @@ const filteredOptions = computed(() => {
         <div @click="openDropdown" class="relative">
             <div :class="isOpen ? 'focus' : ''" class="dropdown text-gray-600 bg-white font-normal w-full flex items-center pl-3 pr-0 py-2 text-sm border-gray-300 rounded border shadow-sm">
                 <div class="w-full">
-                    <div v-if="!props.modelValue?.length && props.emptyValuePlaceholder" class="text-gray-500 whitespace-nowrap" v-text="props.emptyValuePlaceholder"></div>
+                    <div v-if="!props.modelValue?.length && emptyValuePlaceholderText" class="text-gray-500 whitespace-nowrap" v-text="emptyValuePlaceholderText || $t('noItemsSelected')"></div>
                     <div v-if="(!props.multiple && props.modelValue) || (props.multiple && props.modelValue.length)" class="pl-3 pr-0 py-2 absolute top-1/2 -translate-y-1/2 left-0 flex flex-auto flex-wrap">
                         <BadgeGroup v-if="props.multiple">
                             <FormDropdownBadge v-for="(value, index) in props.modelValue" :key="index" :text="getOptionTextFromValue(value)" :value="value" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
@@ -129,7 +134,7 @@ const filteredOptions = computed(() => {
             <div v-if="isOpen" ref="dropdownOptions" class="absolute shadow-sm border border-gray-200 mt-2 top-full bg-white z-40 w-full left-0 rounded max-h-80 overflow-y-auto">
                 <div class="flex flex-col w-full">
                     <div v-if="props.searchEnabled" class="p-2">
-                        <FormInputField v-model="searchString" placeholder="Search…"></FormInputField>
+                        <FormInputField v-model="searchString" :placeholder="$t('search')"></FormInputField>
                     </div>
                     <FormDropdownOption v-for="(option, index) in filteredOptions" :key="index" :value="option.value" :text="option.text" :selected="optionIsSelected(option.value)" @toggleOption="toggleOption" />
                 </div>

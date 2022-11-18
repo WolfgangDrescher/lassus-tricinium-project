@@ -1,6 +1,7 @@
 <script setup>
 import Button from './Button.vue';
 import InputField from './Form/InputField.vue';
+const { t } = useI18n();
 
 const props = defineProps({
     filter: String,
@@ -27,7 +28,7 @@ const DynamicHumdrumFilter = defineComponent({
     props: ['filter'],
     setup(props) {
         return () => {
-            let elems = ['No arguments to set'];
+            let elems = [t('noArguments')];
             switch (props.filter) {
                 case 'MeasureFilter':
                 case 'ExtractFilter':
@@ -78,7 +79,7 @@ const DynamicHumdrumFilter = defineComponent({
                 ...elems,
                 h(Button, {
                     onClick: applyFilter,
-                }, 'Apply'),
+                }, t('apply')),
             ]);
         };
     },

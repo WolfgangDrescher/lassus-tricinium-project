@@ -1,4 +1,5 @@
 <script setup>
+const { t } = useI18n();
 
 const props = defineProps({
     tricinium: {
@@ -21,26 +22,26 @@ watchEffect(() => {
 const voiceOptions = [
     {
         value: 'cantus',
-        text: 'Cantus',
+        text: t('voice.cantus'),
     },
     {
         value: 'tenor',
-        text: 'Tenor',
+        text: t('voice.tenor'),
     },
     {
         value: 'bassus',
-        text: 'Bassus',
+        text: t('voice.bassus'),
     },
 ];
 
 const diffOutputFormatOptions = [
     {
         value: 'line-by-line',
-        text: 'Line by line',
+        text: t('diffOutputFormat.lineByLine'),
     },
     {
         value: 'side-by-side',
-        text: 'Side by side',
+        text: t('diffOutputFormat.sideBySide'),
     },
 ];
 
@@ -56,8 +57,8 @@ const diff = computed(() => {
 
 <template>
     <div class="grid grid-cols-2 gap-4 my-4">
-        <FormDropdown v-model="selectedVoices" :options="voiceOptions" :multiple="true" />
-        <FormDropdown v-model="diffOptions.outputFormat" :options="diffOutputFormatOptions" :badge-show-remove-button="false" />
+        <FormDropdown v-model="selectedVoices" :options="voiceOptions" :multiple="true" :search-enabled="false" />
+        <FormDropdown v-model="diffOptions.outputFormat" :options="diffOutputFormatOptions" :search-enabled="false" :badge-show-remove-button="false" />
     </div>
     <TextDiff :diff="diff" :options="diffOptions" />
 </template>

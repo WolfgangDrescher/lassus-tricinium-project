@@ -1,0 +1,46 @@
+home: Startseite
+about: Über das Projekt
+tricinia: Tricinien
+statistics: Statistiken
+searchText: Suchtext
+composer: Komponist
+mode: Modus
+transposition: Transposition
+finalis: Finalis
+reset: Zurücksetzen
+titleNumberLyrics: Titel, Nummer, Liedtext…
+noItemsSelected: Keine Auswahl
+search: Suchen…
+mode.ionian: Ionisch
+mode.dorian: Dorisch
+mode.phrygian: Phrygisch
+mode.lydian: Lydisch
+mode.mixolydian: Mixolydisch
+mode.aeolian: Æolisch
+mode.locrian: Lokrisch
+transposition.cantus_mollis: Cantus mollis
+transposition.cantus_durus: Cantus durus
+nTriciniaFoundForSerachParams: 'Keine Tricinien gefunden für diese Suchparameter | Ein Tricinium gefunden | {n} Tricinien gefunden'
+info: Info
+lyrics: Liedtext
+ambitus: Ambitus
+ulenberg: Ulenberg
+notes: Notizen
+hideSidebar: Seitenleiste ausblenden
+showSidebar: Seitenleiste einblenden
+overview: Übersicht
+clefs: Schlüssel
+modes: Modi
+transpositions: Transpositionen
+words: Wörter
+addChartDimension: Diagramm Dimension hinzufügen
+all: Alle
+id: ID
+title: Titel
+voice.cantus: Cantus
+voice.tenor: Tenor
+voice.bassus: Bassus
+diffOutputFormat.lineByLine: Zeile für Zeile
+diffOutputFormat.sideBySide: Nebeneinander
+apply: Anwenden
+noArguments: Keine Argumente

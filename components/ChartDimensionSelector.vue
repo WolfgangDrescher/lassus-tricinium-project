@@ -1,39 +1,40 @@
 <script setup>
 const props = defineProps(['modelValue']);
 const emit = defineEmits('update:modelValue');
+const { t } = useI18n();
 
 const options = [
     {
         value: 'all',
-        text: 'All',
+        text: t('all'),
     },
     {
         value: 'id',
-        text: 'ID',
+        text: t('id'),
     },
     {
         value: 'title',
-        text: 'Title',
+        text: t('title'),
     },
     {
         value: 'composer',
-        text: 'Composer',
+        text: t('composer'),
     },
     {
         value: 'mode',
-        text: 'Mode',
+        text: t('mode'),
     },
     {
-        value: 'transposed',
-        text: 'Transposed',
+        value: 'transposition',
+        text: t('transposition'),
     },
     {
         value: 'clefs',
-        text: 'Clefs',
+        text: t('clefs'),
     },
     {
         value: 'finalis',
-        text: 'Finalis',
+        text: t('finalis'),
     },
 ];
 
@@ -44,6 +45,6 @@ function onChange(value) {
 
 <template>
     <div class="grid grid-cols-2 my-4">
-        <FormDropdown :options="options" label="Add additional chart dimension" :model-value="props.modelValue" @update:modelValue="onChange" />
+        <FormDropdown :options="options" :label="$t('addChartDimension')" :model-value="props.modelValue" @update:modelValue="onChange" />
     </div>
 </template>

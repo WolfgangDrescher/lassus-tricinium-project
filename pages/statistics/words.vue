@@ -16,7 +16,7 @@ const { headers, items } = useDatasetTransformer(datasets, 'Word');
 
 <template>
     <StatisticsIndexPage>
-        <Heading>Word statistics</Heading>
+        <Heading>{{ $t('words')}}</Heading>
         <TriciniumFilter />
         <ChartDimensionSelector v-model="dimension" />
         <Chart :config="config" />

@@ -6,19 +6,18 @@ const { filteredElements } = useTriciniumFilter(tricinia);
 
 <template>
     <Container>
-        <Heading>Tricinium Liste</Heading>
+        <Heading>{{ $t('tricinia') }}</Heading>
 
         <TriciniumFilter />
 
+        <div class="my-4">
+            {{ $t('nTriciniaFoundForSerachParams', filteredElements.length) }}
+        </div>
+
         <div class="grid grid-cols-2 gap-4">
-            <div v-if="!filteredElements.length">
-                Keine Tricinien gefunden für diese Suchparameter.
+            <div v-for="tricinium in filteredElements" :key="tricinium.id">
+                <TriciniumListItem :tricinium="tricinium" />
             </div>
-            <template v-else>
-                <div v-for="tricinium in filteredElements" :key="tricinium.id">
-                    <TriciniumListItem :tricinium="tricinium" />
-                </div>
-            </template>
         </div>
     </Container>
 </template>

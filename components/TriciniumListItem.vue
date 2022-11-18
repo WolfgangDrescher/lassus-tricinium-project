@@ -36,7 +36,7 @@ defineProps({
                 {{ tricinium.lyricsAsString() }}
             </div>
             <BadgeGroup>
-                <Badge text-size="sm" v-if="tricinium.transposed">Transponiert</Badge>
+                <Badge text-size="sm" v-if="tricinium.transposition">{{ $t(`transposition.${tricinium.transposition}`) }}</Badge>
                 <Badge text-size="sm" v-if="tricinium.finalis">{{ tricinium.finalis }}</Badge>
                 <Badge text-size="sm" v-if="tricinium.mode">{{ tricinium.mode }}</Badge>
             </BadgeGroup>

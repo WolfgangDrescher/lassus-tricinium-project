@@ -11,7 +11,7 @@ const { headers, items } = useDatasetTransformer(datasets, 'Mode');
 
 <template>
     <StatisticsIndexPage>
-        <Heading>Mode statistics</Heading>
+        <Heading>{{ $t('modes')}}</Heading>
         <TriciniumFilter />
         <ChartDimensionSelector v-model="dimension" />
         <Chart :config="config" />

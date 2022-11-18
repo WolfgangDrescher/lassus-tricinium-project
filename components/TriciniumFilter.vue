@@ -1,5 +1,9 @@
 <script setup>
+const { data } = await useFetch('/api/tricinium');
+const tricinia = useTricinium(data.value);
+
 const filter = useFilterStore();
+const { t } = useI18n();
 
 function updateFilter(prop, value) {
     filter.update(prop, value);
@@ -9,58 +13,20 @@ function resetFilter() {
     filter.reset();
 }
 
-const composerOptions = [
-    {
-        value: 'Orlandus Lassus',
-        text: 'Orlandus Lassus',
-    },
-    {
-        value: 'Rudolphus Lassus',
-        text: 'Rudolphus Lassus',
-    },
-];
+const composerOptions = [...new Set(tricinia.map(tricinium => tricinium.composer).filter(n => n))].map(composer => ({
+    value: composer,
+    text: composer,
+}));
 
-const modeOptions = [
-    {
-        value: 'ionian',
-        text: 'Ionian',
-    },
-    {
-        value: 'dorian',
-        text: 'Dorian',
-    },
-    {
-        value: 'phrygian',
-        text: 'Phrygian',
-    },
-    {
-        value: 'lydian',
-        text: 'Lydian',
-    },
-    {
-        value: 'mixolydian',
-        text: 'Mixolydian',
-    },
-    {
-        value: 'aeolian',
-        text: 'Aeolian',
-    },
-    {
-        value: 'locrian',
-        text: 'Locrian',
-    },
-];
+const modeOptions = [...new Set(tricinia.map(tricinium => tricinium.mode).filter(n => n))].map(mode => ({
+    value: mode,
+    text: t(`mode.${mode}`)
+}));
 
-const transposedOptions = [
-    {
-        value: 'true',
-        text: 'true',
-    },
-    {
-        value: 'false',
-        text: 'false',
-    },
-];
+const transpositionOptions = [...new Set(tricinia.map(tricinium => tricinium.transposition).filter(n => n))].map(transposition => ({
+    value: transposition,
+    text: t(`transposition.${transposition}`)
+}));
 
 const finalisOptions = [
     {
@@ -98,23 +64,23 @@ const finalisOptions = [
     <ClientOnly>
         <div class="grid grid-cols-filter gap-4 mb-4">
             <div>
-                <FormInputField :model-value="filter.searchText" @update:model-value="updateFilter('searchText', $event)" label="Search text" placeholder="Title, number, lyrics…" />
+                <FormInputField :model-value="filter.searchText" @update:model-value="updateFilter('searchText', $event)" :label="$t('searchText')" :placeholder="$t('titleNumberLyrics')" />
             </div>
             <div>
-                <FormDropdown :model-value="filter.composer" @update:model-value="updateFilter('composer', $event)" label="Composer" :options="composerOptions" :search-enabled="false" />
+                <FormDropdown :model-value="filter.composer" @update:model-value="updateFilter('composer', $event)" :label="$t('composer')" :options="composerOptions" :search-enabled="false" />
             </div>
             <div>
-                <FormDropdown :model-value="filter.mode" @update:model-value="updateFilter('mode', $event)" label="Mode" :options="modeOptions" :search-enabled="false" />
+                <FormDropdown :model-value="filter.mode" @update:model-value="updateFilter('mode', $event)" :label="$t('mode')" :options="modeOptions" :search-enabled="false" />
             </div>
             <div>
-                <FormDropdown :model-value="filter.transposed" @update:model-value="updateFilter('transposed', $event)" label="Transposed" :options="transposedOptions" :search-enabled="false" />
+                <FormDropdown :model-value="filter.transposed" @update:model-value="updateFilter('transposed', $event)" :label="$t('transposition')" :options="transpositionOptions" :search-enabled="false" />
             </div>
             <div>
-                <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" label="Finalis" :options="finalisOptions" :search-enabled="false" />
+                <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" :label="$t('finalis')" :options="finalisOptions" :search-enabled="false" />
             </div>
             <div>
                 <FormGroup :label="''">
-                    <Button @click="resetFilter" block>Reset</Button>
+                    <Button @click="resetFilter" block>{{ $t('reset') }}</Button>
                 </FormGroup>
             </div>
         </div>

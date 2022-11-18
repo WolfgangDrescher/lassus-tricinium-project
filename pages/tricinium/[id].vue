@@ -1,5 +1,7 @@
 <script setup>
 import { MeasureFilter } from '@/classes/HumdrumFilters.js';
+
+const { t } = useI18n();
 const route = useRoute();
 const { data } = await useAsyncData(`/api/tricinium/${route.params.id}`, () => {
     return $fetch(`/api/tricinium/${route.params.id}`)
@@ -31,23 +33,23 @@ function toggleSidebar() {
 const tabItems = [
     {
         value: 'info',
-        text: 'Info',
+        text: t('info'),
     },
     {
-        value: 'text',
-        text: 'Text',
+        value: 'lyrics',
+        text: t('lyrics'),
     },
     {
         value: 'ambitus',
-        text: 'Ambitus',
+        text: t('ambitus'),
     },
     {
         value: 'ulenberg',
-        text: 'Ulenberg',
+        text: t('ulenberg'),
     },
     {
         value: 'notes',
-        text: 'Notes',
+        text: t('notes'),
     },
 ];
 
@@ -65,10 +67,10 @@ const triciniumVerovioOptions = {
             <div>
                 <Button @click="toggleSidebar">
                     <template v-if="sidebarOpen">
-                        Hide Sidebar
+                        {{ t('hideSidebar') }}
                     </template>
                     <template v-else>
-                        Show Sidebar
+                        {{ t('showSidebar') }}
                     </template>
                 </Button>
             </div>
@@ -87,7 +89,7 @@ const triciniumVerovioOptions = {
                     <template #[`tabItem.info`]>
                         <pre v-text="tricinium" class="w-full overflow-y-auto"></pre>
                     </template>
-                    <template #[`tabItem.text`]>
+                    <template #[`tabItem.lyrics`]>
                         <DataTable :items="tricinium.lyrics?.map((l, i) => ({ '#': i + 1, ...l })) || []">
                             <template #[`item.measures`]="{ item }">
                                 <HyperLink href="#0" @click="addMeasureFilter(item.measures)">

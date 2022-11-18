@@ -11,7 +11,7 @@ const { headers, items } = useDatasetTransformer(datasets, 'Transposition');
 
 <template>
     <StatisticsIndexPage>
-        <Heading>Transposition statistics</Heading>
+        <Heading>{{ $t('transpositions') }}</Heading>
         <TriciniumFilter />
         <ChartDimensionSelector v-model="dimension" />
         <Chart :config="config" />
