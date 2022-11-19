@@ -33,6 +33,11 @@ const filterByFinalis = (finalis, element) => {
     return finalis.map(f => f?.toLowerCase()).includes(element.finalis?.toLowerCase());
 };
 
+const filterByClefs = (clefs, element) => {
+    if (!clefs.length) return true;
+    return clefs.map(f => f?.toLowerCase()).includes(element.clefs?.toLowerCase());
+};
+
 const filterBySearchText = (searchText, element) => {
     if (!searchText) return true;
     return filterByTitle(searchText, element) || filterByNr(searchText, element) || filterByLyrics(searchText, element);
@@ -61,6 +66,7 @@ export function useTriciniumFilter(elements) {
                 nrMatches &&
                 modesMatched &&
                 transpositionMatched &&
+                clefsMatched &&
                 finalisMatched &&
                 searchTextMatched
             );

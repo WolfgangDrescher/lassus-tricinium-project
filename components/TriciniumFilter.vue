@@ -58,6 +58,10 @@ const finalisOptions = [
         text: 'h',
     },
 ];
+const clefsOptions = [...new Set(tricinia.map(tricinium => tricinium.clefs).filter(n => n))].map(clefs => ({
+    value: clefs,
+    text: clefs,
+}));
 </script>
 
 <template>
@@ -74,6 +78,9 @@ const finalisOptions = [
             </div>
             <div>
                 <FormDropdown :model-value="filter.transposition" @update:model-value="updateFilter('transposition', $event)" :label="$t('transposition')" :options="transpositionOptions" :search-enabled="false" />
+            </div>
+            <div>
+                <FormDropdown :model-value="filter.clefs" @update:model-value="updateFilter('clefs', $event)" :label="$t('clefs')" :options="clefsOptions" :search-enabled="false" :multiple="true" />
             </div>
             <div>
                 <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" :label="$t('finalis')" :options="finalisOptions" :search-enabled="false" :multiple="true"/>
