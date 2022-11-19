@@ -44,3 +44,7 @@ diffOutputFormat.lineByLine: Zeile für Zeile
 diffOutputFormat.sideBySide: Nebeneinander
 apply: Anwenden
 noArguments: Keine Argumente
+viewScoreFileOnGithub: Kern Partitur auf GitHub
+incipit: Incipit
+rawFile: Kern
+vhv: VHV

@@ -56,6 +56,31 @@ const tabItems = [
 const triciniumVerovioOptions = {
     spacingSystem: 24,
 };
+
+const infoItemsHeaders = [
+    { value: 'title', text: t('title') },
+    { value: 'incipit', text: t('incipit') },
+    { value: 'composer', text: t('composer') },
+    { value: 'rawFile', text: t('rawFile') },
+    { value: 'vhv', text: t('vhv') },
+    { value: 'mode', text: t('mode') },
+    { value: 'transposition', text: t('transposition') },
+    { value: 'finalis', text: t('finalis') },
+    { value: 'clefs', text: t('clefs') },
+];
+
+const infoItems = [{
+    id: tricinium.id,
+    title: tricinium.title,
+    incipit: tricinium.incipit,
+    composer: tricinium.composer,
+    rawFile: tricinium.rawFile,
+    vhv: tricinium.rawFile,
+    mode: tricinium.mode && t(`mode.${tricinium.mode}`),
+    transposition: tricinium.transposition && t(`transposition.${tricinium.transposition}`),
+    finalis: tricinium.finalis,
+    clefs: tricinium.clefs,
+}];
 </script>
 
 <template>
@@ -87,7 +112,14 @@ const triciniumVerovioOptions = {
             <div class="flex-auto" :class="sidebarOpen ? 'w-1/2' : 'w-0'">
                 <Tabs :items="tabItems">
                     <template #[`tabItem.info`]>
-                        <pre v-text="tricinium" class="w-full overflow-y-auto"></pre>
+                        <DataTable :items="infoItems" :headers="infoItemsHeaders" direction="column">
+                            <template #[`item.vhv`]="{ item }">
+                                <HyperLink :href="item.vhvHref" target="_blank">Verovio Humdrum Viewer</HyperLink>
+                            </template>
+                            <template #[`item.rawFile`]="{ item }">
+                                <HyperLink :href="item.sourceFile || item.rawFile" target="_blank">{{ $t('viewScoreFileOnGithub') }}</HyperLink>
+                            </template>
+                        </DataTable>
                     </template>
                     <template #[`tabItem.lyrics`]>
                         <DataTable :items="tricinium.lyrics?.map((l, i) => ({ '#': i + 1, ...l })) || []">
