@@ -1,5 +1,5 @@
 <script setup>
-import Chart from 'chart.js/auto/auto.mjs';
+import Chart from 'chart.js/auto';
 
 const defaultColors = [
     '#4572A7', '#AA4643', '#89A54E', '#80699B', '#3D96AE',
