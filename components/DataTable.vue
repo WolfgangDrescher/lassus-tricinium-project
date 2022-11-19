@@ -7,6 +7,14 @@ const props = defineProps({
         type: Array,
         required: true,
     },
+    showHead: {
+        type: Boolean,
+        default: true,
+    },
+    direction: {
+        type: String,
+        default: 'row',
+    },
 });
 
 const fields = computed(() => {
@@ -28,22 +36,38 @@ const fields = computed(() => {
             <div class="inline-block min-w-full sm:px-6 lg:px-8">
                 <div class="overflow-hidden border border-gray-200 sm:rounded">
                     <table class="min-w-full">
-                        <thead class="bg-gray-50">
-                            <tr>
-                                <th v-for="(field, i) in fields" :key="i" scope="col" class="py-3 px-6 text-left border-b border-gray-200">
-                                    {{ field.text }}
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr v-for="(item, j) in items" :key="j" class="bg-white border-b border-gray-200">
-                                <td v-for="(field, k) in fields" :key="k" class="py-4 px-6 whitespace-nowrap">
-                                    <slot :name="`item.${field.value}`" :item="item">
-                                        <span v-text="item[field.value]"></span>
-                                    </slot>
-                                </td>
-                            </tr>
-                        </tbody>
+                        <template v-if="direction === 'row'">
+                            <thead class="bg-gray-50" v-if="showHead">
+                                <tr>
+                                    <th v-for="(field, i) in fields" :key="i" scope="col" class="py-3 px-6 text-left border-b border-gray-200">
+                                        {{ field.text }}
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="(item, j) in items" :key="j" class="bg-white border-b border-gray-200">
+                                    <td v-for="(field, k) in fields" :key="k" class="py-4 px-6 whitespace-nowrap">
+                                        <slot :name="`item.${field.value}`" :item="item">
+                                            <span v-text="item[field.value]"></span>
+                                        </slot>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </template>
+                        <template v-else>
+                            <tbody>
+                                <tr v-for="(field, j) in fields" :key="j" class="bg-white border-b border-gray-200">
+                                    <th v-if="showHead" class="py-3 px-6 text-left border-b border-gray-200 w-1">
+                                        {{ field.text }}
+                                    </th>
+                                    <td v-for="(item, k) in items" :key="k" class="py-4 px-6 whitespace-nowrap">
+                                        <slot :name="`item.${field.value}`" :item="item">
+                                            <span v-text="item[field.value]"></span>
+                                        </slot>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </template>
                     </table>
                 </div>
             </div>
