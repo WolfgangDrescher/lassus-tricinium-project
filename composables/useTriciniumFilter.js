@@ -1,6 +1,6 @@
-const filterByComposer = (composer, element) => {
-    if (!composer) return true;
-    return element.composer?.toLowerCase().includes(composer?.toLowerCase());
+const filterByComposers = (composers, element) => {
+    if (!composers.length) return true;
+    return composers.map(c => c?.toLowerCase()).includes(element.composer?.toLowerCase());
 };
 
 const filterByTitle = (title, element) => {
@@ -18,9 +18,9 @@ const filterByNr = (nr, element) => {
     return parseInt(element.nr, 10) === parseInt(nr, 10);
 };
 
-const filterByMode = (mode, element) => {
-    if (!mode) return true;
-    return element.mode?.toLowerCase() === mode?.toLowerCase();
+const filterByModes = (modes, element) => {
+    if (!modes.length) return true;
+    return modes.map(m => m?.toLowerCase()).includes(element.mode?.toLowerCase());
 };
 
 const filterByTransposition = (transposition, element) => {
@@ -29,8 +29,8 @@ const filterByTransposition = (transposition, element) => {
 };
 
 const filterByFinalis = (finalis, element) => {
-    if (!finalis) return true;
-    return element.finalis?.toLowerCase() === finalis?.toLowerCase();
+    if (!finalis.length) return true;
+    return finalis.map(f => f?.toLowerCase()).includes(element.finalis?.toLowerCase());
 };
 
 const filterBySearchText = (searchText, element) => {
@@ -44,21 +44,22 @@ export function useTriciniumFilter(elements) {
 
     const filteredElements = computed(() => {
         const filteredElements = elements.filter(element => {
-            const composerMatches = filterByComposer(filter.composer, element);
+            const composersMatches = filterByComposers(filter.composers, element);
             const titleMatches = filterByTitle(filter.title, element);
             const lyricsMatches = filterByLyrics(filter.lyrics, element);
             const nrMatches = filterByNr(filter.nr, element);
-            const modeMatched = filterByMode(filter.mode, element);
+            const modesMatched = filterByModes(filter.modes, element);
             const transpositionMatched = filterByTransposition(filter.transposition, element);
+            const clefsMatched = filterByClefs(filter.clefs, element);
             const finalisMatched = filterByFinalis(filter.finalis, element);
             const searchTextMatched = filterBySearchText(filter.searchText, element);
 
             return (
-                composerMatches &&
+                composersMatches &&
                 titleMatches &&
                 lyricsMatches &&
                 nrMatches &&
-                modeMatched &&
+                modesMatched &&
                 transpositionMatched &&
                 finalisMatched &&
                 searchTextMatched

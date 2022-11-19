@@ -67,16 +67,16 @@ const finalisOptions = [
                 <FormInputField :model-value="filter.searchText" @update:model-value="updateFilter('searchText', $event)" :label="$t('searchText')" :placeholder="$t('titleNumberLyrics')" />
             </div>
             <div>
-                <FormDropdown :model-value="filter.composer" @update:model-value="updateFilter('composer', $event)" :label="$t('composer')" :options="composerOptions" :search-enabled="false" />
+                <FormDropdown :model-value="filter.composers" @update:model-value="updateFilter('composers', $event)" :label="$t('composer')" :options="composerOptions" :search-enabled="false" :multiple="true" />
             </div>
             <div>
-                <FormDropdown :model-value="filter.mode" @update:model-value="updateFilter('mode', $event)" :label="$t('mode')" :options="modeOptions" :search-enabled="false" />
+                <FormDropdown :model-value="filter.modes" @update:model-value="updateFilter('modes', $event)" :label="$t('mode')" :options="modeOptions" :search-enabled="false" :multiple="true"/>
             </div>
             <div>
                 <FormDropdown :model-value="filter.transposition" @update:model-value="updateFilter('transposition', $event)" :label="$t('transposition')" :options="transpositionOptions" :search-enabled="false" />
             </div>
             <div>
-                <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" :label="$t('finalis')" :options="finalisOptions" :search-enabled="false" />
+                <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" :label="$t('finalis')" :options="finalisOptions" :search-enabled="false" :multiple="true"/>
             </div>
             <div>
                 <FormGroup :label="''">
