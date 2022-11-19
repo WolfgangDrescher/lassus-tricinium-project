@@ -28,39 +28,14 @@ const transpositionOptions = [...new Set(tricinia.map(tricinium => tricinium.tra
     text: t(`transposition.${transposition}`),
 }));
 
-const finalisOptions = [
-    {
-        value: 'c',
-        text: 'c',
-    },
-    {
-        value: 'd',
-        text: 'd',
-    },
-    {
-        value: 'e',
-        text: 'e',
-    },
-    {
-        value: 'f',
-        text: 'f',
-    },
-    {
-        value: 'g',
-        text: 'g',
-    },
-    {
-        value: 'a',
-        text: 'a',
-    },
-    {
-        value: 'h',
-        text: 'h',
-    },
-];
 const clefsOptions = [...new Set(tricinia.map(tricinium => tricinium.clefs).filter(n => n))].map(clefs => ({
     value: clefs,
     text: clefs,
+}));
+
+const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).filter(n => n))].map(finalis => ({
+    value: finalis,
+    text: finalis,
 }));
 </script>
 
