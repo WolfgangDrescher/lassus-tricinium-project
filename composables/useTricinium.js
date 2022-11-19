@@ -48,7 +48,7 @@ class Tricinium {
             this.tricinium.voices?.cantus?.clef,
             this.tricinium.voices?.tenor?.clef,
             this.tricinium.voices?.bassus?.clef,
-        ];
+        ].filter(c => c);
         return clefs.join(', ') || null;
     }
 
