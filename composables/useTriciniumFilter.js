@@ -77,6 +77,6 @@ export function useTriciniumFilter(elements) {
     });
 
     return {
-        filteredElements: filteredElements,
+        filteredElements,
     };
 }
