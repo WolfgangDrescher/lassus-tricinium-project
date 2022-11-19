@@ -38,7 +38,7 @@ defineProps({
             <BadgeGroup>
                 <Badge text-size="sm" v-if="tricinium.transposition">{{ $t(`transposition.${tricinium.transposition}`) }}</Badge>
                 <Badge text-size="sm" v-if="tricinium.finalis">{{ tricinium.finalis }}</Badge>
-                <Badge text-size="sm" v-if="tricinium.mode">{{ tricinium.mode }}</Badge>
+                <Badge text-size="sm" v-if="tricinium.mode">{{ $t(`mode.${tricinium.mode}`) }}</Badge>
             </BadgeGroup>
         </div>
     </div>
