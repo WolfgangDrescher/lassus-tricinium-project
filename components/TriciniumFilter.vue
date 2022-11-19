@@ -20,12 +20,12 @@ const composerOptions = [...new Set(tricinia.map(tricinium => tricinium.composer
 
 const modeOptions = [...new Set(tricinia.map(tricinium => tricinium.mode).filter(n => n))].map(mode => ({
     value: mode,
-    text: t(`mode.${mode}`)
+    text: t(`mode.${mode}`),
 }));
 
 const transpositionOptions = [...new Set(tricinia.map(tricinium => tricinium.transposition).filter(n => n))].map(transposition => ({
     value: transposition,
-    text: t(`transposition.${transposition}`)
+    text: t(`transposition.${transposition}`),
 }));
 
 const finalisOptions = [
