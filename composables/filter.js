@@ -7,7 +7,7 @@ const defaultFilter = {
     lyrics: null,
     nr: null,
     mode: null,
-    transposed: null,
+    transposition: null,
     finalis: null,
     clefs: null,
     searchText: null,

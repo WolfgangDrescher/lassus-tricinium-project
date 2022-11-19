@@ -73,7 +73,7 @@ const finalisOptions = [
                 <FormDropdown :model-value="filter.mode" @update:model-value="updateFilter('mode', $event)" :label="$t('mode')" :options="modeOptions" :search-enabled="false" />
             </div>
             <div>
-                <FormDropdown :model-value="filter.transposed" @update:model-value="updateFilter('transposed', $event)" :label="$t('transposition')" :options="transpositionOptions" :search-enabled="false" />
+                <FormDropdown :model-value="filter.transposition" @update:model-value="updateFilter('transposition', $event)" :label="$t('transposition')" :options="transpositionOptions" :search-enabled="false" />
             </div>
             <div>
                 <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" :label="$t('finalis')" :options="finalisOptions" :search-enabled="false" />

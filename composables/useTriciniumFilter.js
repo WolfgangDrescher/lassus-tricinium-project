@@ -23,9 +23,9 @@ const filterByMode = (mode, element) => {
     return element.mode?.toLowerCase() === mode?.toLowerCase();
 };
 
-const filterByTransposed = (transposed, element) => {
-    if (!transposed) return true;
-    return element.transposed === (transposed === 'true');
+const filterByTransposition = (transposition, element) => {
+    if (!transposition) return true;
+    return element.transposition === transposition;
 };
 
 const filterByFinalis = (finalis, element) => {
@@ -49,7 +49,7 @@ export function useTriciniumFilter(elements) {
             const lyricsMatches = filterByLyrics(filter.lyrics, element);
             const nrMatches = filterByNr(filter.nr, element);
             const modeMatched = filterByMode(filter.mode, element);
-            const transposedMatched = filterByTransposed(filter.transposed, element);
+            const transpositionMatched = filterByTransposition(filter.transposition, element);
             const finalisMatched = filterByFinalis(filter.finalis, element);
             const searchTextMatched = filterBySearchText(filter.searchText, element);
 
@@ -59,7 +59,7 @@ export function useTriciniumFilter(elements) {
                 lyricsMatches &&
                 nrMatches &&
                 modeMatched &&
-                transposedMatched &&
+                transpositionMatched &&
                 finalisMatched &&
                 searchTextMatched
             );
