@@ -1,6 +1,6 @@
 import { storeToRefs } from 'pinia';
 
-export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength) {
+export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength, valueTransformer) {
     const chartOptions = useChartStore();
 
     const { dimension } = storeToRefs(chartOptions);
@@ -19,6 +19,10 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
         }, []);
     });
 
+    const formatValue = (value) => {
+        return typeof valueTransformer === 'function' ? valueTransformer(value) : value;
+    }
+
     const datasets = computed(() => {
         return elementsGroupedByDimension.value.map(dataset => {
             return {
@@ -31,7 +35,7 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
                                 let index = previousValue.findIndex(d => d.x === item);
                                 if (index === -1) {
                                     index = -1 + previousValue.push({
-                                        x: item,
+                                        x: formatValue(item),
                                         y: 0,
                                     });
                                 }
@@ -43,7 +47,7 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
                             let index = previousValue.findIndex(d => d.x === x);
                             if (index === -1) {
                                 index = -1 + previousValue.push({
-                                    x,
+                                    x: formatValue(x),
                                     y: 0,
                                 });
                             }
