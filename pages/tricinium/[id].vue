@@ -140,9 +140,11 @@ const useMordernClefs = ref(false);
                         <label>
                             <input value="" type="checkbox" v-model="useMordernClefs" /> Show modern clefs
                         </label>
-                        <template v-for="voice in ['cantus', 'tenor', 'bassus']">
-                            <VoiceAmbitus :tricinium="tricinium" :voice="voice" :modern-clefs="useMordernClefs" />
-                        </template>
+                        <ClientOnly>
+                            <template v-for="voice in ['cantus', 'tenor', 'bassus']">
+                                <VoiceAmbitus :tricinium="tricinium" :voice="voice" :modern-clefs="useMordernClefs" />
+                            </template>
+                        </ClientOnly>
                     </template>
 
                     <template #[`tabItem.ulenberg`]>
