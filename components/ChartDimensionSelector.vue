@@ -1,6 +1,6 @@
 <script setup>
 const props = defineProps(['modelValue']);
-const emit = defineEmits('update:modelValue');
+const emit = defineEmits(['update:modelValue']);
 const { t } = useI18n();
 
 const options = [

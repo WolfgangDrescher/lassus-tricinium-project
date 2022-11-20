@@ -9,7 +9,7 @@ const props = defineProps({
     },
 });
 
-const emit = defineEmits('remove');
+const emit = defineEmits(['remove']);
 
 function remove() {
     emit('remove');
