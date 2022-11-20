@@ -2,15 +2,16 @@ import { storeToRefs } from 'pinia';
 
 export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength, valueTransformer) {
     const chartOptions = useChartStore();
+    const { t } = useI18n();
 
     const { dimension } = storeToRefs(chartOptions);
 
     const elementsGroupedByDimension = computed(() => {
         return elements.value.reduce((previousValue, tricinium) => {
-            let index = previousValue.findIndex((d) => d.label === (dimension.value ? tricinium[dimension.value] : 'All'));
+            let index = previousValue.findIndex((d) => d.label === (dimension.value ? tricinium[dimension.value] : t('all')));
             if (index === -1) {
                 index = -1 + previousValue.push({
-                    label: dimension.value ? tricinium[dimension.value] : 'All',
+                    label: dimension.value ? tricinium[dimension.value] : t('all'),
                     data: [],
                 });
             }
