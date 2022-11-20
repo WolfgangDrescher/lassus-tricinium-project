@@ -96,6 +96,10 @@ class Tricinium {
     getNoteCountOfVoice(voice) {
         return this.tricinium.voices[voice]?.prange?.noteCount;
     }
+
+    getVoiceClef(voice) {
+        return this.tricinium.voices?.[voice]?.clef || null;
+    }
 }
 
 export function useTricinium(elements) {
