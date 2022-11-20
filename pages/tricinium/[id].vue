@@ -81,6 +81,8 @@ const infoItems = [{
     finalis: tricinium.finalis,
     clefs: tricinium.clefs,
 }];
+
+const useMordernClefs = ref(false);
 </script>
 
 <template>
@@ -111,6 +113,7 @@ const infoItems = [{
             </div>
             <div class="flex-auto" :class="sidebarOpen ? 'w-1/2' : 'w-0'">
                 <Tabs :items="tabItems">
+
                     <template #[`tabItem.info`]>
                         <DataTable :items="infoItems" :headers="infoItemsHeaders" direction="column">
                             <template #[`item.vhv`]="{ item }">
@@ -121,6 +124,7 @@ const infoItems = [{
                             </template>
                         </DataTable>
                     </template>
+
                     <template #[`tabItem.lyrics`]>
                         <DataTable :items="tricinium.lyrics?.map((l, i) => ({ '#': i + 1, ...l })) || []">
                             <template #[`item.measures`]="{ item }">
@@ -131,10 +135,16 @@ const infoItems = [{
                         </DataTable>
                         <TriciniumTextDiff :tricinium="tricinium" />
                     </template>
+
                     <template #[`tabItem.ambitus`]>
-                        <h1>Ambitus</h1>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <label>
+                            <input value="" type="checkbox" v-model="useMordernClefs" /> Show modern clefs
+                        </label>
+                        <template v-for="voice in ['cantus', 'tenor', 'bassus']">
+                            <VoiceAmbitus :tricinium="tricinium" :voice="voice" :modern-clefs="useMordernClefs" />
+                        </template>
                     </template>
+
                     <template #[`tabItem.ulenberg`]>
                         <ClientOnly>
                             <!-- <VerovioCanvas ref="verovioCanvas" :url="`https://raw.githubusercontent.com/WolfgangDrescher/ulenberg-psalmen-davids/master/kern/0${tricinium.id}.krn`" /> -->
@@ -143,10 +153,12 @@ const infoItems = [{
                             </Suspense>
                         </ClientOnly>
                     </template>
+
                     <template #[`tabItem.notes`]>
                         <h1>Notes</h1>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </template>
+
                 </Tabs>
             </div>
         </div>
