@@ -84,6 +84,18 @@ class Tricinium {
     get vhvHref() {
         return `https://verovio.humdrum.org/?file=${this.rawFile}`;
     }
+
+    getLowestNoteOfVoice(voice) {
+        return this.tricinium.voices[voice]?.prange?.noteCount.reduce((prev, curr) => prev.keyno < curr.keyno ? prev : curr);
+    }
+
+    getHighestNoteOfVoice(voice) {
+        return this.tricinium.voices[voice]?.prange?.noteCount.reduce((prev, curr) => prev.keyno > curr.keyno ? prev : curr);
+    }
+
+    getNoteCountOfVoice(voice) {
+        return this.tricinium.voices[voice]?.prange?.noteCount;
+    }
 }
 
 export function useTricinium(elements) {
