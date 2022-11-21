@@ -13,7 +13,7 @@ defineI18nRoute({
 
 const { filteredElements } = useTriciniumFilter(tricinia);
 const { datasets, config, dimension } = useChartGenerator(filteredElements, tricinium => tricinium.mode, undefined, undefined, (value) => value && t(`mode.${value}`));
-const { headers, items } = useDatasetTransformer(datasets, 'Mode');
+const { headers, items } = useDatasetTransformer(datasets, t('mode'));
 </script>
 
 <template>

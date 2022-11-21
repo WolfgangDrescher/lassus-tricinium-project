@@ -1,5 +1,6 @@
 <script setup>
 import StatisticsIndexPage from './index.vue';
+const { t } = useI18n();
 
 const { data } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(data.value);
@@ -17,7 +18,7 @@ const { datasets, config, dimension } = useChartGenerator(
     (a, b) => b.y - a.y,
     10,
 );
-const { headers, items } = useDatasetTransformer(datasets, 'Word');
+const { headers, items } = useDatasetTransformer(datasets, t('word'));
 </script>
 
 <template>
