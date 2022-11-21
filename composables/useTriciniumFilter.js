@@ -43,6 +43,11 @@ const filterBySearchText = (searchText, element) => {
     return filterByTitle(searchText, element) || filterByNr(searchText, element) || filterByLyrics(searchText, element);
 };
 
+const filterByCantusFirmus = (cantusFirmus, element) => {
+    if (!cantusFirmus.length) return true;
+    return cantusFirmus.map(c => c?.toLowerCase()).includes(element.cantusFirmus?.toLowerCase());
+};
+
 export function useTriciniumFilter(elements) {
 
     const filter = useFilterStore();
@@ -58,6 +63,7 @@ export function useTriciniumFilter(elements) {
             const clefsMatched = filterByClefs(filter.clefs, element);
             const finalisMatched = filterByFinalis(filter.finalis, element);
             const searchTextMatched = filterBySearchText(filter.searchText, element);
+            const cantusFirmusMatched = filterByCantusFirmus(filter.cantusFirmus, element);
 
             return (
                 composersMatches &&
@@ -68,7 +74,8 @@ export function useTriciniumFilter(elements) {
                 transpositionMatched &&
                 clefsMatched &&
                 finalisMatched &&
-                searchTextMatched
+                searchTextMatched &&
+                cantusFirmusMatched
             );
         });
 

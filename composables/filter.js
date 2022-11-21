@@ -10,6 +10,7 @@ const defaultFilter = {
     transposition: null,
     finalis: [],
     clefs: [],
+    cantusFirmus: [],
     searchText: null,
 };
 

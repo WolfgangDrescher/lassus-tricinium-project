@@ -37,6 +37,11 @@ const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).
     value: finalis,
     text: finalis,
 }));
+
+const cantusFirmusOptions = [...new Set(tricinia.map(tricinium => tricinium.cantusFirmus).filter(n => n))].map(cantusFirmus => ({
+    value: cantusFirmus,
+    text: t(`cantusFirmus.${cantusFirmus}`),
+}));
 </script>
 
 <template>
@@ -59,6 +64,9 @@ const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).
             </div>
             <div>
                 <FormDropdown :model-value="filter.finalis" @update:model-value="updateFilter('finalis', $event)" :label="$t('finalis')" :options="finalisOptions" :search-enabled="false" :multiple="true"/>
+            </div>
+            <div>
+                <FormDropdown :model-value="filter.cantusFirmus" @update:model-value="updateFilter('cantusFirmus', $event)" :label="$t('cantusFirmus')" :options="cantusFirmusOptions" :search-enabled="false" :multiple="true" />
             </div>
             <div>
                 <FormGroup :label="''">
