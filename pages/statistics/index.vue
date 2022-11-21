@@ -9,6 +9,7 @@
                         <StatisticsSidebarItem :href="localePath('statistics-finalis')">{{ $t('finalis')}}</StatisticsSidebarItem>
                         <StatisticsSidebarItem :href="localePath('statistics-modes')">{{ $t('modes')}}</StatisticsSidebarItem>
                         <StatisticsSidebarItem :href="localePath('statistics-transpositions')">{{ $t('transpositions')}}</StatisticsSidebarItem>
+                        <StatisticsSidebarItem :href="localePath('statistics-cantus-firmus')">{{ $t('cantusFirmus')}}</StatisticsSidebarItem>
                         <StatisticsSidebarItem :href="localePath('statistics-words')">{{ $t('words')}}</StatisticsSidebarItem>
                     </ul>
                 </div>
