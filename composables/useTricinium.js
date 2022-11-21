@@ -101,6 +101,10 @@ class Tricinium {
         return this.tricinium.voices?.[voice]?.clef || null;
     }
 
+    get cantusFirmus() {
+        return this.tricinium.cantusFirmus;
+    }
+
     get comments() {
         return this.tricinium.comments || [];
     }
