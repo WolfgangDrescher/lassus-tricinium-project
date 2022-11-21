@@ -48,4 +48,8 @@ viewScoreFileOnGithub: Kern Partitur auf GitHub
 incipit: Incipit
 rawFile: Kern
 vhv: VHV
+cantusFirmus: Cantus firmus
+cantusFirmus.cantus: Cantus
+cantusFirmus.tenor: Tenor
+cantusFirmus.bassus: Bassus
 word: Wort
