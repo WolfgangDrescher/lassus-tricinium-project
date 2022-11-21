@@ -100,6 +100,10 @@ class Tricinium {
     getVoiceClef(voice) {
         return this.tricinium.voices?.[voice]?.clef || null;
     }
+
+    get comments() {
+        return this.tricinium.comments || [];
+    }
 }
 
 export function useTricinium(elements) {
