@@ -1,6 +1,6 @@
-const filterByComposers = (composers, element) => {
-    if (!composers.length) return true;
-    return composers.map(c => c?.toLowerCase()).includes(element.composer?.toLowerCase());
+const filterByComposer = (composer, element) => {
+    if (!composer) return true;
+    return composer.toLowerCase() === element.composer?.toLowerCase();
 };
 
 const filterByTitle = (title, element) => {
@@ -54,7 +54,7 @@ export function useTriciniumFilter(elements) {
 
     const filteredElements = computed(() => {
         const filteredElements = elements.filter(element => {
-            const composersMatches = filterByComposers(filter.composers, element);
+            const composerMatches = filterByComposer(filter.composer, element);
             const titleMatches = filterByTitle(filter.title, element);
             const lyricsMatches = filterByLyrics(filter.lyrics, element);
             const nrMatches = filterByNr(filter.nr, element);
@@ -66,7 +66,7 @@ export function useTriciniumFilter(elements) {
             const cantusFirmusMatched = filterByCantusFirmus(filter.cantusFirmus, element);
 
             return (
-                composersMatches &&
+                composerMatches &&
                 titleMatches &&
                 lyricsMatches &&
                 nrMatches &&

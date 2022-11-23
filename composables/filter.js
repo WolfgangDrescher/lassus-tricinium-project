@@ -2,7 +2,7 @@ import { defineStore } from 'pinia';
 import { useLocalStorage } from '@vueuse/core';
 
 const defaultFilter = {
-    composers: [],
+    composer: null,
     title: null,
     lyrics: null,
     nr: null,

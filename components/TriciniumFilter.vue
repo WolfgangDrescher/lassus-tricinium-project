@@ -51,7 +51,7 @@ const cantusFirmusOptions = [...new Set(tricinia.map(tricinium => tricinium.cant
                 <FormInputField :model-value="filter.searchText" @update:model-value="updateFilter('searchText', $event)" :label="$t('searchText')" :placeholder="$t('titleNumberLyrics')" />
             </div>
             <div>
-                <FormDropdown :model-value="filter.composers" @update:model-value="updateFilter('composers', $event)" :label="$t('composer')" :options="composerOptions" :search-enabled="false" :multiple="true" />
+                <FormDropdown :model-value="filter.composer" @update:model-value="updateFilter('composer', $event)" :label="$t('composer')" :options="composerOptions" :search-enabled="false" />
             </div>
             <div>
                 <FormDropdown :model-value="filter.modes" @update:model-value="updateFilter('modes', $event)" :label="$t('mode')" :options="modeOptions" :search-enabled="false" :multiple="true"/>
