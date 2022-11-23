@@ -6,6 +6,10 @@ defineProps({
         type: Object,
         required: true,
     },
+    showLyrics: {
+        type: Boolean,
+        default: true,
+    },
 });
 </script>
 
@@ -39,7 +43,7 @@ defineProps({
             </div>
         </ClientOnly>
         <div class="px-2">
-            <div v-if="tricinium.hasLyrics" class="text-sm leading-5 py-4 text-gray-600">
+            <div v-if="showLyrics && tricinium.hasLyrics" class="text-sm leading-5 text-gray-600">
                 {{ tricinium.lyricsAsString() }}
             </div>
             <BadgeGroup>
