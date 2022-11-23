@@ -6,6 +6,10 @@ defineProps({
         type: Object,
         required: true,
     },
+    scoreDisplay: {
+        type: String,
+        default: 'lassus',
+    },
     showLyrics: {
         type: Boolean,
         default: true,
@@ -37,12 +41,17 @@ defineProps({
                 </div>
             </div>
         </div>
-        <ClientOnly v-if="tricinium.rawFile">
-            <div class="mt-4">
-                <VerovioCanvas :url="tricinium.rawFile" :select="{measureRange: '1-4'}" :scale="30" lazy></VerovioCanvas>
+        <div class="flex flex-col gap-4 mt-4">
+            <div v-if="scoreDisplay === 'lassus' && tricinium.rawFile">
+                <ClientOnly>
+                    <VerovioCanvas :url="tricinium.rawFile" :select="{measureRange: '1-4'}" :scale="30" lazy></VerovioCanvas>
+                </ClientOnly>
             </div>
-        </ClientOnly>
-        <div class="px-2">
+            <div v-else-if="scoreDisplay === 'ulenberg'">
+                <ClientOnly>
+                    <VerovioCanvas :url="`https://raw.githubusercontent.com/WolfgangDrescher/ulenberg-psalmen-davids/master/kern/0${tricinium.id}.krn`" :scale="30" lazy></VerovioCanvas>
+                </ClientOnly>
+            </div>
             <div v-if="showLyrics && tricinium.hasLyrics" class="text-sm leading-5 text-gray-600">
                 {{ tricinium.lyricsAsString() }}
             </div>
