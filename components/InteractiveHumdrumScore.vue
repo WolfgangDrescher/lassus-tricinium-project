@@ -1,5 +1,5 @@
 <script setup>
-import VerovioCanvas from 'vue-verovio-canvas';
+import VerovioCanvasComponent from 'vue-verovio-canvas';
 
 const props = defineProps({
     url: {
@@ -63,5 +63,5 @@ defineExpose({
         v-model.lazy="filtersAsString"
         class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
     ></textarea> -->
-    <VerovioCanvas ref="verovioCanvas" v-bind="verovioCanvasOptions" />
+    <VerovioCanvasComponent ref="verovioCanvas" v-bind="verovioCanvasOptions" />
 </template>

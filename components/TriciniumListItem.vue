@@ -1,6 +1,4 @@
 <script setup>
-import VerovioCanvas from 'vue-verovio-canvas';
-
 defineProps({
     tricinium: {
         type: Object,
@@ -44,12 +42,12 @@ defineProps({
         <div class="flex flex-col gap-4 mt-4">
             <div v-if="scoreDisplay === 'lassus' && tricinium.rawFile">
                 <ClientOnly>
-                    <VerovioCanvas :url="tricinium.rawFile" :select="{measureRange: '1-4'}" :scale="30" lazy></VerovioCanvas>
+                    <VerovioCanvas :url="tricinium.rawFile" :select="{measureRange: '1-4'}" :scale="30" lazy />
                 </ClientOnly>
             </div>
             <div v-else-if="scoreDisplay === 'ulenberg'">
                 <ClientOnly>
-                    <VerovioCanvas :url="`https://raw.githubusercontent.com/WolfgangDrescher/ulenberg-psalmen-davids/master/kern/0${tricinium.id}.krn`" :scale="30" lazy></VerovioCanvas>
+                    <VerovioCanvas :url="`https://raw.githubusercontent.com/WolfgangDrescher/ulenberg-psalmen-davids/master/kern/0${tricinium.id}.krn`" :scale="30" lazy />
                 </ClientOnly>
             </div>
             <div v-if="showLyrics && tricinium.hasLyrics" class="text-sm leading-5 text-gray-600">
