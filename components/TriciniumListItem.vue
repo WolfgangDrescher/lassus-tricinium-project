@@ -1,4 +1,6 @@
 <script setup>
+import VerovioCanvas from 'vue-verovio-canvas';
+
 defineProps({
     tricinium: {
         type: Object,
@@ -31,6 +33,11 @@ defineProps({
                 </div>
             </div>
         </div>
+        <ClientOnly v-if="tricinium.rawFile">
+            <div class="mt-4">
+                <VerovioCanvas :url="tricinium.rawFile" :select="{measureRange: '1-4'}" :scale="30" lazy></VerovioCanvas>
+            </div>
+        </ClientOnly>
         <div class="px-2">
             <div v-if="tricinium.hasLyrics" class="text-sm leading-5 py-4 text-gray-600">
                 {{ tricinium.lyricsAsString() }}
