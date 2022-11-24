@@ -22,7 +22,7 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
 
     const formatValue = (value) => {
         return typeof valueTransformer === 'function' ? valueTransformer(value) : value;
-    }
+    };
 
     const datasets = computed(() => {
         return elementsGroupedByDimension.value.map(dataset => {
