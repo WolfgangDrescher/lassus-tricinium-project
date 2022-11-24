@@ -149,7 +149,6 @@ const useMordernClefs = ref(false);
 
                     <template #[`tabItem.ulenberg`]>
                         <ClientOnly>
-                            <!-- <VerovioCanvas ref="verovioCanvas" :url="`https://raw.githubusercontent.com/WolfgangDrescher/ulenberg-psalmen-davids/master/kern/0${tricinium.id}.krn`" /> -->
                             <Suspense>
                                 <InteractiveHumdrumScore :url="`https://raw.githubusercontent.com/WolfgangDrescher/ulenberg-psalmen-davids/master/kern/0${tricinium.id}.krn`" />
                             </Suspense>
