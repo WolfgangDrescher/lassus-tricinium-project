@@ -47,7 +47,7 @@ defineProps({
             </div>
             <div v-else-if="scoreDisplay === 'ulenberg'">
                 <ClientOnly>
-                    <VerovioCanvas :url="`https://raw.githubusercontent.com/WolfgangDrescher/ulenberg-psalmen-davids/master/kern/0${tricinium.id}.krn`" :scale="30" lazy />
+                    <VerovioCanvas :url="tricinium.ulenbergRawFile" :scale="30" lazy />
                 </ClientOnly>
             </div>
             <div v-if="showLyrics && tricinium.hasLyrics" class="text-sm leading-5 text-gray-600">
