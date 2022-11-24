@@ -21,7 +21,9 @@ const { headers, items } = useDatasetTransformer(datasets, t('transposition'));
         <Heading>{{ $t('transpositions') }}</Heading>
         <TriciniumFilter />
         <ChartDimensionSelector v-model="dimension" />
-        <Chart :config="config" />
+        <div class="aspect-w-16 aspect-h-9">
+            <Chart :config="config" />
+        </div>
         <DataTable :headers="headers" :items="items"></DataTable>
     </StatisticsIndexPage>
 </template>

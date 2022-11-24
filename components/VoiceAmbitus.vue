@@ -93,6 +93,8 @@ const config = {
     <div>
         <h3>{{ $t(`voice.${voice}`) }}</h3>
         <VerovioCanvas :data="formattedScoreData"></VerovioCanvas>
-        <Chart :config="config"></Chart>
+        <div class="h-48">
+            <Chart :config="config"></Chart>
+        </div>
     </div>
 </template>
