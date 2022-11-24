@@ -78,7 +78,7 @@ const infoItems = [{
     composer: tricinium.composer,
     rawFile: tricinium.rawFile,
     sourceFile: tricinium.sourceFile,
-    vhv: tricinium.vhvHref,
+    vhvHref: tricinium.vhvHref,
     clefs: tricinium.clefs,
     mode: tricinium.mode && t(`mode.${tricinium.mode}`),
     transposition: tricinium.transposition && t(`transposition.${tricinium.transposition}`),
