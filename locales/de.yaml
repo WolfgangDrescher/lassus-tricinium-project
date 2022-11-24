@@ -44,7 +44,7 @@ diffOutputFormat.lineByLine: Zeile für Zeile
 diffOutputFormat.sideBySide: Nebeneinander
 apply: Anwenden
 noArguments: Keine Argumente
-viewScoreFileOnGithub: Kern Partitur auf GitHub
+viewScoreFileOnGithub: Partitur auf GitHub ansehen
 incipit: Incipit
 rawFile: Kern
 vhv: VHV
@@ -55,3 +55,5 @@ cantusFirmus.bassus: Bassus
 word: Wort
 showLyrics: Text anzeigen
 none: Keine
+originalDocument: Quelle
+partbooks: Stimmbücher

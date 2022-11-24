@@ -61,12 +61,14 @@ const infoItemsHeaders = [
     { value: 'title', text: t('title') },
     { value: 'incipit', text: t('incipit') },
     { value: 'composer', text: t('composer') },
-    { value: 'rawFile', text: t('rawFile') },
-    { value: 'vhv', text: t('vhv') },
     { value: 'mode', text: t('mode') },
     { value: 'transposition', text: t('transposition') },
     { value: 'finalis', text: t('finalis') },
     { value: 'clefs', text: t('clefs') },
+    { value: 'rawFile', text: t('rawFile') },
+    { value: 'vhv', text: t('vhv') },
+    { value: 'originalDocument', text: t('originalDocument') },
+    { value: 'partbooks', text: t('partbooks') },
 ];
 
 const infoItems = [{
@@ -75,11 +77,17 @@ const infoItems = [{
     incipit: tricinium.incipit,
     composer: tricinium.composer,
     rawFile: tricinium.rawFile,
-    vhv: tricinium.rawFile,
+    sourceFile: tricinium.sourceFile,
+    vhv: tricinium.vhvHref,
+    clefs: tricinium.clefs,
     mode: tricinium.mode && t(`mode.${tricinium.mode}`),
     transposition: tricinium.transposition && t(`transposition.${tricinium.transposition}`),
     finalis: tricinium.finalis,
-    clefs: tricinium.clefs,
+    originalDocument: tricinium.originalDocument,
+    originalDocumentOwner: tricinium.originalDocumentOwner,
+    cantusUrlScan: tricinium.getVoiceUrlScan('cantus'),
+    tenorUrlScan: tricinium.getVoiceUrlScan('tenor'),
+    bassusUrlScan: tricinium.getVoiceUrlScan('bassus'),
 }];
 
 const useMordernClefs = ref(false);
@@ -121,6 +129,17 @@ const useMordernClefs = ref(false);
                             </template>
                             <template #[`item.rawFile`]="{ item }">
                                 <HyperLink :href="item.sourceFile || item.rawFile" target="_blank">{{ $t('viewScoreFileOnGithub') }}</HyperLink>
+                            </template>
+                            <template #[`item.originalDocument`]="{ item }">
+                                <div v-if="item.originalDocumentOwner" v-text="item.originalDocumentOwner"></div>
+                                <HyperLink :href="item.originalDocument" target="_blank">{{ item.originalDocument }}</HyperLink>
+                            </template>
+                            <template #[`item.partbooks`]="{ item }">
+                                <div class="flex gap-2">
+                                    <HyperLink target="_blank" :href="item.cantusUrlScan">{{ $t('voice.cantus')}}</HyperLink>
+                                    <HyperLink target="_blank" :href="item.tenorUrlScan">{{ $t('voice.tenor')}}</HyperLink>
+                                    <HyperLink target="_blank" :href="item.bassusUrlScan">{{ $t('voice.bassus')}}</HyperLink>
+                                </div>
                             </template>
                         </DataTable>
                     </template>
