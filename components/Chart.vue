@@ -45,7 +45,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="aspect-video">
+    <div class="h-full w-full">
         <canvas ref="chartElem"></canvas>
     </div>
 </template>
