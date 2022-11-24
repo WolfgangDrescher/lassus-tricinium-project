@@ -27,6 +27,18 @@ class Tricinium {
         return this.tricinium.rawFile;
     }
 
+    get sourceFile() {
+        return this.tricinium.sourceFile;
+    }
+
+    get ulenbergRawFile() {
+        return this.tricinium.ulenbergRawFile;
+    }
+
+    get ulenbergSourceFile() {
+        return this.tricinium.ulenbergSourceFile;
+    }
+
     get lyrics() {
         return this.tricinium.lyrics;
     }
@@ -100,6 +112,10 @@ class Tricinium {
     getVoiceClef(voice) {
         return this.tricinium.voices?.[voice]?.clef || null;
     }
+    
+    getVoiceUrlScan(voice) {
+        return this.tricinium.voices[voice]?.urlScan || null;
+    }
 
     get cantusFirmus() {
         return this.tricinium.cantusFirmus;
@@ -108,6 +124,15 @@ class Tricinium {
     get comments() {
         return this.tricinium.comments || [];
     }
+
+    get originalDocument() {
+        return this.tricinium.originalDocument || [];
+    }
+
+    get originalDocumentOwner() {
+        return this.tricinium.originalDocumentOwner || [];
+    }
+
 }
 
 export function useTricinium(elements) {
