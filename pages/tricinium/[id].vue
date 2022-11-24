@@ -110,7 +110,7 @@ const useMordernClefs = ref(false);
                 </Button>
             </div>
         </div>
-        <div class="flex gap-4">
+        <div class="flex gap-8">
             <div class="flex-auto " :class="sidebarOpen ? 'w-1/2' : 'w-full'">
                 <ClientOnly>
                     <MidiPlayer :url="audioDataUrl" />
