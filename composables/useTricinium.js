@@ -110,7 +110,7 @@ class Tricinium {
     }
 
     getVoiceClef(voice) {
-        return this.tricinium.voices?.[voice]?.clef || null;
+        return this.tricinium.voices[voice]?.clef || null;
     }
     
     getVoiceUrlScan(voice) {
