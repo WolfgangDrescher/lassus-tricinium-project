@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 export default defineNuxtConfig({
     // target: 'static',
     ssr: true,
+    srcDir: 'src/',
     modules: [
         '@nuxtjs/tailwindcss',
         '@pinia/nuxt',
