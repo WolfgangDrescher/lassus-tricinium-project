@@ -26,7 +26,6 @@
     "pinia": "^2.0.27",
     "soundfont-player": "^0.12.0",
     "uuid": "^9.0.0",
-    "vue": "^3.2.29",
     "vue-verovio-canvas": "file:vue-verovio-canvas"
   },
   "devDependencies": {
