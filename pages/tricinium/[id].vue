@@ -115,7 +115,7 @@ const useMordernClefs = ref(false);
                 <ClientOnly>
                     <MidiPlayer :url="audioDataUrl" />
                     <Suspense>
-                        <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.rawFile" @mounted="interactiveHumdrumScoreMounted" :verovio-options="triciniumVerovioOptions" />
+                        <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.localRawFile" @mounted="interactiveHumdrumScoreMounted" :verovio-options="triciniumVerovioOptions" />
                     </Suspense>
                 </ClientOnly>
             </div>
@@ -169,7 +169,7 @@ const useMordernClefs = ref(false);
                     <template #[`tabItem.ulenberg`]>
                         <ClientOnly>
                             <Suspense>
-                                <InteractiveHumdrumScore :url="tricinium.ulenbergRawFile" />
+                                <InteractiveHumdrumScore :url="tricinium.localUlenbergRawFile" />
                             </Suspense>
                         </ClientOnly>
                     </template>
