@@ -1,3 +1,5 @@
+import { fileURLToPath } from 'node:url';
+
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     // target: 'static',
@@ -16,6 +18,18 @@ export default defineNuxtConfig({
                 'verovio/wasm-hum',
             ],
         },
+    },
+    nitro: {
+        publicAssets: [
+            {
+                baseURL: 'lassus-geistliche-psalmen',
+                dir: fileURLToPath(new URL('./lassus-geistliche-psalmen/kern', import.meta.url)),
+            },
+            {
+                baseURL: 'ulenberg-psalmen-davids',
+                dir: fileURLToPath(new URL('./ulenberg-psalmen-davids/kern', import.meta.url)),
+            },
+        ],
     },
     googleFonts: {
         stylePath: 'css/fonts.css',
