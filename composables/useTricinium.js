@@ -23,12 +23,20 @@ class Tricinium {
         return this.tricinium.composer;
     }
 
+    get localRawFile() {
+        return `/lassus-geistliche-psalmen/${this.id}.krn`;
+    }
+
     get rawFile() {
         return this.tricinium.rawFile;
     }
 
     get sourceFile() {
         return this.tricinium.sourceFile;
+    }
+
+    get localUlenbergRawFile() {
+        return `/ulenberg-psalmen-davids/0${this.id}.krn`;
     }
 
     get ulenbergRawFile() {
