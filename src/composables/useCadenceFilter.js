@@ -43,6 +43,21 @@ const filterByStartLine = (startLine, element) => {
     return parseInt(element.startLine, 10) === parseInt(startLine, 10);
 };
 
+const filterByBassusClausulae = (bassusClausulae, element) => {
+    if (!bassusClausulae.length) return true;
+    return bassusClausulae.includes(element.bassusClausula);
+};
+
+const filterByTenorClausulae = (tenorClausulae, element) => {
+    if (!tenorClausulae.length) return true;
+    return tenorClausulae.includes(element.tenorClausula);
+};
+
+const filterByCantusClausulae = (cantusClausulae, element) => {
+    if (!cantusClausulae.length) return true;
+    return cantusClausulae.includes(element.cantusClausula);
+};
+
 export function useCadenceFilter(elements) {
 
     const filter = useCadenceFilterStore();
@@ -58,6 +73,9 @@ export function useCadenceFilter(elements) {
             const searchTextMatched = filterBySearchText(filter.searchText, element);
             const degreesMatched = filterByDegree(filter.degrees, element);
             const ultimasMatched = filterByUltima(filter.ultimas, element);
+            const bassusClausulaeMatched = filterByBassusClausulae(filter.bassusClausulae, element);
+            const tenorClausulaeMatched = filterByTenorClausulae(filter.tenorClausulae, element);
+            const cantusClausulaeMatched = filterByCantusClausulae(filter.cantusClausulae, element);
 
             return (
                 composerMatches &&
@@ -68,7 +86,10 @@ export function useCadenceFilter(elements) {
                 finalisMatched &&
                 searchTextMatched &&
                 degreesMatched &&
-                ultimasMatched
+                ultimasMatched &&
+                bassusClausulaeMatched &&
+                tenorClausulaeMatched &&
+                cantusClausulaeMatched
             );
         });
 

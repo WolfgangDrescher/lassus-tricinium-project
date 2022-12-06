@@ -33,6 +33,27 @@ const ultimaOptions = [...new Set(cadences.map(cadence => cadence.ultima).filter
     value: ultima,
     text: ultima,
 }));
+
+const bassusClausulaOptions = [...new Set(cadences.map(cadence => {
+    return cadence.bassusClausula ?? '';
+}))].map(clausula => ({
+    value: clausula,
+    text: clausula.replace(',', ', '),
+}));
+
+const tenorClausulaOptions = [...new Set(cadences.map(cadence => {
+    return cadence.tenorClausula ?? '';
+}))].map(clausula => ({
+    value: clausula,
+    text: clausula.replace(',', ', '),
+}));
+
+const cantusClausulaOptions = [...new Set(cadences.map(cadence => {
+    return cadence.cantusClausula ?? '';
+}))].map(clausula => ({
+    value: clausula,
+    text: clausula.replace(',', ', '),
+}));
 </script>
 
 <template>
@@ -52,6 +73,15 @@ const ultimaOptions = [...new Set(cadences.map(cadence => cadence.ultima).filter
             </div>
             <div>
                 <FormDropdown :model-value="filter.ultimas" @update:model-value="updateFilter('ultimas', $event)" :label="$t('ultima')" :options="ultimaOptions" :search-enabled="false" :multiple="true" />
+            </div>
+            <div>
+                <FormDropdown :model-value="filter.bassusClausulae" @update:model-value="updateFilter('bassusClausulae', $event)" :label="$t('bassusClausula')" :options="bassusClausulaOptions" :search-enabled="false" :multiple="true" />
+            </div>
+            <div>
+                <FormDropdown :model-value="filter.tenorClausulae" @update:model-value="updateFilter('tenorClausulae', $event)" :label="$t('tenorClausula')" :options="tenorClausulaOptions" :search-enabled="false" :multiple="true" />
+            </div>
+            <div>
+                <FormDropdown :model-value="filter.cantusClausulae" @update:model-value="updateFilter('cantusClausulae', $event)" :label="$t('cantusClausula')" :options="cantusClausulaOptions" :search-enabled="false" :multiple="true" />
             </div>
             <div>
                 <FormGroup :label="''">

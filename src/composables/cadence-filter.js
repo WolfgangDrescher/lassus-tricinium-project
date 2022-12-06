@@ -11,6 +11,9 @@ const defaultFilter = {
     degrees: [],
     ultimas: [],
     startLine: null,
+    bassusClausulae: [],
+    tenorClausulae: [],
+    cantusClausulae: [],
 };
 
 export const useCadenceFilterStore = defineStore('cadence_filter', {

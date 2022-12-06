@@ -63,3 +63,6 @@ ultima: Ultima
 degree: Stufe
 nCadencesFoundForSerachParams: 'Keine Kadenzen gefunden für diese Suchparameter | Eine Kadenz gefunden | {n} Kadenzen gefunden'
 showModernClefs: Moderne Schlüssel anzeigen
+bassusClausula: Klausel im Bassus
+tenorClausula: Klausel im Tenor
+cantusClausula: Klausel im Cantus
