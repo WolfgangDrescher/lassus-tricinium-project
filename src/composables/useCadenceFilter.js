@@ -25,7 +25,7 @@ const filterByFinalis = (finalis, element) => {
 
 const filterBySearchText = (searchText, element) => {
     if (!searchText) return true;
-    return filterByTitle(searchText, element) || filterByNr(searchText, element) || filterByLyrics(searchText, element);
+    return filterByTitle(searchText, element) || filterByNr(searchText, element) || filterByLyrics(searchText, element) || filterByStartLine(searchText, element);
 };
 
 const filterByDegree = (degrees, element) => {
@@ -38,6 +38,10 @@ const filterByUltima = (ultimas, element) => {
     return ultimas.map(u => u?.toLowerCase()).includes(element.ultima.toLowerCase());
 };
 
+const filterByStartLine = (startLine, element) => {
+    if (!startLine) return true;
+    return parseInt(element.startLine, 10) === parseInt(startLine, 10);
+};
 
 export function useCadenceFilter(elements) {
 
@@ -50,6 +54,7 @@ export function useCadenceFilter(elements) {
             const titleMatches = filterByTitle(filter.title, element);
             const lyricsMatches = filterByLyrics(filter.lyrics, element);
             const nrMatches = filterByNr(filter.nr, element);
+            const startLineMatches = filterByNr(filter.startLine, element);
             const finalisMatched = filterByFinalis(filter.finalis, element);
             const searchTextMatched = filterBySearchText(filter.searchText, element);
             const degreesMatched = filterByDegree(filter.degrees, element);
@@ -60,6 +65,7 @@ export function useCadenceFilter(elements) {
                 titleMatches &&
                 lyricsMatches &&
                 nrMatches &&
+                startLineMatches &&
                 finalisMatched &&
                 searchTextMatched &&
                 degreesMatched &&

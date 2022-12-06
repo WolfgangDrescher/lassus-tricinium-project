@@ -10,6 +10,7 @@ const defaultFilter = {
     searchText: null,
     degrees: [],
     ultimas: [],
+    startLine: null,
 };
 
 export const useCadenceFilterStore = defineStore('cadence_filter', {
