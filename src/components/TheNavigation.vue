@@ -19,8 +19,8 @@
                         <NavigationItem :href="localePath('index')">{{ $t('home') }}</NavigationItem>
                         <NavigationItem :href="localePath('about')">{{ $t('about') }}</NavigationItem>
                         <NavigationItem :href="localePath('tricinium')">{{ $t('tricinia') }}</NavigationItem>
-                        <NavigationItem :href="localePath('statistics')">{{ $t('statistics') }}</NavigationItem>
                         <NavigationItem :href="localePath('cadences')">{{ $t('cadences') }}</NavigationItem>
+                        <NavigationItem :href="localePath('statistics')">{{ $t('statistics') }}</NavigationItem>
                     </ul>
                 </div>
             </div>
