@@ -46,7 +46,6 @@ const filterByStartLine = (startLine, element) => {
 export function useCadenceFilter(elements) {
 
     const filter = useCadenceFilterStore();
-    console.log(filter);
 
     const filteredElements = computed(() => {
         const filteredElements = elements.filter(element => {
