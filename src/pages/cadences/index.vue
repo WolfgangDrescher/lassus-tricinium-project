@@ -37,7 +37,7 @@ const showModernClefs = ref(false);
         </div>
 
         <div class="grid grid-cols-2 gap-4">
-            <div v-for="cadence in filteredElements" :key="cadence._id">
+            <div v-for="cadence in filteredElements" :key="cadence.id">
                 <CadenceListItem :cadence="cadence" :modern-clefs="showModernClefs" />
             </div>
         </div>
