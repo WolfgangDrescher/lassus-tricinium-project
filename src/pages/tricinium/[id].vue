@@ -8,6 +8,15 @@ const { data } = await useAsyncData(`/api/tricinium/${route.params.id}`, () => {
 });
 const tricinium = useTricinium(data.value);
 
+const { data: triciniaData } = await useAsyncData(`/api/tricinium`, () => {
+    return $fetch(`/api/tricinium`);
+});
+const tricinia = useTricinium(triciniaData.value);
+
+const { data: cadenceData } = await useAsyncData(`cadences-${tricinium.id}`, () => queryContent('/cadences').where({ triciniumId: tricinium.id }).find())
+
+const cadences = useCadence(cadenceData.value ?? [], tricinia);
+
 const interactiveHumdrumScore = ref(null);
 const audioDataUrl = ref(null);
 
@@ -50,6 +59,10 @@ const tabItems = [
     {
         value: 'comments',
         text: t('comments'),
+    },
+    {
+        value: 'cadences',
+        text: t('cadences'),
     },
 ];
 
@@ -178,6 +191,17 @@ const useMordernClefs = ref(false);
                         <ul class="grid gap-2" v-if="tricinium.comments.length">
                             <li v-for="(comment, index) in tricinium.comments" :key="index">{{ comment }}</li>
                         </ul>
+                    </template>
+
+                    <template #[`tabItem.cadences`]>
+                        <label>
+                            <input value="" type="checkbox" v-model="useMordernClefs" /> {{ $t('showModernClefs') }}
+                        </label>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div v-for="cadence in cadences" :key="cadence._id">
+                                <CadenceListItem :cadence="cadence" :modern-clefs="useMordernClefs" />
+                            </div>
+                        </div>
                     </template>
 
                 </Tabs>
