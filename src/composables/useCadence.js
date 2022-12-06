@@ -1,3 +1,51 @@
+class Cadence {
+    constructor(cadence, tricinium) {
+        this.cadence = cadence;
+        this.tricinium = tricinium;
+    }
+
+    get id() {
+        return this.cadence._id;
+    }
+
+    get degree() {
+        return this.cadence.degree;
+    }
+
+
+    get startLine() {
+        return this.cadence.startLine;
+    }
+
+    get endLine() {
+        return this.cadence.endLine;
+    }
+
+    get filename() {
+        return this.cadence.filename;
+    }
+
+    get triciniumId() {
+        return this.cadence.triciniumId;
+    }
+
+    get ultima() {
+        return this.cadence.ultima;
+    }
+    
+    get bassusClausula() {
+        return `${this.cadence.voices.bassus.penultima ?? '-'},${this.cadence.voices.bassus.ultima ?? '-'}`;
+    }
+
+    get tenorClausula() {
+        return `${this.cadence.voices.tenor.penultima ?? '-'},${this.cadence.voices.tenor.ultima ?? '-'}`;
+    }
+
+    get cantusClausula() {
+        return `${this.cadence.voices.cantus.penultima ?? '-'},${this.cadence.voices.cantus.ultima ?? '-'}`;
+    }
+}
+
 export function useCadence(elements, tricinia) {
     if (Array.isArray(elements)) {
         return elements.map(elem => createCadence(elem, findTricinium(tricinia, elem.triciniumId)));
@@ -8,9 +56,7 @@ export function useCadence(elements, tricinia) {
 }
 
 function createCadence(cadence, tricinium) {
-    return Object.assign({}, cadence, {
-        tricinium: tricinium,
-    });
+    return new Cadence(cadence, tricinium);
 }
 
 function findTricinium(tricinia, id) {
