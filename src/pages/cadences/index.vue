@@ -9,19 +9,11 @@ const { data: cadenceData } = await useAsyncData('cadences', () => queryContent(
 const { data: triciniumData } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(triciniumData.value);
 
-const cadences = cadenceData.value.map(cadence => {
-    return Object.assign({}, cadence, {
-        tricinium: findTricinium(cadence.triciniumId),
-    });
-});
+const cadences = useCadence(cadenceData.value, tricinia);
 
 const { filteredElements } = useCadenceFilter(cadences);
 
 const showModernClefs = ref(false);
-
-function findTricinium(id) {
-    return tricinia.find(t => t.id === id);
-}
 </script>
 
 <template>
