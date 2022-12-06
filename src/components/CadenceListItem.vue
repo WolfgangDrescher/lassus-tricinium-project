@@ -1,8 +1,14 @@
 <script setup>
+import { ClefFilter } from '@/classes/HumdrumFilters.js';
+
 const props = defineProps({
     cadence: {
         type: Object,
         required: true,
+    },
+    modernClefs: {
+        type: Boolean,
+        default: false,
     },
 });
 
@@ -26,7 +32,33 @@ const tableItems = [
         ultima: props.cadence.ultima,
         degree: romanize(props.cadence.degree),
     },
-]
+];
+
+const data = ref(null);
+
+onMounted(async () => {
+    const response = await fetch(`/cadences/${props.cadence.filename}`);
+    if (!response.ok) {
+        throw new Error(`${response.status} ${response.statusText}`);
+    }
+    data.value = await response.text();
+});
+
+const clefFilter = new ClefFilter();
+
+const { addFilter, removeFilter, formattedScoreData } = useHumdrumScoreFormatter(data);
+
+if (props.modernClefs) {
+    addFilter(clefFilter);
+}
+
+watch(() => props.modernClefs, (value) => {
+    if (value) {
+        addFilter(clefFilter);
+    } else {
+        removeFilter(clefFilter.id);
+    }
+});
 </script>
 
 <template>
@@ -49,8 +81,8 @@ const tableItems = [
             </div>
         </div>
         <div class="flex flex-col gap-4 mt-4">
-            <ClientOnly>
-                <VerovioCanvas :url="`/cadences/${cadence.filename}`" view-mode="horizontal" :scale="35" lazy />
+            <ClientOnly v-if="data">
+                <VerovioCanvas :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy />
             </ClientOnly>
             <DataTable :items="tableItems" :headers="tableHeaders" direction="column" small />
         </div>

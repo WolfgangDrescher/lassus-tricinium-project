@@ -16,6 +16,9 @@ const cadences = cadenceData.value.map(cadence => {
 });
 
 const { filteredElements } = useCadenceFilter(cadences);
+
+const showModernClefs = ref(false);
+
 function findTricinium(id) {
     return tricinia.find(t => t.id === id);
 }
@@ -26,9 +29,24 @@ function findTricinium(id) {
         <Heading>{{ $t('cadences') }}</Heading>
 
         <CadenceFilter />
+        
+        <div class="my-4 flex">
+            <div class="flex items-center">
+                {{ $t('nCadencesFoundForSerachParams', filteredElements.length) }}
+            </div>
+            <div class="ml-auto flex gap-4 items-center">
+                <div>
+                    <label>
+                        <input type="checkbox" v-model="showModernClefs" />
+                        {{ $t('showModernClefs') }}
+                    </label>
+                </div>
+            </div>
+        </div>
+
         <div class="grid grid-cols-2 gap-4">
             <div v-for="cadence in filteredElements" :key="cadence._id">
-                <CadenceListItem :cadence="cadence" />
+                <CadenceListItem :cadence="cadence" :modern-clefs="showModernClefs" />
             </div>
         </div>
     </Container>
