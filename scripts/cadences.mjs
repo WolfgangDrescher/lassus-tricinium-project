@@ -28,6 +28,13 @@ function getFiles(directory, fileList) {
     return fileList;
 }
 
+function getCadenceDegree(cadenceUltima, finalis) {
+    const kern = `**kern	**kern
+${finalis.toUpperCase()}	${cadenceUltima.toLowerCase()}`;
+    const stdout = execSync(`echo ${escapeShell(kern)} | hint -l -d -c`).toString();
+    return parseInt(stdout.split('\n')[1], 10);
+}
+
 execSync(`rm -rf ${__dirname}/../content/cadences/*`);
 execSync(`rm -rf ${__dirname}/../cadences/*`);
 
@@ -49,6 +56,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 // yank score
                 const startLine = kern.substring(0, startResult.index).split('\n').length;
                 const ultima = (startResult[3] ?? endResult[3])?.toLowerCase();
+                const degree = getCadenceDegree(ultima, getFinalisFromFile(file));
                 const endLine = kern.substring(0, endResult.index).split('\n').length;
                 const stdout = execSync(`yank -c -l -r ${startLine}-${endLine} ${file}`).toString();
                 const cadenceFileLines = stdout.split('\n').filter(line => {
@@ -63,6 +71,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     triciniumId: id,
                     filename: cadenceFilename,
                     ultima: ultima ?? null,
+                    degree: degree ?? null,
                 };
                 const configFileName = `${id}-${startLine}.yaml`;
                 fs.writeFileSync(`${__dirname}/../content/cadences/${configFileName}`, yaml.dump(config, {
