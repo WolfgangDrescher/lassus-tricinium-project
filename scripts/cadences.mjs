@@ -72,6 +72,8 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     filename: cadenceFilename,
                     ultima: ultima ?? null,
                     degree: degree ?? null,
+                    startLine,
+                    endLine,
                 };
                 const configFileName = `${id}-${startLine}.yaml`;
                 fs.writeFileSync(`${__dirname}/../content/cadences/${configFileName}`, yaml.dump(config, {
