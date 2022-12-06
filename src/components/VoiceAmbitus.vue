@@ -1,5 +1,4 @@
 <script setup>
-import VerovioCanvas from 'vue-verovio-canvas';
 import { ClefFilter } from '@/classes/HumdrumFilters.js';
 
 const props = defineProps({
