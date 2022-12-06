@@ -18,7 +18,7 @@ function findTricinium(id) {
     <Container>
         <Heading>{{ $t('cadences') }}</Heading>
         <div class="grid grid-cols-2 gap-4">
-            <div v-for="cadence in cadenceData" :key="cadence._path">
+            <div v-for="cadence in cadenceData" :key="cadence._id">
                 <CadenceListItem :cadence="cadence" :tricinium="findTricinium(cadence.triciniumId)" />
             </div>
         </div>
