@@ -50,7 +50,7 @@ const filterByCantusFirmus = (cantusFirmus, element) => {
 
 export function useTriciniumFilter(elements) {
 
-    const filter = useFilterStore();
+    const filter = useTriciniumFilterStore();
 
     const filteredElements = computed(() => {
         const filteredElements = elements.filter(element => {

@@ -14,7 +14,7 @@ const defaultFilter = {
     searchText: null,
 };
 
-export const useFilterStore = defineStore('filter', {
+export const useTriciniumFilterStore = defineStore('filter', {
     state: () => useLocalStorage('tricinium_filter', {...defaultFilter}),
     actions: {
         update(prop, value) {

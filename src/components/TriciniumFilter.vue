@@ -2,7 +2,7 @@
 const { data } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(data.value);
 
-const filter = useFilterStore();
+const filter = useTriciniumFilterStore();
 const { t } = useI18n();
 
 function updateFilter(prop, value) {
