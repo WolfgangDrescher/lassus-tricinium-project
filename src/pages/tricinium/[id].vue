@@ -157,7 +157,7 @@ const useMordernClefs = ref(false);
 
                     <template #[`tabItem.ambitus`]>
                         <label>
-                            <input value="" type="checkbox" v-model="useMordernClefs" /> Show modern clefs
+                            <input value="" type="checkbox" v-model="useMordernClefs" /> {{ $t('showModernClefs') }}
                         </label>
                         <ClientOnly>
                             <template v-for="voice in ['cantus', 'tenor', 'bassus']">
