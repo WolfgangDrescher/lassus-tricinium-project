@@ -28,6 +28,10 @@ function getFiles(directory, fileList) {
     return fileList;
 }
 
+var escapeShell = function (cmd) {
+    return '"' + cmd.replace(/(["'$`\\])/g, '\\$1') + '"';
+};
+
 function getCadenceDegree(cadenceUltima, finalis) {
     const kern = `**kern	**kern
 ${finalis.toUpperCase()}	${cadenceUltima.toLowerCase()}`;
