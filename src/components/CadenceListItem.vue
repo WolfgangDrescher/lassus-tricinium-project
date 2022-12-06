@@ -4,11 +4,9 @@ const props = defineProps({
         type: Object,
         required: true,
     },
-    tricinium: {
-        type: Object,
-        required: true,
-    },
 });
+
+const { tricinium } = props.cadence;
 
 const { t } = useI18n();
 

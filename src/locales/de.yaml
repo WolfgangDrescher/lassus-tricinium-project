@@ -61,3 +61,4 @@ cadences: Kadenzen
 line: Zeile
 ultima: Ultima
 degree: Stufe
+nCadencesFoundForSerachParams: 'Keine Kadenzen gefunden für diese Suchparameter | Eine Kadenz gefunden | {n} Kadenzen gefunden'

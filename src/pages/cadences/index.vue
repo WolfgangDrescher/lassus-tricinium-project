@@ -9,6 +9,13 @@ const { data: cadenceData } = await useAsyncData('cadences', () => queryContent(
 const { data: triciniumData } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(triciniumData.value);
 
+const cadences = cadenceData.value.map(cadence => {
+    return Object.assign({}, cadence, {
+        tricinium: findTricinium(cadence.triciniumId),
+    });
+});
+
+const { filteredElements } = useCadenceFilter(cadences);
 function findTricinium(id) {
     return tricinia.find(t => t.id === id);
 }
@@ -17,9 +24,11 @@ function findTricinium(id) {
 <template>
     <Container>
         <Heading>{{ $t('cadences') }}</Heading>
+
+        <CadenceFilter />
         <div class="grid grid-cols-2 gap-4">
-            <div v-for="cadence in cadenceData" :key="cadence._id">
-                <CadenceListItem :cadence="cadence" :tricinium="findTricinium(cadence.triciniumId)" />
+            <div v-for="cadence in filteredElements" :key="cadence._id">
+                <CadenceListItem :cadence="cadence" />
             </div>
         </div>
     </Container>
