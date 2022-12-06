@@ -64,4 +64,14 @@ export default defineNuxtConfig({
         },
 
     },
+    content: {
+        // defaultLocale: 'de',
+        sources: {
+            root: {
+                driver: 'fs',
+                // prefix: '/root',
+                base: fileURLToPath(new URL('./content', import.meta.url)),
+            },
+        },
+    },
 });
