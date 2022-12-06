@@ -31,6 +31,10 @@ export default defineNuxtConfig({
                 baseURL: 'ulenberg-psalmen-davids',
                 dir: fileURLToPath(new URL('./ulenberg-psalmen-davids/kern', import.meta.url)),
             },
+            {
+                baseURL: 'cadences',
+                dir: fileURLToPath(new URL('./cadences', import.meta.url)),
+            },
         ],
     },
     googleFonts: {
