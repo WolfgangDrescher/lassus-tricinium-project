@@ -4,3 +4,13 @@ filename: 16aebc75-2062-506d-9ca4-79bd44592eb2.krn
 startLine: 198
 triciniumId: 01-beatus-vir
 ultima: c
+voices:
+    bassus:
+        penultima: 4
+        ultima: 1
+    cantus:
+        penultima: 6
+        ultima: 5
+    tenor:
+        penultima: 4
+        ultima: 3

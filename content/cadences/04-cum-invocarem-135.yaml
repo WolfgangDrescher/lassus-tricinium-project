@@ -4,3 +4,13 @@ filename: f6753860-d440-5621-abdd-a1a18af2c781.krn
 startLine: 135
 triciniumId: 04-cum-invocarem
 ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 5
+    cantus:
+        penultima: 7
+        ultima: 3
+    tenor:
+        penultima: 2
+        ultima: 1

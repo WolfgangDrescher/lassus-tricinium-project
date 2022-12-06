@@ -4,3 +4,13 @@ filename: d95daba4-6273-5cef-bf0d-d9848ad44424.krn
 startLine: 94
 triciniumId: 02-quare-fremuerunt-gentes
 ultima: a
+voices:
+    bassus:
+        penultima: 4
+        ultima: 1
+    cantus:
+        penultima: 6
+        ultima: 5
+    tenor:
+        penultima: 4
+        ultima: 3

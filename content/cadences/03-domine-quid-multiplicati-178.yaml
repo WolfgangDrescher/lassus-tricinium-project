@@ -4,3 +4,13 @@ filename: 083566b8-a08e-5516-b14b-08d505384432.krn
 startLine: 178
 triciniumId: 03-domine-quid-multiplicati
 ultima: g
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 2
+        ultima: 3
+    tenor:
+        penultima: 7
+        ultima: 1
