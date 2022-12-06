@@ -32,6 +32,14 @@ var escapeShell = function (cmd) {
     return '"' + cmd.replace(/(["'$`\\])/g, '\\$1') + '"';
 };
 
+function getFinalisFromFile(file) {
+    const stdout = execSync(`extract -f 1 ${file} | grep '^\\*[A-Ha-h]:'`);
+    const regex = new RegExp(/^\*([a-hA-H]):(\w{3})$/);
+    const matches = regex.exec(stdout.toString().trim());
+    const finalis = matches[1].toLowerCase();
+    return finalis;
+}
+
 function getCadenceDegree(cadenceUltima, finalis) {
     const kern = `**kern	**kern
 ${finalis.toUpperCase()}	${cadenceUltima.toLowerCase()}`;
