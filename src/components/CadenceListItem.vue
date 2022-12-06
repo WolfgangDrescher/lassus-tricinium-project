@@ -50,6 +50,7 @@ const tableItems = [
         </div>
         <div class="flex flex-col gap-4 mt-4">
             <ClientOnly>
+                <VerovioCanvas :url="`/cadences/${cadence.filename}`" view-mode="horizontal" :scale="35" lazy />
             </ClientOnly>
             <DataTable :items="tableItems" :headers="tableHeaders" direction="row" small />
         </div>
