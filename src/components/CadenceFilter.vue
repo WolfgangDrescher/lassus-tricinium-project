@@ -36,21 +36,21 @@ const ultimaOptions = [...new Set(cadences.map(cadence => cadence.ultima).filter
 
 const bassusClausulaOptions = [...new Set(cadences.map(cadence => {
     return cadence.bassusClausula ?? '';
-}))].map(clausula => ({
+}))].sort().map(clausula => ({
     value: clausula,
     text: clausula.replace(',', ', '),
 }));
 
 const tenorClausulaOptions = [...new Set(cadences.map(cadence => {
     return cadence.tenorClausula ?? '';
-}))].map(clausula => ({
+}))].sort().map(clausula => ({
     value: clausula,
     text: clausula.replace(',', ', '),
 }));
 
 const cantusClausulaOptions = [...new Set(cadences.map(cadence => {
     return cadence.cantusClausula ?? '';
-}))].map(clausula => ({
+}))].sort().map(clausula => ({
     value: clausula,
     text: clausula.replace(',', ', '),
 }));
