@@ -60,7 +60,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
 
                 // set yaml config
                 const config = {
-                    psalmId: id,
+                    triciniumId: id,
                     filename: cadenceFilename,
                     ultima: ultima ?? null,
                 };
