@@ -54,8 +54,8 @@ execSync(`rm -rf ${__dirname}/../cadences/*`);
 getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
     const id = getIdFromFilename(file);
     const kern = fs.readFileSync(file, 'utf8');
-    const findCadenceStartRegex = /^!!\s?cadence\sstart([^\n]?[\w])?([^\n]?;[^\n]?ultima[^\n]?=[^\n]?(\w+))?/gm;
-    const findCadenceEndRegex = /^!!\s?cadence\send([^\n]?[\w])?([^\n]?;[^\n]?ultima[^\n]?=[^\n]?(\w+))/gm;
+    const findCadenceStartRegex = /^!![^\S\r\n]?cadence[^\S\r\n]start[^\S\r\n]?([\w]+)?([^\S\r\n]?;[^\S\r\n]?ultima[^\S\r\n]?=[^\S\r\n]?([\w\-#]+))?/gm;
+    const findCadenceEndRegex = /^!![^\S\r\n]?cadence[^\S\r\n]end[^\S\r\n]?([\w]+)?([^\S\r\n]?;[^\S\r\n]?ultima[^\S\r\n]?=[^\S\r\n]?([\w\-#]+))?/gm;
 
     let startResult;
     let endResult;
