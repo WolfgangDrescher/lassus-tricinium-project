@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
     cadence: {
         type: Object,
         required: true,
@@ -9,6 +9,26 @@ defineProps({
         required: true,
     },
 });
+
+const { t } = useI18n();
+
+const tableHeaders = [
+    {
+        value: 'ultima',
+        text: t('ultima'),
+    },
+    {
+        value: 'degree',
+        text: t('degree'),
+    },
+];
+
+const tableItems = [
+    {
+        ultima: props.cadence.ultima,
+        degree: romanize(props.cadence.degree),
+    },
+]
 </script>
 
 <template>
@@ -33,6 +53,7 @@ defineProps({
         <div class="flex flex-col gap-4 mt-4">
             <ClientOnly>
             </ClientOnly>
+            <DataTable :items="tableItems" :headers="tableHeaders" direction="row" small />
         </div>
     </div>
 </template>
