@@ -4,7 +4,7 @@ import { MeasureFilter } from '@/classes/HumdrumFilters.js';
 const { t } = useI18n();
 const route = useRoute();
 const { data } = await useAsyncData(`/api/tricinium/${route.params.id}`, () => {
-    return $fetch(`/api/tricinium/${route.params.id}`)
+    return $fetch(`/api/tricinium/${route.params.id}`);
 });
 const tricinium = useTricinium(data.value);
 
