@@ -2,6 +2,7 @@
 const { data: cadenceData } = await useAsyncData('cadences', () => queryContent('/cadences').find())
 const { data: triciniumData } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(triciniumData.value);
+const cadences = useCadence(cadenceData.value, tricinia);
 
 const filter = useCadenceFilterStore();
 
@@ -23,12 +24,12 @@ const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).
     text: finalis,
 }));
 
-const degreeOptions = [...new Set(cadenceData.value.map(cadence => cadence.degree).filter(n => n))].map(degree => ({
+const degreeOptions = [...new Set(cadences.map(cadence => cadence.degree).filter(n => n))].map(degree => ({
     value: degree,
     text: romanize(degree),
 }));
 
-const ultimaOptions = [...new Set(cadenceData.value.map(cadence => cadence.ultima).filter(n => n))].map(ultima => ({
+const ultimaOptions = [...new Set(cadences.map(cadence => cadence.ultima).filter(n => n))].map(ultima => ({
     value: ultima,
     text: ultima,
 }));
