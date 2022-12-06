@@ -32,6 +32,33 @@ function escapeShell(cmd) {
     return '"' + cmd.replace(/(["'$`\\])/g, '\\$1') + '"';
 }
 
+const voiceMap = [
+    { spine: 1, name: 'bassus' },
+    { spine: 3, name: 'tenor' },
+    { spine: 5, name: 'cantus' },
+];
+
+function getClausulaForVoice(kern, spine, cadenceUltima, dataRecordLineIndexFromEnd = 1) {
+    const voiceKern = execSync(`echo ${escapeShell(kern)} | extract -f ${spine}`).toString();
+    const dataRecordLines = voiceKern.split('\n').filter(line => lineIsDataRecord(line)).filter(l => l);
+
+    const noteRecord = dataRecordLines[dataRecordLines.length - dataRecordLineIndexFromEnd] ?? null;
+    if (noteRecord === null) return null;
+    const [, penultimaPitch] = /^\d+\.*([a-zA-Z]+)/.exec(noteRecord);
+    if (penultimaPitch.includes('r')) return 0;
+
+    const scaleDegreeKern = `**kern	**kern
+${cadenceUltima.toUpperCase()}	${penultimaPitch.toLowerCase()}`;
+    const stdout = execSync(`echo ${escapeShell(scaleDegreeKern)} | hint -l -d -c`).toString();
+    const scaleDegree = parseInt(stdout.split('\n')[1], 10);
+
+    return scaleDegree;
+}
+
+function lineIsDataRecord(line, includeNullToken = false) {
+    return !line.startsWith('!') && !line.startsWith('*') && !line.startsWith('=') && !(!includeNullToken && line === '.');
+}
+
 function getFinalisFromFile(file) {
     const stdout = execSync(`extract -f 1 ${file} | grep '^\\*[A-Ha-h]:'`);
     const regex = new RegExp(/^\*([a-hA-H]):(\w{3})$/);
@@ -78,6 +105,15 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 const cadenceFilename = `${uuidv5(fileContent, UUID_NAMESPACE)}.krn`;
                 fs.writeFileSync(`${__dirname}/../cadences/${cadenceFilename}`, fileContent);
 
+                const voices = voiceMap.reduce((accumulator, voice) => {
+                    accumulator[voice.name] = {};
+                    return accumulator;
+                }, {});
+                voiceMap.forEach(voice => {
+                    voices[voice.name].ultima = getClausulaForVoice(fileContent, voice.spine, ultima, 1);
+                    voices[voice.name].penultima = getClausulaForVoice(fileContent, voice.spine, ultima, 2);
+                });
+
                 // set yaml config
                 const config = {
                     triciniumId: id,
@@ -86,6 +122,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     degree: degree ?? null,
                     startLine,
                     endLine,
+                    voices,
                 };
                 const configFileName = `${id}-${startLine}.yaml`;
                 fs.writeFileSync(`${__dirname}/../content/cadences/${configFileName}`, yaml.dump(config, {
