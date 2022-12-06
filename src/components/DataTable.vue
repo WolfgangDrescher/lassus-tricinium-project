@@ -15,6 +15,10 @@ const props = defineProps({
         type: String,
         default: 'row',
     },
+    small: {
+        type: Boolean,
+        default: false,
+    },
 });
 
 const fields = computed(() => {
@@ -39,14 +43,14 @@ const fields = computed(() => {
                         <template v-if="direction === 'row'">
                             <thead class="bg-gray-50" v-if="showHead">
                                 <tr>
-                                    <th v-for="(field, i) in fields" :key="i" scope="col" class="py-3 px-6 text-left border-b border-gray-200">
+                                    <th v-for="(field, i) in fields" :key="i" scope="col" class="text-left border-b border-gray-200" :class="small ? 'py-2 px-3' : 'py-4 px-6'">
                                         {{ field.text }}
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr v-for="(item, j) in items" :key="j" class="bg-white border-b border-gray-200">
-                                    <td v-for="(field, k) in fields" :key="k" class="py-4 px-6 whitespace-nowrap">
+                                    <td v-for="(field, k) in fields" :key="k" class="whitespace-nowrap" :class="small ? 'py-2 px-3 ' : 'py-4 px-6'">
                                         <slot :name="`item.${field.value}`" :item="item">
                                             <span v-text="item[field.value]"></span>
                                         </slot>
@@ -57,10 +61,10 @@ const fields = computed(() => {
                         <template v-else>
                             <tbody>
                                 <tr v-for="(field, j) in fields" :key="j" class="bg-white border-b border-gray-200">
-                                    <th v-if="showHead" class="py-3 px-6 text-left border-b border-gray-200 w-1">
+                                    <th v-if="showHead" class="text-left border-b border-gray-200 w-1" :class="small ? 'py-2 px-3 ' : 'py-4 px-6'">
                                         {{ field.text }}
                                     </th>
-                                    <td v-for="(item, k) in items" :key="k" class="py-4 px-6 whitespace-nowrap">
+                                    <td v-for="(item, k) in items" :key="k" class="whitespace-nowrap" :class="small ? 'py-2 px-3 ' : 'py-4 px-6'">
                                         <slot :name="`item.${field.value}`" :item="item">
                                             <span v-text="item[field.value]"></span>
                                         </slot>
