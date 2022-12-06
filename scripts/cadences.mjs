@@ -35,8 +35,8 @@ execSync(`rm -rf ${__dirname}/../cadences/*`);
 getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
     const id = getIdFromFilename(file);
     const kern = fs.readFileSync(file, 'utf8');
-    const findCadenceStartRegex = /^!!\s?cadence\sstart([^\n]?[\w])?/gm;
-    const findCadenceEndRegex = /^!!\s?cadence\send([^\n]?[\w])?/gm;
+    const findCadenceStartRegex = /^!!\s?cadence\sstart([^\n]?[\w])?([^\n]?;[^\n]?ultima[^\n]?=[^\n]?(\w+))?/gm;
+    const findCadenceEndRegex = /^!!\s?cadence\send([^\n]?[\w])?([^\n]?;[^\n]?ultima[^\n]?=[^\n]?(\w+))/gm;
 
     let startResult;
     let endResult;
@@ -48,6 +48,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 counter++;
                 // yank score
                 const startLine = kern.substring(0, startResult.index).split('\n').length;
+                const ultima = (startResult[3] ?? endResult[3])?.toLowerCase();
                 const endLine = kern.substring(0, endResult.index).split('\n').length;
                 const stdout = execSync(`yank -c -l -r ${startLine}-${endLine} ${file}`).toString();
                 const cadenceFileLines = stdout.split('\n').filter(line => {
@@ -61,7 +62,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 const config = {
                     psalmId: id,
                     filename: cadenceFilename,
-                    finalis: null,
+                    ultima: ultima ?? null,
                 };
                 const configFileName = `${id}-${counter}.yaml`;
                 fs.writeFileSync(`${__dirname}/../content/cadences/${configFileName}`, yaml.dump(config, {
