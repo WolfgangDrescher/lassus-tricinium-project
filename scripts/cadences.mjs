@@ -28,9 +28,9 @@ function getFiles(directory, fileList) {
     return fileList;
 }
 
-var escapeShell = function (cmd) {
+function escapeShell(cmd) {
     return '"' + cmd.replace(/(["'$`\\])/g, '\\$1') + '"';
-};
+}
 
 function getFinalisFromFile(file) {
     const stdout = execSync(`extract -f 1 ${file} | grep '^\\*[A-Ha-h]:'`);
