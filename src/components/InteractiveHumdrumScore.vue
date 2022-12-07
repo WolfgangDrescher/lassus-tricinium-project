@@ -1,6 +1,4 @@
 <script setup>
-import VerovioCanvasComponent from 'vue-verovio-canvas';
-
 const props = defineProps({
     url: {
         type: String,
