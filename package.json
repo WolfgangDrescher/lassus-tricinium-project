@@ -26,7 +26,8 @@
     "pinia": "^2.0.27",
     "soundfont-player": "^0.12.0",
     "uuid": "^9.0.0",
-    "vue-verovio-canvas": "file:vue-verovio-canvas"
+    "verovio": "^3.13.1",
+    "vue-verovio-canvas": "^1.0.0"
   },
   "devDependencies": {
     "@nuxt/content": "^2.2.2",
