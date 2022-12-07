@@ -6,7 +6,7 @@ const defaultChartOptions = {
 };
 
 export const useChartStore = defineStore('chart', {
-    state: () => useLocalStorage('chart_options', {...defaultChartOptions}),
+    state: () => ({...defaultChartOptions}),
     actions: {
         update(prop, value) {
             this[prop] = value;

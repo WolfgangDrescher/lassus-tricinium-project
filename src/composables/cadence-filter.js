@@ -17,7 +17,7 @@ const defaultFilter = {
 };
 
 export const useCadenceFilterStore = defineStore('cadence_filter', {
-    state: () => useLocalStorage('cadence_filter', {...defaultFilter}),
+    state: () => ({...defaultFilter}),
     actions: {
         update(prop, value) {
             this[prop] = value;
