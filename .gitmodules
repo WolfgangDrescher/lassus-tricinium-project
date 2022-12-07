@@ -4,6 +4,3 @@
 [submodule "ulenberg-psalmen-davids"]
 	path = ulenberg-psalmen-davids
 	url = https://github.com/WolfgangDrescher/ulenberg-psalmen-davids.git
-[submodule "vue-verovio-canvas"]
-	path = vue-verovio-canvas
-	url = https://github.com/WolfgangDrescher/vue-verovio-canvas.git
