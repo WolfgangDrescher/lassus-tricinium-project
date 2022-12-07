@@ -36,7 +36,7 @@ const verovioCanvasOptions = computed(() => {
 
 onMounted(() => {
     emit('mounted', {
-        callVerovioMethod: verovioCanvas.value.callVerovioMethod,
+        callVerovioMethod: verovioCanvas.value.verovioCanvas.callVerovioMethod,
     });
 });
 
