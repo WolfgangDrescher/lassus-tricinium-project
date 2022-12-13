@@ -44,7 +44,7 @@ function getClausulaForVoice(kern, spine, cadenceUltima, dataRecordLineIndexFrom
 
     const noteRecord = dataRecordLines[dataRecordLines.length - dataRecordLineIndexFromEnd] ?? null;
     if (noteRecord === null) return null;
-    const [, penultimaPitch] = /^\d+\.*([a-zA-Z]+)/.exec(noteRecord);
+    const [, penultimaPitch] = /^\[?\d+\.*([a-zA-Z]+)/.exec(noteRecord);
     if (penultimaPitch.includes('r')) return 0;
 
     const scaleDegreeKern = `**kern	**kern
