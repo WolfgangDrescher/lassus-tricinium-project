@@ -1,9 +1,9 @@
-!!!COM: Lassus, Orlandus
-!!!CDT: 1532-1594/06/14
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
-!!!ONM: 3
-!!!OTL@@LA: Domine quid multiplicati
-!!!OTL-incipit@@DE: O Herr ich klag es dir
+!!!ONM: 4
+!!!OTL@@LA: Cum invocarem
+!!!OTL-incipit@@DE: Zu dir rüff ich in böser zeit
 **kern	**text	**kern	**text	**kern	**text
 *staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *Ivox	*	*Ivox	*	*Ivox	*
@@ -15,17 +15,13 @@
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-2f	auff-	2.a	-ma-	2.cc	sa-
-=20	=20	=20	=20	=20	=20
-1e-	-ma-	.	.	.	.
-.	.	4g	.	4b-	.
-.	.	2.g	.	4b-	.
-.	.	.	.	8a	.
-.	.	.	.	8g	.
-1d	.	.	.	1a	.
-.	.	8f#i	.	.	.
-.	.	8e	.	.	.
-.	.	2f#i	.	.	.
-=21	=21	=21	=21	=21	=21
-2G	-chen/	1g	-chen.	2b	-chen/
+*	*	*	*	*	*ij
+*	*	*	*ij	*	*
+*	*	*	*Xij	*	*Xij
+2g	ge-	2dd	O	[2b-	.
+=10	=10	=10	=10	=10	=10
+2g	-rech-	2dd	Gott	4b-]	.
+.	.	.	.	4g	.
+2f#	-tig-	2dd	mei-	2a	.
+1g	-keit/	2b-	-ner	4dd	-rech-
 *-	*-	*-	*-	*-	*-
