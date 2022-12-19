@@ -27,6 +27,7 @@ export class HumdrumFilter {
     changeable = false;
     priority = 0;
     lines = [];
+    configurable = false;
 
     constructor() {
         this.id = uuidv4();
@@ -113,8 +114,11 @@ export class SicFilter extends HumdrumFilter {
 
 export class MeasureFilter extends HumdrumFilter {
     static NAME = 'MeasureFilter';
+
     unique = true;
     changeable = true;
+    configurable = true;
+    
     constructor(value) {
         super();
         if (!this.validateValue(value)) {
@@ -133,8 +137,11 @@ export class MeasureFilter extends HumdrumFilter {
 
 export class ExtractFilter extends HumdrumFilter {
     static NAME = 'ExtractFilter';
+
     unique = true;
     changeable = true;
+    configurable = true;
+
     constructor(value) {
         super();
         if (!this.validateValue(value)) {
@@ -153,9 +160,13 @@ export class ExtractFilter extends HumdrumFilter {
 
 export class CintFilter extends HumdrumFilter {
     static NAME = 'CintFilter';
+
     unique = false;
+    configurable = true;
+
     static chars = createMatchedNoteList();
     static usedChars = [];
+
     constructor(interval1, direction, interval2, color) {
         super();
         if (!this.validateInterval(interval1)) {
@@ -219,6 +230,8 @@ export class ParallelIntervalsFilter extends CintFilter {
     static DIRECTION_UP = 2;
     static DIRECTION_DOWN = -2;
 
+    configurable = true;
+
     constructor(interval, direction, color) {
         super(interval, direction, interval, color);
     }
@@ -233,6 +246,9 @@ export class ParallelIntervalsFilter extends CintFilter {
 
 export class ShedFilter extends HumdrumFilter {
     static NAME = 'ShedFilter';
+
+    configurable = true;
+
     constructor(value) {
         super();
         this.value = value;
@@ -247,6 +263,7 @@ export class TransposeFilter extends HumdrumFilter {
 
     unique = true;
     changeable = true;
+    configurable = true;
 
     constructor(mode, value) {
         super();
