@@ -1,5 +1,5 @@
 <script setup>
-import { ClefFilter } from '@/classes/HumdrumFilters.js';
+import { ModernClefsFilter } from '@/classes/HumdrumFilters.js';
 
 const props = defineProps({
     cadence: {
@@ -44,19 +44,19 @@ onMounted(async () => {
     data.value = await response.text();
 });
 
-const clefFilter = new ClefFilter();
+const modernClefsFilter = new ModernClefsFilter();
 
 const { addFilter, removeFilter, formattedScoreData } = useHumdrumScoreFormatter(data);
 
 if (props.modernClefs) {
-    addFilter(clefFilter);
+    addFilter(modernClefsFilter);
 }
 
 watch(() => props.modernClefs, (value) => {
     if (value) {
-        addFilter(clefFilter);
+        addFilter(modernClefsFilter);
     } else {
-        removeFilter(clefFilter.id);
+        removeFilter(modernClefsFilter.id);
     }
 });
 </script>

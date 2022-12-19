@@ -47,8 +47,8 @@ export class HumdrumFilter {
     }
 }
 
-export class ClefFilter extends HumdrumFilter {
-    static NAME = 'ClefFilter';
+export class ModernClefsFilter extends HumdrumFilter {
+    static NAME = 'ModernClefsFilter';
     unique = true;
     lines = [
         new Line('shed -e "s/^clefC[12]/clefG2/I; s/^clefC[34]/clefGv2/I; s/^clefC5/clefF4/I; s/^clefF[35]/clefF4/I; s/^clefG[13]/clefG2/I"'),

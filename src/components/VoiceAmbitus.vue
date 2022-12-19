@@ -1,5 +1,5 @@
 <script setup>
-import { ClefFilter } from '@/classes/HumdrumFilters.js';
+import { ModernClefsFilter } from '@/classes/HumdrumFilters.js';
 
 const props = defineProps({
     tricinium: {
@@ -16,7 +16,7 @@ const props = defineProps({
     },
 });
 
-const clefFilter = new ClefFilter();
+const modernClefsFilter = new ModernClefsFilter();
 
 const kern = ref(`**kern
 *clef${props.tricinium.getVoiceClef(props.voice)}
@@ -27,14 +27,14 @@ const kern = ref(`**kern
 const { addFilter, removeFilter, formattedScoreData } = useHumdrumScoreFormatter(kern);
 
 if (props.modernClefs) {
-    addFilter(clefFilter);
+    addFilter(modernClefsFilter);
 }
 
 watch(() => props.modernClefs, (value) => {
     if(value) {
-        addFilter(clefFilter);
+        addFilter(modernClefsFilter);
     } else {
-        removeFilter(clefFilter.id);
+        removeFilter(modernClefsFilter.id);
     }
 });
 

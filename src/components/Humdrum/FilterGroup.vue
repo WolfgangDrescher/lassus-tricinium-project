@@ -1,6 +1,6 @@
 <script setup>
 import {
-    ClefFilter,
+    ModernClefsFilter,
     MensuralFilter,
     LyricsFilter,
     EditorialAccidentalsFilter,
@@ -25,7 +25,7 @@ const emit = defineEmits(['addFilter', 'removeFilter']);
 const selectedFilter = ref(null);
 
 const allFilters = [
-    ClefFilter,
+    ModernClefsFilter,
     MensuralFilter,
     LyricsFilter,
     EditorialAccidentalsFilter,
