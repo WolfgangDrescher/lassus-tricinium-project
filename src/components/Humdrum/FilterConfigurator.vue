@@ -12,6 +12,7 @@ const props = defineProps({
 // ParallelIntervalsFilter
 // ShedFilter
 // TransposeFilter
+// SicFilter
 
 const emit = defineEmits(['applyFilter']);
 
@@ -69,6 +70,15 @@ const DynamicHumdrumFilter = defineComponent({
                             onInput: event => { args.value = event.target.value; },
                             // label: 'Value',
                             placeholder: 'Value (c,d,e,f,g; M3 P5)',
+                        }),
+                    ];
+                    break;
+                case 'SicFilter':
+                    elems = [
+                        h(InputField, {
+                            onInput: event => { args.value = event.target.value; },
+                            // label: 'Value',
+                            placeholder: 'substitution, original, remove, quiet',
                         }),
                     ];
                     break;
