@@ -16,8 +16,8 @@ const props = defineProps({
     },
 });
 
-const toggleOption = () => {
-    emit('toggleOption', props.value);
+const toggleOption = (event) => {
+    emit('toggleOption', props.value, event);
 };
 </script>
 
