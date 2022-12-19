@@ -81,9 +81,7 @@ watch(() => props.modernClefs, (value) => {
             </div>
         </div>
         <div class="flex flex-col gap-4 mt-4">
-            <ClientOnly v-if="data">
-                <VerovioCanvas :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy />
-            </ClientOnly>
+            <VerovioCanvas v-if="data" :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy />
             <DataTable :items="tableItems" :headers="tableHeaders" direction="column" small />
         </div>
     </div>
