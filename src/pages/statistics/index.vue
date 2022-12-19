@@ -11,6 +11,7 @@
                         <StatisticsSidebarItem :href="localePath('statistics-transpositions')">{{ $t('transpositions')}}</StatisticsSidebarItem>
                         <StatisticsSidebarItem :href="localePath('statistics-cantus-firmus')">{{ $t('cantusFirmus')}}</StatisticsSidebarItem>
                         <StatisticsSidebarItem :href="localePath('statistics-words')">{{ $t('words')}}</StatisticsSidebarItem>
+                        <StatisticsSidebarItem :href="localePath('statistics-cadences')">{{ $t('cadences')}}</StatisticsSidebarItem>
                     </ul>
                 </div>
             </aside>
