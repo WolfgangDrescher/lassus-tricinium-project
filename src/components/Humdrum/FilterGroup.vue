@@ -14,6 +14,7 @@ import {
     ImitationFilter,
     MelismaFilter,
     ShedFilter,
+    ShowSicWarningsFilter,
     SicFilter,
     TransposeFilter,
 } from '../../classes/HumdrumFilters.js';
@@ -40,6 +41,7 @@ const allFilters = [
     ImitationFilter,
     MelismaFilter,
     ShedFilter,
+    ShowSicWarningsFilter,
     SicFilter,
     TransposeFilter,
 ];

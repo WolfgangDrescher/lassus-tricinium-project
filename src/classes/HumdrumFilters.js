@@ -112,6 +112,12 @@ export class MelismaFilter extends HumdrumFilter {
     lines = [new Line('melisma')];
 }
 
+export class ShowSicWarningsFilter extends HumdrumFilter {
+    static NAME = 'ShowSicWarningsFilter';
+    unique = true;
+    lines = [new Line('sic -v')];
+}
+
 export class SicFilter extends HumdrumFilter {
     static NAME = 'SicFilter';
     unique = true;
