@@ -17,10 +17,10 @@ const { data: cadenceData } = await useAsyncData(`cadences-${tricinium.id}`, () 
 
 const cadences = useCadence(cadenceData.value ?? [], tricinia);
 
-const interactiveHumdrumScore = ref(null);
+const humdrumScore = ref(null);
 const audioDataUrl = ref(null);
 
-async function interactiveHumdrumScoreMounted({ callVerovioMethod }) {
+async function humdrumScoreMounted({ callVerovioMethod }) {
     const midiBase64 = await callVerovioMethod('renderToMIDI', {
         midiTempoAdjustment: 4,
     });
@@ -30,7 +30,7 @@ async function interactiveHumdrumScoreMounted({ callVerovioMethod }) {
 }
 
 function addMeasureFilter(value) {
-    interactiveHumdrumScore.value.addFilter(new MeasureFilter(value));
+    humdrumScore.value.addFilter(new MeasureFilter(value));
 }
 
 const sidebarOpen = ref(true);
@@ -127,7 +127,7 @@ const useMordernClefs = ref(false);
             <div class="flex-auto " :class="sidebarOpen ? 'w-1/2' : 'w-full'">
                 <MidiPlayer :url="audioDataUrl" />
                 <Suspense>
-                    <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.localRawFile" @mounted="interactiveHumdrumScoreMounted" :verovio-options="triciniumVerovioOptions" />
+                    <HumdrumInteractiveScore ref="humdrumScore" :url="tricinium.localRawFile" @mounted="humdrumScoreMounted" :verovio-options="triciniumVerovioOptions" />
                 </Suspense>
             </div>
             <div class="flex-auto" :class="sidebarOpen ? 'w-1/2' : 'w-0'">

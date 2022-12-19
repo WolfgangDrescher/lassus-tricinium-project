@@ -15,7 +15,7 @@ import {
     ShedFilter,
     SicFilter,
     TransposeFilter,
-} from '../classes/HumdrumFilters.js';
+} from '../../classes/HumdrumFilters.js';
 
 defineProps({
     filters: Array,

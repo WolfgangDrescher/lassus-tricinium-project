@@ -53,7 +53,7 @@ defineExpose({
 </script>
 
 <template>
-    <InteractiveHumdrumScoreFilterGroup :filters="filters" @addFilter="addFilterEvent" @removeFilter="removeFilterEvent" />
+    <HumdrumFilterGroup :filters="filters" @addFilter="addFilterEvent" @removeFilter="removeFilterEvent" />
     <pre v-text="filtersAsString"></pre>
     <!-- <pre v-text="formattedScoreData"></pre> -->
     <!-- <textarea

@@ -1,6 +1,6 @@
 <script setup>
-import Button from './Button.vue';
-import InputField from './Form/InputField.vue';
+import Button from '../Button.vue';
+import InputField from '../Form/InputField.vue';
 const { t } = useI18n();
 
 const props = defineProps({
@@ -84,7 +84,6 @@ const DynamicHumdrumFilter = defineComponent({
         };
     },
 });
-
 </script>
 
 <template>
