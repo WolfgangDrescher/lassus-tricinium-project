@@ -125,12 +125,10 @@ const useMordernClefs = ref(false);
         </div>
         <div class="flex gap-8">
             <div class="flex-auto " :class="sidebarOpen ? 'w-1/2' : 'w-full'">
-                <ClientOnly>
-                    <MidiPlayer :url="audioDataUrl" />
-                    <Suspense>
-                        <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.localRawFile" @mounted="interactiveHumdrumScoreMounted" :verovio-options="triciniumVerovioOptions" />
-                    </Suspense>
-                </ClientOnly>
+                <MidiPlayer :url="audioDataUrl" />
+                <Suspense>
+                    <InteractiveHumdrumScore ref="interactiveHumdrumScore" :url="tricinium.localRawFile" @mounted="interactiveHumdrumScoreMounted" :verovio-options="triciniumVerovioOptions" />
+                </Suspense>
             </div>
             <div class="flex-auto" :class="sidebarOpen ? 'w-1/2' : 'w-0'">
                 <Tabs :items="tabItems">
