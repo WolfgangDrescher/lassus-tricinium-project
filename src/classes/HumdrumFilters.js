@@ -115,7 +115,20 @@ export class MelismaFilter extends HumdrumFilter {
 export class SicFilter extends HumdrumFilter {
     static NAME = 'SicFilter';
     unique = true;
-    lines = [new Line('sic -v')];
+    changeable = true;
+
+    constructor(value) {
+        super();
+        if (!this.validateValue(value)) {
+            throw new Error(`Cannot set "${value}" as value for ${this.className}`);
+        }
+        this.value = value;
+        this.addLine(`sic -${value.slice(0, 1)}`);
+    }
+
+    validateValue(value) {
+        return ['substitution', 'original', 'remove', /* 'verbose', */ 'quiet'].includes(value);
+    }
 }
 
 export class MeasureFilter extends HumdrumFilter {
