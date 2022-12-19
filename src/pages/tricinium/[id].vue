@@ -178,11 +178,9 @@ const useMordernClefs = ref(false);
                     </template>
 
                     <template #[`tabItem.ulenberg`]>
-                        <ClientOnly>
-                            <Suspense>
-                                <InteractiveHumdrumScore :url="tricinium.localUlenbergRawFile" />
-                            </Suspense>
-                        </ClientOnly>
+                        <Suspense>
+                            <HumdrumInteractiveScore :url="tricinium.localUlenbergRawFile" />
+                        </Suspense>
                     </template>
 
                     <template #[`tabItem.comments`]>
