@@ -63,15 +63,15 @@ export class MensuralFilter extends HumdrumFilter {
     lines = [new Line('kern2mens')];
 }
 
-export class LyricsFilter extends HumdrumFilter {
-    static NAME = 'LyricsFilter';
+export class HideLyricsFilter extends HumdrumFilter {
+    static NAME = 'HideLyricsFilter';
     unique = true;
     priority = -1;
     lines = [new Line('extract -I **text')];
 }
 
-export class EditorialAccidentalsFilter extends HumdrumFilter {
-    static NAME = 'EditorialAccidentalsFilter';
+export class HideEditorialAccidentalsFilter extends HumdrumFilter {
+    static NAME = 'HideEditorialAccidentalsFilter';
     unique = true;
     lines = [new Line("shed -ke 's/i/y/g'")];
 }

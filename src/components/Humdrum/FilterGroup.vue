@@ -2,8 +2,8 @@
 import {
     ModernClefsFilter,
     MensuralFilter,
-    LyricsFilter,
-    EditorialAccidentalsFilter,
+    HideLyricsFilter,
+    HideEditorialAccidentalsFilter,
     CompositeRhythmFilter,
     MeasureFilter,
     ExtractFilter,
@@ -28,8 +28,8 @@ const selectedFilter = ref(null);
 const allFilters = [
     ModernClefsFilter,
     MensuralFilter,
-    LyricsFilter,
-    EditorialAccidentalsFilter,
+    HideLyricsFilter,
+    HideEditorialAccidentalsFilter,
     CompositeRhythmFilter,
     MeasureFilter,
     ExtractFilter,
