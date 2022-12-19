@@ -147,7 +147,7 @@ export class MeasureFilter extends HumdrumFilter {
         this.addLine(`myank -m ${value}`);
     }
 
-    validateValue(value, numberOfMeasures) {
+    validateValue(value) {
         if (/^[1-9]\d*$/.test(value)) return true;
         if (/^[1-9]\d*-[1-9]\d*$/.test(value)) return true;
         return false;
