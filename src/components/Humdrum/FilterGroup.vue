@@ -60,29 +60,47 @@ function addFilter(filter) {
     emit('addFilter', filter);
 }
 
-function applyFilter(args) {
-    const item = filterOptions.find(f => selectedFilter.value === f.value);
+function findFilter(value) {
+    return filterOptions.find(f => value === f.value);
+}
+
+function applyFilterWithConfig(args) {
+    const item = findFilter(selectedFilter.value);
     try {
         addFilter(new item.filter(...(args || [])));
     } catch (e) {
         console.error(e.message);
     }
 }
+
+function applyFilter(event) {
+    const item = findFilter(selectedFilter.value);
+    try {
+        const filter = new item.filter();
+        if(!filter.configurable) {
+            addFilter(filter);
+            selectedFilter.value = null;
+        }
+    } catch (e) {
+        // console.error(e.message);
+    }
+}
 </script>
 
 <template>
-    <div class="grid 2xl:grid-cols-4 gap-4 my-4">
-        <div class="2xl:col-span-1">
-            <FormDropdown v-model="selectedFilter" :options="filterOptions" />
+    <div>
+        <div class="my-4">
+            <FormDropdown v-model="selectedFilter" :options="filterOptions" @update:modelValue="applyFilter" close-on-change />
         </div>
-        <div class="2xl:col-span-3">
-            <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilter"></HumdrumFilterConfigurator>
+        <div class="my-4">
+            <HumdrumFilterConfigurator v-if="selectedFilter" :filter="selectedFilter" @applyFilter="applyFilterWithConfig"></HumdrumFilterConfigurator>
         </div>
     </div>
-
-    <BadgeGroup>
-        <Badge v-for="filter in filters" :key="filter.id" :removable="true" @remove="removeFilter(filter.id)">
-            {{ filter.className }}
-        </Badge>
-    </BadgeGroup>
+    <div class="mt-4" v-if="filters.length">
+        <BadgeGroup>
+            <Badge v-for="filter in filters" :key="filter.id" :removable="true" @remove="removeFilter(filter.id)">
+                {{ filter.className }}
+            </Badge>
+        </BadgeGroup>
+    </div>
 </template>
