@@ -1,10 +1,10 @@
 import { storeToRefs } from 'pinia';
 
 export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength, valueTransformer) {
-    const chartOptions = useChartStore();
+    const statsDimensionOptions = useStatsDimensionStore();
     const { t } = useI18n();
 
-    const { dimension } = storeToRefs(chartOptions);
+    const { dimension } = storeToRefs(statsDimensionOptions);
 
     const elementsGroupedByDimension = computed(() => {
         return elements.value.reduce((previousValue, tricinium) => {

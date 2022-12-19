@@ -1,18 +1,18 @@
 import { defineStore } from 'pinia';
 import { useLocalStorage } from '@vueuse/core';
 
-const defaultChartOptions = {
+const defaultOptions = {
     dimension: null,
 };
 
-export const useChartStore = defineStore('chart', {
-    state: () => ({...defaultChartOptions}),
+export const useStatsDimensionStore = defineStore('stats_dimension', {
+    state: () => ({...defaultOptions}),
     actions: {
         update(prop, value) {
             this[prop] = value;
         },
         reset() {
-            this.$patch({...defaultChartOptions});
+            this.$patch({...defaultOptions});
         },
     },
 });
