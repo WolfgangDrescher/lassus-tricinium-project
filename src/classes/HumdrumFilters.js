@@ -88,6 +88,12 @@ export class DissonantFilter extends HumdrumFilter {
     lines = [new Line('dissonant')];
 }
 
+export class ClausulaFilter extends HumdrumFilter {
+    static NAME = 'ClausulaFilter';
+    unique = true;
+    lines = [new Line('dissonant -V')];
+}
+
 export class AutobeamFilter extends HumdrumFilter {
     static NAME = 'AutobeamFilter';
     unique = true;
