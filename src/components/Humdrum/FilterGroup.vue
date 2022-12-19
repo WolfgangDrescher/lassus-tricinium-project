@@ -24,6 +24,8 @@ defineProps({
 });
 const emit = defineEmits(['addFilter', 'removeFilter']);
 
+const { t } = useI18n();
+
 const selectedFilter = ref(null);
 
 const allFilters = [
@@ -48,7 +50,7 @@ const allFilters = [
 
 const filterOptions = allFilters.map(filter => {
     return {
-        text: filter.NAME,
+        text: t(`humdrumFilter.${filter.NAME}`),
         value: filter.NAME,
         filter,
     };

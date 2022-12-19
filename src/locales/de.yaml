@@ -67,3 +67,20 @@ bassusClausula: Klausel im Bassus
 tenorClausula: Klausel im Tenor
 cantusClausula: Klausel im Cantus
 total: Total
+humdrumFilter.ModernClefsFilter: Moderne Schlüssel
+humdrumFilter.MensuralFilter: Mensuralnotation
+humdrumFilter.HideLyricsFilter: Liedtext ausblenden
+humdrumFilter.HideEditorialAccidentalsFilter: Redaktionelle Vorzeichen ausblenden
+humdrumFilter.CompositeRhythmFilter: Zusammengesetzter Rhythmus
+humdrumFilter.MeasureFilter: Takte filtern
+humdrumFilter.ExtractFilter: Stimmen filtern
+humdrumFilter.ParallelIntervalsFilter: Parallele Intervalle anzeigen
+humdrumFilter.DissonantFilter: Dissonanzen anzeigen
+humdrumFilter.ClausulaFilter: Klauseln anzeigen
+humdrumFilter.AutobeamFilter: Automatische Notenbalken
+humdrumFilter.ImitationFilter: Imitationen anzeigen
+humdrumFilter.MelismaFilter: Melismen hervorheben
+humdrumFilter.ShedFilter: Streamed Humdrum Editor (shed) 
+humdrumFilter.ShowSicWarningsFilter: SIC Warnungen anzeigen (sic -v)
+humdrumFilter.SicFilter: Originales order korrigiertes Encoding anzeigen (sic)
+humdrumFilter.TransposeFilter: Transponieren
