@@ -55,14 +55,14 @@ export function useCadenceStatsGenerator(elements) {
                 text: t(dimension.value),
             });
         }
-        th.push({
-            value: 'total',
-            text: t('total'),
-        });
         th.push(...Array.from({ length: 7 }, (_, i) => i + 1).map(n => ({
             value: n,
             text: romanize(n),
         })));
+        th.push({
+            value: 'total',
+            text: t('total'),
+        });
         return th;
     });
 
