@@ -12,5 +12,5 @@ defineExpose({
 </script>
 
 <template>
-    <VerovioCanvas ref="verovioCanvas" v-bind="{ ...$attrs, ...$props }" :toolkit="toolkit" />
+    <VerovioCanvas ref="verovioCanvas" :toolkit="toolkit" />
 </template>
