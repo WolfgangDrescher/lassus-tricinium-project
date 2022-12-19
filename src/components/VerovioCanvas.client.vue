@@ -6,8 +6,12 @@ const { verovioWorker } = useVerovioWorker();
 const toolkit = createWorkerVerovioToolkit(verovioWorker);
 const verovioCanvas = ref();
 
-defineExpose({
-    verovioCanvas,
+const emit = defineEmits(['mounted']);
+
+onMounted(() => {
+    nextTick(() => {
+        emit('mounted', verovioCanvas.value);
+    });
 });
 </script>
 
