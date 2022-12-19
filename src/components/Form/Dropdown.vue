@@ -28,6 +28,10 @@ const props = defineProps({
         type: Boolean,
         default: true,
     },
+    closeOnChange: {
+        type: Boolean,
+        default: false,
+    },
 });
 
 const emptyValuePlaceholderText = computed(() => {
@@ -69,7 +73,8 @@ function openDropdown() {
     isOpen.value = true;
 }
 
-function toggleOption(value) {
+function toggleOption(value, event) {
+    event.stopPropagation();
     if (props.multiple) {
         if (props.modelValue.includes(value)) {
             emit('update:modelValue', props.modelValue.filter(v => v !== value));
@@ -78,6 +83,9 @@ function toggleOption(value) {
         }
     } else {
         emit('update:modelValue', value);
+    }
+    if(props.closeOnChange) {
+        closeDropdown();
     }
 }
 
