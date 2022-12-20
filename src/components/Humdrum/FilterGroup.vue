@@ -105,7 +105,7 @@ function applyFilter(event) {
     <div class="mt-4" v-if="filters.length">
         <BadgeGroup>
             <Badge v-for="filter in filters" :key="filter.id" :removable="true" @remove="removeFilter(filter.id)">
-                {{ filter.className }}
+                {{ $t(`humdrumFilter.${filter.className}`) }}
             </Badge>
         </BadgeGroup>
     </div>
