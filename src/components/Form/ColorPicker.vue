@@ -1,29 +1,7 @@
 <script setup>
 import { Twitter } from '@ckpack/vue-color';
-import {default as tailwindColors} from 'tailwindcss/colors';
 import { onClickOutside } from '@vueuse/core';
-
-const colorNames = [
-    'red',
-    'orange',
-    'amber',
-    'yellow',
-    'lime',
-    'green',
-    'emerald',
-    'teal',
-    'cyan',
-    'sky',
-    'blue',
-    'indigo',
-    'violet',
-    'purple',
-    'fuchsia',
-    'pink',
-    'rose',
-];
-
-const colors = colorNames.map(name => tailwindColors[name][500]);
+import { HumdrumFilter } from '../../classes/HumdrumFilters.js';
 
 const isOpen = ref(false);
 const colorPicker = ref();
@@ -51,7 +29,7 @@ function toggleColorPicker(event) {
         <div class="relative">
             <Button :style="{backgroundColor: modelValue}" @click="toggleColorPicker" class="font-mono">{{ modelValue }}</Button>
             <div class="absolute top-12" v-if="isOpen" data-color-picker>
-                <Twitter ref="colorPicker" :model-value="modelValue" @update:modelValue="update" :default-colors="colors" />
+                <Twitter ref="colorPicker" :model-value="modelValue" @update:modelValue="update" :default-colors="HumdrumFilter.colors" />
             </div>
         </div>
     </FormGroup>
