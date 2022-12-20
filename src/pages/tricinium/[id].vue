@@ -193,7 +193,7 @@ const useMordernClefs = ref(false);
                         <label>
                             <input value="" type="checkbox" v-model="useMordernClefs" /> {{ $t('showModernClefs') }}
                         </label>
-                        <div class="grid grid-cols-2 gap-4">
+                        <div class="grid grid-cols-1 gap-4">
                             <div v-for="cadence in cadences" :key="cadence._id">
                                 <CadenceListItem :cadence="cadence" :modern-clefs="useMordernClefs" />
                             </div>
