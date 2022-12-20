@@ -1,4 +1,20 @@
 import { v4 as uuidv4 } from 'uuid';
+import { default as tailwindColors } from 'tailwindcss/colors';
+
+function createColorList() {
+    return [
+        'red',
+        'blue',
+        'green',
+        'violet',
+        'orange',
+        'sky',
+        'emerald',
+        'purple',
+        'amber',
+        'fuchsia',
+    ].map(name => tailwindColors[name][500]);
+}
 
 function createMatchedNoteList() {
     const list = [
@@ -50,6 +66,24 @@ export class HumdrumFilter {
 
     toString() {
         return this.lines.map(l => l.toString()).join('\n');
+    }
+
+    static colors = createColorList();
+    static usedColors = [];
+    static getNextColor() {
+        let color = null;
+        HumdrumFilter.colors.some(c => {
+            const isUsed = HumdrumFilter.usedColors.includes(c);
+            if (!isUsed) {
+                color = c;
+            }
+            return !isUsed;
+        });
+        if (color) {
+            HumdrumFilter.usedColors.push(color);
+            return color;
+        }
+        throw new Error('Cannot create next color');
     }
 
     static chars = createMatchedNoteList();
@@ -258,6 +292,7 @@ export class CintFilter extends HumdrumFilter {
 
     beforeRemove() {
         HumdrumFilter.usedChars = HumdrumFilter.usedChars.filter(c => c !== this.char);
+        HumdrumFilter.usedColors = HumdrumFilter.usedColors.filter(c => c !== this.color);
     }
 }
 
