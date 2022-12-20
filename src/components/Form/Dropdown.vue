@@ -110,7 +110,7 @@ const optionIsSelected = computed(() => {
 });
 
 const filteredOptions = computed(() => {
-    if (searchString.value.length && props.searchEnabled) {
+    if (props.searchEnabled && searchString.value.length) {
         return props.options.filter(o => {
             return o.value?.toLowerCase().includes(searchString.value?.toLowerCase()) || o.text?.toLowerCase().includes(searchString.value?.toLowerCase());
         });
@@ -134,7 +134,7 @@ watch(searchWrapper, () => {
             <div :class="isOpen ? 'focus' : ''" class="dropdown text-gray-600 bg-white font-normal w-full flex items-center pl-3 pr-0 py-2 text-sm border-gray-300 rounded border shadow-sm">
                 <div class="w-full">
                     <div v-if="!props.modelValue?.length && emptyValuePlaceholderText" class="text-gray-500 whitespace-nowrap" v-text="emptyValuePlaceholderText || $t('noItemsSelected')"></div>
-                    <div v-if="(!props.multiple && props.modelValue) || (props.multiple && props.modelValue.length)" class="pl-3 pr-0 py-2 absolute top-1/2 -translate-y-1/2 left-0 flex flex-auto flex-wrap">
+                    <div v-if="(!props.multiple && props.modelValue) || (props.multiple && props.modelValue?.length)" class="pl-3 pr-0 py-2 absolute top-1/2 -translate-y-1/2 left-0 flex flex-auto flex-wrap">
                         <BadgeGroup v-if="props.multiple">
                             <FormDropdownBadge v-for="(value, index) in props.modelValue" :key="index" :text="getOptionTextFromValue(value)" :value="value" @removeOption="removeOption" :show-remove-button="props.badgeShowRemoveButton" />
                         </BadgeGroup>
