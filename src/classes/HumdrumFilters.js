@@ -264,8 +264,9 @@ export class CintFilter extends HumdrumFilter {
 
 export class ParallelIntervalsFilter extends CintFilter {
     static NAME = 'ParallelIntervalsFilter';
-    static DIRECTION_UP = 2;
-    static DIRECTION_DOWN = -2;
+    static DIRECTION_UP = '2';
+    static DIRECTION_DOWN = '-2';
+    static DIRECTION_UP_DOWN = '-?2';
 
     configurable = true;
 
@@ -276,8 +277,9 @@ export class ParallelIntervalsFilter extends CintFilter {
     validateDirection(value) {
         return [
             ParallelIntervalsFilter.DIRECTION_UP,
-            ParallelIntervalsFilter.DIRECTION_DOWN
-        ].includes(parseInt(value, 10));
+            ParallelIntervalsFilter.DIRECTION_DOWN,
+            ParallelIntervalsFilter.DIRECTION_UP_DOWN,
+        ].includes(value);
     }
 }
 
