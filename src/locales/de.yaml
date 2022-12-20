@@ -90,3 +90,4 @@ humdrumFilter.HideCantusFirmusAnnotationFilter: Cantus firmus Annotation ausblen
 measuresToYank: 'Zu filternde Takte (-m)'
 extractionOfParticularSpines: 'Stimmen extrahieren'
 regularExpression: Regulärer Ausdruck
+humdrumFilter: Humdrum Filter

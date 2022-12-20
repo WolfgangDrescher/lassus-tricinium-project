@@ -78,8 +78,8 @@ const DynamicHumdrumFilter = defineComponent({
                 case 'CustomFilter':
                     elems = [h(InputField, {
                         ['onUpdate:modelValue']: value => { args.value = value; },
-                        // label: 'value',
-                        placeholder: 'Value',
+                        label: t('humdrumFilter'),
+                        placeholder: 'extract -I **text | shed -e "s/^clefC[12]/clefG2/I"',
                     })];
                     break;
                 case 'ParallelIntervalsFilter':
