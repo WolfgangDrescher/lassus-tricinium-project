@@ -1,0 +1,16 @@
+degree: 1
+endLine: 118
+filename: 212823f9-2d0b-5575-88e9-9897058e6a08.krn
+startLine: 112
+triciniumId: 04-cum-invocarem
+ultima: g
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 7
+        ultima: 0
+    tenor:
+        penultima: 2
+        ultima: 1

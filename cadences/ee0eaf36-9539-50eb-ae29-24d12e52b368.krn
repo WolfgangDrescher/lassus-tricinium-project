@@ -1,0 +1,30 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 4
+!!!OTL@@LA: Cum invocarem
+!!!OTL-incipit@@DE: Zu dir rüff ich in böser zeit
+**kern	**text	**kern	**text	**kern	**text
+*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefC1	*	*clefG2	*
+*k[b-]	*	*k[b-]	*	*k[b-]	*
+*g:dor	*	*g:dor	*	*g:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+!	!	!LO:TX:a:i:t=c.f.	!	!	!
+*	*	*	*	*	*ij
+*	*	*	*ij	*	*
+*	*	*	*Xij	*	*Xij
+.	.	2b-	ge-	4g	.
+.	.	.	.	[4gg	ge-
+=22	=22	=22	=22	=22	=22
+0r	.	1a	-füh-	4gg]	.
+.	.	.	.	8ff#i	-füh-
+.	.	.	.	8ee	.
+.	.	.	.	2ff#i	.
+.	.	2g	-ret	2gg	-ret/
+*-	*-	*-	*-	*-	*-

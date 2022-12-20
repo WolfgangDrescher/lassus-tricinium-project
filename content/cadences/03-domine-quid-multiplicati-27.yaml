@@ -1,0 +1,16 @@
+degree: 3
+endLine: 31
+filename: 97e15ad0-9da2-5f66-b53c-ac96f7f97e36.krn
+startLine: 27
+triciniumId: 03-domine-quid-multiplicati
+ultima: b-
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 2
+        ultima: 3
+    tenor:
+        penultima: 7
+        ultima: 1
