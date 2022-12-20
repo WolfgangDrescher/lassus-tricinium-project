@@ -163,10 +163,18 @@ const DynamicHumdrumFilter = defineComponent({
                     break;
                 case 'SicFilter':
                     elems = [
-                        h(InputField, {
+                        h(Dropdown, {
+                            modelValue: args.value,
                             ['onUpdate:modelValue']: value => { args.value = value; },
-                            // label: 'Value',
-                            placeholder: 'substitution, original, remove, quiet',
+                            label: t('value'),
+                            options: [
+                                { value: 'substitution', text: 'substitution' },
+                                { value: 'original', text: 'original' },
+                                { value: 'remove', text: 'remove' },
+                                { value: 'quiet', text: 'quiet' },
+                            ],
+                            multiple: false,
+                            searchEnabled: false,
                         }),
                     ];
                     break;
