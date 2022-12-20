@@ -36,7 +36,12 @@ const DynamicHumdrumFilter = defineComponent({
             let elems = [t('noArguments')];
             switch (props.filter) {
                 case 'MeasureFilter':
-                case 'ExtractFilter':
+                    elems = [h(InputField, {
+                        onInput: event => { args.value = event.target.value; },
+                        label: t('measuresToYank'),
+                        placeholder: '1; 4-8; 1,3,5',
+                    })];
+                    break;
                 case 'ShedFilter':
                 case 'CustomFilter':
                     elems = [h(InputField, {

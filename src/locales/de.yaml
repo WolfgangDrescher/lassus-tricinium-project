@@ -86,3 +86,4 @@ humdrumFilter.ShowSicWarningsFilter: SIC Warnungen anzeigen (sic -v)
 humdrumFilter.SicFilter: Originales oder korrigiertes Encoding anzeigen (sic)
 humdrumFilter.TransposeFilter: Transponieren
 humdrumFilter.CustomFilter: Eigener Filter
+measuresToYank: 'Zu filternde Takte (-m)'
