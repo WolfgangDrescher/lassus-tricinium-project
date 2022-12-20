@@ -81,7 +81,7 @@ humdrumFilter.ClausulaFilter: Klauseln anzeigen
 humdrumFilter.AutobeamFilter: Automatische Notenbalken
 humdrumFilter.ImitationFilter: Imitationen anzeigen
 humdrumFilter.MelismaFilter: Melismen hervorheben
-humdrumFilter.ShedExpressionFilter: Streamed Humdrum Editor Ausdruck (shed -e) 
+humdrumFilter.ShedFilter: Streamed Humdrum Editor (shed) 
 humdrumFilter.ShowSicWarningsFilter: SIC Warnungen anzeigen (sic -v)
 humdrumFilter.SicFilter: Originales oder korrigiertes Encoding anzeigen (sic)
 humdrumFilter.TransposeFilter: Transponieren

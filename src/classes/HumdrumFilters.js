@@ -278,23 +278,21 @@ export class ParallelIntervalsFilter extends CintFilter {
     }
 }
 
-export class ShedExpressionFilter extends HumdrumFilter {
-    static NAME = 'ShedExpressionFilter';
-
+export class ShedFilter extends HumdrumFilter {
+    static NAME = 'ShedFilter';
     configurable = true;
-
     constructor(value) {
         super();
         this.value = value;
-        this.addLine(`shed -e ${value}`);
+        this.addLine(`shed ${value}`);
     }
 }
 
-export class HideCantusFirmusAnnotationFilter extends ShedExpressionFilter {
+export class HideCantusFirmusAnnotationFilter extends ShedFilter {
     static NAME = 'HideCantusFirmusAnnotationFilter';
     configurable = false;
     constructor() {
-        super("'s/LO:TX:(.*)t=c.f.//L'");
+        super("-e 's/LO:TX:(.*)t=c.f.//L'");
     }
 }
 
