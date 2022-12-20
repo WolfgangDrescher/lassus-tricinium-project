@@ -278,15 +278,15 @@ export class ParallelIntervalsFilter extends CintFilter {
     }
 }
 
-export class ShedFilter extends HumdrumFilter {
-    static NAME = 'ShedFilter';
+export class ShedExpressionFilter extends HumdrumFilter {
+    static NAME = 'ShedExpressionFilter';
 
     configurable = true;
 
     constructor(value) {
         super();
         this.value = value;
-        this.addLine(`shed ${value}`);
+        this.addLine(`shed -e ${value}`);
     }
 }
 

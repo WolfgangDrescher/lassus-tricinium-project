@@ -15,7 +15,7 @@ const props = defineProps({
 // ExtractVoiceFilter
 // CintFilter
 // ParallelIntervalsFilter
-// ShedFilter
+// ShedExpressionFilter
 // TransposeFilter
 // SicFilter
 // CustomFilter
@@ -68,7 +68,13 @@ const DynamicHumdrumFilter = defineComponent({
                         searchEnabled: false,
                     })];
                     break;
-                case 'ShedFilter':
+                case 'ShedExpressionFilter':
+                    elems = [h(InputField, {
+                        onInput: event => { args.value = event.target.value; },
+                        label: t('regularExpression'),
+                        placeholder: 's/search1/replacement1/options1; s/search2/replacement2/options2',
+                    })];
+                    break;
                 case 'CustomFilter':
                     elems = [h(InputField, {
                         onInput: event => { args.value = event.target.value; },
