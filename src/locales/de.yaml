@@ -97,3 +97,6 @@ color: Farbe
 ascending: Aufsteigend
 descending: Absteigend
 ascendingAndDescending: Auf- und absteigend
+transpositionMode.interval: Um ein Intervall
+transpositionMode.key: In eine Tonart
+value: Wert

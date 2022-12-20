@@ -4,7 +4,7 @@ import FormGroup from '../Form/Group.vue';
 import Button from '../Button.vue';
 import Dropdown from '../Form/Dropdown.vue';
 import ColorPicker from '../Form/ColorPicker.vue';
-import { HumdrumFilter } from '../../classes/HumdrumFilters.js';
+import { HumdrumFilter, TransposeFilter } from '../../classes/HumdrumFilters.js';
 
 const { t } = useI18n();
 
@@ -36,6 +36,10 @@ function convertArgsToArray() {
         return [args.interval, args.direction, args.color];
     }
 
+    if (props.filter === 'TransposeFilter') {
+        return [args.mode, args.value];
+    }
+
     return Object.entries(args).map(([_, value]) => {
         return value;
     });
@@ -51,6 +55,12 @@ const DynamicHumdrumFilter = defineComponent({
                 interval: undefined,
                 direction: undefined,
                 color: HumdrumFilter.getNextColor(),
+            });
+        } else if (props.filter === 'TransposeFilter') {
+            Object.assign(args, {
+                // mode: TransposeFilter.MODE_INTERVAL,
+                mode: undefined,
+                value: undefined,
             });
         } else {
             Object.assign(args, {});
@@ -133,15 +143,21 @@ const DynamicHumdrumFilter = defineComponent({
                     break;
                 case 'TransposeFilter':
                     elems = [
-                        h(InputField, {
-                            ['onUpdate:modelValue']: value => { args.value = value; },
-                            // label: 'Mode',
-                            placeholder: 'Mode (-k / -t)',
+                        h(Dropdown, {
+                            modelValue: args.mode,
+                            ['onUpdate:modelValue']: value => { args.mode = value; },
+                            label: t('mode'),
+                            options: [
+                                { value: '-k', text: t('transpositionMode.key') },
+                                { value: '-t', text: t('transpositionMode.interval') },
+                            ],
+                            multiple: false,
+                            searchEnabled: false,
                         }),
                         h(InputField, {
                             ['onUpdate:modelValue']: value => { args.value = value; },
-                            // label: 'Value',
-                            placeholder: 'Value (c,d,e,f,g; M3 P5)',
+                            label: t('value'),
+                            placeholder: 'P5, -M3, -m7; C, d, E-, f#',
                         }),
                     ];
                     break;
