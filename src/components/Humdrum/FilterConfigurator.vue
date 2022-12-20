@@ -42,6 +42,13 @@ const DynamicHumdrumFilter = defineComponent({
                         placeholder: '1; 4-8; 1,3,5',
                     })];
                     break;
+                case 'ExtractSpineFilter':
+                    elems = [h(InputField, {
+                        onInput: event => { args.value = event.target.value; },
+                        label: t('extractionOfParticularSpines'),
+                        placeholder: '1; 1-4; 1,3,5',
+                    })];
+                    break;
                 case 'ShedFilter':
                 case 'CustomFilter':
                     elems = [h(InputField, {
