@@ -82,5 +82,5 @@ humdrumFilter.ImitationFilter: Imitationen anzeigen
 humdrumFilter.MelismaFilter: Melismen hervorheben
 humdrumFilter.ShedFilter: Streamed Humdrum Editor (shed) 
 humdrumFilter.ShowSicWarningsFilter: SIC Warnungen anzeigen (sic -v)
-humdrumFilter.SicFilter: Originales order korrigiertes Encoding anzeigen (sic)
+humdrumFilter.SicFilter: Originales oder korrigiertes Encoding anzeigen (sic)
 humdrumFilter.TransposeFilter: Transponieren
