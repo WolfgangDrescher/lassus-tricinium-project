@@ -349,7 +349,7 @@ export class TransposeFilter extends HumdrumFilter {
         if (!this.validateMode(mode)) {
             throw new Error(`Cannot set "${mode}" as mode for ${this.className}`);
         }
-        if (!this.validateKey(value, mode)) {
+        if (!this.validateValue(value, mode)) {
             throw new Error(`Cannot set "${value}" as value for ${this.className}`);
         }
         this.mode = mode;
@@ -364,7 +364,7 @@ export class TransposeFilter extends HumdrumFilter {
         ].includes(value);
     }
 
-    validateKey(value, mode) {
+    validateValue(value, mode) {
         if (mode === TransposeFilter.MODE_KEY) {
             return /^[A-G][-#]?$/i.test(value);
         }
