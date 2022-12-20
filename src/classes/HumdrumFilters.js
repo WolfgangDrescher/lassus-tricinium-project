@@ -51,6 +51,24 @@ export class HumdrumFilter {
     toString() {
         return this.lines.map(l => l.toString()).join('\n');
     }
+
+    static chars = createMatchedNoteList();
+    static usedChars = [];
+    getNextMatchedNoteChar() {
+        let char = null;
+        CintFilter.chars.some(c => {
+            const isUsed = CintFilter.usedChars.includes(c);
+            if (!isUsed) {
+                char = c;
+            }
+            return !isUsed;
+        });
+        if (char) {
+            CintFilter.usedChars.push(char);
+            return char;
+        }
+        throw new Error('Cannot create an unused char for matched notes mapping');
+    }
 }
 
 export class ModernClefsFilter extends HumdrumFilter {
@@ -203,9 +221,6 @@ export class CintFilter extends HumdrumFilter {
     unique = false;
     configurable = true;
 
-    static chars = createMatchedNoteList();
-    static usedChars = [];
-
     constructor(interval1, direction, interval2, color) {
         super();
         if (!this.validateInterval(interval1)) {
@@ -241,24 +256,8 @@ export class CintFilter extends HumdrumFilter {
         return /^#([A-Z0-9]{3}){1,2}$/i.test(value);
     }
 
-    getNextMatchedNoteChar() {
-        let char = null;
-        CintFilter.chars.some(c => {
-            const isUsed = CintFilter.usedChars.includes(c);
-            if(!isUsed) {
-                char = c;
-            }
-            return !isUsed;
-        });
-        if(char) {
-            CintFilter.usedChars.push(char);
-            return char;
-        }
-        throw new Error('Cannot create an unused char for matched notes mapping');
-    }
-
     beforeRemove() {
-        CintFilter.usedChars = CintFilter.usedChars.filter(c => c !== this.char);
+        HumdrumFilter.usedChars = HumdrumFilter.usedChars.filter(c => c !== this.char);
     }
 }
 
