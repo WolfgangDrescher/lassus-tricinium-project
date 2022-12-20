@@ -39,6 +39,11 @@ function update(value) {
 onClickOutside(colorPicker, () => {
     isOpen.value = false;
 });
+
+function toggleColorPicker(event) {
+    event.stopPropagation();
+    isOpen.value = !isOpen.value;
+}
 </script>
 
 <template>
@@ -46,7 +51,7 @@ onClickOutside(colorPicker, () => {
         <div class="relative">
             <Button :style="{backgroundColor: modelValue}" @click="toggleColorPicker" class="font-mono">{{ modelValue }}</Button>
             <div class="absolute top-12" v-if="isOpen" data-color-picker>
-                <Twitter ref="colorPicker" :model-value="modelValue" @update:modelValue="isOpen = !isOpen" :default-colors="colors" />
+                <Twitter ref="colorPicker" :model-value="modelValue" @update:modelValue="update" :default-colors="colors" />
             </div>
         </div>
     </FormGroup>
