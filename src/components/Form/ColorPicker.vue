@@ -42,10 +42,12 @@ onClickOutside(colorPicker, () => {
 </script>
 
 <template>
-    <FormGroup :label="label" class="relative">
-        <Button :style="{backgroundColor: modelValue}" @click="isOpen = !isOpen" class="font-mono">{{ modelValue }}</Button>
-        <div class="absolute top-12" v-if="isOpen">
-            <Twitter ref="colorPicker" :model-value="modelValue" @update:modelValue="update" :default-colors="colors" />
+    <FormGroup :label="label">
+        <div class="relative">
+            <Button :style="{backgroundColor: modelValue}" @click="toggleColorPicker" class="font-mono">{{ modelValue }}</Button>
+            <div class="absolute top-12" v-if="isOpen" data-color-picker>
+                <Twitter ref="colorPicker" :model-value="modelValue" @update:modelValue="isOpen = !isOpen" :default-colors="colors" />
+            </div>
         </div>
     </FormGroup>
 </template>
