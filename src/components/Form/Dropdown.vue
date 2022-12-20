@@ -55,8 +55,10 @@ onClickOutside(dropdownOptions, (event) => {
 const isOpen = ref(false);
 const searchString = ref('');
 
-watch(searchString, () => {
-    isOpen.value = true;
+watch(searchString, (value) => {
+    if (value) {
+        isOpen.value = true;
+    }
 });
 
 function toggleDropdown() {
@@ -66,6 +68,7 @@ function toggleDropdown() {
 function closeDropdown() {
     if (!isOpen.value) return;
     isOpen.value = false;
+    searchString.value = '';
 }
 
 function openDropdown() {
