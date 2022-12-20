@@ -117,6 +117,15 @@ const filteredOptions = computed(() => {
     }
     return props.options;
 });
+
+const searchWrapper = ref();
+
+watch(searchWrapper, () => {
+    if (searchWrapper.value) {
+        const input = searchWrapper.value.querySelector('input');
+        if (input.focus) input.focus();
+    }
+});
 </script>
 
 <template>
@@ -141,7 +150,7 @@ const filteredOptions = computed(() => {
             </div>
             <div v-if="isOpen" ref="dropdownOptions" class="absolute shadow-sm border border-gray-200 mt-2 top-full bg-white z-40 w-full left-0 rounded max-h-80 overflow-y-auto">
                 <div class="flex flex-col w-full">
-                    <div v-if="props.searchEnabled" class="p-2">
+                    <div v-if="props.searchEnabled" class="p-2" ref="searchWrapper">
                         <FormInputField v-model="searchString" :placeholder="$t('search')"></FormInputField>
                     </div>
                     <FormDropdownOption v-for="(option, index) in filteredOptions" :key="index" :value="option.value" :text="option.text" :selected="optionIsSelected(option.value)" @toggleOption="toggleOption" />
