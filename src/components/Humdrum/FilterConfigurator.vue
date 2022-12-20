@@ -4,6 +4,7 @@ import FormGroup from '../Form/Group.vue';
 import Button from '../Button.vue';
 import Dropdown from '../Form/Dropdown.vue';
 import ColorPicker from '../Form/ColorPicker.vue';
+import { HumdrumFilter } from '../../classes/HumdrumFilters.js';
 
 const { t } = useI18n();
 
@@ -49,7 +50,7 @@ const DynamicHumdrumFilter = defineComponent({
             Object.assign(args, {
                 interval: undefined,
                 direction: undefined,
-                color: '#EF4444',
+                color: HumdrumFilter.getNextColor(),
             });
         } else {
             Object.assign(args, {});
