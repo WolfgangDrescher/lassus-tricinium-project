@@ -9,6 +9,7 @@ const props = defineProps({
 
 // MeasureFilter
 // ExtractFilter
+// CintFilter
 // ParallelIntervalsFilter
 // ShedFilter
 // TransposeFilter
