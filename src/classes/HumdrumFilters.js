@@ -290,6 +290,14 @@ export class ShedExpressionFilter extends HumdrumFilter {
     }
 }
 
+export class HideCantusFirmusAnnotationFilter extends ShedExpressionFilter {
+    static NAME = 'HideCantusFirmusAnnotationFilter';
+    configurable = false;
+    constructor() {
+        super("'s/LO:TX:(.*)t=c.f.//L'");
+    }
+}
+
 export class TransposeFilter extends HumdrumFilter {
     static NAME = 'TransposeFilter';
     static MODE_KEY = '-k';
