@@ -72,7 +72,7 @@ const DynamicHumdrumFilter = defineComponent({
                     elems = [h(InputField, {
                         onInput: event => { args.value = event.target.value; },
                         label: t('regularExpression'),
-                        placeholder: 's/search1/replacement1/options1; s/search2/replacement2/options2',
+                        placeholder: '"s/search/replacement/options; s/^clefC[12]/clefG2/I"',
                     })];
                     break;
                 case 'CustomFilter':
