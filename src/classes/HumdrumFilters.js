@@ -122,6 +122,7 @@ export class SicFilter extends HumdrumFilter {
     static NAME = 'SicFilter';
     unique = true;
     changeable = true;
+    configurable = true;
 
     constructor(value) {
         super();
