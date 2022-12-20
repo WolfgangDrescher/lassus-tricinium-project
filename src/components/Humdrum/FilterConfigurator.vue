@@ -2,6 +2,8 @@
 import InputField from '../Form/InputField.vue';
 import FormGroup from '../Form/Group.vue';
 import Button from '../Button.vue';
+import Dropdown from '../Form/Dropdown.vue'
+
 const { t } = useI18n();
 
 const props = defineProps({
@@ -47,6 +49,23 @@ const DynamicHumdrumFilter = defineComponent({
                         onInput: event => { args.value = event.target.value; },
                         label: t('extractionOfParticularSpines'),
                         placeholder: '1; 1-4; 1,3,5',
+                    })];
+                    break;
+                case 'ExtractVoiceFilter':
+                    elems = [h(Dropdown, {
+                        modelValue: args.value ? args.value.split(',') : [],
+                        ['onUpdate:modelValue']: value => { args.value = value.join(','); },
+                        label: t('extractionOfParticularSpines'),
+                        options: [
+                            { value: '1', text: t('voice.bassus') },
+                            { value: '2', text: `${t('lyrics')} ${t('voice.bassus')}` },
+                            { value: '3', text: t('voice.tenor') },
+                            { value: '4', text: `${t('lyrics')} ${t('voice.tenor')}` },
+                            { value: '5', text: t('voice.cantus') },
+                            { value: '6', text: `${t('lyrics')} ${t('voice.cantus')}` },
+                        ],
+                        multiple: true,
+                        searchEnabled: false,
                     })];
                     break;
                 case 'ShedFilter':
