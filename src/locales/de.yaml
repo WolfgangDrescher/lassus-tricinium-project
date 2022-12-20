@@ -91,3 +91,9 @@ measuresToYank: 'Zu filternde Takte (-m)'
 extractionOfParticularSpines: 'Stimmen extrahieren'
 regularExpression: Regulärer Ausdruck
 humdrumFilter: Humdrum Filter
+interval: Intervall
+direction: Richtung
+color: Farbe
+ascending: Aufsteigend
+descending: Absteigend
+ascendingAndDescending: Auf- und absteigend

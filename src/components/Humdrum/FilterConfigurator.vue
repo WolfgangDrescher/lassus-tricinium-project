@@ -2,7 +2,8 @@
 import InputField from '../Form/InputField.vue';
 import FormGroup from '../Form/Group.vue';
 import Button from '../Button.vue';
-import Dropdown from '../Form/Dropdown.vue'
+import Dropdown from '../Form/Dropdown.vue';
+import ColorPicker from '../Form/ColorPicker.vue';
 
 const { t } = useI18n();
 
@@ -25,15 +26,35 @@ const emit = defineEmits(['applyFilter']);
 const args = reactive({});
 
 function applyFilter() {
-    emit('applyFilter', Object.entries(args).map(([_, value]) => {
-        return value;
-    }));
+    emit('applyFilter', convertArgsToArray());
 }
+
+function convertArgsToArray() {
+    
+    if (props.filter === 'ParallelIntervalsFilter') {
+        return [args.interval, args.direction, args.color];
+    }
+
+    return Object.entries(args).map(([_, value]) => {
+        return value;
+    });
+};
 
 const DynamicHumdrumFilter = defineComponent({
     name: 'DynamicHumdrumFilter',
     props: ['filter'],
     setup(props) {
+        
+        if (props.filter === 'ParallelIntervalsFilter') {
+            Object.assign(args, {
+                interval: undefined,
+                direction: undefined,
+                color: '#EF4444',
+            });
+        } else {
+            Object.assign(args, {});
+        }
+
         return () => {
             let elems = [t('noArguments')];
             switch (props.filter) {
@@ -85,19 +106,27 @@ const DynamicHumdrumFilter = defineComponent({
                 case 'ParallelIntervalsFilter':
                     elems = [
                         h(InputField, {
-                            ['onUpdate:modelValue']: value => { args.value = value; },
-                            // label: 'Interval',
-                            placeholder: 'Interval',
+                            modelValue: args.interval,
+                            ['onUpdate:modelValue']: value => { args.interval = value; },
+                            label: t('interval'),
+                            placeholder: '1,2,3,4,5,6,7,8',
                         }),
-                        h(InputField, {
-                            ['onUpdate:modelValue']: value => { args.value = value; },
-                            // label: 'Direction',
-                            placeholder: 'Direction (2/-2)',
+                        h(Dropdown, {
+                            modelValue: args.direction,
+                            ['onUpdate:modelValue']: value => { args.direction = value; },
+                            label: t('direction'),
+                            options: [
+                                { value: '2', text: t('ascending') },
+                                { value: '-2', text: t('descending') },
+                                { value: '-?2', text: t('ascendingAndDescending') },
+                            ],
+                            multiple: false,
+                            searchEnabled: false,
                         }),
-                        h(InputField, {
-                            ['onUpdate:modelValue']: value => { args.value = value; },
-                            // label: 'Color',
-                            placeholder: 'Color',
+                        h(ColorPicker, {
+                            modelValue: args.color,
+                            ['onUpdate:modelValue']: value => { args.color = value; },
+                            label: t('color'),
                         }),
                     ];
                     break;
