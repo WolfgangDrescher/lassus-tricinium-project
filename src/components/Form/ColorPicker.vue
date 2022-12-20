@@ -3,7 +3,25 @@ import { Twitter } from '@ckpack/vue-color';
 import {default as tailwindColors} from 'tailwindcss/colors';
 import { onClickOutside } from '@vueuse/core';
 
-const colorNames = ['red', 'orange', 'amber', 'yellow', 'lime', 'green', 'emerald', 'teal', 'cyan', 'sky', 'blue', 'indigo', 'violet', 'purple', 'fuchsia', 'pink', 'rose'];
+const colorNames = [
+    'red',
+    'orange',
+    'amber',
+    'yellow',
+    'lime',
+    'green',
+    'emerald',
+    'teal',
+    'cyan',
+    'sky',
+    'blue',
+    'indigo',
+    'violet',
+    'purple',
+    'fuchsia',
+    'pink',
+    'rose',
+];
 
 const colors = colorNames.map(name => tailwindColors[name][500]);
 
