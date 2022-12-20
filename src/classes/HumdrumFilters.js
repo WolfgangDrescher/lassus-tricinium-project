@@ -162,8 +162,8 @@ export class MeasureFilter extends HumdrumFilter {
     }
 }
 
-export class ExtractFilter extends HumdrumFilter {
-    static NAME = 'ExtractFilter';
+export class ExtractSpineFilter extends HumdrumFilter {
+    static NAME = 'ExtractSpineFilter';
 
     unique = true;
     changeable = true;
@@ -182,6 +182,13 @@ export class ExtractFilter extends HumdrumFilter {
         if (/^[1-9]\d*(,[1-9]\d*)*$/.test(value)) return true;
         if (/^[1-9]\d*-[1-9]\d*$/.test(value)) return true;
         return false;
+    }
+}
+
+export class ExtractVoiceFilter extends ExtractSpineFilter {
+    static NAME = 'ExtractVoiceFilter';
+    constructor(value) {
+        super(value);
     }
 }
 

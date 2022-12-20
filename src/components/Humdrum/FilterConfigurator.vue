@@ -8,7 +8,8 @@ const props = defineProps({
 });
 
 // MeasureFilter
-// ExtractFilter
+// ExtractSpineFilter
+// ExtractVoiceFilter
 // CintFilter
 // ParallelIntervalsFilter
 // ShedFilter

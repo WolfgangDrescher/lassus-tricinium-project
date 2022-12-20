@@ -73,7 +73,8 @@ humdrumFilter.HideLyricsFilter: Liedtext ausblenden
 humdrumFilter.HideEditorialAccidentalsFilter: Redaktionelle Vorzeichen ausblenden
 humdrumFilter.CompositeRhythmFilter: Zusammengesetzter Rhythmus
 humdrumFilter.MeasureFilter: Takte filtern
-humdrumFilter.ExtractFilter: Stimmen filtern
+humdrumFilter.ExtractSpineFilter: Spines filtern
+humdrumFilter.ExtractVoiceFilter: Stimmen filtern
 humdrumFilter.ParallelIntervalsFilter: Parallele Intervalle anzeigen
 humdrumFilter.DissonantFilter: Dissonanzen anzeigen
 humdrumFilter.ClausulaFilter: Klauseln anzeigen
