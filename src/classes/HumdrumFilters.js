@@ -54,7 +54,7 @@ export class HumdrumFilter {
 
     static chars = createMatchedNoteList();
     static usedChars = [];
-    getNextMatchedNoteChar() {
+    static getNextMatchedNoteChar() {
         let char = null;
         CintFilter.chars.some(c => {
             const isUsed = CintFilter.usedChars.includes(c);
@@ -239,7 +239,7 @@ export class CintFilter extends HumdrumFilter {
         this.direction = direction;
         this.interval2 = interval2;
         this.color = color;
-        this.char = this.getNextMatchedNoteChar();
+        this.char = HumdrumFilter.getNextMatchedNoteChar();
         // https://github.com/rism-digital/verovio/issues/2690
         this.addLine(`cint -O --search "${this.interval1} ${this.direction} ${this.interval2}" -N ${this.char} --color ${this.color}`);
     }
