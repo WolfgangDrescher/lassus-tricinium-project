@@ -17,6 +17,7 @@ import {
     ShowSicWarningsFilter,
     SicFilter,
     TransposeFilter,
+    CustomFilter,
 } from '../../classes/HumdrumFilters.js';
 
 defineProps({
@@ -46,6 +47,7 @@ const allFilters = [
     ShowSicWarningsFilter,
     SicFilter,
     TransposeFilter,
+    CustomFilter,
 ];
 
 const filterOptions = allFilters.map(filter => {

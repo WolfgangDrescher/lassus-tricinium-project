@@ -322,3 +322,13 @@ export class TransposeFilter extends HumdrumFilter {
         return false;
     }
 }
+
+export class CustomFilter extends HumdrumFilter {
+    static NAME = 'CustomFilter';
+    configurable = true;
+    constructor(value) {
+        super();
+        this.value = value;
+        this.addLine(value);
+    }
+}

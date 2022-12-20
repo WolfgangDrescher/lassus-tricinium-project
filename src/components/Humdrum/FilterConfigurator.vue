@@ -14,6 +14,7 @@ const props = defineProps({
 // ShedFilter
 // TransposeFilter
 // SicFilter
+// CustomFilter
 
 const emit = defineEmits(['applyFilter']);
 
@@ -35,6 +36,7 @@ const DynamicHumdrumFilter = defineComponent({
                 case 'MeasureFilter':
                 case 'ExtractFilter':
                 case 'ShedFilter':
+                case 'CustomFilter':
                     elems = [h(InputField, {
                         onInput: event => { args.value = event.target.value; },
                         // label: 'value',
