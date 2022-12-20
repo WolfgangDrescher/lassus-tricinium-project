@@ -64,6 +64,7 @@ function removeFilter(filterId) {
 
 function addFilter(filter) {
     emit('addFilter', filter);
+    selectedFilter.value = null;
 }
 
 function findFilter(value) {
@@ -85,7 +86,6 @@ function applyFilter(event) {
         const filter = new item.filter();
         if(!filter.configurable) {
             addFilter(filter);
-            selectedFilter.value = null;
         }
     } catch (e) {
         // console.error(e.message);
