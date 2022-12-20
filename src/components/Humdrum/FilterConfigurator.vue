@@ -1,6 +1,7 @@
 <script setup>
-import Button from '../Button.vue';
 import InputField from '../Form/InputField.vue';
+import FormGroup from '../Form/Group.vue';
+import Button from '../Button.vue';
 const { t } = useI18n();
 
 const props = defineProps({
@@ -91,9 +92,12 @@ const DynamicHumdrumFilter = defineComponent({
                 class: 'grid grid-cols-filter gap-4 w-full',
             }, [
                 ...elems,
-                h(Button, {
-                    onClick: applyFilter,
-                }, t('apply')),
+                h(FormGroup, {label: ''}, [
+                    h(Button, {
+                        label: false,
+                        onClick: applyFilter,
+                    }, t('apply')),
+                ]),
             ]);
         };
     },
