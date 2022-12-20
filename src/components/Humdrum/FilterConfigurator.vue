@@ -39,14 +39,14 @@ const DynamicHumdrumFilter = defineComponent({
             switch (props.filter) {
                 case 'MeasureFilter':
                     elems = [h(InputField, {
-                        onInput: event => { args.value = event.target.value; },
+                        ['onUpdate:modelValue']: value => { args.value = value; },
                         label: t('measuresToYank'),
                         placeholder: '1; 4-8; 1,3,5',
                     })];
                     break;
                 case 'ExtractSpineFilter':
                     elems = [h(InputField, {
-                        onInput: event => { args.value = event.target.value; },
+                        ['onUpdate:modelValue']: value => { args.value = value; },
                         label: t('extractionOfParticularSpines'),
                         placeholder: '1; 1-4; 1,3,5',
                     })];
@@ -70,14 +70,14 @@ const DynamicHumdrumFilter = defineComponent({
                     break;
                 case 'ShedFilter':
                     elems = [h(InputField, {
-                        onInput: event => { args.value = event.target.value; },
+                        ['onUpdate:modelValue']: value => { args.value = value; },
                         label: t('regularExpression'),
                         placeholder: '-e "s/^clefC[12]/clefG2/I"; -ke "s/i/y/g"',
                     })];
                     break;
                 case 'CustomFilter':
                     elems = [h(InputField, {
-                        onInput: event => { args.value = event.target.value; },
+                        ['onUpdate:modelValue']: value => { args.value = value; },
                         // label: 'value',
                         placeholder: 'Value',
                     })];
@@ -85,17 +85,17 @@ const DynamicHumdrumFilter = defineComponent({
                 case 'ParallelIntervalsFilter':
                     elems = [
                         h(InputField, {
-                            onInput: event => { args.value = event.target.value; },
+                            ['onUpdate:modelValue']: value => { args.value = value; },
                             // label: 'Interval',
                             placeholder: 'Interval',
                         }),
                         h(InputField, {
-                            onInput: event => { args.direction = event.target.value; },
+                            ['onUpdate:modelValue']: value => { args.value = value; },
                             // label: 'Direction',
                             placeholder: 'Direction (2/-2)',
                         }),
                         h(InputField, {
-                            onInput: event => { args.color = event.target.value; },
+                            ['onUpdate:modelValue']: value => { args.value = value; },
                             // label: 'Color',
                             placeholder: 'Color',
                         }),
@@ -104,12 +104,12 @@ const DynamicHumdrumFilter = defineComponent({
                 case 'TransposeFilter':
                     elems = [
                         h(InputField, {
-                            onInput: event => { args.mode = event.target.value; },
+                            ['onUpdate:modelValue']: value => { args.value = value; },
                             // label: 'Mode',
                             placeholder: 'Mode (-k / -t)',
                         }),
                         h(InputField, {
-                            onInput: event => { args.value = event.target.value; },
+                            ['onUpdate:modelValue']: value => { args.value = value; },
                             // label: 'Value',
                             placeholder: 'Value (c,d,e,f,g; M3 P5)',
                         }),
@@ -118,7 +118,7 @@ const DynamicHumdrumFilter = defineComponent({
                 case 'SicFilter':
                     elems = [
                         h(InputField, {
-                            onInput: event => { args.value = event.target.value; },
+                            ['onUpdate:modelValue']: value => { args.value = value; },
                             // label: 'Value',
                             placeholder: 'substitution, original, remove, quiet',
                         }),
