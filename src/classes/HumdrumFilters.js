@@ -157,6 +157,7 @@ export class MeasureFilter extends HumdrumFilter {
     validateValue(value) {
         if (/^[1-9]\d*$/.test(value)) return true;
         if (/^[1-9]\d*-[1-9]\d*$/.test(value)) return true;
+        if (/^[1-9]\d*(,[1-9]\d*)*$/.test(value)) return true;
         return false;
     }
 }
