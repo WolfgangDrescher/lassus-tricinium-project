@@ -100,8 +100,8 @@ function applyFilter(event) {
         <div class="my-4">
             <FormDropdown v-model="selectedFilter" :options="filterOptions" @update:modelValue="applyFilter" close-on-change />
         </div>
-        <div class="my-4">
-            <HumdrumFilterConfigurator v-if="selectedFilter" :filter="selectedFilter" @applyFilter="applyFilterWithConfig"></HumdrumFilterConfigurator>
+        <div class="my-4" v-if="selectedFilter">
+            <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilterWithConfig"></HumdrumFilterConfigurator>
         </div>
     </div>
     <div class="mt-4" v-if="filters.length">
