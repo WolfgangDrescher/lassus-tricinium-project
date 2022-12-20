@@ -1,7 +1,12 @@
 import { v4 as uuidv4 } from 'uuid';
 
 function createMatchedNoteList() {
-    const list = [];
+    const list = [
+        // https://github.com/humdrum-tools/verovio-humdrum-viewer/issues/782
+        // 'i', 'j', 'l',
+        'N', 'V', 'Z', '@', '+', '|', '<', '>',
+    ];
+
     let i;
     for (i = 0; i < 50; i++) {
         list.push(String.fromCodePoint(`0x1F6${i.toString().padStart(2, '0')}`));
