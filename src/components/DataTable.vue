@@ -32,6 +32,8 @@ const fields = computed(() => {
         };
     }) : [];
 });
+
+// text-left text-center text-right
 </script>
 
 <template>
@@ -43,7 +45,7 @@ const fields = computed(() => {
                         <template v-if="direction === 'row'">
                             <thead class="bg-gray-50" v-if="showHead">
                                 <tr>
-                                    <th v-for="(field, i) in fields" :key="i" scope="col" class="text-left border-b border-gray-200" :class="small ? 'py-2 px-3' : 'py-4 px-6'">
+                                    <th v-for="(field, i) in fields" :key="i" scope="col" class="border-b border-gray-200" :class="[small ? 'py-2 px-3' : 'py-4 px-6', `text-${field.align ?? 'left'}`]">
                                         {{ field.text }}
                                     </th>
                                 </tr>
@@ -61,7 +63,7 @@ const fields = computed(() => {
                         <template v-else>
                             <tbody>
                                 <tr v-for="(field, j) in fields" :key="j" class="bg-white border-b border-gray-200">
-                                    <th v-if="showHead" class="text-left border-b border-gray-200 w-1" :class="small ? 'py-2 px-3 ' : 'py-4 px-6'">
+                                    <th v-if="showHead" class="border-b border-gray-200 w-1" :class="[small ? 'py-2 px-3 ' : 'py-4 px-6', `text-${field.align ?? 'left'}`]">
                                         {{ field.text }}
                                     </th>
                                     <td v-for="(item, k) in items" :key="k" class="whitespace-nowrap" :class="small ? 'py-2 px-3 ' : 'py-4 px-6'">
