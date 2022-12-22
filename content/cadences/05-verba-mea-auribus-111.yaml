@@ -1,0 +1,16 @@
+degree: 7
+endLine: 117
+filename: eff179cd-0842-5140-9b95-6831a608c303.krn
+startLine: 111
+triciniumId: 05-verba-mea-auribus
+ultima: f
+voices:
+    bassus:
+        penultima: 7
+        ultima: 1
+    cantus:
+        penultima: 5
+        ultima: 0
+    tenor:
+        penultima: 2
+        ultima: 3
