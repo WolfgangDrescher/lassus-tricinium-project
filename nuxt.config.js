@@ -14,11 +14,8 @@ export default defineNuxtConfig({
         '@nuxt/content',
     ],
     vite: {
-        optimizeDeps: {
-            include: [
-                'verovio/wasm',
-                'verovio/wasm-hum',
-            ],
+        worker: {
+            format: 'es',
         },
     },
     nitro: {
