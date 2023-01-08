@@ -73,6 +73,11 @@ export default defineNuxtConfig({
                 // prefix: '/root',
                 base: fileURLToPath(new URL('./content', import.meta.url)),
             },
+            lgp: {
+                driver: 'fs',
+                prefix: '/lgp',
+                base: fileURLToPath(new URL('./lassus-geistliche-psalmen/meta', import.meta.url)),
+            },
         },
     },
 });
