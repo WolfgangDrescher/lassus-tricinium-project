@@ -88,6 +88,9 @@ const tableItems = computed(() => {
             </div>
         </div>
         <DataTable v-else :items="tableItems" :headers="tableHeaders" small>
+            <template #[`head.cantusFirmus`]="{ field }">
+                <span class="whitespace-nowrap">{{ field.text }}</span>
+            </template>
             <template #[`item.nr`]="{ item }">
                 <div class="text-right">{{ item.nr }}</div>
             </template>
