@@ -21,6 +21,7 @@
                         <NavigationItem :href="localePath('tricinium')">{{ $t('tricinia') }}</NavigationItem>
                         <NavigationItem :href="localePath('cadences')">{{ $t('cadences') }}</NavigationItem>
                         <NavigationItem :href="localePath('statistics')">{{ $t('statistics') }}</NavigationItem>
+                        <NavigationItem :href="localePath('critical-report')">{{ $t('criticalReport') }}</NavigationItem>
                     </ul>
                 </div>
             </div>
