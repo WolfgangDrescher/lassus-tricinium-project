@@ -1,5 +1,5 @@
-import tricinia from 'lassus-geistliche-psalmen/meta.json';
+import { serverQueryContent } from '#content/server';
 
 export default defineEventHandler(async (event) => {
-    return tricinia;
+    return await serverQueryContent(event).where({ _source: 'lgp'}).find();
 });
