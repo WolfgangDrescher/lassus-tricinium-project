@@ -4,11 +4,11 @@ class Tricinium {
     }
 
     get id() {
-        return this.tricinium.id;
+        return this.tricinium.id ?? this.tricinium._path.replace(/^.*[\\\/]/, '');
     }
 
     get nr() {
-        return this.tricinium.nr;
+        return this.tricinium.nr ?? parseInt(this.id.substring(0, 2), 10);
     }
 
     get title() {
