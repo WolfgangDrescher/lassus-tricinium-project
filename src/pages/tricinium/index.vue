@@ -24,6 +24,7 @@ const scoreOptions = [
 const tableHeaders = [
     { value: 'nr', text: '#', align: 'right' },
     { value: 'title', text: t('title') },
+    { value: 'incipit', text: t('incipit') },
     { value: 'composer', text: t('composer') },
     { value: 'mode', text: t('mode') },
     { value: 'transposition', text: t('transposition') },
@@ -38,6 +39,7 @@ const tableItems = computed(() => {
             id: tricinium.id,
             nr: tricinium.nr,
             title: tricinium.title,
+            incipit: tricinium.incipit,
             composer: tricinium.composer,
             mode: tricinium.mode && t(`mode.${tricinium.mode}`),
             transposition: tricinium.transposition && t(`transposition.${tricinium.transposition}`),
