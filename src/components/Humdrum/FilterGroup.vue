@@ -20,6 +20,7 @@ import {
     SicFilter,
     TransposeFilter,
     CustomFilter,
+    HideBarlinesFilter,
 } from '../../classes/HumdrumFilters.js';
 
 defineProps({
@@ -52,6 +53,7 @@ const allFilters = [
     SicFilter,
     TransposeFilter,
     CustomFilter,
+    HideBarlinesFilter,
 ];
 
 const filterOptions = allFilters.map(filter => {

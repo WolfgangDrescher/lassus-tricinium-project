@@ -87,6 +87,7 @@ humdrumFilter.SicFilter: Originales oder korrigiertes Encoding anzeigen (sic)
 humdrumFilter.TransposeFilter: Transponieren
 humdrumFilter.CustomFilter: Eigener Filter
 humdrumFilter.HideCantusFirmusAnnotationFilter: Cantus firmus Annotation ausblenden
+humdrumFilter.HideBarlinesFilter: Taktstriche ausblenden
 measuresToYank: 'Zu filternde Takte (-m)'
 extractionOfParticularSpines: 'Stimmen extrahieren'
 regularExpression: Regulärer Ausdruck
