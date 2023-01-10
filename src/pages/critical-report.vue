@@ -14,7 +14,7 @@ defineI18nRoute({
                 <FormattedText>
                     <ol class="flex flex-col list-none pl-0 gap-4">
                         <li>
-                            Vorlage ist das Digitalisat des Drucks von 1588 in der Bayerischen Staatsbibliothek München:
+                            Vorlage ist das Digitalisat des Drucks von 1588 der Bayerischen Staatsbibliothek München:
                             <HyperLink
                             href="https://mdz-nbn-resolving.de/details:bsb00075346">https://mdz-nbn-resolving.de/details:bsb00075346</HyperLink>.
                         </li>
@@ -24,7 +24,14 @@ defineI18nRoute({
                             Humdrum-Filter visuell ausgeblendet werden (<code>shed -e "s/^([^-]*)$/$1-/B"</code>).
                         </li>
                         <li>
-                            Die Orthographie der gesungenen Texte folgt so weit wie möglich dem Druck von 1588.
+                            Die Orthographie der gesungenen Texte folgt dem Druck von 1588. Wörter wie z.B.
+                            <i>warumb</i>, <i>trewer</i>, <i>maystat</i> oder <i>uñ</i> (anstatt <i>und</i>) wurden so
+                            belassen, auch wenn sie im Druck in den anderen Stimmen unterschiedlich geschrieben wurden.
+                        </li>
+                        <li>
+                            Orthographische oder sprachliche Unterschiede in den gesungenen Texten der jeweiligen
+                            Stimmen wurden nicht angeglichen und sind wie im Druck dargestellt. Dies gilt auch für
+                            Gross- und Kleinschreibung.
                         </li>
                         <li>
                             Vorzeichen werden nur dann im Notentext angezeigt, wenn diese auch im Druck vorhanden sind.
@@ -40,11 +47,6 @@ defineI18nRoute({
                             In den Liedtexten wurden ausschliesslich solche Schriftzeichen modernisiert, die nicht mit
                             der Standardschrift für Verovio (Times) dargestellt werden können, wie z.B <code>uͤ</code>
                             zu <code>ü</code>.
-                        </li>
-                        <li>
-                            Orthographische oder sprachliche Unterschiede in den gesungenen Texten der jeweiligen
-                            Stimmen wurden nicht angeglichen und sind wie im Druck dargestellt. Dies gilt auch für
-                            Gross- und Kleinschreibung.
                         </li>
                         <li>
                             TODO: Es wurden fehlende Schrägstriche bei den Zeilenenden sowie bei einer Textwiederholung
