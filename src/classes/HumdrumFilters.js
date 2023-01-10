@@ -339,7 +339,7 @@ export class HideBarlinesFilter extends ShedFilter {
     static NAME = 'HideBarlinesFilter';
     configurable = false;
     constructor() {
-        super('-e "s/^([^-]*)$/$1-/B"');
+        super('-e "s/^([^-=]*)$/$1-/B"');
     }
 }
 
