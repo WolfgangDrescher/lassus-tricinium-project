@@ -335,6 +335,14 @@ export class HideCantusFirmusAnnotationFilter extends ShedFilter {
     }
 }
 
+export class HideBarlinesFilter extends ShedFilter {
+    static NAME = 'HideBarlinesFilter';
+    configurable = false;
+    constructor() {
+        super('-e "s /^([^-]*)$/$1-/B"');
+    }
+}
+
 export class TransposeFilter extends HumdrumFilter {
     static NAME = 'TransposeFilter';
     static MODE_KEY = '-k';
