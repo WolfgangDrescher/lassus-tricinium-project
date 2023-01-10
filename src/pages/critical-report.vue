@@ -20,7 +20,9 @@ defineI18nRoute({
                     <li>
                         Taktstriche wurden gemäss der Taktart hinzugefügt, weil
                         Verovio ohne Taktstriche keine Zeilenumbrüche darstellen
-                        kann.
+                        kann. Die Taktstriche können in Verovio aber mit einem
+                        Humdrum-Filter visuell ausgeblendet werden
+                        (<code>shed -e "s/^([^-]*)$/$1-/B"</code>).
                     </li>
                     <li>
                         Die Orthographie der gesungenen Texte folgt so weit wie
