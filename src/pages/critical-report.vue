@@ -10,7 +10,7 @@ defineI18nRoute({
     <Container>
         <SectionContainer>
             <section>
-                <Heading>{{ $t('criticalReport') }}</Heading>
+                <Heading>{{ $t('editorialComments') }}</Heading>
                 <FormattedText>
                     <ol class="flex flex-col list-none pl-0 gap-4">
                         <li>
@@ -69,6 +69,13 @@ defineI18nRoute({
                             gekennzeichnet sind, wird der Text kursiv
                             ausgeschrieben.
                         </li>
+                    </ol>
+                </FormattedText>
+            </section>
+            <section>
+                <Heading>{{ $t('criticalReport') }}</Heading>
+                <FormattedText>
+                    <ol class="flex flex-col list-none pl-0 gap-4">
                         <li>
                             <HyperLink :href="localePath({ name: 'tricinium-id',
                             params: { id: '01-beatus-vir' }})">1. Beatus
