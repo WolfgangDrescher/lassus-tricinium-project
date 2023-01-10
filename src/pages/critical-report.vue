@@ -64,23 +64,36 @@ defineI18nRoute({
             <section>
                 <Heading>{{ $t('criticalReport') }}</Heading>
                 <FormattedText>
-                    <ol class="flex flex-col list-none pl-0 gap-4">
-                        <li>
-                            <HyperLink :href="localePath({ name: 'tricinium-id',
-                            params: { id: '01-beatus-vir' }})">1. Beatus
-                                vir</HyperLink> Takt 1-6: Die ausgefüllten Noten in den
-                            ersten zwei Zeilen des Cantus wurden angeglichen.
-                            Vergleiche mit
-                            <HyperLink href="https://www.digitale-sammlungen.de/de/view/bsb00072990?page=11">dieser
-                                Alternative</HyperLink> (Permalink: <HyperLink href="https://mdz-nbn-resolving.de/details:bsb00072990">https://mdz-nbn-resolving.de/details:bsb00072990</HyperLink>).
-                        </li>
-                        <li>
-                            <HyperLink :href="localePath({ name: 'tricinium-id',
-                            params: { id: '06-domine-ne-in-furore' }})">6. Domine ne
-                                in furore</HyperLink> Takt 25: Die ausgefüllten Noten
-                            bei der Triole wurden rhythmisch angepasst.
-                        </li>
-                    </ol>
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '01-beatus-vir' }})">
+                                    1. Beatus vir
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 1-6: Die ausgefüllten Noten in den ersten zwei Zeilen des Cantus wurden
+                                    angeglichen. Vergleiche mit <HyperLink
+                                    href="https://www.digitale-sammlungen.de/de/view/bsb00072990?page=11">dieser
+                                    Alternative</HyperLink> (<HyperLink
+                                    href="https://mdz-nbn-resolving.de/details:bsb00072990">Permalink</HyperLink>).
+                                </li>
+                            </ol>
+                        </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '06-domine-ne-in-furore' }})">
+                                    6. Domine ne in furore
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 25: Die ausgefüllten Noten bei der Triole wurden rhythmisch angepasst.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
                 </FormattedText>
             </section>
         </SectionContainer>
