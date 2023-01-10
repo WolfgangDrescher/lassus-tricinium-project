@@ -24,6 +24,10 @@ defineI18nRoute({
                             Humdrum-Filter visuell ausgeblendet werden (<code>shed -e "s/^([^-]*)$/$1-/B"</code>).
                         </li>
                         <li>
+                            Bei den Taktstrichen wurde das im Druck mit einem Doppelstrich gesetzte Ende eines Stücks
+                            mit einem Schlussstrich ersetzt.
+                        </li>
+                        <li>
                             Die Orthographie der gesungenen Texte folgt dem Druck von 1588. Wörter wie z.B.
                             <i>warumb</i>, <i>trewer</i>, <i>maystat</i> oder <i>uñ</i> (anstatt <i>und</i>) wurden so
                             belassen, auch wenn sie im Druck in den anderen Stimmen unterschiedlich geschrieben wurden.
