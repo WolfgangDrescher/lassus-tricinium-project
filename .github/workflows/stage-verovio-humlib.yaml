@@ -21,15 +21,15 @@ jobs:
                     SSH_KEY: ${{ secrets.SSH_KEY }}
                     PORT: ${{ secrets.PORT }}
                 run: |
-                    mkdir -p ~/.ssh/
-                    echo "$SSH_KEY" > ~/.ssh/server.key
-                    chmod 600 ~/.ssh/server.key
-                    cat >> ~/.ssh/config <<END
+                    mkdir -p /root/.ssh/
+                    echo "$SSH_KEY" > /root/.ssh/server.key
+                    chmod 600 /root/.ssh/server.key
+                    cat >> /root/.ssh/config <<END
                     Host server
                         HostName $HOST
                         User $USERNAME
                         Port $PORT
-                        IdentityFile ~/.ssh/server.key
+                        IdentityFile /root/.ssh/server.key
                         StrictHostKeyChecking no
                     END
             
