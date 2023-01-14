@@ -11,11 +11,6 @@ jobs:
         runs-on: ubuntu-latest
         container:
             image: ghcr.io/wolfgangdrescher/verovio-humlib-docker-image@sha256:0d2eb1999244ba6c957bd37d333e31d7d0a0272199691e5a45f61cace6fda086
-        env:
-            HOST: ${{ secrets.HOST }}
-            USERNAME: ${{ secrets.USERNAME }}
-            SSH_KEY: ${{ secrets.SSH_KEY }}
-            PORT: ${{ secrets.PORT }}
         steps:
             -
                 name: Checkout
@@ -64,6 +59,11 @@ jobs:
 
             -
                 name: Deploy
+                env:
+                    HOST: ${{ secrets.HOST }}
+                    USERNAME: ${{ secrets.USERNAME }}
+                    SSH_KEY: ${{ secrets.SSH_KEY }}
+                    PORT: ${{ secrets.PORT }}
                 run: |
                     echo "$SSH_KEY" > ssh.key
                     chmod 600 ssh.key
