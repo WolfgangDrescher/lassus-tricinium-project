@@ -70,4 +70,4 @@ jobs:
 
             -
                 name: Deploy
-                run: rsync -e 'ssh -vvv' -azP dist/ server:lassus.wolfgangdrescher.ch --delete
+                run: rsync -rvzP -e 'ssh -i ssh.key -p ${{ env.PORT }} -o StrictHostKeyChecking=no' dist/ $USERNAME@$HOST:lassus.wolfgangdrescher.ch --delete
