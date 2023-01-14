@@ -11,15 +11,14 @@ jobs:
         runs-on: ubuntu-latest
         container:
             image: ghcr.io/wolfgangdrescher/verovio-humlib-docker-image:latest
-
+        env:
+            HOST: ${{ secrets.HOST }}
+            USERNAME: ${{ secrets.USERNAME }}
+            SSH_KEY: ${{ secrets.SSH_KEY }}
+            PORT: ${{ secrets.PORT }}
         steps:
             -
                 name: Configure SSH
-                env:
-                    HOST: ${{ secrets.HOST }}
-                    USERNAME: ${{ secrets.USERNAME }}
-                    SSH_KEY: ${{ secrets.SSH_KEY }}
-                    PORT: ${{ secrets.PORT }}
                 run: |
                     mkdir -p /root/.ssh/
                     echo "$SSH_KEY" > /root/.ssh/server.key
@@ -35,11 +34,6 @@ jobs:
             
             -
                 name: Test SSH
-                env:
-                    HOST: ${{ secrets.HOST }}
-                    USERNAME: ${{ secrets.USERNAME }}
-                    SSH_KEY: ${{ secrets.SSH_KEY }}
-                    PORT: ${{ secrets.PORT }}
                 run: |
                     pwd
                     (cd && pwd)
