@@ -28,7 +28,7 @@ jobs:
                 run: |
                     mkdir -p dist
                     echo "<h1>Hello</h1>" > dist/index.html
-                    rsync -rvzP -e 'ssh -vvvv -i ssh.key -p ${{ env.PORT }}' dist/ $USERNAME@$HOST:lassus.wolfgangdrescher.ch --delete
+                    rsync -rvzP -e 'ssh -vvvv -i ssh.key -p ${{ env.PORT }} -o StrictHostKeyChecking=no' dist/ $USERNAME@$HOST:lassus.wolfgangdrescher.ch --delete
 
             -
                 name: Checkout
