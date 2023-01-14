@@ -29,7 +29,7 @@ jobs:
                 run: |
                     mkdir -p dist
                     echo "<h1>Hello</h1>" > dist/index.html
-                    rsync -rvzP -e 'ssh -i ~/.ssh/server.key -p $PORT' dist/ $USERNAME@$HOST:lassus.wolfgangdrescher.ch --delete
+                    rsync -rvzP -e 'ssh -i ssh.key -p 2121' dist/ $USERNAME@$HOST:lassus.wolfgangdrescher.ch --delete
 
             -
                 name: Checkout
