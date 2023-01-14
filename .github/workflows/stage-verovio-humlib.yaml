@@ -10,7 +10,7 @@ jobs:
     deploy:
         runs-on: ubuntu-latest
         container:
-            image: ghcr.io/wolfgangdrescher/verovio-humlib-docker-image:latest
+            image: ghcr.io/wolfgangdrescher/verovio-humlib-docker-image:20230113
         env:
             HOST: ${{ secrets.HOST }}
             USERNAME: ${{ secrets.USERNAME }}
