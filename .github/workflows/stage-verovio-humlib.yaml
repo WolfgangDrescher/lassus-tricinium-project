@@ -67,7 +67,7 @@ jobs:
                 name: Use custom verovio build
                 run: |
                     npm remove verovio
-                    cp /usr/local/verovio/emscripten/npm ./verovio
+                    cp -r /usr/local/verovio/emscripten/npm ./verovio
                     rm -rf ./verovio/node_modules
                     rm -rf ./verovio/src
                     rm ./verovio/package-lock.json
