@@ -11,7 +11,6 @@ jobs:
         runs-on: ubuntu-latest
         container:
             image: ghcr.io/wolfgangdrescher/verovio-humlib-docker-image:latest
-            options: --user 1001
 
         steps:
             -
