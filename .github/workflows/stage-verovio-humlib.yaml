@@ -24,13 +24,6 @@ jobs:
                     chmod 600 ssh.key
 
             -
-                name: Test SSH
-                run: |
-                    mkdir -p dist
-                    echo "<h1>Hello</h1>" > dist/index.html
-                    rsync -rvzP -e 'ssh -vvvv -i ssh.key -p ${{ env.PORT }} -o StrictHostKeyChecking=no' dist/ $USERNAME@$HOST:lassus.wolfgangdrescher.ch --delete
-
-            -
                 name: Checkout
                 uses: actions/checkout@v3
                 with:
