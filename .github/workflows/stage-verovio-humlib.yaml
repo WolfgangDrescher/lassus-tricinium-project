@@ -20,9 +20,8 @@ jobs:
             -
                 name: Configure SSH
                 run: |
-                    mkdir -p ~/.ssh/
-                    echo "$SSH_KEY" > ~/.ssh/server.key
-                    chmod 600 ~/.ssh/server.key
+                    echo "$SSH_KEY" > ssh.key
+                    chmod 600 ssh.key
             
             -
                 name: Test SSH
