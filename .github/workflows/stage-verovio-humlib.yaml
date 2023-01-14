@@ -20,31 +20,16 @@ jobs:
             -
                 name: Configure SSH
                 run: |
-                    mkdir -p /root/.ssh/
-                    echo "$SSH_KEY" > /root/.ssh/server.key
-                    chmod 600 /root/.ssh/server.key
-                    cat >> /root/.ssh/config <<END
-                    Host server
-                        HostName $HOST
-                        User $USERNAME
-                        Port $PORT
-                        IdentityFile /root/.ssh/server.key
-                        StrictHostKeyChecking no
-                    END
+                    mkdir -p ~/.ssh/
+                    echo "$SSH_KEY" > ~/.ssh/server.key
+                    chmod 600 ~/.ssh/server.key
             
             -
                 name: Test SSH
                 run: |
-                    pwd
-                    (cd && pwd)
-                    (cd ~ && pwd)
-                    cat ~/.ssh/config 2>/dev/null
-                    cat /root/.ssh/config 2>/dev/null
-                    mkdir dist
+                    mkdir -p dist
                     echo "<h1>Hello</h1>" > dist/index.html
-                    echo "rsync 1:"
-                    rsync -rvzP -e 'ssh -i /root/.ssh/server.key -p $PORT' dist/ $USERNAME@$HOST:lassus.wolfgangdrescher.ch --delete
-
+                    rsync -rvzP -e 'ssh -i ~/.ssh/server.key -p $PORT' dist/ $USERNAME@$HOST:lassus.wolfgangdrescher.ch --delete
 
             -
                 name: Checkout
