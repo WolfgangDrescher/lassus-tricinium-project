@@ -24,7 +24,7 @@ jobs:
                     mkdir -p ~/.ssh/
                     echo "$SSH_KEY" > ~/.ssh/server.key
                     chmod 600 ~/.ssh/server.key
-                    cat >>~/.ssh/config <<END
+                    cat >> ~/.ssh/config <<END
                     Host server
                         HostName $HOST
                         User $USERNAME
