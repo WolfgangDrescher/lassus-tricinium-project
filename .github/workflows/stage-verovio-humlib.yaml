@@ -32,6 +32,10 @@ jobs:
                         IdentityFile ~/.ssh/server.key
                         StrictHostKeyChecking no
                     END
+            
+            -
+                name: Test SSH
+                run: ssh -T git@github.com
 
             -
                 name: Checkout
