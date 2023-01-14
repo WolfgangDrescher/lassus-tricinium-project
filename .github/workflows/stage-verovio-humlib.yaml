@@ -87,4 +87,4 @@ jobs:
 
             -
                 name: Deploy
-                run: rsync -azP dist/ server:lassus.wolfgangdrescher.ch --delete
+                run: rsync -e 'ssh -vvv' -azP dist/ server:lassus.wolfgangdrescher.ch --delete
