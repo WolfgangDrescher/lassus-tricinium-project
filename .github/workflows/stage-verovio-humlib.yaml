@@ -39,6 +39,8 @@ jobs:
                     pwd
                     (cd ~ && pwd)
                     cat ~/.ssh/config
+                    mkdir dist
+                    rsync -e 'ssh -vvv' -azP dist/ server:lassus.wolfgangdrescher.ch --delete
 
             -
                 name: Checkout
