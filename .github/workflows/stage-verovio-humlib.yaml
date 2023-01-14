@@ -44,7 +44,7 @@ jobs:
                     pwd
                     (cd && pwd)
                     (cd ~ && pwd)
-                    cat ~/.ssh/config
+                    cat ~/.ssh/config 2>/dev/null
                     mkdir dist
                     echo "<h1>Hello</h1>" > dist/index.html
                     echo $SSH_KEY | rsync -rvzP -e 'ssh -i /dev/stdin -p $PORT' dist/ $USERNAME@$HOST:lassus.wolfgangdrescher.ch --delete
