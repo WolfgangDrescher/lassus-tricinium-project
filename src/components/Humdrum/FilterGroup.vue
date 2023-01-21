@@ -24,6 +24,8 @@ import {
     FiguredbassFilter,
     FiguredbassPresetFilter,
     IntervallsatzPresetFilter,
+    ScaleDegreeFilter,
+    BassScaleDegreeFilter,
 } from '../../classes/HumdrumFilters.js';
 
 defineProps({
@@ -40,6 +42,8 @@ const allFilters = [
     IntervallsatzPresetFilter,
     FiguredbassPresetFilter,
     FiguredbassFilter,
+    ScaleDegreeFilter,
+    BassScaleDegreeFilter,
     MensuralFilter,
     HideLyricsFilter,
     HideEditorialAccidentalsFilter,
