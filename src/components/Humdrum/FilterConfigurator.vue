@@ -130,7 +130,7 @@ const DynamicHumdrumFilter = defineComponent({
                 forceKey: undefined,
                 kernTracks: undefined,
                 above: undefined,
-                color: HumdrumFilter.getNextColor(),
+                color: '#000000',
                 octave: undefined,
                 ties: undefined,
                 showRests: undefined,
