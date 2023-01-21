@@ -439,3 +439,12 @@ export class FiguredbassFilter extends HumdrumFilter {
         return args.join(' ');
     }
 }
+
+export class IntervallsatzPresetFilter extends FiguredbassFilter {
+    static NAME = 'IntervallsatzPresetFilter';
+    configurable = false;
+    changeable = false;
+    getLine() {
+        return 'fb -i -c -a -t -m';
+    }
+}
