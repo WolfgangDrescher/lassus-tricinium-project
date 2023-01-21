@@ -393,3 +393,49 @@ export class CustomFilter extends HumdrumFilter {
         this.addLine(value);
     }
 }
+
+export class FiguredbassFilter extends HumdrumFilter {
+    static NAME = 'FiguredbassFilter';
+    configurable = true;
+    changeable = true;
+    unique = true;
+    constructor(compound, accidentals, intervallsatz, sort, lowest, normalize, abbr, ties, hideThree, negative, above, baseTrack, frequency, kernTracks, spineTracks) {
+        super();
+        this.compound = compound;
+        this.accidentals = accidentals;
+        this.intervallsatz = intervallsatz;
+        this.sort = sort;
+        this.lowest = lowest;
+        this.normalize = normalize;
+        this.abbr = abbr;
+        this.ties = ties;
+        this.hideThree = hideThree;
+        this.negative = negative;
+        this.above = above;
+        this.baseTrack = baseTrack;
+        this.frequency = frequency;
+        this.kernTracks = kernTracks;
+        this.spineTracks = spineTracks;
+        this.addLine(this.getLine());
+    }
+
+    getLine() {
+        const args = ['fb'];
+        if (this.compound) args.push('-c');
+        if (this.accidentals) args.push('-a');
+        if (this.intervallsatz) args.push('-i');
+        if (this.sort) args.push('-o');
+        if (this.lowest) args.push('-l');
+        if (this.normalize) args.push('-n');
+        if (this.abbr) args.push('-r');
+        if (this.ties) args.push('-t');
+        if (this.hideThree) args.push('-3');
+        if (this.negative) args.push('-m');
+        if (this.above) args.push('--above');
+        if (this.baseTrack) args.push(`--base ${this.baseTrack}`);
+        if (this.frequency) args.push(`--frequency ${this.frequency}`);
+        if (this.kernTracks) args.push(`--k ${this.kernTracks}`);
+        if (this.spineTracks) args.push(`--s ${this.spineTracks}`);
+        return args.join(' ');
+    }
+}
