@@ -434,8 +434,8 @@ export class FiguredbassFilter extends HumdrumFilter {
         if (this.above) args.push('--above');
         if (this.baseTrack) args.push(`--base ${this.baseTrack}`);
         if (this.frequency) args.push(`--frequency ${this.frequency}`);
-        if (this.kernTracks) args.push(`--k ${this.kernTracks}`);
-        if (this.spineTracks) args.push(`--s ${this.spineTracks}`);
+        if (this.kernTracks) args.push(`-k ${this.kernTracks}`);
+        if (this.spineTracks) args.push(`-s ${this.spineTracks}`);
         return args.join(' ');
     }
 }
