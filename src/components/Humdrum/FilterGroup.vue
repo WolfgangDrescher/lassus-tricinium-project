@@ -21,6 +21,9 @@ import {
     TransposeFilter,
     CustomFilter,
     HideBarlinesFilter,
+    FiguredbassFilter,
+    FiguredbassPresetFilter,
+    IntervallsatzPresetFilter,
 } from '../../classes/HumdrumFilters.js';
 
 defineProps({
@@ -34,6 +37,9 @@ const selectedFilter = ref(null);
 
 const allFilters = [
     ModernClefsFilter,
+    IntervallsatzPresetFilter,
+    FiguredbassPresetFilter,
+    FiguredbassFilter,
     MensuralFilter,
     HideLyricsFilter,
     HideEditorialAccidentalsFilter,

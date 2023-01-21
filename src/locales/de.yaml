@@ -88,6 +88,9 @@ humdrumFilter.TransposeFilter: Transponieren
 humdrumFilter.CustomFilter: Eigener Filter
 humdrumFilter.HideCantusFirmusAnnotationFilter: Cantus firmus Annotation ausblenden
 humdrumFilter.HideBarlinesFilter: Taktstriche ausblenden
+humdrumFilter.FiguredbassFilter: Generalbass anzeigen
+humdrumFilter.FiguredbassPresetFilter: Einfachen Generalbass anzeigen
+humdrumFilter.IntervallsatzPresetFilter: Intervallsatz anzeigen
 measuresToYank: 'Zu filternde Takte (-m)'
 extractionOfParticularSpines: 'Stimmen extrahieren'
 regularExpression: Regulärer Ausdruck
