@@ -457,3 +457,45 @@ export class FiguredbassPresetFilter extends FiguredbassFilter {
         return 'fb -c -a -o -n -r -3';
     }
 }
+
+export class ScaleDegreeFilter extends HumdrumFilter {
+    static NAME = 'ScaleDegreeFilter';
+    configurable = true;
+    changeable = true;
+    unique = true;
+    constructor(circle, hat, box, solfege, arrow, defaultKey, forceKey, kernTracks, above, color, octave, ties, showRests) {
+        super();
+        this.circle = circle;
+        this.hat = hat;
+        this.box = box;
+        this.solfege = solfege;
+        this.arrow = arrow;
+        this.defaultKey = defaultKey;
+        this.forceKey = forceKey;
+        this.kernTracks = kernTracks;
+        this.above = above;
+        this.color = color;
+        this.octave = octave;
+        this.ties = ties;
+        this.showRests = showRests;
+        this.addLine(this.getLine());
+    }
+
+    getLine() {
+        const args = ['deg'];
+        if (this.circle) args.push('--circle');
+        if (this.hat) args.push('--hat');
+        if (this.box) args.push('--box');
+        if (this.solfege) args.push('--solfege');
+        if (this.arrow) args.push('--arrow');
+        if (this.above) args.push('--above');
+        if (this.octave) args.push('--octave');
+        if (this.ties) args.push('--ties');
+        if (this.showRests) args.push('-0');
+        if (this.defaultKey) args.push(`--default-key ${this.defaultKey}`);
+        if (this.forceKey) args.push(`--force-key ${this.forceKey}`);
+        if (this.color) args.push(`--color ${this.color}`);
+        if (this.kernTracks) args.push(`-k ${this.kernTracks}`);
+        return args.join(' ');
+    }
+}
