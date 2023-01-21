@@ -498,6 +498,10 @@ export class ScaleDegreeFilter extends HumdrumFilter {
         if (this.kernTracks) args.push(`-k ${this.kernTracks}`);
         return args.join(' ');
     }
+
+    beforeRemove() {
+        HumdrumFilter.usedColors = HumdrumFilter.usedColors.filter(c => c !== this.color);
+    }
 }
 
 export class BassScaleDegreeFilter extends FiguredbassFilter {
