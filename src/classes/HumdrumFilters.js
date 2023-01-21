@@ -448,3 +448,12 @@ export class IntervallsatzPresetFilter extends FiguredbassFilter {
         return 'fb -i -c -a -t -m';
     }
 }
+
+export class FiguredbassPresetFilter extends FiguredbassFilter {
+    static NAME = 'FiguredbassPresetFilter';
+    configurable = false;
+    changeable = false;
+    getLine() {
+        return 'fb -c -a -o -n -r -3';
+    }
+}
