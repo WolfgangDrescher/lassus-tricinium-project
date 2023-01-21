@@ -106,3 +106,16 @@ transpositionMode.key: In eine Tonart
 value: Wert
 criticalReport: Kritischer Bericht
 editorialComments: Editorische Anmerkungen
+fb.compound: Zahlen innerhalb einer Oktave verwenden
+fb.accidentals: Vorzeichen anzeigen
+fb.intervallsatz: Intervallsatz
+fb.sort: Intervalle sortieren
+fb.lowest: Tiefste Stimme als Basis
+fb.normalize: Normalisieren (keine doppelten Intervalle, keine 8)
+fb.abbr: Zahlen abkürzen (6 4 3 => 4 3)
+fb.ties: Zahlen gehaltener Töne verstecken
+fb.hideThree: Ziffer 3 nicht anzeigen, wenn diese Vorzeichen erfordert
+fb.negative: Negative Intervalle anzeigen
+fb.above: Ziffern oberhalb der Notenzeile
+fb.baseTrack: Basis Stimme
+fb.frequency: Regelmässigkeit der Intervalle
