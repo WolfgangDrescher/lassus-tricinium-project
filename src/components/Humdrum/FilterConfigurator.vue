@@ -23,6 +23,7 @@ const props = defineProps({
 // SicFilter
 // CustomFilter
 // FiguredbassFilter
+// ScaleDegreeFilter
 
 const emit = defineEmits(['applyFilter']);
 
@@ -59,6 +60,24 @@ function convertArgsToArray() {
             args.frequency,
             args.kernTracks,
             args.spineTracks,
+        ];
+    }
+
+    if (props.filter === 'ScaleDegreeFilter') {
+        return [
+            args.displayMode === 'circle',
+            args.displayMode === 'hat',
+            args.displayMode === 'box',
+            args.solfege,
+            args.arrow,
+            args.defaultKey,
+            args.forceKey,
+            args.kernTracks,
+            args.above,
+            args.color,
+            args.octave,
+            args.ties,
+            args.showRests,
         ];
     }
 
@@ -101,6 +120,20 @@ const DynamicHumdrumFilter = defineComponent({
                 frequency: undefined,
                 kernTracks: undefined,
                 spineTracks: undefined,
+            });
+        } else if (props.filter === 'ScaleDegreeFilter') {
+            Object.assign(args, {
+                displayMode: undefined,
+                solfege: undefined,
+                arrow: undefined,
+                defaultKey: undefined,
+                forceKey: undefined,
+                kernTracks: undefined,
+                above: undefined,
+                color: HumdrumFilter.getNextColor(),
+                octave: undefined,
+                ties: undefined,
+                showRests: undefined,
             });
         } else {
             Object.assign(args, {});
@@ -292,6 +325,82 @@ const DynamicHumdrumFilter = defineComponent({
                             ['onUpdate:modelValue']: value => { args.frequency = value; },
                             label: t('fb.frequency'),
                             placeholder: '4; 4.; 8; 2',
+                        }),
+                    ];
+                    break;
+                case 'ScaleDegreeFilter':
+                    elems = [
+                        h(Dropdown, {
+                            modelValue: args.displayMode,
+                            ['onUpdate:modelValue']: value => { args.displayMode = value; },
+                            label: t('deg.displayMode'),
+                            options: [
+                                { value: 'none', text: t('deg.displayMode.none') },
+                                { value: 'circle', text: t('deg.displayMode.circle') },
+                                { value: 'hat', text: t('deg.displayMode.hat') },
+                                { value: 'box', text: t('deg.displayMode.box') },
+                            ],
+                            multiple: false,
+                            searchEnabled: false,
+                        }),
+                        h(Checkbox, {
+                            modelValue: args.solfege,
+                            ['onUpdate:modelValue']: value => { args.solfege = value; },
+                            label: t('deg.solfege'),
+                        }),
+                        h(Checkbox, {
+                            modelValue: args.arrow,
+                            ['onUpdate:modelValue']: value => { args.arrow = value; },
+                            label: t('deg.arrow'),
+                        }),
+                        h(Checkbox, {
+                            modelValue: args.above,
+                            ['onUpdate:modelValue']: value => { args.above = value; },
+                            label: t('deg.above'),
+                        }),
+                        h(Checkbox, {
+                            modelValue: args.octave,
+                            ['onUpdate:modelValue']: value => { args.octave = value; },
+                            label: t('deg.octave'),
+                        }),
+                        h(Checkbox, {
+                            modelValue: args.ties,
+                            ['onUpdate:modelValue']: value => { args.ties = value; },
+                            label: t('deg.ties'),
+                        }),
+                        h(Checkbox, {
+                            modelValue: args.showRests,
+                            ['onUpdate:modelValue']: value => { args.showRests = value; },
+                            label: t('deg.showRests'),
+                        }),
+                        h(Dropdown, {
+                            modelValue: args.kernTracks ? args.kernTracks.split(',') : [],
+                            ['onUpdate:modelValue']: value => { args.kernTracks = value.join(','); },
+                            label: t('deg.kernTracks'),
+                            options: [
+                                { value: '1', text: t('voice.bassus') },
+                                { value: '2', text: t('voice.tenor') },
+                                { value: '3', text: t('voice.cantus') },
+                            ],
+                            multiple: true,
+                            searchEnabled: false,
+                        }),
+                        h(InputField, {
+                            modelValue: args.defaultKey,
+                            ['onUpdate:modelValue']: value => { args.defaultKey = value; },
+                            label: t('deg.defaultKey'),
+                            placeholder: 'C; c; g:dor',
+                        }),
+                        h(InputField, {
+                            modelValue: args.forceKey,
+                            ['onUpdate:modelValue']: value => { args.forceKey = value; },
+                            label: t('deg.forceKey'),
+                            placeholder: 'C; c; g:dor',
+                        }),
+                        h(ColorPicker, {
+                            modelValue: args.color,
+                            ['onUpdate:modelValue']: value => { args.color = value; },
+                            label: t('color'),
                         }),
                     ];
                     break;

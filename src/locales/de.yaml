@@ -121,3 +121,17 @@ fb.negative: Negative Intervalle anzeigen
 fb.above: Ziffern oberhalb der Notenzeile
 fb.baseTrack: Basis Stimme
 fb.frequency: Regelmässigkeit der Intervalle
+deg.displayMode: Anzeigen als
+deg.solfege: Solfège
+deg.arrow: Pfeile anstelle von Vorzeichen
+deg.above: Ziffern oberhalb der Notenzeile
+deg.octave: Oktavinformation anzeigen
+deg.ties: Zahlen gehaltener Töne anzeigen
+deg.showRests: Pausen als 0 anzeigen
+deg.kernTracks: Stimmen auswählen
+deg.defaultKey: Standardtonart
+deg.forceKey: Tonart erzwingen
+deg.displayMode.circle: Kreis
+deg.displayMode.hat: Hut
+deg.displayMode.box: Box
+deg.displayMode.none: Zahl
