@@ -499,3 +499,12 @@ export class ScaleDegreeFilter extends HumdrumFilter {
         return args.join(' ');
     }
 }
+
+export class BassScaleDegreeFilter extends FiguredbassFilter {
+    static NAME = 'BassScaleDegreeFilter';
+    configurable = false;
+    changeable = false;
+    getLine() {
+        return 'deg --circle -k 1';
+    }
+}
