@@ -1,14 +1,11 @@
 <script setup>
-import { ModernClefsFilter } from '@/classes/HumdrumFilters.js';
+import { storeToRefs } from 'pinia';
+import { ModernClefsFilter, IntervallsatzPresetFilter, HideLyricsFilter, HideCantusFirmusAnnotationFilter } from '@/classes/HumdrumFilters.js';
 
 const props = defineProps({
     cadence: {
         type: Object,
         required: true,
-    },
-    modernClefs: {
-        type: Boolean,
-        default: false,
     },
 });
 
@@ -36,6 +33,9 @@ const tableItems = [
 
 const data = ref(null);
 
+const store = useCadenceHumdrumFiltersStore();
+const { showModernClefs, showIntervallsatz, hideLyrics } = storeToRefs(store)
+
 onMounted(async () => {
     const response = await fetch(`/cadences/${props.cadence.filename}`);
     if (!response.ok) {
@@ -45,18 +45,46 @@ onMounted(async () => {
 });
 
 const modernClefsFilter = new ModernClefsFilter();
+const showIntervallsatzFilter = new IntervallsatzPresetFilter();
+const hideLyricsFilter = new HideLyricsFilter();
 
 const { addFilter, removeFilter, formattedScoreData } = useHumdrumScoreFormatter(data);
 
-if (props.modernClefs) {
+addFilter(new HideCantusFirmusAnnotationFilter());
+
+if (showModernClefs) {
     addFilter(modernClefsFilter);
 }
 
-watch(() => props.modernClefs, (value) => {
+if (showIntervallsatz) {
+    addFilter(showIntervallsatzFilter);
+}
+
+if (hideLyrics) {
+    addFilter(hideLyricsFilter);
+}
+
+watch(showModernClefs, (value) => {
     if (value) {
         addFilter(modernClefsFilter);
     } else {
         removeFilter(modernClefsFilter.id);
+    }
+});
+
+watch(showIntervallsatz, (value) => {
+    if (value) {
+        addFilter(showIntervallsatzFilter);
+    } else {
+        removeFilter(showIntervallsatzFilter.id);
+    }
+});
+
+watch(hideLyrics, (value) => {
+    if (value) {
+        addFilter(hideLyricsFilter);
+    } else {
+        removeFilter(hideLyricsFilter.id);
     }
 });
 </script>
