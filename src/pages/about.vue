@@ -20,7 +20,7 @@
                         </FormattedText>
                     </template>
                     <template #second>
-                        <img src="/verovio-logo.png" class="mw-full" />
+                        <img src="/verovio-logo.png" class="mw-full" alt="Verovio" />
                         <ImageCaption no-mx>
                             <p>
                                 Verovio – A music notation engraving library
