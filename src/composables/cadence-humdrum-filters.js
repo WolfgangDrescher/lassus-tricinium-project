@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 const defaultFilter = {
     showModernClefs: true,
     showIntervallsatz: true,
-    hideLyrics: true,
+    showLyrics: false,
 };
 
 export const useCadenceHumdrumFiltersStore = defineStore('cadence_humdrum_filters', {

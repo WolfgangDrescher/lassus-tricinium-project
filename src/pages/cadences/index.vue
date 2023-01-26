@@ -16,7 +16,7 @@ const cadences = useCadence(cadenceData.value, tricinia);
 const { filteredElements } = useCadenceFilter(cadences);
 
 const store = useCadenceHumdrumFiltersStore();
-const { showModernClefs, showIntervallsatz, hideLyrics } = storeToRefs(store)
+const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
 </script>
 
 <template>
@@ -37,7 +37,7 @@ const { showModernClefs, showIntervallsatz, hideLyrics } = storeToRefs(store)
                     <FormCheckbox v-model="showIntervallsatz" :label="$t('showIntervallsatz')" />
                 </div>
                 <div>
-                    <FormCheckbox v-model="hideLyrics" :label="$t('hideLyrics')" />
+                    <FormCheckbox v-model="showLyrics" :label="$t('showLyrics')" />
                 </div>
             </div>
         </div>

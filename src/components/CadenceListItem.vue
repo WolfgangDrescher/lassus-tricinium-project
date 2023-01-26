@@ -34,7 +34,7 @@ const tableItems = [
 const data = ref(null);
 
 const store = useCadenceHumdrumFiltersStore();
-const { showModernClefs, showIntervallsatz, hideLyrics } = storeToRefs(store)
+const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
 
 onMounted(async () => {
     const response = await fetch(`/cadences/${props.cadence.filename}`);
@@ -60,7 +60,7 @@ if (showIntervallsatz.value) {
     addFilter(showIntervallsatzFilter);
 }
 
-if (hideLyrics.value) {
+if (!showLyrics.value) {
     addFilter(hideLyricsFilter);
 }
 
@@ -80,8 +80,8 @@ watch(showIntervallsatz, (value) => {
     }
 });
 
-watch(hideLyrics, (value) => {
-    if (value) {
+watch(showLyrics, (value) => {
+    if (!value) {
         addFilter(hideLyricsFilter);
     } else {
         removeFilter(hideLyricsFilter.id);
