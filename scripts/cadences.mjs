@@ -95,10 +95,10 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 counter++;
                 // yank score
                 const startLine = kern.substring(0, startResult.index).split('\n').length;
-                console.log(startLine);
                 const ultima = (startResult[3] ?? endResult[3])?.toLowerCase();
                 const degree = getCadenceDegree(ultima, getFinalisFromFile(file));
                 const endLine = kern.substring(0, endResult.index).split('\n').length;
+                console.log(startLine, endLine);
 
                 const stdout = execSync(`cat ${file} | myank -I -l ${startLine}-${endLine}`).toString();
                 const cadenceFileLines = stdout.split('\n').filter(line => {
