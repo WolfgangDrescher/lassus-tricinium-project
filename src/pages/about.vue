@@ -5,6 +5,82 @@
                 <Heading>About</Heading>
             </section>
             <section>
+                <TwoCols>
+                    <template #first>
+                        <Subheading :level="2">Humdrum</Subheading>
+                        <FormattedText>
+                            <p>
+                                Die Notenbeispiele für dieses Projekt wurden mit der
+                                <HyperLink href="https://www.humdrum.org">
+                                    Humdrum
+                                </HyperLink>
+                                zugeordneten <em><code>**kern</code> representation</em> notiert. Der Quellcode der
+                                Partituren für die Tricinien von Lassus sowie den Vorlagen dafür von Caspar Ulenberg ist
+                                in zwei separaten Repositories auf GitHub verfügbar:
+                            </p>
+                            <ul class="list-disc pl-10 my-2">
+                                <li>
+                                    <HyperLink href="https://github.com/WolfgangDrescher/lassus-geistliche-psalmen">
+                                        lassus-geistliche-psalmen
+                                    </HyperLink>
+                                </li>
+                                <li>
+                                    <HyperLink href="https://github.com/WolfgangDrescher/ulenberg-psalmen-davids">
+                                        ulenberg-psalmen-davids
+                                    </HyperLink>
+                                </li>
+                            </ul>
+                            <p>
+                                Auf dieser Website wird an einigen Stellen auf den Verovio Humdrum Viewer (VHV)
+                                verlinkt. Dort lässt sich der Quellcode der Partituren parallel mit der visuellen
+                                Ausgabe mit Verovio nebeneinander ansehen. Im Verovio Humdrum Viewer lassen sich
+                                zusätzlich
+                                <HyperLink href="https://doc.verovio.humdrum.org/filter/">Filter</HyperLink>
+                                auf die Partitur anwenden um so z.B. bestimmte Abschnitte zu isolieren, Terzparallelen
+                                farbig zu markieren oder die gesamte Partitur zu transponieren. Viele dieser Filter
+                                lassen sich auf der Website dieses Projekts und ohne technisches Vorwissen per Dropdown
+                                über den Partituren auf der Seite der einzelnen Tricinien direkt aktivieren. Eigene
+                                Konfigurationen der Filter können im Dropdown über «Eigner Filter» hinzugefügt werden.
+                                Weitere Informationen zum Gebrauch der Filter finden sich in der verlinkten
+                                Dokumentation.
+                            </p>
+                            <p>
+                                Besonders Interessant für die Analyse der Tricinien ist der Filter <code>fb</code> mit
+                                dem sich Intervallsätze und Generalbassbezifferung der Harmonien und Akkorde per
+                                Knopfdruck anzeigen lassen können. Ausserdem besteht über den Filter <code>deg</code>
+                                die Möglichkeit Skalenstufen der übergeordneten Tonart, bzw. dem Modus, anzeigen zu
+                                lassen.
+                            </p>
+                            <p>
+                                Im Verovio Humdrum Viewer gelangt man ausserdem mit einem Doppelklick auf einzelne Noten
+                                direkt auf die entsprechende Passage als Bilddatei des
+                                <HyperLink
+                                href="https://www.digitale-sammlungen.de/de/details/bsb00075346">Digitalisats</HyperLink>
+                                der Bayerische Staatsbibliothek München.
+                            </p>
+                        </FormattedText>
+                    </template>
+                    <template #second>
+                        <img src="/verovio-humdrum-viewer.png" class="mw-full shadow" alt="Verovio Humdrum Viewer"/>
+                        <ImageCaption no-mx>
+                            <p>
+                                Verovio Humdrum Viewer
+                            </p>
+                            <div>
+                                <HyperLink href="https://verovio.humdrum.org/">
+                                    verovio.humdrum.org
+                                </HyperLink>
+                            </div>
+                            <div>
+                                <HyperLink href="https://doc.verovio.humdrum.org/">
+                                    doc.verovio.humdrum.org
+                                </HyperLink>
+                            </div>
+                        </ImageCaption>
+                    </template>
+                </TwoCols>
+            </section>
+            <section>
                 <TwoCols reverse>
                     <template #first>
                         <Subheading :level="2">Verovio</Subheading>
