@@ -5,7 +5,7 @@
                 <Heading>About</Heading>
             </section>
             <section>
-                <h2>Literatur</h2>
+                <Subheading :level="2">Literatur</Subheading>
                 <ul class="grid gap-4">
                     <li>
                         Lipphardt, Walther: «Vorwort», in: <i>Geistliche Psalmen mit dreyen Stimmen</i>, hrsg. von Walther Lipphardt, Kassel und Basel: Bärenreiter-Verlag, 1942, S. 2.
