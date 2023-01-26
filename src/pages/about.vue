@@ -1,3 +1,11 @@
+<script setup>
+defineI18nRoute({
+    paths: {
+        de: '/ueber-das-projekt',
+    },
+});
+</script>
+
 <template>
     <Container>
         <SectionContainer>
