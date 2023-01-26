@@ -109,7 +109,7 @@ watch(showLyrics, (value) => {
             </div>
         </div>
         <div class="flex flex-col gap-4 mt-4">
-            <VerovioCanvas v-if="data" :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy />
+            <VerovioCanvas v-if="data" :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy :options="{mnumInterval: 1}" />
             <DataTable :items="tableItems" :headers="tableHeaders" direction="column" small />
         </div>
     </div>
