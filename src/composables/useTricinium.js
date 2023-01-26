@@ -134,11 +134,11 @@ class Tricinium {
     }
 
     get originalDocument() {
-        return this.tricinium.originalDocument || [];
+        return this.tricinium.originalDocument;
     }
 
     get originalDocumentOwner() {
-        return this.tricinium.originalDocumentOwner || [];
+        return this.tricinium.originalDocumentOwner;
     }
 
 }
