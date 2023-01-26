@@ -5,6 +5,32 @@
                 <Heading>About</Heading>
             </section>
             <section>
+                <TwoCols reverse>
+                    <template #first>
+                        <Subheading :level="2">Verovio</Subheading>
+                        <FormattedText>
+                            <p>
+                                Die Humdrum-Parituren werden mit dem <code>npm</code> Package von
+                                <HyperLink href="https://www.verovio.org/">Verovio</HyperLink>
+                                in lesbare Partituren konvertiert. Um Verovio bequem mit dem JavaScript Framework Vue.js
+                                verwenden zu können wird <HyperLink
+                                href="https://github.com/WolfgangDrescher/vue-verovio-canvas">vue-verovio-canvas</HyperLink>
+                                als Dependency eingebunden.
+                            </p>
+                        </FormattedText>
+                    </template>
+                    <template #second>
+                        <img src="/verovio-logo.png" class="mw-full" />
+                        <ImageCaption no-mx>
+                            <p>
+                                Verovio – A music notation engraving library
+                            </p>
+                            <HyperLink href="https://www.verovio.org/">verovio.org</HyperLink>
+                        </ImageCaption>
+                    </template>
+                </TwoCols>
+            </section>
+            <section>
                 <TwoCols>
                     <template #first>
                         <Subheading :level="2">
