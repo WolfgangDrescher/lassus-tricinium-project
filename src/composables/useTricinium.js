@@ -82,7 +82,7 @@ class Tricinium {
 
     getVoiceLyrics(voice) {
         if (this.tricinium.voices) {
-            return this.tricinium.voices[voice]?.lyrics?.replace(/^\s+|\s+$/g, '');
+            return this.tricinium.voices?.[voice]?.lyrics?.replace(/^\s+|\s+$/g, '');
         }
         return null;
     }
@@ -106,23 +106,23 @@ class Tricinium {
     }
 
     getLowestNoteOfVoice(voice) {
-        return this.tricinium.voices[voice]?.prange?.noteCount.reduce((prev, curr) => prev.keyno < curr.keyno ? prev : curr);
+        return this.tricinium.voices?.[voice]?.prange?.noteCount.reduce((prev, curr) => prev.keyno < curr.keyno ? prev : curr);
     }
 
     getHighestNoteOfVoice(voice) {
-        return this.tricinium.voices[voice]?.prange?.noteCount.reduce((prev, curr) => prev.keyno > curr.keyno ? prev : curr);
+        return this.tricinium.voices?.[voice]?.prange?.noteCount.reduce((prev, curr) => prev.keyno > curr.keyno ? prev : curr);
     }
 
     getNoteCountOfVoice(voice) {
-        return this.tricinium.voices[voice]?.prange?.noteCount;
+        return this.tricinium.voices?.[voice]?.prange?.noteCount;
     }
 
     getVoiceClef(voice) {
-        return this.tricinium.voices[voice]?.clef || null;
+        return this.tricinium.voices?.[voice]?.clef || null;
     }
 
     getVoiceUrlScan(voice) {
-        return this.tricinium.voices[voice]?.urlScan || null;
+        return this.tricinium.voices?.[voice]?.urlScan || null;
     }
 
     get cantusFirmus() {
