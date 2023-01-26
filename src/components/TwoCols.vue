@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid grid-cols-2 gap-8">
         <div :class="reverse ? 'md:order-2' : ''">
             <div class="h-full flex items-center">
                 <div class="w-full">
