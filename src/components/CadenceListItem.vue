@@ -52,15 +52,15 @@ const { addFilter, removeFilter, formattedScoreData } = useHumdrumScoreFormatter
 
 addFilter(new HideCantusFirmusAnnotationFilter());
 
-if (showModernClefs) {
+if (showModernClefs.value) {
     addFilter(modernClefsFilter);
 }
 
-if (showIntervallsatz) {
+if (showIntervallsatz.value) {
     addFilter(showIntervallsatzFilter);
 }
 
-if (hideLyrics) {
+if (hideLyrics.value) {
     addFilter(hideLyricsFilter);
 }
 
