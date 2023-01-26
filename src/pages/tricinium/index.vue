@@ -64,10 +64,7 @@ const tableItems = computed(() => {
             <div class="ml-auto flex gap-4 items-center">
                 <template v-if="viewOptions.viewMode === 'score'">
                     <div>
-                        <label>
-                            <input type="checkbox" v-model="viewOptions.showLyrics" />
-                            {{ $t('showLyrics') }}
-                        </label>
+                        <FormCheckbox v-model="viewOptions.showLyrics" :label="$t('showLyrics')" />
                     </div>
                     <div class="w-28">
                         <FormDropdown v-model="viewOptions.scoreDisplay" :search-enabled="false" :options="scoreOptions" :badge-show-remove-button="false" />
