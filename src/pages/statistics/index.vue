@@ -15,7 +15,7 @@
                     </ul>
                 </div>
             </aside>
-            <div>
+            <div class="grow">
                 <slot>
                     <Heading>
                         {{ $t('overview') }}
