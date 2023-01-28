@@ -1,6 +1,9 @@
 <script setup>
-import StatisticsIndexPage from './index.vue';
 const { t } = useI18n();
+
+definePageMeta({
+    layout: 'statistics',
+});
 
 useHead({
     title: `${t('words')} | ${t('statistics')}`,
@@ -26,7 +29,7 @@ const { headers, items } = useDatasetTransformer(datasets, t('word'));
 </script>
 
 <template>
-    <StatisticsIndexPage>
+    <div>
         <Heading>{{ $t('words')}}</Heading>
         <TriciniumFilter />
         <ChartDimensionSelector v-model="dimension" />
@@ -34,5 +37,5 @@ const { headers, items } = useDatasetTransformer(datasets, t('word'));
             <Chart :config="config" />
         </div>
         <DataTable :headers="headers" :items="items"></DataTable>
-    </StatisticsIndexPage>
+    </div>
 </template>

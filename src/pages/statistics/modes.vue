@@ -1,6 +1,9 @@
 <script setup>
-import StatisticsIndexPage from './index.vue';
 const { t } = useI18n();
+
+definePageMeta({
+    layout: 'statistics',
+});
 
 useHead({
     title: `${t('modes')} | ${t('statistics')}`,
@@ -21,7 +24,7 @@ const { headers, items } = useDatasetTransformer(datasets, t('mode'));
 </script>
 
 <template>
-    <StatisticsIndexPage>
+    <div>
         <Heading>{{ $t('modes')}}</Heading>
         <TriciniumFilter />
         <ChartDimensionSelector v-model="dimension" />
@@ -29,5 +32,5 @@ const { headers, items } = useDatasetTransformer(datasets, t('mode'));
             <Chart :config="config" />
         </div>
         <DataTable :headers="headers" :items="items"></DataTable>
-    </StatisticsIndexPage>
+    </div>
 </template>

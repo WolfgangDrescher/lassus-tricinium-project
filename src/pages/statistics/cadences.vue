@@ -1,6 +1,9 @@
 <script setup>
-import StatisticsIndexPage from './index.vue';
 const { t } = useI18n();
+
+definePageMeta({
+    layout: 'statistics',
+});
 
 useHead({
     title: `${t('cadences')} | ${t('statistics')}`,
@@ -23,10 +26,10 @@ const { items, headers, dimension } = useCadenceStatsGenerator(filteredElements)
 </script>
 
 <template>
-    <StatisticsIndexPage>
+    <div>
         <Heading>{{ $t('words')}}</Heading>
         <CadenceFilter />
         <ChartDimensionSelector v-model="dimension" />
         <DataTable :headers="headers" :items="items"></DataTable>
-    </StatisticsIndexPage>
+    </div>
 </template>
