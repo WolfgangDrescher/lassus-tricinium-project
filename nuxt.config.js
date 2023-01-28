@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 export default defineNuxtConfig({
     app: {
         head: {
+            title: 'Lassus Tricinium Project',
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
