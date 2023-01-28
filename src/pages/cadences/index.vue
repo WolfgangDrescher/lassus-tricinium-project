@@ -25,7 +25,7 @@ const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
 
         <CadenceFilter />
         
-        <div class="my-4 flex">
+        <div class="my-4 flex flex-col md:flex-row gap-4">
             <div class="flex items-center">
                 {{ $t('nCadencesFoundForSerachParams', filteredElements.length) }}
             </div>
@@ -42,7 +42,7 @@ const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
             </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid lg:grid-cols-2 gap-4">
             <div v-for="cadence in filteredElements" :key="cadence.id">
                 <CadenceListItem :cadence="cadence" />
             </div>

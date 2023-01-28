@@ -158,8 +158,8 @@ defineI18nRoute({
             </section>
             <section>
                 <Subheading :level="2">Projektleitung</Subheading>
-                <div class="flex gap-8 my-4">
-                    <div class="w-1/4 shrink-0">
+                <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 my-4">
+                    <div class="mx-auto w-1/2 md:w-1/3 lg:w-1/4 shrink-0">
                         <img src="/wolfgang-drescher.jpg" class="rounded-full w-full shadow" alt="Wolfgang Drescher" />
                     </div>
                     <div>
