@@ -8,6 +8,10 @@ const { data } = await useAsyncData(`/api/tricinium/${route.params.id}`, () => {
 });
 const tricinium = useTricinium(data.value);
 
+useHead({
+    title: `${tricinium.nr}. ${tricinium.title}`,
+});
+
 const { data: triciniaData } = await useAsyncData(`/api/tricinium`, () => {
     return $fetch(`/api/tricinium`);
 });

@@ -2,6 +2,10 @@
 import StatisticsIndexPage from './index.vue';
 const { t } = useI18n();
 
+useHead({
+    title: `${t('cadences')} | ${t('statistics')}`,
+});
+
 const { data: cadenceData } = await useAsyncData('cadences', () => queryContent('/cadences').find());
 const { data: triciniumData } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(triciniumData.value);

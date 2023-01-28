@@ -1,3 +1,11 @@
+<script setup>
+useHead({
+    titleTemplate: (titleChunk) => {
+        return titleChunk ? `${titleChunk} | Lassus Tricinium Project` : 'Lassus Tricinium Project';
+    },
+});
+</script>
+
 <template>
     <header>
         <TheNavigation />

@@ -27,6 +27,10 @@
 </template>
 
 <script setup>
+useHead({
+    title: t('statistics'),
+});
+
 defineI18nRoute({
     paths: {
         de: '/statistiken',

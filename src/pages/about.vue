@@ -1,4 +1,9 @@
 <script setup>
+const { t } = useI18n();
+useHead({
+    title: t('about'),
+});
+
 defineI18nRoute({
     paths: {
         de: '/ueber-das-projekt',

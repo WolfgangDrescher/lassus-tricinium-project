@@ -1,5 +1,10 @@
 <script setup>
 const { t } = useI18n();
+
+useHead({
+    title: t('tricinia'),
+});
+
 const { data } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(data.value);
 const { filteredElements } = useTriciniumFilter(tricinia);

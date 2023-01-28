@@ -2,6 +2,10 @@
 import StatisticsIndexPage from './index.vue';
 const { t } = useI18n();
 
+useHead({
+    title: `${t('cantusFirmus')} | ${t('statistics')}`,
+});
+
 const { data } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(data.value);
 

@@ -1,6 +1,11 @@
 <script setup>
 import { storeToRefs } from 'pinia';
 
+const { t } = useI18n();
+useHead({
+    title: t('cadences'),
+});
+
 defineI18nRoute({
     paths: {
         de: '/kadenzen',

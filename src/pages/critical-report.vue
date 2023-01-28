@@ -1,4 +1,9 @@
 <script setup>
+const { t } = useI18n();
+useHead({
+    title: t('criticalReport'),
+});
+
 defineI18nRoute({
     paths: {
         de: '/kritischer-bericht',
