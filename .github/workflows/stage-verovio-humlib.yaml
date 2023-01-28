@@ -39,6 +39,7 @@ jobs:
 
             -
                 name: Build and analyze music with humdrum/humlib
+                if: ${{ false }}
                 run: node scripts/cadences.mjs
 
             -
