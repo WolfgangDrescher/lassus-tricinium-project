@@ -10,6 +10,9 @@ const tricinium = useTricinium(data.value);
 
 useHead({
     title: `${tricinium.nr}. ${tricinium.title}`,
+    meta: [
+        { name: 'description', content: tricinium.lyricsAsString() },
+    ],
 });
 
 const { data: triciniaData } = await useAsyncData(`/api/tricinium`, () => {
