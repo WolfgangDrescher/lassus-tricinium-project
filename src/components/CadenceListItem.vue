@@ -7,6 +7,14 @@ const props = defineProps({
         type: Object,
         required: true,
     },
+    shortTitle: {
+        type: Boolean,
+        default: false,
+    },
+    hideInfo: {
+        type: Boolean,
+        default: false,
+    },
 });
 
 const { tricinium } = props.cadence;
@@ -34,7 +42,7 @@ const tableItems = [
 const data = ref(null);
 
 const store = useCadenceHumdrumFiltersStore();
-const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
+const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store);
 
 onMounted(async () => {
     const response = await fetch(`/cadences/${props.cadence.filename}`);
@@ -90,12 +98,9 @@ watch(showLyrics, (value) => {
 </script>
 
 <template>
-    <Card>
-        <template v-slot:title>
+    <Card :title="`${$t('line')} ${cadence.startLine}-${cadence.endLine}`">
+        <template v-slot:title v-if="!shortTitle">
             <div class="flex items-center">
-                <div class="w-32 h-12 flex justify-center items-center font-serif text-4xl">
-                    {{ `${tricinium.nr}/${cadence.startLine}` }}
-                </div>
                 <div class="flex items-start justify-between w-full">
                     <div class="pl-3 w-full">
                         <div class="text-xl font-medium leading-5 text-gray-800">
@@ -112,7 +117,7 @@ watch(showLyrics, (value) => {
         </template>
         <div class="flex flex-col gap-4 mt-4">
             <VerovioCanvas v-if="data" :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy :options="{mnumInterval: 1}" />
-            <DataTable :items="tableItems" :headers="tableHeaders" direction="column" small />
+            <DataTable v-if="!hideInfo" :items="tableItems" :headers="tableHeaders" direction="column" small />
         </div>
     </Card>
 </template>
