@@ -185,9 +185,11 @@ const { showModernClefs: useMordernClefs, showIntervallsatz, showLyrics } = stor
                     </template>
 
                     <template #[`tabItem.ulenberg`]>
-                        <Suspense>
-                            <HumdrumInteractiveScore :url="tricinium.localUlenbergRawFile" />
-                        </Suspense>
+                        <Card>
+                            <Suspense>
+                                <HumdrumInteractiveScore :url="tricinium.localUlenbergRawFile" />
+                            </Suspense>
+                        </Card>
                     </template>
 
                     <template #[`tabItem.comments`]>
