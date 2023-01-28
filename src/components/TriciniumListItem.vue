@@ -16,29 +16,31 @@ defineProps({
 </script>
 
 <template>
-    <div class="p-6 shadow border border-gray-100 rounded">
-        <div class="flex items-center border-b border-gray-200 pb-6">
-            <div class="w-12 h-12 flex justify-center items-center font-serif text-4xl">
-                {{ tricinium.nr }}.
-            </div>
-            <div class="flex items-start justify-between w-full">
-                <div class="pl-3 w-full">
-                    <div class="text-xl font-medium leading-5 text-gray-800">
-                        <NuxtLink :href="`/tricinium/${tricinium.id}`">
-                            {{ tricinium.title }}
-                        </NuxtLink>
+    <Card>
+        <template v-slot:title>
+            <div class="flex items-center">
+                <div class="w-12 h-12 flex justify-center items-center font-serif text-4xl">
+                    {{ tricinium.nr }}.
+                </div>
+                <div class="flex items-start justify-between w-full">
+                    <div class="pl-3 w-full">
+                        <div class="text-xl font-medium leading-5 text-gray-800">
+                            <NuxtLink :href="`/tricinium/${tricinium.id}`">
+                                {{ tricinium.title }}
+                            </NuxtLink>
+                        </div>
+                        <div class="text-sm leading-normal pt-1 text-gray-500">
+                            {{ tricinium.composer }}
+                        </div>
                     </div>
-                    <div class="text-sm leading-normal pt-1 text-gray-500">
-                        {{ tricinium.composer }}
+                    <div>
+                        <a :href="tricinium.vhvHref" target="_blank" title="Verovio Humdrum Viewer">
+                            VHV
+                        </a>
                     </div>
                 </div>
-                <div>
-                    <a :href="tricinium.vhvHref" target="_blank" title="Verovio Humdrum Viewer">
-                        VHV
-                    </a>
-                </div>
             </div>
-        </div>
+        </template>
         <div class="flex flex-col gap-4 mt-4">
             <div v-if="scoreDisplay === 'lassus' && tricinium.localRawFile">
                 <VerovioCanvas :url="tricinium.localRawFile" :select="{measureRange: '1-4'}" view-mode="horizontal" :scale="35" lazy />
@@ -55,5 +57,5 @@ defineProps({
                 <Badge text-size="sm" v-if="tricinium.mode">{{ $t(`mode.${tricinium.mode}`) }}</Badge>
             </BadgeGroup>
         </div>
-    </div>
+    </Card>
 </template>
