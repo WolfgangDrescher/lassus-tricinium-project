@@ -9,9 +9,15 @@ function onChange(event) {
 
 <template>
     <FormGroup>
-        <label>
-            <input type="checkbox" @input="onChange" :checked="modelValue"/>
-            {{ label }}
+        <label class="block">
+            <div class="flex gap-2">
+                <div class="shrink">
+                    <input type="checkbox" @input="onChange" :checked="modelValue"/>
+                </div>
+                <div class="grow">
+                    {{ label }}
+                </div>
+            </div>
         </label>
     </FormGroup>
 </template>
