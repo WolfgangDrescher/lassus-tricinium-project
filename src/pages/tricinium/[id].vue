@@ -200,9 +200,9 @@ const { showModernClefs: useMordernClefs, showIntervallsatz, showLyrics } = stor
 
                     <template #[`tabItem.cadences`]>
                         <FormCheckbox v-model="useMordernClefs" :label="$t('showModernClefs')" />
-                        <div class="grid grid-cols-1 gap-4">
+                        <div class="grid grid-cols-2 gap-4 mt-4">
                             <div v-for="cadence in cadences" :key="cadence._id">
-                                <CadenceListItem :cadence="cadence" :modern-clefs="useMordernClefs" />
+                                <CadenceListItem :cadence="cadence" :short-title="true" :hide-info="true" />
                             </div>
                         </div>
                     </template>
