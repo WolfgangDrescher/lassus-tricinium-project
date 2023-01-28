@@ -9,8 +9,6 @@ on:
 jobs:
     deploy:
         runs-on: ubuntu-latest
-        container:
-            image: ghcr.io/wolfgangdrescher/verovio-humlib-docker-image:latest
         steps:
             -
                 name: Checkout
@@ -46,7 +44,9 @@ jobs:
                 name: Use custom verovio build
                 run: |
                     npm remove verovio
-                    cp -r /usr/local/verovio ./verovio
+                    docker create --name tmp ghcr.io/wolfgangdrescher/verovio-humlib-docker-image:latest
+                    docker cp tmp:/usr/local/verovio ./verovio
+                    docker rm -f tmp
                     npm i ./verovio/
 
             -   
