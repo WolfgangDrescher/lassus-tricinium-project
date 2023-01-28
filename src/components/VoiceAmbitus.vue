@@ -68,6 +68,7 @@ const config = {
         ],
     },
     options: {
+        indexAxis: 'y',
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
@@ -89,10 +90,16 @@ const config = {
 
 <template>
     <div>
-        <h3>{{ $t(`voice.${voice}`) }}</h3>
-        <VerovioCanvas :data="formattedScoreData"></VerovioCanvas>
-        <div class="h-48">
-            <Chart :config="config"></Chart>
+        <div class="flex gap-4">
+            <div class="w-1/3 shrink-0 grow-0">
+                {{ $t('maxVoiceRange') }}
+                <VerovioCanvas :data="formattedScoreData"></VerovioCanvas>
+            </div>
+            <div class="w-2/3 shrink-0 grow-0">
+                <div class="h-48">
+                    <Chart :config="config"></Chart>
+                </div>
+            </div>
         </div>
     </div>
 </template>
