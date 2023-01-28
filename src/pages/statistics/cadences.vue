@@ -27,7 +27,7 @@ const { items, headers, dimension } = useCadenceStatsGenerator(filteredElements)
 
 <template>
     <div>
-        <Heading>{{ $t('words')}}</Heading>
+        <Heading>{{ $t('cadences')}}</Heading>
         <CadenceFilter />
         <ChartDimensionSelector v-model="dimension" />
         <DataTable :headers="headers" :items="items"></DataTable>
