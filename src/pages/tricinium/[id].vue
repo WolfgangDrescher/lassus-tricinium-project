@@ -178,9 +178,13 @@ const { showModernClefs: useMordernClefs, showIntervallsatz, showLyrics } = stor
                     <template #[`tabItem.ambitus`]>
                         <FormCheckbox v-model="useMordernClefs" :label="$t('showModernClefs')" />
                         <ClientOnly>
-                            <template v-for="voice in ['cantus', 'tenor', 'bassus']">
-                                <VoiceAmbitus :tricinium="tricinium" :voice="voice" :modern-clefs="useMordernClefs" />
-                            </template>
+                            <div class="grid grid-cols-1 gap-4 mt-4">
+                                <template v-for="voice in ['cantus', 'tenor', 'bassus']">
+                                    <Card :title="$t(`voice.${voice}`)">
+                                        <VoiceAmbitus :tricinium="tricinium" :voice="voice" :modern-clefs="useMordernClefs" />
+                                    </Card>
+                                </template>
+                            </div>
                         </ClientOnly>
                     </template>
 
