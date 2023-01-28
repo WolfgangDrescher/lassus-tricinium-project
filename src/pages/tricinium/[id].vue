@@ -1,4 +1,5 @@
 <script setup>
+import { storeToRefs } from 'pinia';
 import { MeasureFilter } from '@/classes/HumdrumFilters.js';
 
 const { t } = useI18n();
@@ -110,7 +111,8 @@ const infoItems = [{
     bassusUrlScan: tricinium.getVoiceUrlScan('bassus'),
 }];
 
-const useMordernClefs = ref(false);
+const store = useCadenceHumdrumFiltersStore();
+const { showModernClefs: useMordernClefs, showIntervallsatz, showLyrics } = storeToRefs(store);
 </script>
 
 <template>
@@ -174,9 +176,7 @@ const useMordernClefs = ref(false);
                     </template>
 
                     <template #[`tabItem.ambitus`]>
-                        <label>
-                            <input value="" type="checkbox" v-model="useMordernClefs" /> {{ $t('showModernClefs') }}
-                        </label>
+                        <FormCheckbox v-model="useMordernClefs" :label="$t('showModernClefs')" />
                         <ClientOnly>
                             <template v-for="voice in ['cantus', 'tenor', 'bassus']">
                                 <VoiceAmbitus :tricinium="tricinium" :voice="voice" :modern-clefs="useMordernClefs" />
@@ -197,9 +197,7 @@ const useMordernClefs = ref(false);
                     </template>
 
                     <template #[`tabItem.cadences`]>
-                        <label>
-                            <input value="" type="checkbox" v-model="useMordernClefs" /> {{ $t('showModernClefs') }}
-                        </label>
+                        <FormCheckbox v-model="useMordernClefs" :label="$t('showModernClefs')" />
                         <div class="grid grid-cols-1 gap-4">
                             <div v-for="cadence in cadences" :key="cadence._id">
                                 <CadenceListItem :cadence="cadence" :modern-clefs="useMordernClefs" />
