@@ -34,11 +34,11 @@ if (!props.hide) {
 </script>
 
 <template>
-    <div class="flex" ref="wrapper">
-        <div v-if="hide !== 'left'" class="shrink-0 min-w-0" :class="[!hide && 'grow-0']" :style="{ width: hide ? '100%' : `${leftWidth}%`}">
+    <div class="flex flex-col md:flex-row gap-4 md:gap-0" ref="wrapper">
+        <div v-if="hide !== 'left'" class="left-side shrink-0 min-w-0" :class="[!hide && 'grow-0']" :style="`--width: ${hide ? 100 : leftWidth}%;`">
             <slot name="left"></slot>
         </div>
-        <div v-if="!hide" class="shrink-0 grow-0">
+        <div v-if="!hide" class="shrink-0 grow-0 hidden md:block">
             <div class="px-2 h-full group/separator">
                 <div class="cursor-ew-resize px-1 h-full hover:bg-red-50" ref="dragHandle">
                     <div class="h-full w-[2px] group-hover/separator:bg-gray-300"></div>
@@ -50,3 +50,11 @@ if (!props.hide) {
         </div>
     </div>
 </template>
+
+<style scoped>
+@screen md {
+    .left-side {
+        width: var(--width);
+    }
+}
+</style>
