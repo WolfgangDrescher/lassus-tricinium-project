@@ -13,7 +13,10 @@ const wrapper = ref();
 const leftWidth = ref(props.initialWidth);
 
 function calcWidth(x) {
-    const value = (x) / wrapper.value.clientWidth * 100;
+    let value = (x) / wrapper.value.clientWidth * 100;
+    if (value >= 47 && value <= 53) {
+        value = 50;
+    }
     return Math.min(75, Math.max(25, value));
 }
 
