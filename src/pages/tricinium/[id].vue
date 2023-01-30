@@ -110,11 +110,14 @@ const infoItems = [{
 }];
 
 const store = useTriciniumViewOptionsStore();
-const { showModernClefs: useMordernClefs, showSidebar: sidebarOpen, splitViewWidth } = storeToRefs(store);
+const { showSidebar: sidebarOpen, splitViewWidth } = storeToRefs(store);
 
 function splitViewWidthChanged(value) {
     splitViewWidth.value = value;
 }
+
+const { showModernClefs } = storeToRefs(useCadenceHumdrumFiltersStore());
+
 </script>
 
 <template>
@@ -193,12 +196,12 @@ function splitViewWidthChanged(value) {
                     </template>
 
                     <template #[`tabItem.ambitus`]>
-                        <FormCheckbox v-model="useMordernClefs" :label="$t('showModernClefs')" />
+                        <FormCheckbox v-model="showModernClefs" :label="$t('showModernClefs')" />
                         <ClientOnly>
                             <div class="grid grid-cols-1 gap-4 mt-4">
                                 <template v-for="voice in ['cantus', 'tenor', 'bassus']">
                                     <Card :title="$t(`voice.${voice}`)">
-                                        <VoiceAmbitus :tricinium="tricinium" :voice="voice" :modern-clefs="useMordernClefs" />
+                                        <VoiceAmbitus :tricinium="tricinium" :voice="voice" :modern-clefs="showModernClefs" />
                                     </Card>
                                 </template>
                             </div>
@@ -220,7 +223,7 @@ function splitViewWidthChanged(value) {
                     </template>
 
                     <template #[`tabItem.cadences`]>
-                        <FormCheckbox v-model="useMordernClefs" :label="$t('showModernClefs')" />
+                        <FormCheckbox v-model="showModernClefs" :label="$t('showModernClefs')" />
                         <div class="@container">
                             <div class="grid grid-cols-1 @md:grid-cols-2 @2xl:grid-cols-3 gap-4 mt-4">
                                 <div v-for="cadence in cadences" :key="cadence._id">

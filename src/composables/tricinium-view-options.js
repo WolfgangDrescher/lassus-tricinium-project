@@ -5,7 +5,6 @@ const defaultFilter = {
     scoreDisplay: 'lassus',
     showLyrics: true,
     showSidebar: true,
-    showModernClefs: true,
     splitViewWidth: 50,
 };
 
