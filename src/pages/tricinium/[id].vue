@@ -41,10 +41,6 @@ function addMeasureFilter(value) {
     humdrumScore.value.addFilter(new MeasureFilter(value));
 }
 
-function toggleSidebar() {
-    sidebarOpen.value = !sidebarOpen.value;
-}
-
 const tabItems = [
     {
         value: 'info',
@@ -110,7 +106,7 @@ const infoItems = [{
 }];
 
 const store = useTriciniumViewOptionsStore();
-const { showSidebar: sidebarOpen, splitViewWidth } = storeToRefs(store);
+const { showSidebar, showScore, splitViewWidth } = storeToRefs(store);
 
 function splitViewWidthChanged(value) {
     splitViewWidth.value = value;
@@ -118,6 +114,15 @@ function splitViewWidthChanged(value) {
 
 const { showModernClefs } = storeToRefs(useCadenceHumdrumFiltersStore());
 
+function toggleSidebar() {
+    if (showSidebar.value == true && showScore.value == false) return;
+    showSidebar.value = !showSidebar.value;
+}
+
+function toggleScore() {
+    if (showScore.value == true && showSidebar.value == false) return;
+    showScore.value = !showScore.value;
+}
 </script>
 
 <template>
@@ -142,17 +147,17 @@ const { showModernClefs } = storeToRefs(useCadenceHumdrumFiltersStore());
                 </div>
             </div>
             <div>
-                <Button @click="toggleSidebar">
-                    <template v-if="sidebarOpen">
-                        {{ t('hideSidebar') }}
-                    </template>
-                    <template v-else>
-                        {{ t('showSidebar') }}
-                    </template>
-                </Button>
+                <div class="grid grid-cols-2 gap-1">
+                    <Button @click="toggleScore" outline :selected="showScore" :hover="false" :title="$t('showScore')">
+                        <Icon name="heroicons-solid:musical-note" />
+                    </Button>
+                    <Button @click="toggleSidebar" outline :selected="showSidebar" :hover="false" :title="$t('showSidebar')">
+                        <Icon name="heroicons-solid:information-circle" />
+                    </Button>
+                </div>
             </div>
         </div>
-        <SplitView :hide="sidebarOpen ? null : 'right'" @width-changed="splitViewWidthChanged" :initial-width="splitViewWidth">
+        <SplitView :hide="!showSidebar ? 'right' : (!showScore ? 'left' : null)" @width-changed="splitViewWidthChanged" :initial-width="splitViewWidth">
             <template v-slot:left>
                 <MidiPlayer :url="audioDataUrl" />
                 <Suspense>

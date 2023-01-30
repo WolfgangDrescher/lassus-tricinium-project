@@ -4,6 +4,7 @@ const defaultFilter = {
     viewMode: 'score',
     scoreDisplay: 'lassus',
     showLyrics: true,
+    showScore: true,
     showSidebar: true,
     splitViewWidth: 50,
 };
