@@ -1,4 +1,6 @@
 <script setup>
+import { storeToRefs } from 'pinia';
+
 const { t } = useI18n();
 
 const props = defineProps({
@@ -8,15 +10,16 @@ const props = defineProps({
     },
 });
 
-const diffOptions = reactive({
-    outputFormat: 'side-by-side',
-});
+const store = useTriciniumViewOptionsStore();
+const { showLyricsForVoices, lyricsDiffOutputFormat } = storeToRefs(store);
 
-const selectedVoices = ref(['cantus', 'tenor', 'bassus']);
+const diffOptions = computed(() => ({
+    outputFormat: lyricsDiffOutputFormat.value,
+}));
 
 watchEffect(() => {
     const voicesOrdering = ['cantus', 'tenor', 'bassus'];
-    selectedVoices.value.sort((a, b) => voicesOrdering.indexOf(a) - voicesOrdering.indexOf(b));
+    showLyricsForVoices.value.sort((a, b) => voicesOrdering.indexOf(a) - voicesOrdering.indexOf(b));
 });
 
 const voiceOptions = [
@@ -46,7 +49,7 @@ const diffOutputFormatOptions = [
 ];
 
 const diff = computed(() => {
-    return selectedVoices.value.map(voice => {
+    return showLyricsForVoices.value.map(voice => {
         const fileName = voice.charAt(0).toUpperCase() + voice.slice(1);
         const a = props.tricinium.lyricsAsString(false, '\n');
         const b = props.tricinium.getVoiceLyrics(voice);
@@ -57,8 +60,8 @@ const diff = computed(() => {
 
 <template>
     <div class="grid grid-cols-2 gap-4 my-4">
-        <FormDropdown v-model="selectedVoices" :options="voiceOptions" :multiple="true" :search-enabled="false" />
-        <FormDropdown v-model="diffOptions.outputFormat" :options="diffOutputFormatOptions" :search-enabled="false" :badge-show-remove-button="false" />
+        <FormDropdown v-model="showLyricsForVoices" :options="voiceOptions" :multiple="true" :search-enabled="false" />
+        <FormDropdown v-model="lyricsDiffOutputFormat" :options="diffOutputFormatOptions" :search-enabled="false" :badge-show-remove-button="false" />
     </div>
     <TextDiff :diff="diff" :options="diffOptions" />
 </template>
