@@ -119,7 +119,22 @@ const { showModernClefs: useMordernClefs, showIntervallsatz, showLyrics } = stor
     <Container :fluid="true">
         <div class="flex">
             <div class="flex-auto">
-                <Heading>{{ `${tricinium.nr}. ${tricinium.title}` }}</Heading>
+                <div class="mb-4">
+                    <Heading class="mb-0">{{ `${tricinium.nr}. ${tricinium.title}` }}</Heading>
+                    {{ tricinium.composer }}
+                    <div class="flex flex-gap-4">
+                        <div v-if="tricinium.prevId">
+                            <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: tricinium.prevId }})">
+                                <Icon name="heroicons:arrow-left-circle" size="1.25rem" />
+                            </NuxtLink>
+                        </div>
+                        <div v-if="tricinium.nextId">
+                            <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: tricinium.nextId }})">
+                                <Icon name="heroicons:arrow-right-circle" size="1.25rem" />
+                            </NuxtLink>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
                 <Button @click="toggleSidebar">
