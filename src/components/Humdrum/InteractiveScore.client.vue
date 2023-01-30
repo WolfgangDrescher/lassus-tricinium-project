@@ -8,7 +8,11 @@ const props = defineProps({
         type: Object,
         default: () => ({}),
     },
-})
+    initialFilters: {
+        type: Array,
+        default: () => [],
+    },
+});
 
 const emit = defineEmits(['mounted', 'filtersChanged']);
 
@@ -32,10 +36,15 @@ const verovioCanvasOptions = computed(() => {
     });
 });
 
+if (props.initialFilters) {
+    props.initialFilters.forEach(filter => {
+        addFilter(filter);
+    });
+}
+
 function verovioCanvasMounted(verovioCanvas) {
     emit('mounted', {
         callVerovioMethod: verovioCanvas.callVerovioMethod,
-        addFilter,
     });
 };
 
