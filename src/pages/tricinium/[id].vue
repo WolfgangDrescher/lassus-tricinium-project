@@ -221,9 +221,11 @@ function splitViewWidthChanged(value) {
 
                     <template #[`tabItem.cadences`]>
                         <FormCheckbox v-model="useMordernClefs" :label="$t('showModernClefs')" />
-                        <div class="grid grid-cols-2 gap-4 mt-4">
-                            <div v-for="cadence in cadences" :key="cadence._id">
-                                <CadenceListItem :cadence="cadence" :short-title="true" :hide-info="true" />
+                        <div class="@container">
+                            <div class="grid grid-cols-1 @md:grid-cols-2 @2xl:grid-cols-3 gap-4 mt-4">
+                                <div v-for="cadence in cadences" :key="cadence._id">
+                                    <CadenceListItem :cadence="cadence" :short-title="true" :hide-info="true" />
+                                </div>
                             </div>
                         </div>
                     </template>
