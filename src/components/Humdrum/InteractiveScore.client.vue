@@ -66,7 +66,9 @@ defineExpose({
 
 <template>
     <HumdrumFilterGroup :filters="filters" @addFilter="addFilterEvent" @removeFilter="removeFilterEvent" />
-    <pre v-text="filtersAsString"></pre>
+    <div class="overflow-x-hidden">
+        <pre v-text="filtersAsString"></pre>
+    </div>
     <!-- <pre v-text="formattedScoreData"></pre> -->
     <!-- <textarea
         rows="10"
