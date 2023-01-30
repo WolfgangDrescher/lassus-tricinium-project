@@ -28,7 +28,7 @@ const cadences = useCadence(cadenceData.value ?? [], tricinia);
 const humdrumScore = ref(null);
 const audioDataUrl = ref(null);
 
-async function humdrumScoreMounted({ callVerovioMethod }) {
+async function humdrumScoreMounted({ callVerovioMethod, addFilter }) {
     const midiBase64 = await callVerovioMethod('renderToMIDI', {
         midiTempoAdjustment: 4,
     });
@@ -36,7 +36,7 @@ async function humdrumScoreMounted({ callVerovioMethod }) {
         audioDataUrl.value = `data:audio/midi;base64,${midiBase64}`;
     }
     triciniumFilters.value.forEach((filter) => {
-        humdrumScore.value.addFilter(filter);
+        addFilter(toRaw(filter));
     });
 }
 
