@@ -41,8 +41,6 @@ function addMeasureFilter(value) {
     humdrumScore.value.addFilter(new MeasureFilter(value));
 }
 
-const sidebarOpen = ref(true);
-
 function toggleSidebar() {
     sidebarOpen.value = !sidebarOpen.value;
 }
@@ -111,8 +109,8 @@ const infoItems = [{
     bassusUrlScan: tricinium.getVoiceUrlScan('bassus'),
 }];
 
-const store = useCadenceHumdrumFiltersStore();
-const { showModernClefs: useMordernClefs, showIntervallsatz, showLyrics } = storeToRefs(store);
+const store = useTriciniumViewOptionsStore();
+const { showModernClefs: useMordernClefs, showSidebar: sidebarOpen } = storeToRefs(store);
 </script>
 
 <template>
