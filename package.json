@@ -17,6 +17,7 @@
     "@ckpack/vue-color": "^1.3.0",
     "@nuxtjs/i18n-edge": "^8.0.0-beta.9-27913178.bca8cdf",
     "@pinia/nuxt": "^0.4.6",
+    "@tailwindcss/container-queries": "^0.1.0",
     "@vueuse/components": "^9.6.0",
     "@vueuse/core": "^9.6.0",
     "@vueuse/gesture": "^2.0.0-beta.1",
