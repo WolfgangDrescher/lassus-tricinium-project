@@ -19,6 +19,7 @@
     "@pinia/nuxt": "^0.4.6",
     "@vueuse/components": "^9.6.0",
     "@vueuse/core": "^9.6.0",
+    "@vueuse/gesture": "^2.0.0-beta.1",
     "chart.js": "^4.0.1",
     "diff": "^5.0.0",
     "diff2html": "^3.4.16",
