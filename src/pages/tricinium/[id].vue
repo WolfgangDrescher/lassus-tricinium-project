@@ -145,7 +145,7 @@ const { showModernClefs: useMordernClefs, showSidebar: sidebarOpen } = storeToRe
                 </Button>
             </div>
         </div>
-        <SplitView>
+        <SplitView :hide="sidebarOpen ? null : 'right'">
             <template v-slot:left>
                 <MidiPlayer :url="audioDataUrl" />
                 <Suspense>
