@@ -6,6 +6,7 @@ const defaultFilter = {
     showLyrics: true,
     showSidebar: true,
     showModernClefs: true,
+    splitViewWidth: 50,
 };
 
 export const useTriciniumViewOptionsStore = defineStore('tricinium_view_options', {

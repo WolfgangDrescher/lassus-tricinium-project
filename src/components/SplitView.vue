@@ -3,11 +3,14 @@ import { useDrag } from '@vueuse/gesture';
 
 const props = defineProps({
     hide: String,
+    initialWidth: 50,
 });
+
+const emit = defineEmits(['widthChanged']);
 
 const dragHandle = ref();
 const wrapper = ref();
-const leftWidth = ref(50);
+const leftWidth = ref(props.initialWidth);
 
 function calcWidth(x) {
     const value = (x) / wrapper.value.clientWidth * 100;
@@ -17,6 +20,7 @@ function calcWidth(x) {
 function dragHandler(dragState) {
     const [x] = dragState.xy;
     leftWidth.value = calcWidth(x);
+    emit('widthChanged', leftWidth.value);
 }
 
 if (!props.hide) {

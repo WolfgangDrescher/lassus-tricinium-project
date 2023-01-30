@@ -110,7 +110,11 @@ const infoItems = [{
 }];
 
 const store = useTriciniumViewOptionsStore();
-const { showModernClefs: useMordernClefs, showSidebar: sidebarOpen } = storeToRefs(store);
+const { showModernClefs: useMordernClefs, showSidebar: sidebarOpen, splitViewWidth } = storeToRefs(store);
+
+function splitViewWidthChanged(value) {
+    splitViewWidth.value = value;
+}
 </script>
 
 <template>
@@ -145,7 +149,7 @@ const { showModernClefs: useMordernClefs, showSidebar: sidebarOpen } = storeToRe
                 </Button>
             </div>
         </div>
-        <SplitView :hide="sidebarOpen ? null : 'right'">
+        <SplitView :hide="sidebarOpen ? null : 'right'" @width-changed="splitViewWidthChanged" :initial-width="splitViewWidth">
             <template v-slot:left>
                 <MidiPlayer :url="audioDataUrl" />
                 <Suspense>
