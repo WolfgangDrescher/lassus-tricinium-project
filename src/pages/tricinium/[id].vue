@@ -35,6 +35,9 @@ async function humdrumScoreMounted({ callVerovioMethod }) {
     if (midiBase64) {
         audioDataUrl.value = `data:audio/midi;base64,${midiBase64}`;
     }
+    triciniumFilters.value.forEach((filter) => {
+        humdrumScore.value.addFilter(filter);
+    });
 }
 
 function addMeasureFilter(value) {
@@ -106,7 +109,7 @@ const infoItems = [{
 }];
 
 const store = useTriciniumViewOptionsStore();
-const { showSidebar, showScore, splitViewWidth } = storeToRefs(store);
+const { showSidebar, showScore, splitViewWidth, triciniumFilters } = storeToRefs(store);
 
 function splitViewWidthChanged(value) {
     splitViewWidth.value = value;
@@ -122,6 +125,10 @@ function toggleSidebar() {
 function toggleScore() {
     if (showScore.value == true && showSidebar.value == false) return;
     showScore.value = !showScore.value;
+}
+
+function onFiltersChanges(filters) {
+    triciniumFilters.value = filters;
 }
 </script>
 
@@ -161,7 +168,7 @@ function toggleScore() {
             <template v-slot:left>
                 <MidiPlayer :url="audioDataUrl" />
                 <Suspense>
-                    <HumdrumInteractiveScore ref="humdrumScore" :url="tricinium.localRawFile" @mounted="humdrumScoreMounted" :verovio-options="triciniumVerovioOptions" />
+                    <HumdrumInteractiveScore ref="humdrumScore" :url="tricinium.localRawFile" @mounted="humdrumScoreMounted" @filtersChanged="onFiltersChanges" :verovio-options="triciniumVerovioOptions" />
                 </Suspense>
             </template>
             <template v-slot:right>

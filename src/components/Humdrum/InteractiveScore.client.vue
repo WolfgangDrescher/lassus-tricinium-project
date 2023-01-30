@@ -10,7 +10,7 @@ const props = defineProps({
     },
 })
 
-const emit = defineEmits(['mounted']);
+const emit = defineEmits(['mounted', 'filtersChanged']);
 
 const response = await fetch(props.url);
 if (!response.ok) {
@@ -40,10 +40,12 @@ function verovioCanvasMounted(verovioCanvas) {
 
 function addFilterEvent(filter) {
     addFilter(filter);
+    emit('filtersChanged', toRaw(filters.value));
 }
 
 function removeFilterEvent(filterId) {
     removeFilter(filterId);
+    emit('filtersChanged', toRaw(filters.value));
 }
 
 defineExpose({
