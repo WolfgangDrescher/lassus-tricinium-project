@@ -1,5 +1,6 @@
 <script setup>
 const { t } = useI18n();
+const localePath = useLocalePath();
 
 useHead({
     title: t('tricinia'),

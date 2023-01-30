@@ -1,5 +1,6 @@
 <script setup>
 import DefaultLayout from './default.vue';
+const localePath = useLocalePath();
 </script>
 
 <template>
