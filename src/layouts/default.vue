@@ -17,36 +17,36 @@ useHead({
 
 <style>
 html {
+    font-size: 18px;
+}
+
+@screen sm {
+    html {
         font-size: 18px;
     }
+}
 
-    @screen sm {
-        html {
-            font-size: 18px;
-        }
+@screen md {
+    html {
+        font-size: 19px;
     }
+}
 
-    @screen md {
-        html {
-            font-size: 19px;
-        }
+@screen lg {
+    html {
+        font-size: 19px;
     }
+}
 
-    @screen lg {
-        html {
-            font-size: 19px;
-        }
+@screen xl {
+    html {
+        font-size: 20px;
     }
+}
 
-    @screen xl {
-        html {
-            font-size: 20px;
-        }
+@screen 2xl {
+    html {
+        font-size: 20px;
     }
-
-    @screen 2xl {
-        html {
-            font-size: 20px;
-        }
     }
 </style>
