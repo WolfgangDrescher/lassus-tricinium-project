@@ -147,14 +147,14 @@ const { showModernClefs: useMordernClefs, showIntervallsatz, showLyrics } = stor
                 </Button>
             </div>
         </div>
-        <div class="flex gap-8">
-            <div class="flex-auto " :class="sidebarOpen ? 'w-1/2' : 'w-full'">
+        <SplitView>
+            <template v-slot:left>
                 <MidiPlayer :url="audioDataUrl" />
                 <Suspense>
                     <HumdrumInteractiveScore ref="humdrumScore" :url="tricinium.localRawFile" @mounted="humdrumScoreMounted" :verovio-options="triciniumVerovioOptions" />
                 </Suspense>
-            </div>
-            <div class="flex-auto" :class="sidebarOpen ? 'w-1/2' : 'w-0'">
+            </template>
+            <template v-slot:right>
                 <Tabs :items="tabItems">
 
                     <template #[`tabItem.info`]>
@@ -227,7 +227,7 @@ const { showModernClefs: useMordernClefs, showIntervallsatz, showLyrics } = stor
                     </template>
 
                 </Tabs>
-            </div>
-        </div>
+            </template>
+        </SplitView>
     </Container>
 </template>
