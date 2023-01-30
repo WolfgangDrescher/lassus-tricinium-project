@@ -141,6 +141,14 @@ class Tricinium {
         return this.tricinium.originalDocumentOwner;
     }
 
+    get prevId() {
+        return this.tricinium['@prev'] ?? null;
+    }
+
+    get nextId() {
+        return this.tricinium['@next'] ?? null;
+    }
+
 }
 
 export function useTricinium(elements) {
