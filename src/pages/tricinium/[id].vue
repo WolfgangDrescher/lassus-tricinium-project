@@ -108,7 +108,7 @@ const infoItems = [{
 }];
 
 const store = useTriciniumViewOptionsStore();
-const { showSidebar, showScore, splitViewWidth, triciniumFilters } = storeToRefs(store);
+const { showSidebar, showScore, splitViewWidth, triciniumScoreFilters, ulenbergScoreFilters } = storeToRefs(store);
 
 function splitViewWidthChanged(value) {
     splitViewWidth.value = value;
@@ -124,10 +124,6 @@ function toggleSidebar() {
 function toggleScore() {
     if (showScore.value == true && showSidebar.value == false) return;
     showScore.value = !showScore.value;
-}
-
-function onFiltersChanges(filters) {
-    triciniumFilters.value = filters;
 }
 </script>
 
@@ -167,7 +163,7 @@ function onFiltersChanges(filters) {
             <template v-slot:left>
                 <MidiPlayer :url="audioDataUrl" />
                 <Suspense>
-                    <HumdrumInteractiveScore ref="humdrumScore" :url="tricinium.localRawFile" @mounted="humdrumScoreMounted" @filtersChanged="onFiltersChanges" :verovio-options="triciniumVerovioOptions" :initial-filters="triciniumFilters" />
+                    <HumdrumInteractiveScore ref="humdrumScore" :url="tricinium.localRawFile" @mounted="humdrumScoreMounted" @filtersChanged="triciniumScoreFilters = $event" :verovio-options="triciniumVerovioOptions" :initial-filters="triciniumScoreFilters" />
                 </Suspense>
             </template>
             <template v-slot:right>
@@ -222,7 +218,7 @@ function onFiltersChanges(filters) {
                     <template #[`tabItem.ulenberg`]>
                         <Card>
                             <Suspense>
-                                <HumdrumInteractiveScore :url="tricinium.localUlenbergRawFile" />
+                                <HumdrumInteractiveScore :url="tricinium.localUlenbergRawFile" @filtersChanged="ulenbergScoreFilters = $event" :initial-filters="ulenbergScoreFilters"  />
                             </Suspense>
                         </Card>
                     </template>

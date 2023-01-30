@@ -9,7 +9,8 @@ const defaultFilter = {
     splitViewWidth: 50,
     showLyricsForVoices: ['cantus', 'tenor', 'bassus'],
     lyricsDiffOutputFormat: 'side-by-side',
-    triciniumFilters: [],
+    triciniumScoreFilters: [],
+    ulenbergScoreFilters: [],
 };
 
 export const useTriciniumViewOptionsStore = defineStore('tricinium_view_options', {
