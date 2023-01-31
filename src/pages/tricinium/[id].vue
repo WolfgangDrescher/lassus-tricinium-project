@@ -110,7 +110,7 @@ const infoItems = [{
 const store = useTriciniumViewOptionsStore();
 const { showSidebar, showScore, splitViewWidth, triciniumScoreFilters, ulenbergScoreFilters } = storeToRefs(store);
 
-function splitViewWidthChanged(value) {
+function updateSplitViewWidth(value) {
     splitViewWidth.value = value;
 }
 
@@ -159,7 +159,7 @@ function toggleScore() {
                 </div>
             </div>
         </div>
-        <SplitView :hide="!showSidebar ? 'right' : (!showScore ? 'left' : null)" @width-changed="splitViewWidthChanged" :initial-width="splitViewWidth">
+        <SplitView :hide="!showSidebar ? 'right' : (!showScore ? 'left' : null)" @update:width="updateSplitViewWidth" :initial-width="splitViewWidth">
             <template v-slot:left>
                 <MidiPlayer :url="audioDataUrl" />
                 <NuxtErrorBoundary>

@@ -6,7 +6,7 @@ const props = defineProps({
     initialWidth: 50,
 });
 
-const emit = defineEmits(['widthChanged']);
+const emit = defineEmits(['update:width']);
 
 const dragHandle = ref();
 const wrapper = ref();
@@ -23,7 +23,7 @@ function calcWidth(x) {
 function dragHandler(dragState) {
     const [x] = dragState.xy;
     leftWidth.value = calcWidth(x);
-    emit('widthChanged', leftWidth.value);
+    emit('update:width', leftWidth.value);
 }
 
 if (!props.hide) {
