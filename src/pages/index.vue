@@ -33,28 +33,29 @@ const localePath = useLocalePath();
                             <p>
                                 Das «Lassus Tricinium Project» ist eine digitale Editon der Tricinien «Geistliche
                                 Psalmen» von Orlando di Lasso und seinem Sohn Rudolph. Die Kompositionen basieren auf
-                                den «Psalmen Davids» von Caspar Ulenberg. Die Tricinium wurde im <code>**kern</code>
+                                den «Psalmen Davids» von Caspar Ulenberg. Die Tricinien wurden im <code>**kern</code>
                                 Format ediert und sind auf GitHub einsehbar. Mehr dazu auf der Seite <HyperLink
                                 :href="localePath({name: 'about'})">Über das Projekt</HyperLink>. 
                             </p>
                             <p>
                                 Da die Partituren im <code>**kern</code>-Format gesetzt sind ermöglicht dies auf dieser
-                                Website interaktiv mit ihnen umgehen zu können. So ist es z.B. möglich die alten
-                                Schlüssel per Knopfdruck in moderne Schlüssel umzuwandeln, einen Intervallsatz
-                                anzuzueigen, die Skalenstufen (z.B. als Bassstufen) anzuzeigen, den Liedtext
-                                auszublenden, Kadenzen isoliert zu analysieren oder die Klauseln nach bestimmten
-                                Kadenzfluchten zu durchsuchen, uvm.
+                                Website einen interaktiven Gebruach um bestimmte Aspekte so leichter zugänglich machen
+                                zu können. So ist es z.B. möglich die alten Schlüssel per Knopfdruck in moderne
+                                Schlüssel umzuwandeln, einen Intervallsatz anzuzeigen, die Skalenstufen (z.B. als
+                                Bassstufen) anzuzeigen, den Liedtext auszublenden, Kadenzen isoliert zu analysieren oder
+                                die Klauseln nach bestimmten Kadenzfluchten zu durchsuchen, uvm.
                             </p>
                             <p>
-                                Für Studentinnen und Studenten an der Hochschule für Musik Freiburg gehört es zu festen
-                                Curriculum im zweiten Semester im Fach Kontrapunkt eine Stilkopie mit einem Tricinium im
-                                Renaissance-Stil zu komponieren. Dieses Projekt soll dazu beitragen, dass Studentinnen
-                                und Studenten sich dieses Genere mit diesen spezifischen Stücken von Orlandus und
-                                Rudolphus Lassus mit den digitalen Möglichkeiten dieser Website aneignen können. Unter
-                                dem Menüpunkt <HyperLink :href="localePath({name: 'canon'})">Canon</HyperLink> gibt es
-                                zusätzliche Materialien mit den wichtigesten Informationen zu Modi, Imitationen,
-                                Ambitus, Stimmendisposition und Textbehandlung sowie einer List mit Stücken die sich
-                                besonders für das Selbststudium eignen.
+                                Für Studentinnen und Studenten an der <HyperLink href="https://mh-freiburg.de"
+                                target="_blank">Hochschule für Musik Freiburg</HyperLink> gehört es zum festen
+                                Curriculum im zweiten Semester im Fach Kontrapunkt in der Modulprüfung eine Stilkopie
+                                mit einem Tricinium im Renaissance-Stil zu komponieren. Dieses Projekt soll dazu
+                                beitragen, dass Studentinnen und Studenten sich dieses Genere mit den spezifischen
+                                Stücken von Orlandus und Rudolphus Lassus mit den digitalen Möglichkeiten dieser Website
+                                aneignen können. Unter dem Menüpunkt <HyperLink :href="localePath({name:
+                                'canon'})">Canon</HyperLink> gibt es zusätzliche Materialien mit den wichtigsten
+                                Informationen zu Modi, Imitationen, Ambitus, Stimmendisposition und Textbehandlung sowie
+                                einer Liste mit Stücken die sich besonders für das Selbststudium eignen.
                             </p>
                         </FormattedText>
                     </template>
