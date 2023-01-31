@@ -108,7 +108,7 @@ const infoItems = [{
 }];
 
 const store = useTriciniumViewOptionsStore();
-const { showSidebar, showScore, splitViewWidth, triciniumScoreFilters, ulenbergScoreFilters } = storeToRefs(store);
+const { showSidebar, showScore, splitViewWidth, triciniumScoreFilters, ulenbergScoreFilters, expertMode } = storeToRefs(store);
 
 function updateSplitViewWidth(value) {
     splitViewWidth.value = value;
@@ -171,6 +171,8 @@ function toggleScore() {
                             @update:filters="triciniumScoreFilters = $event"
                             :verovio-options="triciniumVerovioOptions"
                             :initial-filters="triciniumScoreFilters"
+                            :expert-mode="expertMode"
+                            @update:expertMode="expertMode = $event"
                         />
                     </Suspense>
                     <template #error="{ error }">

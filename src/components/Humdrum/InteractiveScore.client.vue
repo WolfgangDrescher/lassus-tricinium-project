@@ -14,11 +14,17 @@ const props = defineProps({
         type: Array,
         default: () => [],
     },
+    expertMode: {
+        type: Boolean,
+        default: false,
+    },
 });
 
 const emit = defineEmits([
     'mounted',
     'update:filters',
+    'update:expertMode',
+]);
 
 const response = await fetch(props.url);
 if (!response.ok) {
@@ -62,6 +68,10 @@ function removeFilterEvent(filterId) {
     emit('update:filters', toRaw(filters.value));
 }
 
+function onUpdateFiltersAsString(value) {
+    console.log(value);
+}
+
 defineExpose({
     verovioCanvas,
     addFilter,
@@ -75,10 +85,11 @@ defineExpose({
                 :filters="filters"
                 @addFilter="addFilterEvent"
                 @removeFilter="removeFilterEvent"
+                :expertMode="expertMode"
+                @update:expertMode="emit('update:expertMode', $event)"
+                :filtersAsString="filtersAsString"
+                @update:filtersAsString="onUpdateFiltersAsString"
             />
-        </div>
-        <div>
-            <MonacoEditor v-model="filtersAsString" />
         </div>
         <div>
             <VerovioCanvas ref="verovioCanvas" v-bind="verovioCanvasOptions" @mounted="verovioCanvasMounted"/>
