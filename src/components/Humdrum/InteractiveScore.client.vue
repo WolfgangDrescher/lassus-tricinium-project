@@ -20,7 +20,7 @@ const emit = defineEmits(['mounted', 'filtersChanged']);
 
 const response = await fetch(props.url);
 if (!response.ok) {
-    throw new Error(`${response.status} ${response.statusText}`);
+    throw createError({ statusCode: response.status, statusMessage: response.statusText });
 }
 
 const verovioCanvas = ref(null);
