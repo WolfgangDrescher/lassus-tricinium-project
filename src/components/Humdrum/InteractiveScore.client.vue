@@ -59,7 +59,7 @@ function addFilterEvent(filter) {
 
 function removeFilterEvent(filterId) {
     removeFilter(filterId);
-    emit('update:expertMode', toRaw(filters.value));
+    emit('update:filters', toRaw(filters.value));
 }
 
 defineExpose({
