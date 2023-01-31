@@ -1,5 +1,6 @@
 <script setup>
 import '@/workers/monaco.js';
+
 const props = defineProps({
     url: {
         type: String,
