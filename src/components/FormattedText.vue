@@ -8,7 +8,8 @@
     white-space: break-spaces;
 }
 
-:slotted(:deep(p + p)) {
+:slotted(:deep(p + p)),
+:slotted(p + p) {
     @apply mt-4;
 }
 
