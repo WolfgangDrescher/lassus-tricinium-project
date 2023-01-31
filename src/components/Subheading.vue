@@ -21,7 +21,7 @@ defineProps({
 </script>
 
 <template>
-    <component :is="level ? `h${level}` : 'div'" class="font-sans font-w mb-2" :class="`font-${fontWeight} text-${fontSize}`">
+    <component :is="level ? `h${level}` : 'div'" class="font-sans mb-2" :class="`font-${fontWeight} text-${fontSize}`">
         <slot />
     </component>
 </template>
