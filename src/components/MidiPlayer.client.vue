@@ -13,6 +13,7 @@ const isLoading = ref(true);
 const ac = new AudioContext();
 const instrument = ref(null);
 const midiPlayer = new MidiPlayer.Player();
+const isPlaying = ref(false);
 
 Promise.all([midiPlayerIsReady.promise, soundFrontIsReady.promise]).then(() => {
     isReady.resolve();
@@ -54,16 +55,27 @@ midiPlayer.on('fileLoaded', () => {
 async function play() {
     await isReady.promise;
     midiPlayer.play();
+    isPlaying.value = true;
 }
 
 async function stop() {
     await isReady.promise;
     midiPlayer.stop();
+    isPlaying.value = false;
 }
 
 async function pause() {
     await isReady.promise;
     midiPlayer.pause();
+    isPlaying.value = false;
+}
+
+async function toggle() {
+    if (isPlaying.value) {
+        pause();
+    } else {
+        play();
+    }
 }
 
 // marimba acoustic_grand_piano trumpet
@@ -72,20 +84,21 @@ Soundfont.instrument(ac, 'marimba').then(value => {
     soundFrontIsReady.resolve();
 });
 
+onUnmounted(async () => {
+    await stop();
+});
 </script>
 
 <template>
     <!-- <Loading v-if="isLoading" /> -->
     <div v-if="!isLoading">
         <ButtonGroup>
-            <Button @click="play">
-                <Icon name="heroicons-solid:play" />
+            <Button @click="toggle" outline>
+                <Icon v-if="isPlaying" name="heroicons-solid:pause" size="1.25rem" />
+                <Icon v-else name="heroicons-solid:play" size="1.25rem" />
             </Button>
-            <Button @click="stop">
-                <Icon name="heroicons-solid:stop" />
-            </Button>
-            <Button @click="pause">
-                <Icon name="heroicons-solid:pause" />
+            <Button v-if="isPlaying" @click="stop" outline>
+                <Icon name="heroicons-solid:stop" size="1.25rem" />
             </Button>
         </ButtonGroup>
     </div>
