@@ -11,4 +11,16 @@
 :slotted(p + p) {
     @apply mt-4;
 }
+
+:slotted(h3) {
+    @apply font-sans mt-6 mb-1 font-bold text-base;
+}
+
+:slotted(ul) {
+    @apply list-disc ml-8;
+}
+
+:slotted(ul) li {
+    @apply my-1;
+}
 </style>
