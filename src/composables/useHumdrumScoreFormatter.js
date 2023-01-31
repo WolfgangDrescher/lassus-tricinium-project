@@ -7,7 +7,8 @@ export function useHumdrumScoreFormatter(data) {
             if (matchedFilter && filter.changeable) {
                 removeFilter(matchedFilter.id);
             } else if (matchedFilter) {
-                throw new Error(`Filter ${filter.className} is unique and already in use.`);
+                // throw new Error(`Filter ${filter.className} is unique and already in use.`);
+                return;
             }
         }
         filters.value.push(filter);
