@@ -162,9 +162,16 @@ function toggleScore() {
         <SplitView :hide="!showSidebar ? 'right' : (!showScore ? 'left' : null)" @width-changed="splitViewWidthChanged" :initial-width="splitViewWidth">
             <template v-slot:left>
                 <MidiPlayer :url="audioDataUrl" />
-                <Suspense>
-                    <HumdrumInteractiveScore ref="humdrumScore" :url="tricinium.localRawFile" @mounted="humdrumScoreMounted" @filtersChanged="triciniumScoreFilters = $event" :verovio-options="triciniumVerovioOptions" :initial-filters="triciniumScoreFilters" />
-                </Suspense>
+                <NuxtErrorBoundary>
+                    <Suspense>
+                        <HumdrumInteractiveScore ref="humdrumScore" :url="tricinium.localRawFile" @mounted="humdrumScoreMounted" @filtersChanged="triciniumScoreFilters = $event" :verovio-options="triciniumVerovioOptions" :initial-filters="triciniumScoreFilters" />
+                    </Suspense>
+                    <template #error="{ error }">
+                        <AlertMessage>
+                            <p>{{ error }}</p>
+                        </AlertMessage>
+                    </template>
+                </NuxtErrorBoundary>
             </template>
             <template v-slot:right>
                 <Tabs :items="tabItems">
