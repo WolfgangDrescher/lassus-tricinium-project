@@ -17,7 +17,7 @@
 }
 
 :slotted(ul) {
-    @apply list-disc ml-8;
+    @apply list-disc ml-8 my-3;
 }
 
 :slotted(ul) li {
