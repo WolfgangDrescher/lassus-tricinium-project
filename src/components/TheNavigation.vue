@@ -31,6 +31,7 @@ function close() {
                         <NavigationItem :href="localePath('cadences')" @click="close">{{ $t('cadences') }}</NavigationItem>
                         <NavigationItem :href="localePath('statistics')" @click="close">{{ $t('statistics') }}</NavigationItem>
                         <NavigationItem :href="localePath('critical-report')" @click="close">{{ $t('criticalReport') }}</NavigationItem>
+                        <NavigationItem :href="localePath('canon')" @click="close">{{ $t('canon') }}</NavigationItem>
                     </ul>
                 </div>
             </div>
