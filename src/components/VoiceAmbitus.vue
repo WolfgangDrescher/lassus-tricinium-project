@@ -96,7 +96,7 @@ const config = {
                 <VerovioCanvas :data="formattedScoreData"></VerovioCanvas>
             </div>
             <div class="w-2/3 shrink-0 grow-0">
-                <div class="h-48">
+                <div class="h-64">
                     <Chart :config="config"></Chart>
                 </div>
             </div>
