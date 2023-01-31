@@ -7,6 +7,7 @@ const emit = defineEmits(['update:modelValue']);
 const containerEl = ref();
 const monacoEl = ref();
 let editor = null;
+let resizeObserver = null;
 
 onMounted(() => {
     nextTick(() => {
@@ -36,11 +37,15 @@ onMounted(() => {
         editor.onDidContentSizeChange(updateHeight);
         updateHeight();
         editor.getModel().onDidChangeContent(() => emit('update:modelValue', editor.getValue()));
-        const resizeObserver = new ResizeObserver(() => {
+        resizeObserver = new ResizeObserver(() => {
             updateHeight();
         });
         resizeObserver.observe(containerEl.value);
     });
+});
+
+onBeforeUnmount(() => {
+    resizeObserver.unobserve(containerEl.value);
 });
 
 watch(() => props.modelValue, (value) => {
