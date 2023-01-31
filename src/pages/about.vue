@@ -170,14 +170,13 @@ defineI18nRoute({
                     <div>
                         <Subheading :level="3" font-size="lg">Wolfgang Drescher</Subheading>
                         <p>
-                            Wolfgang Drescher (geb. 1991 in Basel) studierte zunächst Dirigieren an der Hochschule für
-                            Musik Carl Maria von Weber in Dresden bei Prof. Ekkehard Klemm (BA) und schloss 2018 einen
-                            Master im Fach Musiktheorie bei Prof. Dr. Felix Diergarten an der Hochschule für Musik
-                            Freiburg ab. Anschließend war er als Lehrbeauftragter in den Fächern Musiktheorie und
-                            Gehörbildung ebenfalls an der Hochschule für Musik Freiburg tätig. 2018 bis 2021 arbeitete
-                            er als Programmierer und Projektleiter bei jkweb in Basel und Zürich, zuletzt als
-                            Standortleiter der Niederlassung in Basel. 2019 bis 2020 war er ausserdem Mitarbeiter im
-                            Bereich IT an der Hochschule für Musik Freiburg und wirkte dort am Projekt «DigiPlay» mit.
+                            Wolfgang Drescher studierte Dirigieren an der Hochschule für Musik Carl Maria von Weber in
+                            Dresden (BA) und schloss 2018 einen Master im Fach Musiktheorie bei Prof. Dr. Felix
+                            Diergarten an der Hochschule für Musik Freiburg ab. 2018 bis 2021 arbeitete er als
+                            Programmierer und Projektleiter bei jkweb in Basel und Zürich. 2019 bis 2020 war er
+                            ausserdem Mitarbeiter im Bereich IT an der Hochschule für Musik Freiburg und wirkte dort am
+                            Projekt «DigiPlay» mit. Nach einer Tätigkeit als Lehrbeauftragter ist er seit 2021 Professor
+                            für Musiktheorie mit Schwerpunkt Neue Medien an der Hochschule für Musik Freiburg.
                         </p>
                     </div>
                 </div>
