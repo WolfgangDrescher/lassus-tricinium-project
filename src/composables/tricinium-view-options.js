@@ -11,6 +11,7 @@ const defaultFilter = {
     lyricsDiffOutputFormat: 'side-by-side',
     triciniumScoreFilters: [],
     ulenbergScoreFilters: [],
+    expertMode: false,
 };
 
 export const useTriciniumViewOptionsStore = defineStore('tricinium_view_options', {
