@@ -31,31 +31,38 @@ const localePath = useLocalePath();
                     <template v-slot:first>
                         <FormattedText>
                             <p>
-                                Das «Lassus Tricinium Project» ist eine digitale Editon der Tricinien «Geistliche
-                                Psalmen» von Orlando di Lasso und seinem Sohn Rudolph. Die Kompositionen basieren auf
-                                den «Psalmen Davids» von Caspar Ulenberg. Die Tricinien wurden im <code>**kern</code>
-                                Format ediert und sind auf GitHub einsehbar. Mehr dazu auf der Seite <HyperLink
-                                :href="localePath({name: 'about'})">Über das Projekt</HyperLink>. 
+                                Das «Lassus Tricinium Project» ist eine digitale Edition der «Geistlichen Psalmen» von
+                                Orlando di Lasso und seinem Sohn Rudolph. Die Kompositionen basieren auf den «Psalmen
+                                Davids» von Caspar Ulenberg. Vorlage dieser Edition ist das Digitalisat des Drucks von
+                                1588 der Bayerischen Staatsbibliothek München. Die Tricinien wurden im
+                                <code>**kern</code> Format mit der Humdrum Syntax ediert und sind auf GitHub
+                                veröffentlicht. Mehr dazu auf der Seite
+                                <HyperLink :href="localePath({name: 'about'})">Über das Projekt</HyperLink>. 
                             </p>
                             <p>
-                                Da die Partituren im <code>**kern</code>-Format gesetzt sind ermöglicht dies auf dieser
-                                Website einen interaktiven Gebruach um bestimmte Aspekte so leichter zugänglich machen
-                                zu können. So ist es z.B. möglich die alten Schlüssel per Knopfdruck in moderne
-                                Schlüssel umzuwandeln, einen Intervallsatz anzuzeigen, die Skalenstufen (z.B. als
-                                Bassstufen) anzuzeigen, den Liedtext auszublenden, Kadenzen isoliert zu analysieren oder
-                                die Klauseln nach bestimmten Kadenzfluchten zu durchsuchen, uvm.
+                                Dieses Format ermöglicht es, die Tricinien auf einer Website interaktiv zu betrachten,
+                                wobei gewisse Parameter durch eine vorgängige fachliche Analyse integriert wurden.
+                                Bestimmte Eigenschaften und Merkmale können auf diese Weise auf der Website einfach
+                                abgerufen werden. So ist es z.B. möglich die alte Schlüsselung per Knopfdruck in eine
+                                heute übliche umzuwandeln, einen Intervallsatz und die Skalenstufen anzuzeigen, den
+                                Liedtext aus- und einzublenden, Kadenzen isoliert zu analysieren oder die Klauseln nach
+                                bestimmten Kadenzfluchten zu durchsuchen, uvm. Ausserdem ist über IIIF und mit dem
+                                Verovio Humdrum Viewer eine direkte Integration der Scans des Münchener
+                                DigitalisierungsZentrums gegeben. So kann per Doppelklick auf einzelne Noten die
+                                entsprechende Zeile des originalen Drucks angezeigt werden.
                             </p>
                             <p>
-                                Für Studentinnen und Studenten an der <HyperLink href="https://mh-freiburg.de"
-                                target="_blank">Hochschule für Musik Freiburg</HyperLink> gehört es zum festen
-                                Curriculum im zweiten Semester im Fach Kontrapunkt in der Modulprüfung eine Stilkopie
-                                mit einem Tricinium im Renaissance-Stil zu komponieren. Dieses Projekt soll dazu
-                                beitragen, dass Studentinnen und Studenten sich dieses Genere mit den spezifischen
-                                Stücken von Orlandus und Rudolphus Lassus mit den digitalen Möglichkeiten dieser Website
-                                aneignen können. Unter dem Menüpunkt <HyperLink :href="localePath({name:
+                                Die 50 Tricinien werden damit in einer dynamischen und vor allem interaktiven Art und
+                                Weise aufbereitet, die es Forschenden ermöglicht, die Antworten auf spezifische
+                                Fragestellungen schnell zu finden und für die Analyse zu nutzen. Auch Studierende, die
+                                im Laufe ihrer Ausbildung häufig mit dem Renaissance-Kontrapunkt in Berührung kommen,
+                                können mit Hilfe der Website die wichtigsten Parameter – wie die Verwendung der Modi,
+                                Imitationen, Ambitus, Textbehandlung – schnell erfassen, um sie in eigene Stilkopien
+                                einzubeziehen. Unter dem Menüpunkt <HyperLink :href="localePath({name:
                                 'canon'})">Canon</HyperLink> gibt es zusätzliche Materialien mit den wichtigsten
-                                Informationen zu Modi, Imitationen, Ambitus, Stimmendisposition und Textbehandlung sowie
-                                einer Liste mit Stücken die sich besonders für das Selbststudium eignen.
+                                Informationen zu den Modi, Imitationen, Ambitus, Stimmendisposition und der
+                                Textbehandlung sowie einer Liste mit Stücken die sich besonders für das Selbststudium
+                                eignen.
                             </p>
                         </FormattedText>
                     </template>
