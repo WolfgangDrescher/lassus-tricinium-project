@@ -164,7 +164,14 @@ function toggleScore() {
                 <MidiPlayer :url="audioDataUrl" />
                 <NuxtErrorBoundary>
                     <Suspense>
-                        <HumdrumInteractiveScore ref="humdrumScore" :url="tricinium.localRawFile" @mounted="humdrumScoreMounted" @filtersChanged="triciniumScoreFilters = $event" :verovio-options="triciniumVerovioOptions" :initial-filters="triciniumScoreFilters" />
+                        <HumdrumInteractiveScore
+                            ref="humdrumScore"
+                            :url="tricinium.localRawFile"
+                            @mounted="humdrumScoreMounted"
+                            @update:filters="triciniumScoreFilters = $event"
+                            :verovio-options="triciniumVerovioOptions"
+                            :initial-filters="triciniumScoreFilters"
+                        />
                     </Suspense>
                     <template #error="{ error }">
                         <AlertMessage>
@@ -225,7 +232,7 @@ function toggleScore() {
                     <template #[`tabItem.ulenberg`]>
                         <Card>
                             <Suspense>
-                                <HumdrumInteractiveScore :url="tricinium.localUlenbergRawFile" @filtersChanged="ulenbergScoreFilters = $event" :initial-filters="ulenbergScoreFilters"  />
+                                <HumdrumInteractiveScore :url="tricinium.localUlenbergRawFile" @update:filters="ulenbergScoreFilters = $event" :initial-filters="ulenbergScoreFilters"  />
                             </Suspense>
                         </Card>
                     </template>

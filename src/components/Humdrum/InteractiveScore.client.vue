@@ -16,7 +16,9 @@ const props = defineProps({
     },
 });
 
-const emit = defineEmits(['mounted', 'filtersChanged']);
+const emit = defineEmits([
+    'mounted',
+    'update:filters',
 
 const response = await fetch(props.url);
 if (!response.ok) {
@@ -52,12 +54,12 @@ function verovioCanvasMounted(verovioCanvas) {
 
 function addFilterEvent(filter) {
     addFilter(filter);
-    emit('filtersChanged', toRaw(filters.value));
+    emit('update:filters', toRaw(filters.value));
 }
 
 function removeFilterEvent(filterId) {
     removeFilter(filterId);
-    emit('filtersChanged', toRaw(filters.value));
+    emit('update:expertMode', toRaw(filters.value));
 }
 
 defineExpose({
@@ -69,7 +71,11 @@ defineExpose({
 <template>
     <div class="flex flex-col gap-4">
         <div>
-            <HumdrumFilterGroup :filters="filters" @addFilter="addFilterEvent" @removeFilter="removeFilterEvent" />
+            <HumdrumFilterGroup
+                :filters="filters"
+                @addFilter="addFilterEvent"
+                @removeFilter="removeFilterEvent"
+            />
         </div>
         <div>
             <MonacoEditor v-model="filtersAsString" />
