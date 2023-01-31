@@ -44,7 +44,7 @@ const noteCounts = props.tricinium.getNoteCountOfVoice(props.voice);
 
 const data = [];
 
-for (let keyno = lowestNote.keyno; keyno <= highestNote.keyno; keyno++) {
+for (let keyno = highestNote.keyno; keyno >= lowestNote.keyno; keyno--) {
     const noteCount = noteCounts.find(n => n.keyno === keyno);
     if (noteCount) {
         data.push(noteCount);
