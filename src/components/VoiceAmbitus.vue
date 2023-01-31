@@ -18,11 +18,18 @@ const props = defineProps({
 
 const modernClefsFilter = new ModernClefsFilter();
 
-const kern = ref(`**kern
+const lowestNote = props.tricinium.getLowestNoteOfVoice(props.voice);
+const highestNote = props.tricinium.getHighestNoteOfVoice(props.voice);
+const noteCounts = props.tricinium.getNoteCountOfVoice(props.voice);
+
+const kern = ref();
+
+if (lowestNote && highestNote) {
+    kern.value = `**kern
 *clef${props.tricinium.getVoiceClef(props.voice)}
-1${props.tricinium.getLowestNoteOfVoice(props.voice).kern} 1${props.tricinium.getHighestNoteOfVoice(props.voice).kern}
-*-
-`);
+1${props.tricinium.getLowestNoteOfVoice(props.voice)?.kern} 1${props.tricinium.getHighestNoteOfVoice(props.voice)?.kern}
+*-`
+}
 
 const { addFilter, removeFilter, formattedScoreData } = useHumdrumScoreFormatter(kern);
 
@@ -38,22 +45,20 @@ watch(() => props.modernClefs, (value) => {
     }
 });
 
-const lowestNote = props.tricinium.getLowestNoteOfVoice(props.voice);
-const highestNote = props.tricinium.getHighestNoteOfVoice(props.voice);
-const noteCounts = props.tricinium.getNoteCountOfVoice(props.voice);
-
 const data = [];
 
-for (let keyno = highestNote.keyno; keyno >= lowestNote.keyno; keyno--) {
-    const noteCount = noteCounts.find(n => n.keyno === keyno);
-    if (noteCount) {
-        data.push(noteCount);
-    } else {
-        data.push({
-            keyno,
-            count: 0,
-            kern: null,
-        });
+if (lowestNote && highestNote && noteCounts) {
+    for (let keyno = highestNote.keyno; keyno >= lowestNote.keyno; keyno--) {
+        const noteCount = noteCounts.find(n => n.keyno === keyno);
+        if (noteCount) {
+            data.push(noteCount);
+        } else {
+            data.push({
+                keyno,
+                count: 0,
+                kern: null,
+            });
+        }
     }
 }
 
@@ -93,7 +98,7 @@ const config = {
         <div class="flex gap-4">
             <div class="w-1/3 shrink-0 grow-0">
                 {{ $t('maxVoiceRange') }}
-                <VerovioCanvas :data="formattedScoreData"></VerovioCanvas>
+                <VerovioCanvas v-if="kern" :data="formattedScoreData"></VerovioCanvas>
             </div>
             <div class="w-2/3 shrink-0 grow-0">
                 <div class="h-64">
