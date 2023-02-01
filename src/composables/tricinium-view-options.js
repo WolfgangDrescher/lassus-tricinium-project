@@ -10,6 +10,7 @@ const defaultFilter = {
     showLyricsForVoices: ['cantus', 'tenor', 'bassus'],
     lyricsDiffOutputFormat: 'side-by-side',
     triciniumScoreFilters: [],
+    triciniumScoreManualFilters: '',
     ulenbergScoreFilters: [],
     expertMode: false,
 };

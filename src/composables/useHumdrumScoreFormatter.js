@@ -1,5 +1,7 @@
 export function useHumdrumScoreFormatter(data) {
     const filters = ref([]);
+    // When using exportMode filters are ignored and manualFilters will be used instead
+    const manualFilters = ref('');
 
     function addFilter(filter) {
         if (filter.unique) {
@@ -30,12 +32,13 @@ export function useHumdrumScoreFormatter(data) {
     });
 
     const formattedScoreData = computed(() => {
-        return `${filtersAsString.value}\n${data.value}`.replace(/^\s+|\s+$/g, '');
+        return `${manualFilters.value || filtersAsString.value}\n${data.value}`.replace(/^\s+|\s+$/g, '');
     });
 
     return {
         addFilter,
         removeFilter,
+        manualFilters,
         filters: readonly(filters),
         filtersAsString: filtersAsString,
         formattedScoreData: formattedScoreData,

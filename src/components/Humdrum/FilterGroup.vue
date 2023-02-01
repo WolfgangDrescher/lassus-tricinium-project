@@ -34,7 +34,7 @@ defineProps({
         type: Boolean,
         default: false,
     },
-    filtersAsString: {
+    initialFilterString: {
         type: String,
         default: '',
     },
@@ -43,7 +43,7 @@ const emit = defineEmits([
     'addFilter',
     'removeFilter',
     'update:expertMode',
-    'update:filtersAsString',
+    'update:manualFilters',
 ]);
 
 const { t } = useI18n();
@@ -124,28 +124,28 @@ function applyFilter(event) {
 
 <template>
     <div class="mt-4 flex flex-col gap-4">
-        <div>
-            <FormDropdown v-model="selectedFilter" :options="filterOptions" @update:modelValue="applyFilter" close-on-change />
+        <div class="flex gap-4">
+            <FormDropdown v-if="!expertMode" v-model="selectedFilter" :options="filterOptions" @update:modelValue="applyFilter" close-on-change />
+            <div class="shrink-0 ml-auto justify-self-end">
+                <Button size="md" @click="emit('update:expertMode', !expertMode)">
+                    {{ expertMode ? $t('presetFilters') : $t('expertMode') }}
+                </Button>
+            </div>
         </div>
         <div v-if="selectedFilter">
             <Card>
                 <HumdrumFilterConfigurator :filter="selectedFilter" @applyFilter="applyFilterWithConfig"></HumdrumFilterConfigurator>
             </Card>
         </div>
-        <div class="flex gap-4">
-            <div v-if="filters.length" class="grow">
-                <BadgeGroup>
-                    <Badge v-for="filter in filters" :key="filter.id" :removable="true" @remove="removeFilter(filter.id)">
-                        {{ $t(`humdrumFilter.${filter.className }`) }}
-                    </Badge>
-                </BadgeGroup>
-            </div>
-            <div class="shrink-0 ml-auto justify-self-end">
-                <Button size="sm" @click="emit('update:expertMode', !expertMode)">{{ $t('expertMode') }}</Button>
-            </div>
+        <div v-if="filters.length && !expertMode" class="grow">
+            <BadgeGroup>
+                <Badge v-for="filter in filters" :key="filter.id" :removable="true" @remove="removeFilter(filter.id)">
+                    {{ $t(`humdrumFilter.${filter.className }`) }}
+                </Badge>
+            </BadgeGroup>
         </div>
         <div v-if="expertMode">
-            <MonacoEditor :modelValue="filtersAsString" @update:modelValue="emit('update:filtersAsString', $event)"/>
+            <MonacoEditor :modelValue="initialFilterString" @update:modelValue="emit('update:manualFilters', $event)"/>
         </div>
     </div> 
 </template>

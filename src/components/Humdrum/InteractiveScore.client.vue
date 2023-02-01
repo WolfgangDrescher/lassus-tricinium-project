@@ -14,6 +14,10 @@ const props = defineProps({
         type: Array,
         default: () => [],
     },
+    initialManualFilters: {
+        type: String,
+        default: '',
+    },
     expertMode: {
         type: Boolean,
         default: false,
@@ -24,6 +28,7 @@ const emit = defineEmits([
     'mounted',
     'update:filters',
     'update:expertMode',
+    'update:manualFilters',
 ]);
 
 const response = await fetch(props.url);
@@ -34,7 +39,7 @@ if (!response.ok) {
 const verovioCanvas = ref(null);
 const data = ref(await response.text());
 
-const { formattedScoreData, filtersAsString, filters, addFilter, removeFilter } = useHumdrumScoreFormatter(data, {});
+const { formattedScoreData, filtersAsString, manualFilters, filters, addFilter, removeFilter } = useHumdrumScoreFormatter(data, {});
 
 const verovioCanvasOptions = computed(() => {
     return Object.assign({
@@ -52,6 +57,12 @@ if (props.initialFilters) {
     });
 }
 
+manualFilters.value = props.initialManualFilters;
+
+watch(manualFilters, () => {
+    emit('update:manualFilters', manualFilters.value);
+})
+
 function verovioCanvasMounted(verovioCanvas) {
     emit('mounted', {
         callVerovioMethod: verovioCanvas.callVerovioMethod,
@@ -68,8 +79,15 @@ function removeFilterEvent(filterId) {
     emit('update:filters', toRaw(filters.value));
 }
 
-function onUpdateFiltersAsString(value) {
-    console.log(value);
+function onUpdateManualFilters(value) {
+    manualFilters.value = value;
+}
+
+function onUpdateExpertMode(value) {
+    if (value === false) {
+        manualFilters.value = '';
+    }
+    emit('update:expertMode', value);
 }
 
 defineExpose({
@@ -86,9 +104,9 @@ defineExpose({
                 @addFilter="addFilterEvent"
                 @removeFilter="removeFilterEvent"
                 :expertMode="expertMode"
-                @update:expertMode="emit('update:expertMode', $event)"
-                :filtersAsString="filtersAsString"
-                @update:filtersAsString="onUpdateFiltersAsString"
+                @update:expertMode="onUpdateExpertMode"
+                :initial-filter-string="initialManualFilters || filtersAsString"
+                @update:manualFilters="onUpdateManualFilters"
             />
         </div>
         <div>
