@@ -34,12 +34,14 @@ midiPlayer.on('playing', ({ tick }) => {
     }
 });
 
-midiPlayer.on('midiEvent', ({ name, velocity, noteNumber, ...event }) => {
+const activeKeys = {};
+
+midiPlayer.on('midiEvent', ({ name, velocity, noteNumber }) => {
     if (name === 'Note on') {
         if (velocity === 0) {
-            // TODO stop note
+            instrument.value.stop(ac.currentTime, [activeKeys[noteNumber]]);
         } else {
-            instrument.value.play(noteNumber, 0);
+            activeKeys[noteNumber] = instrument.value.play(noteNumber).id;
         }
     }
 });
