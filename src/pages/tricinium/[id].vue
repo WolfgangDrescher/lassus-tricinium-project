@@ -28,6 +28,7 @@ const { data: cadenceData } = await useAsyncData(`cadences-${tricinium.id}`, () 
 const cadences = useCadence(cadenceData.value ?? [], tricinia);
 
 const humdrumScore = ref(null);
+const midiPlayer = ref(null);
 const audioDataUrl = ref(null);
 
 async function humdrumScoreMounted({ callVerovioMethod }) {
@@ -148,6 +149,10 @@ function onUpdateUlenbergExpertMode(value) {
     ulenbergExpertMode.value = value;
     initialUlenbergManualFilters.value = '';
 }
+
+function onNoteSelected(id, midiValues) {
+    midiPlayer.value.skipToSeconds(midiValues.time / 1000);
+}
 </script>
 
 <template>
@@ -184,7 +189,7 @@ function onUpdateUlenbergExpertMode(value) {
         </div>
         <SplitView :hide="!showSidebar ? 'right' : (!showScore ? 'left' : null)" @update:width="updateSplitViewWidth" :initial-width="splitViewWidth">
             <template v-slot:left>
-                <MidiPlayer :url="audioDataUrl" />
+                <MidiPlayer ref="midiPlayer" :url="audioDataUrl" />
                 <NuxtErrorBoundary>
                     <Suspense>
                         <HumdrumInteractiveScore
@@ -198,6 +203,7 @@ function onUpdateUlenbergExpertMode(value) {
                             @update:manualFilters="triciniumScoreManualFilters = $event"
                             :expert-mode="triciniumExpertMode"
                             @update:expertMode="onUpdateTriciniumExpertMode"
+                            @note-selected="onNoteSelected"
                         />
                     </Suspense>
                     <template #error="{ error }">

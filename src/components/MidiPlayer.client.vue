@@ -6,6 +6,17 @@ const props = defineProps({
     url: String,
 });
 
+defineExpose({
+    skipToSeconds,
+});
+
+function skipToSeconds(seconds) {
+    if (!isLoading.value) {
+        midiPlayer.skipToSeconds(seconds);
+        play();
+    }
+}
+
 const midiPlayerIsReady = useDeferred();
 const soundFrontIsReady = useDeferred();
 const isReady = useDeferred();

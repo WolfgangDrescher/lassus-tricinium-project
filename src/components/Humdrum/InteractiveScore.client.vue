@@ -26,6 +26,7 @@ const props = defineProps({
 
 const emit = defineEmits([
     'mounted',
+    'noteSelected',
     'update:filters',
     'update:expertMode',
     'update:manualFilters',
@@ -93,6 +94,33 @@ function onUpdateExpertMode(value) {
     emit('update:expertMode', value);
 }
 
+async function onClickVerovioCanvas(event) {
+    const noteElem = getMatchingParent(event.target, 'g.note')
+    if (noteElem) {
+        emit('noteSelected', noteElem.id, await callVerovioMethod('getMIDIValuesForElement', noteElem.id));
+        return;
+    }
+    const measureElem = getMatchingParent(event.target, 'g.measure');
+    if (measureElem) {
+        const noteEl = measureElem.querySelector('g.note');
+        if (noteEl) {
+            emit('noteSelected', noteEl.id, await callVerovioMethod('getMIDIValuesForElement', noteEl.id));
+            return;
+        }
+    }
+}
+
+function getMatchingParent(target, selector) {
+    let elem = target;
+    while (elem) {
+        if (elem.matches && elem.matches(selector)) {
+            return elem;
+        }
+        elem = elem.parentNode;
+    }
+    return false;
+}
+
 defineExpose({
     verovioCanvas,
     addFilter,
@@ -113,7 +141,7 @@ defineExpose({
             />
         </div>
         <div>
-            <VerovioCanvas ref="verovioCanvas" v-bind="verovioCanvasOptions" @mounted="verovioCanvasMounted"/>
+            <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" v-bind="verovioCanvasOptions" @mounted="verovioCanvasMounted"/>
         </div>
     </div>
 </template>
