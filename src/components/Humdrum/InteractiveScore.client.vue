@@ -31,6 +31,8 @@ const emit = defineEmits([
     'update:manualFilters',
 ]);
 
+const expertModeRef = ref(props.expertMode);
+
 const response = await fetch(props.url);
 if (!response.ok) {
     throw createError({ statusCode: response.status, statusMessage: response.statusText });
@@ -87,6 +89,7 @@ function onUpdateExpertMode(value) {
     if (value === false) {
         manualFilters.value = '';
     }
+    expertModeRef.value = value;
     emit('update:expertMode', value);
 }
 
@@ -103,7 +106,7 @@ defineExpose({
                 :filters="filters"
                 @addFilter="addFilterEvent"
                 @removeFilter="removeFilterEvent"
-                :expertMode="expertMode"
+                :expertMode="expertModeRef"
                 @update:expertMode="onUpdateExpertMode"
                 :initial-filter-string="initialManualFilters || filtersAsString"
                 @update:manualFilters="onUpdateManualFilters"
