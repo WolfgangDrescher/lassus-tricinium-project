@@ -108,9 +108,20 @@ const infoItems = [{
 }];
 
 const store = useTriciniumViewOptionsStore();
-const { showSidebar, showScore, splitViewWidth, triciniumScoreFilters, triciniumScoreManualFilters, ulenbergScoreFilters, expertMode } = storeToRefs(store);
+const {
+    showSidebar,
+    showScore,
+    splitViewWidth,
+    triciniumScoreFilters,
+    triciniumScoreManualFilters,
+    triciniumExpertMode,
+    ulenbergScoreFilters,
+    ulenbergScoreManualFilters,
+    ulenbergExpertMode,
+} = storeToRefs(store);
 
-const initialManualFilters = ref(triciniumScoreManualFilters.value);
+const initialTriciniumManualFilters = ref(triciniumScoreManualFilters.value);
+const initialUlenbergManualFilters = ref(ulenbergScoreManualFilters.value);
 
 function updateSplitViewWidth(value) {
     splitViewWidth.value = value;
@@ -128,9 +139,14 @@ function toggleScore() {
     showScore.value = !showScore.value;
 }
 
-function onUpdateExpertMode(value) {
-    expertMode.value = value;
-    initialManualFilters.value = '';
+function onUpdateTriciniumExpertMode(value) {
+    triciniumExpertMode.value = value;
+    initialTriciniumManualFilters.value = '';
+}
+
+function onUpdateUlenbergExpertMode(value) {
+    ulenbergExpertMode.value = value;
+    initialUlenbergManualFilters.value = '';
 }
 </script>
 
@@ -178,10 +194,10 @@ function onUpdateExpertMode(value) {
                             @update:filters="triciniumScoreFilters = $event"
                             :verovio-options="triciniumVerovioOptions"
                             :initial-filters="triciniumScoreFilters"
-                            :initial-manual-filters="initialManualFilters"
+                            :initial-manual-filters="initialTriciniumManualFilters"
                             @update:manualFilters="triciniumScoreManualFilters = $event"
-                            :expert-mode="expertMode"
-                            @update:expertMode="onUpdateExpertMode"
+                            :expert-mode="triciniumExpertMode"
+                            @update:expertMode="onUpdateTriciniumExpertMode"
                         />
                     </Suspense>
                     <template #error="{ error }">
@@ -243,7 +259,15 @@ function onUpdateExpertMode(value) {
                     <template #[`tabItem.ulenberg`]>
                         <Card>
                             <Suspense>
-                                <HumdrumInteractiveScore :url="tricinium.localUlenbergRawFile" @update:filters="ulenbergScoreFilters = $event" :initial-filters="ulenbergScoreFilters"  />
+                                <HumdrumInteractiveScore
+                                    :url="tricinium.localUlenbergRawFile"
+                                    @update:filters="ulenbergScoreFilters = $event"
+                                    :initial-filters="ulenbergScoreFilters"
+                                    :initial-manual-filters="initialUlenbergManualFilters"
+                                    @update:manualFilters="ulenbergScoreManualFilters = $event"
+                                    :expert-mode="ulenbergExpertMode"
+                                    @update:expertMode="onUpdateUlenbergExpertMode"
+                                />
                             </Suspense>
                         </Card>
                     </template>
