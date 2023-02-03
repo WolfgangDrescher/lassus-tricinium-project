@@ -66,7 +66,10 @@ watch(manualFilters, () => {
     emit('update:manualFilters', manualFilters.value);
 })
 
+let callVerovioMethod = null;
+
 function verovioCanvasMounted(verovioCanvas) {
+    callVerovioMethod = verovioCanvas.callVerovioMethod;
     emit('mounted', {
         callVerovioMethod: verovioCanvas.callVerovioMethod,
     });
