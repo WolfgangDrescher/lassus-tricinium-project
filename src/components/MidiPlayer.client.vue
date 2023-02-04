@@ -1,6 +1,7 @@
 <script setup>
 import MidiPlayer from 'midi-player-js';
 import Soundfont from 'soundfont-player';
+import { storeToRefs } from 'pinia';
 
 const props = defineProps({
     url: String,
@@ -25,7 +26,7 @@ const ac = new AudioContext();
 const instrument = ref(null);
 const midiPlayer = new MidiPlayer.Player();
 const isPlaying = ref(false);
-const instrumentName = ref('marimba');
+const { instrumentName } = storeToRefs(useMidiPlayerStore());
 
 Promise.all([midiPlayerIsReady.promise, soundFrontIsReady.promise]).then(() => {
     isReady.resolve();
