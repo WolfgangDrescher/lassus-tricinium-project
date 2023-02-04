@@ -36,10 +36,12 @@ export default defineNuxtConfig({
             {
                 baseURL: 'lassus-geistliche-psalmen',
                 dir: fileURLToPath(new URL('./lassus-geistliche-psalmen/kern', import.meta.url)),
+                maxAge: 3600,
             },
             {
                 baseURL: 'ulenberg-psalmen-davids',
                 dir: fileURLToPath(new URL('./ulenberg-psalmen-davids/kern', import.meta.url)),
+                maxAge: 3600,
             },
             {
                 baseURL: 'cadences',
