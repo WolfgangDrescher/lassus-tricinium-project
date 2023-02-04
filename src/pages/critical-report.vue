@@ -38,6 +38,7 @@ defineI18nRoute({
                             Die Orthographie der gesungenen Texte folgt dem Druck von 1588. Wörter wie z.B.
                             <i>warumb</i>, <i>trewer</i>, <i>maystat</i> oder <i>uñ</i> (anstatt <i>und</i>) wurden so
                             belassen, auch wenn sie im Druck in den anderen Stimmen unterschiedlich geschrieben wurden.
+                            Offensichtliche Fehler wie <i>dß</i> anstelle von <i>daß</i> wurden angepasst.
                         </li>
                         <li>
                             Orthographische oder sprachliche Unterschiede in den gesungenen Texten der jeweiligen
@@ -91,6 +92,18 @@ defineI18nRoute({
                                     href="https://www.digitale-sammlungen.de/de/view/bsb00072990?page=11">dieser
                                     Alternative</HyperLink> (<HyperLink
                                     href="https://mdz-nbn-resolving.de/details:bsb00072990">Permalink</HyperLink>).
+                                </li>
+                            </ol>
+                        </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '02-quare-fremuerunt-gentes' }})">
+                                    2. Quare fremuerunt gentes
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 21: Das Wort «dß» im Cantus wurde zu «daß» geändert.
                                 </li>
                             </ol>
                         </div>
