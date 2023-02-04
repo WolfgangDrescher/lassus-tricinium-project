@@ -275,6 +275,16 @@ function onNoteSelected(id, midiValues) {
                                     @update:expertMode="onUpdateUlenbergExpertMode"
                                 />
                             </Suspense>
+                            <div class="mt-4">
+                                <ButtonGroup>
+                                    <Button outline>
+                                        <NuxtLink :to="tricinium.ulenbergSourceFile" target="_blank">{{ $t('openOnGithub') }}</NuxtLink>
+                                    </Button>
+                                    <Button outline>
+                                        <NuxtLink :to="tricinium.ulenbergVhvHref" target="_blank">{{ $t('openOnVhv') }}</NuxtLink>
+                                    </Button>
+                                </ButtonGroup>
+                            </div>
                         </Card>
                     </template>
 

@@ -105,6 +105,10 @@ class Tricinium {
         return `https://verovio.humdrum.org/?file=${this.rawFile}`;
     }
 
+    get ulenbergVhvHref() {
+        return `https://verovio.humdrum.org/?file=${this.ulenbergRawFile}`;
+    }
+
     getLowestNoteOfVoice(voice) {
         return this.tricinium.voices?.[voice]?.prange?.noteCount.reduce((prev, curr) => prev.keyno < curr.keyno ? prev : curr);
     }
