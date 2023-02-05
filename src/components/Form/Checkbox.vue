@@ -9,15 +9,14 @@ function onChange(event) {
 
 <template>
     <FormGroup>
-        <label class="block">
-            <div class="flex gap-2">
-                <div class="shrink">
-                    <input type="checkbox" @input="onChange" :checked="modelValue"/>
-                </div>
-                <div class="grow">
+        <div class="flex">
+            <label class="relative inline-flex items-center cursor-pointer slef-center">
+                <input type="checkbox" @input="onChange" :checked="modelValue" class="sr-only peer">
+                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring peer-focus:ring-primary-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary-600"></div>
+                <span class="ml-3 text-sm font-medium text-gray-900">
                     {{ label }}
-                </div>
-            </div>
-        </label>
+                </span>
+            </label>
+        </div>
     </FormGroup>
 </template>
