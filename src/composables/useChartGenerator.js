@@ -1,17 +1,21 @@
 import { storeToRefs } from 'pinia';
 
-export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength, valueTransformer) {
+export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength, valueTransformer, dimensionAccessor) {
     const statsDimensionOptions = useStatsDimensionStore();
     const { t } = useI18n();
 
     const { dimension } = storeToRefs(statsDimensionOptions);
 
+    function getDimensionValue(element, dimension) {
+        return typeof dimensionAccessor === 'function' ? dimensionAccessor(element, dimension) : (dimension && element[dimension]);
+    }
+
     const elementsGroupedByDimension = computed(() => {
         return elements.value.reduce((accumulator, element) => {
-            let index = accumulator.findIndex((d) => d.label === (dimension.value ? element[dimension.value] : t('all')));
+            let index = accumulator.findIndex((d) => d.label === (getDimensionValue(element, dimension.value) ?? t('all')));
             if (index === -1) {
                 index = -1 + accumulator.push({
-                    label: dimension.value ? element[dimension.value] : t('all'),
+                    label: getDimensionValue(element, dimension.value) ?? t('all'),
                     data: [],
                 });
             }
