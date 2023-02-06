@@ -8,10 +8,10 @@ export function useCadenceStatsGenerator(elements) {
 
     const elementsGroupedByDimension = computed(() => {
         return elements.value.reduce((accumulator, cadence) => {
-            let index = accumulator.findIndex((d) => d.label === (dimension.value ? cadence.tricinium[dimension.value] : t('all')));
+            let index = accumulator.findIndex((d) => d.label === (dimension.value ? cadence.tricinium[dimension.value] : t('total')));
             if (index === -1) {
                 index = -1 + accumulator.push({
-                    label: dimension.value ? cadence.tricinium[dimension.value] : t('all'),
+                    label: dimension.value ? cadence.tricinium[dimension.value] : t('total'),
                     items: [],
                 });
             }
@@ -20,7 +20,7 @@ export function useCadenceStatsGenerator(elements) {
         }, []);
     });
 
-    const dimensionIsActive = computed(() => dimension.value && dimension.value !== 'all');
+    const dimensionIsActive = computed(() => dimension.value && dimension.value !== 'total');
 
     const items = computed(() => {
         const cadences = [];
