@@ -7,16 +7,16 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
     const { dimension } = storeToRefs(statsDimensionOptions);
 
     const elementsGroupedByDimension = computed(() => {
-        return elements.value.reduce((previousValue, tricinium) => {
-            let index = previousValue.findIndex((d) => d.label === (dimension.value ? tricinium[dimension.value] : t('all')));
+        return elements.value.reduce((accumulator, tricinium) => {
+            let index = accumulator.findIndex((d) => d.label === (dimension.value ? tricinium[dimension.value] : t('all')));
             if (index === -1) {
-                index = -1 + previousValue.push({
+                index = -1 + accumulator.push({
                     label: dimension.value ? tricinium[dimension.value] : t('all'),
                     data: [],
                 });
             }
-            previousValue[index].data.push(tricinium);
-            return previousValue;
+            accumulator[index].data.push(tricinium);
+            return accumulator;
         }, []);
     });
 
@@ -28,34 +28,34 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
         return elementsGroupedByDimension.value.map(dataset => {
             return {
                 ...dataset,
-                data: dataset.data.reduce((previousValue, tricinium) => {
+                data: dataset.data.reduce((accumulator, tricinium) => {
                     const x = filterValue(tricinium);
                     if (Array.isArray(x)) {
                         x.forEach(item => {
                             if (item) {
-                                let index = previousValue.findIndex(d => d.x === item);
+                                let index = accumulator.findIndex(d => d.x === formatValue(item));
                                 if (index === -1) {
-                                    index = -1 + previousValue.push({
+                                    index = -1 + accumulator.push({
                                         x: formatValue(item),
                                         y: 0,
                                     });
                                 }
-                                previousValue[index].y++;
+                                accumulator[index].y++;
                             }
                         });
                     } else {
                         if (x) {
-                            let index = previousValue.findIndex(d => d.x === x);
+                            let index = accumulator.findIndex(d => d.x === formatValue(x));
                             if (index === -1) {
-                                index = -1 + previousValue.push({
+                                index = -1 + accumulator.push({
                                     x: formatValue(x),
                                     y: 0,
                                 });
                             }
-                            previousValue[index].y++;
+                            accumulator[index].y++;
                         }
                     }
-                    return previousValue;
+                    return accumulator;
                 }, []),
             };
         });
