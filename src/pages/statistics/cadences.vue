@@ -48,6 +48,9 @@ const { datasets, config } = useChartGenerator(
         <Heading>{{ $t('cadences')}}</Heading>
         <CadenceFilter />
         <ChartDimensionSelector v-model="dimension" />
+        <div class="my-4">
+            {{ $t('nOutOfTotalCadencesFoundForSerachParams', { n: filteredElements.length, total: cadences.length }) }}
+        </div>
         <div class="aspect-w-16 aspect-h-9">
             <Chart :config="config" />
         </div>

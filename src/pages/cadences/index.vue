@@ -32,7 +32,7 @@ const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
         
         <div class="my-4 flex flex-col md:flex-row gap-4">
             <div class="flex items-center">
-                {{ $t('nCadencesFoundForSerachParams', filteredElements.length) }}
+                {{ $t('nOutOfTotalCadencesFoundForSerachParams', { n: filteredElements.length, total: cadences.length }) }}
             </div>
             <div class="ml-auto flex gap-4 items-center">
                 <div>

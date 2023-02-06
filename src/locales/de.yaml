@@ -20,7 +20,7 @@ mode.aeolian: Æolisch
 mode.locrian: Lokrisch
 transposition.cantus_mollis: Cantus mollis
 transposition.cantus_durus: Cantus durus
-nTriciniaFoundForSerachParams: 'Keine Tricinien gefunden für diese Suchparameter | Ein Tricinium gefunden | {n} Tricinien gefunden'
+nOutOfTotalTriciniaFoundForSerachParams: '{n} von {total} Tricinien gefunden'
 info: Info
 lyrics: Liedtext
 ambitus: Ambitus
@@ -61,7 +61,7 @@ cadences: Kadenzen
 line: Zeile
 ultima: Ultima
 degree: Stufe
-nCadencesFoundForSerachParams: 'Keine Kadenzen gefunden für diese Suchparameter | Eine Kadenz gefunden | {n} Kadenzen gefunden'
+nOutOfTotalCadencesFoundForSerachParams: '{n} von {total} Kadenzen gefunden'
 showModernClefs: Moderne Schlüssel anzeigen
 bassusClausula: Klausel im Bassus
 tenorClausula: Klausel im Tenor

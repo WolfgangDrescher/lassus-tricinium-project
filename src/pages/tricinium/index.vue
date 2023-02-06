@@ -65,7 +65,7 @@ const tableItems = computed(() => {
 
         <div class="my-4 flex flex-col md:flex-row gap-4">
             <div class="flex items-center">
-                {{ $t('nTriciniaFoundForSerachParams', filteredElements.length) }}
+                {{ $t('nOutOfTotalTriciniaFoundForSerachParams', { n: filteredElements.length, total: tricinia.length }) }}
             </div>
             <div class="ml-auto flex gap-4 items-center">
                 <template v-if="viewOptions.viewMode === 'score'">
