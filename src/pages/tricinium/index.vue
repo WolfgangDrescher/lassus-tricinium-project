@@ -76,14 +76,14 @@ const tableItems = computed(() => {
                         <FormDropdown v-model="viewOptions.scoreDisplay" :search-enabled="false" :options="scoreOptions" :badge-show-remove-button="false" />
                     </div>
                 </template>
-                <div class="grid grid-cols-2 gap-1">
+                <ButtonGroup>
                     <Button @click="viewOptions.viewMode='table'" outline :selected="viewOptions.viewMode === 'table'">
                         <Icon name="heroicons-solid:view-list" />
                     </Button>
                     <Button @click="viewOptions.viewMode='score'" outline :selected="viewOptions.viewMode === 'score'">
                         <Icon name="heroicons-solid:view-grid" />
                     </Button>
-                </div>
+                </ButtonGroup>
             </div>
         </div>
         
