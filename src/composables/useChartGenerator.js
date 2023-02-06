@@ -7,15 +7,15 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
     const { dimension } = storeToRefs(statsDimensionOptions);
 
     const elementsGroupedByDimension = computed(() => {
-        return elements.value.reduce((accumulator, tricinium) => {
-            let index = accumulator.findIndex((d) => d.label === (dimension.value ? tricinium[dimension.value] : t('all')));
+        return elements.value.reduce((accumulator, element) => {
+            let index = accumulator.findIndex((d) => d.label === (dimension.value ? element[dimension.value] : t('all')));
             if (index === -1) {
                 index = -1 + accumulator.push({
-                    label: dimension.value ? tricinium[dimension.value] : t('all'),
+                    label: dimension.value ? element[dimension.value] : t('all'),
                     data: [],
                 });
             }
-            accumulator[index].data.push(tricinium);
+            accumulator[index].data.push(element);
             return accumulator;
         }, []);
     });
@@ -24,12 +24,14 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
         return typeof valueTransformer === 'function' ? valueTransformer(value) : value;
     };
 
+    filterValue = typeof filterValue !== 'function' ? a => a : filterValue;
+
     const datasets = computed(() => {
         return elementsGroupedByDimension.value.map(dataset => {
             return {
                 ...dataset,
-                data: dataset.data.reduce((accumulator, tricinium) => {
-                    const x = filterValue(tricinium);
+                data: dataset.data.reduce((accumulator, element) => {
+                    const x = filterValue(element);
                     if (Array.isArray(x)) {
                         x.forEach(item => {
                             if (item) {
