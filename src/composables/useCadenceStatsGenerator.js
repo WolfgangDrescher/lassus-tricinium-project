@@ -7,16 +7,16 @@ export function useCadenceStatsGenerator(elements) {
     const { dimension } = storeToRefs(statsDimensionOptions);
 
     const elementsGroupedByDimension = computed(() => {
-        return elements.value.reduce((previousValue, cadence) => {
-            let index = previousValue.findIndex((d) => d.label === (dimension.value ? cadence.tricinium[dimension.value] : t('all')));
+        return elements.value.reduce((accumulator, cadence) => {
+            let index = accumulator.findIndex((d) => d.label === (dimension.value ? cadence.tricinium[dimension.value] : t('all')));
             if (index === -1) {
-                index = -1 + previousValue.push({
+                index = -1 + accumulator.push({
                     label: dimension.value ? cadence.tricinium[dimension.value] : t('all'),
                     items: [],
                 });
             }
-            previousValue[index].items.push(cadence);
-            return previousValue;
+            accumulator[index].items.push(cadence);
+            return accumulator;
         }, []);
     });
 
