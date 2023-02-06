@@ -23,7 +23,24 @@ defineI18nRoute({
 const { filteredElements } = useCadenceFilter(cadences);
 
 const { items, headers, dimension } = useCadenceStatsGenerator(filteredElements);
-const { config } = useChartGenerator(filteredElements, (c) => romanize(c.degree), (a, b) => a.x > b.x ? 1 : -1, undefined, undefined, (element, dimension) => element.tricinium[dimension]);
+const { datasets, config } = useChartGenerator(
+    filteredElements,
+    (c) => romanize(c.degree),
+    (a, b) => a.x > b.x ? 1 : -1,
+    undefined,
+    undefined,
+    (element, dimension) => element.tricinium[dimension],
+    (data) => {
+        Array.from({ length: 7 }, (_, i) => romanize(i + 1)).forEach(n => {
+            if (data.findIndex(i => i.x === n) === -1) {
+                data.push({
+                    x: n,
+                    y: 0,
+                });
+            }
+        });
+    },
+);
 </script>
 
 <template>
