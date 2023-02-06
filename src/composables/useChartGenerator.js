@@ -1,6 +1,6 @@
 import { storeToRefs } from 'pinia';
 
-export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength, valueTransformer, dimensionAccessor) {
+export function useChartGenerator(elements, filterValue, compareFunction, maxDatasetLength, valueTransformer, dimensionAccessor, dataTransformer) {
     const statsDimensionOptions = useStatsDimensionStore();
     const { t } = useI18n();
 
@@ -32,37 +32,41 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
 
     const datasets = computed(() => {
         return elementsGroupedByDimension.value.map(dataset => {
-            return {
-                ...dataset,
-                data: dataset.data.reduce((accumulator, element) => {
-                    const x = filterValue(element);
-                    if (Array.isArray(x)) {
-                        x.forEach(item => {
-                            if (item) {
-                                let index = accumulator.findIndex(d => d.x === formatValue(item));
-                                if (index === -1) {
-                                    index = -1 + accumulator.push({
-                                        x: formatValue(item),
-                                        y: 0,
-                                    });
-                                }
-                                accumulator[index].y++;
-                            }
-                        });
-                    } else {
-                        if (x) {
-                            let index = accumulator.findIndex(d => d.x === formatValue(x));
+            const data = dataset.data.reduce((accumulator, element) => {
+                const x = filterValue(element);
+                if (Array.isArray(x)) {
+                    x.forEach(item => {
+                        if (item) {
+                            let index = accumulator.findIndex(d => d.x === formatValue(item));
                             if (index === -1) {
                                 index = -1 + accumulator.push({
-                                    x: formatValue(x),
+                                    x: formatValue(item),
                                     y: 0,
                                 });
                             }
                             accumulator[index].y++;
                         }
+                    });
+                } else {
+                    if (x) {
+                        let index = accumulator.findIndex(d => d.x === formatValue(x));
+                        if (index === -1) {
+                            index = -1 + accumulator.push({
+                                x: formatValue(x),
+                                y: 0,
+                            });
+                        }
+                        accumulator[index].y++;
                     }
-                    return accumulator;
-                }, []),
+                }
+                return accumulator;
+            }, []);
+            if (typeof dataTransformer === 'function') {
+                dataTransformer(data);
+            }
+            return {
+                ...dataset,
+                data,
             };
         });
     });
