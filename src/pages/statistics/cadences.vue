@@ -54,6 +54,8 @@ const { datasets, config } = useChartGenerator(
         <div class="aspect-w-16 aspect-h-9">
             <Chart :config="config" />
         </div>
-        <DataTable :headers="headers" :items="items"></DataTable>
+        <div class="my-4">
+            <DataTable :headers="headers" :items="items"></DataTable>
+        </div>
     </div>
 </template>
