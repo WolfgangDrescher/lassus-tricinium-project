@@ -100,7 +100,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 const endLine = kern.substring(0, endResult.index).split('\n').length;
                 console.log(startLine, endLine);
 
-                const stdout = execSync(`cat ${file} | myank -I -l ${startLine}-${endLine}`).toString();
+                const stdout = execSync(`cat ${file} | myank -I -l ${startLine}-${endLine} --hide-ending`).toString();
                 const cadenceFileLines = stdout.split('\n').filter(line => {
                     return !(line.match(/^!!\s?cadence/) || line.includes('*xywh'));
                 });
