@@ -1,0 +1,16 @@
+degree: 1
+endLine: 204
+filename: 9b3b694a-4551-5c55-8d38-896ececb466c.krn
+startLine: 195
+triciniumId: 06-domine-ne-in-furore
+ultima: e
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1

@@ -1,0 +1,29 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 6
+!!!OTL@@LA: Domine ne in furore
+!!!OTL-incipit@@DE: Straff mich Herr nit im eiffermut
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC3	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*e:phr	*	*e:phr	*	*e:phr	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=8	=8	=8	=8	=8	=8
+2A	bren-	2c#	grau-	2e	bren-
+2B-	-nen	4d	-sam	2d	-nen
+.	.	2d	bren-	.	.
+1A	thut/	.	.	1e	thut/
+.	.	8c#	.	.	.
+.	.	8B	.	.	.
+.	.	4c#	.	.	.
+.	.	4d	.	.	.
+=9	=9	=9	=9	=9	=9
+[2r	.	2e	.	[2g	züch-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
