@@ -8,6 +8,14 @@ München. Die Tricinien wurden im `**kern` Format mit der Humdrum Syntax ediert
 und sind auf GitHub veröffentlicht.
 
 
+## Repositories
+
+* https://github.com/WolfgangDrescher/lassus-tricinium-project
+* https://github.com/WolfgangDrescher/lassus-geistliche-psalmen
+* https://github.com/WolfgangDrescher/ulenberg-psalmen-davids
+* https://github.com/WolfgangDrescher/vue-verovio-canvas
+
+
 ## Project Setup
 
 ```sh
