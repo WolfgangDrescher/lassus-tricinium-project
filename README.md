@@ -1,35 +1,29 @@
-# lassus-tricinium-project
+# Lassus Tricinium Project
 
-This template should help get you started developing with Vue 3 in Vite.
+Das «Lassus Tricinium Project» ist eine digitale Edition der «Geistlichen
+Psalmen» von Orlando di Lasso und seinem Sohn Rudolph. Die Kompositionen
+basieren auf den «Psalmen Davids» von Caspar Ulenberg. Vorlage dieser Edition
+ist das Digitalisat des Drucks von 1588 der Bayerischen Staatsbibliothek
+München. Die Tricinien wurden im `**kern` Format mit der Humdrum Syntax ediert
+und sind auf GitHub veröffentlicht.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
 ```sh
+git clone --recurse-submodules https://github.com/WolfgangDrescher/lassus-tricinium-project.git
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+
+## Deployment
 
 ```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+# docker image pull ghcr.io/wolfgangdrescher/lassus-tricinium-project:latest
+# docker build -t lassus-tricinium-project .
+docker stop lassus-tricinium-project
+docker rm lassus-tricinium-project
+docker run --name lassus-tricinium-project -d --restart always -p 3000:3000 -e DEPLOY_ENV=prod lassus-tricinium-project
+docker image prune --force
 ```
