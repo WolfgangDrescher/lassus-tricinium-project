@@ -24,6 +24,6 @@ npm run dev
 # docker build -t lassus-tricinium-project .
 docker stop lassus-tricinium-project
 docker rm lassus-tricinium-project
-docker run --name lassus-tricinium-project -d --restart always -p 80:3000 -e DEPLOY_ENV=prod lassus-tricinium-project
+docker run --name lassus-tricinium-project -d --restart always -p 80:3000 lassus-tricinium-project
 docker image prune --force
 ```
