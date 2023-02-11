@@ -17,7 +17,7 @@ npm run dev
 ```
 
 
-## Deployment
+## Deployment on VM
 
 ```sh
 # docker image pull ghcr.io/wolfgangdrescher/lassus-tricinium-project:latest
