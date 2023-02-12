@@ -1,4 +1,4 @@
-const { purple } = require('tailwindcss/colors');
+const { red } = require('tailwindcss/colors');
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: purple,
+                primary: red,
             },
             gridTemplateColumns: {
                 filter: 'repeat(auto-fill, minmax(200px, 1fr))',
