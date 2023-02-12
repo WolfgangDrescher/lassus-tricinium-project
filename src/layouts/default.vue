@@ -7,12 +7,13 @@ useHead({
 </script>
 
 <template>
-    <header>
-        <TheNavigation />
-    </header>
-    <main class="py-8">
-        <slot></slot>
-    </main>
+    <div class="flex flex-col min-h-screen">
+        <TheHeader />
+        <main class="py-8">
+            <slot></slot>
+        </main>
+        <TheFooter class="mt-auto" />
+    </div>
 </template>
 
 <style>
