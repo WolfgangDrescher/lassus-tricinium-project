@@ -133,6 +133,10 @@ class Tricinium {
         return this.tricinium.cantusFirmus;
     }
 
+    get cantusFirmusAsString() {
+        return this.tricinium.cantusFirmus?.join(',');
+    }
+
     get comments() {
         return this.tricinium.comments || [];
     }
