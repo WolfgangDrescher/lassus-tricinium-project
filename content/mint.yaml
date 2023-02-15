@@ -1725,7 +1725,6 @@
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
-+M6: []
 +P4:
     -
         lineIndex: 65
@@ -3763,7 +3762,6 @@
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
-+m7: []
 '-M2':
     -
         lineIndex: 32
@@ -5791,7 +5789,6 @@
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
-'-M6': []
 '-P4':
     -
         lineIndex: 55
