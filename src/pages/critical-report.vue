@@ -119,6 +119,19 @@ defineI18nRoute({
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '08-domine-dominus-noster' }})">
+                                    8. Domine Dominus noster
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 11-12: Fehlende Textwiederholung (<code>ij</code>) im Cantus ergänzt bei
+                                    «durchauß in aller welt».
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </FormattedText>
             </section>
