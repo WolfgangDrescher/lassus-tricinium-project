@@ -50,7 +50,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 let next = null;
                 for (let i = lineIndex + 1; i < mintKernLines.length; i++) {
                     const nextLine = mintKernLines[i];
-                    if (nextLine.startsWith('+') || nextLine.startsWith('-') || nextLine.startsWith('r') || nextLine.match(/^[APd]+1$/)) {
+                    if (nextLine.startsWith('+') || nextLine.startsWith('-') || nextLine === 'r' || nextLine.match(/^[APd]+1$/)) {
                         next = nextLine;
                         break;
                     }
