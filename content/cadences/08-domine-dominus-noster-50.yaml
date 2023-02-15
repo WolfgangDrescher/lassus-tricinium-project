@@ -1,13 +1,13 @@
 degree: 1
-endLine: 158
-filename: ec2b113b-ad4d-51bd-bc3d-c776cb7d6765.krn
-startLine: 140
+endLine: 65
+filename: da8cc2bb-21df-57df-a42d-ed78a8b1837a.krn
+startLine: 50
 triciniumId: 08-domine-dominus-noster
 ultima: d
 voices:
     bassus:
         penultima: 5
-        ultima: 6
+        ultima: 0
     cantus:
         penultima: 2
         ultima: 1

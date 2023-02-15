@@ -1,7 +1,7 @@
 degree: 1
-endLine: 127
-filename: 2e44949a-2e32-5175-8221-3b3cb40ff6d9.krn
-startLine: 114
+endLine: 93
+filename: 2982d772-3754-5e2b-8d80-61be2fb26d16.krn
+startLine: 82
 triciniumId: 08-domine-dominus-noster
 ultima: d
 voices:
@@ -10,7 +10,7 @@ voices:
         ultima: 1
     cantus:
         penultima: 2
-        ultima: 0
+        ultima: 1
     tenor:
         penultima: 7
-        ultima: 1
+        ultima: 3
