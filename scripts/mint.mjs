@@ -44,9 +44,6 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
         mintKernLines.forEach((line, lineIndex) => {
             if (line.startsWith('+') || line.startsWith('-') || line.match(/^[APd]+1$/)) {
                 const interval = line;
-                if (!Array.isArray(directions[interval])) {
-                    directions[interval] = [];
-                }
                 let prevIsRest = null;
                 for (let i = lineIndex - 1; i >= 0; i--) {
                     const prevLine = mintKernLines[i];
@@ -68,6 +65,9 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     }
                 }
                 if (!prevIsRest) {
+                    if (!Array.isArray(directions[interval])) {
+                        directions[interval] = [];
+                    }
                     directions[interval].push({
                         triciniumId: id,
                         lineIndex,
