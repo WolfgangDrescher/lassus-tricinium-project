@@ -45,7 +45,7 @@ const filterBySearchText = (searchText, element) => {
 
 const filterByCantusFirmus = (cantusFirmus, element) => {
     if (!cantusFirmus.length) return true;
-    return cantusFirmus.map(c => c?.toLowerCase()).includes(element.cantusFirmus?.toLowerCase());
+    return cantusFirmus.map(c => c?.toLowerCase()).includes(element.cantusFirmusAsString?.toLowerCase());
 };
 
 export function useTriciniumFilter(elements) {
