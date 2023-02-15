@@ -47,6 +47,18 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 if (!Array.isArray(directions[interval])) {
                     directions[interval] = [];
                 }
+                let prevIsRest = null;
+                for (let i = lineIndex - 1; i >= 0; i--) {
+                    const prevLine = mintKernLines[i];
+                    if (prevLine.startsWith('+') || prevLine.startsWith('-') || prevLine.match(/^[APd]+1$/)) {
+                        prevIsRest = false;
+                        break;
+                    }
+                    if (prevLine === 'r') {
+                        prevIsRest = true;
+                        break;
+                    }
+                }
                 let next = null;
                 for (let i = lineIndex + 1; i < mintKernLines.length; i++) {
                     const nextLine = mintKernLines[i];
@@ -55,12 +67,14 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                         break;
                     }
                 }
-                directions[interval].push({
-                    triciniumId: id,
-                    lineIndex,
-                    next,
-                    spine: voice.spine,
-                });
+                if (!prevIsRest) {
+                    directions[interval].push({
+                        triciniumId: id,
+                        lineIndex,
+                        next,
+                        spine: voice.spine,
+                    });
+                }
             }
         });
     });
