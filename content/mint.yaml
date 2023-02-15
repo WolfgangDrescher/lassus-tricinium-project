@@ -8622,3 +8622,1009 @@
         next: '-M3'
         spine: 5
         triciniumId: 08-domine-dominus-noster
+P1:
+    -
+        lineIndex: 24
+        next: P1
+        spine: 1
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 25
+        next: '-m3'
+        spine: 1
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 44
+        next: '=5'
+        spine: 1
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 64
+        next: +P4
+        spine: 1
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 74
+        next: '=9'
+        spine: 1
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 140
+        next: '=19'
+        spine: 1
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 164
+        next: +M2
+        spine: 1
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 43
+        next: P1
+        spine: 3
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 44
+        next: '=5'
+        spine: 3
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 70
+        next: .
+        spine: 3
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 77
+        next: +M2
+        spine: 3
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 107
+        next: .
+        spine: 3
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 120
+        next: '-m2'
+        spine: 3
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 128
+        next: +M2
+        spine: 3
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 130
+        next: '=18'
+        spine: 3
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 21
+        next: P1
+        spine: 5
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 22
+        next: '=2'
+        spine: 5
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 42
+        next: '-M2'
+        spine: 5
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 49
+        next: .
+        spine: 5
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 68
+        next: '=8'
+        spine: 5
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 111
+        next: .
+        spine: 5
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 130
+        next: '=18'
+        spine: 5
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 165
+        next: .
+        spine: 5
+        triciniumId: 01-beatus-vir
+    -
+        lineIndex: 40
+        next: P1
+        spine: 1
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 41
+        next: '*'
+        spine: 1
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 151
+        next: '!! cadence start'
+        spine: 1
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 21
+        next: P1
+        spine: 3
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 22
+        next: '=2'
+        spine: 3
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 43
+        next: '=5'
+        spine: 3
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 45
+        next: P1
+        spine: 3
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 46
+        next: '*xywh-#72:309,574,2770,430'
+        spine: 3
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 91
+        next: '=12'
+        spine: 3
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 124
+        next: '=17'
+        spine: 3
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 167
+        next: .
+        spine: 3
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 24
+        next: P1
+        spine: 5
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 25
+        next: '-M2'
+        spine: 5
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 40
+        next: P1
+        spine: 5
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 41
+        next: '*'
+        spine: 5
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 74
+        next: '=9'
+        spine: 5
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 5
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 81
+        next: '-m2'
+        spine: 5
+        triciniumId: 02-quare-fremuerunt-gentes
+    -
+        lineIndex: 28
+        next: '-P5'
+        spine: 1
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 71
+        next: '!! cadence start'
+        spine: 1
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 22
+        next: +m3
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 27
+        next: '-m2'
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 34
+        next: +M2
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 39
+        next: '-m2'
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 47
+        next: '*'
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 70
+        next: +M2
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 119
+        next: '=16'
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 151
+        next: .
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 165
+        next: +M2
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 181
+        next: .
+        spine: 3
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 24
+        next: '=2'
+        spine: 5
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 49
+        next: +P5
+        spine: 5
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 77
+        next: '-M2'
+        spine: 5
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 106
+        next: '=14'
+        spine: 5
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 126
+        next: +m3
+        spine: 5
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 147
+        next: '=20'
+        spine: 5
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 151
+        next: '-m2'
+        spine: 5
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 170
+        next: +M2
+        spine: 5
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 176
+        next: '=23'
+        spine: 5
+        triciniumId: 03-domine-quid-multiplicati
+    -
+        lineIndex: 49
+        next: P1
+        spine: 1
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 50
+        next: .
+        spine: 1
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 74
+        next: P1
+        spine: 1
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 75
+        next: '-P4'
+        spine: 1
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 81
+        next: .
+        spine: 1
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 112
+        next: '=14'
+        spine: 1
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 142
+        next: '=18'
+        spine: 1
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 33
+        next: P1
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 34
+        next: .
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 54
+        next: +P8
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 64
+        next: '=8'
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 81
+        next: .
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 83
+        next: '-M3'
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 93
+        next: .
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 103
+        next: '=13'
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 151
+        next: .
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 186
+        next: '=24'
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 191
+        next: .
+        spine: 3
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 20
+        next: P1
+        spine: 5
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 21
+        next: '=2'
+        spine: 5
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 48
+        next: P1
+        spine: 5
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 49
+        next: .
+        spine: 5
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 71
+        next: P1
+        spine: 5
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 72
+        next: '=9'
+        spine: 5
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 94
+        next: '*xywh-#14:313,995,2729,416'
+        spine: 5
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 98
+        next: '=12'
+        spine: 5
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 152
+        next: '!! cadence start'
+        spine: 5
+        triciniumId: 04-cum-invocarem
+    -
+        lineIndex: 30
+        next: '=3'
+        spine: 1
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 51
+        next: .
+        spine: 1
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 107
+        next: .
+        spine: 1
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 123
+        next: +m2
+        spine: 1
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 134
+        next: .
+        spine: 1
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 160
+        next: .
+        spine: 1
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 163
+        next: +P4
+        spine: 1
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 196
+        next: .
+        spine: 1
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 22
+        next: '-m2'
+        spine: 3
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 27
+        next: '-m2'
+        spine: 3
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 66
+        next: '-m2'
+        spine: 3
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 72
+        next: '-m2'
+        spine: 3
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 108
+        next: P1
+        spine: 3
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 109
+        next: '!! cadence start'
+        spine: 3
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 122
+        next: +m2
+        spine: 3
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 124
+        next: '=14'
+        spine: 3
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 22
+        next: '-m2'
+        spine: 5
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 43
+        next: '-m2'
+        spine: 5
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 94
+        next: '-m2'
+        spine: 5
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 101
+        next: '-M2'
+        spine: 5
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 107
+        next: .
+        spine: 5
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 114
+        next: r
+        spine: 5
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 123
+        next: +M2
+        spine: 5
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 157
+        next: '*'
+        spine: 5
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 161
+        next: '=18'
+        spine: 5
+        triciniumId: 05-verba-mea-auribus
+    -
+        lineIndex: 25
+        next: .
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 27
+        next: .
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 32
+        next: '-M2'
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 35
+        next: .
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 57
+        next: .
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 60
+        next: '=7'
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 93
+        next: '=11'
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 129
+        next: '-m2'
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 144
+        next: +P5
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 147
+        next: '=18'
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 174
+        next: .
+        spine: 1
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 20
+        next: P1
+        spine: 3
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 21
+        next: '=2'
+        spine: 3
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 24
+        next: '-m2'
+        spine: 3
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 62
+        next: .
+        spine: 3
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 75
+        next: .
+        spine: 3
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 96
+        next: +M2
+        spine: 3
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 105
+        next: '-m2'
+        spine: 3
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 134
+        next: '=16'
+        spine: 3
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 151
+        next: +M2
+        spine: 3
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 43
+        next: .
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 45
+        next: '=5'
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 51
+        next: '-M2'
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 53
+        next: '=6'
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 60
+        next: '=7'
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 64
+        next: .
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 86
+        next: .
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 93
+        next: '=11'
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 119
+        next: '-m2'
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 132
+        next: '!! cadence end b; ultima=d'
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 173
+        next: P1
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 174
+        next: .
+        spine: 5
+        triciniumId: 06-domine-ne-in-furore
+    -
+        lineIndex: 31
+        next: .
+        spine: 1
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 33
+        next: .
+        spine: 1
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 78
+        next: +M3
+        spine: 1
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 85
+        next: '=10'
+        spine: 1
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 102
+        next: '=12'
+        spine: 1
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 129
+        next: +M2
+        spine: 1
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 20
+        next: P1
+        spine: 3
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 21
+        next: '=2'
+        spine: 3
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 60
+        next: +m2
+        spine: 3
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 129
+        next: +m2
+        spine: 3
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 176
+        next: '=21'
+        spine: 3
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 180
+        next: +M2
+        spine: 3
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 227
+        next: '*'
+        spine: 3
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 23
+        next: P1
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 24
+        next: .
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 83
+        next: +P4
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 88
+        next: .
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 109
+        next: '=13'
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 122
+        next: '-M2'
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 135
+        next: '!! cadence start'
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 143
+        next: .
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 221
+        next: '*'
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 225
+        next: '=27'
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 237
+        next: '!! cadence start'
+        spine: 5
+        triciniumId: 07-domine-deus-meus
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 1
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 155
+        next: '=17'
+        spine: 1
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 190
+        next: '-P5'
+        spine: 1
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 197
+        next: +P5
+        spine: 1
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 199
+        next: '=23'
+        spine: 1
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 22
+        next: +M2
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 33
+        next: .
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 54
+        next: .
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 84
+        next: '*'
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 115
+        next: .
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 142
+        next: .
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 148
+        next: .
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 163
+        next: '=18'
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 179
+        next: '=20'
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 184
+        next: '-m2'
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 22
+        next: .
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 24
+        next: .
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 33
+        next: .
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 41
+        next: '=4'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 43
+        next: .
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 46
+        next: '*'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 48
+        next: '!! cadence start'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 50
+        next: '=5'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 54
+        next: '-m2'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 78
+        next: '*'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 86
+        next: '=9'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 90
+        next: '-M2'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 94
+        next: '=10'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 134
+        next: .
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 137
+        next: '-m3'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
