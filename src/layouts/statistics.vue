@@ -21,7 +21,7 @@ const localePath = useLocalePath();
                         </ul>
                     </div>
                 </aside>
-                <div class="grow">
+                <div class="grow min-w-0">
                     <slot></slot>
                 </div>
             </div>
