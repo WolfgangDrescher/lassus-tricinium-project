@@ -18,6 +18,7 @@ const localePath = useLocalePath();
                             <StatisticsSidebarItem :href="localePath('statistics-cantus-firmus')">{{ $t('cantusFirmus') }}</StatisticsSidebarItem>
                             <StatisticsSidebarItem :href="localePath('statistics-words')">{{ $t('words') }}</StatisticsSidebarItem>
                             <StatisticsSidebarItem :href="localePath('statistics-cadences')">{{ $t('cadences') }}</StatisticsSidebarItem>
+                            <StatisticsSidebarItem :href="localePath('statistics-melodic-intervals')">{{ $t('melodicIntervals') }}</StatisticsSidebarItem>
                         </ul>
                     </div>
                 </aside>
