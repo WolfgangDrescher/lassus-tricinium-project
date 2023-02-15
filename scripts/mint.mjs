@@ -42,7 +42,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
         const mintKern = execSync(`cat ${file} | extractxx -f ${voice.spine} | mint`).toString();
         const mintKernLines = mintKern.split('\n');
         mintKernLines.forEach((line, lineIndex) => {
-            if (line.startsWith('+') || line.startsWith('-')) {
+            if (line.startsWith('+') || line.startsWith('-') || line.match(/^[APd]+1$/)) {
                 const interval = line;
                 if (!Array.isArray(directions[interval])) {
                     directions[interval] = [];
@@ -50,7 +50,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 let next = null;
                 for (let i = lineIndex + 1; i < mintKernLines.length; i++) {
                     const nextLine = mintKernLines[i];
-                    if (nextLine.startsWith('+') || nextLine.startsWith('-') || nextLine.startsWith('r')) {
+                    if (nextLine.startsWith('+') || nextLine.startsWith('-') || nextLine.startsWith('r') || line.match(/^[APd]+1$/)) {
                         next = nextLine;
                         break;
                     }
