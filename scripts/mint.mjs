@@ -25,7 +25,7 @@ function getFiles(directory, fileList) {
     return fileList;
 }
 
-execSync(`rm -f ${__dirname}/../content/directions.yaml`);
+execSync(`rm -f ${__dirname}/../content/mint.yaml`);
 
 const voiceMap = [
     { spine: 1, name: 'bassus' },
@@ -64,7 +64,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
             }
         });
     });
-    fs.writeFileSync(`${__dirname}/../content/directions.yaml`, yaml.dump(directions, {
+    fs.writeFileSync(`${__dirname}/../content/mint.yaml`, yaml.dump(directions, {
         indent: 4,
         lineWidth: -1,
         sortKeys: true,
