@@ -1,0 +1,16 @@
+degree: 1
+endLine: 64
+filename: da8cc2bb-21df-57df-a42d-ed78a8b1837a.krn
+startLine: 49
+triciniumId: 08-domine-dominus-noster
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 0
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1
