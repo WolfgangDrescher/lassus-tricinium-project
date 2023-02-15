@@ -435,11 +435,6 @@
         spine: 1
         triciniumId: 03-domine-quid-multiplicati
     -
-        lineIndex: 140
-        next: +M2
-        spine: 1
-        triciniumId: 03-domine-quid-multiplicati
-    -
         lineIndex: 142
         next: +m2
         spine: 1
@@ -497,11 +492,6 @@
     -
         lineIndex: 122
         next: +m2
-        spine: 3
-        triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 138
-        next: +M2
         spine: 3
         triciniumId: 03-domine-quid-multiplicati
     -
@@ -750,11 +740,6 @@
         spine: 5
         triciniumId: 04-cum-invocarem
     -
-        lineIndex: 118
-        next: +P4
-        spine: 5
-        triciniumId: 04-cum-invocarem
-    -
         lineIndex: 122
         next: +m2
         spine: 5
@@ -981,11 +966,6 @@
         triciniumId: 05-verba-mea-auribus
     -
         lineIndex: 78
-        next: +m2
-        spine: 5
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 85
         next: +m2
         spine: 5
         triciniumId: 05-verba-mea-auribus
@@ -1267,11 +1247,6 @@
     -
         lineIndex: 44
         next: r
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 126
-        next: +m3
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
@@ -1666,11 +1641,6 @@
         spine: 1
         triciniumId: 02-quare-fremuerunt-gentes
     -
-        lineIndex: 141
-        next: '-M2'
-        spine: 3
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
         lineIndex: 31
         next: +m2
         spine: 1
@@ -1686,23 +1656,8 @@
         spine: 1
         triciniumId: 03-domine-quid-multiplicati
     -
-        lineIndex: 122
-        next: '-P5'
-        spine: 1
-        triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 163
-        next: +m2
-        spine: 1
-        triciniumId: 03-domine-quid-multiplicati
-    -
         lineIndex: 65
         next: '-P5'
-        spine: 5
-        triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 93
-        next: +m2
         spine: 5
         triciniumId: 03-domine-quid-multiplicati
     -
@@ -1741,16 +1696,6 @@
         spine: 5
         triciniumId: 04-cum-invocarem
     -
-        lineIndex: 128
-        next: '-M2'
-        spine: 1
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 117
-        next: +m2
-        spine: 5
-        triciniumId: 05-verba-mea-auribus
-    -
         lineIndex: 181
         next: +M2
         spine: 5
@@ -1763,11 +1708,6 @@
     -
         lineIndex: 106
         next: '-M2'
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 212
-        next: +m6
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
@@ -1785,22 +1725,7 @@
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
-+M6:
-    -
-        lineIndex: 61
-        next: P1
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 134
-        next: '-M2'
-        spine: 1
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
-        lineIndex: 94
-        next: +m2
-        spine: 1
-        triciniumId: 03-domine-quid-multiplicati
++M6: []
 +P4:
     -
         lineIndex: 65
@@ -1810,11 +1735,6 @@
     -
         lineIndex: 101
         next: '-m2'
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 130
-        next: +M2
         spine: 1
         triciniumId: 01-beatus-vir
     -
@@ -1848,11 +1768,6 @@
         spine: 5
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 124
-        next: +M2
-        spine: 5
-        triciniumId: 01-beatus-vir
-    -
         lineIndex: 157
         next: +m3
         spine: 5
@@ -1863,22 +1778,12 @@
         spine: 5
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 171
-        next: '-m3'
-        spine: 5
-        triciniumId: 01-beatus-vir
-    -
         lineIndex: 57
         next: '-M2'
         spine: 1
         triciniumId: 02-quare-fremuerunt-gentes
     -
         lineIndex: 85
-        next: +M2
-        spine: 1
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
-        lineIndex: 107
         next: +M2
         spine: 1
         triciniumId: 02-quare-fremuerunt-gentes
@@ -1953,20 +1858,10 @@
         spine: 1
         triciniumId: 03-domine-quid-multiplicati
     -
-        lineIndex: 22
-        next: P1
-        spine: 5
-        triciniumId: 03-domine-quid-multiplicati
-    -
         lineIndex: 135
         next: +M2
         spine: 5
         triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 71
-        next: P1
-        spine: 1
-        triciniumId: 04-cum-invocarem
     -
         lineIndex: 79
         next: P1
@@ -1980,11 +1875,6 @@
     -
         lineIndex: 127
         next: +M2
-        spine: 3
-        triciniumId: 04-cum-invocarem
-    -
-        lineIndex: 163
-        next: '-M3'
         spine: 3
         triciniumId: 04-cum-invocarem
     -
@@ -2021,11 +1911,6 @@
         lineIndex: 166
         next: '-m2'
         spine: 1
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 139
-        next: '-M2'
-        spine: 3
         triciniumId: 05-verba-mea-auribus
     -
         lineIndex: 75
@@ -2173,11 +2058,6 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 190
-        next: '-m2'
-        spine: 5
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 215
         next: '-m2'
         spine: 5
@@ -2193,24 +2073,9 @@
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 179
-        next: '-M2'
-        spine: 1
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 188
-        next: '-M3'
-        spine: 3
-        triciniumId: 08-domine-dominus-noster
-    -
         lineIndex: 196
         next: '-m2'
         spine: 3
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 128
-        next: +m3
-        spine: 5
         triciniumId: 08-domine-dominus-noster
 +P5:
     -
@@ -2224,11 +2089,6 @@
         spine: 1
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 178
-        next: '-m3'
-        spine: 3
-        triciniumId: 01-beatus-vir
-    -
         lineIndex: 97
         next: +M2
         spine: 1
@@ -2239,24 +2099,9 @@
         spine: 1
         triciniumId: 02-quare-fremuerunt-gentes
     -
-        lineIndex: 117
-        next: +m2
-        spine: 3
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
-        lineIndex: 57
-        next: '-M2'
-        spine: 5
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
         lineIndex: 23
         next: '-M2'
         spine: 1
-        triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 101
-        next: +m2
-        spine: 3
         triciniumId: 03-domine-quid-multiplicati
     -
         lineIndex: 50
@@ -2272,11 +2117,6 @@
         lineIndex: 136
         next: '-M2'
         spine: 1
-        triciniumId: 04-cum-invocarem
-    -
-        lineIndex: 79
-        next: P1
-        spine: 3
         triciniumId: 04-cum-invocarem
     -
         lineIndex: 146
@@ -2314,11 +2154,6 @@
         spine: 3
         triciniumId: 06-domine-ne-in-furore
     -
-        lineIndex: 158
-        next: +M2
-        spine: 5
-        triciniumId: 06-domine-ne-in-furore
-    -
         lineIndex: 171
         next: '-m3'
         spine: 1
@@ -2331,16 +2166,6 @@
     -
         lineIndex: 42
         next: +M2
-        spine: 5
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 231
-        next: +P4
-        spine: 5
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 243
-        next: +m3
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
@@ -2362,11 +2187,6 @@
         lineIndex: 192
         next: '-P5'
         spine: 3
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 160
-        next: +m2
-        spine: 5
         triciniumId: 08-domine-dominus-noster
 +P8:
     -
@@ -2435,11 +2255,6 @@
         spine: 1
         triciniumId: 06-domine-ne-in-furore
     -
-        lineIndex: 56
-        next: +m2
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 185
         next: '-m2'
         spine: 1
@@ -2463,11 +2278,6 @@
         lineIndex: 115
         next: '-M3'
         spine: 1
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 185
-        next: '-M2'
-        spine: 5
         triciniumId: 08-domine-dominus-noster
 +d4:
     -
@@ -2667,11 +2477,6 @@
         spine: 1
         triciniumId: 02-quare-fremuerunt-gentes
     -
-        lineIndex: 163
-        next: +M3
-        spine: 1
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
         lineIndex: 167
         next: +M3
         spine: 1
@@ -2823,11 +2628,6 @@
         triciniumId: 03-domine-quid-multiplicati
     -
         lineIndex: 75
-        next: '-m2'
-        spine: 3
-        triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 85
         next: '-m2'
         spine: 3
         triciniumId: 03-domine-quid-multiplicati
@@ -3007,11 +2807,6 @@
         spine: 1
         triciniumId: 05-verba-mea-auribus
     -
-        lineIndex: 104
-        next: P1
-        spine: 1
-        triciniumId: 05-verba-mea-auribus
-    -
         lineIndex: 115
         next: r
         spine: 1
@@ -3129,11 +2924,6 @@
     -
         lineIndex: 59
         next: +M2
-        spine: 5
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 65
-        next: '-m2'
         spine: 5
         triciniumId: 05-verba-mea-auribus
     -
@@ -3578,24 +3368,9 @@
         triciniumId: 08-domine-dominus-noster
 +m3:
     -
-        lineIndex: 98
-        next: +P4
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
         lineIndex: 115
         next: '-M2'
         spine: 1
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 174
-        next: '-m3'
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 158
-        next: '-m3'
-        spine: 3
         triciniumId: 01-beatus-vir
     -
         lineIndex: 46
@@ -3688,11 +3463,6 @@
         spine: 5
         triciniumId: 03-domine-quid-multiplicati
     -
-        lineIndex: 163
-        next: +M2
-        spine: 5
-        triciniumId: 03-domine-quid-multiplicati
-    -
         lineIndex: 54
         next: '-m3'
         spine: 1
@@ -3766,11 +3536,6 @@
         lineIndex: 187
         next: +M2
         spine: 3
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 33
-        next: +M2
-        spine: 5
         triciniumId: 05-verba-mea-auribus
     -
         lineIndex: 111
@@ -3848,16 +3613,6 @@
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 70
-        next: +m2
-        spine: 3
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 85
-        next: +m2
-        spine: 3
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 117
         next: '-m2'
         spine: 3
@@ -3870,11 +3625,6 @@
     -
         lineIndex: 178
         next: P1
-        spine: 3
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 189
-        next: '-M2'
         spine: 3
         triciniumId: 07-domine-deus-meus
     -
@@ -3959,11 +3709,6 @@
         spine: 1
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 169
-        next: +M2
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
         lineIndex: 186
         next: r
         spine: 1
@@ -3977,11 +3722,6 @@
         lineIndex: 124
         next: '-P4'
         spine: 1
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
-        lineIndex: 38
-        next: P1
-        spine: 5
         triciniumId: 02-quare-fremuerunt-gentes
     -
         lineIndex: 119
@@ -4004,19 +3744,9 @@
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 154
-        next: '-m2'
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 214
         next: '-m3'
         spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 156
-        next: '-m2'
-        spine: 3
         triciniumId: 07-domine-deus-meus
     -
         lineIndex: 31
@@ -4033,17 +3763,7 @@
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
-+m7:
-    -
-        lineIndex: 153
-        next: '-m3'
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 108
-        next: '-m2'
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
++m7: []
 '-M2':
     -
         lineIndex: 32
@@ -4133,11 +3853,6 @@
     -
         lineIndex: 83
         next: '-m2'
-        spine: 3
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 91
-        next: +M2
         spine: 3
         triciniumId: 01-beatus-vir
     -
@@ -5031,11 +4746,6 @@
         spine: 1
         triciniumId: 05-verba-mea-auribus
     -
-        lineIndex: 78
-        next: +M2
-        spine: 1
-        triciniumId: 05-verba-mea-auribus
-    -
         lineIndex: 86
         next: '-m2'
         spine: 1
@@ -5236,11 +4946,6 @@
         spine: 1
         triciniumId: 06-domine-ne-in-furore
     -
-        lineIndex: 90
-        next: +M2
-        spine: 1
-        triciniumId: 06-domine-ne-in-furore
-    -
         lineIndex: 99
         next: '-M2'
         spine: 1
@@ -5263,11 +4968,6 @@
     -
         lineIndex: 115
         next: +P4
-        spine: 1
-        triciniumId: 06-domine-ne-in-furore
-    -
-        lineIndex: 153
-        next: +M2
         spine: 1
         triciniumId: 06-domine-ne-in-furore
     -
@@ -5313,11 +5013,6 @@
     -
         lineIndex: 90
         next: r
-        spine: 3
-        triciniumId: 06-domine-ne-in-furore
-    -
-        lineIndex: 93
-        next: +M2
         spine: 3
         triciniumId: 06-domine-ne-in-furore
     -
@@ -5721,11 +5416,6 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 162
-        next: '-M2'
-        spine: 5
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 169
         next: '-m2'
         spine: 5
@@ -5957,19 +5647,9 @@
         spine: 5
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 70
-        next: '-m2'
-        spine: 1
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
         lineIndex: 130
         next: r
         spine: 1
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
-        lineIndex: 65
-        next: '-m2'
-        spine: 3
         triciniumId: 02-quare-fremuerunt-gentes
     -
         lineIndex: 148
@@ -6077,21 +5757,6 @@
         spine: 5
         triciniumId: 06-domine-ne-in-furore
     -
-        lineIndex: 109
-        next: +M2
-        spine: 5
-        triciniumId: 06-domine-ne-in-furore
-    -
-        lineIndex: 183
-        next: +M2
-        spine: 5
-        triciniumId: 06-domine-ne-in-furore
-    -
-        lineIndex: 67
-        next: +m2
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 137
         next: +M2
         spine: 1
@@ -6126,21 +5791,11 @@
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
-'-M6':
-    -
-        lineIndex: 98
-        next: +M2
-        spine: 1
-        triciniumId: 04-cum-invocarem
+'-M6': []
 '-P4':
     -
         lineIndex: 55
         next: r
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 79
-        next: +M2
         spine: 1
         triciniumId: 01-beatus-vir
     -
@@ -6244,11 +5899,6 @@
         spine: 1
         triciniumId: 03-domine-quid-multiplicati
     -
-        lineIndex: 172
-        next: +M2
-        spine: 1
-        triciniumId: 03-domine-quid-multiplicati
-    -
         lineIndex: 174
         next: P1
         spine: 5
@@ -6257,21 +5907,6 @@
         lineIndex: 76
         next: +P4
         spine: 1
-        triciniumId: 04-cum-invocarem
-    -
-        lineIndex: 132
-        next: +P5
-        spine: 1
-        triciniumId: 04-cum-invocarem
-    -
-        lineIndex: 182
-        next: '-M3'
-        spine: 1
-        triciniumId: 04-cum-invocarem
-    -
-        lineIndex: 124
-        next: +P4
-        spine: 3
         triciniumId: 04-cum-invocarem
     -
         lineIndex: 43
@@ -6304,11 +5939,6 @@
         spine: 1
         triciniumId: 05-verba-mea-auribus
     -
-        lineIndex: 118
-        next: +M2
-        spine: 1
-        triciniumId: 05-verba-mea-auribus
-    -
         lineIndex: 155
         next: +m2
         spine: 1
@@ -6320,11 +5950,6 @@
         triciniumId: 05-verba-mea-auribus
     -
         lineIndex: 111
-        next: +m3
-        spine: 3
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 184
         next: +m3
         spine: 3
         triciniumId: 05-verba-mea-auribus
@@ -6343,11 +5968,6 @@
         next: P1
         spine: 5
         triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 137
-        next: '-P5'
-        spine: 1
-        triciniumId: 06-domine-ne-in-furore
     -
         lineIndex: 210
         next: null
@@ -6409,11 +6029,6 @@
         spine: 3
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 166
-        next: +M2
-        spine: 3
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 210
         next: +P4
         spine: 3
@@ -6421,16 +6036,6 @@
     -
         lineIndex: 26
         next: +m6
-        spine: 5
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 63
-        next: +m2
-        spine: 5
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 129
-        next: +m3
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
@@ -6469,11 +6074,6 @@
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 73
-        next: +m3
-        spine: 3
-        triciniumId: 08-domine-dominus-noster
-    -
         lineIndex: 105
         next: +m6
         spine: 3
@@ -6482,11 +6082,6 @@
         lineIndex: 134
         next: +m2
         spine: 3
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 76
-        next: P1
-        spine: 5
         triciniumId: 08-domine-dominus-noster
     -
         lineIndex: 115
@@ -6512,11 +6107,6 @@
     -
         lineIndex: 72
         next: '-m2'
-        spine: 5
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 87
-        next: +M2
         spine: 5
         triciniumId: 01-beatus-vir
     -
@@ -6655,16 +6245,6 @@
         spine: 1
         triciniumId: 04-cum-invocarem
     -
-        lineIndex: 59
-        next: +P8
-        spine: 1
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 179
-        next: +m3
-        spine: 1
-        triciniumId: 05-verba-mea-auribus
-    -
         lineIndex: 203
         next: null
         spine: 1
@@ -6700,11 +6280,6 @@
         spine: 1
         triciniumId: 06-domine-ne-in-furore
     -
-        lineIndex: 197
-        next: +M2
-        spine: 1
-        triciniumId: 06-domine-ne-in-furore
-    -
         lineIndex: 73
         next: +m6
         spine: 1
@@ -6712,11 +6287,6 @@
     -
         lineIndex: 181
         next: +P8
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 225
-        next: +P4
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
@@ -6732,11 +6302,6 @@
     -
         lineIndex: 39
         next: +P8
-        spine: 1
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 66
-        next: +m3
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
@@ -6793,11 +6358,6 @@
     -
         lineIndex: 166
         next: r
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 195
-        next: +M2
         spine: 1
         triciniumId: 01-beatus-vir
     -
@@ -6934,11 +6494,6 @@
     -
         lineIndex: 95
         next: +m2
-        spine: 5
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 104
-        next: +P4
         spine: 5
         triciniumId: 01-beatus-vir
     -
@@ -7104,11 +6659,6 @@
     -
         lineIndex: 101
         next: +P8
-        spine: 5
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
-        lineIndex: 122
-        next: +m2
         spine: 5
         triciniumId: 02-quare-fremuerunt-gentes
     -
@@ -8198,11 +7748,6 @@
         spine: 1
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 124
-        next: +m2
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
         lineIndex: 143
         next: +M2
         spine: 1
@@ -8298,11 +7843,6 @@
         spine: 5
         triciniumId: 02-quare-fremuerunt-gentes
     -
-        lineIndex: 22
-        next: +P5
-        spine: 1
-        triciniumId: 03-domine-quid-multiplicati
-    -
         lineIndex: 39
         next: +M2
         spine: 1
@@ -8316,11 +7856,6 @@
         lineIndex: 109
         next: '-M2'
         spine: 1
-        triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 65
-        next: +m3
-        spine: 3
         triciniumId: 03-domine-quid-multiplicati
     -
         lineIndex: 54
@@ -8397,11 +7932,6 @@
         next: +m3
         spine: 5
         triciniumId: 04-cum-invocarem
-    -
-        lineIndex: 22
-        next: +M2
-        spine: 1
-        triciniumId: 05-verba-mea-auribus
     -
         lineIndex: 72
         next: +M2
@@ -8518,11 +8048,6 @@
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 164
-        next: '-M2'
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 174
         next: +M2
         spine: 1
@@ -8535,11 +8060,6 @@
     -
         lineIndex: 219
         next: +m2
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 235
-        next: +m3
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
@@ -8583,11 +8103,6 @@
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 98
-        next: '-m2'
-        spine: 3
-        triciniumId: 08-domine-dominus-noster
-    -
         lineIndex: 117
         next: '-m2'
         spine: 3
@@ -8624,17 +8139,7 @@
         triciniumId: 08-domine-dominus-noster
 P1:
     -
-        lineIndex: 24
-        next: P1
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
         lineIndex: 25
-        next: '-m3'
-        spine: 1
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 44
         next: '-m3'
         spine: 1
         triciniumId: 01-beatus-vir
@@ -8659,18 +8164,8 @@ P1:
         spine: 1
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 43
-        next: P1
-        spine: 3
-        triciniumId: 01-beatus-vir
-    -
         lineIndex: 44
         next: '-m3'
-        spine: 3
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 70
-        next: +M3
         spine: 3
         triciniumId: 01-beatus-vir
     -
@@ -8679,18 +8174,8 @@ P1:
         spine: 3
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 107
-        next: +P4
-        spine: 3
-        triciniumId: 01-beatus-vir
-    -
         lineIndex: 120
         next: '-m2'
-        spine: 3
-        triciniumId: 01-beatus-vir
-    -
-        lineIndex: 128
-        next: +M2
         spine: 3
         triciniumId: 01-beatus-vir
     -
@@ -8739,11 +8224,6 @@ P1:
         spine: 5
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 40
-        next: P1
-        spine: 1
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
         lineIndex: 41
         next: '-M2'
         spine: 1
@@ -8764,11 +8244,6 @@ P1:
         spine: 3
         triciniumId: 02-quare-fremuerunt-gentes
     -
-        lineIndex: 43
-        next: P1
-        spine: 3
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
         lineIndex: 45
         next: P1
         spine: 3
@@ -8779,24 +8254,9 @@ P1:
         spine: 3
         triciniumId: 02-quare-fremuerunt-gentes
     -
-        lineIndex: 91
-        next: +M2
-        spine: 3
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
         lineIndex: 124
         next: '-M2'
         spine: 3
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
-        lineIndex: 167
-        next: +m3
-        spine: 3
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
-        lineIndex: 24
-        next: P1
-        spine: 5
         triciniumId: 02-quare-fremuerunt-gentes
     -
         lineIndex: 25
@@ -8811,11 +8271,6 @@ P1:
     -
         lineIndex: 41
         next: '-m2'
-        spine: 5
-        triciniumId: 02-quare-fremuerunt-gentes
-    -
-        lineIndex: 74
-        next: P1
         spine: 5
         triciniumId: 02-quare-fremuerunt-gentes
     -
@@ -8849,18 +8304,8 @@ P1:
         spine: 3
         triciniumId: 03-domine-quid-multiplicati
     -
-        lineIndex: 34
-        next: +M2
-        spine: 3
-        triciniumId: 03-domine-quid-multiplicati
-    -
         lineIndex: 39
         next: '-m2'
-        spine: 3
-        triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 47
-        next: '-P5'
         spine: 3
         triciniumId: 03-domine-quid-multiplicati
     -
@@ -8869,18 +8314,8 @@ P1:
         spine: 3
         triciniumId: 03-domine-quid-multiplicati
     -
-        lineIndex: 119
-        next: '-P5'
-        spine: 3
-        triciniumId: 03-domine-quid-multiplicati
-    -
         lineIndex: 151
         next: '-m2'
-        spine: 3
-        triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 165
-        next: +M2
         spine: 3
         triciniumId: 03-domine-quid-multiplicati
     -
@@ -8901,11 +8336,6 @@ P1:
     -
         lineIndex: 77
         next: '-M2'
-        spine: 5
-        triciniumId: 03-domine-quid-multiplicati
-    -
-        lineIndex: 106
-        next: '-P5'
         spine: 5
         triciniumId: 03-domine-quid-multiplicati
     -
@@ -8934,11 +8364,6 @@ P1:
         spine: 5
         triciniumId: 03-domine-quid-multiplicati
     -
-        lineIndex: 49
-        next: P1
-        spine: 1
-        triciniumId: 04-cum-invocarem
-    -
         lineIndex: 50
         next: +m3
         spine: 1
@@ -8959,19 +8384,9 @@ P1:
         spine: 1
         triciniumId: 04-cum-invocarem
     -
-        lineIndex: 112
-        next: +P4
-        spine: 1
-        triciniumId: 04-cum-invocarem
-    -
         lineIndex: 142
         next: +P8
         spine: 1
-        triciniumId: 04-cum-invocarem
-    -
-        lineIndex: 33
-        next: P1
-        spine: 3
         triciniumId: 04-cum-invocarem
     -
         lineIndex: 34
@@ -9001,11 +8416,6 @@ P1:
     -
         lineIndex: 93
         next: '-M2'
-        spine: 3
-        triciniumId: 04-cum-invocarem
-    -
-        lineIndex: 103
-        next: +M2
         spine: 3
         triciniumId: 04-cum-invocarem
     -
@@ -9094,11 +8504,6 @@ P1:
         spine: 1
         triciniumId: 05-verba-mea-auribus
     -
-        lineIndex: 160
-        next: P1
-        spine: 1
-        triciniumId: 05-verba-mea-auribus
-    -
         lineIndex: 163
         next: +P4
         spine: 1
@@ -9129,29 +8534,14 @@ P1:
         spine: 3
         triciniumId: 05-verba-mea-auribus
     -
-        lineIndex: 108
-        next: P1
-        spine: 3
-        triciniumId: 05-verba-mea-auribus
-    -
         lineIndex: 109
         next: '-P4'
-        spine: 3
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 122
-        next: +m2
         spine: 3
         triciniumId: 05-verba-mea-auribus
     -
         lineIndex: 124
         next: +M2
         spine: 3
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 22
-        next: '-m2'
-        spine: 5
         triciniumId: 05-verba-mea-auribus
     -
         lineIndex: 43
@@ -9189,16 +8579,6 @@ P1:
         spine: 5
         triciniumId: 05-verba-mea-auribus
     -
-        lineIndex: 161
-        next: '-m3'
-        spine: 5
-        triciniumId: 05-verba-mea-auribus
-    -
-        lineIndex: 25
-        next: P1
-        spine: 1
-        triciniumId: 06-domine-ne-in-furore
-    -
         lineIndex: 27
         next: +m3
         spine: 1
@@ -9211,11 +8591,6 @@ P1:
     -
         lineIndex: 35
         next: '-m2'
-        spine: 1
-        triciniumId: 06-domine-ne-in-furore
-    -
-        lineIndex: 57
-        next: +P4
         spine: 1
         triciniumId: 06-domine-ne-in-furore
     -
@@ -9294,11 +8669,6 @@ P1:
         spine: 3
         triciniumId: 06-domine-ne-in-furore
     -
-        lineIndex: 43
-        next: P1
-        spine: 5
-        triciniumId: 06-domine-ne-in-furore
-    -
         lineIndex: 45
         next: +m3
         spine: 5
@@ -9311,11 +8681,6 @@ P1:
     -
         lineIndex: 53
         next: '-m2'
-        spine: 5
-        triciniumId: 06-domine-ne-in-furore
-    -
-        lineIndex: 60
-        next: +P4
         spine: 5
         triciniumId: 06-domine-ne-in-furore
     -
@@ -9339,11 +8704,6 @@ P1:
         spine: 5
         triciniumId: 06-domine-ne-in-furore
     -
-        lineIndex: 132
-        next: '-M2'
-        spine: 5
-        triciniumId: 06-domine-ne-in-furore
-    -
         lineIndex: 173
         next: P1
         spine: 5
@@ -9354,11 +8714,6 @@ P1:
         spine: 5
         triciniumId: 06-domine-ne-in-furore
     -
-        lineIndex: 31
-        next: P1
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 33
         next: '-P4'
         spine: 1
@@ -9366,11 +8721,6 @@ P1:
     -
         lineIndex: 78
         next: +M3
-        spine: 1
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 85
-        next: +P4
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
@@ -9394,11 +8744,6 @@ P1:
         spine: 3
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 60
-        next: +m2
-        spine: 3
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 129
         next: +m2
         spine: 3
@@ -9419,11 +8764,6 @@ P1:
         spine: 3
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 23
-        next: P1
-        spine: 5
-        triciniumId: 07-domine-deus-meus
-    -
         lineIndex: 24
         next: '-P4'
         spine: 5
@@ -9435,11 +8775,6 @@ P1:
         triciniumId: 07-domine-deus-meus
     -
         lineIndex: 88
-        next: '-M2'
-        spine: 5
-        triciniumId: 07-domine-deus-meus
-    -
-        lineIndex: 109
         next: '-M2'
         spine: 5
         triciniumId: 07-domine-deus-meus
@@ -9479,16 +8814,6 @@ P1:
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 33
-        next: +M2
-        spine: 1
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 155
-        next: +m2
-        spine: 1
-        triciniumId: 08-domine-dominus-noster
-    -
         lineIndex: 190
         next: '-P5'
         spine: 1
@@ -9502,11 +8827,6 @@ P1:
         lineIndex: 199
         next: '-P5'
         spine: 1
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 22
-        next: +M2
-        spine: 3
         triciniumId: 08-domine-dominus-noster
     -
         lineIndex: 33
@@ -9569,11 +8889,6 @@ P1:
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 41
-        next: P1
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
         lineIndex: 43
         next: P1
         spine: 5
@@ -9611,11 +8926,6 @@ P1:
     -
         lineIndex: 90
         next: '-M2'
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 94
-        next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
