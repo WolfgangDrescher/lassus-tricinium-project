@@ -1440,48 +1440,43 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 33
+        lineIndex: 34
         next: +m2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 35
+        lineIndex: 36
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 37
+        lineIndex: 38
         next: '-P5'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 68
+        lineIndex: 69
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 70
+        lineIndex: 71
         next: '-M3'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 75
+        lineIndex: 76
         next: +m2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 81
+        lineIndex: 82
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 87
+        lineIndex: 88
         next: '-P5'
-        spine: 1
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 131
-        next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
@@ -1490,132 +1485,137 @@
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 134
+        lineIndex: 133
+        next: +M2
+        spine: 1
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 135
         next: +m2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 145
+        lineIndex: 146
         next: +P5
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 172
+        lineIndex: 173
         next: r
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 184
+        lineIndex: 185
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 186
+        lineIndex: 187
         next: '-P5'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 194
+        lineIndex: 195
         next: +P5
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 22
+        lineIndex: 23
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 24
+        lineIndex: 25
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 26
+        lineIndex: 27
         next: '-P4'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 44
+        lineIndex: 45
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 60
+        lineIndex: 61
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 75
+        lineIndex: 76
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 77
+        lineIndex: 78
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 124
+        lineIndex: 125
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 153
+        lineIndex: 154
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 160
+        lineIndex: 161
         next: '-m3'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 169
+        lineIndex: 170
         next: +m3
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 175
+        lineIndex: 176
         next: +d4
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 57
+        lineIndex: 58
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 68
+        lineIndex: 69
         next: +m2
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 79
+        lineIndex: 80
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 95
+        lineIndex: 96
         next: +m2
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 117
+        lineIndex: 118
         next: +m2
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 150
+        lineIndex: 151
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 191
+        lineIndex: 192
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 200
+        lineIndex: 201
         next: null
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -1771,17 +1771,17 @@
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 73
+        lineIndex: 74
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 130
+        lineIndex: 131
         next: '-P4'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 67
+        lineIndex: 68
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -2188,27 +2188,27 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 169
+        lineIndex: 170
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 178
+        lineIndex: 179
         next: '-M2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 187
+        lineIndex: 188
         next: '-M3'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 195
+        lineIndex: 196
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 127
+        lineIndex: 128
         next: +m3
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -2344,27 +2344,27 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 140
+        lineIndex: 141
         next: '-P8'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 150
+        lineIndex: 151
         next: r
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 197
+        lineIndex: 198
         next: '-P5'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 191
+        lineIndex: 192
         next: '-P5'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 159
+        lineIndex: 160
         next: +m2
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -2445,27 +2445,27 @@
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 40
+        lineIndex: 41
         next: '-m2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 92
+        lineIndex: 93
         next: '-m2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 101
+        lineIndex: 102
         next: '-m2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 114
+        lineIndex: 115
         next: '-M3'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 184
+        lineIndex: 185
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -2486,12 +2486,12 @@
         spine: 5
         triciniumId: 04-cum-invocarem
     -
-        lineIndex: 90
+        lineIndex: 91
         next: r
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 176
+        lineIndex: 177
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
@@ -3437,142 +3437,142 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 34
+        lineIndex: 35
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 47
+        lineIndex: 48
         next: '-P4'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 51
+        lineIndex: 52
         next: '-m2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 77
+        lineIndex: 78
         next: '-P5'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 96
+        lineIndex: 97
         next: '-P4'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 105
+        lineIndex: 106
         next: '-P4'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 136
+        lineIndex: 137
         next: '-P5'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 156
+        lineIndex: 157
         next: '-m2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 165
+        lineIndex: 166
         next: '-P4'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 23
+        lineIndex: 24
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 47
+        lineIndex: 48
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 62
+        lineIndex: 63
         next: r
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 79
+        lineIndex: 80
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 99
+        lineIndex: 100
         next: '-P4'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 109
+        lineIndex: 110
         next: '-m3'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 119
+        lineIndex: 120
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 125
+        lineIndex: 126
         next: +m3
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 137
+        lineIndex: 138
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 156
+        lineIndex: 157
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 200
+        lineIndex: 201
         next: null
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 70
+        lineIndex: 71
         next: r
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 96
+        lineIndex: 97
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 99
+        lineIndex: 100
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 109
+        lineIndex: 110
         next: '-P4'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 119
+        lineIndex: 120
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 145
+        lineIndex: 146
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 160
+        lineIndex: 161
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 169
+        lineIndex: 170
         next: '-m3'
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -3913,42 +3913,42 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 67
+        lineIndex: 68
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 129
+        lineIndex: 130
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 28
+        lineIndex: 29
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 73
+        lineIndex: 74
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 127
+        lineIndex: 128
         next: +M3
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 170
+        lineIndex: 171
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 65
+        lineIndex: 66
         next: +M3
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 130
+        lineIndex: 131
         next: '-m3'
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -4024,12 +4024,12 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 40
+        lineIndex: 41
         next: '-m3'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 105
+        lineIndex: 106
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
@@ -4040,7 +4040,7 @@
         spine: 1
         triciniumId: 01-beatus-vir
     -
-        lineIndex: 107
+        lineIndex: 108
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -5776,157 +5776,157 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 160
+        lineIndex: 161
         next: '-m2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 181
+        lineIndex: 182
         next: '-m3'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 191
+        lineIndex: 192
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 29
+        lineIndex: 30
         next: '-m2'
-        spine: 3
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 36
-        next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
         lineIndex: 37
+        next: '-M2'
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 38
         next: '-m3'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 52
+        lineIndex: 53
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 59
+        lineIndex: 60
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 82
+        lineIndex: 83
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 123
+        lineIndex: 124
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 146
+        lineIndex: 147
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 152
+        lineIndex: 153
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 158
+        lineIndex: 159
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 166
+        lineIndex: 167
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 174
+        lineIndex: 175
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 26
+        lineIndex: 27
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 29
+        lineIndex: 30
         next: r
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 51
+        lineIndex: 52
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 52
+        lineIndex: 53
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 55
+        lineIndex: 56
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 62
+        lineIndex: 63
         next: +m3
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 81
+        lineIndex: 82
         next: '-m3'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 90
+        lineIndex: 91
         next: r
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 140
+        lineIndex: 141
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 142
+        lineIndex: 143
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 149
+        lineIndex: 150
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 156
+        lineIndex: 157
         next: r
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 165
+        lineIndex: 166
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 176
+        lineIndex: 177
         next: r
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 186
+        lineIndex: 187
         next: '-m3'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 194
+        lineIndex: 195
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -6097,32 +6097,32 @@
         spine: 1
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 72
+        lineIndex: 73
         next: +M3
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 115
+        lineIndex: 116
         next: '-m2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 183
+        lineIndex: 184
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 182
+        lineIndex: 183
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 188
+        lineIndex: 189
         next: '-m3'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 190
+        lineIndex: 191
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -6444,52 +6444,52 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 49
+        lineIndex: 50
         next: +m2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 98
+        lineIndex: 99
         next: '-P5'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 108
+        lineIndex: 109
         next: '-P5'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 166
+        lineIndex: 167
         next: +P4
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 27
+        lineIndex: 28
         next: +m3
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 72
+        lineIndex: 73
         next: +m3
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 104
+        lineIndex: 105
         next: +m6
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 133
+        lineIndex: 134
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 75
+        lineIndex: 76
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 114
+        lineIndex: 115
         next: '-P5'
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -6730,62 +6730,62 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 38
+        lineIndex: 39
         next: +P8
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 65
+        lineIndex: 66
         next: +m3
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 79
+        lineIndex: 80
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 90
+        lineIndex: 91
         next: +P8
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 99
+        lineIndex: 100
         next: +P8
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 109
+        lineIndex: 110
         next: +P8
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 125
+        lineIndex: 126
         next: +m3
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 137
+        lineIndex: 138
         next: +P5
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 190
+        lineIndex: 191
         next: '-M2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 200
+        lineIndex: 201
         next: null
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 194
+        lineIndex: 195
         next: +P4
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 115
+        lineIndex: 116
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -6826,7 +6826,7 @@
         spine: 3
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 141
+        lineIndex: 142
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
@@ -8017,167 +8017,167 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 44
+        lineIndex: 45
         next: +m2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 57
+        lineIndex: 58
         next: r
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 95
+        lineIndex: 96
         next: +m2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 104
+        lineIndex: 105
         next: +m2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 117
+        lineIndex: 118
         next: '-P5'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 158
+        lineIndex: 159
         next: '-M2'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 161
+        lineIndex: 162
         next: +m2
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 35
+        lineIndex: 36
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 49
+        lineIndex: 50
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 58
+        lineIndex: 59
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 81
+        lineIndex: 82
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 88
+        lineIndex: 89
         next: +d4
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 98
+        lineIndex: 99
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 108
+        lineIndex: 109
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 117
+        lineIndex: 118
         next: +m2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 122
+        lineIndex: 123
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 140
+        lineIndex: 141
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 151
+        lineIndex: 152
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 173
+        lineIndex: 174
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 181
+        lineIndex: 182
         next: '-M3'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 184
+        lineIndex: 185
         next: r
         spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 199
+        next: +m2
+        spine: 3
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 29
+        next: '-M2'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 55
+        next: '-M2'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 99
+        next: +m2
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 105
+        next: r
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 109
+        next: +m2
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 122
+        next: r
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 144
+        next: +m2
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 149
+        next: '-M2'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 162
+        next: '-M2'
+        spine: 5
+        triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 167
+        next: +m2
+        spine: 5
         triciniumId: 08-domine-dominus-noster
     -
         lineIndex: 198
-        next: +m2
-        spine: 3
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 28
-        next: '-M2'
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 54
-        next: '-M2'
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 98
-        next: +m2
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 104
-        next: r
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 108
-        next: +m2
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 121
-        next: r
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 143
-        next: +m2
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 148
-        next: '-M2'
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 161
-        next: '-M2'
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 166
-        next: +m2
-        spine: 5
-        triciniumId: 08-domine-dominus-noster
-    -
-        lineIndex: 197
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
@@ -8568,57 +8568,57 @@
         spine: 5
         triciniumId: 07-domine-deus-meus
     -
-        lineIndex: 182
+        lineIndex: 183
         next: '-M3'
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 38
+        lineIndex: 39
         next: +m6
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 43
+        lineIndex: 44
         next: +M2
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 97
+        lineIndex: 98
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 116
+        lineIndex: 117
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 165
+        lineIndex: 166
         next: '-M2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 190
+        lineIndex: 191
         next: +P5
         spine: 3
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 87
+        lineIndex: 88
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 137
+        lineIndex: 138
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 172
+        lineIndex: 173
         next: '-M2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 188
+        lineIndex: 189
         next: '-M3'
         spine: 5
         triciniumId: 08-domine-dominus-noster
