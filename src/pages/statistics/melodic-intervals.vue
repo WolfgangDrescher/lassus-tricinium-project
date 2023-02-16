@@ -6,7 +6,7 @@ definePageMeta({
 });
 
 useHead({
-    title: `${t('words')} | ${t('melodicIntervals')}`,
+    title: `${t('melodicIntervals')} | ${t('statistics')}`,
 });
 
 const { data } = await useFetch('/api/tricinium');
