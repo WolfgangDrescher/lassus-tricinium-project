@@ -1594,6 +1594,276 @@
         next: null
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 36
+        next: +m2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 40
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 43
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 65
+        next: '-P4'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 93
+        next: +m2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 97
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 100
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 119
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 138
+        next: +m2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 142
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 154
+        next: +m2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 158
+        next: '-M2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 163
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 164
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 165
+        next: +m2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 169
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 170
+        next: '-M3'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 172
+        next: '-P8'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 191
+        next: '-P5'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 25
+        next: +m2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 27
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 35
+        next: +m3
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 40
+        next: +m2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 44
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 49
+        next: +m2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 64
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 83
+        next: +m2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 86
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 88
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 103
+        next: +m2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 118
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 157
+        next: +m2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 159
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 162
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 207
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 208
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 227
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 228
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 34
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 36
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 38
+        next: '-P5'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 41
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 69
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 79
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 80
+        next: '-M3'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 95
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 124
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 147
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 165
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 168
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 195
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 204
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 206
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 252
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 +M3:
     -
         lineIndex: 72
@@ -1725,6 +1995,16 @@
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 177
+        next: +m2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 55
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 +P4:
     -
         lineIndex: 65
@@ -2076,6 +2356,46 @@
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 138
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 245
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 82
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 111
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 133
+        next: r
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 173
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 245
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 248
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 +P5:
     -
         lineIndex: 76
@@ -2187,6 +2507,41 @@
         next: '-P5'
         spine: 3
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 113
+        next: P1
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 175
+        next: +M3
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 214
+        next: '-m2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 247
+        next: '-P8'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 249
+        next: '-P5'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 74
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 130
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
 +P8:
     -
         lineIndex: 93
@@ -3365,6 +3720,171 @@
         next: '-m3'
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 38
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 109
+        next: '-m3'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 125
+        next: P1
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 140
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 157
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 168
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 179
+        next: '-m2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 200
+        next: '-m2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 207
+        next: '-m2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 209
+        next: '-P4'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 218
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 33
+        next: '-m3'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 43
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 51
+        next: r
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 85
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 105
+        next: r
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 158
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 182
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 221
+        next: '-m3'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 35
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 43
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 71
+        next: +m3
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 105
+        next: '-P5'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 125
+        next: +m3
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 150
+        next: r
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 164
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 179
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 197
+        next: r
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 209
+        next: '-P4'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 218
+        next: '-m3'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 254
+        next: null
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 +m3:
     -
         lineIndex: 115
@@ -3701,6 +4221,91 @@
         next: P1
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 55
+        next: '-m3'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 186
+        next: '-P4'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 223
+        next: '-m3'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 36
+        next: '-m3'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 59
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 91
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 113
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 206
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 211
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 226
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 73
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 127
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 154
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 177
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 185
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 202
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 214
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 +m6:
     -
         lineIndex: 162
@@ -3762,6 +4367,26 @@
         next: '-m2'
         spine: 3
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 233
+        next: P1
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 61
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 115
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 228
+        next: r
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 '-M2':
     -
         lineIndex: 32
@@ -5618,6 +6243,216 @@
         next: '-m2'
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 64
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 118
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 133
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 159
+        next: '-P5'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 227
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 29
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 48
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 65
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 71
+        next: +P5
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 96
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 102
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 119
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 125
+        next: +P5
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 140
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 150
+        next: r
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 168
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 172
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 189
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 191
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 197
+        next: r
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 209
+        next: +m3
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 247
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 254
+        next: null
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 51
+        next: '-M3'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 65
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 68
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 97
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 98
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 119
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 123
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 141
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 143
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 146
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 158
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 160
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 162
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 191
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 194
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 207
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 251
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 '-M3':
     -
         lineIndex: 77
@@ -5789,6 +6624,46 @@
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 171
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 237
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 242
+        next: '-m3'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 239
+        next: '-m3'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 53
+        next: +M3
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 81
+        next: +P4
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 236
+        next: r
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 241
+        next: +P4
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 '-P4':
     -
         lineIndex: 55
@@ -6085,6 +6960,76 @@
         next: '-P5'
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 35
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 66
+        next: '-P5'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 91
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 130
+        next: '-m2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 185
+        next: +m3
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 189
+        next: P1
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 211
+        next: '-m3'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 232
+        next: +m6
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 231
+        next: r
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 78
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 131
+        next: +P4
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 211
+        next: r
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 227
+        next: +m6
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 '-P5':
     -
         lineIndex: 72
@@ -6351,6 +7296,66 @@
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 71
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 162
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 192
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 206
+        next: +m2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 254
+        next: null
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 23
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 82
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 134
+        next: +P4
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 40
+        next: +M2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 109
+        next: +P4
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 172
+        next: +P4
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 181
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 '-P8':
     -
         lineIndex: 166
@@ -6387,6 +7392,16 @@
         next: +M2
         spine: 1
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 173
+        next: +P5
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 248
+        next: +P5
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
 '-m2':
     -
         lineIndex: 30
@@ -7728,6 +8743,186 @@
         next: +M2
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 180
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 203
+        next: '-P5'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 208
+        next: +m2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 215
+        next: +m2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 32
+        next: +m2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 47
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 66
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 93
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 101
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 121
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 142
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 175
+        next: r
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 185
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 192
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 214
+        next: r
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 249
+        next: '-M2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 46
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 64
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 100
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 114
+        next: +m6
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 118
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 122
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 145
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 159
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 163
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 175
+        next: +m3
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 180
+        next: '-P5'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 189
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 193
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 208
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 215
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 247
+        next: +P4
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 250
+        next: '-M2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 '-m3':
     -
         lineIndex: 26
@@ -8134,6 +9329,71 @@
         next: '-M3'
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 59
+        next: '-M2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 111
+        next: +P5
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 212
+        next: +P5
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 226
+        next: '-M2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 236
+        next: '-M3'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 246
+        next: +P5
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 34
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 39
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 223
+        next: +m3
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 241
+        next: +P4
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 221
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 234
+        next: '-M3'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 239
+        next: '-M3'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
 P1:
     -
         lineIndex: 25
@@ -8935,3 +10195,153 @@ P1:
         next: '-m3'
         spine: 5
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 33
+        next: '-P4'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 88
+        next: P1
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 89
+        next: '-P4'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 127
+        next: '-P4'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 190
+        next: +M2
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 231
+        next: '-P4'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 234
+        next: '-m3'
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 20
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 21
+        next: '-P5'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 60
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 78
+        next: P1
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 80
+        next: '-P5'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 90
+        next: +m3
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 97
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 116
+        next: +M2
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 133
+        next: '-P5'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 212
+        next: '-m2'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 229
+        next: '-P4'
+        spine: 3
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 29
+        next: '-P4'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 59
+        next: +m6
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 74
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 75
+        next: '-P4'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 89
+        next: '-m2'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 103
+        next: +m2
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 130
+        next: '-P4'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 171
+        next: '-P5'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 182
+        next: P1
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 183
+        next: +m3
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
+    -
+        lineIndex: 226
+        next: '-P4'
+        spine: 5
+        triciniumId: 09-confitebor-tibi-domine
