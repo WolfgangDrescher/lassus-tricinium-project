@@ -144,6 +144,6 @@ openOnVhv: Auf VHV ansehen
 openOnGithub: Auf GitHub ansehen
 melodicIntervals: Intervallschritte
 melodicIntervalExamples: Intervallschritt-Beispiele
-triciniumSpineLineIndex: 'Tricinium/Spine/Zeilennummer (max. {n})'
+triciniumLineIndexSpine: 'Tricinium/Zeilennummer/Spine (max. {n})'
 nextMelodicInterval: Nächster Intervallschritt
 totalNumber: 'Anzahl: {n}'

@@ -72,10 +72,10 @@ const maxItems = 50;
         </div>
         <div class="mt-4">
             <Subheading>{{ $t('melodicIntervalExamples') }}</Subheading>
-            <div class="text-sm text-gray-500">{{ $t('triciniumSpineLineIndex', maxItems) }}</div>
+            <div class="text-sm text-gray-500">{{ $t('triciniumLineIndexSpine', maxItems) }}</div>
             <div class="flex flex-wrap gap-x-2">
                 <HyperLink v-for="item in items.splice(0, maxItems)" target="_blank" :to="`https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/WolfgangDrescher/lassus-geistliche-psalmen/master/kern/${item.triciniumId}.krn`">
-                    {{ `${parseInt(item.triciniumId.substring(0, 2), 10)}/${item.spine}/${item.lineIndex + 1}` }}
+                    {{ `${parseInt(item.triciniumId.substring(0, 2), 10)}/${item.lineIndex + 1}/${item.spine}` }}
                 </HyperLink>
             </div>
         </div>
