@@ -72,6 +72,12 @@ defineI18nRoute({
                             Bei Textwiederholungen, die im Druck mit <i>ij</i> gekennzeichnet sind, wird der Text kursiv
                             ausgeschrieben.
                         </li>
+                        <li>
+                            Ligaturen in der Musik wurden mit den entsprechenden Noten ersetzt.
+                        </li>
+                        <li>
+                            Für Worte die mehrere Silben auf mehreren Noten haben, im Druck aber ohne Silbentrennung notiert sind, wurde Silbentrennung eingeführt.
+                        </li>
                     </ol>
                 </FormattedText>
             </section>
