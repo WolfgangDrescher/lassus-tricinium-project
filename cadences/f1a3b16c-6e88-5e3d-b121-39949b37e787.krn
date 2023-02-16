@@ -1,0 +1,30 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 9
+!!!OTL@@LA: Confitebor tibi Domine
+!!!OTL-incipit@@DE: Ich wil auß gantzem hertzen mein
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=29	=29	=29	=29	=29	=29
+4B-]	.	2g	all	2b-i	all
+4G	-bracht	.	.	.	.
+4d	all	2f	zu-	4a	zu-
+4D	zu-	.	.	2dd	-sa-
+1A	-sa-	1e	-sa-	.	.
+.	.	.	.	8cc#	.
+.	.	.	.	8bny	.
+.	.	.	.	2cc#X	.
+=30	=30	=30	=30	=30	=30
+0D	-men.	0d	-men.	0dd	men.
+==	==	==	==	==	==
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
