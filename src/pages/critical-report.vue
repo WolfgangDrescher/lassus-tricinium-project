@@ -138,6 +138,18 @@ defineI18nRoute({
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '10-in-domino-confido' } })">
+                                    10. In Domino confido
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 4: Falschen Schrägstrich im Cantus nach der Silbe <code>thut/</code> vorgezogen zu <code>trawen/</code>.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </FormattedText>
             </section>
