@@ -68,11 +68,11 @@ const datasets = computed(() => {
     dataDown.sort((a, b) => sortFn(a.x, b.x));
     return [
         {
-            label: 'Aufwärts',
+            label: t('mint.up'),
             data: dataUp,
         },
         {
-            label: 'Abwärts',
+            label: t('mint.down'),
             data: dataDown,
         },
     ];

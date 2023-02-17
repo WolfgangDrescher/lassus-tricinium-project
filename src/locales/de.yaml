@@ -147,3 +147,5 @@ melodicIntervalExamples: Intervallschritt-Beispiele
 triciniumLineIndexSpine: 'Tricinium/Zeilennummer/Spine (max. {n})'
 nextMelodicInterval: Nächster Intervallschritt
 totalNumber: 'Anzahl: {n}'
+mint.up: Aufwärts
+mint.down: Abwärts
