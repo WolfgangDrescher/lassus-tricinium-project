@@ -38,11 +38,11 @@ const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).
     text: finalis,
 }));
 
-const cantusFirmusOptions = [...new Set(tricinia.map(tricinium => tricinium.cantusFirmusAsString).filter(n => n))].map(cantusFirmus => {
-    const voices = cantusFirmus.split(',').map(cf => cf.trim());
+const cantusFirmusOptions = [...new Set(tricinia.map(tricinium => tricinium.cantusFirmusAsString))].map(cantusFirmus => {
+    const voices = cantusFirmus ? cantusFirmus.split(',').map(cf => cf.trim()) : [];
     return {
         value: cantusFirmus,
-        text: voices.map(voice => t(`cantusFirmus.${voice}`)).join(', '),
+        text: voices.map(voice => t(`cantusFirmus.${voice}`)).join(', ') || t('cantusFirmus.free'),
     };
 });
 </script>

@@ -52,6 +52,7 @@ cantusFirmus: Cantus firmus
 cantusFirmus.cantus: Cantus
 cantusFirmus.tenor: Tenor
 cantusFirmus.bassus: Bassus
+cantusFirmus.free: Frei
 word: Wort
 showLyrics: Text anzeigen
 none: Keine
