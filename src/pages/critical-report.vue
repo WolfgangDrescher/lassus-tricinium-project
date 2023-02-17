@@ -76,7 +76,9 @@ defineI18nRoute({
                             Ligaturen in der Musik wurden mit den entsprechenden Noten ersetzt.
                         </li>
                         <li>
-                            Für Worte die mehrere Silben auf mehreren Noten haben, im Druck aber ohne Silbentrennung notiert sind, wurde Silbentrennung eingeführt.
+                            Für Worte die mehrere Silben auf mehreren Noten haben, im Druck aber ohne Silbentrennung
+                            notiert sind, wurde Silbentrennung eingeführt. Die Silbentrennung wurde aus dem Druck
+                            übernommen.
                         </li>
                     </ol>
                 </FormattedText>
