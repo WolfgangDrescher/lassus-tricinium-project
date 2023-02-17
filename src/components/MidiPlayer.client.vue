@@ -41,12 +41,6 @@ if (props.url) {
     midiPlayer.loadDataUri(props.url);
 }
 
-midiPlayer.on('playing', ({ tick }) => {
-    if (tick <= midiPlayer.totalTicks) {
-        // currentTick.set(tick);
-    }
-});
-
 const activeKeys = {};
 
 midiPlayer.on('midiEvent', ({ name, velocity, noteNumber }) => {
