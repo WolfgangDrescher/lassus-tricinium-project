@@ -148,7 +148,8 @@ defineI18nRoute({
                             </Subheading>
                             <ol class="flex flex-col list-none pl-0 gap-4">
                                 <li>
-                                    Takt 4: Falschen Schrägstrich im Cantus nach der Silbe <code>thut/</code> vorgezogen zu <code>trawen/</code>.
+                                    Takt 4: Falschen Schrägstrich im Cantus nach der Silbe <code>thut/</code> vorgezogen
+                                    zu <code>trawen/</code>.
                                 </li>
                             </ol>
                         </div>
