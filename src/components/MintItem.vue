@@ -5,8 +5,8 @@ const props = defineProps({
     items: Array,
 });
 
-const data = computed(() => {
-    return Object.entries(props.items.reduce((accumulator, value) => {
+function filterData(filterFn) {
+    return Object.entries(props.items.filter(i => typeof filterFn === 'function' ? filterFn(i) : true).reduce((accumulator, value) => {
         accumulator[value.next] = typeof (accumulator[value.next]) === 'number' ? accumulator[value.next] + 1 : 1;
         return accumulator;
     }, {})).map(([key, value]) => ({
@@ -15,15 +15,32 @@ const data = computed(() => {
     })).sort((a, b) => {
         return b.y - a.y;
     });
+}
+
+const dataUp = computed(() => {
+    return filterData(item => {
+        return item.next?.startsWith('+') || item.next?.match(/^[AP]+1$/) || item.next === 'r' || item.next === null;
+    });
+});
+
+const dataDown = computed(() => {
+    return filterData(item => {
+        return item.next?.startsWith('-') || item.next?.match(/^[d]+1$/);
+    });
 });
 
 const config = computed(() => ({
     type: 'bar',
     data: {
+        labels: filterData().map(v => v.x),
         datasets: [
             {
-                label: t('nextMelodicInterval'),
-                data: data.value,
+                label: t('nextMelodicIntervalUp'),
+                data: dataUp.value,
+            },
+            {
+                label: t('nextMelodicIntervalDown'),
+                data: dataDown.value,
             },
         ],
     },
@@ -42,6 +59,9 @@ const config = computed(() => ({
             },
         },
         scales: {
+            x: {
+                stacked: true,
+            },
             y: {
                 beginAtZero: true,
                 ticks: {
