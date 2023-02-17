@@ -111,7 +111,7 @@ defineI18nRoute({
                             </Subheading>
                             <ol class="flex flex-col list-none pl-0 gap-4">
                                 <li>
-                                    Takt 21: Das Wort «dß» im Cantus wurde zu «daß» geändert.
+                                    Takt 21: Das Wort <code>dß</code> im Cantus wurde zu <code>daß</code> geändert.
                                 </li>
                             </ol>
                         </div>
@@ -136,7 +136,7 @@ defineI18nRoute({
                             <ol class="flex flex-col list-none pl-0 gap-4">
                                 <li>
                                     Takt 11-12: Fehlende Textwiederholung (<code>ij</code>) im Cantus ergänzt bei
-                                    «durchauß in aller welt».
+                                    <code>durchauß in aller welt</code>.
                                 </li>
                             </ol>
                         </div>
