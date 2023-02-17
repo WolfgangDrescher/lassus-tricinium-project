@@ -43,11 +43,21 @@ const mintIntervals = Object.entries(toRaw(mint.value)).filter(([key]) => {
     return accumulator;
 }, {});
 
+
+const labels = Object.entries(mintIntervals).map(([key]) => key).reduce((accumulator, value) => {
+    const mint = value.replace('+', '').replace('-', '');
+    if (!accumulator.includes(mint)) {
+        accumulator.push(mint);
+    }
+    return accumulator;
+}, []).sort(sortFn);
+
 const datasets = computed(() => {
     const dataUp = [];
     const dataDown = [];
+    const dataNone = [];
     Object.entries(mintIntervals).forEach(([key, value]) => {
-        if (key.startsWith('+') || key.match(/^[AP]+1$/)) {
+        if (key.startsWith('+') || key.match(/^[A]+1$/)) {
             dataUp.push({
                 x: key.replace('+', ''),
                 y: value.filter(interval => {
@@ -63,9 +73,18 @@ const datasets = computed(() => {
                 }).length,
             });
         }
+        if (key.match(/^[P]+1$/)) {
+            dataNone.push({
+                x: key,
+                y: value.filter(interval => {
+                    return filteredElements.value.map(tricinium => tricinium.id).includes(interval.triciniumId);
+                }).length,
+            });
+        }
     });
     dataUp.sort((a, b) => sortFn(a.x, b.x));
     dataDown.sort((a, b) => sortFn(a.x, b.x));
+    dataNone.sort((a, b) => sortFn(a.x, b.x));
     return [
         {
             label: t('mint.up'),
@@ -75,12 +94,17 @@ const datasets = computed(() => {
             label: t('mint.down'),
             data: dataDown,
         },
+        {
+            label: t('mint.none'),
+            data: dataNone,
+        },
     ];
 });
 
 const config = computed(() => ({
     type: 'bar',
     data: {
+        labels,
         datasets: datasets.value,
     },
     options: {

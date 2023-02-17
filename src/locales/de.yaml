@@ -145,8 +145,8 @@ openOnGithub: Auf GitHub ansehen
 melodicIntervals: Intervallschritte
 melodicIntervalExamples: Intervallschritt-Beispiele
 triciniumLineIndexSpine: 'Tricinium/Zeilennummer/Spine (max. {n})'
-nextMelodicIntervalUp: Nächster Intervallschritt aufwärts
-nextMelodicIntervalDown: Nächster Intervallschritt abwärts
+nextMelodicInterval: Nächster Intervallschritt
 totalNumber: 'Anzahl: {n}'
 mint.up: Aufwärts
 mint.down: Abwärts
+mint.none: Ohne

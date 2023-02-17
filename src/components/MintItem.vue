@@ -19,7 +19,7 @@ function filterData(filterFn) {
 
 const dataUp = computed(() => {
     return filterData(item => {
-        return item.next?.startsWith('+') || item.next?.match(/^[AP]+1$/) || item.next === 'r' || item.next === null;
+        return item.next?.startsWith('+') || item.next?.match(/^[A]+1$/);
     });
 });
 
@@ -29,18 +29,28 @@ const dataDown = computed(() => {
     });
 });
 
+const dataNone = computed(() => {
+    return filterData(item => {
+        return item.next === 'r' || item.next === null || item.next?.match(/^[P]+1$/);
+    });
+});
+
 const config = computed(() => ({
     type: 'bar',
     data: {
         labels: filterData().map(v => v.x),
         datasets: [
             {
-                label: t('nextMelodicIntervalUp'),
+                label: t('mint.up'),
                 data: dataUp.value,
             },
             {
-                label: t('nextMelodicIntervalDown'),
+                label: t('mint.down'),
                 data: dataDown.value,
+            },
+                        {
+                label: t('mint.none'),
+                data: dataNone.value,
             },
         ],
     },
@@ -55,7 +65,7 @@ const config = computed(() => ({
         plugins: {
             legend: {
                 // display: false,
-                onClick: () => {},
+                // onClick: () => {},
             },
         },
         scales: {
@@ -87,6 +97,7 @@ const maxItems = 50;
                 </div>
             </div>
         </template>
+        <Subheading>{{ $t('nextMelodicInterval') }}</Subheading>
         <div class="aspect-w-4 aspect-h-1">
             <Chart :config="config" />
         </div>
