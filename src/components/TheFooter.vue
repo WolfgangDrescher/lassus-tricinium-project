@@ -32,6 +32,15 @@ const localePath = useLocalePath();
                         </li>
                     </ul>
                 </div>
+                <div></div>
+                <div>
+                    <h4 class="text-lg font-bold mb-2">Sitemap</h4>
+                    <ul class="grid grid-cols-2 gap-x-2">
+                        <li>
+                            <NuxtLink :href="localePath('legal-notice')">{{ $t('legalNotice') }}</NuxtLink>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </Container>
     </footer>
