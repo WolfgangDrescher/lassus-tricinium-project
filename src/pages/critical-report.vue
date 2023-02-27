@@ -166,6 +166,18 @@ defineI18nRoute({
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '12-usquequo-domine' } })">
+                                    12. Usquequo Domine
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 8: Die ausgefüllten Noten im Cantus bei der Triole wurden rhythmisch angepasst.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </FormattedText>
             </section>
