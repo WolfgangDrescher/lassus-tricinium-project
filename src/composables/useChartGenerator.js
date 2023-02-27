@@ -29,6 +29,12 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
     };
 
     filterValue = typeof filterValue !== 'function' ? a => a : filterValue;
+    compareFunction = typeof compareFunction !== 'function' ? (a, b) => {
+        if (a.y && b.y) {
+            return a.y < b.y ? 1 : -1;
+        }
+        return a < b ? 1 : -1;
+    } : compareFunction;
 
     const datasets = computed(() => {
         return elementsGroupedByDimension.value.map(dataset => {
