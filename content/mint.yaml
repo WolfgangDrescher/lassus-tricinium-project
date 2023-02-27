@@ -1865,260 +1865,465 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 28
+        lineIndex: 29
         next: +M2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 29
+        lineIndex: 30
         next: +m2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 84
+        lineIndex: 85
         next: +m2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 89
+        lineIndex: 90
         next: '-M3'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 126
+        lineIndex: 127
         next: +M2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 130
+        lineIndex: 131
         next: P1
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 144
-        next: +M2
-        spine: 1
-        triciniumId: 10-in-domino-confido
-    -
         lineIndex: 145
-        next: +m2
-        spine: 1
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 156
-        next: +m2
-        spine: 1
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 27
-        next: '-M2'
-        spine: 3
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 29
         next: +M2
+        spine: 1
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 146
+        next: +m2
+        spine: 1
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 157
+        next: +m2
+        spine: 1
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 28
+        next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 30
+        next: +M2
+        spine: 3
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 31
         next: +m3
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 41
+        lineIndex: 42
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 47
+        lineIndex: 48
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 53
+        lineIndex: 54
         next: '-P5'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 57
+        lineIndex: 58
         next: P1
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 61
+        lineIndex: 62
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 69
+        lineIndex: 70
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 72
+        lineIndex: 73
         next: '-m3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 75
+        lineIndex: 76
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 76
+        lineIndex: 77
         next: '-M3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 79
+        lineIndex: 80
         next: r
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 84
+        lineIndex: 85
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 87
+        lineIndex: 88
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 109
+        lineIndex: 110
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 133
+        lineIndex: 134
         next: +m2
-        spine: 3
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 138
-        next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 139
+        next: +M2
+        spine: 3
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 140
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 165
+        lineIndex: 166
         next: '-P5'
-        spine: 3
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 169
-        next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 170
-        next: +m2
+        next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 176
-        next: +M2
+        lineIndex: 171
+        next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 177
+        next: +M2
+        spine: 3
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 178
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 186
+        lineIndex: 187
         next: P1
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 38
+        lineIndex: 39
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 43
+        lineIndex: 44
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 50
+        lineIndex: 51
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 53
+        lineIndex: 54
         next: +m2
-        spine: 5
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 72
-        next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 73
+        next: +M2
+        spine: 5
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 74
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 75
+        lineIndex: 76
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 79
+        lineIndex: 80
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 84
+        lineIndex: 85
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 140
+        lineIndex: 141
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 142
+        lineIndex: 143
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 145
+        lineIndex: 146
         next: '-P5'
-        spine: 5
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 174
-        next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 175
+        next: +M2
+        spine: 5
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 176
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 179
+        lineIndex: 180
         next: '-P5'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 186
+        lineIndex: 187
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 188
+        lineIndex: 189
         next: '-m2'
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 28
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 29
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 33
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 59
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 62
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 64
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 69
+        next: '-P5'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 80
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 82
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 85
+        next: '-P4'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 102
+        next: '-M2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 112
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 122
+        next: r
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 136
+        next: '-m3'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 139
+        next: '-P8'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 143
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 145
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 147
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 166
+        next: '-M3'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 40
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 75
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 104
+        next: '-P4'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 121
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 132
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 138
+        next: +P4
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 175
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 26
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 37
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 54
+        next: +P4
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 77
+        next: +m2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 96
+        next: P1
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 105
+        next: +M2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 109
+        next: P1
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 130
+        next: P1
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 135
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 172
+        next: P1
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
 +M3:
     -
         lineIndex: 72
@@ -2261,10 +2466,30 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 182
+        lineIndex: 183
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 24
+        next: '-M2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 73
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
 +P4:
     -
         lineIndex: 65
@@ -2657,45 +2882,85 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 194
+        lineIndex: 195
         next: null
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 65
+        lineIndex: 66
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 113
+        lineIndex: 114
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 153
+        lineIndex: 154
         next: '-m3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 174
+        lineIndex: 175
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 68
+        lineIndex: 69
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 118
+        lineIndex: 119
         next: '-m2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 159
+        lineIndex: 160
         next: '-m3'
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 48
+        next: '-M2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 57
+        next: '-P5'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 61
+        next: P1
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 139
+        next: '-P8'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 56
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 162
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 189
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 192
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
 +P5:
     -
         lineIndex: 76
@@ -2843,25 +3108,45 @@
         spine: 3
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 101
+        lineIndex: 102
         next: '-M3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 121
+        lineIndex: 122
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 153
+        lineIndex: 154
         next: '-M3'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 165
+        lineIndex: 166
         next: P1
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 160
+        next: '-M3'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 163
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 100
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 186
+        next: P1
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
 +P8:
     -
         lineIndex: 93
@@ -2954,12 +3239,12 @@
         spine: 1
         triciniumId: 08-domine-dominus-noster
     -
-        lineIndex: 116
+        lineIndex: 117
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 169
+        lineIndex: 170
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
@@ -4216,160 +4501,300 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 30
+        lineIndex: 31
         next: '-m2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 47
+        lineIndex: 48
         next: '-m2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 57
+        lineIndex: 58
         next: '-m2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 87
+        lineIndex: 88
         next: +M2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 134
+        lineIndex: 135
         next: '-m3'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 148
+        lineIndex: 149
         next: '-P4'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 158
+        lineIndex: 159
         next: '-m3'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 43
+        lineIndex: 44
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 70
+        lineIndex: 71
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 74
+        lineIndex: 75
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 89
+        lineIndex: 90
         next: '-m3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 111
+        lineIndex: 112
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 134
+        lineIndex: 135
         next: '-M3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 140
+        lineIndex: 141
         next: '-m3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 155
+        lineIndex: 156
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 161
+        lineIndex: 162
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 171
+        lineIndex: 172
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 179
+        lineIndex: 180
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 181
+        lineIndex: 182
         next: '-P8'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 46
+        lineIndex: 47
         next: P1
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 54
+        lineIndex: 55
         next: '-m3'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 63
+        lineIndex: 64
         next: '-P4'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 74
+        lineIndex: 75
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 76
+        lineIndex: 77
         next: '-m3'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 82
+        lineIndex: 83
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 97
+        lineIndex: 98
         next: '-P4'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 144
+        lineIndex: 145
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 169
+        lineIndex: 170
         next: '-m2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 176
+        lineIndex: 177
         next: '-m2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 187
+        lineIndex: 188
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 194
+        lineIndex: 195
         next: null
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 30
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 35
+        next: '-m2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 63
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 75
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 81
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 138
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 144
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 155
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 191
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 35
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 41
+        next: r
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 68
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 71
+        next: '-P4'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 77
+        next: +M2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 98
+        next: +P5
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 102
+        next: +M2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 109
+        next: '-m3'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 122
+        next: P1
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 136
+        next: '-m3'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 155
+        next: '-m3'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 177
+        next: '-P4'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 180
+        next: '-m3'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 79
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 104
+        next: +M2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 115
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 159
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
 +m3:
     -
         lineIndex: 115
@@ -4792,45 +5217,95 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 188
+        lineIndex: 189
         next: '-m2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 35
+        lineIndex: 36
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 93
+        lineIndex: 94
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 127
+        lineIndex: 128
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 144
+        lineIndex: 145
         next: P1
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 190
+        lineIndex: 191
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 29
+        lineIndex: 30
         next: '-m2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 109
+        lineIndex: 110
         next: P1
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 87
+        next: '-P4'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 90
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 149
+        next: '-m3'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 184
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 24
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 116
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 151
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 160
+        next: +M3
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 22
+        next: P1
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 186
+        next: P1
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
 +m6:
     -
         lineIndex: 162
@@ -4913,7 +5388,7 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 101
+        lineIndex: 102
         next: P1
         spine: 5
         triciniumId: 10-in-domino-confido
@@ -6984,83 +7459,78 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 27
+        lineIndex: 28
         next: +M2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 38
+        lineIndex: 39
         next: r
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 50
+        lineIndex: 51
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 53
+        lineIndex: 54
         next: '-m3'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 79
+        lineIndex: 80
         next: '-m3'
-        spine: 1
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 117
-        next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 118
-        next: '-m2'
+        next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 121
-        next: '-M2'
+        lineIndex: 119
+        next: '-m2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 122
+        next: '-M2'
+        spine: 1
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 123
         next: +M2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 138
+        lineIndex: 139
         next: r
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 165
+        lineIndex: 166
         next: '-m3'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 172
+        lineIndex: 173
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 174
+        lineIndex: 175
         next: '-m2'
-        spine: 1
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 176
-        next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 177
-        next: '-m2'
+        next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 179
-        next: '-M2'
+        lineIndex: 178
+        next: '-m2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
@@ -7070,159 +7540,339 @@
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 181
+        next: '-M2'
+        spine: 1
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 182
         next: +M3
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 186
+        lineIndex: 187
         next: +m3
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 24
-        next: '-M2'
-        spine: 3
-        triciniumId: 10-in-domino-confido
-    -
         lineIndex: 25
-        next: +M2
-        spine: 3
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 28
-        next: +M2
-        spine: 3
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 40
-        next: +M2
-        spine: 3
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 49
         next: '-M2'
+        spine: 3
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 3
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 29
+        next: +M2
+        spine: 3
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 41
+        next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 50
+        next: '-M2'
+        spine: 3
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 51
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 63
+        lineIndex: 64
         next: +P4
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 67
+        lineIndex: 68
         next: '-m3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 97
+        lineIndex: 98
         next: +P5
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 114
+        lineIndex: 115
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 116
+        lineIndex: 117
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 118
+        lineIndex: 119
         next: +P5
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 123
+        lineIndex: 124
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 132
+        lineIndex: 133
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 175
+        lineIndex: 176
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 194
+        lineIndex: 195
         next: null
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 32
+        lineIndex: 33
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 35
+        lineIndex: 36
         next: P1
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 69
+        lineIndex: 70
         next: '-m3'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 85
+        lineIndex: 86
         next: '-m2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 91
+        lineIndex: 92
         next: '-m2'
-        spine: 5
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 106
-        next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
         lineIndex: 107
-        next: '-m2'
-        spine: 5
-        triciniumId: 10-in-domino-confido
-    -
-        lineIndex: 126
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 128
+        lineIndex: 108
         next: '-m2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 134
+        lineIndex: 127
+        next: '-M2'
+        spine: 5
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 129
+        next: '-m2'
+        spine: 5
+        triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 135
         next: r
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 171
+        lineIndex: 172
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 172
+        lineIndex: 173
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 178
+        lineIndex: 179
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 26
+        next: '-P8'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 54
+        next: '-m3'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 68
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 79
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 103
+        next: r
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 116
+        next: r
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 130
+        next: '-m2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 28
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 39
+        next: +M2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 50
+        next: '-m3'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 85
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 91
+        next: P1
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 120
+        next: +M2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 131
+        next: +M2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 167
+        next: P1
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 28
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 35
+        next: +M2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 41
+        next: r
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 59
+        next: P1
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 71
+        next: r
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 87
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 90
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 94
+        next: +M2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 98
+        next: r
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 118
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 122
+        next: +M3
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 128
+        next: +M2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 137
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 139
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 166
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 170
+        next: +M2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 177
+        next: r
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
 '-M3':
     -
         lineIndex: 77
@@ -7435,40 +8085,70 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 91
+        lineIndex: 92
         next: '-m2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 104
+        lineIndex: 105
         next: r
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 37
+        lineIndex: 38
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 77
+        lineIndex: 78
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 102
+        lineIndex: 103
         next: '-m3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 136
+        lineIndex: 137
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 154
+        lineIndex: 155
         next: r
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 48
+        next: r
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 57
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 162
+        next: +P5
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 168
+        next: '-m2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 191
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 51
+        next: +M2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
 '-P4':
     -
         lineIndex: 55
@@ -7836,20 +8516,55 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 153
+        lineIndex: 154
         next: '-m3'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 67
+        lineIndex: 68
         next: +P4
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 100
+        lineIndex: 101
         next: +m6
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 86
+        next: +m3
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 88
+        next: +m3
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 194
+        next: null
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 73
+        next: +M2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 105
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 130
+        next: '-M2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 179
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
 '-P5':
     -
         lineIndex: 72
@@ -8177,40 +8892,70 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 54
+        lineIndex: 55
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 150
+        lineIndex: 151
         next: +P4
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 168
+        lineIndex: 169
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 28
+        lineIndex: 29
         next: +m3
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 148
+        lineIndex: 149
         next: '-m3'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 158
+        lineIndex: 159
         next: +P4
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 181
+        lineIndex: 182
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 71
+        next: +M3
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 109
+        next: '-m3'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 159
+        next: +P5
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 177
+        next: r
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 59
+        next: +P4
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 191
+        next: +P4
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
 '-P8':
     -
         lineIndex: 166
@@ -8258,10 +9003,25 @@
         spine: 1
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 182
+        lineIndex: 183
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 141
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 142
+        next: r
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
 '-m2':
     -
         lineIndex: 30
@@ -9784,165 +10544,320 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 35
+        lineIndex: 36
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 49
+        lineIndex: 50
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 61
+        lineIndex: 62
         next: r
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 93
+        lineIndex: 94
         next: r
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 119
+        lineIndex: 120
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 175
+        lineIndex: 176
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 178
+        lineIndex: 179
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 190
+        lineIndex: 191
         next: P1
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 22
+        lineIndex: 23
         next: P1
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 36
+        lineIndex: 37
         next: '-M3'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 39
+        lineIndex: 40
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 94
+        lineIndex: 95
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 112
+        lineIndex: 113
         next: +P4
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 117
+        lineIndex: 118
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 126
+        lineIndex: 127
         next: +m3
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 131
+        lineIndex: 132
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 148
+        lineIndex: 149
         next: '-P5'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 158
+        lineIndex: 159
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 172
+        lineIndex: 173
         next: +P4
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 180
+        lineIndex: 181
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 191
+        lineIndex: 192
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 27
+        lineIndex: 28
         next: '-P5'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 31
+        lineIndex: 32
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 62
+        lineIndex: 63
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 87
+        lineIndex: 88
         next: P1
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 94
+        lineIndex: 95
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 108
+        lineIndex: 109
         next: +m3
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 122
+        lineIndex: 123
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 130
+        lineIndex: 131
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 170
+        lineIndex: 171
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 177
+        lineIndex: 178
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 191
+        lineIndex: 192
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 37
+        next: r
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 46
+        next: '-M3'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 96
+        next: r
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 131
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 152
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 172
+        next: P1
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 190
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 26
+        next: '-M2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 33
+        next: P1
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 38
+        next: '-M2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 47
+        next: +P4
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 67
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 70
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 87
+        next: '-M2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 97
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 119
+        next: '-M2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 127
+        next: r
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 152
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 173
+        next: '-M2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 194
+        next: null
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 33
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 50
+        next: '-M3'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 85
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 93
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 116
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 147
+        next: r
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 160
+        next: +P4
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 169
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 190
+        next: '-P5'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 194
+        next: null
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
 '-m3':
     -
         lineIndex: 26
@@ -10415,105 +11330,155 @@
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 46
+        lineIndex: 47
         next: +m2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 54
+        lineIndex: 55
         next: +m2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 80
+        lineIndex: 81
         next: +M2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 101
+        lineIndex: 102
         next: P1
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 136
+        lineIndex: 137
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 155
+        lineIndex: 156
         next: +M2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 159
+        lineIndex: 160
         next: r
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 168
+        lineIndex: 169
         next: +P8
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 68
+        lineIndex: 69
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 73
+        lineIndex: 74
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 92
+        lineIndex: 93
         next: +m3
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 105
+        lineIndex: 106
         next: P1
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 142
+        lineIndex: 143
         next: +m3
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 154
+        lineIndex: 155
         next: +m2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 58
+        lineIndex: 59
         next: '-m2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 70
+        lineIndex: 71
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 77
+        lineIndex: 78
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 104
+        lineIndex: 105
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 150
+        lineIndex: 151
         next: +P5
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 162
+        lineIndex: 163
         next: +P5
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 56
+        next: '-M3'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 110
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 137
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 151
+        next: '-m2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 189
+        next: '-m2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 51
+        next: r
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 115
+        next: +m3
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 159
+        next: +m3
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 184
+        next: +P5
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
 P1:
     -
         lineIndex: 25
@@ -11466,107 +12431,237 @@ P1:
         spine: 5
         triciniumId: 09-confitebor-tibi-domine
     -
-        lineIndex: 21
+        lineIndex: 22
         next: P1
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 23
+        lineIndex: 24
         next: '-M2'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 102
+        lineIndex: 103
         next: '-M3'
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 111
+        lineIndex: 112
         next: P1
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 113
+        lineIndex: 114
         next: +P8
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 133
+        lineIndex: 134
         next: +m2
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 192
+        lineIndex: 193
         next: +P4
         spine: 1
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 23
+        lineIndex: 24
         next: '-M2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 59
+        lineIndex: 60
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 108
+        lineIndex: 109
         next: +M2
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 146
+        lineIndex: 147
         next: '-m2'
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 189
+        lineIndex: 190
         next: +m3
         spine: 3
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 23
+        lineIndex: 24
         next: '-m2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 36
+        lineIndex: 37
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 49
+        lineIndex: 50
         next: +M2
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 90
+        lineIndex: 91
         next: '-M2'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 102
+        lineIndex: 103
         next: '-m3'
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 111
+        lineIndex: 112
         next: P1
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 116
+        lineIndex: 117
         next: +P4
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 167
+        lineIndex: 168
         next: P1
         spine: 5
         triciniumId: 10-in-domino-confido
     -
-        lineIndex: 168
+        lineIndex: 169
         next: +m2
         spine: 5
         triciniumId: 10-in-domino-confido
+    -
+        lineIndex: 34
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 60
+        next: +M2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 76
+        next: r
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 92
+        next: '-m2'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 106
+        next: '-P5'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 148
+        next: +m3
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 153
+        next: +m2
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 157
+        next: '-P5'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 176
+        next: '-P5'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 187
+        next: '-m3'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 192
+        next: '-P4'
+        spine: 1
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 34
+        next: +m2
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 56
+        next: +P4
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 63
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 92
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 124
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 168
+        next: '-m2'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 187
+        next: P1
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 189
+        next: '-M3'
+        spine: 3
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 23
+        next: +M2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 61
+        next: '-m2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 97
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 111
+        next: +m2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 175
+        next: '-M2'
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
+    -
+        lineIndex: 187
+        next: +P4
+        spine: 5
+        triciniumId: 11-salvum-me-fac-deus
