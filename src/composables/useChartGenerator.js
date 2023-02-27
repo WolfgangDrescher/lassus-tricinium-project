@@ -48,7 +48,7 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
                         }
                     });
                 } else {
-                    if (x) {
+                    // if (x) {
                         let index = accumulator.findIndex(d => d.x === formatValue(x));
                         if (index === -1) {
                             index = -1 + accumulator.push({
@@ -57,7 +57,7 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
                             });
                         }
                         accumulator[index].y++;
-                    }
+                    // }
                 }
                 return accumulator;
             }, []);

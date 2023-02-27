@@ -19,7 +19,10 @@ defineI18nRoute({
 });
 
 const { filteredElements } = useTriciniumFilter(tricinia);
-const { datasets, config, dimension } = useChartGenerator(filteredElements, tricinium => tricinium.cantusFirmus, undefined, undefined, (value) => value && t(`cantusFirmus.${value}`));
+const { datasets, config, dimension } = useChartGenerator(filteredElements, tricinium => tricinium.cantusFirmusAsString, undefined, undefined, (cantusFirmus) => {
+    const voices = cantusFirmus ? cantusFirmus.split(',').map(cf => cf.trim()) : [];
+    return voices.map(voice => t(`cantusFirmus.${voice}`)).join(', ') || t('cantusFirmus.free');
+});
 const { headers, items } = useDatasetTransformer(datasets, t('cantusFirmus'));
 </script>
 
