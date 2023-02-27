@@ -1,0 +1,16 @@
+degree: 3
+endLine: 141
+filename: 7bf253cd-5c9f-5743-958d-e8015c0b6895.krn
+startLine: 135
+triciniumId: 11-salvum-me-fac-deus
+ultima: b-
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 3

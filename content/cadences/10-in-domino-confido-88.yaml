@@ -1,13 +1,13 @@
 degree: 1
-endLine: 196
-filename: b1b3a6c5-e714-5f53-a2ed-86aae175e095.krn
-startLine: 185
+endLine: 100
+filename: efba71c1-6db1-5724-8134-6151befdf349.krn
+startLine: 88
 triciniumId: 10-in-domino-confido
 ultima: d
 voices:
     bassus:
         penultima: 5
-        ultima: 1
+        ultima: 0
     cantus:
         penultima: 7
         ultima: 1

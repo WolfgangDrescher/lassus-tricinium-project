@@ -1,25 +1,24 @@
-!!!COM: Lassus, Rudolphus
-!!!CDT: 1563-1625
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
-!!!ONM: 10
-!!!OTL@@LA: In Domino confido
-!!!OTL-incipit@@DE: Mein herzt und mut mit festem trawen
+!!!ONM: 11
+!!!OTL@@LA: Salvum me fac Deus
+!!!OTL-incipit@@DE: Hilff lieber Herr die heilig frommen
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
 *I"Bassus	*	*I"Tenor	*	*I"Cantus	*
 *I'B	*	*I'T	*	*I'C	*
-*clefC3	*	*clefC2	*	*clefG2	*
-*k[]	*	*k[]	*	*k[]	*
-*d:dor	*	*d:dor	*	*d:dor	*
+*clefC3	*	*clefC1	*	*clefG2	*
+*k[b-]	*	*k[b-]	*	*k[b-]	*
+*g:dor	*	*g:dor	*	*g:dor	*
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-1B-	baw-	2.d	jm-	2ff]	.
-.	.	.	.	1dd	im-
-.	.	4d	-mer	.	.
 =6	=6	=6	=6	=6	=6
-1A	-en/	1e	baw-	.	.
-.	.	.	.	2cc#i	-mer
-[2r	.	2d	-en/	[2dd	baw-
+4d	.	4f#	-ge-	1a	-nom-
+4c	-ge-	2g	-nom-	.	.
+2d	-nom-	.	.	.	.
+.	.	4f#X	.	.	.
+2G	-en	2g	-men/	[2g	-men/
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental
