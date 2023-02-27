@@ -153,6 +153,19 @@ defineI18nRoute({
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '11-salvum-me-fac-deus' } })">
+                                    11. Salvum me fac Deus
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 15: Falschen Schrägstrich im Bassus nach der Silbe <code>in/</code> vorgezogen
+                                    zu <code>zeit/</code>.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </FormattedText>
             </section>
