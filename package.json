@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@ckpack/vue-color": "^1.3.0",
-    "@nuxtjs/i18n-edge": "^8.0.0-beta.9-27913178.bca8cdf",
+    "@nuxtjs/i18n-edge": "^8.0.0-beta.10-27955677.afd9ab2",
     "@pinia/nuxt": "^0.4.6",
     "@tailwindcss/container-queries": "^0.1.0",
     "@vueuse/components": "^9.6.0",
@@ -25,7 +25,7 @@
     "diff": "^5.0.0",
     "diff2html": "^3.4.16",
     "midi-player-js": "^2.0.16",
-    "monaco-editor": "^0.35.0",
+    "monaco-editor": "^0.36.0",
     "pinia": "^2.0.27",
     "soundfont-player": "^0.12.0",
     "uuid": "^9.0.0",
