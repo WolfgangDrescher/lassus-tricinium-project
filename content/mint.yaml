@@ -2784,6 +2784,206 @@
         next: +m2
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 39
+        next: r
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 43
+        next: +m2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 48
+        next: P1
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 52
+        next: '-M3'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 60
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 62
+        next: +m3
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 86
+        next: '-P5'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 98
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 99
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 100
+        next: +m2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 106
+        next: '-P4'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 130
+        next: '-P5'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 137
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 184
+        next: +P4
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 25
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 32
+        next: r
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 67
+        next: +m2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 76
+        next: +m3
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 83
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 92
+        next: +m2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 114
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 130
+        next: +d4
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 146
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 152
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 180
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 27
+        next: +m2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 30
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 48
+        next: P1
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 62
+        next: '-P4'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 69
+        next: +m3
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 73
+        next: +m3
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 83
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 88
+        next: r
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 98
+        next: +m2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 111
+        next: r
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 117
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 135
+        next: +m2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 177
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 180
+        next: P1
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 187
+        next: +m2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
 +M3:
     -
         lineIndex: 72
@@ -3000,6 +3200,36 @@
         next: '-M3'
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 35
+        next: +m2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 72
+        next: +m2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 74
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 23
+        next: +m2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 59
+        next: '-P5'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 25
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
 +P4:
     -
         lineIndex: 65
@@ -3581,6 +3811,46 @@
         next: null
         spine: 1
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 117
+        next: '-m2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 135
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 189
+        next: null
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 43
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 61
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 126
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 170
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
 +P5:
     -
         lineIndex: 76
@@ -3908,6 +4178,11 @@
         next: P1
         spine: 3
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 90
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
 +d4:
     -
         lineIndex: 161
@@ -3934,6 +4209,11 @@
         next: P1
         spine: 3
         triciniumId: 08-domine-dominus-noster
+    -
+        lineIndex: 132
+        next: '-m3'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
 +m2:
     -
         lineIndex: 27
@@ -5730,6 +6010,101 @@
         next: null
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 36
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 45
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 73
+        next: +M3
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 105
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 24
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 69
+        next: r
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 88
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 97
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 111
+        next: P1
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 145
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 28
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 52
+        next: '-m3'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 99
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 137
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 156
+        next: r
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 170
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 183
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 189
+        next: null
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
 +m3:
     -
         lineIndex: 115
@@ -6361,6 +6736,31 @@
         next: '-m2'
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 64
+        next: '-P5'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 77
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 137
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 72
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 74
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
 +m6:
     -
         lineIndex: 162
@@ -6482,6 +6882,11 @@
         next: '-m2'
         spine: 3
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
 '-M2':
     -
         lineIndex: 32
@@ -9603,6 +10008,291 @@
         next: +M2
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 77
+        next: r
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 92
+        next: '-m2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 94
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 95
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 97
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 126
+        next: '-m3'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 141
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 145
+        next: '-m2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 152
+        next: r
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 162
+        next: '-m2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 166
+        next: r
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 175
+        next: '-m2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 180
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 28
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 45
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 52
+        next: P1
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 63
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 66
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 80
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 84
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 106
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 117
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 118
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 124
+        next: +P4
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 129
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 147
+        next: '-P4'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 156
+        next: r
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 163
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 167
+        next: +P4
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 172
+        next: '-m2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 175
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 177
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 189
+        next: null
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 31
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 33
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 35
+        next: P1
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 59
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 60
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 77
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 81
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 85
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 101
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 105
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 106
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 119
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 124
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 145
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 148
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 167
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 174
+        next: P1
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 186
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
 '-M3':
     -
         lineIndex: 77
@@ -9979,6 +10669,11 @@
         next: '-m3'
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 55
+        next: '-P4'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
 '-P4':
     -
         lineIndex: 55
@@ -10445,6 +11140,31 @@
         next: +M2
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 59
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 107
+        next: P1
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 142
+        next: +m2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 150
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 64
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
 '-P5':
     -
         lineIndex: 72
@@ -10866,6 +11586,31 @@
         next: +P8
         spine: 3
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 69
+        next: +M3
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 88
+        next: +P8
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 111
+        next: r
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 132
+        next: +P4
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 60
+        next: +P4
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
 '-P8':
     -
         lineIndex: 166
@@ -13163,6 +13908,156 @@
         next: '-M2'
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 93
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 119
+        next: P1
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 148
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 164
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 177
+        next: '-M2'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 30
+        next: +m2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 48
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 65
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 87
+        next: +m2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 105
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 108
+        next: +m2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 120
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 128
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 138
+        next: '-P4'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 174
+        next: '-M2'
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 32
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 39
+        next: r
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 86
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 100
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 107
+        next: P1
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 127
+        next: +P4
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 141
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 154
+        next: +m2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 168
+        next: +m2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 172
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 185
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
 '-m3':
     -
         lineIndex: 26
@@ -13969,6 +14864,31 @@
         next: +M2
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 83
+        next: P1
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 127
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 135
+        next: +m3
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 55
+        next: P1
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 97
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
 P1:
     -
         lineIndex: 25
@@ -15530,3 +16450,83 @@ P1:
         next: '-M2'
         spine: 5
         triciniumId: 13-dixit-insipiens
+    -
+        lineIndex: 32
+        next: +M3
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 50
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 84
+        next: +M2
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 108
+        next: '-P5'
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 121
+        next: +m6
+        spine: 1
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 20
+        next: P1
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 21
+        next: +M3
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 55
+        next: +M3
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 3
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 24
+        next: +M3
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 37
+        next: '-m2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 50
+        next: +m2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 56
+        next: '-M2'
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 109
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 175
+        next: +M2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
+    -
+        lineIndex: 182
+        next: +m2
+        spine: 5
+        triciniumId: 14-domine-quis-habitabit
