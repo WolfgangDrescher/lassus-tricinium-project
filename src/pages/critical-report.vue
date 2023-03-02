@@ -80,6 +80,9 @@ defineI18nRoute({
                             notiert sind, wurde Silbentrennung eingeführt. Die Silbentrennung wurde aus dem Druck
                             übernommen.
                         </li>
+                        <li>
+                            Ligaturen werden mit einer eckigen Klammer dargestellt.
+                        </li>
                     </ol>
                 </FormattedText>
             </section>
