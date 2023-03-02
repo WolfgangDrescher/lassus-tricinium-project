@@ -1,8 +1,8 @@
 degree: 1
-endLine: 163
-filename: e540bb0a-31a8-57b2-9ee9-7ae43cce3e1e.krn
-startLine: 147
-triciniumId: 03-domine-quid-multiplicati
+endLine: 311
+filename: 088c2138-3ce3-5c18-bc4f-70fcc28f73de.krn
+startLine: 301
+triciniumId: 12-usquequo-domine
 ultima: g
 voices:
     bassus:
@@ -10,7 +10,7 @@ voices:
         ultima: 1
     cantus:
         penultima: 2
-        ultima: 3
+        ultima: 1
     tenor:
         penultima: 7
         ultima: 1

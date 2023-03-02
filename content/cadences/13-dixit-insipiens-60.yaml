@@ -1,13 +1,13 @@
 degree: 5
-endLine: 55
-filename: 903e3976-e489-52b1-955d-922adb63004d.krn
-startLine: 43
-triciniumId: 09-confitebor-tibi-domine
-ultima: a
+endLine: 71
+filename: 2a37f769-3c5a-52e6-815c-1d554d85f972.krn
+startLine: 60
+triciniumId: 13-dixit-insipiens
+ultima: d
 voices:
     bassus:
         penultima: 5
-        ultima: 0
+        ultima: 6
     cantus:
         penultima: 2
         ultima: 1

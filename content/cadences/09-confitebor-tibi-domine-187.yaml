@@ -1,12 +1,12 @@
-degree: 4
-endLine: 58
-filename: f2052fd3-037c-56a2-95db-d68d0f3fa651.krn
-startLine: 42
-triciniumId: 07-domine-deus-meus
+degree: 5
+endLine: 201
+filename: b9b51468-076e-5409-88d2-85efa445b0c0.krn
+startLine: 187
+triciniumId: 09-confitebor-tibi-domine
 ultima: a
 voices:
     bassus:
-        penultima: 5
+        penultima: 4
         ultima: 0
     cantus:
         penultima: 7

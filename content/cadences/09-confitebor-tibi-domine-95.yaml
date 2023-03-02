@@ -1,7 +1,7 @@
 degree: 5
-endLine: 55
-filename: 903e3976-e489-52b1-955d-922adb63004d.krn
-startLine: 43
+endLine: 109
+filename: 6b2376b1-9324-5803-970d-2fa9892883f3.krn
+startLine: 95
 triciniumId: 09-confitebor-tibi-domine
 ultima: a
 voices:
@@ -10,7 +10,7 @@ voices:
         ultima: 0
     cantus:
         penultima: 2
-        ultima: 1
+        ultima: 3
     tenor:
         penultima: 7
         ultima: 1

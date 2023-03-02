@@ -1,9 +1,9 @@
 degree: 1
-endLine: 181
-filename: 970a9c92-b6ec-5d01-b571-68aec984f299.krn
-startLine: 170
-triciniumId: 08-domine-dominus-noster
-ultima: d
+endLine: 168
+filename: f3e0caa3-5b36-5b2e-a89e-bd30691b718e.krn
+startLine: 157
+triciniumId: 13-dixit-insipiens
+ultima: g
 voices:
     bassus:
         penultima: 5
@@ -13,4 +13,4 @@ voices:
         ultima: 1
     tenor:
         penultima: 7
-        ultima: 3
+        ultima: 1
