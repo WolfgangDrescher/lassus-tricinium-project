@@ -1,0 +1,16 @@
+degree: 5
+endLine: 134
+filename: 61077439-c5f9-5ac8-b1bc-c10573cf9131.krn
+startLine: 124
+triciniumId: 14-domine-quis-habitabit
+ultima: g
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 2
+        ultima: 5
+    tenor:
+        penultima: 7
+        ultima: 3
