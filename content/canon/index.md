@@ -282,7 +282,7 @@ repräsentativen Auswahl mit kurzer Erklärung:
   Vorimitation, Modus versus Anfangstöne der initialen Imitation, Melismen in
   initialer Imitation, neu angesetzte Imitation bei *daß er nicht nach des Löwen
   Weis*
-* [12. Usque quo Domine](/tricinium/12-usque-quo-domine): lange initiale Imitation, Modus versus Anfangstöne
+* [12. Usquequo Domine](/tricinium/12-usquequo-domine): lange initiale Imitation, Modus versus Anfangstöne
   der initialen Imitation, Textwiederholungen und Wiederholung im *cantus
   firmus*, Kadenzflucht, Vermeiden von Quintparallelen mit Quartsextvorhalt,
   Textverteilung bei Melismen
