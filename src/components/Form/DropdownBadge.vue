@@ -25,7 +25,7 @@ const removeOption = () => {
         <div class="text-xs font-normal leading-none max-w-full flex-initial py-1">{{ props.text || props.value }}</div>
         <div v-if="props.showRemoveButton" @click="removeOption" class="cursor-pointer flex flex-auto flex-row-reverse ml-1">
             <div>
-                <Icon name="heroicons-solid:x-mark" size="0.75em" />
+                <Icon name="heroicons-solid:x-mark" class="text-xs" />
             </div>
         </div>
     </div>

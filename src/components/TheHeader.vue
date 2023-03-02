@@ -21,7 +21,7 @@ function toggle() {
             <div class="flex justify-end items-center">
                 Deutsch
                 <button type="button" @click="toggle" class="inline-flex items-center p-2 ml-3 rounded-lg md:hidden hover:bg-red-300 focus:outline-none focus:ring focus:ring-red-100 focus:ring-opacity-50">
-                    <Icon name="heroicons-solid:bars-3" size="1.3rem" />
+                    <Icon name="heroicons-solid:bars-3" class="text-xl" />
                 </button>
             </div>
         </div>

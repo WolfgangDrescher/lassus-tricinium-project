@@ -24,7 +24,7 @@ const colorClasses = computed(() => {
     <div class="border-t-4 rounded-b px-4 py-3 shadow-md" :class="colorClasses" role="alert">
         <div class="flex gap-3">
             <div>
-                <Icon :name="`heroicons:${icon}`"  size="1.3rem" />
+                <Icon :name="`heroicons:${icon}`" class="text-xl" />
             </div>
             <div class="flex items-center">
                 <div class="font-bold">{{ title }}</div>

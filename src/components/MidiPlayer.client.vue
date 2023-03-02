@@ -154,11 +154,11 @@ const instruments = [
         <div>
             <ButtonGroup>
                 <Button @click="toggle" outline>
-                    <Icon v-if="isPlaying" name="heroicons-solid:pause" size="1.25rem" />
-                    <Icon v-else name="heroicons-solid:play" size="1.25rem" />
+                    <Icon v-if="isPlaying" name="heroicons-solid:pause" class="text-xl" />
+                    <Icon v-else name="heroicons-solid:play" class="text-xl" />
                 </Button>
                 <Button v-if="isPlaying" @click="stop" outline>
-                    <Icon name="heroicons-solid:stop" size="1.25rem" />
+                    <Icon name="heroicons-solid:stop" class="text-xl" />
                 </Button>
             </ButtonGroup>
         </div>

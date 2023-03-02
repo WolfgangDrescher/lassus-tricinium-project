@@ -165,12 +165,12 @@ function onNoteSelected(id, midiValues) {
                     <div class="flex flex-gap-4">
                         <div v-if="tricinium.prevId">
                             <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: tricinium.prevId }, hash: $route.hash })">
-                                <Icon name="heroicons:arrow-left-circle" size="1.25rem" />
+                                <Icon name="heroicons:arrow-left-circle" class="text-xl" />
                             </NuxtLink>
                         </div>
                         <div v-if="tricinium.nextId">
                             <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: tricinium.nextId }, hash: $route.hash })">
-                                <Icon name="heroicons:arrow-right-circle" size="1.25rem" />
+                                <Icon name="heroicons:arrow-right-circle" class="text-xl" />
                             </NuxtLink>
                         </div>
                     </div>
