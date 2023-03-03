@@ -41,7 +41,8 @@ const tableHeaders = [
 
 const tableItems = computed(() => {
     return filteredElements.value.map(tricinium => {
-        const voices = (tricinium.cantusFirmusAsString && tricinium.cantusFirmusAsString.split(',').map(cf => cf.trim())) ?? [];
+        const cantusFirmus = tricinium.cantusFirmusAsString;
+        const voices = cantusFirmus ? cantusFirmus.split(',').map(cf => cf.trim()) : [];
         return {
             id: tricinium.id,
             nr: tricinium.nr,
@@ -52,7 +53,7 @@ const tableItems = computed(() => {
             transposition: tricinium.transposition && t(`transposition.${tricinium.transposition}`),
             clefs: tricinium.clefs,
             finalis: tricinium.finalis,
-            cantusFirmus: voices.map(voice => t(`cantusFirmus.${voice}`)).join(', '),
+            cantusFirmus: voices.map(voice => t(`cantusFirmus.${voice}`)).join(', ') || t('cantusFirmus.free'),
         };
     });
 });
