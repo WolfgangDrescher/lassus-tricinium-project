@@ -292,7 +292,7 @@ repräsentativen Auswahl mit kurzer Erklärung:
   Soggetti
 * [15. Conserva me Domine](/tricinium/15-conserva-me-domine.krn): Klare
   Kadenzen, *cantus firmus*-Behandlung mit unterschiedlichen Transpositionen,
-  Anfansimitation mit drei verschiedenen Starttönen,
+  Anfansimitation mit drei verschiedenen Starttönen
 * [18. Cæli enarrant](/tricinium/18-caeli-enarran): Ambitus, modale Beantwortung bei *die große
   Herrlichkeit des Herren*, abgesprungene Kadenzflucht aus Sopranklausel,
   Akzidentien, pikardische Terz ist der *finalis* vorweggenommen
