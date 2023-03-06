@@ -290,7 +290,7 @@ repräsentativen Auswahl mit kurzer Erklärung:
   Ambitus und Ambitusüberschreitungen)!, Modus versus Anfangstöne der initialen
   Imitation, unterschiedliche Imitationen mit wenigen und mehreren Noten der
   Soggetti
-* [15. Conserva me Domine](/tricinium/15-conserva-me-domine.krn): Klare
+* [15. Conserva me Domine](/tricinium/15-conserva-me-domine): Klare
   Kadenzen, *cantus firmus*-Behandlung mit unterschiedlichen Transpositionen,
   Anfansimitation mit drei verschiedenen Starttönen
 * [18. Cæli enarrant](/tricinium/18-caeli-enarran): Ambitus, modale Beantwortung bei *die große
