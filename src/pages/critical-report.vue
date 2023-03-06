@@ -181,6 +181,19 @@ defineI18nRoute({
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '16-exaudi-domine-iustitiam' } })">
+                                    16. Exaudi Domine iustitiam
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 21-23: Der falsche Text im Bassus <code>auß losem munde</code> wurde angepasst
+                                    zu <code>auß losem grunde</code>.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </FormattedText>
             </section>
