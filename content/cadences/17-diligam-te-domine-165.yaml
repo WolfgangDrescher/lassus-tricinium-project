@@ -1,0 +1,16 @@
+degree: 6
+endLine: 175
+filename: a50d638f-f2f2-5a9d-b330-812eab543400.krn
+startLine: 165
+triciniumId: 17-diligam-te-domine
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 2
+        ultima: 0
+    tenor:
+        penultima: 7
+        ultima: 1

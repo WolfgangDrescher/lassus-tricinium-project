@@ -1,0 +1,16 @@
+degree: 1
+endLine: 145
+filename: 9c29c79a-cb86-5cb3-8fe9-5d9e977c6960.krn
+startLine: 134
+triciniumId: 17-diligam-te-domine
+ultima: f
+voices:
+    bassus:
+        penultima: 5
+        ultima: 0
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1
