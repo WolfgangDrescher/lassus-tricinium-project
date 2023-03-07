@@ -194,6 +194,19 @@ defineI18nRoute({
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '17-diligam-te-domine' } })">
+                                    17. Diligam te Domine
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 21-22: Die eigenartige Textwiederholung im Bassus <code>weñ not mein
+                                    schutz</code> wurde so belassen.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </FormattedText>
             </section>
