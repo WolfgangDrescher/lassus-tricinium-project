@@ -1,0 +1,24 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 18
+!!!OTL@@LA: Cæli enarrant
+!!!OTL-incipit@@DE: Die Himml künden auß mit eren
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC1	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+2A	gan-	2cc	gan-	2e	-tze
+2G	-tze	2b	-tze	1e	fir-
+=18	=18	=18	=18	=18	=18
+2A	fir-	2cc	fir-	.	.
+2B	-ma-	2dd	-ma-	2g	-ma-
+[2c	-ment/	[2ee	-ment	2g	-ment
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental

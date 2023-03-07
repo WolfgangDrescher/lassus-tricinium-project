@@ -1,0 +1,16 @@
+degree: 3
+endLine: 120
+filename: 41e3a534-dc64-5787-ab25-514db313426e.krn
+startLine: 109
+triciniumId: 18-caeli-enarrant
+ultima: f
+voices:
+    bassus:
+        penultima: 2
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 4
+        ultima: 3
