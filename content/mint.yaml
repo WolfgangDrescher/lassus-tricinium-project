@@ -3839,6 +3839,161 @@
         next: '-M2'
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 29
+        next: +P5
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 43
+        next: '-m3'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 83
+        next: +P5
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 91
+        next: +P5
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 131
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 161
+        next: +m2
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 34
+        next: P1
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 42
+        next: r
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 53
+        next: r
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 57
+        next: r
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 76
+        next: +P4
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 95
+        next: +m2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 100
+        next: r
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 106
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 115
+        next: r
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 121
+        next: +m2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 124
+        next: '-P4'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 142
+        next: +m2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 157
+        next: +m2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 161
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 173
+        next: +m2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 27
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 48
+        next: +m3
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 57
+        next: +M2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 64
+        next: +m2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 85
+        next: P1
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 139
+        next: +M2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 144
+        next: r
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 170
+        next: +M2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 175
+        next: null
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
 +M3:
     -
         lineIndex: 72
@@ -4175,6 +4330,21 @@
         next: '-M2'
         spine: 3
         triciniumId: 17-diligam-te-domine
+    -
+        lineIndex: 59
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 103
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 169
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
 +P4:
     -
         lineIndex: 65
@@ -4951,6 +5121,36 @@
         next: '-M2'
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 30
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 64
+        next: '-m3'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 71
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 78
+        next: r
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 90
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 90
+        next: '-m2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
 +P5:
     -
         lineIndex: 76
@@ -5297,6 +5497,51 @@
         next: '-m3'
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 31
+        next: '-P5'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 50
+        next: r
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 73
+        next: r
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 92
+        next: r
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 127
+        next: +M2
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 158
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 24
+        next: '-P4'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 147
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
 +P8:
     -
         lineIndex: 93
@@ -5438,6 +5683,11 @@
         next: '-m2'
         spine: 1
         triciniumId: 17-diligam-te-domine
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
 +d4:
     -
         lineIndex: 161
@@ -7885,6 +8135,81 @@
         next: +P5
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 100
+        next: P1
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 142
+        next: '-P5'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 165
+        next: '-P4'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 37
+        next: r
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 48
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 83
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 97
+        next: '-P4'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 122
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 144
+        next: +P5
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 158
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 175
+        next: null
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 53
+        next: +M2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 66
+        next: '-m2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 106
+        next: '-m2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 115
+        next: r
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
 +m3:
     -
         lineIndex: 115
@@ -8736,6 +9061,26 @@
         next: '-m2'
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 111
+        next: '-P4'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 168
+        next: +M3
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 169
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 49
+        next: P1
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
 +m6:
     -
         lineIndex: 162
@@ -8902,6 +9247,11 @@
         next: P1
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 39
+        next: +M2
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
 '-M2':
     -
         lineIndex: 32
@@ -13408,6 +13758,236 @@
         next: '-m2'
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 48
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 49
+        next: +P5
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 57
+        next: +M3
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 64
+        next: '-P5'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 69
+        next: +P5
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 85
+        next: P1
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 106
+        next: r
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 119
+        next: '-m2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 124
+        next: +P5
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 139
+        next: '-m2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 150
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 152
+        next: r
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 159
+        next: '-m3'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 170
+        next: '-P5'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 51
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 70
+        next: +P4
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 75
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 91
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 94
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 107
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 112
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 119
+        next: '-P8'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 133
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 137
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 141
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 150
+        next: '-m2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 153
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 154
+        next: '-m3'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 168
+        next: +m3
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 172
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 29
+        next: '-m2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 37
+        next: r
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 73
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 78
+        next: r
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 92
+        next: P1
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 97
+        next: r
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 110
+        next: '-m2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 124
+        next: '-m2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 131
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 133
+        next: +M2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 153
+        next: '-m2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 168
+        next: +M2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
 '-M3':
     -
         lineIndex: 77
@@ -13909,6 +14489,11 @@
         next: +M2
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 160
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
 '-P4':
     -
         lineIndex: 55
@@ -14510,6 +15095,56 @@
         next: '-m3'
         spine: 3
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 24
+        next: '-P4'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 27
+        next: P1
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 110
+        next: +m3
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 112
+        next: r
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 166
+        next: +m3
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 27
+        next: '-P5'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 85
+        next: P1
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 99
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 125
+        next: r
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 131
+        next: +P8
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
 '-P5':
     -
         lineIndex: 72
@@ -15071,6 +15706,41 @@
         next: +M2
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 37
+        next: +m6
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 66
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 102
+        next: +M3
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 144
+        next: r
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 175
+        next: null
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 29
+        next: +P4
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
 '-P8':
     -
         lineIndex: 166
@@ -15162,6 +15832,11 @@
         next: +M3
         spine: 1
         triciniumId: 16-exaudi-domine-iustitiam
+    -
+        lineIndex: 120
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
 '-m2':
     -
         lineIndex: 30
@@ -18208,6 +18883,111 @@
         next: null
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 121
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 141
+        next: +m2
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 32
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 49
+        next: P1
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 74
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 84
+        next: '-P4'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 93
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 110
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 134
+        next: P1
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 139
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 152
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 159
+        next: '-M3'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 171
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 31
+        next: P1
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 51
+        next: +m2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 69
+        next: P1
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 107
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 112
+        next: +m2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 158
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
 '-m3':
     -
         lineIndex: 26
@@ -19299,6 +20079,26 @@
         next: +m3
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 44
+        next: '-M2'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 160
+        next: +M2
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 66
+        next: P1
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 156
+        next: +M2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
 P1:
     -
         lineIndex: 25
@@ -21480,3 +22280,78 @@ P1:
         next: '-m2'
         spine: 5
         triciniumId: 18-caeli-enarrant
+    -
+        lineIndex: 28
+        next: +M2
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 87
+        next: '-P5'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 101
+        next: '-P5'
+        spine: 1
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 35
+        next: +m2
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 50
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 86
+        next: +P4
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 135
+        next: '-M2'
+        spine: 3
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 22
+        next: P1
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 23
+        next: +M2
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 34
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 50
+        next: '-m2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 86
+        next: +P4
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
+    -
+        lineIndex: 95
+        next: '-M2'
+        spine: 5
+        triciniumId: 19-exaudiat-te-dominus
