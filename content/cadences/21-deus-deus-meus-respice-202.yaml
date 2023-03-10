@@ -1,0 +1,16 @@
+degree: 1
+endLine: 214
+filename: 3ca2768c-6d49-56ef-9ee2-18f2ebafc551.krn
+startLine: 202
+triciniumId: 21-deus-deus-meus-respice
+ultima: a
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1

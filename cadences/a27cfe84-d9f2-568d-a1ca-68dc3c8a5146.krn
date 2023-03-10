@@ -1,0 +1,29 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 21
+!!!OTL@@LA: Deus Deus meus respice
+!!!OTL-incipit@@DE: Mein Gott mein lieber trewer Gott
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC1	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*a:aeo	*	*a:aeo	*	*a:aeo	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+2.A	fest	2c	fast	2e	fast
+.	.	2cc	für	2e	für
+4A	für	.	.	.	.
+=14	=14	=14	=14	=14	=14
+2e	sche-	4b	schwe-	2g	schwe-
+.	.	4.g	-rer	.	.
+2d	-rer	.	.	2a	-rer
+.	.	16f#i	.	.	.
+.	.	16e	.	.	.
+.	.	4f#	.	.	.
+[4G	pein/	4g	pein/	[4b	pein/
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
