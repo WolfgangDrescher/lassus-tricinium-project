@@ -44,6 +44,10 @@ class Cadence {
     get cantusClausula() {
         return `${this.cadence.voices.cantus.penultima ?? '-'},${this.cadence.voices.cantus.ultima ?? '-'}`;
     }
+
+    get beat() {
+        return this.cadence.beat;
+    }
 }
 
 export function useCadence(elements, tricinia) {
