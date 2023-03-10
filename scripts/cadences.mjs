@@ -85,6 +85,9 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
     const findCadenceStartRegex = /^!![^\S\r\n]?cadence[^\S\r\n]start[^\S\r\n]?([\w]+)?([^\S\r\n]?;[^\S\r\n]?ultima[^\S\r\n]?=[^\S\r\n]?([\w\-#]+))?/gm;
     const findCadenceEndRegex = /^!![^\S\r\n]?cadence[^\S\r\n]end[^\S\r\n]?([\w]+)?([^\S\r\n]?;[^\S\r\n]?ultima[^\S\r\n]?=[^\S\r\n]?([\w\-#]+))?/gm;
 
+    const kernBeats = execSync(`cat ${file} | beat -c`).toString().trim();
+    const kernBeatsLines = kernBeats.split('\n');
+
     let startResult;
     let endResult;
 
@@ -115,6 +118,14 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     voices[voice.name].penultima = getClausulaForVoice(fileContent, voice.spine, ultima, 2);
                 });
 
+                let beat = null;
+                for (let i = endLine -1; i >= 0; i--) {
+                    if (kernBeatsLines[i].match(/\d+/)) {
+                        beat = parseInt(kernBeatsLines[i], 10);
+                        break;
+                    }
+                }
+
                 // set yaml config
                 const config = {
                     triciniumId: id,
@@ -124,6 +135,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     startLine,
                     endLine,
                     voices,
+                    beat,
                 };
                 const configFileName = `${id}-${startLine}.yaml`;
                 fs.writeFileSync(`${__dirname}/../content/cadences/${configFileName}`, yaml.dump(config, {
