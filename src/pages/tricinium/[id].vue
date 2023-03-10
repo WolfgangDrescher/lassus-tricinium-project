@@ -295,6 +295,9 @@ function onNoteSelected(id, midiValues) {
                     </template>
 
                     <template #[`tabItem.cadences`]>
+                        <div class="mb-4">
+                            <CadenceTimeline :cadences="cadences" />
+                        </div>
                         <FormCheckbox v-model="showModernClefs" :label="$t('showModernClefs')" />
                         <div class="@container">
                             <div class="grid grid-cols-1 @md:grid-cols-2 @2xl:grid-cols-3 gap-4 mt-4">
