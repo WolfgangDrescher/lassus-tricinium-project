@@ -24,7 +24,7 @@ const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).
     text: finalis,
 }));
 
-const degreeOptions = [...new Set(cadences.map(cadence => cadence.degree).filter(n => n))].map(degree => ({
+const degreeOptions = [...new Set(cadences.map(cadence => cadence.degree).filter(n => n).sort())].map(degree => ({
     value: degree,
     text: romanize(degree),
 }));
