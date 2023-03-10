@@ -157,6 +157,35 @@ class Tricinium {
         return this.tricinium['@next'] ?? null;
     }
 
+    get endSound() {
+        return [
+            this.tricinium.voices.bassus.endSoundFiguredbassNumber.replace('n', '#'),
+            this.tricinium.voices.tenor.endSoundFiguredbassNumber.replace('n', '#'),
+            this.tricinium.voices.cantus.endSoundFiguredbassNumber.replace('n', '#'),
+        ];
+    }
+
+    getEndSound(withinOctave = true, accidentals = true, sort = true) {
+        const endSound = [...this.endSound];
+        if (!accidentals) {
+            endSound.forEach((fbNumber, index) => {
+                endSound[index] = fbNumber.replace(/\D/g, '');
+            });
+        }
+        if (withinOctave) {
+            endSound.forEach((fbNumber, index) => {
+                const matches = /(\D*)(\d+)(\D*)/.exec(fbNumber);
+                endSound[index] = `${matches[1]}${matches[2] > 8 ? matches[2] % 7 : matches[2]}${matches[3]}`;
+            });
+        }
+        if (sort) {
+            endSound.sort((a, b) => {
+                return parseInt(a.replace(/\D/g, '')) - parseInt(b.replace(/\D/g, ''));
+            });
+        }
+        return endSound.join(', ');
+    }
+
 }
 
 export function useTricinium(elements) {
