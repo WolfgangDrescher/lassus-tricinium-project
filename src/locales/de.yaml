@@ -152,3 +152,7 @@ mint.up: Aufwärts
 mint.down: Abwärts
 mint.none: Ohne
 legalNotice: Impressum
+endSound: Schlussklang
+intervalsWithinOctave: Intervalle innerhalb einer Oktave
+showIntervals: Vorzeichen anzeigen
+sortNumbers: Zahlen sortieren
