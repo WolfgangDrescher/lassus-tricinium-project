@@ -87,12 +87,10 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
 
     let startResult;
     let endResult;
-    let counter = 0;
 
     while ((startResult = findCadenceStartRegex.exec(kern)) !== null) {
         while ((endResult = findCadenceEndRegex.exec(kern)) !== null) {
             if (startResult.index < endResult.index && startResult[1] === startResult[1]) {
-                counter++;
                 // yank score
                 const startLine = kern.substring(0, startResult.index).split('\n').length;
                 const ultima = (startResult[3] ?? endResult[3])?.toLowerCase();
