@@ -39,7 +39,7 @@ jobs:
 
             -
                 name: Build and analyze music with humdrum/humlib
-                run: npm run update
+                run: node scripts/update.mjs
 
             -
                 name: Use custom verovio build
