@@ -39,9 +39,7 @@ jobs:
 
             -
                 name: Build and analyze music with humdrum/humlib
-                run: |
-                    node scripts/cadences.mjs
-                    node scripts/mint.mjs
+                run: npm run update
 
             -
                 name: Use custom verovio build
