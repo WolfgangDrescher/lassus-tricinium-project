@@ -5017,7 +5017,7 @@
         triciniumId: 20-domine-in-virtute-tua
     -
         lineIndex: 70
-        next: '-M6'
+        next: +m3
         spine: 3
         triciniumId: 20-domine-in-virtute-tua
     -
@@ -5864,11 +5864,6 @@
     -
         lineIndex: 51
         next: +M2
-        spine: 3
-        triciniumId: 20-domine-in-virtute-tua
-    -
-        lineIndex: 72
-        next: r
         spine: 3
         triciniumId: 20-domine-in-virtute-tua
     -
@@ -10440,6 +10435,11 @@
         lineIndex: 104
         next: '-m2'
         spine: 1
+        triciniumId: 20-domine-in-virtute-tua
+    -
+        lineIndex: 71
+        next: '-P5'
+        spine: 3
         triciniumId: 20-domine-in-virtute-tua
     -
         lineIndex: 97
@@ -16909,12 +16909,6 @@
         next: +M2
         spine: 3
         triciniumId: 22-dominus-regit-me
-'-M6':
-    -
-        lineIndex: 71
-        next: +P4
-        spine: 3
-        triciniumId: 20-domine-in-virtute-tua
 '-P4':
     -
         lineIndex: 55
@@ -18281,6 +18275,11 @@
         lineIndex: 140
         next: r
         spine: 1
+        triciniumId: 20-domine-in-virtute-tua
+    -
+        lineIndex: 72
+        next: r
+        spine: 3
         triciniumId: 20-domine-in-virtute-tua
     -
         lineIndex: 159
