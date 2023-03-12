@@ -128,7 +128,7 @@ function updateSplitViewWidth(value) {
     splitViewWidth.value = value;
 }
 
-const { showModernClefs } = storeToRefs(useCadenceHumdrumFiltersStore());
+const { showModernClefs, showCadencesInScore } = storeToRefs(useCadenceHumdrumFiltersStore());
 
 function toggleSidebar() {
     if (showSidebar.value == true && showScore.value == false) return;
@@ -204,7 +204,11 @@ function onNoteSelected(id, midiValues) {
                             :expert-mode="triciniumExpertMode"
                             @update:expertMode="onUpdateTriciniumExpertMode"
                             @note-selected="onNoteSelected"
-                        />
+                        >
+                            <template v-if="showCadencesInScore" v-slot:default="slotProps">
+                                <HumdrumCadenceHighlight v-for="cadence in cadences" :key="cadence.id" :cadence="cadence" :container="slotProps.scoreWrapper" />
+                            </template>
+                        </HumdrumInteractiveScore>
                     </Suspense>
                     <template #error="{ error }">
                         <AlertMessage>
@@ -298,7 +302,10 @@ function onNoteSelected(id, midiValues) {
                         <div class="mb-4">
                             <CadenceTimeline :cadences="cadences" />
                         </div>
-                        <FormCheckbox v-model="showModernClefs" :label="$t('showModernClefs')" />
+                        <div class="grid md:grid-cols-2 gap-2 mb-2">
+                            <FormCheckbox v-model="showModernClefs" :label="$t('showModernClefs')" />
+                            <FormCheckbox v-model="showCadencesInScore" :label="$t('showCadencesInScore')" />
+                        </div>
                         <div class="@container">
                             <div class="grid grid-cols-1 @md:grid-cols-2 @2xl:grid-cols-3 gap-4 mt-4">
                                 <div v-for="cadence in cadences" :key="cadence._id">

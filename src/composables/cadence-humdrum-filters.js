@@ -4,6 +4,7 @@ const defaultFilter = {
     showModernClefs: true,
     showIntervallsatz: true,
     showLyrics: false,
+    showCadencesInScore: false,
 };
 
 export const useCadenceHumdrumFiltersStore = defineStore('cadence_humdrum_filters', {

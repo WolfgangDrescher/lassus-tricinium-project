@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    .bg-zig-zag-left::before, 
+    .bg-zig-zag-right::after {
+        background-repeat: repeat-y;
+        background-size: 11px 19px;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    .bg-zig-zag-left::before {
+        background-image:
+            linear-gradient(-135deg, var(--zig-zag-color) 8px, transparent 0),
+            linear-gradient(-45deg, var(--zig-zag-color) 8px, transparent 0);
+        background-position: right top;
+        left: -100%;
+    }
+
+    .bg-zig-zag-right::after {
+        background-image:
+            linear-gradient(135deg, var(--zig-zag-color) 8px, transparent 0),
+            linear-gradient(45deg, var(--zig-zag-color) 8px, transparent 0);
+        background-position: left top;
+        left: 100%;
+    }
+        
+}

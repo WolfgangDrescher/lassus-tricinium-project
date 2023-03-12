@@ -124,6 +124,27 @@ function getMatchingParent(target, selector) {
     return false;
 }
 
+const scoreWrapper = ref(null);
+const scoreContainer = ref(null);
+const scoreKey = ref(Date.now());
+
+function mutationObserverEvent() {
+    scoreKey.value = Date.now();
+}
+
+onMounted(() => {
+    nextTick(() => {
+        const mutationObserver = new MutationObserver(mutationObserverEvent);
+        if (scoreContainer.value) {
+            mutationObserver.observe(scoreContainer.value, {
+                attributes: true,
+                childList: true,
+                subtree: true,
+            });
+        }
+    });
+});
+
 defineExpose({
     verovioCanvas,
     addFilter,
@@ -144,7 +165,14 @@ defineExpose({
             />
         </div>
         <div>
-            <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" v-bind="verovioCanvasOptions" @mounted="verovioCanvasMounted"/>
+            <div class="relative" ref="scoreWrapper">
+                <div ref="scoreContainer">
+                    <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" v-bind="verovioCanvasOptions" @mounted="verovioCanvasMounted"/>
+                </div>
+                <div class="absolute w-full h-full top-0 left-0 pointer-events-none">
+                    <slot :scoreWrapper="$refs.scoreWrapper" :key="scoreKey"></slot>
+                </div>
+            </div>
         </div>
     </div>
 </template>
