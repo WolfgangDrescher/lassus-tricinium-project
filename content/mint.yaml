@@ -4190,113 +4190,98 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 43
+        lineIndex: 45
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 51
+        lineIndex: 53
         next: +P5
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 123
+        lineIndex: 130
         next: +m3
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 135
+        lineIndex: 142
         next: '-P5'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 161
+        lineIndex: 171
         next: '-M3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 183
+        lineIndex: 193
         next: +m2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 199
+        lineIndex: 211
         next: +P5
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 209
+        lineIndex: 222
         next: +m2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 35
+        lineIndex: 36
         next: +m2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 66
+        lineIndex: 69
         next: +M2
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 67
-        next: '-M2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
         lineIndex: 70
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 73
         next: '-m3'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 88
+        lineIndex: 92
         next: P1
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 98
+        lineIndex: 102
         next: +m2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 116
+        lineIndex: 122
         next: +m2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 121
+        lineIndex: 128
         next: +m2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 155
+        lineIndex: 164
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 159
+        lineIndex: 168
         next: +m2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 165
+        lineIndex: 175
         next: +m3
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 173
-        next: +m2
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 177
-        next: +M2
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 179
-        next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
@@ -4305,57 +4290,72 @@
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 209
+        lineIndex: 187
+        next: +M2
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 189
+        next: '-m2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 193
         next: +m2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 26
-        next: +M2
-        spine: 5
+        lineIndex: 222
+        next: +m2
+        spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
         lineIndex: 27
-        next: +m2
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 58
-        next: +m2
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 89
         next: +M2
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 91
+        lineIndex: 28
         next: +m2
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 113
+        lineIndex: 61
+        next: +m2
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 93
         next: +M2
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 117
+        lineIndex: 95
+        next: +m2
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 119
+        next: +M2
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 124
         next: r
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 126
+        lineIndex: 133
         next: +m3
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 180
+        lineIndex: 190
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 206
+        lineIndex: 219
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -4649,6 +4649,231 @@
         next: '-M2'
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 40
+        next: +m2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 44
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 46
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 65
+        next: '-P4'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 90
+        next: +m2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 97
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 114
+        next: '-P4'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 151
+        next: +m3
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 157
+        next: r
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 169
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 170
+        next: '-M3'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 176
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 182
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 188
+        next: '-P4'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 202
+        next: '-P4'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 225
+        next: +m3
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 26
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 28
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 40
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 60
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 64
+        next: '-P5'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 70
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 111
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 113
+        next: '-P5'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 120
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 143
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 161
+        next: +P4
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 186
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 191
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 195
+        next: '-M3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 208
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 221
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 236
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 32
+        next: +m2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 84
+        next: +m2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 140
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 145
+        next: r
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 183
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 195
+        next: P1
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 198
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 205
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 218
+        next: P1
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 223
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 232
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
 +M3:
     -
         lineIndex: 72
@@ -5050,6 +5275,26 @@
         next: +m2
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 192
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 215
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 129
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 199
+        next: '-P5'
+        spine: 3
+        triciniumId: 23-domini-est-terra
 +P4:
     -
         lineIndex: 65
@@ -5877,62 +6122,62 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 26
+        lineIndex: 27
         next: '-m2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 72
+        lineIndex: 75
         next: '-P5'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 126
+        lineIndex: 133
         next: '-m3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 148
+        lineIndex: 156
         next: '-P4'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 27
+        lineIndex: 28
         next: '-m3'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 31
+        lineIndex: 32
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 58
+        lineIndex: 61
         next: '-M2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 93
+        lineIndex: 97
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 195
+        lineIndex: 206
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 50
-        next: '-M2'
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 169
+        lineIndex: 52
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 195
+        lineIndex: 179
+        next: '-M2'
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 206
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -5986,6 +6231,66 @@
         next: '-m2'
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 135
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 198
+        next: '-P4'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 238
+        next: null
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 35
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 66
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 88
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 115
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 149
+        next: '-m3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 155
+        next: '-m3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 162
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 204
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 154
+        next: '-m3'
+        spine: 5
+        triciniumId: 23-domini-est-terra
 +P5:
     -
         lineIndex: 76
@@ -6388,52 +6693,52 @@
         spine: 3
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 32
+        lineIndex: 33
         next: r
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 52
+        lineIndex: 55
         next: +m2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 77
+        lineIndex: 81
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 104
+        lineIndex: 109
         next: '-m3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 111
+        lineIndex: 117
         next: '-M2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 156
+        lineIndex: 165
         next: +M2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 167
+        lineIndex: 177
         next: '-M3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 177
+        lineIndex: 187
         next: +m2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 194
+        lineIndex: 205
         next: r
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 202
+        lineIndex: 215
         next: +m2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
@@ -6452,6 +6757,26 @@
         next: '-m2'
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 124
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 163
+        next: +m2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 181
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 190
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
 +P8:
     -
         lineIndex: 93
@@ -6599,22 +6924,22 @@
         spine: 3
         triciniumId: 19-exaudiat-te-dominus
     -
-        lineIndex: 47
+        lineIndex: 49
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 108
+        lineIndex: 114
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 138
+        lineIndex: 145
         next: P1
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 143
+        lineIndex: 150
         next: P1
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -6623,6 +6948,26 @@
         next: '-m2'
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 147
+        next: '-m2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 57
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 108
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 231
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
 +d4:
     -
         lineIndex: 161
@@ -9281,137 +9626,137 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 40
+        lineIndex: 41
         next: '-P5'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 55
+        lineIndex: 58
         next: '-m2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 88
+        lineIndex: 92
         next: '-m3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 92
+        lineIndex: 96
         next: r
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 179
+        lineIndex: 189
         next: '-m3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 185
+        lineIndex: 195
         next: '-m3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 205
+        lineIndex: 218
         next: '-m3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 212
+        lineIndex: 225
         next: '-m3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 219
+        lineIndex: 232
         next: '-P4'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 37
+        lineIndex: 38
         next: '-P4'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 40
+        lineIndex: 41
         next: '-m3'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 55
+        lineIndex: 58
         next: '-P5'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 99
+        lineIndex: 104
         next: '-M3'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 117
+        lineIndex: 124
         next: '-P4'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 124
+        lineIndex: 131
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 154
+        lineIndex: 163
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 161
+        lineIndex: 171
         next: '-m3'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 174
+        lineIndex: 184
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 185
+        lineIndex: 195
         next: '-P5'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 205
+        lineIndex: 218
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 212
+        lineIndex: 225
         next: '-P5'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 219
+        lineIndex: 232
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 30
+        lineIndex: 31
         next: '-m2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 43
+        lineIndex: 45
         next: P1
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 60
+        lineIndex: 63
         next: '-m2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 74
+        lineIndex: 77
         next: '-m2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 92
+        lineIndex: 96
         next: '-m2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -9555,6 +9900,146 @@
         next: r
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 41
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 72
+        next: '-m2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 77
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 92
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 122
+        next: +P5
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 166
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 191
+        next: +M3
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 204
+        next: '-m2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 41
+        next: '-P5'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 72
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 77
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 92
+        next: '-P5'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 122
+        next: '-P4'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 145
+        next: '-m3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 151
+        next: '-m3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 158
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 182
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 188
+        next: +P5
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 210
+        next: '-P4'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 223
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 238
+        next: null
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 34
+        next: '-m2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 87
+        next: '-m2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 135
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 157
+        next: '-m2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 166
+        next: r
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 176
+        next: '-m2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
 +m3:
     -
         lineIndex: 115
@@ -10502,62 +10987,62 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 82
+        lineIndex: 86
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 125
+        lineIndex: 132
         next: +P4
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 142
+        lineIndex: 149
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 43
+        lineIndex: 45
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 77
+        lineIndex: 81
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 167
+        lineIndex: 177
         next: r
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 188
+        lineIndex: 198
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 215
+        lineIndex: 228
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 85
+        lineIndex: 89
         next: P1
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 111
+        lineIndex: 117
         next: +M2
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 127
+        lineIndex: 134
         next: '-m2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 153
+        lineIndex: 162
         next: '-m2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -10626,6 +11111,76 @@
         next: '-P4'
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 64
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 152
+        next: '-P5'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 229
+        next: '-m2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 102
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 132
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 168
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 177
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 216
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 54
+        next: '-m3'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 105
+        next: '-m3'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 131
+        next: '-m2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 214
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
 +m6:
     -
         lineIndex: 162
@@ -10812,6 +11367,16 @@
         next: '-m3'
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 35
+        next: '-m3'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 88
+        next: '-m3'
+        spine: 1
+        triciniumId: 23-domini-est-terra
 '-M2':
     -
         lineIndex: 32
@@ -15839,252 +16404,252 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 50
+        lineIndex: 52
         next: +M2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 66
+        lineIndex: 69
         next: '-M2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 68
+        lineIndex: 71
         next: '-m2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 113
+        lineIndex: 119
         next: '-P5'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 155
+        lineIndex: 164
         next: +P5
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 165
+        lineIndex: 175
         next: +P5
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 173
+        lineIndex: 183
         next: +P5
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 190
+        lineIndex: 201
         next: '-m3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 26
+        lineIndex: 27
         next: +P4
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 34
+        lineIndex: 35
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 51
+        lineIndex: 53
         next: '-m2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 59
-        next: '-m2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 61
-        next: '-M2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
         lineIndex: 62
-        next: +M2
+        next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 69
-        next: +M2
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 80
+        lineIndex: 64
         next: '-M2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 82
-        next: P1
+        lineIndex: 65
+        next: +M2
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 72
+        next: +M2
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 84
+        next: '-M2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
         lineIndex: 86
+        next: P1
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 90
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 97
+        lineIndex: 101
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 115
+        lineIndex: 121
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 126
+        lineIndex: 133
         next: r
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 132
+        lineIndex: 139
         next: '-M2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 134
+        lineIndex: 141
         next: '-P4'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 158
+        lineIndex: 167
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 164
+        lineIndex: 174
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 182
+        lineIndex: 192
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 194
+        lineIndex: 205
         next: +P4
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 199
+        lineIndex: 211
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 208
+        lineIndex: 221
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 24
+        lineIndex: 25
         next: +M2
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 37
+        lineIndex: 38
         next: r
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 51
+        lineIndex: 53
         next: '-m2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 68
+        lineIndex: 71
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 70
+        lineIndex: 73
         next: '-m3'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 99
-        next: r
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
         lineIndex: 104
-        next: '-M2'
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 105
-        next: '-m2'
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 133
-        next: '-M2'
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 135
-        next: '-M2'
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 138
-        next: '-m2'
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 156
-        next: '-M2'
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 161
         next: r
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 170
+        lineIndex: 109
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 173
+        lineIndex: 110
         next: '-m2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 179
-        next: +M2
+        lineIndex: 140
+        next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 185
+        lineIndex: 142
+        next: '-M2'
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 145
+        next: '-m2'
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 171
         next: r
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 198
+        lineIndex: 180
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 199
+        lineIndex: 183
         next: '-m2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 205
+        lineIndex: 189
         next: +M2
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 212
+        lineIndex: 195
+        next: r
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 210
+        next: '-M2'
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 211
+        next: '-m2'
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 218
+        next: +M2
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 225
         next: null
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -16323,6 +16888,261 @@
         next: null
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 47
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 48
+        next: '-m2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 51
+        next: r
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 75
+        next: '-m2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 98
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 99
+        next: '-m2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 102
+        next: r
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 140
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 177
+        next: +P5
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 195
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 218
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 29
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 39
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 58
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 59
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 69
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 74
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 75
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 81
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 109
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 110
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 119
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 135
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 137
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 142
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 166
+        next: +m3
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 185
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 207
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 220
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 229
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 235
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 41
+        next: r
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 64
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 65
+        next: '-m2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 72
+        next: r
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 92
+        next: r
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 113
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 114
+        next: '-m2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 122
+        next: r
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 162
+        next: '-m2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 181
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 182
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 188
+        next: P1
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 199
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 202
+        next: '-m3'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 210
+        next: +m3
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 225
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 229
+        next: '-m3'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 238
+        next: null
+        spine: 5
+        triciniumId: 23-domini-est-terra
 '-M3':
     -
         lineIndex: 77
@@ -16850,32 +17670,32 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 163
+        lineIndex: 173
         next: '-m2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 169
+        lineIndex: 179
         next: '-m2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 46
+        lineIndex: 48
         next: +P8
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 101
+        lineIndex: 106
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 105
+        lineIndex: 110
         next: P1
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 112
+        lineIndex: 118
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
@@ -16909,6 +17729,31 @@
         next: +M2
         spine: 3
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 150
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 171
+        next: '-P8'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 128
+        next: +M3
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 174
+        next: '-m3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 198
+        next: +M3
+        spine: 3
+        triciniumId: 23-domini-est-terra
 '-P4':
     -
         lineIndex: 55
@@ -17596,37 +18441,37 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 153
+        lineIndex: 162
         next: '-M2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 198
+        lineIndex: 210
         next: +M2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 221
+        lineIndex: 234
         next: null
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 39
+        lineIndex: 40
         next: +m2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 119
+        lineIndex: 126
         next: +M2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 135
+        lineIndex: 142
         next: P1
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 142
+        lineIndex: 149
         next: r
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
@@ -17670,6 +18515,66 @@
         next: +m2
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 34
+        next: +m6
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 67
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 87
+        next: +m6
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 117
+        next: +m2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 132
+        next: +P4
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 190
+        next: +m2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 199
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 203
+        next: +m2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 124
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 212
+        next: '-P5'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 83
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
 '-P5':
     -
         lineIndex: 72
@@ -18297,57 +19202,57 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 30
+        lineIndex: 31
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 41
+        lineIndex: 42
         next: +M2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 60
+        lineIndex: 63
         next: '-M2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 74
+        lineIndex: 77
         next: +P5
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 117
+        lineIndex: 124
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 138
+        lineIndex: 145
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 57
+        lineIndex: 60
         next: +P4
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 148
+        lineIndex: 156
         next: P1
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 187
+        lineIndex: 197
         next: +m3
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 214
+        lineIndex: 227
         next: +m3
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 148
+        lineIndex: 156
         next: P1
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -18401,6 +19306,61 @@
         next: P1
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 145
+        next: +P8
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 154
+        next: '-m3'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 214
+        next: +M3
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 223
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 23
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 43
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 65
+        next: +P4
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 94
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 114
+        next: +P4
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 202
+        next: +P4
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 214
+        next: +m3
+        spine: 3
+        triciniumId: 23-domini-est-terra
 '-P8':
     -
         lineIndex: 166
@@ -18512,6 +19472,11 @@
         next: +m2
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 173
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
 '-m2':
     -
         lineIndex: 30
@@ -21849,212 +22814,212 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 27
+        lineIndex: 28
         next: '-P5'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 58
+        lineIndex: 61
         next: '-P5'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 70
+        lineIndex: 73
         next: +P4
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 86
+        lineIndex: 90
         next: +m2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 91
+        lineIndex: 95
         next: +m2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 164
+        lineIndex: 174
         next: '-M2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 170
+        lineIndex: 180
         next: '-M2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 218
+        lineIndex: 231
         next: +m2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 24
+        lineIndex: 25
         next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 34
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 46
+        next: '-M3'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 52
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 55
+        next: P1
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 63
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 83
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 100
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 109
+        next: '-M3'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 117
+        next: '-M3'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 120
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 162
+        next: +m2
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 166
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 191
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 201
+        next: r
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 210
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 215
+        next: P1
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 220
+        next: '-M2'
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 231
+        next: +m2
+        spine: 3
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 234
+        next: null
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
         lineIndex: 33
         next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 44
-        next: '-M3'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 50
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 52
-        next: P1
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 60
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 79
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 96
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 104
-        next: '-M3'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 111
-        next: '-M3'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 114
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 125
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 153
-        next: +m2
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 157
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 181
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 190
-        next: r
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 198
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 202
-        next: P1
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 207
-        next: '-M2'
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 218
-        next: +m2
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 221
-        next: null
-        spine: 3
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 32
-        next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 52
+        lineIndex: 55
         next: r
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 66
+        lineIndex: 69
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 77
+        lineIndex: 81
         next: r
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 95
+        lineIndex: 99
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 107
+        lineIndex: 113
         next: P1
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 131
+        lineIndex: 138
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 140
+        lineIndex: 147
         next: +P8
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 155
+        lineIndex: 164
         next: '-M2'
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 167
-        next: +P4
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
         lineIndex: 177
-        next: '-M2'
-        spine: 5
-        triciniumId: 21-deus-deus-meus-respice
-    -
-        lineIndex: 194
         next: +P4
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 202
+        lineIndex: 187
+        next: '-M2'
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 205
+        next: +P4
+        spine: 5
+        triciniumId: 21-deus-deus-meus-respice
+    -
+        lineIndex: 215
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -22203,6 +23168,171 @@
         next: '-M2'
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 74
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 76
+        next: +m2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 100
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 149
+        next: '-M3'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 205
+        next: r
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 232
+        next: +P4
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 34
+        next: +P4
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 38
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 55
+        next: +P8
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 76
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 87
+        next: +P4
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 90
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 106
+        next: +P8
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 118
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 141
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 181
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 184
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 206
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 219
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 225
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 234
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 37
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 89
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 117
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 132
+        next: +m2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 161
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 164
+        next: +m2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 177
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
 '-m3':
     -
         lineIndex: 26
@@ -23345,82 +24475,82 @@
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 89
+        lineIndex: 93
         next: '-m2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 105
+        lineIndex: 110
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 131
+        lineIndex: 138
         next: +M2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 146
+        lineIndex: 153
         next: +P4
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 180
+        lineIndex: 190
         next: +M2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 188
+        lineIndex: 198
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 191
+        lineIndex: 202
         next: +P5
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 206
+        lineIndex: 219
         next: +M2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 215
+        lineIndex: 228
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 30
+        lineIndex: 31
         next: +P4
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 41
+        lineIndex: 42
         next: +m3
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 72
+        lineIndex: 75
         next: r
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 85
+        lineIndex: 89
         next: '-M2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 163
+        lineIndex: 173
         next: '-M2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 47
+        lineIndex: 49
         next: +P4
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 72
+        lineIndex: 75
         next: +m2
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -23484,6 +24614,91 @@
         next: +M2
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 37
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 89
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 131
+        next: '-P4'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 155
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 80
+        next: '-M2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 147
+        next: +P4
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 150
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 152
+        next: +P4
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 157
+        next: +m2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 171
+        next: '-M3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 176
+        next: +m3
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 59
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 110
+        next: '-M2'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 155
+        next: +m2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 174
+        next: +m2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 204
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 231
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
 P1:
     -
         lineIndex: 25
@@ -25851,172 +27066,172 @@ P1:
         spine: 5
         triciniumId: 20-domine-in-virtute-tua
     -
-        lineIndex: 25
+        lineIndex: 26
         next: +P4
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 31
+        lineIndex: 32
         next: +P5
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 45
+        lineIndex: 47
         next: '-M2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 78
+        lineIndex: 82
         next: +m3
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 84
+        lineIndex: 88
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 85
+        lineIndex: 89
         next: '-m2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 107
+        lineIndex: 113
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 109
+        lineIndex: 115
         next: +P5
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 120
+        lineIndex: 127
         next: +M2
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 140
+        lineIndex: 147
         next: +m3
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 143
+        lineIndex: 150
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 144
+        lineIndex: 151
         next: '-m3'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 189
+        lineIndex: 199
         next: '-M2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 216
+        lineIndex: 229
         next: P1
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 217
+        lineIndex: 230
         next: '-m2'
         spine: 1
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 53
+        lineIndex: 56
         next: +m2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 83
+        lineIndex: 87
         next: '-m3'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 91
+        lineIndex: 95
         next: +P4
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 107
+        lineIndex: 113
         next: +P8
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 136
+        lineIndex: 143
         next: +P8
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 141
+        lineIndex: 148
         next: '-P4'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 146
+        lineIndex: 153
         next: P1
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 147
+        lineIndex: 154
         next: '-P5'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 150
+        lineIndex: 158
         next: '-m2'
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 204
+        lineIndex: 217
         next: +m2
         spine: 3
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 21
+        lineIndex: 22
         next: '-M2'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 44
+        lineIndex: 46
         next: P1
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 45
+        lineIndex: 47
         next: '-m3'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 86
+        lineIndex: 90
         next: P1
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 88
+        lineIndex: 92
         next: +M2
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 108
+        lineIndex: 114
         next: +m3
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 146
+        lineIndex: 153
         next: P1
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 147
+        lineIndex: 154
         next: '-P5'
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
     -
-        lineIndex: 149
+        lineIndex: 157
         next: +m3
         spine: 5
         triciniumId: 21-deus-deus-meus-respice
@@ -26190,3 +27405,223 @@ P1:
         next: '-m2'
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 32
+        next: '-P4'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 57
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 59
+        next: +m3
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 70
+        next: +m2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 78
+        next: r
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 83
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 84
+        next: '-P4'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 108
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 110
+        next: +m3
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 127
+        next: r
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 138
+        next: '-M2'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 143
+        next: '-P5'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 174
+        next: P1
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 175
+        next: +M2
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 197
+        next: +P4
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 221
+        next: '-P5'
+        spine: 1
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 20
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 21
+        next: '-P5'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 31
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 46
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 48
+        next: +m3
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 78
+        next: '-m3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 83
+        next: '-m2'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 97
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 99
+        next: +m3
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 126
+        next: P1
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 127
+        next: '-M3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 131
+        next: +m3
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 170
+        next: '-m3'
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 192
+        next: +M2
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 230
+        next: +P8
+        spine: 3
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 29
+        next: '-P4'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 51
+        next: P1
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 52
+        next: +m3
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 80
+        next: P1
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 81
+        next: '-P4'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 102
+        next: P1
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 103
+        next: +m3
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 128
+        next: P1
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 129
+        next: +m3
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 173
+        next: '-m3'
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 191
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 196
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 221
+        next: +M2
+        spine: 5
+        triciniumId: 23-domini-est-terra

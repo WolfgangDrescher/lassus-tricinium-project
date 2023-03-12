@@ -1,17 +1,17 @@
-beat: 92
+beat: 48
 degree: 1
-endLine: 101
-filename: 7d0339bb-642a-5818-aa3c-263f141306df.krn
-startLine: 91
+endLine: 60
+filename: 6cb37e03-eec2-559c-8cd7-46c467c7b894.krn
+startLine: 52
 triciniumId: 21-deus-deus-meus-respice
 ultima: a
 voices:
     bassus:
-        penultima: 0
+        penultima: 5
         ultima: 6
     cantus:
         penultima: 2
-        ultima: 1
+        ultima: 0
     tenor:
         penultima: 7
         ultima: 1

@@ -1,10 +1,10 @@
-beat: 200
+beat: 56
 degree: 1
-endLine: 214
-filename: 4e0ccf02-b229-5612-bf94-c09a3d653bac.krn
-startLine: 202
-triciniumId: 21-deus-deus-meus-respice
-ultima: a
+endLine: 74
+filename: 575cb087-29a6-5fc9-a709-9904ea71ff86.krn
+startLine: 64
+triciniumId: 23-domini-est-terra
+ultima: d
 voices:
     bassus:
         penultima: 5
