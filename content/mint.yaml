@@ -4874,6 +4874,106 @@
         next: '-M2'
         spine: 5
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 48
+        next: r
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 187
+        next: '-P4'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 60
+        next: +m6
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 72
+        next: +P4
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 78
+        next: +m2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 114
+        next: +m2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 135
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 138
+        next: +P4
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 145
+        next: +m2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 155
+        next: +m2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 172
+        next: '-P4'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 94
+        next: +M2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 95
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 104
+        next: +m3
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 108
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 167
+        next: +M2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 168
+        next: r
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 177
+        next: '-P4'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 182
+        next: +m3
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 +M3:
     -
         lineIndex: 72
@@ -5295,6 +5395,21 @@
         next: '-P5'
         spine: 3
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 101
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 166
+        next: P1
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 68
+        next: +P4
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 +P4:
     -
         lineIndex: 65
@@ -6291,6 +6406,71 @@
         next: '-m3'
         spine: 5
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 35
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 44
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 65
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 93
+        next: P1
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 27
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 42
+        next: +m2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 73
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 139
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 195
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 55
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 84
+        next: P1
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 99
+        next: r
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 +P5:
     -
         lineIndex: 76
@@ -6777,6 +6957,46 @@
         next: +M2
         spine: 3
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 29
+        next: +P4
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 75
+        next: '-P5'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 123
+        next: r
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 150
+        next: +m3
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 23
+        next: +P4
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 128
+        next: +m3
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 49
+        next: +P4
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 134
+        next: +m3
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 +P8:
     -
         lineIndex: 93
@@ -6968,6 +7188,11 @@
         next: '-m2'
         spine: 3
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 53
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
 +d4:
     -
         lineIndex: 161
@@ -10040,6 +10265,81 @@
         next: '-m2'
         spine: 5
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 108
+        next: '-m2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 172
+        next: r
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 35
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 44
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 48
+        next: '-P4'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 80
+        next: +m3
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 117
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 147
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 156
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 80
+        next: '-m3'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 155
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 160
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 191
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 196
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 209
+        next: null
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 +m3:
     -
         lineIndex: 115
@@ -11181,6 +11481,86 @@
         next: +M2
         spine: 5
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 153
+        next: '-m3'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 184
+        next: +M2
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 194
+        next: '-m3'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 82
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 101
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 110
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 129
+        next: '-P4'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 166
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 175
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 179
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 182
+        next: '-P4'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 193
+        next: '-P4'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 105
+        next: +M2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 138
+        next: '-m3'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 185
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 +m6:
     -
         lineIndex: 162
@@ -11377,6 +11757,16 @@
         next: '-m3'
         spine: 1
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 62
+        next: '-m3'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 90
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
 '-M2':
     -
         lineIndex: 32
@@ -17143,6 +17533,321 @@
         next: null
         spine: 5
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 37
+        next: '-m2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 39
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 40
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 42
+        next: '-m3'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 47
+        next: +M2
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 56
+        next: '-m2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 60
+        next: +P4
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 69
+        next: '-m2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 72
+        next: +P5
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 97
+        next: +M3
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 104
+        next: '-P4'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 111
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 117
+        next: '-m2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 121
+        next: +P5
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 147
+        next: +P5
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 156
+        next: P1
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 160
+        next: P1
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 198
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 202
+        next: '-m2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 209
+        next: null
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 29
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 31
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 32
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 33
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 57
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 68
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 71
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 77
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 85
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 86
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 87
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 93
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 94
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 95
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 104
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 126
+        next: +P5
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 134
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 144
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 150
+        next: '-P4'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 177
+        next: '-m3'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 205
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 60
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 62
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 63
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 65
+        next: +M3
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 72
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 88
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 90
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 98
+        next: +P4
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 110
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 111
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 132
+        next: +P5
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 142
+        next: P1
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 147
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 164
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 165
+        next: +M2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 188
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 203
+        next: P1
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 '-M3':
     -
         lineIndex: 77
@@ -18575,6 +19280,51 @@
         next: +M2
         spine: 5
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 105
+        next: +m2
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 193
+        next: +m3
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 49
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 130
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 153
+        next: +M2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 174
+        next: +m3
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 184
+        next: '-m3'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 194
+        next: +P4
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 180
+        next: +M2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 '-P5':
     -
         lineIndex: 72
@@ -19361,6 +20111,11 @@
         next: +m3
         spine: 3
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 80
+        next: r
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
 '-P8':
     -
         lineIndex: 166
@@ -23333,6 +24088,186 @@
         next: '-M2'
         spine: 5
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 38
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 57
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 110
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 120
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 142
+        next: P1
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 205
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 30
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 34
+        next: +m2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 37
+        next: +P4
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 47
+        next: +m2
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 56
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 69
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 88
+        next: +m6
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 97
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 112
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 123
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 143
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 160
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 181
+        next: +m3
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 209
+        next: null
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 61
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 75
+        next: +m2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 89
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 117
+        next: r
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 129
+        next: P1
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 150
+        next: P1
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 157
+        next: +m2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 189
+        next: +m2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 193
+        next: P1
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 197
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 206
+        next: +m2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 '-m3':
     -
         lineIndex: 26
@@ -24699,6 +25634,56 @@
         next: +M2
         spine: 5
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 43
+        next: +P4
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 155
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 195
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 65
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 109
+        next: +m3
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 178
+        next: +m3
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 185
+        next: r
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 202
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 82
+        next: +P4
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 139
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
 P1:
     -
         lineIndex: 25
@@ -27625,3 +28610,148 @@ P1:
         next: +M2
         spine: 5
         triciniumId: 23-domini-est-terra
+    -
+        lineIndex: 27
+        next: +P5
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 95
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 145
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 158
+        next: '-M2'
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 165
+        next: +M3
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 169
+        next: +m2
+        spine: 1
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 20
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 21
+        next: +P5
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 50
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 53
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 99
+        next: +m3
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 103
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 105
+        next: P1
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 108
+        next: '-m3'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 119
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 158
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 165
+        next: +m3
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 197
+        next: '-m3'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 204
+        next: '-M2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 207
+        next: '-m2'
+        spine: 3
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 48
+        next: +P5
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 86
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 130
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 146
+        next: '-M2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 153
+        next: P1
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 154
+        next: +m2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 194
+        next: +m2
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
+    -
+        lineIndex: 204
+        next: '-m2'
+        spine: 5
+        triciniumId: 24-ad-te-domine-levavi-animam
