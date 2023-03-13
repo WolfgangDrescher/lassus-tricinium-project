@@ -1,0 +1,17 @@
+beat: 176
+degree: 1
+endLine: 222
+filename: 504d3e85-0812-5f97-9b8b-67889d688370.krn
+startLine: 209
+triciniumId: 30-in-te-domine-speravi
+ultima: d
+voices:
+    bassus:
+        penultima: 2
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 4
+        ultima: 5

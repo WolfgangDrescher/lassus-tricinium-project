@@ -6369,6 +6369,181 @@
         next: '-M2'
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 37
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 39
+        next: '-M3'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 99
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 103
+        next: '-P4'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 124
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 126
+        next: '-M3'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 228
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 232
+        next: r
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 272
+        next: +m2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 274
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 275
+        next: '-P5'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 45
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 49
+        next: '-M3'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 91
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 94
+        next: r
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 135
+        next: '-M3'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 179
+        next: r
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 201
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 203
+        next: '-M3'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 220
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 224
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 232
+        next: r
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 29
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 82
+        next: +m2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 89
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 167
+        next: +m2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 174
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 217
+        next: +m2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 225
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 229
+        next: r
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 240
+        next: r
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 +M3:
     -
         lineIndex: 72
@@ -6885,6 +7060,31 @@
         next: P1
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 87
+        next: '-M3'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 172
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 191
+        next: +m2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 261
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 265
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 +M7:
     -
         lineIndex: 113
@@ -8197,6 +8397,26 @@
         next: '-M2'
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 205
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 224
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 84
+        next: +M3
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 169
+        next: +M3
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
 +P5:
     -
         lineIndex: 76
@@ -8863,6 +9083,11 @@
         next: '-M2'
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 258
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
 +P8:
     -
         lineIndex: 93
@@ -9104,6 +9329,16 @@
         next: '-P5'
         spine: 3
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 73
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 159
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
 +d4:
     -
         lineIndex: 161
@@ -9155,6 +9390,16 @@
         next: '-P8'
         spine: 1
         triciniumId: 28-afferte-domino
+    -
+        lineIndex: 73
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 159
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 +m2:
     -
         lineIndex: 27
@@ -13051,6 +13296,116 @@
         next: '-M2'
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 55
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 67
+        next: r
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 141
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 152
+        next: r
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 273
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 67
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 80
+        next: +P4
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 152
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 165
+        next: +P4
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 193
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 228
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 278
+        next: null
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 53
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 61
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 84
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 94
+        next: '-P5'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 139
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 147
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 169
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 179
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 220
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 239
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 +m3:
     -
         lineIndex: 115
@@ -14522,6 +14877,146 @@
         next: P1
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 29
+        next: '-m3'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 34
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 87
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 115
+        next: '-m3'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 121
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 172
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 237
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 245
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 252
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 265
+        next: '-P4'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 39
+        next: '-m3'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 43
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 126
+        next: '-m3'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 130
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 245
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 255
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 267
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 23
+        next: '-m3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 25
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 49
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 88
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 108
+        next: '-m3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 110
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 135
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 173
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 234
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 248
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 258
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 +m6:
     -
         lineIndex: 162
@@ -14768,6 +15263,21 @@
         next: '-m2'
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 36
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 123
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 191
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 '-M2':
     -
         lineIndex: 32
@@ -22294,6 +22804,256 @@
         next: '-m2'
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 61
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 77
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 80
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 94
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 100
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 101
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 102
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 147
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 165
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 179
+        next: r
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 209
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 212
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 220
+        next: +P4
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 229
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 230
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 261
+        next: '-m3'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 73
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 159
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 176
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 190
+        next: +M3
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 199
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 200
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 212
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 214
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 230
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 265
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 273
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 30
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 31
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 33
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 34
+        next: '-m3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 43
+        next: '-m3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 67
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 116
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 117
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 119
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 121
+        next: '-m3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 130
+        next: '-m3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 137
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 152
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 210
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 216
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 227
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 228
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 267
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 272
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 273
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 278
+        next: null
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 '-M3':
     -
         lineIndex: 77
@@ -23035,6 +23795,61 @@
         next: +M3
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 40
+        next: r
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 127
+        next: r
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 198
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 51
+        next: r
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 89
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 137
+        next: r
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 205
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 259
+        next: +M3
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 187
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 205
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 262
+        next: +M3
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 '-M9':
     -
         lineIndex: 112
@@ -24107,6 +24922,31 @@
         next: +M2
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 108
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 248
+        next: '-P4'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 250
+        next: +m3
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 255
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 267
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
 '-P5':
     -
         lineIndex: 72
@@ -25108,6 +25948,26 @@
         next: +m6
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 278
+        next: null
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 80
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 99
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 165
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 '-P8':
     -
         lineIndex: 166
@@ -30245,6 +31105,231 @@
         next: null
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 58
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 62
+        next: +m2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 84
+        next: +m3
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 148
+        next: +m2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 169
+        next: +m3
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 176
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 203
+        next: +P4
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 214
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 240
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 69
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 76
+        next: +m2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 154
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 162
+        next: +m2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 194
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 209
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 229
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 248
+        next: r
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 258
+        next: '-M3'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 272
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 275
+        next: +m2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 32
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 39
+        next: r
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 52
+        next: +m2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 62
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 69
+        next: +d4
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 76
+        next: '-P5'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 85
+        next: +m3
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 92
+        next: +m2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 118
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 126
+        next: r
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 138
+        next: +m2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 148
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 154
+        next: +d4
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 162
+        next: '-P5'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 170
+        next: +m3
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 177
+        next: +m2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 190
+        next: +m6
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 203
+        next: '-M3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 215
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 237
+        next: +m2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 252
+        next: r
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 261
+        next: '-M3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 274
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 '-m3':
     -
         lineIndex: 26
@@ -31966,6 +33051,66 @@
         next: r
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 31
+        next: +m3
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 117
+        next: +m3
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 262
+        next: +m3
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 40
+        next: +m3
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 127
+        next: +m3
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 24
+        next: +m3
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 35
+        next: +m6
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 44
+        next: +m3
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 109
+        next: +m3
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 122
+        next: +m6
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 131
+        next: +m3
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 198
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
 P1:
     -
         lineIndex: 25
@@ -35917,3 +37062,243 @@ P1:
         next: '-M2'
         spine: 5
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 26
+        next: +m3
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 97
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 110
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 112
+        next: +m3
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 193
+        next: P1
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 195
+        next: '-M3'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 227
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 238
+        next: '-m2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 243
+        next: +m3
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 247
+        next: '-P4'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 254
+        next: '-P4'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 256
+        next: +P5
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 259
+        next: '-M2'
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 268
+        next: +M2
+        spine: 1
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 36
+        next: +m3
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 121
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 123
+        next: +m3
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 174
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 178
+        next: +M2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 187
+        next: P1
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 188
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 195
+        next: '-M2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 227
+        next: +m2
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 247
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 256
+        next: '-m2'
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 266
+        next: +m3
+        spine: 3
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 20
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 21
+        next: +m3
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 50
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 55
+        next: r
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 103
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 104
+        next: +m3
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 141
+        next: r
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 182
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 185
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 186
+        next: '-M3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 195
+        next: '-m3'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 202
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 211
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 223
+        next: P1
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 224
+        next: +M2
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 235
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 250
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 259
+        next: '-m2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 269
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 276
+        next: '-M2'
+        spine: 5
+        triciniumId: 30-in-te-domine-speravi
