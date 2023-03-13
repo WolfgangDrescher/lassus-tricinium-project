@@ -18,6 +18,11 @@ const filterByNr = (nr, element) => {
     return parseInt(element.nr, 10) === parseInt(nr, 10);
 };
 
+const filterByComments = (searchText, element) => {
+    if (!searchText) return true;
+    return element.comments.join(', ').toLowerCase().includes(searchText.toLowerCase());
+};
+
 const filterByModes = (modes, element) => {
     if (!modes.length) return true;
     return modes.map(m => m?.toLowerCase()).includes(element.mode?.toLowerCase());
@@ -40,7 +45,12 @@ const filterByClefs = (clefs, element) => {
 
 const filterBySearchText = (searchText, element) => {
     if (!searchText) return true;
-    return filterByTitle(searchText, element) || filterByNr(searchText, element) || filterByLyrics(searchText, element);
+    return (
+        filterByTitle(searchText, element) ||
+        filterByNr(searchText, element) ||
+        filterByLyrics(searchText, element) ||
+        filterByComments(searchText, element)
+    );
 };
 
 const filterByCantusFirmus = (cantusFirmus, element) => {
