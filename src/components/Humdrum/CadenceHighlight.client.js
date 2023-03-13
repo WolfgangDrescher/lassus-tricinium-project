@@ -18,7 +18,7 @@ function createMarker(startElem, endElem, systemElem, containerElem) {
 
     return h('div', {
         class: [
-            'bg-opacity-50 absolute bg-yellow-500 ',
+            'bg-opacity-30 absolute bg-yellow-500 ',
             !startElem && 'bg-zig-zag-left',
             !endElem && 'bg-zig-zag-right',
             startElem && !endElem && 'rounded-tl rounded-bl',
@@ -26,7 +26,7 @@ function createMarker(startElem, endElem, systemElem, containerElem) {
             startElem && endElem && 'rounded',
         ],
         style: {
-            '--zig-zag-color': 'rgb(234 179 8 / 0.5)',
+            '--zig-zag-color': 'rgb(234 179 8 / 0.3)',
             width: `${width}px`,
             height: `${height}px`,
             left: `${xPosStart - (widthExtender / 2) - containerRect.x + xOffset}px`,
