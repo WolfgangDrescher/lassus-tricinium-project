@@ -209,7 +209,7 @@ defineI18nRoute({
                         </div>
                         <div>
                             <Subheading>
-                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '17-diligam-te-domine' } })">
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '22-dominus-regit-me' } })">
                                     22. Dominus regit me
                                 </NuxtLink>
                             </Subheading>
