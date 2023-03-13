@@ -7085,12 +7085,6 @@
         next: '-M2'
         spine: 5
         triciniumId: 30-in-te-domine-speravi
-+M7:
-    -
-        lineIndex: 113
-        next: +m2
-        spine: 3
-        triciniumId: 27-ad-te-domine-clamavi
 +P4:
     -
         lineIndex: 65
@@ -8289,7 +8283,7 @@
         triciniumId: 27-ad-te-domine-clamavi
     -
         lineIndex: 111
-        next: '-M9'
+        next: '-M2'
         spine: 3
         triciniumId: 27-ad-te-domine-clamavi
     -
@@ -21945,6 +21939,11 @@
         spine: 3
         triciniumId: 27-ad-te-domine-clamavi
     -
+        lineIndex: 112
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
         lineIndex: 124
         next: '-M2'
         spine: 3
@@ -23850,12 +23849,6 @@
         next: +M3
         spine: 5
         triciniumId: 30-in-te-domine-speravi
-'-M9':
-    -
-        lineIndex: 112
-        next: +M7
-        spine: 3
-        triciniumId: 27-ad-te-domine-clamavi
 '-P4':
     -
         lineIndex: 55
@@ -30563,6 +30556,11 @@
     -
         lineIndex: 103
         next: r
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 113
+        next: +m2
         spine: 3
         triciniumId: 27-ad-te-domine-clamavi
     -
