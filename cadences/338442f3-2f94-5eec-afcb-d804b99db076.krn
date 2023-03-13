@@ -1,0 +1,29 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 27
+!!!OTL@@LA: Ad te Domine clamavi
+!!!OTL-incipit@@DE: Herr Gott mein hort
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefC1	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=18	=18	=18	=18	=18	=18
+2A	jh-	4cc#	.	2e	jh-
+.	.	4cc#	-rer	.	.
+2B-	-rer	2.dd	ja-	2d	-rer
+1A	ja-	.	.	1e	ja-
+.	.	8cc#i	.	.	.
+.	.	8b	.	.	.
+.	.	2cc#i	.	.	.
+=19	=19	=19	=19	=19	=19
+[4D	-ren/	4dd	-ren/	[4d	-ren/
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental

@@ -5589,6 +5589,216 @@
         next: '-M2'
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 46
+        next: '-M2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 68
+        next: +P5
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 80
+        next: '-P4'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 87
+        next: +m2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 93
+        next: '-P5'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 102
+        next: '-M2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 113
+        next: r
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 135
+        next: r
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 146
+        next: '-P4'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 166
+        next: '-P4'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 189
+        next: '-P4'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 208
+        next: '-P4'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 35
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 58
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 66
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 88
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 93
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 108
+        next: P1
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 133
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 157
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 168
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 169
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 172
+        next: P1
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 178
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 199
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 210
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 211
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 214
+        next: P1
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 220
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 27
+        next: '-M3'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 89
+        next: +M2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 92
+        next: +m2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 106
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 145
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 154
+        next: +m2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 175
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 188
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 196
+        next: +m2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 217
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
 +M3:
     -
         lineIndex: 72
@@ -6060,6 +6270,37 @@
         next: '-m2'
         spine: 3
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 48
+        next: +P4
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 140
+        next: P1
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 129
+        next: +m2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 161
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 203
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
++M7:
+    -
+        lineIndex: 113
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
 +P4:
     -
         lineIndex: 65
@@ -7236,6 +7477,41 @@
         next: +M2
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 27
+        next: '-m3'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 30
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 53
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 111
+        next: '-M9'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 130
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 52
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
 +P5:
     -
         lineIndex: 76
@@ -7817,6 +8093,56 @@
         next: '-m2'
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 40
+        next: +m3
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 55
+        next: r
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 70
+        next: +m3
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 79
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 96
+        next: r
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 108
+        next: '-m3'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 164
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 206
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 29
+        next: +P4
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 42
+        next: P1
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
 +P8:
     -
         lineIndex: 93
@@ -8028,6 +8354,21 @@
         next: r
         spine: 1
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 184
+        next: '-M2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 165
+        next: '-P5'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 207
+        next: '-P5'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
 +d4:
     -
         lineIndex: 161
@@ -11480,6 +11821,146 @@
         next: '-m2'
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 36
+        next: '-m3'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 88
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 153
+        next: '-m2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 174
+        next: '-m2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 195
+        next: '-m2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 216
+        next: '-m2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 36
+        next: '-M3'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 60
+        next: '-P5'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 73
+        next: '-m3'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 87
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 94
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 102
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 116
+        next: '-P5'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 134
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 138
+        next: +M3
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 153
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 159
+        next: r
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 174
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 181
+        next: '-P4'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 195
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 201
+        next: r
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 216
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 222
+        next: null
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 94
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 116
+        next: r
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 132
+        next: '-m3'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 159
+        next: +M3
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 201
+        next: +M3
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
 +m3:
     -
         lineIndex: 115
@@ -12836,6 +13317,41 @@
         next: '-m2'
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 26
+        next: +P4
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 41
+        next: P1
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 75
+        next: '-P8'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 43
+        next: '-P4'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 64
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 76
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 87
+        next: +M2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
 +m6:
     -
         lineIndex: 162
@@ -19653,6 +20169,271 @@
         next: null
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 47
+        next: '-M2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 48
+        next: '-m2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 52
+        next: P1
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 103
+        next: '-P5'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 122
+        next: '-M2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 124
+        next: '-m2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 145
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 188
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 27
+        next: +P5
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 34
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 57
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 71
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 80
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 128
+        next: +P4
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 143
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 144
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 156
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 167
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 177
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 186
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 187
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 198
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 209
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 219
+        next: +M2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 36
+        next: r
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 46
+        next: +P4
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 60
+        next: r
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 68
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 80
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 99
+        next: r
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 108
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 112
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 123
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 127
+        next: +M3
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 138
+        next: r
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 146
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 153
+        next: +M2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 164
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 166
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 181
+        next: r
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 189
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 195
+        next: +M2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 206
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 208
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 216
+        next: +M2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 222
+        next: null
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
 '-M3':
     -
         lineIndex: 77
@@ -20349,6 +21130,27 @@
         next: '-m2'
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 129
+        next: +P4
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 38
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 29
+        next: '-m2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+'-M9':
+    -
+        lineIndex: 112
+        next: +M7
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
 '-P4':
     -
         lineIndex: 55
@@ -21295,6 +22097,56 @@
         next: +m2
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 23
+        next: +m3
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 32
+        next: +m2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 67
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 81
+        next: P1
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 151
+        next: +m2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 172
+        next: +m2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 193
+        next: +m2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 214
+        next: +m2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 46
+        next: +M3
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 183
+        next: P1
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
 '-P5':
     -
         lineIndex: 72
@@ -22176,6 +23028,56 @@
         next: +P5
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 64
+        next: '-P4'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 94
+        next: +P5
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 106
+        next: +P5
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 181
+        next: +P8
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 222
+        next: null
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 42
+        next: +m3
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 62
+        next: +m3
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 118
+        next: P1
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 166
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 208
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
 '-P8':
     -
         lineIndex: 166
@@ -22322,6 +23224,11 @@
         next: +P4
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 77
+        next: +P5
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
 '-m2':
     -
         lineIndex: 30
@@ -26673,6 +27580,201 @@
         next: '-M2'
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 128
+        next: '-M3'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 154
+        next: P1
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 175
+        next: '-P5'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 196
+        next: P1
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 217
+        next: '-P5'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 26
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 33
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 40
+        next: '-P5'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 56
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 72
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 81
+        next: P1
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 97
+        next: r
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 103
+        next: r
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 122
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 131
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 136
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 145
+        next: r
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 151
+        next: P1
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 155
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 164
+        next: +P8
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 176
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 188
+        next: r
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 193
+        next: P1
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 197
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 206
+        next: +P8
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 218
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 32
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 55
+        next: P1
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 70
+        next: P1
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 81
+        next: P1
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 96
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 111
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 113
+        next: +m2
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 151
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 172
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 193
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 214
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
 '-m3':
     -
         lineIndex: 26
@@ -28224,6 +29326,36 @@
         next: +M2
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 29
+        next: '-P4'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 38
+        next: +P5
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 43
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 111
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 75
+        next: +m3
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 135
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
 P1:
     -
         lineIndex: 25
@@ -31710,3 +32842,118 @@ P1:
         next: '-P4'
         spine: 5
         triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 42
+        next: '-m3'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 53
+        next: +P5
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 84
+        next: +M2
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 119
+        next: '-M2'
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 157
+        next: r
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 199
+        next: r
+        spine: 1
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 24
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 84
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 109
+        next: +P4
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 119
+        next: '-m2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 141
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 152
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 173
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 184
+        next: '-M2'
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 194
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 215
+        next: +m2
+        spine: 3
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 22
+        next: P1
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 23
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 43
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 58
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 75
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 83
+        next: +m3
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 121
+        next: '-M2'
+        spine: 5
+        triciniumId: 27-ad-te-domine-clamavi
