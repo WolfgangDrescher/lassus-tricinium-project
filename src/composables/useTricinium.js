@@ -175,7 +175,8 @@ class Tricinium {
         if (withinOctave) {
             endSound.forEach((fbNumber, index) => {
                 const matches = /(\D*)(\d+)(\D*)/.exec(fbNumber);
-                endSound[index] = `${matches[1]}${matches[2] > 8 ? matches[2] % 7 : matches[2]}${matches[3]}`;
+                const mod7 = matches[2] % 7;
+                endSound[index] = `${matches[1]}${matches[2] > 8 ? (mod7 === 1 ? 8 : mod7) : matches[2]}${matches[3]}`;
             });
         }
         if (sort) {
