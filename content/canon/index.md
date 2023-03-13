@@ -306,6 +306,10 @@ repräsentativen Auswahl mit kurzer Erklärung:
   Unterbrechungen des Textes durch Pausen, abgesprungene Kadenzflucht aus
   Tenorklausel, Kadenzflucht einer Sopranklausel mit Melisma in Semiminimae,
   modale Beantwortung bei *mit Schrecken* grauen
+* [27. Ad te Domine clamavi](/tricinium/27-ad-te-domine-clamavi): *cadenza
+  doppia*, exemplarisch für Kadenzflucht, Halbschluss, Satzmodell Fauxbourdon
+  mit Seitenbewegung aufwärts und abwärts, Kadenz in der zwei Klauseln mit einer
+  Pause geflohen werden
 * [28. Afferte Domino](/tricinium/28-afferte-domino): *cadenza doppia* (schnell
   in Semiminimae und langsam in Semibreven), modale Beantwortung,
   Unterbrechungen des Textes durch Pausen, Oktavregel-Ausschnitt (③ – ④ – ⑤ – ⑥
