@@ -5799,6 +5799,316 @@
         next: '-M2'
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 38
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 85
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 87
+        next: '-P4'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 90
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 97
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 98
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 105
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 108
+        next: '-P5'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 124
+        next: '-P5'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 151
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 153
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 164
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 176
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 180
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 185
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 188
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 203
+        next: '-P8'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 211
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 213
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 214
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 249
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 253
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 255
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 269
+        next: '-P4'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 25
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 28
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 56
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 87
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 97
+        next: r
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 105
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 108
+        next: +P4
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 141
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 163
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 168
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 182
+        next: +P4
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 188
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 214
+        next: '-P4'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 237
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 242
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 244
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 33
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 50
+        next: +P4
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 86
+        next: r
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 95
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 101
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 105
+        next: r
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 114
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 117
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 171
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 173
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 180
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 210
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 231
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 270
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 271
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
 +M3:
     -
         lineIndex: 72
@@ -7512,6 +7822,61 @@
         next: '-m2'
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 37
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 131
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 277
+        next: null
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 24
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 74
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 110
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 120
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 145
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 183
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 52
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 269
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
 +P5:
     -
         lineIndex: 76
@@ -8143,6 +8508,36 @@
         next: P1
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 112
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 122
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 268
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 221
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 32
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 224
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
 +P8:
     -
         lineIndex: 93
@@ -8369,6 +8764,11 @@
         next: '-P5'
         spine: 3
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 260
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
 +d4:
     -
         lineIndex: 161
@@ -8415,6 +8815,11 @@
         next: '-P5'
         spine: 5
         triciniumId: 22-dominus-regit-me
+    -
+        lineIndex: 260
+        next: '-P8'
+        spine: 1
+        triciniumId: 28-afferte-domino
 +m2:
     -
         lineIndex: 27
@@ -11961,6 +12366,216 @@
         next: +M3
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 40
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 66
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 86
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 91
+        next: '-P4'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 101
+        next: '-m3'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 106
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 114
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 139
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 168
+        next: r
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 182
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 189
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 210
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 218
+        next: '-m3'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 224
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 250
+        next: '-m3'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 254
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 66
+        next: '-P4'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 88
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 106
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 123
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 126
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 137
+        next: '-m3'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 142
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 164
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 171
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 189
+        next: +m3
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 213
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 232
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 239
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 243
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 34
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 39
+        next: '-m3'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 85
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 97
+        next: '-m3'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 119
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 126
+        next: r
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 176
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 232
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 272
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 277
+        next: null
+        spine: 5
+        triciniumId: 28-afferte-domino
 +m3:
     -
         lineIndex: 115
@@ -13352,6 +13967,36 @@
         next: +M2
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 194
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 82
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 176
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 191
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 41
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 265
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
 +m6:
     -
         lineIndex: 162
@@ -20434,6 +21079,341 @@
         next: null
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 50
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 53
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 56
+        next: r
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 69
+        next: r
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 76
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 82
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 123
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 136
+        next: '-m3'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 195
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 198
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 244
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 248
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 30
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 32
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 44
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 51
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 54
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 63
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 73
+        next: +P4
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 75
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 79
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 93
+        next: '-P5'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 118
+        next: '-m3'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 134
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 135
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 146
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 148
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 154
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 162
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 174
+        next: +m3
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 180
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 187
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 195
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 196
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 199
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 202
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 203
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 224
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 236
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 248
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 253
+        next: '-P4'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 268
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 269
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 277
+        next: null
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 47
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 48
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 58
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 63
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 69
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 75
+        next: r
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 112
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 142
+        next: '-m3'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 151
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 154
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 182
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 189
+        next: r
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 200
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 204
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 211
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 213
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 225
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 228
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 239
+        next: r
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 253
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 255
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 260
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
 '-M3':
     -
         lineIndex: 77
@@ -21145,6 +22125,21 @@
         next: '-m2'
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 145
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 131
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 221
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
 '-M9':
     -
         lineIndex: 112
@@ -22147,6 +23142,41 @@
         next: P1
         spine: 3
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 88
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 93
+        next: '-m3'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 271
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 20
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 68
+        next: r
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 218
+        next: +P5
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 257
+        next: +P8
+        spine: 3
+        triciniumId: 28-afferte-domino
 '-P5':
     -
         lineIndex: 72
@@ -23078,6 +24108,31 @@
         next: '-M2'
         spine: 3
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 110
+        next: +P5
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 119
+        next: +P5
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 126
+        next: +P4
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
 '-P8':
     -
         lineIndex: 166
@@ -23229,6 +24284,16 @@
         next: +P5
         spine: 1
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 206
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 265
+        next: +P5
+        spine: 1
+        triciniumId: 28-afferte-domino
 '-m2':
     -
         lineIndex: 30
@@ -27775,6 +28840,246 @@
         next: '-M2'
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 44
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 65
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 117
+        next: '-P5'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 142
+        next: '-M3'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 193
+        next: +m3
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 196
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 231
+        next: r
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 246
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 258
+        next: +d4
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 34
+        next: r
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 53
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 65
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 83
+        next: r
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 112
+        next: r
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 122
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 125
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 136
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 143
+        next: +P4
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 151
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 161
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 173
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 177
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 186
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 194
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 201
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 211
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 231
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 235
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 250
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 271
+        next: P1
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 37
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 45
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 60
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 73
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 83
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 122
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 159
+        next: r
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 185
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 198
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 218
+        next: '-M3'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 227
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 234
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 257
+        next: P1
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 268
+        next: +P4
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 275
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
 '-m3':
     -
         lineIndex: 26
@@ -29356,6 +30661,56 @@
         next: '-M2'
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 137
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 221
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 251
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 119
+        next: +P4
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 140
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 40
+        next: +m3
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 98
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 148
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
 P1:
     -
         lineIndex: 25
@@ -32957,3 +34312,183 @@ P1:
         next: '-M2'
         spine: 5
         triciniumId: 27-ad-te-domine-clamavi
+    -
+        lineIndex: 35
+        next: +P4
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 41
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 83
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 140
+        next: '-m2'
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 149
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 156
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 159
+        next: P1
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 163
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 166
+        next: +m2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 177
+        next: +M2
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 275
+        next: +P4
+        spine: 1
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 21
+        next: +P4
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 46
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 52
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 58
+        next: r
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 81
+        next: +m3
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 102
+        next: '-P5'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 129
+        next: '-M3'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 166
+        next: +M2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 169
+        next: +m2
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 200
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 227
+        next: '-m2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 246
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 273
+        next: '-M2'
+        spine: 3
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 29
+        next: +P5
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 35
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 46
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 66
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 124
+        next: +m2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 177
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 207
+        next: +M2
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 222
+        next: +P5
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 226
+        next: '-m2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 258
+        next: '-M2'
+        spine: 5
+        triciniumId: 28-afferte-domino
+    -
+        lineIndex: 263
+        next: +m3
+        spine: 5
+        triciniumId: 28-afferte-domino
