@@ -1,28 +1,31 @@
 !!!COM: Lassus, Rudolphus
 !!!CDT: 1563-1625
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
-!!!ONM: 22
-!!!OTL@@LA: Ad te Domine levavi animam
-!!!OTL-incipit@@DE: Zu dir O Gott allein in diesem leben
+!!!ONM: 26
+!!!OTL@@LA: Dominus illuminatio mea
+!!!OTL-incipit@@DE: Gott ist mein liecht mein trost und hail
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
 *I"Bassus	*	*I"Tenor	*	*I"Cantus	*
 *I'B	*	*I'T	*	*I'C	*
-*clefC4	*	*clefC1	*	*clefC1	*
+*clefC3	*	*clefC1	*	*clefC1	*
 *k[]	*	*k[]	*	*k[]	*
 *d:dor	*	*d:dor	*	*d:dor	*
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-=13	=13	=13	=13	=13	=13
-2.F	-ben/	2f	-ben/	1a	-ben/
-.	.	2f	auf	.	.
-8E	.	.	.	.	.
-8D	.	.	.	.	.
-1A	.	2e	dich	1r	.
-.	.	2e	mein	.	.
-=14	=14	=14	=14	=14	=14
-[2r	.	2d	Herr	[2f	Auff
+=25	=25	=25	=25	=25	=25
+*	*	*	*	*lig	*
+2G	schre-	2b-i	-cken	1d	.
+2B-	-cken	2.dd	graw-	.	.
+1A	graw-	.	.	1e	.
+*	*	*	*	*Xlig	*
+.	.	8cc#i	.	.	.
+.	.	8b	.	.	.
+.	.	2cc#i	.	.	.
+=26	=26	=26	=26	=26	=26
+0d	-en.	0dd	-en.	0d	-en.
+==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental

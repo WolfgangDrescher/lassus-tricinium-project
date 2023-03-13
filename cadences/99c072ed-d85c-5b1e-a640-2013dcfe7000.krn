@@ -1,28 +1,29 @@
 !!!COM: Lassus, Rudolphus
 !!!CDT: 1563-1625
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
-!!!ONM: 22
-!!!OTL@@LA: Ad te Domine levavi animam
-!!!OTL-incipit@@DE: Zu dir O Gott allein in diesem leben
+!!!ONM: 26
+!!!OTL@@LA: Dominus illuminatio mea
+!!!OTL-incipit@@DE: Gott ist mein liecht mein trost und hail
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
 *I"Bassus	*	*I"Tenor	*	*I"Cantus	*
 *I'B	*	*I'T	*	*I'C	*
-*clefC4	*	*clefC1	*	*clefC1	*
+*clefC3	*	*clefC1	*	*clefC1	*
 *k[]	*	*k[]	*	*k[]	*
 *d:dor	*	*d:dor	*	*d:dor	*
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-1F	auff	2a	.	2cc	ich
-.	.	2.dd	-dig-	2a	be-
-=16	=16	=16	=16	=16	=16
-2E	dich	.	.	2.g	-sten-
-.	.	8cc#i	.	.	.
-.	.	8b	.	.	.
-2E	mein	2cc#i	.	.	.
-.	.	.	.	4g	-dig-
-2D	Herr	2dd	-klich/	2f	-klich/
+=4	=4	=4	=4	=4	=4
+1e	hail/	1g	und	4cc	trost
+.	.	.	.	4b	.
+.	.	.	.	4b	.
+.	.	.	.	8a	.
+.	.	.	.	8g	.
+1r	.	2a	heil/	2f#	.
+.	.	2a	Wen	2f#	und
+=5	=5	=5	=5	=5	=5
+[2e	wen	2cc	sol	[2g	hail/
 *-	*-	*-	*-	*-	*-
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental

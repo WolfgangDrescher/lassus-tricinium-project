@@ -5264,6 +5264,331 @@
         next: P1
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 27
+        next: r
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 38
+        next: r
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 55
+        next: +m2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 58
+        next: +m2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 60
+        next: '-M2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 94
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 96
+        next: +m2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 106
+        next: r
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 122
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 123
+        next: +m2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 125
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 127
+        next: '-P5'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 138
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 139
+        next: +m2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 179
+        next: +m2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 198
+        next: +m3
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 34
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 43
+        next: P1
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 77
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 81
+        next: +P4
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 96
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 98
+        next: +m2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 100
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 104
+        next: +m3
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 109
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 117
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 118
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 119
+        next: r
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 129
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 131
+        next: +m2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 134
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 165
+        next: P1
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 170
+        next: +m2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 175
+        next: +m2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 185
+        next: +m2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 196
+        next: +P4
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 219
+        next: +m2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 29
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 32
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 66
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 67
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 72
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 74
+        next: '-M3'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 80
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 119
+        next: P1
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 123
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 133
+        next: '-P4'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 139
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 142
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 160
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 163
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 179
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 181
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 187
+        next: P1
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 191
+        next: +m3
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 215
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 +M3:
     -
         lineIndex: 72
@@ -5730,6 +6055,11 @@
         next: +m2
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 214
+        next: '-m2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
 +P4:
     -
         lineIndex: 65
@@ -6861,6 +7191,51 @@
         next: '-m3'
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 84
+        next: P1
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 221
+        next: null
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 58
+        next: '-P4'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 74
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 84
+        next: P1
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 145
+        next: P1
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 197
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 205
+        next: P1
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 71
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 +P5:
     -
         lineIndex: 76
@@ -7437,6 +7812,11 @@
         next: '-M2'
         spine: 3
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 38
+        next: '-m2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 +P8:
     -
         lineIndex: 93
@@ -10950,6 +11330,156 @@
         next: '-P4'
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 34
+        next: '-m3'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 50
+        next: '-m2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 56
+        next: '-m3'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 59
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 98
+        next: '-P5'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 124
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 142
+        next: P1
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 181
+        next: '-m2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 206
+        next: P1
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 99
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 116
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 133
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 172
+        next: '-m2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 179
+        next: '-m2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 187
+        next: r
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 213
+        next: +M3
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 221
+        next: null
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 33
+        next: '-P5'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 47
+        next: r
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 68
+        next: '-P8'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 81
+        next: r
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 104
+        next: '-m3'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 136
+        next: '-P4'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 143
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 152
+        next: '-m2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 161
+        next: '-m3'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 165
+        next: P1
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 198
+        next: '-P4'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 206
+        next: '-m2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 +m3:
     -
         lineIndex: 115
@@ -12246,6 +12776,66 @@
         next: P1
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 24
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 201
+        next: '-m2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 214
+        next: '-m2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 47
+        next: '-m2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 66
+        next: '-m2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 105
+        next: '-m2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 181
+        next: '-m2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 201
+        next: '-m2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 58
+        next: '-m2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 122
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 192
+        next: '-m2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 +m6:
     -
         lineIndex: 162
@@ -18873,6 +19463,196 @@
         next: null
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 54
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 64
+        next: '-m2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 66
+        next: '-P4'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 77
+        next: '-P5'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 129
+        next: r
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 172
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 187
+        next: r
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 38
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 50
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 51
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 54
+        next: '-m3'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 72
+        next: +P4
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 88
+        next: P1
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 108
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 110
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 111
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 112
+        next: '-m2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 142
+        next: '-m3'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 150
+        next: r
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 163
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 184
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 198
+        next: '-P4'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 218
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 41
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 42
+        next: '-m2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 63
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 65
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 79
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 98
+        next: '-m3'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 114
+        next: P1
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 127
+        next: '-m3'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 146
+        next: '-m2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 159
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 182
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 213
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 221
+        next: null
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 '-M3':
     -
         lineIndex: 77
@@ -19554,6 +20334,21 @@
         next: +P4
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 90
+        next: P1
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 75
+        next: '-m2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 '-P4':
     -
         lineIndex: 55
@@ -20465,6 +21260,41 @@
         next: +M2
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 68
+        next: r
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 63
+        next: +m3
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 199
+        next: +m3
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 134
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 138
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 201
+        next: P1
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 205
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 '-P5':
     -
         lineIndex: 72
@@ -21311,6 +22141,41 @@
         next: +m3
         spine: 3
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 81
+        next: +P4
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 104
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 128
+        next: '-M2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 136
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 152
+        next: r
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 213
+        next: +m3
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 35
+        next: +P5
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 '-P8':
     -
         lineIndex: 166
@@ -21447,6 +22312,16 @@
         next: +m6
         spine: 3
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 69
+        next: +P4
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 '-m2':
     -
         lineIndex: 30
@@ -25678,6 +26553,126 @@
         next: '-M2'
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 51
+        next: '-M2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 65
+        next: '-M2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 88
+        next: '-M3'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 182
+        next: '-M2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 203
+        next: +m2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 215
+        next: +P4
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 107
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 114
+        next: +m2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 173
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 180
+        next: +m3
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 183
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 203
+        next: +P4
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 217
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 39
+        next: P1
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 43
+        next: P1
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 60
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 151
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 157
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 172
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 196
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 209
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 '-m3':
     -
         lineIndex: 26
@@ -27189,6 +28184,46 @@
         next: +M2
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 35
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 57
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 56
+        next: +P4
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 144
+        next: +P4
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 100
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 106
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 128
+        next: r
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 162
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
 P1:
     -
         lineIndex: 25
@@ -30525,3 +31560,153 @@ P1:
         next: '-M2'
         spine: 5
         triciniumId: 25-iudica-me-domine
+    -
+        lineIndex: 20
+        next: P1
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 21
+        next: +m3
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 86
+        next: P1
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 87
+        next: '-m2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 150
+        next: '-P5'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 168
+        next: P1
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 170
+        next: '-M2'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 208
+        next: '-P5'
+        spine: 1
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 28
+        next: +m3
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 44
+        next: +m3
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 86
+        next: P1
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 87
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 93
+        next: '-P8'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 147
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 159
+        next: P1
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 161
+        next: '-M2'
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 169
+        next: +M2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 206
+        next: +m2
+        spine: 3
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 25
+        next: '-M3'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 40
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 44
+        next: +m2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 93
+        next: P1
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 95
+        next: '-M2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 117
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 120
+        next: +m3
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 168
+        next: P1
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 171
+        next: '-m2'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 190
+        next: +M2
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
+    -
+        lineIndex: 203
+        next: '-P4'
+        spine: 5
+        triciniumId: 26-dominus-illuminatio-mea
