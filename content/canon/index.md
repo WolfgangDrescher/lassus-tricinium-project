@@ -70,7 +70,8 @@ plagal* oder *plagal – plagal – authentisch*.
 
 ### Ambitus
 
-* Die Ambitus können bedenkenlos über- oder unterschritten werden, solange sie in der alten Schlüsselung maximal eine Hilfslinie erfordern.
+* Die Ambitus können bedenkenlos über- oder unterschritten werden, solange sie
+  in der alten Schlüsselung maximal eine Hilfslinie erfordern.
 * Es kommt gelegentlich vor, dass der Ambitus weder authentisch noch plagal ist.
   In diesem Fall sollte sich die Skala trotzdem mehr oder weniger über eine
   Oktave erstrecken.
@@ -278,40 +279,44 @@ Manche der Psalmlieder bieten sich besonders für ein genaueres Studium an, um
 die oben erklärten Kriterien zu veranschaulichen. Es folgt eine Auflistung einer
 repräsentativen Auswahl mit kurzer Erklärung:
 
-* [7. Domine Deus meus](/tricinium/07-domine-deus-meus): *cantus firmus* wechselt zwischen Bassus und Cantus,
-  Vorimitation, Modus versus Anfangstöne der initialen Imitation, Melismen in
-  initialer Imitation, neu angesetzte Imitation bei *daß er nicht nach des Löwen
-  Weis*
-* [12. Usquequo Domine](/tricinium/12-usquequo-domine): lange initiale Imitation, Modus versus Anfangstöne
-  der initialen Imitation, Textwiederholungen und Wiederholung im *cantus
-  firmus*, Kadenzflucht, Vermeiden von Quintparallelen mit Quartsextvorhalt,
-  Textverteilung bei Melismen
-* [13. Dixit insipiens](/tricinium/13-dixit-insipiens): sehr regelmäßiges Psalmlied (Stimmendisposition,
-  Ambitus und Ambitusüberschreitungen)!, Modus versus Anfangstöne der initialen
-  Imitation, unterschiedliche Imitationen mit wenigen und mehreren Noten der
-  Soggetti
+* [7. Domine Deus meus](/tricinium/07-domine-deus-meus): *cantus firmus*
+  wechselt zwischen Bassus und Cantus, Vorimitation, Modus versus Anfangstöne
+  der initialen Imitation, Melismen in initialer Imitation, neu angesetzte
+  Imitation bei *daß er nicht nach des Löwen Weis*
+* [12. Usquequo Domine](/tricinium/12-usquequo-domine): lange initiale
+  Imitation, Modus versus Anfangstöne der initialen Imitation,
+  Textwiederholungen und Wiederholung im *cantus firmus*, Kadenzflucht,
+  Vermeiden von Quintparallelen mit Quartsextvorhalt, Textverteilung bei
+  Melismen
+* [13. Dixit insipiens](/tricinium/13-dixit-insipiens): sehr regelmäßiges
+  Psalmlied (Stimmendisposition, Ambitus und Ambitusüberschreitungen)!, Modus
+  versus Anfangstöne der initialen Imitation, unterschiedliche Imitationen mit
+  wenigen und mehreren Noten der Soggetti
 * [15. Conserva me Domine](/tricinium/15-conserva-me-domine): Klare
   Kadenzen, *cantus firmus*-Behandlung mit unterschiedlichen Transpositionen,
   Anfansimitation mit drei verschiedenen Starttönen
-* [18. Cæli enarrant](/tricinium/18-caeli-enarrant): Ambitus, modale Beantwortung bei *die große
-  Herrlichkeit des Herren*, abgesprungene Kadenzflucht aus Sopranklausel,
-  Akzidentien, pikardische Terz ist der *finalis* vorweggenommen
-* [23. Domini est terra](/tricinium/23-domini-est-terra): verschiedene Imitationen, modale Beantwortung,
-  trugschlüssige Kadenzflucht in Bassklausel, Wiederholung der letzten
-  Verszeile (Text)
-* [26. Dominus illuminatio mea](/tricinium/26-dominus-illuminatio-mea): Unterbrechungen des Textes durch Pausen,
-  abgesprungene Kadenzflucht aus Tenorklausel, Kadenzflucht einer Sopranklausel
-  mit Melisma in Semiminimae, modale Beantwortung bei *mit Schrecken* grauen
-* [28. Afferte Domino](/tricinium/28-afferte-domino): *cadenza doppia* (schnell in Semiminimae und langsam
-  in Semibreven), modale Beantwortung, Unterbrechungen des Textes durch
-  Pausen, Oktavregel-Ausschnitt (③ – ④ – ⑤ – ⑥ – ⑦ – ①)
-* [29. Exaltabo te, Domine](/tricinium/29-exaltabo-te-domine): *cantus firmus*-Behandlung, Melisma mit
-  Terzsprüngen, Synkopenkette, Kadenzflucht einer Altklausel (Sextakkord),
-  abgesprungene Kadenzflucht aus Sopranklausel
-* [30. In te Domine speravi](/tricinium/30-in-te-domine-speravi): unterschiedliche Textwiederholungen,
-  Wiederholung der Imitation, Melisma in Minimae und Semiminimae, Mi-Kadenz,
-  Sopranklausel im Bassus
-* [33. Benedicam Dominum](/tricinium/33-benedicam-dominum): sehr regelmäßiges Psalmlied (Stimmendisposition,
-  Am- bitus und Ambitusüberschreitungen)!, Beginn im freien Kontrapunkt ohne
-  Imitation, Kadenzflucht in Bass- und Tenorklausel mit Pause, trugschlüssige
-  Bassklausel
+* [18. Cæli enarrant](/tricinium/18-caeli-enarrant): Ambitus, modale
+  Beantwortung bei *die große Herrlichkeit des Herren*, abgesprungene
+  Kadenzflucht aus Sopranklausel, Akzidentien, pikardische Terz ist der
+  *finalis* vorweggenommen
+* [23. Domini est terra](/tricinium/23-domini-est-terra): verschiedene
+  Imitationen, modale Beantwortung, trugschlüssige Kadenzflucht in Bassklausel,
+  Wiederholung der letzten Verszeile (Text)
+* [26. Dominus illuminatio mea](/tricinium/26-dominus-illuminatio-mea):
+  Unterbrechungen des Textes durch Pausen, abgesprungene Kadenzflucht aus
+  Tenorklausel, Kadenzflucht einer Sopranklausel mit Melisma in Semiminimae,
+  modale Beantwortung bei *mit Schrecken* grauen
+* [28. Afferte Domino](/tricinium/28-afferte-domino): *cadenza doppia* (schnell
+  in Semiminimae und langsam in Semibreven), modale Beantwortung,
+  Unterbrechungen des Textes durch Pausen, Oktavregel-Ausschnitt (③ – ④ – ⑤ – ⑥
+  – ⑦ – ①)
+* [29. Exaltabo te, Domine](/tricinium/29-exaltabo-te-domine): *cantus
+  firmus*-Behandlung, Melisma mit Terzsprüngen, Synkopenkette, Kadenzflucht
+  einer Altklausel (Sextakkord), abgesprungene Kadenzflucht aus Sopranklausel
+* [30. In te Domine speravi](/tricinium/30-in-te-domine-speravi):
+  unterschiedliche Textwiederholungen, Wiederholung der Imitation, Melisma in
+  Minimae und Semiminimae, Mi-Kadenz, Sopranklausel im Bassus
+* [33. Benedicam Dominum](/tricinium/33-benedicam-dominum): sehr regelmäßiges
+  Psalmlied (Stimmendisposition, Am- bitus und Ambitusüberschreitungen)!, Beginn
+  im freien Kontrapunkt ohne Imitation, Kadenzflucht in Bass- und Tenorklausel
+  mit Pause, trugschlüssige Bassklausel
