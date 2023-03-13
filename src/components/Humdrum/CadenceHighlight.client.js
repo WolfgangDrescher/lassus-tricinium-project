@@ -1,5 +1,7 @@
 function createMarker(startElem, endElem, systemElem, containerElem) {
 
+    endElem = endElem?.querySelector('.notehead') || endElem;
+
     const systemFirstMeasureStaffRect = systemElem.querySelector('.measure .staff')?.getBoundingClientRect();
     const systemRect = systemElem.getBoundingClientRect();
     const containerRect = containerElem.getBoundingClientRect();
