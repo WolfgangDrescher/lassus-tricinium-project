@@ -80,7 +80,6 @@ export default {
                         containerElem
                     ));
                 }
-                console.log('MULTIPLE STAFFS', startElem, endElem);
             }
         }
 
