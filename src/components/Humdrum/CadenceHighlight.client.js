@@ -14,9 +14,9 @@ function createMarker(startElem, endElem, systemElem, containerElem) {
     const xPosStart = startRect ? startRect.x : (systemFirstMeasureStaffRect ? systemFirstMeasureStaffRect.x: systemRect.x);
     const xPosEnd = endRect ? endRect.right : systemRect.right;
 
-    const widthExtender = 10;
+    const widthExtender = 13;
     const width = xPosEnd - xPosStart + widthExtender;
-    const xOffset = 0;
+    const xOffset = 2;
 
     return h('div', {
         class: [
