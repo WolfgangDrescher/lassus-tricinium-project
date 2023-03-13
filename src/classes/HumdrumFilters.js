@@ -208,13 +208,14 @@ export class MeasureFilter extends HumdrumFilter {
             throw new Error(`Cannot set "${value}" as value for ${this.className}`);
         }
         this.value = value;
-        this.addLine(`myank -m ${value}`);
+        this.addLine(`myank -m ${value} -d`);
     }
 
     validateValue(value) {
         if (/^[1-9]\d*$/.test(value)) return true;
         if (/^[1-9]\d*-[1-9]\d*$/.test(value)) return true;
         if (/^[1-9]\d*(,[1-9]\d*)*$/.test(value)) return true;
+        if (/^([1-9]\d*(-[1-9]\d*)?)(,([1-9]\d*(-[1-9]\d*)?))*$/.test(value)) return true;
         return false;
     }
 }
