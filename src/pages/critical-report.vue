@@ -219,6 +219,23 @@ defineI18nRoute({
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '28-afferte-domino' } })">
+                                    28. Afferte Domino
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 13-15: Der Text <code>bringet dem Herren wolgemut</code> pass nicht als
+                                    Textwiederholung, deswegen wurde beginnt <code>Wider und Böck zum opffer</code> in
+                                    dieser Edition eine Minima später als im Druck.
+                                </li>
+                                <li>
+                                    Takt 28: Die ausgefüllten Noten im Tenor bei der Triole wurden rhythmisch angepasst.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </FormattedText>
             </section>
