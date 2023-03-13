@@ -7,7 +7,7 @@
     .bg-zig-zag-left::before, 
     .bg-zig-zag-right::after {
         background-repeat: repeat-y;
-        background-size: 11px 19px;
+        background-size: 11px 22.628px;
         content: '';
         display: block;
         width: 100%;
