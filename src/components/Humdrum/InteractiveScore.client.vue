@@ -166,11 +166,11 @@ defineExpose({
         </div>
         <div>
             <div class="relative" ref="scoreWrapper">
-                <div ref="scoreContainer">
-                    <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" v-bind="verovioCanvasOptions" @mounted="verovioCanvasMounted"/>
-                </div>
                 <div class="absolute w-full h-full top-0 left-0 pointer-events-none">
                     <slot :scoreWrapper="$refs.scoreWrapper" :key="scoreKey"></slot>
+                </div>
+                <div ref="scoreContainer">
+                    <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" v-bind="verovioCanvasOptions" @mounted="verovioCanvasMounted"/>
                 </div>
             </div>
         </div>
