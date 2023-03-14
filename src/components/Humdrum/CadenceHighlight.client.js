@@ -20,7 +20,7 @@ function createMarker(startElem, endElem, systemElem, containerElem) {
 
     return h('div', {
         class: [
-            'bg-opacity-30 absolute bg-yellow-500 ',
+            'bg-opacity-30 absolute bg-yellow-500',
             !startElem && 'bg-zig-zag-left',
             !endElem && 'bg-zig-zag-right',
             startElem && !endElem && 'rounded-tl rounded-bl',
