@@ -45,8 +45,12 @@ class Cadence {
         return `${this.cadence.voices.cantus.penultima ?? '-'},${this.cadence.voices.cantus.ultima ?? '-'}`;
     }
 
-    get beat() {
-        return this.cadence.beat;
+    get startBeat() {
+        return this.cadence.startBeat;
+    }
+
+    get endBeat() {
+        return this.cadence.endBeat;
     }
 }
 

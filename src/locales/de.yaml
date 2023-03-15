@@ -59,7 +59,6 @@ none: Keine
 originalDocument: Quelle
 partbooks: Stimmbücher
 cadences: Kadenzen
-line: Zeile
 ultima: Ultima
 degree: Stufe
 nOutOfTotalCadencesFoundForSerachParams: '{n} von {total} Kadenzen gefunden'

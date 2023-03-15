@@ -98,14 +98,14 @@ watch(showLyrics, (value) => {
 </script>
 
 <template>
-    <Card :title="`${$t('line')} ${cadence.startLine}-${cadence.endLine}`">
+    <Card :title="`♩ ${cadence.endBeat}`">
         <template v-slot:title v-if="!shortTitle">
             <div class="flex items-center">
                 <div class="flex items-start justify-between w-full">
                     <div class="pl-3 w-full">
                         <div class="text-xl font-medium leading-5 text-gray-800">
                             <NuxtLink :href="`/tricinium/${tricinium.id}`">
-                                {{ `${tricinium.nr}. ${tricinium.title}, ${$t('line')} ${cadence.startLine}-${cadence.endLine}` }}
+                                {{ `${tricinium.nr}. ${tricinium.title}, ♩ ${cadence.endBeat}` }}
                             </NuxtLink>
                         </div>
                         <div class="text-sm leading-normal pt-1 text-gray-500">
