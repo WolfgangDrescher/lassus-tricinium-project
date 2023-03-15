@@ -321,6 +321,6 @@ repräsentativen Auswahl mit kurzer Erklärung:
   unterschiedliche Textwiederholungen, Wiederholung der Imitation, Melisma in
   Minimae und Semiminimae, Mi-Kadenz, Sopranklausel im Bassus
 * [33. Benedicam Dominum](/tricinium/33-benedicam-dominum): sehr regelmäßiges
-  Psalmlied (Stimmendisposition, Am- bitus und Ambitusüberschreitungen)!, Beginn
+  Psalmlied (Stimmendisposition, Ambitus und Ambitusüberschreitungen)!, Beginn
   im freien Kontrapunkt ohne Imitation, Kadenzflucht in Bass- und Tenorklausel
   mit Pause, trugschlüssige Bassklausel
