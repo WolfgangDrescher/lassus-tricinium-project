@@ -7039,6 +7039,181 @@
         next: '-m2'
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 79
+        next: +M2
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 80
+        next: +m2
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 108
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 114
+        next: +m2
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 136
+        next: +m3
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 143
+        next: '-P4'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 38
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 52
+        next: P1
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 70
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 86
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 89
+        next: '-P5'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 99
+        next: P1
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 121
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 124
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 168
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 175
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 179
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 28
+        next: +m2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 34
+        next: +m2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 48
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 49
+        next: '-M3'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 52
+        next: +P4
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 59
+        next: +m2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 77
+        next: +m2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 102
+        next: +m2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 110
+        next: '-M3'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 114
+        next: '-P5'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 127
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 128
+        next: +m2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 134
+        next: +m2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 142
+        next: +m3
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 157
+        next: P1
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 161
+        next: +m3
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 +M3:
     -
         lineIndex: 72
@@ -7625,6 +7800,41 @@
         next: +P4
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 60
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 76
+        next: +m2
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 42
+        next: '-M3'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 111
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 140
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 163
+        next: '-M3'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 81
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 +P4:
     -
         lineIndex: 65
@@ -9011,6 +9221,46 @@
         next: '-M3'
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 89
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 147
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 110
+        next: +M3
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 171
+        next: '-P4'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 55
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 116
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 152
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 168
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 +P5:
     -
         lineIndex: 76
@@ -9732,6 +9982,16 @@
         next: +m2
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 29
+        next: +m3
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 +P8:
     -
         lineIndex: 93
@@ -9988,6 +10248,16 @@
         next: '-M3'
         spine: 1
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 154
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 95
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 +d4:
     -
         lineIndex: 161
@@ -14355,6 +14625,121 @@
         next: null
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 77
+        next: +M2
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 81
+        next: '-m2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 115
+        next: '-m3'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 25
+        next: +m3
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 34
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 40
+        next: +M3
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 58
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 72
+        next: r
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 108
+        next: +P4
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 127
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 143
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 147
+        next: '-P5'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 161
+        next: +M3
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 181
+        next: null
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 25
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 29
+        next: P1
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 35
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 60
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 79
+        next: +M3
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 92
+        next: '-m3'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 103
+        next: r
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 129
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 136
+        next: r
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 +m3:
     -
         lineIndex: 115
@@ -16071,6 +16456,51 @@
         next: '-m2'
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 33
+        next: '-m3'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 140
+        next: +M2
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 174
+        next: '-m2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 27
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 83
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 42
+        next: '-m3'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 76
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 145
+        next: '-m3'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 163
+        next: '-m3'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 +m6:
     -
         lineIndex: 162
@@ -16332,6 +16762,11 @@
         next: P1
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 94
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
 '-M2':
     -
         lineIndex: 32
@@ -24543,6 +24978,216 @@
         next: '-m2'
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 35
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 40
+        next: r
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 63
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 65
+        next: '-m2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 72
+        next: r
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 83
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 86
+        next: +P4
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 94
+        next: '-m2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 110
+        next: '-P4'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 121
+        next: r
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 157
+        next: '-P5'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 168
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 169
+        next: '-m3'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 181
+        next: null
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 37
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 64
+        next: P1
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 69
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 97
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 103
+        next: '-m3'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 114
+        next: '-m3'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 117
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 118
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 131
+        next: r
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 152
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 153
+        next: +P8
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 170
+        next: +P4
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 178
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 58
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 65
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 67
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 85
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 90
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 101
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 125
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 133
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 155
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 156
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 167
+        next: +P4
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 176
+        next: '-m2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 '-M3':
     -
         lineIndex: 77
@@ -25389,6 +26034,51 @@
         next: +M2
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 58
+        next: +M3
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 43
+        next: P1
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 164
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 167
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 47
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 50
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 89
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 111
+        next: +P5
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 148
+        next: +P4
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 '-P4':
     -
         lineIndex: 55
@@ -26570,6 +27260,26 @@
         next: +M2
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 145
+        next: +P4
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 '-P5':
     -
         lineIndex: 72
@@ -27631,6 +28341,31 @@
         next: +M2
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 25
+        next: +P5
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 161
+        next: r
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 91
+        next: +m6
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 148
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 115
+        next: +P4
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 '-P8':
     -
         lineIndex: 166
@@ -33288,6 +34023,141 @@
         next: +m2
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 82
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 99
+        next: r
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 176
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 30
+        next: P1
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 36
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 60
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 96
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 129
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 146
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 149
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 158
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 165
+        next: '-M3'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 177
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 40
+        next: +m3
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 57
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 63
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 72
+        next: r
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 86
+        next: '-M3'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 91
+        next: +m2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 100
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 122
+        next: P1
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 153
+        next: P1
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 169
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 181
+        next: null
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 '-m3':
     -
         lineIndex: 26
@@ -35189,6 +36059,66 @@
         next: +m2
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 34
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 55
+        next: P1
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 116
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 167
+        next: '-M2'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 171
+        next: +m3
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 47
+        next: +M2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 105
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 43
+        next: P1
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 94
+        next: +P8
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 147
+        next: '-M3'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 164
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
 P1:
     -
         lineIndex: 25
@@ -39620,3 +40550,78 @@ P1:
         next: +m2
         spine: 5
         triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 22
+        next: P1
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 23
+        next: '-P5'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 56
+        next: '-M3'
+        spine: 1
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 23
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 33
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 44
+        next: '-m3'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 56
+        next: +m2
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 65
+        next: '-m2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 102
+        next: '-M2'
+        spine: 3
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 23
+        next: +m2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 30
+        next: '-P4'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 44
+        next: '-M3'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 123
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 154
+        next: '-M2'
+        spine: 5
+        triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 158
+        next: +M2
+        spine: 5
+        triciniumId: 33-benedicam-dominum
