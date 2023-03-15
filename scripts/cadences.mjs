@@ -118,10 +118,18 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     voices[voice.name].penultima = getClausulaForVoice(fileContent, voice.spine, ultima, 2);
                 });
 
-                let beat = null;
+                let startBeat = null;
+                for (let i = startLine + 1; i <= endLine; i++) {
+                    if (kernBeatsLines[i].match(/^\d+$/)) {
+                        startBeat = parseInt(kernBeatsLines[i], 10);
+                        break;
+                    }
+                }
+
+                let endBeat = null;
                 for (let i = endLine -1; i >= 0; i--) {
-                    if (kernBeatsLines[i].match(/\d+/)) {
-                        beat = parseInt(kernBeatsLines[i], 10);
+                    if (kernBeatsLines[i].match(/^\d+$/)) {
+                        endBeat = parseInt(kernBeatsLines[i], 10);
                         break;
                     }
                 }
@@ -135,9 +143,10 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     startLine,
                     endLine,
                     voices,
-                    beat,
+                    startBeat,
+                    endBeat,
                 };
-                const configFileName = `${id}-${startLine}.yaml`;
+                const configFileName = `${id}-${endBeat}.yaml`;
                 fs.writeFileSync(`${__dirname}/../content/cadences/${configFileName}`, yaml.dump(config, {
                     indent: 4,
                     lineWidth: -1,
