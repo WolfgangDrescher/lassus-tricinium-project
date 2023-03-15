@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 108
+endLine: 131
+filename: e8c47690-d8c2-5c39-ab4b-f2eb4dae0339.krn
+startBeat: 102
+startLine: 122
+triciniumId: 25-iudica-me-domine
+ultima: f
+voices:
+    bassus:
+        penultima: 2
+        ultima: 1
+    cantus:
+        penultima: 4
+        ultima: 3
+    tenor:
+        penultima: 7
+        ultima: 1

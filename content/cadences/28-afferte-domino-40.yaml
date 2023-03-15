@@ -1,0 +1,18 @@
+degree: 4
+endBeat: 40
+endLine: 58
+filename: 02221083-b643-5973-858b-982bb1da6899.krn
+startBeat: 33
+startLine: 44
+triciniumId: 28-afferte-domino
+ultima: g
+voices:
+    bassus:
+        penultima: 3
+        ultima: 2
+    cantus:
+        penultima: 2
+        ultima: 5
+    tenor:
+        penultima: 5
+        ultima: 6

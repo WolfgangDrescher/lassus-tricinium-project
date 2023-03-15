@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 192
+endLine: 191
+filename: db258be9-c9a0-5841-8e75-78efeaff033b.krn
+startBeat: 184
+startLine: 179
+triciniumId: 02-quare-fremuerunt-gentes
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 1

@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 248
+endLine: 279
+filename: e799d1c1-9a41-5b5e-b594-908d6b354d1e.krn
+startBeat: 242
+startLine: 268
+triciniumId: 28-afferte-domino
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 1

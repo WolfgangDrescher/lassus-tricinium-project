@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 108
+endLine: 146
+filename: aebc98ed-8eab-51fd-aace-9e7aa859ac1a.krn
+startBeat: 101
+startLine: 131
+triciniumId: 19-exaudiat-te-dominus
+ultima: f
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 2
+        ultima: 3
+    tenor:
+        penultima: 7
+        ultima: 1

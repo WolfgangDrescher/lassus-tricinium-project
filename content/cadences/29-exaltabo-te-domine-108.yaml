@@ -1,0 +1,18 @@
+degree: 2
+endBeat: 108
+endLine: 122
+filename: 0b7d3d7a-6304-5e9b-94a5-ed471ed9fd13.krn
+startBeat: 102
+startLine: 111
+triciniumId: 29-exaltabo-te-domine
+ultima: e
+voices:
+    bassus:
+        penultima: 2
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 5
+        ultima: 6

@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 152
+endLine: 162
+filename: ff503900-de70-5f75-a180-48f797cf8ae7.krn
+startBeat: 146
+startLine: 153
+triciniumId: 15-conserva-me-domine
+ultima: g
+voices:
+    bassus:
+        penultima: 5
+        ultima: 0
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1

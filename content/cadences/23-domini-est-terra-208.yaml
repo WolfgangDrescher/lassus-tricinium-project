@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 208
+endLine: 212
+filename: 71f65e49-1cf9-5e6d-9bdb-83ee2acdb781.krn
+startBeat: 201
+startLine: 202
+triciniumId: 23-domini-est-terra
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 0
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1

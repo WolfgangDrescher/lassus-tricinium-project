@@ -1,0 +1,18 @@
+degree: 4
+endBeat: 24
+endLine: 46
+filename: 2f7133bc-ad69-533a-8a43-634b364d9c1c.krn
+startBeat: 18
+startLine: 36
+triciniumId: 10-in-domino-confido
+ultima: g
+voices:
+    bassus:
+        penultima: 5
+        ultima: 0
+    cantus:
+        penultima: 2
+        ultima: 3
+    tenor:
+        penultima: 7
+        ultima: 1

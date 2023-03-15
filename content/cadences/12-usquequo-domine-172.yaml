@@ -1,0 +1,18 @@
+degree: 5
+endBeat: 172
+endLine: 197
+filename: 5ad77a81-a7b8-5570-be58-00803ce18a01.krn
+startBeat: 170
+startLine: 191
+triciniumId: 12-usquequo-domine
+ultima: d
+voices:
+    bassus:
+        penultima: 4
+        ultima: 1
+    cantus:
+        penultima: 1
+        ultima: 3
+    tenor:
+        penultima: 6
+        ultima: 5

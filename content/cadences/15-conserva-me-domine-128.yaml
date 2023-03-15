@@ -1,0 +1,18 @@
+degree: 5
+endBeat: 128
+endLine: 140
+filename: 7ea3cb22-1b15-5c2d-a5ca-144233f2fac2.krn
+startBeat: 122
+startLine: 131
+triciniumId: 15-conserva-me-domine
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 0

@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 64
+endLine: 85
+filename: 08874252-efb7-54b0-aad1-5639d59f924a.krn
+startBeat: 58
+startLine: 75
+triciniumId: 07-domine-deus-meus
+ultima: e
+voices:
+    bassus:
+        penultima: 7
+        ultima: 4
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 6

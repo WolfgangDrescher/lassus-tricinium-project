@@ -1,0 +1,18 @@
+degree: 3
+endBeat: 68
+endLine: 92
+filename: f45601b5-cbd1-5874-89da-287c9998374e.krn
+startBeat: 63
+startLine: 83
+triciniumId: 16-exaudi-domine-iustitiam
+ultima: b-
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 1

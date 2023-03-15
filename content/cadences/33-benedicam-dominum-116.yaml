@@ -1,0 +1,18 @@
+degree: 7
+endBeat: 116
+endLine: 138
+filename: a5b53286-0903-569f-905c-da922589f7b2.krn
+startBeat: 109
+startLine: 127
+triciniumId: 33-benedicam-dominum
+ultima: c
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 0

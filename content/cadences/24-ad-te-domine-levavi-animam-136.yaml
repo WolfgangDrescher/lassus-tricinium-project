@@ -1,0 +1,18 @@
+degree: 3
+endBeat: 136
+endLine: 163
+filename: dd5d2726-d2f7-5c81-906c-d30654b5643f.krn
+startBeat: 129
+startLine: 154
+triciniumId: 24-ad-te-domine-levavi-animam
+ultima: f
+voices:
+    bassus:
+        penultima: 2
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 4
+        ultima: 3

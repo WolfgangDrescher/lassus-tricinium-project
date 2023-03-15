@@ -1,0 +1,18 @@
+degree: 5
+endBeat: 92
+endLine: 91
+filename: ac3daa93-c757-565c-83d3-0403b5ac961b.krn
+startBeat: 86
+startLine: 83
+triciniumId: 31-beati-quorum
+ultima: e
+voices:
+    bassus:
+        penultima: 5
+        ultima: 4
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 3
+        ultima: 6

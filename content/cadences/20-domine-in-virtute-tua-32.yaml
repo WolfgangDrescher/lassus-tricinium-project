@@ -1,0 +1,18 @@
+degree: 5
+endBeat: 32
+endLine: 48
+filename: 55a5a17a-9de4-5cd6-948a-d3021a68a62e.krn
+startBeat: 25
+startLine: 39
+triciniumId: 20-domine-in-virtute-tua
+ultima: c
+voices:
+    bassus:
+        penultima: 2
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 4
+        ultima: 3

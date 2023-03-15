@@ -1,0 +1,18 @@
+degree: 3
+endBeat: 124
+endLine: 134
+filename: b79f7f70-0d3f-5f04-af79-3969ea4dc81b.krn
+startBeat: 118
+startLine: 125
+triciniumId: 13-dixit-insipiens
+ultima: b-
+voices:
+    bassus:
+        penultima: 5
+        ultima: 0
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 1

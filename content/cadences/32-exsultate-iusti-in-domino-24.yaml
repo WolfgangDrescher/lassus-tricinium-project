@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 24
+endLine: 42
+filename: 15705d38-4cf1-5dea-9588-ad9b76e648c1.krn
+startBeat: 17
+startLine: 31
+triciniumId: 32-exsultate-iusti-in-domino
+ultima: g
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 3

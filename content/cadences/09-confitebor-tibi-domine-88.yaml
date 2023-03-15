@@ -1,0 +1,18 @@
+degree: 5
+endBeat: 88
+endLine: 109
+filename: 9fab738f-e6bb-5292-bf49-6c52dba15212.krn
+startBeat: 80
+startLine: 95
+triciniumId: 09-confitebor-tibi-domine
+ultima: a
+voices:
+    bassus:
+        penultima: 5
+        ultima: 0
+    cantus:
+        penultima: 2
+        ultima: 3
+    tenor:
+        penultima: 7
+        ultima: 1

@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 104
+endLine: 118
+filename: a8fdbf29-41a3-5096-a460-3a8ba40c6406.krn
+startBeat: 97
+startLine: 109
+triciniumId: 22-dominus-regit-me
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 3
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 1

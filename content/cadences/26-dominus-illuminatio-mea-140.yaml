@@ -1,0 +1,18 @@
+degree: 3
+endBeat: 140
+endLine: 154
+filename: 847e01ae-9bfd-5f2d-b5df-def2313226d7.krn
+startBeat: 129
+startLine: 142
+triciniumId: 26-dominus-illuminatio-mea
+ultima: f
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 0

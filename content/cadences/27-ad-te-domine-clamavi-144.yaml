@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 144
+endLine: 183
+filename: 338442f3-2f94-5eec-afcb-d804b99db076.krn
+startBeat: 137
+startLine: 172
+triciniumId: 27-ad-te-domine-clamavi
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1

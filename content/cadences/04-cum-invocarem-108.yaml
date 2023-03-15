@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 108
+endLine: 120
+filename: 41101dfa-2bbc-56b5-bd3b-befcee4a2a20.krn
+startBeat: 104
+startLine: 114
+triciniumId: 04-cum-invocarem
+ultima: g
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 7
+        ultima: 0
+    tenor:
+        penultima: 2
+        ultima: 1
