@@ -6544,6 +6544,501 @@
         next: r
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 25
+        next: '-P8'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 64
+        next: '-P8'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 99
+        next: +m2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 110
+        next: +m2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 126
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 127
+        next: +m2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 139
+        next: '-P4'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 149
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 150
+        next: +m2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 158
+        next: P1
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 170
+        next: P1
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 31
+        next: P1
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 60
+        next: +m3
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 83
+        next: +m3
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 96
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 98
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 120
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 121
+        next: +m2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 129
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 131
+        next: +m2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 138
+        next: '-M3'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 151
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 152
+        next: +m2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 166
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 167
+        next: '-M3'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 169
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 28
+        next: +m3
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 71
+        next: r
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 89
+        next: r
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 113
+        next: +m2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 128
+        next: +M2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 129
+        next: +m2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 156
+        next: +M2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 157
+        next: +m2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 75
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 94
+        next: '-P5'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 101
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 102
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 107
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 108
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 146
+        next: +m3
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 175
+        next: '-P4'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 188
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 191
+        next: '-P5'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 35
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 43
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 45
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 46
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 51
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 56
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 78
+        next: r
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 87
+        next: r
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 94
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 100
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 101
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 106
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 108
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 130
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 138
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 158
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 171
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 184
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 186
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 191
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 202
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 204
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 205
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 206
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 211
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 214
+        next: '-P4'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 228
+        next: null
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 27
+        next: '-P5'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 38
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 43
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 46
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 47
+        next: '-M3'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 64
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 65
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 76
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 87
+        next: +m3
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 93
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 98
+        next: '-M3'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 106
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 109
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 112
+        next: +m3
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 132
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 155
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 182
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 184
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 185
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 188
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 211
+        next: '-m3'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 222
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 +M3:
     -
         lineIndex: 72
@@ -7085,6 +7580,51 @@
         next: '-M2'
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 29
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 59
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 27
+        next: +m2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 216
+        next: +m2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 92
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 24
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 31
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 198
+        next: '-M3'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 207
+        next: +P4
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 +P4:
     -
         lineIndex: 65
@@ -8411,6 +8951,66 @@
         next: +M3
         spine: 3
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 94
+        next: P1
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 173
+        next: null
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 89
+        next: +P5
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 108
+        next: '-m3'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 106
+        next: P1
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 40
+        next: r
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 49
+        next: '-m2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 100
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 182
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 133
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 220
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 209
+        next: '-M3'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 +P5:
     -
         lineIndex: 76
@@ -9082,6 +9682,56 @@
         next: P1
         spine: 1
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 42
+        next: '-P8'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 44
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 63
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 71
+        next: '-m3'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 131
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 80
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 91
+        next: '-P5'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 59
+        next: r
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 51
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 161
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 +P8:
     -
         lineIndex: 93
@@ -9333,6 +9983,11 @@
         next: '-M2'
         spine: 1
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 90
+        next: '-M3'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
 +d4:
     -
         lineIndex: 161
@@ -13400,6 +14055,306 @@
         next: +M2
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 23
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 28
+        next: +M3
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 56
+        next: +M3
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 69
+        next: +P5
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 83
+        next: '-m2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 101
+        next: '-m2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 112
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 128
+        next: '-m3'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 151
+        next: r
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 168
+        next: '-m3'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 23
+        next: '-P4'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 67
+        next: '-m3'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 126
+        next: '-P4'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 132
+        next: '-m3'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 156
+        next: '-m3'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 33
+        next: r
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 56
+        next: +m3
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 115
+        next: '-m3'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 131
+        next: '-m2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 144
+        next: r
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 158
+        next: '-m2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 173
+        next: null
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 28
+        next: '-P4'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 33
+        next: '-m2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 163
+        next: r
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 170
+        next: P1
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 220
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 28
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 40
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 47
+        next: '-m3'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 52
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 59
+        next: '-m3'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 75
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 98
+        next: '-P4'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 102
+        next: '-m3'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 107
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 112
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 139
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 159
+        next: r
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 172
+        next: '-m3'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 182
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 185
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 195
+        next: '-P4'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 203
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 207
+        next: '-m3'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 212
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 33
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 40
+        next: '-P4'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 45
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 66
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 78
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 135
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 163
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 186
+        next: '-m3'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 195
+        next: +M3
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 214
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 221
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 228
+        next: null
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 +m3:
     -
         lineIndex: 115
@@ -15011,6 +15966,111 @@
         next: P1
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 39
+        next: '-P4'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 42
+        next: '-m2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 59
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 63
+        next: '-P4'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 73
+        next: '-m2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 84
+        next: '-P8'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 104
+        next: +P4
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 158
+        next: '-m2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 29
+        next: '-m2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 44
+        next: '-m2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 58
+        next: '-m2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 73
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 144
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 148
+        next: '-m2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 68
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 146
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 116
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 125
+        next: '-P4'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 173
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 +m6:
     -
         lineIndex: 162
@@ -23053,6 +24113,436 @@
         next: null
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 31
+        next: r
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 38
+        next: +m3
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 46
+        next: '-m3'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 60
+        next: +P5
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 75
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 76
+        next: '-m2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 89
+        next: r
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 104
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 105
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 106
+        next: '-m2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 108
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 117
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 119
+        next: r
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 134
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 156
+        next: '-P5'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 166
+        next: '-m3'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 40
+        next: +m3
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 47
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 77
+        next: +P5
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 99
+        next: '-P4'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 144
+        next: r
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 162
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 163
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 170
+        next: '-m2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 173
+        next: null
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 25
+        next: +M2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 42
+        next: +m3
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 63
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 64
+        next: P1
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 70
+        next: +M2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 80
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 81
+        next: P1
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 87
+        next: +M2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 121
+        next: r
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 139
+        next: '-m2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 168
+        next: '-m2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 53
+        next: +P5
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 81
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 83
+        next: '-m2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 87
+        next: +P8
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 106
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 109
+        next: '-P5'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 130
+        next: '-m2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 135
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 139
+        next: '-m3'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 186
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 214
+        next: +M3
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 223
+        next: '-m2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 228
+        next: null
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 33
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 55
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 72
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 73
+        next: '-m3'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 84
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 120
+        next: '-P5'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 128
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 129
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 132
+        next: +P4
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 157
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 165
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 176
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 190
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 221
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 223
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 224
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 37
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 53
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 82
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 84
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 146
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 149
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 152
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 159
+        next: +P5
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 166
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 168
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 170
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 172
+        next: +m3
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 177
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 205
+        next: +M3
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 216
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 217
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 '-M3':
     -
         lineIndex: 77
@@ -23849,6 +25339,56 @@
         next: +M3
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 139
+        next: '-m2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 168
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 92
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 209
+        next: '-m2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 198
+        next: '-m3'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 49
+        next: +P5
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 63
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 100
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 201
+        next: '-m3'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 210
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 '-P4':
     -
         lineIndex: 55
@@ -24940,6 +26480,96 @@
         next: P1
         spine: 1
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 40
+        next: +P5
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 141
+        next: r
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 25
+        next: P1
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 33
+        next: r
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 64
+        next: '-m2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 101
+        next: +m3
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 127
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 31
+        next: +m2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 125
+        next: +m3
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 177
+        next: +P4
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 99
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 144
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 197
+        next: '-M3'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 216
+        next: +P4
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 21
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 42
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 122
+        next: +m3
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 127
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 '-P5':
     -
         lineIndex: 72
@@ -25961,6 +27591,46 @@
         next: +M2
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 157
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 94
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 98
+        next: +P4
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 112
+        next: r
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 195
+        next: r
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 121
+        next: r
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 28
+        next: +M3
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 75
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 '-P8':
     -
         lineIndex: 166
@@ -26132,6 +27802,26 @@
         next: r
         spine: 3
         triciniumId: 29-exaltabo-te-domine
+    -
+        lineIndex: 26
+        next: +m2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 43
+        next: +P5
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 66
+        next: +m2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 86
+        next: P1
+        spine: 3
+        triciniumId: 31-beati-quorum
 '-m2':
     -
         lineIndex: 30
@@ -31328,6 +33018,276 @@
         next: P1
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 37
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 77
+        next: r
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 86
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 102
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 107
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 39
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 44
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 52
+        next: r
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 66
+        next: +m2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 75
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 141
+        next: P1
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 159
+        next: P1
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 171
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 32
+        next: +m2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 40
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 47
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 53
+        next: +m2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 60
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 137
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 142
+        next: +m2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 166
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 171
+        next: +m2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 35
+        next: +P4
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 51
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 155
+        next: r
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 211
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 224
+        next: P1
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 31
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 83
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 110
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 126
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 149
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 156
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 178
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 189
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 222
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 36
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 59
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 68
+        next: '-P5'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 139
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 151
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 167
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 171
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 175
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 215
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 220
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 225
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 '-m3':
     -
         lineIndex: 26
@@ -33109,6 +35069,126 @@
         next: P1
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 50
+        next: +m2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 73
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 129
+        next: +P5
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 167
+        next: +m2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 169
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 69
+        next: +m3
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 113
+        next: r
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 157
+        next: +m3
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 119
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 141
+        next: +m3
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 49
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 63
+        next: +m3
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 74
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 170
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 173
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 199
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 210
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 187
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 203
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 212
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
 P1:
     -
         lineIndex: 25
@@ -37300,3 +39380,243 @@ P1:
         next: '-M2'
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 95
+        next: P1
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 98
+        next: +M2
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 161
+        next: '-M2'
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 171
+        next: +P4
+        spine: 1
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 28
+        next: +M2
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 32
+        next: '-P4'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 88
+        next: +P4
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 143
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 161
+        next: '-M2'
+        spine: 3
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 22
+        next: P1
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 23
+        next: '-M2'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 66
+        next: '-m3'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 83
+        next: '-m3'
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 108
+        next: P1
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 112
+        next: +M2
+        spine: 5
+        triciniumId: 31-beati-quorum
+    -
+        lineIndex: 25
+        next: +M3
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 122
+        next: P1
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 123
+        next: '-P4'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 172
+        next: +M2
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 225
+        next: '-M2'
+        spine: 1
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 27
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 34
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 42
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 85
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 114
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 116
+        next: P1
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 117
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 141
+        next: '-P4'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 145
+        next: +m3
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 150
+        next: '-m2'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 167
+        next: '-m3'
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 192
+        next: +m2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 201
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 226
+        next: +M2
+        spine: 3
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 22
+        next: +M3
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 32
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 61
+        next: '-M3'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 83
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 120
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 121
+        next: '-P4'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 141
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 144
+        next: P1
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 145
+        next: '-M2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 150
+        next: '-m2'
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 164
+        next: +M2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
+    -
+        lineIndex: 192
+        next: +m2
+        spine: 5
+        triciniumId: 32-exsultate-iusti-in-domino
