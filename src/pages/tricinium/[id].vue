@@ -69,6 +69,10 @@ const tabItems = [
         value: 'cadences',
         text: t('cadences'),
     },
+    {
+        value: 'kern',
+        text: t('kern'),
+    },
 ];
 
 const triciniumVerovioOptions = {
@@ -159,6 +163,13 @@ function onUpdateUlenbergExpertMode(value) {
 function onNoteSelected(id, midiValues) {
     midiPlayer.value.skipToSeconds(midiValues.time / 1000);
 }
+
+const kern = ref('');
+$fetch(tricinium.localRawFile).then(response => {
+    return response.text();
+}).then(value => {
+    kern.value = value;
+});
 </script>
 
 <template>
@@ -322,6 +333,21 @@ function onNoteSelected(id, midiValues) {
                                     <CadenceListItem :cadence="cadence" :short-title="true" :hide-info="true" />
                                 </div>
                             </div>
+                        </div>
+                    </template>
+
+                    <template #[`tabItem.kern`]>
+                        <div class="h-96 overflow-hidden">
+                            <MonacoEditor :model-value="kern" :options="{
+                                readOnly: true,
+                                // theme: 'vs-light',
+                                tabSize: 16,
+                                scrollBeyondLastLine: false,
+                                automaticLayout: true,
+                                scrollbar: {
+                                    alwaysConsumeMouseWheel: false,
+                                }
+                            }"/>
                         </div>
                     </template>
 
