@@ -201,6 +201,7 @@ function onNoteSelected(id, midiValues) {
                         <HumdrumInteractiveScore
                             ref="humdrumScore"
                             :url="tricinium.localRawFile"
+                            :iiif-manifest-url="tricinium.iiifManifestUrl"
                             @mounted="humdrumScoreMounted"
                             @update:filters="triciniumScoreFilters = $event"
                             :verovio-options="triciniumVerovioOptions"
