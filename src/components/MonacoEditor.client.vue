@@ -12,7 +12,7 @@ const props = defineProps({
         default: false,
     },
 });
-const emit = defineEmits(['update:modelValue']);
+const emit = defineEmits(['update:modelValue', 'cursorPositionChanged']);
 
 const containerEl = ref();
 const monacoEl = ref();
@@ -53,6 +53,9 @@ onMounted(() => {
             resizeObserver.observe(containerEl.value);
         }
         editor.getModel().onDidChangeContent(() => emit('update:modelValue', editor.getValue()));
+        editor.onDidChangeCursorPosition((event) => {
+            const lineContent = editor.getModel().getLineContent(event.position.lineNumber);
+            emit('cursorPositionChanged', event, lineContent);
         });
     });
 });
