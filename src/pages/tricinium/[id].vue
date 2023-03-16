@@ -170,6 +170,17 @@ $fetch(tricinium.localRawFile).then(response => {
 }).then(value => {
     kern.value = value;
 });
+
+const scoreContainer = ref(null);
+const selectedScoreElement = ref(null);
+function onCursorPositionChanged(event, lineContent) {
+    if (scoreContainer.value) {
+        const field = lineContent.substring(0, event.position.column - 1).split('\t').length
+        const id = `L${event.position.lineNumber}F${field }`;
+        const selector = `g#note-${id}, g#rest-${id}, g#mRest-${id}, g#verse-${id}`;
+        selectedScoreElement.value = scoreContainer.value.querySelector(selector);
+    }
+}
 </script>
 
 <template>
@@ -208,26 +219,31 @@ $fetch(tricinium.localRawFile).then(response => {
             <template v-slot:left>
                 <MidiPlayer ref="midiPlayer" :url="audioDataUrl" />
                 <NuxtErrorBoundary>
-                    <Suspense>
-                        <HumdrumInteractiveScore
-                            ref="humdrumScore"
-                            :url="tricinium.localRawFile"
-                            :iiif-manifest-url="tricinium.iiifManifestUrl"
-                            @mounted="humdrumScoreMounted"
-                            @update:filters="triciniumScoreFilters = $event"
-                            :verovio-options="triciniumVerovioOptions"
-                            :initial-filters="triciniumScoreFilters"
-                            :initial-manual-filters="initialTriciniumManualFilters"
-                            @update:manualFilters="triciniumScoreManualFilters = $event"
-                            :expert-mode="triciniumExpertMode"
-                            @update:expertMode="onUpdateTriciniumExpertMode"
-                            @note-selected="onNoteSelected"
-                        >
-                            <template v-if="showCadencesInScore" v-slot:default="slotProps">
-                                <HumdrumCadenceHighlight v-for="cadence in cadences" :key="cadence.id" :cadence="cadence" :container="slotProps.scoreWrapper" />
-                            </template>
-                        </HumdrumInteractiveScore>
-                    </Suspense>
+                    <div ref="scoreContainer">
+                        <Suspense>
+                            <HumdrumInteractiveScore
+                                ref="humdrumScore"
+                                :url="tricinium.localRawFile"
+                                :iiif-manifest-url="tricinium.iiifManifestUrl"
+                                @mounted="humdrumScoreMounted"
+                                @update:filters="triciniumScoreFilters = $event"
+                                :verovio-options="triciniumVerovioOptions"
+                                :initial-filters="triciniumScoreFilters"
+                                :initial-manual-filters="initialTriciniumManualFilters"
+                                @update:manualFilters="triciniumScoreManualFilters = $event"
+                                :expert-mode="triciniumExpertMode"
+                                @update:expertMode="onUpdateTriciniumExpertMode"
+                                @note-selected="onNoteSelected"
+                            >
+                                <template v-slot:default="slotProps">
+                                    <template v-if="showCadencesInScore">
+                                        <HumdrumCadenceHighlight v-for="cadence in cadences" :key="cadence.id" :cadence="cadence" :container="slotProps.scoreWrapper" />
+                                    </template>
+                                    <HumdrumNoteHightlight v-if="selectedScoreElement" :key="selectedScoreElement.id" :elem="selectedScoreElement" :container="slotProps.scoreWrapper" />
+                                </template>
+                            </HumdrumInteractiveScore>
+                        </Suspense>
+                    </div>
                     <template #error="{ error }">
                         <AlertMessage>
                             <p>{{ error }}</p>
@@ -338,16 +354,20 @@ $fetch(tricinium.localRawFile).then(response => {
 
                     <template #[`tabItem.kern`]>
                         <div class="h-96 overflow-hidden">
-                            <MonacoEditor :model-value="kern" :options="{
-                                readOnly: true,
-                                // theme: 'vs-light',
-                                tabSize: 16,
-                                scrollBeyondLastLine: false,
-                                automaticLayout: true,
-                                scrollbar: {
-                                    alwaysConsumeMouseWheel: false,
-                                }
-                            }"/>
+                            <MonacoEditor
+                                :model-value="kern"
+                                :options="{
+                                    readOnly: true,
+                                    // theme: 'vs-light',
+                                    tabSize: 16,
+                                    scrollBeyondLastLine: false,
+                                    automaticLayout: true,
+                                    scrollbar: {
+                                        alwaysConsumeMouseWheel: false,
+                                    }
+                                }"
+                                @cursorPositionChanged="onCursorPositionChanged"
+                            />
                         </div>
                     </template>
 
