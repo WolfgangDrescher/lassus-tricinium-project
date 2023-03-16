@@ -190,6 +190,10 @@ class Tricinium {
     get beats() {
         return this.tricinium.beats;
     }
+    
+    get iiifManifestUrl() {
+        return this.tricinium.iiifManifestUrl;
+    }
 
 }
 
