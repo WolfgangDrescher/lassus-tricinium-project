@@ -187,6 +187,10 @@ class Tricinium {
         return endSound.join(', ');
     }
 
+    get beats() {
+        return this.tricinium.beats;
+    }
+
 }
 
 export function useTricinium(elements) {
