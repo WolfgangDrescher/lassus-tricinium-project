@@ -80,6 +80,7 @@ const infoItemsHeaders = [
     { value: 'incipit', text: t('incipit') },
     { value: 'composer', text: t('composer') },
     { value: 'mode', text: t('mode') },
+    { value: 'cantusFirmus', text: t('cantusFirmus') },
     { value: 'transposition', text: t('transposition') },
     { value: 'finalis', text: t('finalis') },
     { value: 'clefs', text: t('clefs') },
@@ -99,6 +100,11 @@ const infoItems = [{
     vhvHref: tricinium.vhvHref,
     clefs: tricinium.clefs,
     mode: tricinium.mode && t(`mode.${tricinium.mode}`),
+    cantusFirmus: (() => {
+        const cantusFirmus = tricinium.cantusFirmusAsString;
+        const voices = cantusFirmus ? cantusFirmus.split(',').map(cf => cf.trim()) : [];
+        return voices.map(voice => t(`cantusFirmus.${voice}`)).join(', ') || t('cantusFirmus.free');
+    })(),
     transposition: tricinium.transposition && t(`transposition.${tricinium.transposition}`),
     finalis: tricinium.finalis,
     originalDocument: tricinium.originalDocument,
@@ -238,6 +244,9 @@ function onNoteSelected(id, midiValues) {
                                     <HyperLink target="_blank" :href="item.tenorUrlScan">{{ $t('voice.tenor')}}</HyperLink>
                                     <HyperLink target="_blank" :href="item.bassusUrlScan">{{ $t('voice.bassus')}}</HyperLink>
                                 </div>
+                            </template>
+                            <template #[`head.cantusFirmus`]="{ field }">
+                                <span class="whitespace-nowrap">{{ field.text }}</span>
                             </template>
                         </DataTable>
                     </template>
