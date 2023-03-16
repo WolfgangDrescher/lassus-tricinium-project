@@ -51,7 +51,7 @@ onMounted(() => {
 });
 
 onBeforeUnmount(() => {
-    resizeObserver.unobserve(containerEl.value);
+    resizeObserver?.unobserve(containerEl.value);
 });
 
 watch(() => props.modelValue, (value) => {
