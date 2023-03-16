@@ -1,5 +1,6 @@
 <script setup>
 import '@/workers/monaco.js';
+import { useDebounceFn } from '@vueuse/core';
 
 const props = defineProps({
     url: {
@@ -22,6 +23,7 @@ const props = defineProps({
         type: Boolean,
         default: false,
     },
+    iiifManifestUrl: String,
 });
 
 const emit = defineEmits([
@@ -97,7 +99,10 @@ function onUpdateExpertMode(value) {
     emit('update:expertMode', value);
 }
 
-async function onClickVerovioCanvas(event) {
+let preventClick = false;
+
+async function handleNoteSingleClick(event) {
+    if (preventClick) return;
     const noteElem = getMatchingParent(event.target, 'g.note')
     if (noteElem) {
         emit('noteSelected', noteElem.id, await callVerovioMethod('getMIDIValuesForElement', noteElem.id));
@@ -111,6 +116,31 @@ async function onClickVerovioCanvas(event) {
             return;
         }
     }
+}
+
+const { openPopup, openFullResourcePopup } = useIiif(data.value, props.iiifManifestUrl);
+
+function handleNoteDoubleClick(event) {
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
+        openFullResourcePopup(event.target)
+    } else {
+        openPopup(event.target);
+    }
+}
+
+function onClickVerovioCanvas(event) {
+    if (event.detail === 1) {
+        setTimeout(() => {
+            handleNoteSingleClick(event);
+            preventClick = false;
+        }, 200);
+    }
+    if (event.detail > 1) {
+        preventClick = true;
+        handleNoteDoubleClick(event);
+        return;
+    }
+    
 }
 
 function getMatchingParent(target, selector) {
@@ -169,10 +199,38 @@ defineExpose({
                 <div class="absolute w-full h-full top-0 left-0 pointer-events-none">
                     <slot :scoreWrapper="$refs.scoreWrapper" :key="scoreKey"></slot>
                 </div>
-                <div ref="scoreContainer">
+                <div ref="scoreContainer" class="verovio-canvas-container">
                     <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" v-bind="verovioCanvasOptions" @mounted="verovioCanvasMounted"/>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+.verovio-canvas-container :deep(g.note),
+.verovio-canvas-container :deep(g.rest),
+.verovio-canvas-container :deep(g.mRest) {
+    pointer-events: bounding-box;
+    cursor: pointer !important;
+}
+
+.verovio-canvas-container :deep(g.note:hover),
+.verovio-canvas-container :deep(g.rest:hover),
+.verovio-canvas-container :deep(g.mRest:hover),
+.verovio-canvas-container :deep(g.note:hover path) {
+    fill: var(--color-primary-500) !important;
+    stroke: var(--color-primary-500) !important;
+}
+
+.verovio-canvas-container :deep(g.note *),
+.verovio-canvas-container :deep(g.rest *),
+.verovio-canvas-container :deep(g.mRest *) {
+    pointer-events: none;
+}
+
+.verovio-canvas-container :deep(g.note:hover .verse) {
+    fill: currentColor;
+    stroke: currentColor !important;
+}
+</style>
