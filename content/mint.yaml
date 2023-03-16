@@ -7509,6 +7509,316 @@
         next: r
         spine: 5
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 50
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 52
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 75
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 77
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 120
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 122
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 143
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 146
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 164
+        next: +P4
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 167
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 246
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 253
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 257
+        next: '-M2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 33
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 43
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 45
+        next: '-M3'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 50
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 74
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 75
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 97
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 104
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 111
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 133
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 134
+        next: '-M3'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 140
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 141
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 166
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 227
+        next: '-M3'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 252
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 257
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 272
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 281
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 29
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 36
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 43
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 65
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 67
+        next: '-M3'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 71
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 72
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 101
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 111
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 114
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 117
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 119
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 120
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 142
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 143
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 162
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 164
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 179
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 210
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 232
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 235
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 242
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 248
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 253
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 254
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 255
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 263
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 269
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 273
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 286
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
 +M3:
     -
         lineIndex: 72
@@ -8195,6 +8505,41 @@
         next: '-M2'
         spine: 5
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 89
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 206
+        next: '-P4'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 49
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 85
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 116
+        next: '-P5'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 240
+        next: '-M3'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 47
+        next: '-P5'
+        spine: 5
+        triciniumId: 36-noli-aemulari
 +P4:
     -
         lineIndex: 65
@@ -9661,6 +10006,61 @@
         next: '-m2'
         spine: 3
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 29
+        next: +m3
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 97
+        next: +m3
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 162
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 166
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 227
+        next: '-m3'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 127
+        next: '-m3'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 204
+        next: +m3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 59
+        next: '-m3'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 174
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 205
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 217
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
 +P5:
     -
         lineIndex: 76
@@ -10427,6 +10827,36 @@
         next: +m2
         spine: 1
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 214
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 260
+        next: '-P5'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 269
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 156
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 269
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 160
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
 +P8:
     -
         lineIndex: 93
@@ -10703,6 +11133,26 @@
         next: '-m2'
         spine: 3
         triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 70
+        next: '-P4'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 137
+        next: '-P4'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 220
+        next: '-m2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 245
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
 +d4:
     -
         lineIndex: 161
@@ -15340,6 +15790,206 @@
         next: P1
         spine: 5
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 23
+        next: '-P4'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 62
+        next: '-m2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 72
+        next: '-P5'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 90
+        next: '-P4'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 130
+        next: '-m2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 141
+        next: '-P5'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 170
+        next: '-m3'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 201
+        next: '-M3'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 210
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 224
+        next: '-P4'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 254
+        next: '-m3'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 272
+        next: '-m2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 52
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 60
+        next: '-m3'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 77
+        next: '-P5'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 83
+        next: +M3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 90
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 106
+        next: r
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 114
+        next: +M3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 142
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 153
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 167
+        next: '-P4'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 235
+        next: +M3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 265
+        next: +P5
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 23
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 37
+        next: r
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 45
+        next: +M3
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 74
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 83
+        next: r
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 122
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 128
+        next: '-m3'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 146
+        next: '-P5'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 153
+        next: r
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 166
+        next: '-m3'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 181
+        next: r
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 252
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 257
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 265
+        next: '-P8'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 270
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 288
+        next: null
+        spine: 5
+        triciniumId: 36-noli-aemulari
 +m3:
     -
         lineIndex: 115
@@ -17196,6 +17846,106 @@
         next: +M2
         spine: 5
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 31
+        next: '-m2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 49
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 99
+        next: '-m2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 119
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 244
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 25
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 42
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 99
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 122
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 173
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 185
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 206
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 31
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 52
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 91
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 110
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 207
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 229
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 240
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 259
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
 +m6:
     -
         lineIndex: 162
@@ -26228,6 +26978,261 @@
         next: null
         spine: 5
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 57
+        next: '-m3'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 125
+        next: '-m3'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 190
+        next: '-M2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 194
+        next: '-m2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 232
+        next: '-P5'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 259
+        next: +P5
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 278
+        next: '-M2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 281
+        next: '-m2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 288
+        next: null
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 37
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 67
+        next: r
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 126
+        next: +P4
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 131
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 147
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 181
+        next: +m3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 214
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 217
+        next: r
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 226
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 248
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 249
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 255
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 256
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 259
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 274
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 278
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 280
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 283
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 35
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 58
+        next: +P4
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 63
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 64
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 78
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 99
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 106
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 116
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 134
+        next: r
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 170
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 178
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 194
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 195
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 223
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 224
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 227
+        next: +m3
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 262
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 275
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 282
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 285
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
 '-M3':
     -
         lineIndex: 77
@@ -27174,6 +28179,51 @@
         next: +P4
         spine: 3
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 204
+        next: +M3
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 47
+        next: +M3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 160
+        next: r
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 230
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 242
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 70
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 201
+        next: +P4
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 212
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
 '-P4':
     -
         lineIndex: 55
@@ -28415,6 +29465,61 @@
         next: +m3
         spine: 5
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 25
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 71
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 91
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 140
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 176
+        next: r
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 207
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 226
+        next: +P4
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 252
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 170
+        next: +m3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 244
+        next: +P8
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 244
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
 '-P5':
     -
         lineIndex: 72
@@ -29581,6 +30686,91 @@
         next: P1
         spine: 3
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 37
+        next: r
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 74
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 83
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 106
+        next: r
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 142
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 153
+        next: r
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 217
+        next: +P8
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 235
+        next: r
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 265
+        next: +P5
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 78
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 110
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 119
+        next: +m3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 201
+        next: +P4
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 42
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 49
+        next: +m3
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 147
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 246
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
 '-P8':
     -
         lineIndex: 166
@@ -29782,6 +30972,11 @@
         next: +P4
         spine: 3
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 267
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
 '-m2':
     -
         lineIndex: 30
@@ -35583,6 +36778,216 @@
         next: '-M2'
         spine: 5
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 33
+        next: '-P5'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 67
+        next: +P8
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 101
+        next: '-P5'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 134
+        next: +P8
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 195
+        next: '-m2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 198
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 223
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 274
+        next: '-M2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 283
+        next: '-M2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 29
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 57
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 80
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 91
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 102
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 123
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 143
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 150
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 176
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 190
+        next: r
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 198
+        next: '-P5'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 234
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 246
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 260
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 279
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 288
+        next: null
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 25
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 34
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 75
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 81
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 97
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 125
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 149
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 177
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 197
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 206
+        next: +m3
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 215
+        next: +P4
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 226
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 258
+        next: +m3
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 261
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 279
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 284
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
 '-m3':
     -
         lineIndex: 26
@@ -37609,6 +39014,66 @@
         next: +m3
         spine: 3
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 59
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 127
+        next: +m2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 173
+        next: '-P4'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 229
+        next: '-M2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 255
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 62
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 128
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 212
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 224
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 60
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 130
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 167
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
 P1:
     -
         lineIndex: 25
@@ -42310,3 +43775,273 @@ P1:
         next: '-m2'
         spine: 5
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 26
+        next: +P4
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 80
+        next: '-P5'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 85
+        next: +M3
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 92
+        next: +P4
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 123
+        next: '-M2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 149
+        next: '-P5'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 188
+        next: P1
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 189
+        next: '-M2'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 213
+        next: +P5
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 215
+        next: '-P5'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 245
+        next: +M2
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 247
+        next: '-P4'
+        spine: 1
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 22
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 23
+        next: +m3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 26
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 39
+        next: +m3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 54
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 82
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 89
+        next: +m2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 98
+        next: +m3
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 155
+        next: +P5
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 158
+        next: '-M3'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 180
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 188
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 189
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 197
+        next: '-m2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 207
+        next: P1
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 210
+        next: '-m3'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 215
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 223
+        next: '-m3'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 243
+        next: '-P4'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 282
+        next: '-M2'
+        spine: 3
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 30
+        next: +m3
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 89
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 90
+        next: +m3
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 92
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 108
+        next: +m3
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 123
+        next: '-m2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 151
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 161
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 172
+        next: +P4
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 180
+        next: +m2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 190
+        next: P1
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 191
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 199
+        next: '-M3'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 211
+        next: '-M3'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 220
+        next: '-M2'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 237
+        next: +m3
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 241
+        next: +M2
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 243
+        next: '-P4'
+        spine: 5
+        triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 245
+        next: '-P5'
+        spine: 5
+        triciniumId: 36-noli-aemulari

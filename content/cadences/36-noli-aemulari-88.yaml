@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 88
+endLine: 108
+filename: dfe09939-5248-596a-bc96-da58e439dabc.krn
+startBeat: 81
+startLine: 97
+triciniumId: 36-noli-aemulari
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1
