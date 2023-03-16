@@ -7214,6 +7214,241 @@
         next: +m3
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 38
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 40
+        next: '-M3'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 44
+        next: P1
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 50
+        next: +m2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 56
+        next: '-P5'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 83
+        next: +m2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 105
+        next: +m2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 131
+        next: +m2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 142
+        next: '-M2'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 151
+        next: '-M2'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 30
+        next: P1
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 33
+        next: r
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 60
+        next: '-M3'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 86
+        next: '-P5'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 94
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 96
+        next: +m2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 110
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 114
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 117
+        next: '-M3'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 120
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 122
+        next: +m2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 134
+        next: '-P5'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 151
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 160
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 161
+        next: '-P5'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 167
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 168
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 169
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 171
+        next: +m2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 174
+        next: null
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 56
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 74
+        next: +m2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 76
+        next: '-P4'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 81
+        next: '-M2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 86
+        next: +m2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 98
+        next: +m2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 105
+        next: r
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 122
+        next: +m2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 134
+        next: +m2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 144
+        next: +m2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 157
+        next: '-P5'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 164
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 165
+        next: '-P5'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 171
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 172
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 174
+        next: null
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 +M3:
     -
         lineIndex: 72
@@ -7835,6 +8070,41 @@
         next: '-M2'
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 82
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 119
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 43
+        next: r
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 62
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 149
+        next: +m3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 +P4:
     -
         lineIndex: 65
@@ -9261,6 +9531,11 @@
         next: '-m2'
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 23
+        next: '-m2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 +P5:
     -
         lineIndex: 76
@@ -9992,6 +10267,31 @@
         next: +M2
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 26
+        next: P1
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 43
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 66
+        next: '-m3'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 36
+        next: +m3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 131
+        next: '-m2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 +P8:
     -
         lineIndex: 93
@@ -10258,6 +10558,16 @@
         next: '-m2'
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 92
+        next: '-P5'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 140
+        next: '-m2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
 +d4:
     -
         lineIndex: 161
@@ -14740,6 +15050,111 @@
         next: r
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 51
+        next: '-m3'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 90
+        next: r
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 110
+        next: r
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 98
+        next: '-m2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 100
+        next: '-m3'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 107
+        next: '-P4'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 123
+        next: '-m2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 127
+        next: '-P4'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 157
+        next: '-m2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 159
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 172
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 33
+        next: '-m3'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 60
+        next: +M3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 75
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 87
+        next: '-m3'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 102
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 127
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 135
+        next: '-m3'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 147
+        next: +M3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 163
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 +m3:
     -
         lineIndex: 115
@@ -16501,6 +16916,51 @@
         next: '-m3'
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 36
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 26
+        next: P1
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 105
+        next: '-m2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 37
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 52
+        next: '-m2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 68
+        next: '-m2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 80
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 151
+        next: '-m2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 161
+        next: '-m2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 +m6:
     -
         lineIndex: 162
@@ -25188,6 +25648,166 @@
         next: '-m2'
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 30
+        next: P1
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 74
+        next: '-M2'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 76
+        next: '-m2'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 81
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 147
+        next: '-m3'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 157
+        next: null
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 43
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 44
+        next: +M3
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 53
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 69
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 70
+        next: '-m2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 80
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 81
+        next: +M3
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 85
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 111
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 133
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 147
+        next: '-M3'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 154
+        next: '-m2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 166
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 170
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 51
+        next: +m3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 55
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 73
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 83
+        next: '-m2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 85
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 133
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 154
+        next: '-M2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 155
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 170
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 '-M3':
     -
         lineIndex: 77
@@ -26079,6 +26699,41 @@
         next: +P4
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 41
+        next: +P5
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 53
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 62
+        next: P1
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 118
+        next: +M3
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 149
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 28
+        next: '-m2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 49
+        next: '-m2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 '-P4':
     -
         lineIndex: 55
@@ -27280,6 +27935,21 @@
         next: +M2
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 108
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 130
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 77
+        next: +m3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 '-P5':
     -
         lineIndex: 72
@@ -28366,6 +29036,71 @@
         next: +P4
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 33
+        next: '-m3'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 60
+        next: r
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 102
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 127
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 90
+        next: +P8
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 137
+        next: +P8
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 93
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 117
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 142
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 159
+        next: +m3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 169
+        next: '-M2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 '-P8':
     -
         lineIndex: 166
@@ -34158,6 +34893,91 @@
         next: null
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 80
+        next: '-M2'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 71
+        next: r
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 99
+        next: +m2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 106
+        next: +m2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 124
+        next: +m2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 142
+        next: P1
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 155
+        next: +m2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 158
+        next: +m2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 26
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 31
+        next: +m2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 50
+        next: '-M2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 72
+        next: '-M2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 152
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 162
+        next: +m2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 '-m3':
     -
         lineIndex: 26
@@ -36119,6 +36939,51 @@
         next: '-M2'
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 23
+        next: +P5
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 35
+        next: +m3
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 52
+        next: '-M3'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 149
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 102
+        next: P1
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 35
+        next: +P5
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 90
+        next: '-P5'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 137
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
 P1:
     -
         lineIndex: 25
@@ -40625,3 +41490,118 @@ P1:
         next: +M2
         spine: 5
         triciniumId: 33-benedicam-dominum
+    -
+        lineIndex: 28
+        next: '-M2'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 31
+        next: '-P5'
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 49
+        next: +M2
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 68
+        next: +M3
+        spine: 1
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 22
+        next: P1
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 23
+        next: +m3
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 29
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 40
+        next: P1
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 41
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 64
+        next: +P5
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 103
+        next: +m3
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 145
+        next: '-M2'
+        spine: 3
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 27
+        next: '-M3'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 40
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 42
+        next: +M3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 57
+        next: +m2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 63
+        next: P1
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 66
+        next: +m3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 130
+        next: +P5
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 140
+        next: '-P5'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 153
+        next: '-M2'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes

@@ -1,0 +1,18 @@
+degree: 3
+endBeat: 16
+endLine: 35
+filename: 30831153-2ff3-58c7-9cfa-8b2b24755a64.krn
+startBeat: 9
+startLine: 26
+triciniumId: 34-iudica-domine-nocentes
+ultima: f
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 7
+        ultima: 1
+    tenor:
+        penultima: 2
+        ultima: 3
