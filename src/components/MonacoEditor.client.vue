@@ -1,7 +1,13 @@
 <script setup>
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api';
 
-const props = defineProps(['modelValue']);
+const props = defineProps({
+    modelValue: String,
+    options: {
+        type: Object,
+        default: () => ({}),
+    },
+});
 const emit = defineEmits(['update:modelValue']);
 
 const containerEl = ref();
@@ -11,7 +17,7 @@ let resizeObserver = null;
 
 onMounted(() => {
     nextTick(() => {
-        editor = monaco.editor.create(monacoEl.value, {
+        editor = monaco.editor.create(monacoEl.value, Object.assign({
             value: props.modelValue,
             // language: 'typescript',
             scrollBeyondLastLine: false,
@@ -25,7 +31,7 @@ onMounted(() => {
             hideCursorInOverviewRuler: true,
             overviewRulerLanes: 0,
             theme: 'vs-dark',
-        });
+        }, props.options));
 
         const updateHeight = () => {
             const contentHeight = editor.getContentHeight();
