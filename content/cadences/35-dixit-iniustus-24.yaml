@@ -1,0 +1,18 @@
+degree: 5
+endBeat: 24
+endLine: 40
+filename: 6dfe71ab-2b97-5cc2-b57d-ab9901a1c988.krn
+startBeat: 18
+startLine: 30
+triciniumId: 35-dixit-iniustus
+ultima: d
+voices:
+    bassus:
+        penultima: 5
+        ultima: 6
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1
