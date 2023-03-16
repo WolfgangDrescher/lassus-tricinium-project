@@ -145,7 +145,7 @@ function applyFilter(event) {
             </BadgeGroup>
         </div>
         <div v-if="expertMode">
-            <MonacoEditor :modelValue="initialFilterString" @update:modelValue="emit('update:manualFilters', $event)"/>
+            <MonacoEditor :modelValue="initialFilterString" @update:modelValue="emit('update:manualFilters', $event)" :grow-line-rows="true" />
         </div>
     </div> 
 </template>
