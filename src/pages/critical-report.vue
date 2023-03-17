@@ -227,9 +227,10 @@ defineI18nRoute({
                             </Subheading>
                             <ol class="flex flex-col list-none pl-0 gap-4">
                                 <li>
-                                    Takt 13-15: Der Text <code>bringet dem Herren wolgemut</code> pass nicht als
-                                    Textwiederholung, deswegen wurde beginnt <code>Wider und Böck zum opffer</code> in
-                                    dieser Edition eine Minima später als im Druck.
+                                    Takt 13-15: Der Text <code>bringet dem Herren wolgemut</code> beinhaltet mehr Silben
+                                    als für diese Textwiederholung Noten zur Verfügung stehen. Deswegen wurde beginnt
+                                    <code>Wider und Böck zum opffer</code> in dieser Edition eine Minima später als im
+                                    Druck.
                                 </li>
                                 <li>
                                     Takt 28: Die ausgefüllten Noten im Tenor bei der Triole wurden rhythmisch angepasst.
