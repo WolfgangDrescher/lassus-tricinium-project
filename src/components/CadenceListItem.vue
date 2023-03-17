@@ -95,6 +95,17 @@ watch(showLyrics, (value) => {
         removeFilter(hideLyricsFilter.id);
     }
 });
+
+const audioDataUrl = ref(null);
+
+async function verovioCanvasMounted({ callVerovioMethod }) {
+    const midiBase64 = await callVerovioMethod('renderToMIDI', {
+        // midiTempoAdjustment: 4,
+    });
+    if (midiBase64) {
+        audioDataUrl.value = `data:audio/midi;base64,${midiBase64}`;
+    }
+}
 </script>
 
 <template>
@@ -116,7 +127,8 @@ watch(showLyrics, (value) => {
             </div>
         </template>
         <div class="flex flex-col gap-4 mt-4">
-            <VerovioCanvas v-if="data" :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy :options="{mnumInterval: 1}" />
+            <VerovioCanvas v-if="data" :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy :options="{mnumInterval: 1}" @mounted="verovioCanvasMounted" />
+            <MidiPlayer ref="midiPlayer" :url="audioDataUrl" />
             <DataTable v-if="!hideInfo" :items="tableItems" :headers="tableHeaders" direction="column" small />
         </div>
     </Card>
