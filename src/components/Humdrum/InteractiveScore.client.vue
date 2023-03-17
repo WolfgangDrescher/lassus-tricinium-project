@@ -31,6 +31,7 @@ const emit = defineEmits([
     'update:filters',
     'update:expertMode',
     'update:manualFilters',
+    'scoreUpdated',
 ]);
 
 const expertModeRef = ref(props.expertMode);
@@ -159,6 +160,7 @@ const scoreKey = ref(Date.now());
 
 function mutationObserverEvent() {
     scoreKey.value = Date.now();
+    emit('scoreUpdated');
 }
 
 onMounted(() => {
