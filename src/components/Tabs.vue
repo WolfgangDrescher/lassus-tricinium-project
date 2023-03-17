@@ -10,14 +10,13 @@ const props = defineProps({
 const selectedTab = ref(props.items[0].value);
 
 const tabNav = ref();
-const activeIndexChange = ref(1);
 
 onMounted(() => {
     const hash = typeof location !== 'undefined' && location.hash ? location.hash.split('#')[1] : null;
     if(hash && props.items.map(item => item.value).includes(hash)) {
         selectedTab.value = hash;
     }
-    const swiper = new Swiper(tabNav.value, {
+    new Swiper(tabNav.value, {
         modules: [Navigation],
         spaceBetween: 16,
         slidesPerView: 'auto',
@@ -25,9 +24,6 @@ onMounted(() => {
             prevEl: tabNav.value.querySelector('.swiper-button-prev'),
             nextEl: tabNav.value.querySelector('.swiper-button-next'),
         },
-    });
-    swiper.on('slideChange', function () {
-        console.log('slide changed');
     });
 });
 </script>
