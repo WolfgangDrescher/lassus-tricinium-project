@@ -370,13 +370,14 @@ function onScoreUpdated() {
                     </template>
 
                     <template #[`tabItem.kern`]>
-                        <div class="h-96 overflow-hidden">
+                        <div class="h-[1000px] overflow-hidden">
                             <MonacoEditor
                                 :model-value="kern"
                                 :options="{
                                     readOnly: true,
+                                    fontSize: 14,
                                     // theme: 'vs-light',
-                                    tabSize: 16,
+                                    tabSize: 12,
                                     scrollBeyondLastLine: false,
                                     automaticLayout: true,
                                     scrollbar: {
