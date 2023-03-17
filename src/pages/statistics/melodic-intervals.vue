@@ -174,7 +174,7 @@ const selectedMint = ref(null);
                 <Badge v-for="interval in Object.entries(mintIntervals).map(([key]) => key).sort(sortFn)" :key="interval" class="cursor-pointer" @click="selectedMint = selectedMint === interval ? null : interval" :selected="selectedMint === interval">{{ interval }}</Badge>
             </BadgeGroup>
             <div class="flex flex-col gap-4 mt-4">
-                <MintItem class="grow-0" v-for="interval in Object.entries(mintIntervals).map(([key]) => key).sort(sortFn).filter(mint => !selectedMint || selectedMint === mint)" :key="interval" :mint="interval" :items="mintItem(interval)" />
+                <MintItem class="grow-0" v-for="interval in Object.entries(mintIntervals).map(([key]) => key).sort(sortFn).filter(mint => !selectedMint || selectedMint === mint)" :key="`${interval}${filteredElements.map(tricinium => tricinium.id).join()}`" :mint="interval" :items="mintItem(interval)" />
             </div>
         </div>
     </div>
