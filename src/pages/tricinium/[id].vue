@@ -165,18 +165,17 @@ function onNoteSelected(id, midiValues) {
 }
 
 const kern = ref('');
-$fetch(tricinium.localRawFile).then(response => {
-    return response.text();
-}).then(value => {
-    kern.value = value;
-});
-
 const scoreContainer = ref(null);
 const hightlightedNoteId = ref(null);
 const hash = ref();
 
 onMounted(() => {
     hash.value = typeof location !== 'undefined' && location.hash ? location.hash.split('#')[1] : null;
+    fetch(tricinium.localRawFile).then(response => {
+        return response.text();
+    }).then(value => {
+        kern.value = value;
+    });
 });
 
 function onCursorPositionChanged(event, lineContent) {
