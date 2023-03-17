@@ -6,7 +6,7 @@ export default defineComponent({
         container: HTMLElement,
     },
     setup(props) {
-        const selector = `g#note-${props.noteId}, g#rest-${props.noteId}, g#mRest-${props.noteId}, g#verse-${props.noteId}`;
+        const selector = `g#note-${props.noteId}, g#rest-${props.noteId}, g#mrest-${props.noteId}, g#verse-${props.noteId}`;
         let elem = props.container.querySelector(selector);
 
         if (!elem) return () => h('div');
