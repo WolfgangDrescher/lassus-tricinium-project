@@ -19,6 +19,7 @@ const tricinia = useTricinium(triciniumData.value);
 const cadences = useCadence(cadenceData.value, tricinia);
 
 const { filteredElements } = useCadenceFilter(cadences);
+const { items, addItems } = useArrayLoader(filteredElements);
 
 const store = useCadenceHumdrumFiltersStore();
 const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
@@ -47,10 +48,12 @@ const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
             </div>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <div v-for="cadence in filteredElements" :key="cadence.id">
-                <CadenceListItem :cadence="cadence" />
+        <InfiniteScroll @load="addItems()" :all="items.length === filteredElements.length">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <div v-for="cadence in items" :key="cadence.id">
+                    <CadenceListItem :cadence="cadence" />
+                </div>
             </div>
-        </div>
+        </InfiniteScroll>
     </Container>
 </template>

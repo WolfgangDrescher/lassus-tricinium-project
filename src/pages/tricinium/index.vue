@@ -9,6 +9,7 @@ useHead({
 const { data } = await useFetch('/api/tricinium');
 const tricinia = useTricinium(data.value);
 const { filteredElements } = useTriciniumFilter(tricinia);
+const { items, addItems } = useArrayLoader(filteredElements);
 
 const viewOptions = useTriciniumViewOptionsStore();
 
@@ -89,11 +90,13 @@ const tableItems = computed(() => {
             </div>
         </div>
         
-        <div v-if="viewOptions.viewMode === 'score'" class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <div v-for="tricinium in filteredElements" :key="tricinium.id">
-                <TriciniumListItem :tricinium="tricinium" :score-display="viewOptions.scoreDisplay" :show-lyrics="viewOptions.showLyrics" />
+        <InfiniteScroll v-if="viewOptions.viewMode === 'score'" @load="addItems()" :all="items.length === filteredElements.length">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <div v-for="tricinium in items" :key="tricinium.id">
+                    <TriciniumListItem :tricinium="tricinium" :score-display="viewOptions.scoreDisplay" :show-lyrics="viewOptions.showLyrics" />
+                </div>
             </div>
-        </div>
+        </InfiniteScroll>
         <DataTable v-else :items="tableItems" :headers="tableHeaders" small>
             <template #[`head.cantusFirmus`]="{ field }">
                 <span class="whitespace-nowrap">{{ field.text }}</span>
