@@ -13,7 +13,7 @@ const slideDirection = computed(() => {
 
 onMounted(() => {
     const hash = typeof location !== 'undefined' && location.hash ? location.hash.split('#')[1] : null;
-    if(hash) {
+    if(hash && props.items.map(item => item.value).includes(hash)) {
         selectedTab.value = hash;
     }
 });
