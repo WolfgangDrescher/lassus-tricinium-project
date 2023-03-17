@@ -172,14 +172,31 @@ $fetch(tricinium.localRawFile).then(response => {
 });
 
 const scoreContainer = ref(null);
-const selectedScoreElement = ref(null);
+const hightlightedNoteId = ref(null);
+const hash = ref();
+
+onMounted(() => {
+    hash.value = typeof location !== 'undefined' && location.hash ? location.hash.split('#')[1] : null;
+});
+
 function onCursorPositionChanged(event, lineContent) {
-    if (scoreContainer.value) {
-        const field = lineContent.substring(0, event.position.column - 1).split('\t').length
-        const id = `L${event.position.lineNumber}F${field }`;
-        const selector = `g#note-${id}, g#rest-${id}, g#mRest-${id}, g#verse-${id}`;
-        selectedScoreElement.value = scoreContainer.value.querySelector(selector);
+    const field = lineContent.substring(0, event.position.column - 1).split('\t').length
+    const id = `L${event.position.lineNumber}F${field }`;
+    hightlightNote(id);
+}
+
+function hightlightHashNote() {
+    if (hash.value && hash.value.startsWith('note-')) {
+        hightlightNote(hash.value.replace('note-', ''));
     }
+}
+
+function hightlightNote(id) {
+    hightlightedNoteId.value = id;
+}
+
+function onScoreUpdated() {
+    hightlightHashNote();
 }
 </script>
 
@@ -234,12 +251,13 @@ function onCursorPositionChanged(event, lineContent) {
                                 :expert-mode="triciniumExpertMode"
                                 @update:expertMode="onUpdateTriciniumExpertMode"
                                 @note-selected="onNoteSelected"
+                                @scoreUpdated="onScoreUpdated"
                             >
                                 <template v-slot:default="slotProps">
                                     <template v-if="showCadencesInScore">
                                         <HumdrumCadenceHighlight v-for="cadence in cadences" :key="cadence.id" :cadence="cadence" :container="slotProps.scoreWrapper" />
                                     </template>
-                                    <HumdrumNoteHightlight v-if="selectedScoreElement" :key="selectedScoreElement.id" :elem="selectedScoreElement" :container="slotProps.scoreWrapper" />
+                                    <HumdrumNoteHightlight v-if="hightlightedNoteId" :key="hightlightedNoteId" :note-id="hightlightedNoteId" :container="slotProps.scoreWrapper" />
                                 </template>
                             </HumdrumInteractiveScore>
                         </Suspense>
