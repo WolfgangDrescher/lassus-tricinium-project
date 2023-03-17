@@ -1,6 +1,5 @@
 <script setup>
 import '@/workers/monaco.js';
-import { useDebounceFn } from '@vueuse/core';
 
 const props = defineProps({
     url: {
