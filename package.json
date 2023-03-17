@@ -29,6 +29,7 @@
     "monaco-editor": "^0.36.0",
     "pinia": "^2.0.27",
     "soundfont-player": "^0.12.0",
+    "swiper": "^9.1.1",
     "uuid": "^9.0.0",
     "verovio": "^3.13.1",
     "vue-verovio-canvas": "^1.0.0"
