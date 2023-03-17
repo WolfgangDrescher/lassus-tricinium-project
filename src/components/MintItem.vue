@@ -1,5 +1,7 @@
 <script setup>
 const { t } = useI18n();
+const localePath = useLocalePath();
+
 const props = defineProps({
     mint: String,
     items: Array,
@@ -105,7 +107,7 @@ const maxItems = 50;
             <Subheading>{{ $t('melodicIntervalExamples') }}</Subheading>
             <div class="text-sm text-gray-500">{{ $t('triciniumLineIndexSpine', maxItems) }}</div>
             <div class="flex flex-wrap gap-x-2">
-                <HyperLink v-for="item in items.splice(0, maxItems)" target="_blank" :to="`https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/WolfgangDrescher/lassus-geistliche-psalmen/master/kern/${item.triciniumId}.krn`">
+                <HyperLink v-for="item in items.splice(0, maxItems)" target="_blank" :to="localePath({ name: 'tricinium-id', hash: `#note-L${item.lineIndex + 1}F${item.spine}`, params: { id: item.triciniumId } })">    
                     {{ `${parseInt(item.triciniumId.substring(0, 2), 10)}/${item.lineIndex + 1}/${item.spine}` }}
                 </HyperLink>
             </div>
