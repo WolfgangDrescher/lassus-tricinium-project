@@ -9,12 +9,6 @@ const props = defineProps({
 
 const selectedTab = ref(props.items[0].value);
 
-const slideDirection = computed(() => {
-    return (item) => {
-        return props.items.findIndex(i => selectedTab.value === i.value) < props.items.findIndex(i => item === i.value) ? 'prev' : 'next';
-    };
-});
-
 const tabNav = ref();
 const activeIndexChange = ref(1);
 
