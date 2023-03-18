@@ -120,10 +120,11 @@ async function handleNoteSingleClick(event) {
 const { openPopup, openFullResourcePopup } = useIiif(data.value, props.iiifManifestUrl);
 
 function handleNoteDoubleClick(event) {
+    const target = event.target.closest('g.note, g.rest, g.mRest');
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
-        openFullResourcePopup(event.target)
+        openFullResourcePopup(target)
     } else {
-        openPopup(event.target);
+        openPopup(target);
     }
 }
 
@@ -210,12 +211,6 @@ defineExpose({
 .verovio-canvas-container :deep(g.note:hover path) {
     fill: var(--color-primary-500) !important;
     stroke: var(--color-primary-500) !important;
-}
-
-.verovio-canvas-container :deep(g.note *),
-.verovio-canvas-container :deep(g.rest *),
-.verovio-canvas-container :deep(g.mRest *) {
-    pointer-events: none;
 }
 
 .verovio-canvas-container :deep(g.note:hover .verse) {
