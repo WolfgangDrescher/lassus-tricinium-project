@@ -95,6 +95,7 @@ export function useIiif(scoreData, iiifManifestUrl) {
     }
 
     async function openPopup(elem) {
+        if (!elem) return;
         const { xywh } = getXywhPartsForElement(elem);
         if (!xywh) return;
         const resourceUrlBase = (await getResourceUrlForElement(elem)).replace(/\/?full.*\.jpg$/, '');
@@ -124,6 +125,7 @@ export function useIiif(scoreData, iiifManifestUrl) {
     }
 
     async function openFullResourcePopup(elem) {
+        if (!elem) return;
         const resourceUrl = await getResourceUrlForElement(elem);
         if (!resourceUrl) return;
         window.open(resourceUrl, '_blank', 'popup');
