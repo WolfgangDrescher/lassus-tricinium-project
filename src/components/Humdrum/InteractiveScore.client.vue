@@ -98,10 +98,7 @@ function onUpdateExpertMode(value) {
     emit('update:expertMode', value);
 }
 
-let preventClick = false;
-
 async function handleNoteSingleClick(event) {
-    if (preventClick) return;
     const noteElem = event.target.closest('g.note');
     if (noteElem && callVerovioMethod) {
         emit('noteSelected', noteElem.id, await callVerovioMethod('getMIDIValuesForElement', noteElem.id));
@@ -128,19 +125,31 @@ function handleNoteDoubleClick(event) {
     }
 }
 
+let clickCount = 0;
+let clickTimeout;
+
 function onClickVerovioCanvas(event) {
-    if (event.detail === 1) {
-        setTimeout(() => {
-            handleNoteSingleClick(event);
-            preventClick = false;
-        }, 200);
-    }
-    if (event.detail > 1) {
-        preventClick = true;
+    clickCount++;
+    clearTimeout(clickTimeout);
+    console.log(clickCount, event);
+
+    if (clickCount >= 2) {
         handleNoteDoubleClick(event);
+        clickCount = 0;
         return;
-    }
-    
+    } 
+
+    setTimeout(() => {
+        if (clickCount === 1) {
+            handleNoteSingleClick(event);
+        }
+        clickCount = 0;
+    }, 200);
+}
+
+function onTouchVerovioCanvas(event) {
+    event.preventDefault();
+    onClickVerovioCanvas(event);
 }
 
 const scoreWrapper = ref(null);
@@ -190,7 +199,7 @@ defineExpose({
                     <slot :scoreWrapper="$refs.scoreWrapper" :key="scoreKey"></slot>
                 </div>
                 <div ref="scoreContainer" class="verovio-canvas-container">
-                    <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" v-bind="verovioCanvasOptions" @score-is-ready="verovioCanvasScoreIsReady" />
+                    <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" @touchend="onTouchVerovioCanvas" v-bind="verovioCanvasOptions" @score-is-ready="verovioCanvasScoreIsReady" />
                 </div>
             </div>
         </div>
