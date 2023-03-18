@@ -102,12 +102,12 @@ let preventClick = false;
 
 async function handleNoteSingleClick(event) {
     if (preventClick) return;
-    const noteElem = getMatchingParent(event.target, 'g.note')
+    const noteElem = event.target.closest('g.note');
     if (noteElem && callVerovioMethod) {
         emit('noteSelected', noteElem.id, await callVerovioMethod('getMIDIValuesForElement', noteElem.id));
         return;
     }
-    const measureElem = getMatchingParent(event.target, 'g.measure');
+    const measureElem = event.target.closest('g.measure');
     if (measureElem) {
         const noteEl = measureElem.querySelector('g.note');
         if (noteEl && callVerovioMethod) {
@@ -140,17 +140,6 @@ function onClickVerovioCanvas(event) {
         return;
     }
     
-}
-
-function getMatchingParent(target, selector) {
-    let elem = target;
-    while (elem) {
-        if (elem.matches && elem.matches(selector)) {
-            return elem;
-        }
-        elem = elem.parentNode;
-    }
-    return false;
 }
 
 const scoreWrapper = ref(null);
