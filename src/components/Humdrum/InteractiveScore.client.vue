@@ -194,6 +194,16 @@ defineExpose({
                 </div>
             </div>
         </div>
+        <FormattedText>
+            <i18n-t keypath="noteClickHint" tag="div" class="text-xs text-gray-500">
+                <template v-slot:cmd>
+                    <kbd>cmd</kbd>
+                </template>
+                <template v-slot:alt>
+                    <kbd>alt</kbd>
+                </template>
+            </i18n-t>
+        </FormattedText>
     </div>
 </template>
 

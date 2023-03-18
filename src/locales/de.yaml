@@ -157,3 +157,7 @@ showIntervals: Vorzeichen anzeigen
 sortNumbers: Zahlen sortieren
 showCadencesInScore: Kadenzen in der Partitur anzeigen
 kern: Kern
+noteClickHint: >- 
+    Doppelklick auf eine Note um das Faksimile der Stelle anzusehen.
+    {alt} + Doppelklick um das Faksimile der kompletten Seite anzusehen.
+    {cmd} + Doppelklick um das Faksimile in einem neuen Tab zu öffnen.
