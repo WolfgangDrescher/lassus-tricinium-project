@@ -28,7 +28,7 @@ if (lowestNote && highestNote) {
     kern.value = `**kern
 *clef${props.tricinium.getVoiceClef(props.voice)}
 1${props.tricinium.getLowestNoteOfVoice(props.voice)?.kern} 1${props.tricinium.getHighestNoteOfVoice(props.voice)?.kern}
-*-`
+*-`;
 }
 
 const { addFilter, removeFilter, formattedScoreData } = useHumdrumScoreFormatter(kern);

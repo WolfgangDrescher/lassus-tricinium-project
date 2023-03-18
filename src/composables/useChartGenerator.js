@@ -55,14 +55,14 @@ export function useChartGenerator(elements, filterValue, compareFunction, maxDat
                     });
                 } else {
                     // if (x) {
-                        let index = accumulator.findIndex(d => d.x === formatValue(x));
-                        if (index === -1) {
-                            index = -1 + accumulator.push({
-                                x: formatValue(x),
-                                y: 0,
-                            });
-                        }
-                        accumulator[index].y++;
+                    let index = accumulator.findIndex(d => d.x === formatValue(x));
+                    if (index === -1) {
+                        index = -1 + accumulator.push({
+                            x: formatValue(x),
+                            y: 0,
+                        });
+                    }
+                    accumulator[index].y++;
                     // }
                 }
                 return accumulator;

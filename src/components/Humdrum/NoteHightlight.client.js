@@ -12,7 +12,7 @@ export default defineComponent({
         if (!elem) return () => h('div');
 
         elem = elem.querySelector('.notehead') || elem;
-        
+
         const elemRect = elem.getBoundingClientRect();
         const parentRect = props.container.getBoundingClientRect();
         const markerSize = 50;

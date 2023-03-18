@@ -3,7 +3,7 @@ const props = defineProps({
     all: Boolean,
 });
 
-const emit = defineEmits(['load'])
+const emit = defineEmits(['load']);
 const el = ref(null);
 
 watch(() => props.all, (value) => {

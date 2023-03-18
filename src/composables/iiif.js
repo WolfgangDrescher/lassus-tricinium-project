@@ -55,7 +55,7 @@ export function useIiif(scoreData, iiifManifestUrl) {
 
     async function getResourceUrlForElement(elem) {
         const {label} = getXywhPartsForElement(elem);
-        return await getResourceUrl(getCanvasIndexByXywhLabel(label))
+        return await getResourceUrl(getCanvasIndexByXywhLabel(label));
     }
 
     async function openPopup(elem) {
@@ -66,16 +66,16 @@ export function useIiif(scoreData, iiifManifestUrl) {
 
         const screenWidth = window.screen.width;
         const screenHeight = window.screen.height;
-        const maxScreenHeightFactor = 0.25; 
+        const maxScreenHeightFactor = 0.25;
         const dimensions = xywh.match(/(\d+),(\d+),(\d+),(\d+)/);
         if (!dimensions) return;
 
         let width = dimensions[3];
-        let height = dimensions[4]
+        let height = dimensions[4];
 
         const aspect = width / height;
         width = Math.min(screenWidth, width);
-        height = Math.min(screenHeight * maxScreenHeightFactor, height)
+        height = Math.min(screenHeight * maxScreenHeightFactor, height);
         const newAspect = width / height;
         if (newAspect > aspect) {
             width = height * aspect;
@@ -88,7 +88,7 @@ export function useIiif(scoreData, iiifManifestUrl) {
     }
 
     async function openFullResourcePopup(elem) {
-        const resourceUrl = await getResourceUrlForElement(elem)
+        const resourceUrl = await getResourceUrlForElement(elem);
         if (!resourceUrl) return;
         window.open(resourceUrl, '_blank', 'popup');
     }
@@ -96,5 +96,5 @@ export function useIiif(scoreData, iiifManifestUrl) {
     return {
         openPopup,
         openFullResourcePopup,
-    }
+    };
 }

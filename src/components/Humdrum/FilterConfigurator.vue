@@ -34,7 +34,7 @@ function applyFilter() {
 }
 
 function convertArgsToArray() {
-    
+
     if (props.filter === 'ParallelIntervalsFilter') {
         return [args.interval, args.direction, args.color];
     }
@@ -84,13 +84,13 @@ function convertArgsToArray() {
     return Object.entries(args).map(([_, value]) => {
         return value;
     });
-};
+}
 
 const DynamicHumdrumFilter = defineComponent({
     name: 'DynamicHumdrumFilter',
     props: ['filter'],
     setup(props) {
-        
+
         if (props.filter === 'ParallelIntervalsFilter') {
             Object.assign(args, {
                 interval: undefined,

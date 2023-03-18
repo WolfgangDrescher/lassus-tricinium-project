@@ -60,9 +60,9 @@ export default {
             endElem = props.container?.querySelector(`g[id^="note-L${i}"]`);
             if (endElem) break;
         }
-        
+
         if (startElem && endElem && containerElem) {
-            
+
             const startSystem = startElem.closest('g.system');
             const endSystem = endElem.closest('g.system');
 
@@ -79,7 +79,7 @@ export default {
                         i === startIndex ? startElem : null,
                         i === endIndex ? endElem : null,
                         systemElem,
-                        containerElem
+                        containerElem,
                     ));
                 }
             }

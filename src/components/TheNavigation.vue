@@ -3,7 +3,7 @@ defineProps({
     open: Boolean,
 });
 
-const emit = defineEmits(['itemSelected'])
+const emit = defineEmits(['itemSelected']);
 
 const localePath = useLocalePath();
 

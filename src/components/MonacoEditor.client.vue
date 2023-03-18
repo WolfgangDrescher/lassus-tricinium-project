@@ -28,7 +28,7 @@ onMounted(() => {
             // wordWrap: 'on',
             wrappingStrategy: 'advanced',
             minimap: {
-                enabled: false
+                enabled: false,
             },
             fontSize: 16,
             // readOnly: true,

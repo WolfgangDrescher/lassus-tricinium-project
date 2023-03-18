@@ -12,7 +12,6 @@ class Cadence {
         return this.cadence.degree;
     }
 
-
     get startLine() {
         return this.cadence.startLine;
     }
@@ -32,7 +31,7 @@ class Cadence {
     get ultima() {
         return this.cadence.ultima;
     }
-    
+
     get bassusClausula() {
         return `${this.cadence.voices.bassus.penultima ?? '-'},${this.cadence.voices.bassus.ultima ?? '-'}`;
     }

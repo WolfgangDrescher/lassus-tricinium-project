@@ -77,7 +77,6 @@ ${finalis.toUpperCase()}	${cadenceUltima.toLowerCase()}`;
 execSync(`rm -rf ${__dirname}/../content/cadences/*`);
 execSync(`rm -rf ${__dirname}/../cadences/*`);
 
-
 getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
     const id = getIdFromFilename(file);
     console.log(id);
