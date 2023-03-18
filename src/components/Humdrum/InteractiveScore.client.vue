@@ -103,14 +103,14 @@ let preventClick = false;
 async function handleNoteSingleClick(event) {
     if (preventClick) return;
     const noteElem = getMatchingParent(event.target, 'g.note')
-    if (noteElem) {
+    if (noteElem && callVerovioMethod) {
         emit('noteSelected', noteElem.id, await callVerovioMethod('getMIDIValuesForElement', noteElem.id));
         return;
     }
     const measureElem = getMatchingParent(event.target, 'g.measure');
     if (measureElem) {
         const noteEl = measureElem.querySelector('g.note');
-        if (noteEl) {
+        if (noteEl && callVerovioMethod) {
             emit('noteSelected', noteEl.id, await callVerovioMethod('getMIDIValuesForElement', noteEl.id));
             return;
         }
