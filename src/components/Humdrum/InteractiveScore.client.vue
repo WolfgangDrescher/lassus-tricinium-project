@@ -26,12 +26,12 @@ const props = defineProps({
 });
 
 const emit = defineEmits([
-    'mounted',
     'noteSelected',
     'update:filters',
     'update:expertMode',
     'update:manualFilters',
     'scoreUpdated',
+    'scoreIsReady',
 ]);
 
 const expertModeRef = ref(props.expertMode);
@@ -70,12 +70,11 @@ watch(manualFilters, () => {
 
 let callVerovioMethod = null;
 
-function verovioCanvasMounted(verovioCanvas) {
-    callVerovioMethod = verovioCanvas.callVerovioMethod;
-    emit('mounted', {
-        callVerovioMethod: verovioCanvas.callVerovioMethod,
-    });
-};
+function verovioCanvasScoreIsReady(event) {
+    callVerovioMethod = event.callVerovioMethod;
+    emit('scoreIsReady', event);
+}
+
 
 function addFilterEvent(filter) {
     addFilter(filter);
@@ -201,7 +200,7 @@ defineExpose({
                     <slot :scoreWrapper="$refs.scoreWrapper" :key="scoreKey"></slot>
                 </div>
                 <div ref="scoreContainer" class="verovio-canvas-container">
-                    <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" v-bind="verovioCanvasOptions" @mounted="verovioCanvasMounted"/>
+                    <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" v-bind="verovioCanvasOptions" @score-is-ready="verovioCanvasScoreIsReady" />
                 </div>
             </div>
         </div>

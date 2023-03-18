@@ -31,7 +31,7 @@ const humdrumScore = ref(null);
 const midiPlayer = ref(null);
 const audioDataUrl = ref(null);
 
-async function humdrumScoreMounted({ callVerovioMethod }) {
+async function humdrumScoreIsReady({ callVerovioMethod }) {
     const midiBase64 = await callVerovioMethod('renderToMIDI', {
         midiTempoAdjustment: 4,
     });
@@ -241,7 +241,7 @@ function onScoreUpdated() {
                                 ref="humdrumScore"
                                 :url="tricinium.localRawFile"
                                 :iiif-manifest-url="tricinium.iiifManifestUrl"
-                                @mounted="humdrumScoreMounted"
+                                @score-is-ready="humdrumScoreIsReady"
                                 @update:filters="triciniumScoreFilters = $event"
                                 :verovio-options="triciniumVerovioOptions"
                                 :initial-filters="triciniumScoreFilters"

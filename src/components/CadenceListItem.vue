@@ -98,7 +98,7 @@ watch(showLyrics, (value) => {
 
 const audioDataUrl = ref(null);
 
-async function verovioCanvasMounted({ callVerovioMethod }) {
+async function verovioCanvasIsReady({ callVerovioMethod }) {
     const midiBase64 = await callVerovioMethod('renderToMIDI', {
         // midiTempoAdjustment: 4,
     });
@@ -127,7 +127,7 @@ async function verovioCanvasMounted({ callVerovioMethod }) {
             </div>
         </template>
         <div class="flex flex-col gap-4 mt-4">
-            <VerovioCanvas v-if="data" :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy :options="{mnumInterval: 1}" @mounted="verovioCanvasMounted" />
+            <VerovioCanvas v-if="data" :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy unload :lazy-delay="100" :options="{mnumInterval: 1}" @score-is-ready="verovioCanvasIsReady" />
             <MidiPlayer ref="midiPlayer" :url="audioDataUrl" />
             <DataTable v-if="!hideInfo" :items="tableItems" :headers="tableHeaders" direction="column" small />
         </div>
