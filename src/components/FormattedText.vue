@@ -24,4 +24,9 @@
 :slotted(:deep(ul)) li {
     @apply my-1;
 }
+
+:slotted(:deep(kbd)) {
+    @apply inline-block text-[.85em] px-[.35em] py-[.15em] font-mono leading-3 bg-gray-100 rounded border border-gray-200;
+    box-shadow: inset 0 -1px 0 var(--color-neutral-muted);
+}
 </style>
