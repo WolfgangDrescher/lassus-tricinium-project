@@ -117,10 +117,10 @@ async function handleNoteSingleClick(event, target) {
 
 const { openPopup, openFullResourcePopup } = useIiif(data.value, props.iiifManifestUrl);
 
-function handleNoteDoubleClick(event, target) {
+function handleNoteDoubleClick(event, target, fullResource) {
     target = target || event.target;
     const elem = target.closest('g.note, g.rest, g.mRest');
-    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
+    if (fullResource || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
         openFullResourcePopup(elem, event.metaKey)
     } else {
         openPopup(elem, event.metaKey);
@@ -130,22 +130,26 @@ function handleNoteDoubleClick(event, target) {
 let clickCount = 0;
 let clickTimeout;
 
+function isTouchDevice() {
+    return (('ontouchstart' in window) ||
+        (navigator.maxTouchPoints > 0) ||
+        (navigator.msMaxTouchPoints > 0));
+}
+
 function onClickVerovioCanvas(event, target) {
     clickCount++;
     clearTimeout(clickTimeout);
 
-    if (clickCount >= 2) {
-        handleNoteDoubleClick(event, target);
-        clickCount = 0;
-        return;
-    } 
-
     setTimeout(() => {
         if (clickCount === 1) {
             handleNoteSingleClick(event, target);
+        } else if (isTouchDevice() && clickCount === 3) {
+            handleNoteDoubleClick(event, target, true);
+        } else if (clickCount >= 2) {
+            handleNoteDoubleClick(event, target);
         }
         clickCount = 0;
-    }, 200);
+    }, isTouchDevice() ? 750 : 400);
 }
 
 function onTouchVerovioCanvas(event, target) {
