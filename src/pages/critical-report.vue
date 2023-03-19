@@ -237,6 +237,23 @@ defineI18nRoute({
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '38-dixi-custodiam' } })">
+                                    38. Dixi custodiam
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 14: Im Cantus wurde <code>mich</code> belassen, obwohl im den beiden anderen
+                                    Stimmen <code>nicht</code> steht.
+                                </li>
+                                <li>
+                                    Takt 20: Im Cantus wurde <code>lassen</code> belassen, obwohl im den beiden anderen
+                                    Stimmen <code>habe</code> steht.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </FormattedText>
             </section>
