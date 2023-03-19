@@ -131,7 +131,7 @@ let clickCount = 0;
 let clickTimeout;
 
 function isTouchDevice() {
-    return (('ontouchstart' in window) ||
+    return typeof window !== 'undefined' && (('ontouchstart' in window) ||
         (navigator.maxTouchPoints > 0) ||
         (navigator.msMaxTouchPoints > 0));
 }
@@ -279,7 +279,10 @@ defineExpose({
             </div>
         </div>
         <FormattedText>
-            <i18n-t keypath="noteClickHint" tag="div" class="text-xs text-gray-500">
+            <i18n-t v-if="isTouchDevice()" keypath="noteClickHintTouchDevice">
+
+            </i18n-t>
+            <i18n-t v-else keypath="noteClickHint" tag="div" class="text-xs text-gray-500">
                 <template v-slot:cmd>
                     <kbd>cmd</kbd>
                 </template>

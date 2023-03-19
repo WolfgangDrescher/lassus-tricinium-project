@@ -161,3 +161,6 @@ noteClickHint: >-
     Doppelklick auf eine Note um das Faksimile der Stelle anzusehen.
     {alt} + Doppelklick um das Faksimile der kompletten Seite anzusehen.
     {cmd} + Doppelklick um das Faksimile in einem neuen Tab zu öffnen.
+noteClickHintTouchDevice: >- 
+    Doppelklick auf eine Note um das Faksimile der Stelle anzusehen.
+    Tripleklick um das Faksimile der kompletten Seite anzusehen.
