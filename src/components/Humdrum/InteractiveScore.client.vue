@@ -121,9 +121,9 @@ function handleNoteDoubleClick(event, target) {
     target = target || event.target;
     const elem = target.closest('g.note, g.rest, g.mRest');
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
-        openFullResourcePopup(elem)
+        openFullResourcePopup(elem, event.metaKey)
     } else {
-        openPopup(elem);
+        openPopup(elem, event.metaKey);
     }
 }
 

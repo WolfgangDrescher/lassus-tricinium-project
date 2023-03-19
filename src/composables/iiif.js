@@ -94,7 +94,7 @@ export function useIiif(scoreData, iiifManifestUrl) {
         return await getResourceUrl(getCanvasIndexByXywhLabel(label));
     }
 
-    async function openPopup(elem) {
+    async function openPopup(elem, newTab) {
         if (!elem) return;
         const { xywh } = getXywhPartsForElement(elem);
         if (!xywh) return;
@@ -121,14 +121,14 @@ export function useIiif(scoreData, iiifManifestUrl) {
         }
         const top = screenHeight - height;
         const left = (screenWidth - width) / 2;
-        window.open(imageUrl, '_blank', `popup,width=${width},height=${height},top=${top},left=${left}`);
+        window.open(imageUrl, '_blank', newTab ? undefined : `popup,width=${width},height=${height},top=${top},left=${left}`);
     }
 
-    async function openFullResourcePopup(elem) {
+    async function openFullResourcePopup(elem, newTab) {
         if (!elem) return;
         const resourceUrl = await getResourceUrlForElement(elem);
         if (!resourceUrl) return;
-        window.open(resourceUrl, '_blank', 'popup');
+        window.open(resourceUrl, '_blank', newTab ? undefined : 'popup');
     }
 
     return {
