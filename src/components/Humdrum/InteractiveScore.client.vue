@@ -98,13 +98,14 @@ function onUpdateExpertMode(value) {
     emit('update:expertMode', value);
 }
 
-async function handleNoteSingleClick(event) {
-    const noteElem = event.target.closest('g.note');
+async function handleNoteSingleClick(event, target) {
+    target = target || event.target;
+    const noteElem = target.closest('g.note');
     if (noteElem && callVerovioMethod) {
         emit('noteSelected', noteElem.id, await callVerovioMethod('getMIDIValuesForElement', noteElem.id));
         return;
     }
-    const measureElem = event.target.closest('g.measure');
+    const measureElem = target.closest('g.measure');
     if (measureElem) {
         const noteEl = measureElem.querySelector('g.note');
         if (noteEl && callVerovioMethod) {
@@ -116,40 +117,40 @@ async function handleNoteSingleClick(event) {
 
 const { openPopup, openFullResourcePopup } = useIiif(data.value, props.iiifManifestUrl);
 
-function handleNoteDoubleClick(event) {
-    const target = event.target.closest('g.note, g.rest, g.mRest');
+function handleNoteDoubleClick(event, target) {
+    target = target || event.target;
+    const elem = target.closest('g.note, g.rest, g.mRest');
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
-        openFullResourcePopup(target)
+        openFullResourcePopup(elem)
     } else {
-        openPopup(target);
+        openPopup(elem);
     }
 }
 
 let clickCount = 0;
 let clickTimeout;
 
-function onClickVerovioCanvas(event) {
+function onClickVerovioCanvas(event, target) {
     clickCount++;
     clearTimeout(clickTimeout);
-    console.log(clickCount, event);
 
     if (clickCount >= 2) {
-        handleNoteDoubleClick(event);
+        handleNoteDoubleClick(event, target);
         clickCount = 0;
         return;
     } 
 
     setTimeout(() => {
         if (clickCount === 1) {
-            handleNoteSingleClick(event);
+            handleNoteSingleClick(event, target);
         }
         clickCount = 0;
     }, 200);
 }
 
-function onTouchVerovioCanvas(event) {
+function onTouchVerovioCanvas(event, target) {
     event.preventDefault();
-    onClickVerovioCanvas(event);
+    onClickVerovioCanvas(event, target);
 }
 
 const scoreWrapper = ref(null);
@@ -159,6 +160,76 @@ const scoreKey = ref(Date.now());
 function mutationObserverEvent() {
     scoreKey.value = Date.now();
     emit('scoreUpdated');
+    updateBoundingBoxes()
+}
+
+const markerContainer = ref();
+
+function updateBoundingBoxes() {
+    markerContainer.value.querySelectorAll('.note-bounding-box').forEach((elem) => elem.remove());
+    scoreContainer.value.querySelectorAll('g.note, g.rest, g.mRest').forEach((elem) => {
+        const noteheadRect = elem.querySelector('.notehead')?.getBoundingClientRect();
+        const stemRect = elem.querySelector('.stem')?.getBoundingClientRect();
+        const dotsRect = elem.querySelector('.dots')?.getBoundingClientRect();
+        const accidRect = elem.querySelector('.accid use') && elem.querySelector('.accid')?.getBoundingClientRect();
+        const rect = elem.getBoundingClientRect();
+
+        let left = Infinity;
+        let right = -Infinity;
+        let top = Infinity;
+        let bottom = -Infinity;
+        
+        if (noteheadRect) {
+            left = Math.min(left, noteheadRect.left);
+            right = Math.max(right, noteheadRect.right);
+            top = Math.min(top, noteheadRect.top);
+            bottom = Math.max(bottom, noteheadRect.bottom);
+        }
+        if (stemRect) {
+            left = Math.min(left, stemRect.left);
+            right = Math.max(right, stemRect.right);
+            top = Math.min(top, stemRect.top);
+            bottom = Math.max(bottom, stemRect.bottom);
+        }
+        if (accidRect) {
+            left = Math.min(left, accidRect.left);
+            right = Math.max(right, accidRect.right);
+            top = Math.min(top, accidRect.top);
+            bottom = Math.max(bottom, accidRect.bottom);
+        }
+        if (dotsRect) {
+            left = Math.min(left, dotsRect.left);
+            right = Math.max(right, dotsRect.right);
+            top = Math.min(top, dotsRect.top);
+            bottom = Math.max(bottom, dotsRect.bottom);
+        }
+
+        left = left === Infinity ? rect.left : left;
+        right = right === -Infinity ? rect.right : right; 
+        top = top === Infinity ? rect.top : top; 
+        bottom = bottom === -Infinity ? rect.bottom : bottom; 
+
+        const sizeExtender = 20;
+        const width = right - left + sizeExtender;
+        const height = bottom - top + sizeExtender;
+
+        const parentRect = scoreContainer.value.getBoundingClientRect();
+        const div = document.createElement('div');
+        div.classList.add('note-bounding-box');
+        div.style.position = 'absolute';
+        div.style.width = `${width}px`;
+        div.style.height = `${height}px`;
+        div.style.left = `${left - parentRect.left - sizeExtender / 2}px`;
+        div.style.top = `${top - parentRect.top - sizeExtender / 2}px`;
+        div.style.cursor = 'pointer';
+        div.style.pointerEvents = 'auto';
+        div.style.zIndex = 1;
+        div.addEventListener('mouseenter', () => elem.classList.add('hover'));
+        div.addEventListener('mouseleave', () => elem.classList.remove('hover'));
+        div.addEventListener('click', (event) => onClickVerovioCanvas(event, elem));
+        div.addEventListener('touchend', (event) => onTouchVerovioCanvas(event, elem));
+        markerContainer.value.appendChild(div);
+    });
 }
 
 onMounted(() => {
@@ -166,7 +237,7 @@ onMounted(() => {
         const mutationObserver = new MutationObserver(mutationObserverEvent);
         if (scoreContainer.value) {
             mutationObserver.observe(scoreContainer.value, {
-                attributes: true,
+                // attributes: true,
                 childList: true,
                 subtree: true,
             });
@@ -195,11 +266,11 @@ defineExpose({
         </div>
         <div>
             <div class="relative" ref="scoreWrapper">
-                <div class="absolute w-full h-full top-0 left-0 pointer-events-none">
+                <div class="absolute w-full h-full top-0 left-0 pointer-events-none" ref="markerContainer">
                     <slot :scoreWrapper="$refs.scoreWrapper" :key="scoreKey"></slot>
                 </div>
                 <div ref="scoreContainer" class="verovio-canvas-container">
-                    <VerovioCanvas ref="verovioCanvas" @click="onClickVerovioCanvas" @touchend="onTouchVerovioCanvas" v-bind="verovioCanvasOptions" @score-is-ready="verovioCanvasScoreIsReady" />
+                    <VerovioCanvas ref="verovioCanvas" v-bind="verovioCanvasOptions" @score-is-ready="verovioCanvasScoreIsReady" />
                 </div>
             </div>
         </div>
@@ -220,19 +291,28 @@ defineExpose({
 .verovio-canvas-container :deep(g.note),
 .verovio-canvas-container :deep(g.rest),
 .verovio-canvas-container :deep(g.mRest) {
-    pointer-events: bounding-box;
+    pointer-events: none;
+    cursor: pointer !important;
+}
+
+.note-bounding-box {
     cursor: pointer !important;
 }
 
 .verovio-canvas-container :deep(g.note:hover),
+.verovio-canvas-container :deep(g.note.hover),
 .verovio-canvas-container :deep(g.rest:hover),
+.verovio-canvas-container :deep(g.rest.hover),
 .verovio-canvas-container :deep(g.mRest:hover),
-.verovio-canvas-container :deep(g.note:hover path) {
+.verovio-canvas-container :deep(g.mRest.hover),
+.verovio-canvas-container :deep(g.note:hover path),
+.verovio-canvas-container :deep(g.note.hover path) {
     fill: var(--color-primary-500) !important;
     stroke: var(--color-primary-500) !important;
 }
 
-.verovio-canvas-container :deep(g.note:hover .verse) {
+.verovio-canvas-container :deep(g.note:hover .verse),
+.verovio-canvas-container :deep(g.note.hover .verse) {
     fill: currentColor;
     stroke: currentColor !important;
 }
