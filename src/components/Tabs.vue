@@ -1,5 +1,5 @@
 <script setup>
-import Swiper, { Navigation } from 'swiper';
+import Swiper, { Navigation, Mousewheel } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
@@ -17,12 +17,15 @@ onMounted(() => {
         selectedTab.value = hash;
     }
     new Swiper(tabNav.value, {
-        modules: [Navigation],
+        modules: [Navigation, Mousewheel],
         spaceBetween: 16,
         slidesPerView: 'auto',
         navigation: {
             prevEl: tabNav.value.querySelector('.swiper-button-prev'),
             nextEl: tabNav.value.querySelector('.swiper-button-next'),
+        },
+        mousewheel: {
+            forceToAxis: true,
         },
     });
 });
