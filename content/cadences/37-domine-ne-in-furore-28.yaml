@@ -1,0 +1,18 @@
+degree: 4
+endBeat: 28
+endLine: 43
+filename: f48a276a-9f89-513b-9ded-4de23126486d.krn
+startBeat: 24
+startLine: 36
+triciniumId: 37-domine-ne-in-furore
+ultima: a
+voices:
+    bassus:
+        penultima: 4
+        ultima: 1
+    cantus:
+        penultima: 6
+        ultima: 5
+    tenor:
+        penultima: 2
+        ultima: 3

@@ -1,0 +1,18 @@
+degree: 1
+endBeat: 120
+endLine: 143
+filename: 454e6988-d8c9-5f4a-8e32-34c869c1ae08.krn
+startBeat: 114
+startLine: 132
+triciniumId: 38-dixi-custodiam
+ultima: g
+voices:
+    bassus:
+        penultima: 5
+        ultima: 1
+    cantus:
+        penultima: 2
+        ultima: 3
+    tenor:
+        penultima: 7
+        ultima: 1

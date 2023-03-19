@@ -7819,6 +7819,341 @@
         next: +m2
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 38
+        next: '-P8'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 44
+        next: +m2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 71
+        next: +P4
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 89
+        next: '-P4'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 94
+        next: +m2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 98
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 99
+        next: '-P5'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 120
+        next: +m2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 122
+        next: '-P4'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 130
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 134
+        next: P1
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 145
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 148
+        next: +m2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 40
+        next: +m2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 50
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 53
+        next: '-P5'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 69
+        next: P1
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 73
+        next: +m2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 81
+        next: +P8
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 85
+        next: P1
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 114
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 115
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 117
+        next: '-M3'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 120
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 121
+        next: '-P5'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 126
+        next: '-P4'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 129
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 131
+        next: +m2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 143
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 148
+        next: '-P5'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 60
+        next: r
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 67
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 71
+        next: '-M3'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 87
+        next: +m3
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 111
+        next: '-m3'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 128
+        next: +M2
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 130
+        next: +m2
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 29
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 30
+        next: '-P5'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 45
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 48
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 49
+        next: +m2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 56
+        next: '-P5'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 66
+        next: '-P5'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 87
+        next: r
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 115
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 118
+        next: '-P5'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 133
+        next: '-P4'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 172
+        next: P1
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 28
+        next: P1
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 65
+        next: P1
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 104
+        next: +P5
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 118
+        next: +m2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 138
+        next: +m2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 175
+        next: +m2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 42
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 64
+        next: P1
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 75
+        next: '-P4'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 88
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 89
+        next: +m2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 95
+        next: '-P4'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 101
+        next: +m2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 120
+        next: +m3
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 170
+        next: +m3
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 178
+        next: null
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 +M3:
     -
         lineIndex: 72
@@ -8540,6 +8875,22 @@
         next: '-P5'
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 61
+        next: +m2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 143
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
++M6:
+    -
+        lineIndex: 72
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
 +P4:
     -
         lineIndex: 65
@@ -10061,6 +10412,66 @@
         next: P1
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 73
+        next: '-m3'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 110
+        next: '-M2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 128
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 36
+        next: '-P5'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 48
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 60
+        next: '-m2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 153
+        next: '-m2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 48
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 76
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 128
+        next: '-P4'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 53
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 28
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 +P5:
     -
         lineIndex: 76
@@ -10857,6 +11268,56 @@
         next: P1
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 32
+        next: '-M3'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 41
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 53
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 106
+        next: '-P5'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 127
+        next: +M2
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 27
+        next: '-M3'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 124
+        next: P1
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 107
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 41
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 61
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 +P8:
     -
         lineIndex: 93
@@ -11153,6 +11614,11 @@
         next: '-m2'
         spine: 3
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 83
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
 +d4:
     -
         lineIndex: 161
@@ -15990,6 +16456,186 @@
         next: null
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 46
+        next: r
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 62
+        next: r
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 67
+        next: P1
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 96
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 121
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 126
+        next: '-P4'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 151
+        next: '-m3'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 156
+        next: '-P4'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 41
+        next: P1
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 77
+        next: '-m2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 89
+        next: '-m2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 102
+        next: '-m2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 107
+        next: '-m3'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 112
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 135
+        next: '-m2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 102
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 110
+        next: +M2
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 134
+        next: '-m3'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 52
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 64
+        next: P1
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 104
+        next: '-m2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 32
+        next: r
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 59
+        next: P1
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 71
+        next: '-m3'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 120
+        next: r
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 128
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 141
+        next: +m3
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 171
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 178
+        next: null
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 32
+        next: P1
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 53
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 66
+        next: P1
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 90
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 94
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 104
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 141
+        next: +M3
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 +m3:
     -
         lineIndex: 115
@@ -17946,6 +18592,86 @@
         next: '-m2'
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 23
+        next: r
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 26
+        next: r
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 124
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 32
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 90
+        next: '-m2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 81
+        next: '-m2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 93
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 143
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 78
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 84
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 97
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 122
+        next: +m3
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 124
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 129
+        next: '-P4'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 171
+        next: '-m3'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 +m6:
     -
         lineIndex: 162
@@ -18222,6 +18948,21 @@
         next: '-m3'
         spine: 3
         triciniumId: 35-dixit-iniustus
+    -
+        lineIndex: 156
+        next: '-m2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 35
+        next: '-m2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 112
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 '-M2':
     -
         lineIndex: 32
@@ -27233,6 +27974,376 @@
         next: +M2
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 56
+        next: '-m2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 60
+        next: '-m2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 81
+        next: r
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 111
+        next: P1
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 116
+        next: '-M2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 117
+        next: '-m3'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 57
+        next: +P4
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 94
+        next: '-M2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 96
+        next: '-m2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 146
+        next: '-M2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 147
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 156
+        next: '-m2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 38
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 53
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 54
+        next: '-m2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 57
+        next: +M2
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 96
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 106
+        next: '-m3'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 120
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 122
+        next: +P5
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 143
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 145
+        next: '-m2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 41
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 42
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 53
+        next: '-m3'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 78
+        next: P1
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 85
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 107
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 108
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 110
+        next: P1
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 149
+        next: r
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 156
+        next: r
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 164
+        next: r
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 171
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 42
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 44
+        next: '-m3'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 78
+        next: r
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 97
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 99
+        next: +M2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 111
+        next: P1
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 117
+        next: +M2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 133
+        next: P1
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 145
+        next: r
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 150
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 160
+        next: r
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 166
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 29
+        next: '-m3'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 37
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 39
+        next: +P5
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 45
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 46
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 59
+        next: +P5
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 73
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 74
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 82
+        next: +m3
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 86
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 87
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 100
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 106
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 107
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 110
+        next: +m6
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 128
+        next: +m3
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 133
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 145
+        next: r
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 152
+        next: r
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 159
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 160
+        next: r
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 166
+        next: '-m3'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 '-M3':
     -
         lineIndex: 77
@@ -28224,6 +29335,46 @@
         next: '-m2'
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 36
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 139
+        next: r
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 79
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 118
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 128
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 73
+        next: +P4
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 84
+        next: +M2
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 28
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
 '-P4':
     -
         lineIndex: 55
@@ -29520,6 +30671,66 @@
         next: P1
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 124
+        next: +m2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 127
+        next: +P4
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 158
+        next: null
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 46
+        next: P1
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 111
+        next: +m2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 127
+        next: '-M3'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 129
+        next: +m3
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 135
+        next: '-P5'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 76
+        next: +m3
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 96
+        next: +m3
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 '-P5':
     -
         lineIndex: 72
@@ -30771,6 +31982,71 @@
         next: +M2
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 102
+        next: r
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 107
+        next: +P4
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 38
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 54
+        next: P1
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 62
+        next: r
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 122
+        next: +m3
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 151
+        next: +P4
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 32
+        next: +m6
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 59
+        next: +M3
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 71
+        next: +M6
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 120
+        next: P1
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 141
+        next: r
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 178
+        next: null
+        spine: 1
+        triciniumId: 38-dixi-custodiam
 '-P8':
     -
         lineIndex: 166
@@ -30977,6 +32253,11 @@
         next: +M2
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 39
+        next: +P5
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
 '-m2':
     -
         lineIndex: 30
@@ -36988,6 +38269,276 @@
         next: '-M2'
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 57
+        next: '-M2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 61
+        next: +m2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 155
+        next: +m2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 34
+        next: +P4
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 61
+        next: '-P5'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 78
+        next: '-M3'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 98
+        next: P1
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 106
+        next: +m2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 136
+        next: r
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 155
+        next: '-M2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 158
+        next: null
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 41
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 56
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 81
+        next: '-M3'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 94
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 99
+        next: +m2
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 151
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 158
+        next: null
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 39
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 82
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 106
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 148
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 154
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 170
+        next: '-M2'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 30
+        next: +m2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 40
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 56
+        next: +m2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 95
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 116
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 129
+        next: P1
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 152
+        next: r
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 159
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 170
+        next: +m2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 173
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 27
+        next: +P4
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 36
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 48
+        next: +m2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 55
+        next: P1
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 80
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 85
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 93
+        next: +m2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 98
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 105
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 108
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 115
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 135
+        next: +m2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 150
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 '-m3':
     -
         lineIndex: 26
@@ -39074,6 +40625,81 @@
         next: '-M2'
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 30
+        next: P1
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 76
+        next: P1
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 118
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 153
+        next: '-m2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 110
+        next: '-P4'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 107
+        next: +m2
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 114
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 139
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 55
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 52
+        next: +P4
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 72
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 30
+        next: +m2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 167
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 172
+        next: P1
+        spine: 5
+        triciniumId: 38-dixi-custodiam
 P1:
     -
         lineIndex: 25
@@ -44045,3 +45671,238 @@ P1:
         next: '-P5'
         spine: 5
         triciniumId: 36-noli-aemulari
+    -
+        lineIndex: 20
+        next: P1
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 21
+        next: +m3
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 31
+        next: +P5
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 70
+        next: +M2
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 114
+        next: '-m2'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 137
+        next: '-M3'
+        spine: 1
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 24
+        next: +m3
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 43
+        next: '-P4'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 47
+        next: +P4
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 56
+        next: '-M2'
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 72
+        next: +M2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 88
+        next: +m2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 100
+        next: +m2
+        spine: 3
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 31
+        next: +m3
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 36
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 39
+        next: '-m2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 46
+        next: +P4
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 69
+        next: +M2
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 78
+        next: '-m2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 98
+        next: '-m2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 104
+        next: '-M2'
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 154
+        next: P1
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 155
+        next: +m6
+        spine: 5
+        triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 23
+        next: +P5
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 65
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 80
+        next: +m3
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 122
+        next: +P5
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 126
+        next: +P4
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 176
+        next: '-P5'
+        spine: 1
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 22
+        next: P1
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 23
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 29
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 63
+        next: +M2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 66
+        next: P1
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 69
+        next: +m2
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 112
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 134
+        next: '-m2'
+        spine: 3
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 24
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 34
+        next: '-m2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 57
+        next: '-M2'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 65
+        next: +m2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 70
+        next: '-m3'
+        spine: 5
+        triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 176
+        next: +M2
+        spine: 5
+        triciniumId: 38-dixi-custodiam
