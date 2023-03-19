@@ -1,5 +1,5 @@
 <script setup>
-import Swiper, { Navigation, Mousewheel } from 'swiper';
+import Swiper, { Navigation, Mousewheel, FreeMode } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
@@ -17,7 +17,7 @@ onMounted(() => {
         selectedTab.value = hash;
     }
     new Swiper(tabNav.value, {
-        modules: [Navigation, Mousewheel],
+        modules: [Navigation, Mousewheel, FreeMode],
         spaceBetween: 16,
         slidesPerView: 'auto',
         navigation: {
@@ -26,6 +26,10 @@ onMounted(() => {
         },
         mousewheel: {
             forceToAxis: true,
+        },
+        freeMode: {
+            enabled: true,
+            sticky: true,
         },
     });
 });
