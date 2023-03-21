@@ -254,6 +254,20 @@ defineI18nRoute({
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                            <Subheading>
+                                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: '39-expectans-expectavi' } })">
+                                    39. Expectans expectavi
+                                </NuxtLink>
+                            </Subheading>
+                            <ol class="flex flex-col list-none pl-0 gap-4">
+                                <li>
+                                    Takt 2: Im Cantus sollte die dritte Minima bei <code>gan-</code> die Note a sein.
+                                    Sie ist im Druck an dierser Stelle offenbar falsch gesetzt. Bei der Wiederholung in
+                                    Takt 8 bei <code>sich</code> ist an dieser Stelle ein a gesetzt.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </FormattedText>
             </section>
