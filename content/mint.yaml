@@ -9086,6 +9086,11 @@
         spine: 3
         triciniumId: 39-expectans-expectavi
     -
+        lineIndex: 29
+        next: +m2
+        spine: 5
+        triciniumId: 39-expectans-expectavi
+    -
         lineIndex: 73
         next: +m2
         spine: 5
@@ -10726,11 +10731,6 @@
         lineIndex: 208
         next: '-m3'
         spine: 3
-        triciniumId: 39-expectans-expectavi
-    -
-        lineIndex: 29
-        next: P1
-        spine: 5
         triciniumId: 39-expectans-expectavi
     -
         lineIndex: 41
@@ -17030,6 +17030,11 @@
         lineIndex: 223
         next: null
         spine: 3
+        triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 30
+        next: +M2
+        spine: 5
         triciniumId: 39-expectans-expectavi
     -
         lineIndex: 74
@@ -30187,7 +30192,7 @@
         triciniumId: 39-expectans-expectavi
     -
         lineIndex: 27
-        next: +P4
+        next: +M3
         spine: 5
         triciniumId: 39-expectans-expectavi
     -
@@ -47209,11 +47214,6 @@ P1:
     -
         lineIndex: 23
         next: '-m3'
-        spine: 5
-        triciniumId: 39-expectans-expectavi
-    -
-        lineIndex: 30
-        next: +M2
         spine: 5
         triciniumId: 39-expectans-expectavi
     -
