@@ -1,0 +1,32 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 36
+!!!OTL@@LA: Noli æmulari
+!!!OTL-incipit@@DE: Erzürne nicht über die bösen
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC1	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=32	=32	=32	=32	=32	=32
+2G	dich	4b-	dich	4f]	.
+.	.	8a	.	2e	-ne-
+.	.	8g	.	.	.
+2F	er-	4a	.	.	.
+.	.	4a	er-	2d	.
+1E	-ne-	1g	-ne-	.	.
+.	.	.	.	8c#	.
+.	.	.	.	8B	.
+.	.	.	.	2c#i	.
+=33	=33	=33	=33	=33	=33
+0Dll	ren.	0f#l	-ren.	0dl	-ren.
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental

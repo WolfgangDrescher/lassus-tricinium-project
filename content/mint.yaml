@@ -8154,6 +8154,196 @@
         next: null
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 36
+        next: +m2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 50
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 51
+        next: +m2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 54
+        next: '-P5'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 80
+        next: +m2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 94
+        next: +m2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 97
+        next: '-P5'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 200
+        next: '-P5'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 217
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 23
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 27
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 30
+        next: '-P4'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 38
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 57
+        next: +m2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 67
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 68
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 74
+        next: '-P4'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 81
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 100
+        next: +m2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 114
+        next: +m6
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 138
+        next: +m2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 143
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 161
+        next: +m2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 179
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 192
+        next: r
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 199
+        next: '-P5'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 202
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 221
+        next: +m2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 32
+        next: r
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 75
+        next: r
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 115
+        next: '-M3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 146
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 173
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 175
+        next: +M2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 176
+        next: +m2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 218
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 +M3:
     -
         lineIndex: 72
@@ -8885,6 +9075,21 @@
         next: '-M2'
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 166
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 174
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 73
+        next: +m2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 +M6:
     -
         lineIndex: 72
@@ -10472,6 +10677,81 @@
         next: '-M2'
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 27
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 71
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 103
+        next: P1
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 109
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 114
+        next: '-P5'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 153
+        next: P1
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 211
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 41
+        next: '-m3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 86
+        next: '-m3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 208
+        next: '-m3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 29
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 41
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 86
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 153
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 211
+        next: '-m2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 +P5:
     -
         lineIndex: 76
@@ -11318,6 +11598,31 @@
         next: +M2
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 129
+        next: '-P4'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 135
+        next: r
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 174
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 196
+        next: '-m3'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 62
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 +P8:
     -
         lineIndex: 93
@@ -11619,6 +11924,16 @@
         next: +M2
         spine: 3
         triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 34
+        next: '-m3'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 77
+        next: '-m3'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
 +d4:
     -
         lineIndex: 161
@@ -16636,6 +16951,101 @@
         next: +M3
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 23
+        next: '-P8'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 38
+        next: P1
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 46
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 52
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 68
+        next: '-P8'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 81
+        next: P1
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 89
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 143
+        next: r
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 199
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 59
+        next: '-P4'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 101
+        next: '-m3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 139
+        next: '-P4'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 162
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 217
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 223
+        next: null
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 74
+        next: +M2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 179
+        next: r
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 202
+        next: '-m3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 +m3:
     -
         lineIndex: 115
@@ -18672,6 +19082,81 @@
         next: '-m3'
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 166
+        next: P1
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 181
+        next: P1
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 39
+        next: +P4
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 49
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 70
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 82
+        next: +P4
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 92
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 129
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 133
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 167
+        next: '-m3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 182
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 212
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 132
+        next: '-m2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 169
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 +m6:
     -
         lineIndex: 162
@@ -18963,6 +19448,16 @@
         next: '-m2'
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 115
+        next: '-m3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 151
+        next: '-P5'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
 '-M2':
     -
         lineIndex: 32
@@ -28344,6 +28839,306 @@
         next: '-m3'
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 30
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 32
+        next: +P8
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 48
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 49
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 74
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 75
+        next: +P8
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 92
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 112
+        next: +P4
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 123
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 127
+        next: +P5
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 133
+        next: +P5
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 158
+        next: r
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 179
+        next: +m3
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 185
+        next: r
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 192
+        next: +P5
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 212
+        next: '-P4'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 218
+        next: '-P5'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 29
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 36
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 56
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 64
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 65
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 73
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 80
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 99
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 108
+        next: '-m3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 118
+        next: r
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 123
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 128
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 146
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 147
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 160
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 176
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 185
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 190
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 191
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 220
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 42
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 46
+        next: '-m2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 59
+        next: +P5
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 87
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 89
+        next: '-m2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 97
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 101
+        next: r
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 129
+        next: +m3
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 135
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 139
+        next: r
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 149
+        next: '-m3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 155
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 158
+        next: '-m2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 196
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 198
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 216
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 217
+        next: +M2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 223
+        next: null
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 '-M3':
     -
         lineIndex: 77
@@ -29375,6 +30170,46 @@
         next: +M2
         spine: 1
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 151
+        next: +P4
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 173
+        next: +M3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 206
+        next: +P4
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 27
+        next: +P4
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 71
+        next: +M3
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 114
+        next: +M2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 116
+        next: '-m2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 209
+        next: +P4
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 '-P4':
     -
         lineIndex: 55
@@ -30731,6 +31566,36 @@
         next: '-M2'
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 132
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 216
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 32
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 61
+        next: '-m3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 75
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 141
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
 '-P5':
     -
         lineIndex: 72
@@ -32047,6 +32912,56 @@
         next: null
         spine: 1
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 41
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 59
+        next: r
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 86
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 101
+        next: +P4
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 115
+        next: r
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 173
+        next: +P5
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 202
+        next: r
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 223
+        next: null
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 153
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 200
+        next: +M2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
 '-P8':
     -
         lineIndex: 166
@@ -32258,6 +33173,16 @@
         next: +P5
         spine: 1
         triciniumId: 37-domine-ne-in-furore
+    -
+        lineIndex: 26
+        next: +P4
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 70
+        next: +P4
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
 '-m2':
     -
         lineIndex: 30
@@ -38539,6 +39464,171 @@
         next: '-M2'
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 29
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 42
+        next: +m2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 47
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 67
+        next: +m2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 73
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 87
+        next: +m2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 90
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 108
+        next: +P4
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 121
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 149
+        next: '-M3'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 155
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 176
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 183
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 55
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 98
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 132
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 150
+        next: +m6
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 159
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 186
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 216
+        next: +m2
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 219
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 92
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 112
+        next: '-M3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 118
+        next: r
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 162
+        next: r
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 192
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 200
+        next: +m2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 212
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 '-m3':
     -
         lineIndex: 26
@@ -40700,6 +41790,96 @@
         next: P1
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 35
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 79
+        next: +M2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 198
+        next: +m2
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 208
+        next: P1
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 46
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 62
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 89
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 103
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 109
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 116
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 169
+        next: '-M3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 211
+        next: +m3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 26
+        next: '-M3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 39
+        next: +P4
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 70
+        next: '-M3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 82
+        next: +P4
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 151
+        next: +P4
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 205
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
 P1:
     -
         lineIndex: 25
@@ -45906,3 +47086,193 @@ P1:
         next: +M2
         spine: 5
         triciniumId: 38-dixi-custodiam
+    -
+        lineIndex: 40
+        next: '-P5'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 83
+        next: '-P5'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 106
+        next: P1
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 107
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 154
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 169
+        next: P1
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 170
+        next: '-P5'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 182
+        next: '-m2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 189
+        next: '-M2'
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 209
+        next: +P4
+        spine: 1
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 34
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 35
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 77
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 106
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 107
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 155
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 156
+        next: '-m2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 164
+        next: +M3
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 183
+        next: '-M2'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 204
+        next: P1
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 205
+        next: '-M3'
+        spine: 3
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 22
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 23
+        next: '-m3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 30
+        next: +M2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 38
+        next: '-m3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 67
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 68
+        next: '-m3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 81
+        next: '-m3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 108
+        next: P1
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 109
+        next: '-m2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 138
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 147
+        next: '-M2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 170
+        next: +M2
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 189
+        next: '-m2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 199
+        next: '-m2'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi
+    -
+        lineIndex: 208
+        next: '-M3'
+        spine: 5
+        triciniumId: 39-exspectans-exspectavi

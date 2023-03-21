@@ -1,0 +1,18 @@
+degree: 5
+endBeat: 124
+endLine: 141
+filename: 5ad94207-27e0-510d-b8c2-59158a89158e.krn
+startBeat: 118
+startLine: 132
+triciniumId: 39-exspectans-exspectavi
+ultima: c
+voices:
+    bassus:
+        penultima: 5
+        ultima: 0
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1
