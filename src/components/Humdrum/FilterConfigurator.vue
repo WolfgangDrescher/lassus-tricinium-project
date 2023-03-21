@@ -24,6 +24,7 @@ const props = defineProps({
 // CustomFilter
 // FiguredbassFilter
 // ScaleDegreeFilter
+// HideSpineDataFilter
 
 const emit = defineEmits(['applyFilter']);
 
@@ -401,6 +402,22 @@ const DynamicHumdrumFilter = defineComponent({
                             modelValue: args.color,
                             ['onUpdate:modelValue']: value => { args.color = value; },
                             label: t('color'),
+                        }),
+                    ];
+                    break;
+                case 'HideSpineDataFilter':
+                    elems = [
+                        h(Dropdown, {
+                            modelValue: args.value,
+                            ['onUpdate:modelValue']: value => { args.value = value; },
+                            label: t('voice'),
+                            options: [
+                                { value: '1', text: t('voice.bassus') },
+                                { value: '3', text: t('voice.tenor') },
+                                { value: '5', text: t('voice.cantus') },
+                            ],
+                            multiple: false,
+                            searchEnabled: false,
                         }),
                     ];
                     break;

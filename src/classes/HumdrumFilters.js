@@ -513,3 +513,15 @@ export class BassScaleDegreeFilter extends FiguredbassFilter {
         return 'deg --circle -k 1';
     }
 }
+
+export class HideSpineDataFilter extends HumdrumFilter {
+    static NAME = 'HideSpineDataFilter';
+    configurable = true;
+    changeable = false;
+
+    constructor(value) {
+        super();
+        this.value = value;
+        this.addLine(`shed -s ${parseInt(value, 10)} -e "s/(.+)/$1yy/D s/.+//L"`);
+    }
+}

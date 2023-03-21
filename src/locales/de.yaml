@@ -93,6 +93,7 @@ humdrumFilter.FiguredbassPresetFilter: Einfachen Generalbass anzeigen
 humdrumFilter.IntervallsatzPresetFilter: Intervallsatz anzeigen
 humdrumFilter.ScaleDegreeFilter: Skalenstufen anzeigen
 humdrumFilter.BassScaleDegreeFilter: Bassstufen anzeigen
+humdrumFilter.HideSpineDataFilter: Stimme ausblenden («Lückentext»)
 measuresToYank: 'Zu filternde Takte (-m)'
 extractionOfParticularSpines: 'Stimmen extrahieren'
 regularExpression: Regulärer Ausdruck
@@ -164,3 +165,4 @@ noteClickHint: >-
 noteClickHintTouchDevice: >- 
     Doppelklick auf eine Note um das Faksimile der Stelle anzusehen.
     Tripleklick um das Faksimile der kompletten Seite anzusehen.
+voice: Stimme

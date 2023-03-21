@@ -26,6 +26,7 @@ import {
     IntervallsatzPresetFilter,
     ScaleDegreeFilter,
     BassScaleDegreeFilter,
+    HideSpineDataFilter,
 } from '../../classes/HumdrumFilters.js';
 
 defineProps({
@@ -77,6 +78,7 @@ const allFilters = [
     TransposeFilter,
     CustomFilter,
     HideBarlinesFilter,
+    HideSpineDataFilter,
 ];
 
 const filterOptions = allFilters.map(filter => {
