@@ -2,7 +2,7 @@
 !!!CDT: 1532-1594/06/14
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
 !!!ONM: 39
-!!!OTL@@LA: Exspectans exspectavi
+!!!OTL@@LA: Expectans expectavi
 !!!OTL-incipit@@DE: Ich harr auff Gott mit gantzer gir
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
@@ -14,19 +14,14 @@
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-4B-	kom-	2dd	-ren	2b-	o-
-8A	.	.	.	.	.
-8G	.	.	.	.	.
-8F	.	2.ff	kom-	2a	-ren
-8G	.	.	.	.	.
-8A	.	.	.	.	.
-8B-	.	.	.	.	.
-=11	=11	=11	=11	=11	=11
-1c	.	.	.	1g	kom-
-.	.	8ee	.	.	.
-.	.	8dd	.	.	.
-.	.	2ee	.	.	.
-2F	-men/	2ff	-men/	[2f	-men/
+=2	=2	=2	=2	=2	=2
+2F	Gott	2cc	Gott	2a	Gott
+2B-	mit	2dd	mit	2f	mit
+!	!	!	!	!LO:SIC:s=2a:v	!
+2A	gan-	2cc	gan-	2b-	gan-
+2G	-tzer	2dd	-tzer	2b-	-tzer
+=3	=3	=3	=3	=3	=3
+2F	gir/	2a	gir/	[2cc	gir/
 *-	*-	*-	*-	*-	*-
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental
