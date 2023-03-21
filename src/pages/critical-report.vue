@@ -264,7 +264,9 @@ defineI18nRoute({
                                 <li>
                                     Takt 2: Im Cantus sollte die dritte Minima bei <code>gan-</code> die Note a sein.
                                     Sie ist im Druck an dierser Stelle offenbar falsch gesetzt. Bei der Wiederholung in
-                                    Takt 8 bei <code>sich</code> ist an dieser Stelle ein a gesetzt.
+                                    Takt 8 bei <code>sich</code> ist an dieser Stelle ein a gesetzt. Die Stelle wurde in
+                                    der Partitur mit <code>!LO:SIC:o</code> markiert und ist in Verovio mit einem grünen
+                                    <code>S</code> erkenntlich.
                                 </li>
                             </ol>
                         </div>
