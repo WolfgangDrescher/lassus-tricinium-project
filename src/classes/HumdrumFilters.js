@@ -522,6 +522,6 @@ export class HideSpineDataFilter extends HumdrumFilter {
     constructor(value) {
         super();
         this.value = value;
-        this.addLine(`shed -s ${parseInt(value, 10)} -e "s/(.+)/$1yy/D s/.+//L"`);
+        this.addLine(`shed -s ${parseInt(value, 10)} -e "s/(.+)/$1yy/D s/.+//L s/X?lig//I"`);
     }
 }
