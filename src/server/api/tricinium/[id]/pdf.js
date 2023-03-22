@@ -11,7 +11,13 @@ function verovioUnitToPoints(mm)  {
 
 export default defineEventHandler(async (event) => {
     const { id } = event.context.params;
-    const { orientation, prefix } = getQuery(event);
+    const {
+        orientation,
+        prefix,
+        scale: scaleParam,
+        verovioSpacingSystem,
+        verovioSpacingStaff,
+    } = getQuery(event);
     const tricinium = useTricinium(await $fetch(`/api/tricinium/${id}`));
 
     const response = await $fetch(`http://localhost:3000${tricinium.localRawFile}`);
@@ -25,7 +31,7 @@ export default defineEventHandler(async (event) => {
     const verovioWithExtender = orientation === 'landscape' ? 82 : 55;
     const verovioPageWidth = pageWidth - margin * 2;
     const verovioPageHeight = pageHeight - margin * 2;
-    const scale = 88;
+    const scale = scaleParam ? Math.min(150, Math.max(50, parseInt(scaleParam, 10))) : 88 || 88;
 
     toolkit.setOptions({
         adjustPageHeight: false,
@@ -40,7 +46,8 @@ export default defineEventHandler(async (event) => {
         scale,
         header: 'auto',
         footer: 'none',
-        spacingSystem: 24,
+        spacingSystem: verovioSpacingSystem || 24,
+        spacingStaff: verovioSpacingStaff || 12,
         svgCss: '.pgHead { fill: transparent; }',
     });
     console.log(prefix);
