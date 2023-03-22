@@ -1,5 +1,5 @@
 <script setup>
-defineProps(['label', 'modelValue']);
+defineProps(['label', 'modelValue', 'groupLabel']);
 const emit = defineEmits(['update:modelValue']);
 
 function onChange(event) {
@@ -8,7 +8,7 @@ function onChange(event) {
 </script>
 
 <template>
-    <FormGroup>
+    <FormGroup :label="groupLabel">
         <div class="flex">
             <label class="relative inline-flex items-center cursor-pointer slef-center">
                 <input type="checkbox" @input="onChange" :checked="modelValue" class="sr-only peer">
