@@ -80,12 +80,10 @@ export default defineEventHandler(async (event) => {
         doc.text('Lassus Tricinium Project\nhttps://lassus.mh-freiburg.de', verovioUnitToPoints(margin), verovioUnitToPoints(pageHeight) - 40, {
             width: verovioUnitToPoints(verovioPageWidth),
             align: 'left',
-            // indent: 0,
         });
         doc.text('Prof. Wolfgang Drescher\nw.drescher@mh-freiburg.de', verovioUnitToPoints(margin), verovioUnitToPoints(pageHeight) - 40, {
             width: verovioUnitToPoints(verovioPageWidth),
             align: 'right',
-            // indent: 0,
         });
         if (i === 0) {
             doc.fontSize(24).fillColor('black');
