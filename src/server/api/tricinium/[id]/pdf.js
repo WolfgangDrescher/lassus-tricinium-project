@@ -81,6 +81,10 @@ export default defineEventHandler(async (event) => {
             width: verovioUnitToPoints(verovioPageWidth),
             align: 'left',
         });
+        doc.text(`${tricinium.nr}. ${tricinium.title}\nSeite ${i +1}`, verovioUnitToPoints(margin), verovioUnitToPoints(pageHeight) - 40, {
+            width: verovioUnitToPoints(verovioPageWidth),
+            align: 'center',
+        });
         doc.text('Prof. Wolfgang Drescher\nw.drescher@mh-freiburg.de', verovioUnitToPoints(margin), verovioUnitToPoints(pageHeight) - 40, {
             width: verovioUnitToPoints(verovioPageWidth),
             align: 'right',
