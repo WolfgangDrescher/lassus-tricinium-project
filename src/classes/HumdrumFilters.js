@@ -332,7 +332,7 @@ export class HideCantusFirmusAnnotationFilter extends ShedFilter {
     static NAME = 'HideCantusFirmusAnnotationFilter';
     configurable = false;
     constructor() {
-        super("-e 's/LO:TX:(.*)t=c.f.//L'");
+        super("-e 's/LO:TX:(.*)t=c.f.//L s/LO:TX:(.*)t=\\(c.f.\\)//L'");
     }
 }
 
