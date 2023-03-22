@@ -166,3 +166,11 @@ noteClickHintTouchDevice: >-
     Doppelklick auf eine Note um das Faksimile der Stelle anzusehen.
     Tripleklick um das Faksimile der kompletten Seite anzusehen.
 voice: Stimme
+downloadPdf: PDF Download
+verovioSpacingStaff: Abstand zwischen den Stimmen
+verovioSpacingSystem: Abstand zwischen den Systemen
+scoreScale: Größe
+applyFilters: Angewendete Filter beibehalten
+filters: Filter
+orientation: Ausrichtung
+pdf: PDF

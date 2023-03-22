@@ -73,6 +73,10 @@ const tabItems = [
         value: 'kern',
         text: t('kern'),
     },
+    {
+        value: 'pdf',
+        text: t('pdf'),
+    },
 ];
 
 const triciniumVerovioOptions = {
@@ -196,6 +200,26 @@ function hightlightNote(id) {
 
 function onScoreUpdated() {
     hightlightHashNote();
+}
+
+const downloadConfig = reactive({
+    orientation: 'portrait',
+    applyFilters: true,
+    scale: 88,
+    verovioSpacingSystem: 24,
+    verovioSpacingStaff: 12,
+});
+
+async function downloadPDF() {
+    const url = new URL(`${location.protocol}//${location.host}/api/tricinium/${tricinium.id}/pdf`);
+    url.searchParams.set('orientation', downloadConfig.orientation);
+    url.searchParams.set('scale', downloadConfig.scale);
+    url.searchParams.set('verovioSpacingSystem', downloadConfig.verovioSpacingSystem);
+    url.searchParams.set('verovioSpacingStaff', downloadConfig.verovioSpacingStaff);
+    if (downloadConfig.applyFilters) {
+        url.searchParams.set('prefix', triciniumScoreManualFilters.value || triciniumScoreFilters.value.map(f => f.toString()).join('\n'));
+    }
+    window.open(url, '_blank');
 }
 </script>
 
@@ -389,6 +413,28 @@ function onScoreUpdated() {
                         </div>
                     </template>
 
+                    <template #[`tabItem.pdf`]>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <FormInputField type="number" v-model.number="downloadConfig.scale" :label="$t('scoreScale')" />
+                            </div>
+                            <div>
+                                <FormInputField type="number" v-model.number="downloadConfig.verovioSpacingSystem" :label="$t('verovioSpacingSystem')" />
+                            </div>
+                            <div>
+                                <FormInputField type="number" v-model.number="downloadConfig.verovioSpacingStaff" :label="$t('verovioSpacingStaff')" />
+                            </div>
+                            <div>
+                                <FormDropdown v-model="downloadConfig.orientation" :options="[{value: 'portrait', text: $t('portrait')}, {value: 'landscape', text: $t('landscape')}]" :multiple="false" :search-enabled="false" :label="$t('orientation')" />
+                            </div>
+                            <div>
+                                <FormCheckbox v-model="downloadConfig.applyFilters" :label="$t('applyFilters')" :group-label="$t('filters')" />
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <Button @click="downloadPDF">{{ $t('downloadPdf') }}</Button>
+                        </div>
+                    </template>
                 </Tabs>
             </template>
         </SplitView>
