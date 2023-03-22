@@ -425,7 +425,7 @@ async function downloadPDF() {
                                 <FormInputField type="number" v-model.number="downloadConfig.verovioSpacingStaff" :label="$t('verovioSpacingStaff')" />
                             </div>
                             <div>
-                                <FormDropdown v-model="downloadConfig.orientation" :options="[{value: 'portrait', text: $t('portrait')}, {value: 'landscape', text: $t('landscape')}]" :multiple="false" :search-enabled="false" :label="$t('orientation')" />
+                                <FormDropdown v-model="downloadConfig.orientation" :options="[{value: 'portrait', text: $t('orientation.portrait')}, {value: 'landscape', text: $t('orientation.landscape')}]" :multiple="false" :search-enabled="false" :label="$t('orientation')" />
                             </div>
                             <div>
                                 <FormCheckbox v-model="downloadConfig.applyFilters" :label="$t('applyFilters')" :group-label="$t('filters')" />
