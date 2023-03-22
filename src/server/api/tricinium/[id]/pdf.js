@@ -74,7 +74,7 @@ export default defineEventHandler(async (event) => {
     
     for (let i = 0; i < toolkit.getPageCount(); i++) {
         doc.addPage();
-        doc.rect(verovioUnitToPoints(margin), verovioUnitToPoints(margin), verovioUnitToPoints(verovioPageWidth), verovioUnitToPoints(verovioPageHeight)).fill('lightblue');
+        // doc.rect(verovioUnitToPoints(margin), verovioUnitToPoints(margin), verovioUnitToPoints(verovioPageWidth), verovioUnitToPoints(verovioPageHeight)).fill('lightblue');
         SVGtoPDF(doc, toolkit.renderToSVG(i + 1, {}), verovioUnitToPoints(margin), verovioUnitToPoints(margin), pageOptions);
         doc.font('Helvetica').fontSize(9).fillColor('black');
         doc.text('Lassus Tricinium Project\nhttps://lassus.mh-freiburg.de', verovioUnitToPoints(margin), verovioUnitToPoints(pageHeight) - 40, {
