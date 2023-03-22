@@ -50,7 +50,6 @@ export default defineEventHandler(async (event) => {
         spacingStaff: verovioSpacingStaff || 12,
         svgCss: '.pgHead { fill: transparent; }',
     });
-    console.log(prefix);
     toolkit.loadData(`${prefix}\n${scoreData}`);
     
     const pageOptions = {
