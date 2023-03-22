@@ -208,7 +208,7 @@ export class MeasureFilter extends HumdrumFilter {
             throw new Error(`Cannot set "${value}" as value for ${this.className}`);
         }
         this.value = value;
-        this.addLine(`myank -m ${value} -d`);
+        this.addLine(`myank -m ${value} -d -I`);
     }
 
     validateValue(value) {
