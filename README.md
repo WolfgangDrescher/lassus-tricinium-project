@@ -28,10 +28,10 @@ npm run dev
 ## Deployment on VM
 
 ```sh
-# docker image pull ghcr.io/wolfgangdrescher/lassus-tricinium-project:latest
+docker image pull ghcr.io/wolfgangdrescher/lassus-tricinium-project:latest
 # docker build -t lassus-tricinium-project .
 docker stop lassus-tricinium-project
 docker rm lassus-tricinium-project
-docker run --name lassus-tricinium-project -d --restart always -p 80:3000 lassus-tricinium-project
+docker run --name lassus-tricinium-project -d --restart always -p 80:3000 ghcr.io/wolfgangdrescher/lassus-tricinium-project
 docker image prune --force
 ```
