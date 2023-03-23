@@ -142,7 +142,7 @@ function updateSplitViewWidth(value) {
     splitViewWidth.value = value;
 }
 
-const { showModernClefs, showCadencesInScore } = storeToRefs(useCadenceHumdrumFiltersStore());
+const { showModernClefs, showIntervallsatz, showCadencesInScore, showScaleDegrees } = storeToRefs(useCadenceHumdrumFiltersStore());
 
 function toggleSidebar() {
     if (showSidebar.value == true && showScore.value == false) return;
@@ -383,6 +383,8 @@ async function downloadPDF() {
                         <div class="grid md:grid-cols-2 gap-2 mb-2">
                             <FormCheckbox v-model="showModernClefs" :label="$t('showModernClefs')" />
                             <FormCheckbox v-model="showCadencesInScore" :label="$t('showCadencesInScore')" />
+                            <FormCheckbox v-model="showScaleDegrees" :label="$t('showScaleDegrees')" />
+                            <FormCheckbox v-model="showIntervallsatz" :label="$t('showIntervallsatz')" />
                         </div>
                         <div class="@container">
                             <div class="grid grid-cols-1 @md:grid-cols-2 @2xl:grid-cols-3 gap-4 mt-4">

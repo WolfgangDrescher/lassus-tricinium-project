@@ -176,3 +176,4 @@ orientation: Ausrichtung
 orientation.portrait: Hochformat
 orientation.landscape: Querformat
 pdf: PDF
+showScaleDegrees: Skalenstufen anzeigen
