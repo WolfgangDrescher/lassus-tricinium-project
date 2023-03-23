@@ -51,6 +51,10 @@ class Cadence {
     get endBeat() {
         return this.cadence.endBeat;
     }
+
+    get slices() {
+        return this.cadence.slices;
+    }
 }
 
 export function useCadence(elements, tricinia) {
