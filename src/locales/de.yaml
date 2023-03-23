@@ -177,3 +177,13 @@ orientation.portrait: Hochformat
 orientation.landscape: Querformat
 pdf: PDF
 showScaleDegrees: Skalenstufen anzeigen
+frequentCadences: Häufige Kadenzen
+nCadencesTypesFound: '{n} unterschiedliche Kadenztypen gefunden'
+ignoreAccidentals: Vorzeichen nicht beachten
+ignoreUltima: Ultima nicht beachten
+ignoreUnaccentedBeats: Unbetonte Schläge nicht beachten
+ignoreFbInterval: Generalbassziffern nicht beachten
+ignoreFbIntervalOrder: Reihenfolge der Stimmen für Generalbassziffern nicht beachten
+ignoreScaleDegree: Skalenstufen nicht beachten
+ignoreScaleDegreeOrder: Reihenfolge der Stimmen für Skalenstufen nicht beachten
+voices: Stimmen
