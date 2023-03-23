@@ -2,6 +2,84 @@ degree: 1
 endBeat: 28
 endLine: 45
 filename: 3aa996ba-5d7f-5432-8370-1881e580fe05.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 0
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: r
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 2
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: r
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 3
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: r
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: .
+            scaleDegree: r
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 6
+        cantus:
+            fbInterval: .
+            scaleDegree: 7+
+        tenor:
+            fbInterval: .
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 7
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: r
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
 startBeat: 22
 startLine: 35
 triciniumId: 14-domine-quis-habitabit

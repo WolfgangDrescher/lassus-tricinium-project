@@ -2,6 +2,62 @@ degree: 3
 endBeat: 208
 endLine: 222
 filename: 201438f0-a260-5914-8b6e-72bf92e765a9.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 0
+        cantus:
+            fbInterval: '7'
+            scaleDegree: _2
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 2
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 4
+        cantus:
+            fbInterval: '7'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '-3'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 6
+        cantus:
+            fbInterval: '6'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '-3'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
 startBeat: 202
 startLine: 214
 triciniumId: 18-caeli-enarrant

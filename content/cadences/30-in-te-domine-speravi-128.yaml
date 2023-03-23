@@ -2,6 +2,51 @@ degree: 4
 endBeat: 128
 endLine: 167
 filename: 023bb34f-7ddd-56ea-912c-a5d6fda71026.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 0
+        cantus:
+            fbInterval: '-6'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: ~5
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 2
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#~6'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 3
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#~5'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 4
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: ~3
+            scaleDegree: '1'
 startBeat: 126
 startLine: 159
 triciniumId: 30-in-te-domine-speravi

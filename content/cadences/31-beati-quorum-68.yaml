@@ -2,6 +2,62 @@ degree: 5
 endBeat: 68
 endLine: 73
 filename: 8408168b-a374-53d3-b7fc-f3f350e4a907.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '6'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 2-
+        beat: 4
+        cantus:
+            fbInterval: '7'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 2-
+        beat: 6
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '7'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: ~3
+            scaleDegree: '4'
 startBeat: 62
 startLine: 66
 triciniumId: 31-beati-quorum

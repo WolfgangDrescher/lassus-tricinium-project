@@ -2,6 +2,95 @@ degree: 1
 endBeat: 80
 endLine: 100
 filename: 61c9cb6a-da3b-508f-8ebc-afdb4bf4704d.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '7'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '2'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '3'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 3
+        cantus:
+            fbInterval: '2'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '3'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 4
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '3'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 5
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '4'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '3'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 8
+        cantus:
+            fbInterval: '#3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 10
+        cantus:
+            fbInterval: .
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
 startBeat: 72
 startLine: 88
 triciniumId: 10-in-domino-confido

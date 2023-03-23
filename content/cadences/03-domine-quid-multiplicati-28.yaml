@@ -2,6 +2,40 @@ degree: 5
 endBeat: 28
 endLine: 43
 filename: eb453499-9911-5a91-8137-aded12876480.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 0
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '6'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 2
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 4
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
 startBeat: 26
 startLine: 39
 triciniumId: 03-domine-quid-multiplicati

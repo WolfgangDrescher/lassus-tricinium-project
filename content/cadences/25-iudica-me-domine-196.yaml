@@ -2,6 +2,62 @@ degree: 5
 endBeat: 196
 endLine: 211
 filename: 1d46dbc3-e666-5735-856e-20f7f8ad3d77.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '7'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '4'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
 startBeat: 190
 startLine: 204
 triciniumId: 25-iudica-me-domine

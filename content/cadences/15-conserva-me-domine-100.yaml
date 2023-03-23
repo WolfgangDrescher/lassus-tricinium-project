@@ -2,6 +2,95 @@ degree: 3
 endBeat: 100
 endLine: 110
 filename: e17f4f90-bb15-5d8a-bb30-21f218fe7382.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 2
+        cantus:
+            fbInterval: '5'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '-3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 3
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '-3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '-4'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 5
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 5.5
+        cantus:
+            fbInterval: '2'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
 startBeat: 94
 startLine: 101
 triciniumId: 15-conserva-me-domine

@@ -2,6 +2,95 @@ degree: 5
 endBeat: 60
 endLine: 82
 filename: 9ab2cf20-e08f-51d5-b315-b2ff811163c9.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 3
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '4'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 5
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 5.5
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#2'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
 startBeat: 54
 startLine: 71
 triciniumId: 24-ad-te-domine-levavi-animam

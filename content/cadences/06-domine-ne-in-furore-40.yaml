@@ -2,6 +2,73 @@ degree: 1
 endBeat: 40
 endLine: 57
 filename: 8810a420-e99d-5719-b351-864a9f77c0ac.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 0
+        cantus:
+            fbInterval: .
+            scaleDegree: '3'
+        tenor:
+            fbInterval: .
+            scaleDegree: _6
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 1
+        cantus:
+            fbInterval: .
+            scaleDegree: '3'
+        tenor:
+            fbInterval: .
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 2
+        cantus:
+            fbInterval: .
+            scaleDegree: '3'
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 4
+        cantus:
+            fbInterval: .
+            scaleDegree: 2-
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 6
+        cantus:
+            fbInterval: .
+            scaleDegree: 2-
+        tenor:
+            fbInterval: .
+            scaleDegree: '7'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: '3'
 startBeat: 33
 startLine: 48
 triciniumId: 06-domine-ne-in-furore

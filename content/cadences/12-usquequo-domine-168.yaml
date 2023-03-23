@@ -2,6 +2,95 @@ degree: 5
 endBeat: 168
 endLine: 193
 filename: a9603545-24dc-5b81-8d05-89a3af4f7ab9.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 0
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: _7
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 2
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 3
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 4
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 5
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#4'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 5.5
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: r
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
 startBeat: 162
 startLine: 181
 triciniumId: 12-usquequo-domine

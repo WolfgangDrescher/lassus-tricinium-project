@@ -2,6 +2,95 @@ degree: 1
 endBeat: 200
 endLine: 227
 filename: 877513d1-a1a9-5e66-ae93-b23f45876ec0.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 0
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 1
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 4
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 5
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#4'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 5.5
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
 startBeat: 192
 startLine: 214
 triciniumId: 21-deus-deus-meus-respice

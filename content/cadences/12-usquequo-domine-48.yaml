@@ -2,6 +2,51 @@ degree: 5
 endBeat: 48
 endLine: 59
 filename: 2003a188-6098-5094-bb78-936f8f7458f4.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 2
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '6'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 4
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '#6'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 6
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
 startBeat: 44
 startLine: 53
 triciniumId: 12-usquequo-domine

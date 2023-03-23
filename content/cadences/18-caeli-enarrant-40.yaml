@@ -2,6 +2,117 @@ degree: 3
 endBeat: 40
 endLine: 57
 filename: ebbc4b2d-15ac-544b-88ea-5429865a7d11.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 4+
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '7'
+            scaleDegree: _3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 4+
+        beat: 1
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '#6'
+            scaleDegree: 2+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 4+
+        beat: 1.5
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '#5'
+            scaleDegree: 1+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 4+
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '#6'
+            scaleDegree: 2+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 4+
+        beat: 3
+        cantus:
+            fbInterval: '4'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '#6'
+            scaleDegree: 2+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 4
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 5
+        cantus:
+            fbInterval: '5'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '8'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 5.5
+        cantus:
+            fbInterval: '4'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '8'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '8'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: 3+
 startBeat: 33
 startLine: 43
 triciniumId: 18-caeli-enarrant

@@ -2,6 +2,62 @@ degree: 1
 endBeat: 48
 endLine: 60
 filename: 6cb37e03-eec2-559c-8cd7-46c467c7b894.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '7'
+        beat: 0
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: r
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
 startBeat: 42
 startLine: 52
 triciniumId: 21-deus-deus-meus-respice

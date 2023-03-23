@@ -2,6 +2,95 @@ degree: 4
 endBeat: 116
 endLine: 124
 filename: 68c4c19b-2f24-5936-9d89-d162a4ce96c7.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '7'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 1
+        cantus:
+            fbInterval: '4'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '7'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 1.5
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '7'
+        beat: 2
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 3
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '7'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 4
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '7'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '5'
 startBeat: 109
 startLine: 114
 triciniumId: 37-domine-ne-in-furore

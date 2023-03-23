@@ -2,6 +2,62 @@ degree: 5
 endBeat: 80
 endLine: 94
 filename: 2ce85bb9-e529-5220-969a-b1a4c3e2093c.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 2
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 4
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
 startBeat: 74
 startLine: 87
 triciniumId: 23-domini-est-terra

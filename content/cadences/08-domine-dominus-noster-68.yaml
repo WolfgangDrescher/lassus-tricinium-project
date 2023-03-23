@@ -2,6 +2,95 @@ degree: 1
 endBeat: 68
 endLine: 93
 filename: 5ce2ae12-d858-5891-80a0-efa0dec03316.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 0
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 1
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 2
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 3
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '4'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 7
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '3'
 startBeat: 61
 startLine: 82
 triciniumId: 08-domine-dominus-noster

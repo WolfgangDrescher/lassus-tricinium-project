@@ -2,6 +2,139 @@ degree: 1
 endBeat: 152
 endLine: 197
 filename: fe9a771e-2447-50ba-9911-10b95ea566e3.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '1'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 1.5
+        cantus:
+            fbInterval: '4'
+            scaleDegree: '7'
+        tenor:
+            fbInterval: '2'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 2
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 2.5
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '4'
+            scaleDegree: '7'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 3
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 3.5
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 4
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 5
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#4'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 5.5
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 7
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
 startBeat: 146
 startLine: 182
 triciniumId: 32-exsultate-iusti-in-domino

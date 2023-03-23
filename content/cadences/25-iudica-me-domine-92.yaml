@@ -2,6 +2,95 @@ degree: 1
 endBeat: 92
 endLine: 113
 filename: 78e89298-021a-5983-b0b3-012f380b19b1.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 0
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 1
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 4
+        cantus:
+            fbInterval: .
+            scaleDegree: '2'
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 5
+        cantus:
+            fbInterval: .
+            scaleDegree: '2'
+        tenor:
+            fbInterval: .
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 5.5
+        cantus:
+            fbInterval: .
+            scaleDegree: '2'
+        tenor:
+            fbInterval: .
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 6
+        cantus:
+            fbInterval: .
+            scaleDegree: '2'
+        tenor:
+            fbInterval: .
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
 startBeat: 85
 startLine: 102
 triciniumId: 25-iudica-me-domine

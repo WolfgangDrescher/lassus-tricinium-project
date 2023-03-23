@@ -2,6 +2,73 @@ degree: 3
 endBeat: 68
 endLine: 92
 filename: f45601b5-cbd1-5874-89da-287c9998374e.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 0
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 1
+        cantus:
+            fbInterval: '6'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 3
+        cantus:
+            fbInterval: '-4'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 5
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 6
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '-3'
+            scaleDegree: '1'
 startBeat: 63
 startLine: 83
 triciniumId: 16-exaudi-domine-iustitiam

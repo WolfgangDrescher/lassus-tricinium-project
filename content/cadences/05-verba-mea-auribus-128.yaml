@@ -2,6 +2,62 @@ degree: 5
 endBeat: 128
 endLine: 155
 filename: c2ce782d-3a11-5188-ad40-1d2571584a75.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 0
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '6'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 0.5
+        cantus:
+            fbInterval: '-2'
+            scaleDegree: '6'
+        tenor:
+            fbInterval: '7'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 1
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '6'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '7'
+        beat: 1.5
+        cantus:
+            fbInterval: '-7'
+            scaleDegree: '6'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '3'
 startBeat: 127
 startLine: 148
 triciniumId: 05-verba-mea-auribus

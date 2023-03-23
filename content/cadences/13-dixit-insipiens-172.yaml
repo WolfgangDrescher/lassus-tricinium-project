@@ -2,6 +2,84 @@ degree: 3
 endBeat: 172
 endLine: 190
 filename: ea3374aa-d231-5fbb-ad06-6f2e9b2885f6.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 0
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 1
+        cantus:
+            fbInterval: '6'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '6'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 3
+        cantus:
+            fbInterval: '-4'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '-4'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 5
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 6
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '-3'
+            scaleDegree: '1'
 startBeat: 166
 startLine: 179
 triciniumId: 13-dixit-insipiens

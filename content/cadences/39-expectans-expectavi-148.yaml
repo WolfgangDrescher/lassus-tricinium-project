@@ -2,6 +2,106 @@ degree: 1
 endBeat: 148
 endLine: 164
 filename: cbbafee2-bdb6-5550-8d6d-68e25eebec90.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 1
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 3
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 4
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '7'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 5
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 5.5
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 6
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: 3+
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
 startBeat: 141
 startLine: 153
 triciniumId: 39-expectans-expectavi

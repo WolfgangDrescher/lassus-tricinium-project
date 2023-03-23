@@ -2,6 +2,95 @@ degree: 1
 endBeat: 32
 endLine: 48
 filename: ff28e63d-c161-5c8a-994e-f3d1653895b2.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: _5
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 1
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '-3'
+            scaleDegree: '3'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '4'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 5
+        cantus:
+            fbInterval: '#3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 5.5
+        cantus:
+            fbInterval: '2'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '#3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
 startBeat: 25
 startLine: 38
 triciniumId: 13-dixit-insipiens

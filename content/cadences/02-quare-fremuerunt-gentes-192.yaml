@@ -2,6 +2,106 @@ degree: 1
 endBeat: 192
 endLine: 191
 filename: 65d82056-da3a-5c19-8662-fc52f7bffd9f.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 0
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: ~5
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '3'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 3
+        cantus:
+            fbInterval: '2'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '3'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 4
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '3'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '4'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 7
+        cantus:
+            fbInterval: '#3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 7.5
+        cantus:
+            fbInterval: '2'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 8
+        cantus:
+            fbInterval: '#3'
+            scaleDegree: 7+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 10
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '1'
+            scaleDegree: '1'
 startBeat: 184
 startLine: 179
 triciniumId: 02-quare-fremuerunt-gentes

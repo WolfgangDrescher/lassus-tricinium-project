@@ -2,6 +2,73 @@ degree: 3
 endBeat: 84
 endLine: 100
 filename: 4f869d76-080c-547a-8857-f1f6b7caeb0f.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _6+
+        beat: 0
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _6+
+        beat: 1
+        cantus:
+            fbInterval: '1'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 2
+        cantus:
+            fbInterval: .
+            scaleDegree: 7+
+        tenor:
+            fbInterval: .
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 4
+        cantus:
+            fbInterval: .
+            scaleDegree: 7+
+        tenor:
+            fbInterval: .
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 5
+        cantus:
+            fbInterval: .
+            scaleDegree: 7+
+        tenor:
+            fbInterval: .
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 6
+        cantus:
+            fbInterval: .
+            scaleDegree: 3+
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
 startBeat: 79
 startLine: 90
 triciniumId: 04-cum-invocarem

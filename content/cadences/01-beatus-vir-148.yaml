@@ -2,6 +2,40 @@ degree: 1
 endBeat: 148
 endLine: 148
 filename: 06ba5979-40db-5fae-aaf3-30250a5c82ef.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 4
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
 startBeat: 146
 startLine: 143
 triciniumId: 01-beatus-vir

@@ -2,6 +2,95 @@ degree: 3
 endBeat: 144
 endLine: 163
 filename: 9537a3d0-5d20-5982-884f-67d81b489c4f.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _6+
+        beat: 0
+        cantus:
+            fbInterval: '-6'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: ~5
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _6+
+        beat: 1
+        cantus:
+            fbInterval: '5'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: ~6
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _6+
+        beat: 2
+        cantus:
+            fbInterval: '5'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _6+
+        beat: 3
+        cantus:
+            fbInterval: '4'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _6+
+        beat: 3.5
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '4'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
 startBeat: 137
 startLine: 152
 triciniumId: 33-benedicam-dominum

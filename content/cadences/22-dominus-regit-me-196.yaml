@@ -2,6 +2,62 @@ degree: 5
 endBeat: 196
 endLine: 200
 filename: 04d886d0-f23f-55c7-a005-6be4d8c32fa5.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 0
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '7'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 2
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 4
+        cantus:
+            fbInterval: '7'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 6
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '7'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '5'
 startBeat: 190
 startLine: 192
 triciniumId: 22-dominus-regit-me

@@ -2,6 +2,62 @@ degree: 5
 endBeat: 96
 endLine: 103
 filename: cfba5651-e4c5-56b2-8572-8187b061f5fc.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 0
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '7'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '6'
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '6'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 4
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '7'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 6
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '6'
+        tenor:
+            fbInterval: '1'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '3'
 startBeat: 90
 startLine: 95
 triciniumId: 02-quare-fremuerunt-gentes

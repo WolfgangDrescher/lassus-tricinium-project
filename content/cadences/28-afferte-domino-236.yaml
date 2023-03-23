@@ -2,6 +2,73 @@ degree: 1
 endBeat: 236
 endLine: 262
 filename: a0125fee-58fd-5d5c-a669-ecb0b11ce5a8.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 0
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '7'
+        beat: 1
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '2'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '3'
+        tenor:
+            fbInterval: '1'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 4
+        cantus:
+            fbInterval: '2'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: ~4
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 6
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: ~3
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '3'
+        beat: 8
+        cantus:
+            fbInterval: ~3
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '5'
 startBeat: 229
 startLine: 253
 triciniumId: 28-afferte-domino

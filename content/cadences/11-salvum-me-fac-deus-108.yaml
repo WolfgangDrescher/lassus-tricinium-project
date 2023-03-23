@@ -2,6 +2,62 @@ degree: 3
 endBeat: 108
 endLine: 141
 filename: 383d81f9-94f5-5d19-a6c4-d4e9e388cf84.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _5
+        beat: 0
+        cantus:
+            fbInterval: '6'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '3'
+            scaleDegree: _7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 1
+        cantus:
+            fbInterval: '5'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '-3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 4+
+        beat: 2
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 3
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 4
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: 3+
 startBeat: 105
 startLine: 135
 triciniumId: 11-salvum-me-fac-deus

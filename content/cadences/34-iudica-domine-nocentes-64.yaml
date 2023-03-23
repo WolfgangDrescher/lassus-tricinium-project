@@ -2,6 +2,106 @@ degree: 3
 endBeat: 64
 endLine: 92
 filename: fc33590d-8d91-5cb3-9a88-9b9ca8bc3da5.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 0
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 2
+        cantus:
+            fbInterval: '8'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 3
+        cantus:
+            fbInterval: '8'
+            scaleDegree: 6+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 4
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '4'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 5
+        cantus:
+            fbInterval: '5'
+            scaleDegree: 4+
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 5.5
+        cantus:
+            fbInterval: '4'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '2'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: 4+
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 7
+        cantus:
+            fbInterval: '6'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '5'
 startBeat: 58
 startLine: 80
 triciniumId: 34-iudica-domine-nocentes

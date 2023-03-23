@@ -2,6 +2,84 @@ degree: 1
 endBeat: 52
 endLine: 67
 filename: 61b9fe0e-02ff-59ae-be08-4710a3b98a48.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 1
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 2
+        cantus:
+            fbInterval: '8'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 4
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '7'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 6
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 7
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '1'
 startBeat: 45
 startLine: 58
 triciniumId: 20-domine-in-virtute-tua
