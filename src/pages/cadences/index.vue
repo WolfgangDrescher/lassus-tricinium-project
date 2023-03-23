@@ -22,7 +22,7 @@ const { filteredElements } = useCadenceFilter(cadences);
 const { items, addItems } = useArrayLoader(filteredElements);
 
 const store = useCadenceHumdrumFiltersStore();
-const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
+const { showModernClefs, showIntervallsatz, showLyrics, showScaleDegrees } = storeToRefs(store)
 </script>
 
 <template>
@@ -41,6 +41,9 @@ const { showModernClefs, showIntervallsatz, showLyrics } = storeToRefs(store)
                 </div>
                 <div>
                     <FormCheckbox v-model="showIntervallsatz" :label="$t('showIntervallsatz')" />
+                </div>
+                <div>
+                    <FormCheckbox v-model="showScaleDegrees" :label="$t('showScaleDegrees')" />
                 </div>
                 <div>
                     <FormCheckbox v-model="showLyrics" :label="$t('showLyrics')" />
