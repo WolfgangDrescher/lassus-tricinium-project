@@ -1,0 +1,30 @@
+name: Build and publish docker image
+
+on:
+    release:
+        types: [released]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        env:
+            SCHEME: lassus-tricinium-project
+        steps:
+            -
+                uses: actions/checkout@v2
+            -
+                name: Docker Build
+                run: docker build -t $SCHEME -f Dockerfile .
+            -
+                name: Deploy docker image to ghcr.io
+                env:
+                    TAG_NAME: ${{ github.event.release.tag_name }}
+                run: |
+                    TAG="ghcr.io/wolfgangdrescher/$SCHEME"
+                    VERSION="${TAG_NAME//v/}"
+                    docker tag $SCHEME $TAG:$VERSION
+                    docker tag $SCHEME $TAG:latest
+                    docker images $TAG
+                    echo ${{ secrets.CR_PAT }} | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
+                    docker push $TAG:$VERSION
+                    docker push $TAG:latest
