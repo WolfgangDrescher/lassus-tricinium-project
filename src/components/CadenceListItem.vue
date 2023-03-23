@@ -106,17 +106,19 @@ async function verovioCanvasIsReady({ callVerovioMethod }) {
         audioDataUrl.value = `data:audio/midi;base64,${midiBase64}`;
     }
 }
+
+const location = `T. ${Math.ceil(props.cadence.endBeat / 8)} ♩ ${(props.cadence.endBeat % 8) + 1}`;
 </script>
 
 <template>
-    <Card :title="`♩ ${cadence.endBeat}`">
+    <Card :title="location">
         <template v-slot:title v-if="!shortTitle">
             <div class="flex items-center">
                 <div class="flex items-start justify-between w-full">
                     <div class="pl-3 w-full">
                         <div class="text-xl font-medium leading-5 text-gray-800">
                             <NuxtLink :href="`/tricinium/${tricinium.id}`">
-                                {{ `${tricinium.nr}. ${tricinium.title}, ♩ ${cadence.endBeat}` }}
+                                {{ `${tricinium.nr}. ${tricinium.title}, ${location}` }}
                             </NuxtLink>
                         </div>
                         <div class="text-sm leading-normal pt-1 text-gray-500">
