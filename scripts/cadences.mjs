@@ -133,6 +133,37 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     }
                 }
 
+                const slices = [];
+                const slicesKern = execSync(`cat ${file} | myank -l ${startLine}-${endLine} | ridxx -LGTM | beat -cp | extractxx -I **text | fb -i -c -a -m | degx -t --force-key "${ultima}"`).toString().trim();
+                const slicesKernLines = slicesKern.split('\n').filter(line => !line.startsWith('*'));
+
+                function getScaleDegree(lineLindex, fieldIndex) {
+                    const value = slicesKernLines[lineLindex].split('\t')[fieldIndex];
+                    if (value === '.' && lineLindex > 0) {
+                        return getScaleDegree(lineLindex - 1, fieldIndex);
+                    }
+                    return value;
+                }
+
+                for (let i = 0; i < slicesKernLines.length; i++) {
+                    const fields = slicesKernLines[i].split('\t');
+                    slices.push({
+                        beat: parseFloat(fields[0]),
+                        bassus: {
+                            fbInterval: fields[2],
+                            scaleDegree: getScaleDegree(i, 3)
+                        },
+                        tenor: {
+                            fbInterval: fields[5],
+                            scaleDegree: getScaleDegree(i, 6),
+                        },
+                        cantus: {
+                            fbInterval: fields[8],
+                            scaleDegree: getScaleDegree(i, 9)
+                        },
+                    });
+                }
+
                 // set yaml config
                 const config = {
                     triciniumId: id,
@@ -144,6 +175,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                     voices,
                     startBeat,
                     endBeat,
+                    slices,
                 };
                 const configFileName = `${id}-${endBeat}.yaml`;
                 fs.writeFileSync(`${__dirname}/../content/cadences/${configFileName}`, yaml.dump(config, {
