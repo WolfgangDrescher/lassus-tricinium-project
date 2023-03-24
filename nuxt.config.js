@@ -30,6 +30,7 @@ export default defineNuxtConfig({
         'nuxt-icon',
         '@nuxtjs/i18n-edge',
         '@nuxt/content',
+        '@nuxtjs/plausible',
     ],
     vite: {
         worker: {
@@ -99,5 +100,8 @@ export default defineNuxtConfig({
                 base: fileURLToPath(new URL('./lassus-geistliche-psalmen/meta', import.meta.url)),
             },
         },
+    },
+    plausible: {
+        apiHost: 'https://plausible.mh-freiburg.de',
     },
 });
