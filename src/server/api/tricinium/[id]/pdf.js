@@ -10,6 +10,7 @@ function verovioUnitToPoints(mm)  {
 }
 
 export default defineEventHandler(async (event) => {
+    const { public: { baseUrl} } = useRuntimeConfig();
     const { id } = event.context.params;
     const {
         orientation,
@@ -19,9 +20,7 @@ export default defineEventHandler(async (event) => {
         verovioSpacingStaff,
     } = getQuery(event);
     const tricinium = useTricinium(await $fetch(`/api/tricinium/${id}`));
-
-    const response = await $fetch(`http://localhost:3000${tricinium.localRawFile}`);
-    const scoreData = await response.text();
+    const scoreData = await $fetch(`${baseUrl}${tricinium.localRawFile}`, { parseResponse: txt => txt });
     const verovioModule = await createVerovioModule();
     const toolkit = new VerovioToolkit(verovioModule);
 
