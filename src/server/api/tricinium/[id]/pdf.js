@@ -51,7 +51,7 @@ export default defineEventHandler(async (event) => {
         svgCss: '.pgHead { fill: transparent; }',
     });
     toolkit.loadData(`${prefix}\n${scoreData}`);
-    
+
     const pageOptions = {
         fontCallback(family, bold, italic, fontOptions) {
             if (family.match(/(?:^|,)\s*sans-serif\s*$/) || true) {
@@ -60,7 +60,7 @@ export default defineEventHandler(async (event) => {
                 if (!bold && italic) { return 'Times-Italic'; }
                 if (!bold && !italic) { return 'Times-Roman'; }
             }
-        }
+        },
     };
 
     const streamIsFinished = useDeferred();
@@ -77,7 +77,7 @@ export default defineEventHandler(async (event) => {
         },
     });
     const stream = doc.pipe(event.node.res);
-    
+
     for (let i = 0; i < toolkit.getPageCount(); i++) {
         doc.addPage();
         // doc.rect(verovioUnitToPoints(margin), verovioUnitToPoints(margin), verovioUnitToPoints(verovioPageWidth), verovioUnitToPoints(verovioPageHeight)).fill('lightblue');

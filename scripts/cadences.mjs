@@ -151,7 +151,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                         beat: parseFloat(fields[0]),
                         bassus: {
                             fbInterval: fields[2],
-                            scaleDegree: getScaleDegree(i, 3)
+                            scaleDegree: getScaleDegree(i, 3),
                         },
                         tenor: {
                             fbInterval: fields[5],
@@ -159,7 +159,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                         },
                         cantus: {
                             fbInterval: fields[8],
-                            scaleDegree: getScaleDegree(i, 9)
+                            scaleDegree: getScaleDegree(i, 9),
                         },
                     });
                 }
