@@ -53,7 +53,9 @@ onMounted(() => {
         <div class="swiper" ref="swiperEl">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" v-for="cadence in virtualData.slides" :key="cadence.id" :style="{ left: `${virtualData.offset}px` }">
-                    <CadenceListItem :cadence="cadence" />
+                    <div class="m-2">
+                        <CadenceListItem :cadence="cadence" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,8 +90,5 @@ onMounted(() => {
 .swiper-button-prev::after,
 .swiper-button-next::after {
     @apply text-base;
-}
-.swiper-slide :deep(> div) {
-    @apply m-2;
 }
 </style>
