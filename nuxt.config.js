@@ -2,6 +2,11 @@ import { fileURLToPath } from 'node:url';
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+    runtimeConfig: {
+        public: {
+            baseUrl: 'http://localhost:3000',
+        },
+    },
     app: {
         buildAssetsDir: '/build/',
         head: {
