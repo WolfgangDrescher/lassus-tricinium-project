@@ -66,6 +66,10 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.swiper-pagination {
+    --swiper-theme-color: var(--color-primary-500);
+}
+
 .swiper-button-prev {
     right: calc(100% + 1rem);
     left: auto;
