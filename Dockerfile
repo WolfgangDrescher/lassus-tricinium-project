@@ -1,6 +1,7 @@
 FROM node:18-bullseye-slim AS builder
 WORKDIR /app
 COPY . .
+ENV DEPLOY_ENV=prod
 RUN npm ci
 RUN npm run build
 
