@@ -10,7 +10,7 @@ function verovioUnitToPoints(mm)  {
 }
 
 export default defineEventHandler(async (event) => {
-    const { public: { baseUrl} } = useRuntimeConfig();
+    const { public: { siteUrl } } = useRuntimeConfig();
     const { id } = event.context.params;
     const {
         orientation,
@@ -20,7 +20,7 @@ export default defineEventHandler(async (event) => {
         verovioSpacingStaff,
     } = getQuery(event);
     const tricinium = useTricinium(await $fetch(`/api/tricinium/${id}`));
-    const scoreData = await $fetch(`${baseUrl}${tricinium.localRawFile}`, { parseResponse: txt => txt });
+    const scoreData = await $fetch(`${siteUrl}${tricinium.localRawFile}`, { parseResponse: txt => txt });
     const verovioModule = await createVerovioModule();
     const toolkit = new VerovioToolkit(verovioModule);
 
@@ -82,7 +82,7 @@ export default defineEventHandler(async (event) => {
         // doc.rect(verovioUnitToPoints(margin), verovioUnitToPoints(margin), verovioUnitToPoints(verovioPageWidth), verovioUnitToPoints(verovioPageHeight)).fill('lightblue');
         SVGtoPDF(doc, toolkit.renderToSVG(i + 1, {}), verovioUnitToPoints(margin), verovioUnitToPoints(margin), pageOptions);
         doc.font('Helvetica').fontSize(9).fillColor('black');
-        doc.text('Lassus Tricinium Project\nhttps://lassus.mh-freiburg.de', verovioUnitToPoints(margin), verovioUnitToPoints(pageHeight) - 40, {
+        doc.text(`Lassus Tricinium Project\n${siteUrl}`, verovioUnitToPoints(margin), verovioUnitToPoints(pageHeight) - 40, {
             width: verovioUnitToPoints(verovioPageWidth),
             align: 'left',
         });

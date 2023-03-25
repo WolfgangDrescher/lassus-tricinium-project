@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 export default defineNuxtConfig({
     runtimeConfig: {
         public: {
-            baseUrl: 'http://localhost:3000',
+            siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://lassus.mh-freiburg.de',
         },
     },
     app: {
