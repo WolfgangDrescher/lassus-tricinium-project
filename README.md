@@ -1,5 +1,7 @@
 # Lassus Tricinium Project
 
+https://lassus.mh-freiburg.de/
+
 Das «Lassus Tricinium Project» ist eine digitale Edition der «Geistlichen
 Psalmen» von Orlando di Lasso und seinem Sohn Rudolph. Die Kompositionen
 basieren auf den «Psalmen Davids» von Caspar Ulenberg. Vorlage dieser Edition
