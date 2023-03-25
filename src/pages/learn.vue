@@ -1,16 +1,16 @@
 <script setup>
 const { t } = useI18n();
 useHead({
-    title: t('canon'),
+    title: t('learn'),
 });
 
 defineI18nRoute({
     paths: {
-        de: '/canon',
+        de: '/lernen',
     },
 });
 
-const { data } = await useAsyncData('canon', () => queryContent('/canon').findOne())
+const { data } = await useAsyncData('learn', () => queryContent('/learn').findOne())
 </script>
 
 <template>

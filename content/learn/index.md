@@ -1,17 +1,18 @@
-# Canon: Methodische Aufbereitung für den Unterricht
+# Methodische Aufbereitung für den Unterricht
 
-Dieser Canon soll in einer komprimierten Übersicht die wichtigsten Parameter für
-ein genaueres Verständnis der in dieser Untersuchung vorgestellten Psalmlieder
-sowie für das eigene Nachkomponieren im Stile von Orlandus und Rudolphus Lassus
-zusammenfassen. Dabei wird nicht auf die Grundlagen des Renaissance-Kontrapunkts
-eingegangen, die bei Johannes Menke1 oder Thomas Daniel2 nachgelesen werden
-können. Der Canon richtet sich also an Studenten, die bereits den zweistimmigen
-Kontrapunkt studiert haben und sich nun, wie es die Studienordnungen oft
-vorschreiben, mit dem dreistimmigen Kontrapunkt beschäftigen wollen. Es soll
-dabei vor allem demonstriert werden, dass in den Psalmliedern nach Lassus viele
-der Parameter wie Ambitus-Überschreitungen, die *cantus-firmus*-Behandlung oder
-auch die Imitationen oft gar nicht so streng umgesetzt werden, wie man vermuten
-würde. In angemessenem Umfang kann mit ihnen durchaus frei umgegangen werden.
+Auf dieser Seiten sollen in einer komprimierten Übersicht die wichtigsten
+Grundlagen für ein genaueres Verständnis der in dieser Untersuchung
+vorgestellten Psalmlieder sowie für das eigene Nachkomponieren im Stile von
+Orlandus und Rudolphus Lassus zusammenfassen. Dabei wird nicht auf die
+Grundlagen des Renaissance-Kontrapunkts eingegangen, die bei Johannes Menke1
+oder Thomas Daniel2 nachgelesen werden können. Diese Seite richtet sich also an
+Studenten, die bereits den zweistimmigen Kontrapunkt studiert haben und sich
+nun, wie es die Studienordnungen oft vorschreiben, mit dem dreistimmigen
+Kontrapunkt beschäftigen wollen. Es soll dabei vor allem demonstriert werden,
+dass in den Psalmliedern nach Lassus viele der Parameter wie
+Ambitus-Überschreitungen, die *cantus-firmus*-Behandlung oder auch die
+Imitationen oft gar nicht so streng umgesetzt werden, wie man vermuten würde. In
+angemessenem Umfang kann mit ihnen durchaus frei umgegangen werden.
 
 
 

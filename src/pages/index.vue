@@ -59,7 +59,7 @@ const localePath = useLocalePath();
                                 können mit Hilfe der Website die wichtigsten Parameter – wie die Verwendung der Modi,
                                 Imitationen, Ambitus, Textbehandlung – schnell erfassen, um sie in eigene Stilkopien
                                 einzubeziehen. Unter dem Menüpunkt <HyperLink :href="localePath({name:
-                                'canon'})">Canon</HyperLink> gibt es zusätzliche Materialien mit den wichtigsten
+                                'learn'})">Lernen</HyperLink> gibt es zusätzliche Materialien mit den wichtigsten
                                 Informationen zu den Modi, Imitationen, Ambitus, Stimmendisposition und der
                                 Textbehandlung sowie einer Liste mit Stücken die sich besonders für das Selbststudium
                                 eignen.

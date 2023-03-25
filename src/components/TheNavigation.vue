@@ -23,7 +23,7 @@ function onClick() {
                     <NavigationItem :href="localePath('cadences')" @click="onClick">{{ $t('cadences') }}</NavigationItem>
                     <NavigationItem :href="localePath('statistics')" @click="onClick">{{ $t('statistics') }}</NavigationItem>
                     <NavigationItem :href="localePath('critical-report')" @click="onClick">{{ $t('criticalReport') }}</NavigationItem>
-                    <NavigationItem :href="localePath('canon')" @click="onClick">{{ $t('canon') }}</NavigationItem>
+                    <NavigationItem :href="localePath('learn')" @click="onClick">{{ $t('learn') }}</NavigationItem>
                 </ul>
             </div>
         </Container>
