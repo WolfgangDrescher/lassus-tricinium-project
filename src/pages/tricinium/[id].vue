@@ -381,8 +381,10 @@ async function downloadPDF() {
                             <CadenceTimeline :cadences="cadences" :total-beats="tricinium.beats" />
                         </div>
                         <div class="grid md:grid-cols-2 gap-2 mb-2">
+                            <div class="col-span-2">
+                                <FormCheckbox v-model="showCadencesInScore" :label="$t('showCadencesInScore')" />
+                            </div>
                             <FormCheckbox v-model="showModernClefs" :label="$t('showModernClefs')" />
-                            <FormCheckbox v-model="showCadencesInScore" :label="$t('showCadencesInScore')" />
                             <FormCheckbox v-model="showScaleDegrees" :label="$t('showScaleDegrees')" />
                             <FormCheckbox v-model="showIntervallsatz" :label="$t('showIntervallsatz')" />
                         </div>
