@@ -8344,6 +8344,261 @@
         next: '-M2'
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 29
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 35
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 67
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 71
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 73
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 104
+        next: '-P5'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 112
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 114
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 117
+        next: r
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 137
+        next: +P5
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 160
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 162
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 197
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 200
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 203
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 205
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 234
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 33
+        next: +m2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 36
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 38
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 71
+        next: +m2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 74
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 86
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 129
+        next: +m2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 168
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 170
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 190
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 192
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 195
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 196
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 239
+        next: +m2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 26
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 57
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 107
+        next: '-P5'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 170
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 171
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 180
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 185
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 187
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 188
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 189
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 194
+        next: r
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 212
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 225
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 234
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 235
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 +M3:
     -
         lineIndex: 72
@@ -9095,6 +9350,31 @@
         next: +m2
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 33
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 44
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 82
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 +M6:
     -
         lineIndex: 72
@@ -10752,6 +11032,21 @@
         next: '-m2'
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 110
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 97
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 120
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 +P5:
     -
         lineIndex: 76
@@ -11623,6 +11918,41 @@
         next: P1
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 54
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 90
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 138
+        next: r
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 172
+        next: '-P4'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 177
+        next: '-P5'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 103
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 224
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 +P8:
     -
         lineIndex: 93
@@ -11934,6 +12264,11 @@
         next: '-m3'
         spine: 1
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 220
+        next: '-M3'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
 +d4:
     -
         lineIndex: 161
@@ -11995,6 +12330,16 @@
         next: '-m2'
         spine: 5
         triciniumId: 30-in-te-domine-speravi
+    -
+        lineIndex: 40
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 78
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 +m2:
     -
         lineIndex: 27
@@ -17051,6 +17396,171 @@
         next: '-m3'
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 32
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 36
+        next: '-m2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 58
+        next: '-m3'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 70
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 74
+        next: '-m2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 95
+        next: '-m3'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 116
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 123
+        next: '-m2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 133
+        next: '-P4'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 192
+        next: '-m3'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 212
+        next: '-m2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 235
+        next: '-m2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 35
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 73
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 130
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 143
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 183
+        next: '-m3'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 202
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 228
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 241
+        next: null
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 27
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 58
+        next: '-M3'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 93
+        next: '-P5'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 143
+        next: r
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 148
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 162
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 172
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 186
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 190
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 200
+        next: '-m3'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 217
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 226
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 +m3:
     -
         lineIndex: 115
@@ -19162,6 +19672,101 @@
         next: P1
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 45
+        next: '-m2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 83
+        next: '-m2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 102
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 154
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 196
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 44
+        next: P1
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 82
+        next: P1
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 167
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 175
+        next: P1
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 188
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 212
+        next: '-P4'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 214
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 49
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 86
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 88
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 123
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 153
+        next: '-P4'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 205
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 +m6:
     -
         lineIndex: 162
@@ -29144,6 +29749,301 @@
         next: null
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 51
+        next: +P5
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 88
+        next: +P5
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 100
+        next: '-m3'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 164
+        next: '-m2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 169
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 170
+        next: +P5
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 201
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 202
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 206
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 207
+        next: '-m2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 241
+        next: null
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 40
+        next: +m3
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 58
+        next: r
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 78
+        next: +m3
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 88
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 95
+        next: r
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 112
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 117
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 120
+        next: r
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 137
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 148
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 149
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 151
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 172
+        next: +m3
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 193
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 194
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 197
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 198
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 217
+        next: +P8
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 235
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 238
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 30
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 32
+        next: +M3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 36
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 56
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 70
+        next: +M3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 74
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 91
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 106
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 115
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 124
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 129
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 137
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 151
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 167
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 168
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 169
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 179
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 207
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 210
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 228
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 230
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 231
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 236
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 '-M3':
     -
         lineIndex: 77
@@ -30215,6 +31115,31 @@
         next: +P4
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 228
+        next: '-m3'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 224
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 60
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 101
+        next: +P5
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 220
+        next: '-m3'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 '-P4':
     -
         lineIndex: 55
@@ -31601,6 +32526,66 @@
         next: +M2
         spine: 3
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 65
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 132
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 136
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 175
+        next: +P5
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 32
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 70
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 211
+        next: +m3
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 213
+        next: +m3
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 23
+        next: +M2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 65
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 154
+        next: r
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 '-P5':
     -
         lineIndex: 72
@@ -32967,6 +33952,36 @@
         next: +M2
         spine: 3
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 110
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 183
+        next: r
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 104
+        next: +P4
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 95
+        next: +P4
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 110
+        next: r
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 176
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 '-P8':
     -
         lineIndex: 166
@@ -39634,6 +40649,226 @@
         next: '-M2'
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 38
+        next: r
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 76
+        next: r
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 86
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 129
+        next: '-P4'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 168
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 210
+        next: +m2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 214
+        next: r
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 236
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 90
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 114
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 138
+        next: P1
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 145
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 154
+        next: r
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 177
+        next: P1
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 200
+        next: +m2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 205
+        next: P1
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 215
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 226
+        next: +m2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 234
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 237
+        next: '-M2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 29
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 39
+        next: +d4
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 50
+        next: +m3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 55
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 77
+        next: +d4
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 87
+        next: +m3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 92
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 100
+        next: '-M3'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 105
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 118
+        next: +P4
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 126
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 139
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 149
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 160
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 175
+        next: '-P5'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 178
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 206
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 215
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 227
+        next: '-M2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 241
+        next: null
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 '-m3':
     -
         lineIndex: 26
@@ -41885,6 +43120,46 @@
         next: P1
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 60
+        next: P1
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 97
+        next: '-M2'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 101
+        next: +m3
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 194
+        next: +m3
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 229
+        next: +M2
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 186
+        next: +m3
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 202
+        next: +m3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 221
+        next: +P5
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
 P1:
     -
         lineIndex: 25
@@ -47276,3 +48551,158 @@ P1:
         next: '-M3'
         spine: 5
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 25
+        next: '-P4'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 44
+        next: +m3
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 63
+        next: P1
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 64
+        next: '-P4'
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 82
+        next: +m3
+        spine: 1
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 28
+        next: '-P4'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 46
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 65
+        next: P1
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 66
+        next: '-P4'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 84
+        next: +M2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 102
+        next: '-P5'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 140
+        next: +m2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 176
+        next: '-m2'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 180
+        next: +m2
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 206
+        next: '-P4'
+        spine: 3
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 20
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 21
+        next: '-P4'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 42
+        next: +M3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 45
+        next: +m3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 63
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 64
+        next: '-P4'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 80
+        next: +M3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 83
+        next: +m3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 122
+        next: +m3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 125
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 131
+        next: P1
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 132
+        next: +M3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 152
+        next: +m3
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 161
+        next: +m2
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 214
+        next: '-m2'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 219
+        next: '-M3'
+        spine: 5
+        triciniumId: 40-beatus-qui-intelligit

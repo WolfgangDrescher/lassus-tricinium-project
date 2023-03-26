@@ -1,0 +1,85 @@
+degree: 3
+endBeat: 140
+endLine: 156
+filename: c3e2911a-605f-5631-a218-70d3dc1c673f.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _r
+        beat: 0
+        cantus:
+            fbInterval: .
+            scaleDegree: '1'
+        tenor:
+            fbInterval: .
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _r
+        beat: 2
+        cantus:
+            fbInterval: .
+            scaleDegree: 7+
+        tenor:
+            fbInterval: .
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 4
+        cantus:
+            fbInterval: .
+            scaleDegree: 6+
+        tenor:
+            fbInterval: .
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 5
+        cantus:
+            fbInterval: .
+            scaleDegree: 6+
+        tenor:
+            fbInterval: .
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 6
+        cantus:
+            fbInterval: '-3'
+            scaleDegree: '1'
+        tenor:
+            fbInterval: '-6'
+            scaleDegree: '4'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
+startBeat: 134
+startLine: 148
+triciniumId: 40-beatus-qui-intelligit
+ultima: b-
+voices:
+    bassus:
+        penultima: 6
+        ultima: 1
+    cantus:
+        penultima: 1
+        ultima: 5
+    tenor:
+        penultima: 4
+        ultima: 3

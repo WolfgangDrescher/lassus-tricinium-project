@@ -1,0 +1,28 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 40
+!!!OTL@@LA: Beatus qui intelligit
+!!!OTL-incipit@@DE: Selig zu preisen ist der mann
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefC1	*	*clefG2	*
+*k[b-]	*	*k[b-]	*	*k[b-]	*
+*g:dor	*	*g:dor	*	*g:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=25	=25	=25	=25	=25	=25
+2A	.	4a]	.	2cc	.
+.	.	4e	.	.	.
+2B-	-ler	4g	.	2dd	-lend
+.	.	4d	.	.	.
+1A	hand/	2f	.	2dd	vie-
+.	.	2e	-ler	2cc#i	-ler-
+=26	=26	=26	=26	=26	=26
+[2r	.	[2d	hand/	2dd	-hand/
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
