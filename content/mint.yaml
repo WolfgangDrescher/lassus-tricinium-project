@@ -1,3 +1,9 @@
++A4:
+    -
+        lineIndex: 141
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
 +M2:
     -
         lineIndex: 50
@@ -8599,6 +8605,186 @@
         next: '-M2'
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 35
+        next: '-P5'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 51
+        next: '-P8'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 59
+        next: '-M3'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 82
+        next: '-P5'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 96
+        next: '-P8'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 104
+        next: r
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 118
+        next: +m6
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 147
+        next: '-M3'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 174
+        next: +P5
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 178
+        next: '-M2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 185
+        next: '-M3'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 214
+        next: +P5
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 217
+        next: '-M2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 35
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 57
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 82
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 103
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 111
+        next: +m3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 127
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 133
+        next: +P4
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 182
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 222
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 26
+        next: '-P5'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 30
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 32
+        next: +m2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 72
+        next: '-P5'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 76
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 79
+        next: +m2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 124
+        next: P1
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 135
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 153
+        next: +m2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 179
+        next: P1
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 192
+        next: +m2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 219
+        next: P1
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 224
+        next: null
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 +M3:
     -
         lineIndex: 72
@@ -9375,6 +9561,46 @@
         next: '-M2'
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 65
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 151
+        next: '-M2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 189
+        next: '-M2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 21
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 67
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 95
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 70
+        next: +m2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 +M6:
     -
         lineIndex: 72
@@ -11047,6 +11273,26 @@
         next: P1
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 30
+        next: '-m3'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 76
+        next: '-m2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 134
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 114
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 +P5:
     -
         lineIndex: 76
@@ -11953,6 +12199,66 @@
         next: +M2
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 54
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 100
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 157
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 177
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 195
+        next: '-M2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 216
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 31
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 66
+        next: +M3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 77
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 168
+        next: +m3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 207
+        next: +m3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 109
+        next: P1
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 +P8:
     -
         lineIndex: 93
@@ -17561,6 +17867,121 @@
         next: '-m2'
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 27
+        next: +P4
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 73
+        next: +P4
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 111
+        next: r
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 22
+        next: '-P4'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 37
+        next: P1
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 59
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 68
+        next: '-P4'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 85
+        next: P1
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 104
+        next: r
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 129
+        next: '-P5'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 166
+        next: +P5
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 178
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 185
+        next: '-m3'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 205
+        next: +P5
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 217
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 224
+        next: null
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 25
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 37
+        next: r
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 71
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 85
+        next: r
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 147
+        next: r
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 156
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 194
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 +m3:
     -
         lineIndex: 115
@@ -19767,6 +20188,81 @@
         next: '-m2'
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 49
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 44
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 112
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 151
+        next: '-P5'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 157
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 171
+        next: P1
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 189
+        next: '-P5'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 195
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 208
+        next: P1
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 47
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 93
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 173
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 213
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 +m6:
     -
         lineIndex: 162
@@ -20068,6 +20564,31 @@
         next: '-P5'
         spine: 3
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 39
+        next: '-m2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 87
+        next: '-m2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 120
+        next: '-m2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 166
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 205
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
 '-M2':
     -
         lineIndex: 32
@@ -30044,6 +30565,326 @@
         next: '-m2'
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 47
+        next: +m3
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 79
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 93
+        next: +m3
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 134
+        next: '-m2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 138
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 153
+        next: '-P5'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 179
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 192
+        next: '-P5'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 199
+        next: '-M2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 200
+        next: '-m2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 219
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 30
+        next: +P5
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 34
+        next: +M2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 40
+        next: '-m3'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 47
+        next: +M3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 56
+        next: +M2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 61
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 63
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 65
+        next: +P5
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 76
+        next: +P5
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 81
+        next: +M2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 88
+        next: '-m3'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 93
+        next: +M3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 96
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 102
+        next: +M2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 110
+        next: +M2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 114
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 119
+        next: P1
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 126
+        next: +M2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 139
+        next: +A4
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 147
+        next: '-m3'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 161
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 174
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 181
+        next: +M2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 200
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 214
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 221
+        next: +M2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 49
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 54
+        next: P1
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 59
+        next: r
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 95
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 100
+        next: P1
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 104
+        next: +P5
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 118
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 122
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 129
+        next: r
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 136
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 139
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 142
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 161
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 163
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 166
+        next: r
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 177
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 178
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 185
+        next: r
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 200
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 201
+        next: '-m2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 205
+        next: r
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 216
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 217
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 '-M3':
     -
         lineIndex: 77
@@ -31140,6 +31981,26 @@
         next: '-m3'
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 62
+        next: +M3
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 149
+        next: +M3
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 161
+        next: '-m2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 187
+        next: +M3
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
 '-P4':
     -
         lineIndex: 55
@@ -32586,6 +33447,26 @@
         next: r
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 26
+        next: +m2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 72
+        next: +m2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 24
+        next: '-m3'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 70
+        next: '-m3'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
 '-P5':
     -
         lineIndex: 72
@@ -33982,6 +34863,66 @@
         next: '-m2'
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 37
+        next: +m6
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 41
+        next: r
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 85
+        next: +m6
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 89
+        next: r
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 156
+        next: +P5
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 194
+        next: +P5
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 224
+        next: null
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 131
+        next: +M2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 152
+        next: r
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 190
+        next: r
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 73
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 '-P8':
     -
         lineIndex: 166
@@ -34203,6 +35144,21 @@
         next: +P4
         spine: 1
         triciniumId: 39-expectans-expectavi
+    -
+        lineIndex: 52
+        next: +P5
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 97
+        next: +P5
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 173
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
 '-m2':
     -
         lineIndex: 30
@@ -40869,6 +41825,186 @@
         next: null
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 40
+        next: '-P5'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 88
+        next: '-P5'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 110
+        next: +m2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 124
+        next: r
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 163
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 201
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 33
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 55
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 62
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 80
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 101
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 125
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 160
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 164
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 177
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 180
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 199
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 202
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 216
+        next: +m2
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 220
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 44
+        next: +m3
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 51
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 91
+        next: +m3
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 96
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 121
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 138
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 145
+        next: +m2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 159
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 164
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 174
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 198
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 202
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 214
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 '-m3':
     -
         lineIndex: 26
@@ -43160,6 +44296,66 @@
         next: +P5
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 32
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 27
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 41
+        next: +m3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 73
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 89
+        next: +m3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 149
+        next: +m3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 156
+        next: +m3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 173
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 187
+        next: +m3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 194
+        next: +m3
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 213
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 112
+        next: +P4
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
 P1:
     -
         lineIndex: 25
@@ -48706,3 +49902,133 @@ P1:
         next: '-M3'
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 57
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 70
+        next: '-P4'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 109
+        next: '-m2'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 141
+        next: P1
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 144
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 159
+        next: '-M3'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 164
+        next: +m6
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 171
+        next: '-P8'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 202
+        next: +m6
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 208
+        next: r
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 213
+        next: +M2
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 222
+        next: '-P5'
+        spine: 1
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 39
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 87
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 109
+        next: '-M2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 120
+        next: '-m2'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 172
+        next: '-m3'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 209
+        next: '-m3'
+        spine: 3
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 57
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 103
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 111
+        next: '-m3'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 182
+        next: '-M2'
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 222
+        next: +M2
+        spine: 5
+        triciniumId: 41-quemadmodum-desiderat
