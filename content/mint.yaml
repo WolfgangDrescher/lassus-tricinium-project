@@ -8785,6 +8785,221 @@
         next: null
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 34
+        next: r
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 66
+        next: +m2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 111
+        next: +M2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 114
+        next: +m3
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 125
+        next: +P4
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 133
+        next: +P5
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 151
+        next: +M2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 152
+        next: +m3
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 26
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 44
+        next: '-P5'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 63
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 90
+        next: +m2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 96
+        next: +m2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 104
+        next: +m2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 121
+        next: r
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 128
+        next: +m3
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 139
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 161
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 173
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 176
+        next: +m3
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 198
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 202
+        next: +m3
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 56
+        next: '-P8'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 91
+        next: '-M3'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 98
+        next: '-M3'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 104
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 107
+        next: '-M3'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 117
+        next: P1
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 142
+        next: +d4
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 157
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 159
+        next: +m2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 168
+        next: +m3
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 170
+        next: P1
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 174
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 184
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 186
+        next: +m2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 194
+        next: P1
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 199
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 210
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 211
+        next: +m2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 +M3:
     -
         lineIndex: 72
@@ -9601,6 +9816,36 @@
         next: +m2
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 70
+        next: '-M2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 193
+        next: +m2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 29
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 108
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 165
+        next: +m2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 146
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 +M6:
     -
         lineIndex: 72
@@ -11293,6 +11538,71 @@
         next: '-M2'
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 27
+        next: '-M3'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 126
+        next: '-P5'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 163
+        next: r
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 176
+        next: P1
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 202
+        next: P1
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 49
+        next: '-m2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 117
+        next: P1
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 30
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 114
+        next: +m2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 126
+        next: '-m3'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 209
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 +P5:
     -
         lineIndex: 76
@@ -12259,6 +12569,31 @@
         next: P1
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 93
+        next: '-P5'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 139
+        next: '-P5'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 38
+        next: P1
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 40
+        next: P1
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 77
+        next: '-P4'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 +P8:
     -
         lineIndex: 93
@@ -12575,6 +12910,16 @@
         next: '-M3'
         spine: 3
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 41
+        next: P1
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 50
+        next: '-M2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
 +d4:
     -
         lineIndex: 161
@@ -12646,6 +12991,11 @@
         next: P1
         spine: 5
         triciniumId: 40-beatus-qui-intelligit
+    -
+        lineIndex: 144
+        next: +M3
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 +m2:
     -
         lineIndex: 27
@@ -17982,6 +18332,116 @@
         next: '-m2'
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 68
+        next: +M3
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 89
+        next: '-P4'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 110
+        next: +M2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 121
+        next: '-P8'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 170
+        next: r
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 183
+        next: '-P4'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 194
+        next: r
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 209
+        next: '-P4'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 42
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 86
+        next: '-m3'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 91
+        next: '-m2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 98
+        next: '-P4'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 107
+        next: +M3
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 168
+        next: P1
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 34
+        next: '-P8'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 116
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 160
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 163
+        next: '-P4'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 187
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 191
+        next: '-P4'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 212
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 216
+        next: null
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 +m3:
     -
         lineIndex: 115
@@ -20263,6 +20723,66 @@
         next: '-m2'
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 24
+        next: '-m2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 115
+        next: '-m2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 147
+        next: '-P4'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 155
+        next: '-P4'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 129
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 146
+        next: '-m2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 178
+        next: '-m3'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 204
+        next: '-m3'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 26
+        next: P1
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 82
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 169
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 +m6:
     -
         lineIndex: 162
@@ -20589,6 +21109,11 @@
         next: P1
         spine: 1
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 130
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 '-M2':
     -
         lineIndex: 32
@@ -30885,6 +31410,266 @@
         next: +M2
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 58
+        next: P1
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 65
+        next: +M2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 72
+        next: '-m2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 75
+        next: +m3
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 78
+        next: '-m2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 84
+        next: '-m3'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 27
+        next: +M3
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 32
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 34
+        next: P1
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 61
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 62
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 68
+        next: r
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 75
+        next: '-m2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 83
+        next: '-m2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 95
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 110
+        next: P1
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 114
+        next: '-m3'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 133
+        next: '-m3'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 144
+        next: +m3
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 151
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 153
+        next: '-m2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 159
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 160
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 163
+        next: +M3
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 186
+        next: P1
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 191
+        next: P1
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 211
+        next: P1
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 216
+        next: null
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 51
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 52
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 71
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 74
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 75
+        next: +P5
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 125
+        next: +P4
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 134
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 135
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 137
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 141
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 150
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 151
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 155
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 175
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 176
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 177
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 182
+        next: +P4
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 200
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 202
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 203
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 208
+        next: +P4
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 '-M3':
     -
         lineIndex: 77
@@ -32001,6 +32786,26 @@
         next: +M3
         spine: 1
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 29
+        next: '-P4'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 92
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 108
+        next: '-m2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 '-P4':
     -
         lineIndex: 55
@@ -33467,6 +34272,56 @@
         next: '-m3'
         spine: 3
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 32
+        next: +M2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 91
+        next: +P5
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 150
+        next: +M2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 159
+        next: +P4
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 186
+        next: P1
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 211
+        next: P1
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 101
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 79
+        next: +m3
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 165
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 193
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 '-P5':
     -
         lineIndex: 72
@@ -34923,6 +35778,46 @@
         next: +M2
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 49
+        next: +P8
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 98
+        next: r
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 128
+        next: +M2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 144
+        next: +m3
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 191
+        next: +M3
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 216
+        next: null
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 45
+        next: +P4
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 89
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 '-P8':
     -
         lineIndex: 166
@@ -35159,6 +36054,21 @@
         next: +M2
         spine: 1
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 123
+        next: +M2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 38
+        next: +P5
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 63
+        next: r
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 '-m2':
     -
         lineIndex: 30
@@ -42005,6 +42915,141 @@
         next: '-M2'
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 26
+        next: +P4
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 64
+        next: '-M2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 74
+        next: '-M2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 82
+        next: '-M2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 117
+        next: P1
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 182
+        next: +m2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 208
+        next: +m2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 56
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 84
+        next: +m2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 94
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 150
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 156
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 23
+        next: +m3
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 33
+        next: +m2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 72
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 83
+        next: r
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 111
+        next: +P4
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 131
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 140
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 152
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 162
+        next: +m2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 178
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 189
+        next: +m2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 204
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 214
+        next: +m2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 '-m3':
     -
         lineIndex: 26
@@ -44356,6 +45401,61 @@
         next: +P4
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 45
+        next: '-P5'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 85
+        next: +m2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 40
+        next: +m2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 89
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 115
+        next: +P4
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 135
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 183
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 209
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 44
+        next: P1
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 128
+        next: '-m3'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 129
+        next: +m6
+        spine: 5
+        triciniumId: 42-iudica-me-deus
 P1:
     -
         lineIndex: 25
@@ -50032,3 +51132,128 @@ P1:
         next: +M2
         spine: 5
         triciniumId: 41-quemadmodum-desiderat
+    -
+        lineIndex: 44
+        next: '-m3'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 60
+        next: '-m2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 118
+        next: +m2
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 179
+        next: '-m2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 189
+        next: '-P5'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 205
+        next: '-m2'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 214
+        next: '-P5'
+        spine: 1
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 22
+        next: P1
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 23
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 36
+        next: +P5
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 39
+        next: '-m3'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 111
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 119
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 171
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 188
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 196
+        next: +M2
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 213
+        next: '-M2'
+        spine: 3
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 29
+        next: +P4
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 41
+        next: '-m3'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 46
+        next: +P4
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 118
+        next: P1
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 121
+        next: P1
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 173
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 198
+        next: +M2
+        spine: 5
+        triciniumId: 42-iudica-me-deus

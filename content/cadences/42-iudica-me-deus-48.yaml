@@ -1,0 +1,129 @@
+degree: 1
+endBeat: 48
+endLine: 70
+filename: 17de99c4-dfb9-5031-90dd-6ad058897ff6.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: _2
+        beat: 0
+        cantus:
+            fbInterval: '4'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '2'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 1
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 2
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 3
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '2'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 3.5
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '1'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 4
+        cantus:
+            fbInterval: ~4
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '2'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 5
+        cantus:
+            fbInterval: ~3
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 6+
+        beat: 5.5
+        cantus:
+            fbInterval: ~2
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '4'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 6
+        cantus:
+            fbInterval: ~3
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: .
+            scaleDegree: r
+        tenor:
+            fbInterval: '1'
+            scaleDegree: '1'
+startBeat: 41
+startLine: 56
+triciniumId: 42-iudica-me-deus
+ultima: f
+voices:
+    bassus:
+        penultima: 7
+        ultima: 1
+    cantus:
+        penultima: 5
+        ultima: 0
+    tenor:
+        penultima: 2
+        ultima: 1
