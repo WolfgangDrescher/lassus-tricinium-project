@@ -1,0 +1,31 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 43
+!!!OTL@@LA: Deus auribus nostris
+!!!OTL-incipit@@DE: Wir haben Herr mit unsern ohren
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefG2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*a:aeo	*	*a:aeo	*	*a:aeo	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+1f	ta-	4b-]	.	2.cc	ta-
+.	.	4a	.	.	.
+.	.	2.a	.	.	.
+.	.	.	.	8b	.
+.	.	.	.	8a	.
+=16	=16	=16	=16	=16	=16
+2e	-gen/	.	.	1b	.
+.	.	8g#i	.	.	.
+.	.	8f#i	.	.	.
+4r	.	2g#i	.	.	.
+4e	das	.	.	.	.
+[4f	du	[4a	-gen/	4a	-gen/
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental

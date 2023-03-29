@@ -9000,6 +9000,206 @@
         next: +m2
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 35
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 44
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 45
+        next: +m2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 69
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 72
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 97
+        next: P1
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 101
+        next: '-M3'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 105
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 106
+        next: +m2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 139
+        next: +m3
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 158
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 161
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 101
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 103
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 150
+        next: +m2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 158
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 178
+        next: +M2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 179
+        next: +m2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 188
+        next: +m2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 37
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 38
+        next: +m2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 41
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 42
+        next: '-P5'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 50
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 51
+        next: +m2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 57
+        next: +m2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 75
+        next: +m2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 80
+        next: '-m3'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 92
+        next: P1
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 94
+        next: '-P5'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 99
+        next: +m2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 119
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 120
+        next: +m2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 130
+        next: +m2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 147
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 156
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 159
+        next: '-M3'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 183
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 +M3:
     -
         lineIndex: 72
@@ -9846,6 +10046,21 @@
         next: '-M2'
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 32
+        next: '-P5'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 65
+        next: P1
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 134
+        next: P1
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 +M6:
     -
         lineIndex: 72
@@ -11603,6 +11818,31 @@
         next: +M2
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 120
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 163
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 169
+        next: '-M3'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 82
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 176
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 +P5:
     -
         lineIndex: 76
@@ -12594,6 +12834,21 @@
         next: '-P4'
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 51
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 111
+        next: r
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 123
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
 +P8:
     -
         lineIndex: 93
@@ -12920,6 +13175,11 @@
         next: '-M2'
         spine: 1
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 68
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
 +d4:
     -
         lineIndex: 161
@@ -18442,6 +18702,106 @@
         next: null
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 50
+        next: '-m2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 107
+        next: r
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 152
+        next: P1
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 45
+        next: '-P5'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 72
+        next: '-m3'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 75
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 107
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 152
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 161
+        next: '-m3'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 183
+        next: '-m3'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 190
+        next: null
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 40
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 52
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 58
+        next: r
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 76
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 87
+        next: +m3
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 101
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 103
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 123
+        next: '-m3'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 132
+        next: +M3
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 +m3:
     -
         lineIndex: 115
@@ -20783,6 +21143,81 @@
         next: +M2
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 32
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 67
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 141
+        next: '-m2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 184
+        next: '-m2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 42
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 65
+        next: '-P4'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 139
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 29
+        next: P1
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 35
+        next: '-P4'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 63
+        next: +M3
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 109
+        next: P1
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 125
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 154
+        next: P1
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 +m6:
     -
         lineIndex: 162
@@ -21114,6 +21549,11 @@
         next: '-m2'
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 23
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
 '-M2':
     -
         lineIndex: 32
@@ -31670,6 +32110,211 @@
         next: +P4
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 37
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 40
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 58
+        next: r
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 75
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 80
+        next: '-m2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 87
+        next: r
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 119
+        next: +P4
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 123
+        next: '-m2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 132
+        next: '-m3'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 164
+        next: '-m2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 183
+        next: +m3
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 190
+        next: null
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 32
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 33
+        next: r
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 54
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 87
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 90
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 92
+        next: r
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 119
+        next: '-m3'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 125
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 127
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 149
+        next: +M2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 173
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 174
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 187
+        next: +M2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 45
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 56
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 107
+        next: +m3
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 116
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 117
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 129
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 139
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 141
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 145
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 152
+        next: +m3
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 164
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 177
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 185
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 '-M3':
     -
         lineIndex: 77
@@ -32806,6 +33451,46 @@
         next: '-m2'
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 176
+        next: '-m2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 83
+        next: +M2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 134
+        next: '-P4'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 170
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 78
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 162
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 173
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 '-P4':
     -
         lineIndex: 55
@@ -34322,6 +35007,26 @@
         next: +M2
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 20
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 67
+        next: +P8
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 137
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 36
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 '-P5':
     -
         lineIndex: 72
@@ -35818,6 +36523,36 @@
         next: +M2
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 30
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 47
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 33
+        next: +m3
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 44
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 69
+        next: r
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 97
+        next: P1
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 '-P8':
     -
         lineIndex: 166
@@ -43050,6 +43785,166 @@
         next: +m2
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 51
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 125
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 147
+        next: r
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 167
+        next: r
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 177
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 185
+        next: P1
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 29
+        next: '-P5'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 40
+        next: +m3
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 44
+        next: +m2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 58
+        next: r
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 70
+        next: +m2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 78
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 89
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 106
+        next: +m2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 132
+        next: '-M3'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 142
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 148
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 171
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 186
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 55
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 77
+        next: '-M3'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 85
+        next: +m2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 102
+        next: +m2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 105
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 114
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 128
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 163
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 167
+        next: r
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 174
+        next: +P4
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 190
+        next: null
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 '-m3':
     -
         lineIndex: 26
@@ -45456,6 +46351,46 @@
         next: +m6
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 134
+        next: +m3
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 74
+        next: +m2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 120
+        next: +P5
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 162
+        next: +P4
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 167
+        next: +P4
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 184
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 81
+        next: +P4
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 124
+        next: +m3
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
 P1:
     -
         lineIndex: 25
@@ -51257,3 +52192,148 @@ P1:
         next: +M2
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 30
+        next: +m3
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 98
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 114
+        next: P1
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 156
+        next: +M2
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 188
+        next: '-M2'
+        spine: 1
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 21
+        next: +m6
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 27
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 50
+        next: +P5
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 80
+        next: '-M3'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 102
+        next: +M2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 109
+        next: +P5
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 114
+        next: P1
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 138
+        next: +m3
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 143
+        next: '-m2'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 155
+        next: +M2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 159
+        next: +m2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 165
+        next: '-m3'
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 176
+        next: +M2
+        spine: 3
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 27
+        next: +m3
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 31
+        next: +M3
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 67
+        next: '-P5'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 98
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 111
+        next: P1
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 112
+        next: '-m2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 137
+        next: '-M2'
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 155
+        next: +M2
+        spine: 5
+        triciniumId: 43-deus-auribus-nostris
