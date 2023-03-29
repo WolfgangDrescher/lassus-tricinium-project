@@ -43,10 +43,10 @@ defineProps({
         </template>
         <div class="flex flex-col gap-4 mt-4">
             <div v-if="scoreDisplay === 'lassus' && tricinium.localRawFile">
-                <VerovioCanvas :url="tricinium.localRawFile" :select="{measureRange: '1-4'}" view-mode="horizontal" :scale="35" lazy unload :lazy-delay="100" />
+                <VerovioCanvas :url="tricinium.localRawFile" :select="{measureRange: '1-4'}" view-mode="horizontal" :scale="35" lazy unload :lazy-delay="100" :options="{ pageMarginBottom: 30 }" />
             </div>
             <div v-else-if="scoreDisplay === 'ulenberg'">
-                <VerovioCanvas :url="tricinium.localUlenbergRawFile" view-mode="horizontal" :scale="35" lazy />
+                <VerovioCanvas :url="tricinium.localUlenbergRawFile" view-mode="horizontal" :scale="35" lazy :options="{ pageMarginBottom: 30 }" />
             </div>
             <div v-if="showLyrics && tricinium.hasLyrics" class="text-sm leading-5 text-gray-600">
                 {{ tricinium.lyricsAsString() }}
