@@ -1,0 +1,41 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 44
+!!!OTL@@LA: Eructavit cor meum
+!!!OTL-incipit@@DE: Mein hertz herfür wil bringen
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC2	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+2E	Hel-	4g	hel-	8cc]	.
+.	.	.	.	8b	.
+.	.	4g	-den	8b	.
+.	.	.	.	16a	.
+.	.	.	.	16g	.
+2D	-den	4f	eh-	4a	.
+.	.	8e	.	8g	.
+.	.	8d	.	8f	.
+=26	=26	=26	=26	=26	=26
+1.A	eh-	4c#	.	4e	.
+.	.	4d	.	4d	.
+.	.	4e	.	4c#	.
+.	.	4d	.	4d	.
+.	.	4c#X	.	4e	.
+.	.	2d	.	4f	-den
+*	*	*	*	*	*Xij
+2A	-ren	.	.	4.e	eh-
+.	.	4c#X	-ren	.	.
+.	.	.	.	8e	-ren
+=27	=27	=27	=27	=27	=27
+0Dll	reich.	0dll	reich.	0dll	reich.
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental

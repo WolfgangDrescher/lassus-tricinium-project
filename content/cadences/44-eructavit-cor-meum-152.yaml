@@ -1,0 +1,85 @@
+degree: 3
+endBeat: 152
+endLine: 160
+filename: ec403a41-dd04-52d9-8829-4d20a387892f.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 4+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: _6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 2
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 4+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 3
+        cantus:
+            fbInterval: '2'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '4'
+            scaleDegree: 4+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 4
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: 4+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 7+
+        beat: 6
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '5'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '5'
+startBeat: 146
+startLine: 152
+triciniumId: 44-eructavit-cor-meum
+ultima: f
+voices:
+    bassus:
+        penultima: 7
+        ultima: 1
+    cantus:
+        penultima: 2
+        ultima: 3
+    tenor:
+        penultima: 4
+        ultima: 5

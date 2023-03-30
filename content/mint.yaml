@@ -9200,6 +9200,201 @@
         next: '-M2'
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 31
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 35
+        next: '-P5'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 77
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 82
+        next: '-P5'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 124
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 152
+        next: '-M2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 184
+        next: +M2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 185
+        next: r
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 29
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 31
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 41
+        next: +d4
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 64
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 65
+        next: '-P5'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 74
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 77
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 88
+        next: +d4
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 119
+        next: '-m3'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 139
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 149
+        next: '-m3'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 160
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 162
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 171
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 174
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 210
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 50
+        next: +P4
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 57
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 58
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 97
+        next: +P4
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 104
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 105
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 128
+        next: P1
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 152
+        next: '-M3'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 158
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 161
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 171
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 175
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 184
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 203
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 212
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 +M3:
     -
         lineIndex: 72
@@ -10061,6 +10256,41 @@
         next: P1
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 46
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 57
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 93
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 104
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 117
+        next: '-M3'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 125
+        next: '-P4'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 118
+        next: '-P4'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 +M6:
     -
         lineIndex: 72
@@ -11843,6 +12073,46 @@
         next: '-M2'
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 114
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 143
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 167
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 98
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 122
+        next: '-P4'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 143
+        next: P1
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 194
+        next: '-P4'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 +P5:
     -
         lineIndex: 76
@@ -12849,6 +13119,36 @@
         next: '-M2'
         spine: 3
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 176
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 208
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 190
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 44
+        next: '-M3'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 71
+        next: +m3
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 91
+        next: '-M3'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 +P8:
     -
         lineIndex: 93
@@ -13180,6 +13480,21 @@
         next: '-m2'
         spine: 3
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 111
+        next: '-P4'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 131
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 196
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 +d4:
     -
         lineIndex: 161
@@ -13256,6 +13571,16 @@
         next: +M3
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 42
+        next: +M3
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 89
+        next: +M3
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
 +m2:
     -
         lineIndex: 27
@@ -18802,6 +19127,161 @@
         next: +M3
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 58
+        next: '-P5'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 105
+        next: '-P5'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 158
+        next: r
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 36
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 61
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 83
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 108
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 114
+        next: +M3
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 124
+        next: +M3
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 131
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 156
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 164
+        next: '-P4'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 175
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 181
+        next: '-m3'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 209
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 213
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 219
+        next: null
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 36
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 48
+        next: '-m3'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 56
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 61
+        next: '-P8'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 83
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 95
+        next: '-m3'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 108
+        next: '-P4'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 162
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 181
+        next: '-P4'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 185
+        next: '-P4'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 211
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 213
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 +m3:
     -
         lineIndex: 115
@@ -21218,6 +21698,71 @@
         next: P1
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 72
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 123
+        next: +M2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 170
+        next: '-m2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 195
+        next: '-m2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 68
+        next: '-P4'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 185
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 20
+        next: r
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 27
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 65
+        next: '-m3'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 73
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 112
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 120
+        next: +P4
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 +m6:
     -
         lineIndex: 162
@@ -32315,6 +32860,196 @@
         next: '-m2'
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 119
+        next: '-m3'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 128
+        next: '-m3'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 136
+        next: '-m2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 154
+        next: '-m2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 175
+        next: +P5
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 203
+        next: +P5
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 32
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 40
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 50
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 78
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 87
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 97
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 98
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 169
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 170
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 189
+        next: +P5
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 198
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 203
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 205
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 211
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 42
+        next: +P5
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 89
+        next: +P5
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 114
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 117
+        next: +M3
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 139
+        next: +P4
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 166
+        next: P1
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 189
+        next: r
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 201
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 202
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 204
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 205
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 209
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 219
+        next: null
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 '-M3':
     -
         lineIndex: 77
@@ -33491,6 +34226,46 @@
         next: '-m2'
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 149
+        next: +M2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 56
+        next: +M3
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 103
+        next: +M3
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 118
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 148
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 46
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 93
+        next: '-m2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 153
+        next: P1
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 '-P4':
     -
         lineIndex: 55
@@ -35027,6 +35802,61 @@
         next: +M2
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 112
+        next: +P4
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 72
+        next: +M2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 128
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 166
+        next: +P4
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 111
+        next: +m3
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 119
+        next: +m3
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 123
+        next: r
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 188
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 195
+        next: +P8
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 '-P5':
     -
         lineIndex: 72
@@ -36553,6 +37383,56 @@
         next: P1
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 42
+        next: r
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 61
+        next: r
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 89
+        next: r
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 108
+        next: +P8
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 181
+        next: +m3
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 219
+        next: null
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 66
+        next: +m3
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 35
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 82
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 130
+        next: +P8
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 '-P8':
     -
         lineIndex: 166
@@ -36804,6 +37684,11 @@
         next: r
         spine: 5
         triciniumId: 42-iudica-me-deus
+    -
+        lineIndex: 63
+        next: +m3
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 '-m2':
     -
         lineIndex: 30
@@ -43945,6 +44830,191 @@
         next: null
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 57
+        next: +m2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 104
+        next: +m2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 139
+        next: +P4
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 155
+        next: +m2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 174
+        next: '-M2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 198
+        next: '-M2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 35
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 39
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 55
+        next: '-M3'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 82
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 86
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 102
+        next: '-M3'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 112
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 134
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 168
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 176
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 188
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 204
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 208
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 212
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 216
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 32
+        next: '-P5'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 38
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 47
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 55
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 78
+        next: '-P5'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 85
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 94
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 102
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 113
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 165
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 177
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 199
+        next: P1
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 208
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 210
+        next: +m2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 215
+        next: P1
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 '-m3':
     -
         lineIndex: 26
@@ -46391,6 +47461,61 @@
         next: +m3
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 122
+        next: +m3
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 130
+        next: '-M2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 167
+        next: +m3
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 194
+        next: +m3
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 120
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 153
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 184
+        next: +m3
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 49
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 68
+        next: +P5
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 96
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 149
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
 P1:
     -
         lineIndex: 25
@@ -52337,3 +53462,168 @@ P1:
         next: +M2
         spine: 5
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 73
+        next: +M2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 80
+        next: +M2
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 117
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 118
+        next: '-M2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 125
+        next: '-M2'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 146
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 147
+        next: P1
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 148
+        next: '-M3'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 178
+        next: '-P5'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 215
+        next: '-P5'
+        spine: 1
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 59
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 106
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 111
+        next: '-m2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 123
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 130
+        next: +m2
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 135
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 142
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 144
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 146
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 147
+        next: '-M3'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 194
+        next: P1
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 196
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 200
+        next: '-M2'
+        spine: 3
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 129
+        next: '-P5'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 146
+        next: P1
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 147
+        next: P1
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 148
+        next: '-m3'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 156
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 167
+        next: +M2
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 200
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 217
+        next: '-M2'
+        spine: 5
+        triciniumId: 44-eructavit-cor-meum
