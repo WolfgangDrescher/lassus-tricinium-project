@@ -9395,6 +9395,206 @@
         next: +m2
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 35
+        next: '-P4'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 42
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 43
+        next: '-M3'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 77
+        next: +P5
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 82
+        next: +m2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 89
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 91
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 93
+        next: +m2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 100
+        next: +m2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 128
+        next: '-M2'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 155
+        next: '-M2'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 27
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 28
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 32
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 33
+        next: '-P5'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 42
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 51
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 52
+        next: '-P5'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 57
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 60
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 62
+        next: r
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 83
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 90
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 96
+        next: +m6
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 100
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 106
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 135
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 147
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 148
+        next: +P4
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 159
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 56
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 59
+        next: +M2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 60
+        next: +m2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 75
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 86
+        next: +M2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 89
+        next: +m2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 131
+        next: P1
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 134
+        next: +m2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 156
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 +M3:
     -
         lineIndex: 72
@@ -10291,12 +10491,43 @@
         next: '-P4'
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 50
+        next: '-M3'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 64
+        next: '-M2'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 154
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 36
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 +M6:
     -
         lineIndex: 72
         next: '-M2'
         spine: 1
         triciniumId: 38-dixi-custodiam
++M9:
+    -
+        lineIndex: 113
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
 +P4:
     -
         lineIndex: 65
@@ -12113,6 +12344,31 @@
         next: '-P4'
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 26
+        next: '-M3'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 134
+        next: '-P5'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 120
+        next: '-m2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 150
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 120
+        next: P1
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 +P5:
     -
         lineIndex: 76
@@ -13149,6 +13405,41 @@
         next: '-M3'
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 49
+        next: +M3
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 79
+        next: P1
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 116
+        next: +m2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 122
+        next: r
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 138
+        next: r
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 148
+        next: r
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 52
+        next: P1
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 +P8:
     -
         lineIndex: 93
@@ -19282,6 +19573,126 @@
         next: '-m2'
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 39
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 75
+        next: '-P4'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 83
+        next: '-P5'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 96
+        next: '-m3'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 101
+        next: '-P4'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 113
+        next: '-m2'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 119
+        next: '-m3'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 29
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 43
+        next: '-m3'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 59
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 74
+        next: +M3
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 82
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 86
+        next: '-m3'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 92
+        next: '-m3'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 107
+        next: r
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 128
+        next: '-m2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 155
+        next: '-m2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 161
+        next: null
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 62
+        next: r
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 91
+        next: '-P4'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 115
+        next: '-m2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 125
+        next: r
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 135
+        next: P1
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 140
+        next: r
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 +m3:
     -
         lineIndex: 115
@@ -21763,6 +22174,16 @@
         next: +P4
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 116
+        next: '-P5'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 82
+        next: +M2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 +m6:
     -
         lineIndex: 162
@@ -22099,6 +22520,21 @@
         next: P1
         spine: 3
         triciniumId: 43-deus-auribus-nostris
+    -
+        lineIndex: 36
+        next: '-m2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 97
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 131
+        next: '-P5'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
 '-M2':
     -
         lineIndex: 32
@@ -33050,6 +33486,196 @@
         next: null
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 60
+        next: '-M2'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 62
+        next: +M3
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 66
+        next: '-M2'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 68
+        next: '-m2'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 129
+        next: '-P5'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 156
+        next: '-P5'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 25
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 41
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 49
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 56
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 67
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 69
+        next: '-m2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 77
+        next: '-m2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 101
+        next: '-m2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 105
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 114
+        next: '-m3'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 138
+        next: r
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 151
+        next: +M3
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 158
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 33
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 35
+        next: +M3
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 39
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 43
+        next: r
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 57
+        next: +M2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 72
+        next: +M2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 77
+        next: '-m2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 97
+        next: '-m2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 103
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 107
+        next: r
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 119
+        next: +P4
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 148
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 150
+        next: '-m2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 154
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 155
+        next: +M2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 161
+        next: null
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 '-M3':
     -
         lineIndex: 77
@@ -34266,6 +34892,31 @@
         next: P1
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 28
+        next: '-P4'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 45
+        next: P1
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 53
+        next: r
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 146
+        next: +P5
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 143
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
 '-P4':
     -
         lineIndex: 55
@@ -35857,6 +36508,36 @@
         next: +P8
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 37
+        next: +m2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 76
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 103
+        next: P1
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 154
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 93
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 '-P5':
     -
         lineIndex: 72
@@ -37433,6 +38114,51 @@
         next: +P8
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 86
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 115
+        next: +P5
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 131
+        next: '-m3'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 135
+        next: +P5
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 161
+        next: null
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 35
+        next: +m6
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 53
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 119
+        next: +P4
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 132
+        next: '-m3'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
 '-P8':
     -
         lineIndex: 166
@@ -45015,6 +45741,86 @@
         next: P1
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 72
+        next: +m2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 114
+        next: '-P5'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 40
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 73
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 79
+        next: P1
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 104
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 122
+        next: r
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 129
+        next: +m6
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 157
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 66
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 79
+        next: +m3
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 101
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 116
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 123
+        next: +m2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 139
+        next: +m2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 151
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 '-m3':
     -
         lineIndex: 26
@@ -47516,6 +48322,71 @@
         next: +M2
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 59
+        next: '-M2'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 97
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 120
+        next: +P5
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 132
+        next: +P4
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 143
+        next: '-M3'
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 24
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 45
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 88
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 115
+        next: +m3
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 134
+        next: +M2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 31
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 146
+        next: '-M2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
 P1:
     -
         lineIndex: 25
@@ -53627,3 +54498,58 @@ P1:
         next: '-M2'
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 46
+        next: +P5
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 81
+        next: +M2
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 106
+        next: r
+        spine: 1
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 20
+        next: P1
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 21
+        next: '-m3'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 81
+        next: +m2
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 28
+        next: '-m3'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 53
+        next: +M2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 122
+        next: '-m2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 132
+        next: +M2
+        spine: 5
+        triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 138
+        next: '-m2'
+        spine: 5
+        triciniumId: 45-deus-noster-refugium

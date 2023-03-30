@@ -1,0 +1,74 @@
+degree: 4
+endBeat: 48
+endLine: 64
+filename: 265e2a82-ef6c-5c94-bdb7-ae9e10a3bb51.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 0
+        cantus:
+            fbInterval: .
+            scaleDegree: 3+
+        tenor:
+            fbInterval: .
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 2
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 4
+        cantus:
+            fbInterval: '8'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '-6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '2'
+        beat: 6
+        cantus:
+            fbInterval: '3'
+            scaleDegree: 4+
+        tenor:
+            fbInterval: '8'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
+        beat: 8
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 3+
+startBeat: 42
+startLine: 56
+triciniumId: 45-deus-noster-refugium
+ultima: b-
+voices:
+    bassus:
+        penultima: 2
+        ultima: 1
+    cantus:
+        penultima: 4
+        ultima: 5
+    tenor:
+        penultima: 2
+        ultima: 3
