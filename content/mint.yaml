@@ -9596,295 +9596,425 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 27
+        lineIndex: 28
         next: +m2
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 41
+        lineIndex: 42
         next: '-M2'
         spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 48
+        next: '-M2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 63
+        next: +M2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 64
+        next: +m2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 134
+        next: +M2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 136
+        next: r
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 156
+        next: '-M2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 180
+        next: +M2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 183
+        next: r
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 215
+        next: +M2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 219
+        next: +m2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 244
+        next: +M2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 248
+        next: +m2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 32
+        next: +M2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 36
+        next: '-P5'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 39
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 46
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 69
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 83
+        next: r
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 99
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 117
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 129
+        next: +M2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 130
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 165
+        next: +M2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 166
+        next: +m3
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 183
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 186
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 209
+        next: +M2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 211
+        next: '-M3'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 219
+        next: +M2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 222
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 235
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 255
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 32
+        next: +m2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 39
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 46
+        next: r
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 69
+        next: +M2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 72
+        next: '-P5'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 76
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 83
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 101
+        next: +m2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 104
+        next: +M2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 105
+        next: +m2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 114
+        next: P1
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 154
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 173
+        next: +M2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 174
+        next: '-P4'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 200
+        next: '-m2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 209
+        next: +m2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 227
+        next: +m2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 235
+        next: +M2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 239
+        next: '-M3'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 248
+        next: +M2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 251
+        next: '-M2'
+        spine: 5
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 47
         next: '-M2'
         spine: 1
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 62
+        lineIndex: 55
+        next: +P5
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 72
+        next: '-P5'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 85
+        next: '-M3'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 104
         next: +M2
         spine: 1
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 63
+        lineIndex: 106
+        next: '-M3'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 112
         next: +m2
         spine: 1
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 77
-        next: '-M2'
+        lineIndex: 140
+        next: '-P4'
         spine: 1
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 83
-        next: '-M2'
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 133
-        next: +M2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 135
-        next: r
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 155
-        next: '-M2'
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 179
-        next: +M2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 182
-        next: r
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 214
-        next: +M2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 218
+        lineIndex: 24
         next: +m2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 243
-        next: +M2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 247
-        next: +m2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 31
-        next: +M2
         spine: 3
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
         lineIndex: 35
-        next: '-P5'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 38
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 45
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 68
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 75
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 82
-        next: r
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 98
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 116
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 128
-        next: +M2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 129
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 164
-        next: +M2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 165
         next: +m3
         spine: 3
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 182
+        lineIndex: 61
         next: +m2
         spine: 3
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 185
+        lineIndex: 70
         next: +m2
         spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 208
-        next: +M2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 210
-        next: '-M3'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 218
-        next: +M2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 221
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 234
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 254
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 31
-        next: +m2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 38
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 45
-        next: r
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 68
-        next: +M2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 71
-        next: '-P5'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 75
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
         lineIndex: 82
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 100
         next: +m2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 103
-        next: +M2
-        spine: 5
-        triciniumId: 46-omnes-gentes
+        spine: 3
+        triciniumId: 47-magnus-dominus
     -
         lineIndex: 104
         next: +m2
-        spine: 5
-        triciniumId: 46-omnes-gentes
+        spine: 3
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 113
+        lineIndex: 117
+        next: +m3
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 127
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 129
+        next: +P4
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 138
+        next: +m2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 158
+        next: +m2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 24
+        next: +M2
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 26
+        next: +m3
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 68
         next: P1
         spine: 5
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 153
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 172
-        next: +M2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 173
-        next: '-P4'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 199
-        next: '-m2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 208
+        lineIndex: 71
         next: +m2
         spine: 5
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 226
-        next: +m2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 234
+        lineIndex: 112
         next: +M2
         spine: 5
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 238
-        next: '-M3'
+        lineIndex: 115
+        next: P1
         spine: 5
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 247
-        next: +M2
+        lineIndex: 160
+        next: null
         spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 250
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
+        triciniumId: 47-magnus-dominus
 +M3:
     -
         lineIndex: 72
@@ -10807,40 +10937,65 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 121
+        lineIndex: 122
         next: '-P8'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 158
+        lineIndex: 159
         next: '-M2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 213
+        lineIndex: 214
         next: +m2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 240
+        lineIndex: 241
         next: '-P5'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 126
+        lineIndex: 127
         next: +m3
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 212
+        lineIndex: 213
         next: '-P5'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 242
+        lineIndex: 243
         next: +m2
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 29
+        next: '-M2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 65
+        next: '-M2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 88
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 91
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 118
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
 +M6:
     -
         lineIndex: 72
@@ -12695,30 +12850,80 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 109
+        lineIndex: 110
         next: '-M3'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 41
+        lineIndex: 42
         next: '-M2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 110
+        lineIndex: 111
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 77
+        lineIndex: 78
         next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 92
+        lineIndex: 93
         next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 101
+        next: +M2
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 45
+        next: r
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 51
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 78
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 130
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 154
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 41
+        next: P1
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 111
+        next: +M2
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 134
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 154
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
 +P5:
     -
         lineIndex: 76
@@ -13791,15 +13996,50 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 145
+        lineIndex: 146
         next: r
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 179
+        lineIndex: 180
         next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 37
+        next: '-m3'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 58
+        next: P1
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 129
+        next: P1
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 149
+        next: '-m3'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 155
+        next: '-P5'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 27
+        next: '-P5'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 142
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
 +P8:
     -
         lineIndex: 93
@@ -14146,6 +14386,11 @@
         next: '-m2'
         spine: 5
         triciniumId: 44-eructavit-cor-meum
+    -
+        lineIndex: 92
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
 +d4:
     -
         lineIndex: 161
@@ -20054,175 +20299,235 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 26
+        lineIndex: 27
         next: +M2
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 29
+        lineIndex: 30
         next: '-m2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 66
+        lineIndex: 67
         next: '-m2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 178
+        lineIndex: 179
         next: +M2
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 221
+        lineIndex: 222
         next: '-m2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 250
+        lineIndex: 251
         next: '-m2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 26
+        lineIndex: 27
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 50
+        lineIndex: 51
         next: '-P4'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 66
+        lineIndex: 67
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 71
+        lineIndex: 72
         next: P1
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 94
+        lineIndex: 95
         next: '-m3'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 99
+        lineIndex: 100
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 118
+        lineIndex: 119
         next: +m3
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 141
+        lineIndex: 142
         next: r
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 155
+        lineIndex: 156
         next: +M3
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 170
+        lineIndex: 171
         next: '-m3'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 183
+        lineIndex: 184
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 188
+        lineIndex: 189
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 214
+        lineIndex: 215
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 238
+        lineIndex: 239
         next: +M3
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 256
+        lineIndex: 257
         next: null
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 29
+        lineIndex: 30
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 35
+        lineIndex: 36
         next: P1
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 62
+        lineIndex: 63
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 86
+        lineIndex: 87
         next: '-P4'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 102
+        lineIndex: 103
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 109
+        lineIndex: 110
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 171
+        lineIndex: 172
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 177
+        lineIndex: 178
         next: '-m3'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 188
+        lineIndex: 189
         next: '-P4'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 204
+        lineIndex: 205
         next: +m3
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 210
+        lineIndex: 211
         next: +M3
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 228
+        lineIndex: 229
         next: '-P4'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 243
+        lineIndex: 244
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 63
+        next: +M3
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 70
+        next: +M2
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 115
+        next: r
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 26
+        next: +P5
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 42
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 63
+        next: r
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 72
+        next: '-m3'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 85
+        next: '-P5'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 106
+        next: '-m3'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 140
+        next: +P5
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 160
+        next: null
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 73
+        next: '-m2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
 +m3:
     -
         lineIndex: 115
@@ -22715,125 +23020,155 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 121
+        lineIndex: 122
         next: r
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 127
+        lineIndex: 128
         next: P1
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 152
+        lineIndex: 153
         next: P1
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 198
+        lineIndex: 199
         next: P1
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 213
+        lineIndex: 214
         next: +M2
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 242
+        lineIndex: 243
         next: +M2
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 53
+        lineIndex: 54
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 120
+        lineIndex: 121
         next: +M3
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 126
+        lineIndex: 127
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 147
+        lineIndex: 148
         next: '-M2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 167
+        lineIndex: 168
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 207
+        lineIndex: 208
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 247
+        lineIndex: 248
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 250
+        lineIndex: 251
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 58
+        lineIndex: 59
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 89
+        lineIndex: 90
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 124
+        lineIndex: 125
         next: +M3
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 129
+        lineIndex: 130
         next: '-m3'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 145
+        lineIndex: 146
         next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 192
+        lineIndex: 193
         next: '-P4'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 206
+        lineIndex: 207
         next: '-m3'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 218
+        lineIndex: 219
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 221
+        lineIndex: 222
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 233
+        lineIndex: 234
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 95
+        next: '-P4'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 36
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 99
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 112
+        next: P1
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 118
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 29
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
 +m6:
     -
         lineIndex: 162
@@ -34327,335 +34662,595 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 31
+        lineIndex: 32
         next: '-M2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 32
+        lineIndex: 33
         next: '-m2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 35
+        lineIndex: 36
         next: r
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 42
+        lineIndex: 43
         next: '-m2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 45
+        lineIndex: 46
         next: +M2
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 53
+        lineIndex: 54
         next: P1
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 59
+        lineIndex: 60
         next: +M2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 68
-        next: '-M2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 69
-        next: '-m2'
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 71
-        next: r
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 78
-        next: '-m2'
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 82
-        next: +M2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 89
-        next: r
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 102
-        next: '-m3'
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 158
         next: '-M2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 161
+        lineIndex: 70
         next: '-m2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 175
+        lineIndex: 72
+        next: r
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 79
+        next: '-m2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 83
+        next: +M2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 90
+        next: r
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 103
         next: '-m3'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 204
+        lineIndex: 159
+        next: '-M2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 162
+        next: '-m2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 176
+        next: '-m3'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 205
         next: r
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 228
+        lineIndex: 229
         next: r
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 256
+        lineIndex: 257
         next: null
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 28
+        lineIndex: 29
         next: '-M2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 29
+        lineIndex: 30
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 39
+        lineIndex: 40
         next: +P4
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 44
+        lineIndex: 45
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 48
+        lineIndex: 49
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 76
+        lineIndex: 77
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 78
+        lineIndex: 79
         next: '-M2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 81
+        lineIndex: 82
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 91
+        lineIndex: 92
         next: '-m2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 103
-        next: '-M2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 104
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 105
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 109
+        lineIndex: 110
         next: +P4
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 115
+        lineIndex: 116
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 130
+        lineIndex: 131
         next: '-M2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 132
+        lineIndex: 133
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 136
+        lineIndex: 137
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 149
+        lineIndex: 150
         next: '-m2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 162
-        next: '-M2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 163
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 164
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 178
+        lineIndex: 179
         next: '-m3'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 200
+        lineIndex: 201
         next: P1
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 204
+        lineIndex: 205
         next: '-m3'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 223
+        lineIndex: 224
         next: '-m2'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 253
+        lineIndex: 254
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 39
+        lineIndex: 40
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 42
+        lineIndex: 43
         next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 44
+        lineIndex: 45
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 64
+        lineIndex: 65
         next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 66
+        lineIndex: 67
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 76
+        lineIndex: 77
         next: +P4
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 81
+        lineIndex: 82
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 84
+        lineIndex: 85
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 98
+        lineIndex: 99
         next: '-m3'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 112
+        lineIndex: 113
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 118
+        lineIndex: 119
         next: r
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 133
+        lineIndex: 134
         next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 136
+        lineIndex: 137
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 147
+        lineIndex: 148
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 152
+        lineIndex: 153
         next: +M2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 156
-        next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 157
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 158
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 161
+        lineIndex: 162
         next: r
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 169
+        lineIndex: 170
         next: '-m3'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 183
+        lineIndex: 184
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 225
+        lineIndex: 226
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 251
+        lineIndex: 252
         next: '-m2'
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 26
+        next: +M3
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 35
+        next: '-M2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 36
+        next: +P5
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 49
+        next: '-P4'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 68
+        next: '-m2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 76
+        next: r
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 124
+        next: '-m2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 127
+        next: '-M2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 128
+        next: +P5
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 143
+        next: '-M2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 144
+        next: r
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 32
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 50
+        next: +P4
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 56
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 60
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 69
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 77
+        next: +P4
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 81
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 91
+        next: +P8
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 95
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 103
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 125
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 133
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 134
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 137
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 143
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 146
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 147
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 157
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 35
+        next: '-m2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 37
+        next: +P4
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 47
+        next: '-m2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 53
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 55
+        next: '-m2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 85
+        next: r
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 94
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 98
+        next: '-m2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 101
+        next: P1
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 106
+        next: P1
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 120
+        next: r
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 127
+        next: '-m2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 129
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 130
+        next: '-m2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 135
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 140
+        next: r
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 146
+        next: '-m2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 149
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 150
+        next: '-m2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 155
+        next: +M2
+        spine: 5
+        triciniumId: 47-magnus-dominus
 '-M3':
     -
         lineIndex: 77
@@ -35898,25 +36493,55 @@
         spine: 3
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 110
+        lineIndex: 111
         next: '-m2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 172
+        lineIndex: 173
         next: r
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 212
+        lineIndex: 213
         next: +M3
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 240
+        lineIndex: 241
         next: +M3
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 45
+        next: +M2
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 88
+        next: '-P4'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 108
+        next: '-m3'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 154
+        next: +P5
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 150
+        next: +P4
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 117
+        next: +M3
+        spine: 5
+        triciniumId: 47-magnus-dominus
 '-P4':
     -
         lineIndex: 55
@@ -37539,40 +38164,60 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 51
+        lineIndex: 52
         next: +m3
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 233
+        lineIndex: 234
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 87
+        lineIndex: 88
         next: +m3
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 175
+        lineIndex: 176
         next: +m2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 190
+        lineIndex: 191
         next: +m3
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 198
+        lineIndex: 199
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 230
+        lineIndex: 231
         next: +m3
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 53
+        next: +M2
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 91
+        next: P1
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 98
+        next: r
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 142
+        next: '-M2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
 '-P5':
     -
         lineIndex: 72
@@ -39195,25 +39840,45 @@
         spine: 3
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 37
+        lineIndex: 38
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 242
+        lineIndex: 243
         next: P1
         spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 74
+        next: +M2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 214
+        next: P1
+        spine: 5
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 73
-        next: +M2
-        spine: 5
-        triciniumId: 46-omnes-gentes
+        next: '-M2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
     -
-        lineIndex: 213
-        next: P1
-        spine: 5
-        triciniumId: 46-omnes-gentes
+        lineIndex: 160
+        next: null
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 29
+        next: '-m2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 87
+        next: +M3
+        spine: 3
+        triciniumId: 47-magnus-dominus
 '-P8':
     -
         lineIndex: 166
@@ -39471,10 +40136,15 @@
         spine: 5
         triciniumId: 44-eructavit-cor-meum
     -
-        lineIndex: 124
+        lineIndex: 125
         next: +m3
         spine: 3
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 116
+        next: +M2
+        spine: 3
+        triciniumId: 47-magnus-dominus
 '-m2':
     -
         lineIndex: 30
@@ -46882,230 +47552,360 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 23
+        lineIndex: 24
         next: +m2
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 30
+        lineIndex: 31
         next: '-M2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 33
+        lineIndex: 34
         next: '-M2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 44
+        lineIndex: 45
         next: '-M2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 67
+        lineIndex: 68
         next: '-M2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 70
+        lineIndex: 71
         next: '-M2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 81
+        lineIndex: 82
         next: '-M2'
         spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 113
-        next: r
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 165
-        next: r
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 200
-        next: P1
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 223
-        next: '-M2'
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 251
-        next: '-M2'
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 23
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 27
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 49
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 55
-        next: P1
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 63
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 77
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 93
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 102
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 105
-        next: '-M2'
-        spine: 3
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 114
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 133
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 139
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 152
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 169
-        next: +m2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 192
-        next: P1
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 228
         next: r
-        spine: 3
+        spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 249
-        next: +m3
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 252
-        next: '-M2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 27
-        next: +m2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 41
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 59
-        next: +m2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 63
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 85
-        next: +m2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 91
-        next: +P4
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 111
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 138
+        lineIndex: 166
         next: r
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 149
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 158
-        next: '-M2'
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 186
-        next: +m2
-        spine: 5
+        spine: 1
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 201
-        next: +m2
-        spine: 5
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 220
-        next: +m3
-        spine: 5
+        next: P1
+        spine: 1
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 224
         next: '-M2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 252
+        next: '-M2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 24
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 28
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 50
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 56
+        next: P1
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 64
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 94
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 103
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 106
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 115
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 134
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 140
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 153
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 170
+        next: +m2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 193
+        next: P1
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 229
+        next: r
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 250
+        next: +m3
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 253
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 28
+        next: +m2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 256
+        lineIndex: 42
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 60
+        next: +m2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 64
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 86
+        next: +m2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 92
+        next: +P4
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 112
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 139
+        next: r
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 150
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 159
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 187
+        next: +m2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 202
+        next: +m2
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 221
+        next: +m3
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 225
+        next: '-M2'
+        spine: 5
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 257
         next: null
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 69
+        next: +m2
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 94
+        next: +m3
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 125
+        next: '-M2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 30
+        next: P1
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 37
+        next: P1
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 44
+        next: +P4
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 54
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 59
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 68
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 80
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 98
+        next: +m3
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 102
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 120
+        next: P1
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 136
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 149
+        next: '-M3'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 156
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 36
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 58
+        next: r
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 76
+        next: P1
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 99
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 128
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 133
+        next: +P4
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 147
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 153
+        next: +P4
+        spine: 5
+        triciniumId: 47-magnus-dominus
 '-m3':
     -
         lineIndex: 26
@@ -49673,60 +50473,90 @@
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 104
+        lineIndex: 105
         next: +P4
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 177
+        lineIndex: 178
         next: +m2
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 95
+        lineIndex: 96
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 171
+        lineIndex: 172
         next: '-M3'
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 179
+        lineIndex: 180
         next: +M2
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 206
+        lineIndex: 207
         next: +m3
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 99
+        lineIndex: 100
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 132
+        lineIndex: 133
         next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 170
+        lineIndex: 171
         next: +m2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 178
+        lineIndex: 179
         next: +P5
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 207
+        lineIndex: 208
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 24
+        next: '-M2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 41
+        next: P1
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 111
+        next: +M2
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 150
+        next: '-M3'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 73
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 108
+        next: P1
+        spine: 3
+        triciniumId: 47-magnus-dominus
 P1:
     -
         lineIndex: 25
@@ -55894,87 +56724,177 @@ P1:
         spine: 5
         triciniumId: 45-deus-noster-refugium
     -
-        lineIndex: 22
+        lineIndex: 23
         next: '-m2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 55
+        lineIndex: 56
         next: P1
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 58
-        next: '-M2'
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 129
-        next: P1
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 132
-        next: +M2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 153
-        next: +M2
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 199
-        next: '-m2'
-        spine: 1
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 201
-        next: '-M2'
         spine: 1
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 59
-        next: P1
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 62
-        next: '-m2'
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 73
-        next: +M2
-        spine: 3
-        triciniumId: 46-omnes-gentes
-    -
-        lineIndex: 199
         next: '-M2'
-        spine: 3
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 130
+        next: P1
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 133
+        next: +M2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 154
+        next: +M2
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 200
+        next: '-m2'
+        spine: 1
         triciniumId: 46-omnes-gentes
     -
         lineIndex: 202
         next: '-M2'
+        spine: 1
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 60
+        next: P1
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 244
+        lineIndex: 63
+        next: '-m2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 74
+        next: +M2
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 200
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 203
+        next: '-M2'
+        spine: 3
+        triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 245
         next: +m3
         spine: 3
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 37
+        lineIndex: 38
         next: +M2
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 116
+        lineIndex: 117
         next: '-M2'
         spine: 5
         triciniumId: 46-omnes-gentes
     -
-        lineIndex: 215
+        lineIndex: 216
         next: +m3
         spine: 5
         triciniumId: 46-omnes-gentes
+    -
+        lineIndex: 44
+        next: '-M3'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 61
+        next: +m2
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 93
+        next: '-m2'
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 133
+        next: P1
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 135
+        next: +M2
+        spine: 1
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 31
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 39
+        next: +m2
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 111
+        next: +m3
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 115
+        next: '-P8'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 122
+        next: '-M2'
+        spine: 3
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 23
+        next: +M2
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 44
+        next: P1
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 45
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 69
+        next: +M2
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 104
+        next: '-M2'
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 109
+        next: +P4
+        spine: 5
+        triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 116
+        next: '-M3'
+        spine: 5
+        triciniumId: 47-magnus-dominus

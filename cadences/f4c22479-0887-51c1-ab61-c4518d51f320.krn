@@ -4,6 +4,7 @@
 !!!ONM: 46
 !!!OTL@@LA: Omnes gentes
 !!!OTL-incipit@@DE: Wolauff jhr völcker all
+!!!ONB: All notes of the Cantus part have been filled in by hand with an ink pen.
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
 *I"Bassus	*	*I"Tenor	*	*I"Cantus	*
@@ -14,15 +15,17 @@
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-2e	mit	2cc	den	2g	hän-
-2d	den	2.dd	hen-	2a	-den/
-=5	=5	=5	=5	=5	=5
-1e	hän-	.	.	1r	.
-.	.	8cc	.	.	.
-.	.	8b	.	.	.
-.	.	4cc	.	.	.
-.	.	4g	.	.	.
-2d	-den/	2b-	.	[2dd	jauchtzt
+=2	=2	=2	=2	=2	=2
+2d	völ-	2ff	völ-	2a	-auff
+2e	-cker	4ee	.	2g#	jhr
+.	.	4dd	.	.	.
+4f	all/	2cc	.	2a	völ-
+4e	.	.	.	.	.
+4d	.	2dd	-cker	2b	-cker
+8c	.	.	.	.	.
+8B	.	.	.	.	.
+=3	=3	=3	=3	=3	=3
+[2A	.	2ee	all/	2cc	all/
 *-	*-	*-	*-	*-	*-
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental

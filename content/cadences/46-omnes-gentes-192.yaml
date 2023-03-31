@@ -1,7 +1,7 @@
 degree: 5
 endBeat: 192
-endLine: 206
-filename: c57ffecd-fc87-51f3-b2d4-bbab9d01dbf9.krn
+endLine: 207
+filename: 26400726-5f1c-53b4-886e-95805f05cba7.krn
 slices:
     -
         bassus:
@@ -70,7 +70,7 @@ slices:
             fbInterval: '3'
             scaleDegree: '3'
 startBeat: 186
-startLine: 198
+startLine: 199
 triciniumId: 46-omnes-gentes
 ultima: a
 voices:

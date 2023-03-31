@@ -1,30 +1,29 @@
-!!!COM: Lassus, Rudolphus
-!!!CDT: 1563-1625
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
-!!!ONM: 46
-!!!OTL@@LA: Omnes gentes
-!!!OTL-incipit@@DE: Wolauff jhr völcker all
+!!!ONM: 47
+!!!OTL@@LA: Magnus Dominus
+!!!OTL-incipit@@DE: Groß ist der Herr im heilgen thron
+!!!ONB: All notes of the Cantus part have been filled in by hand with an ink pen.
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
 *I"Bassus	*	*I"Tenor	*	*I"Cantus	*
 *I'B	*	*I'T	*	*I'C	*
 *clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*
-*d:dor	*	*d:dor	*	*d:dor	*
+*c:ion	*	*c:ion	*	*c:ion	*
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-=2	=2	=2	=2	=2	=2
-2d	völ-	2ff	völ-	2a	-auff
-2e	-cker	4ee	.	2g#	jhr
-.	.	4dd	.	.	.
-4f	all/	2cc	.	2a	völ-
-4e	.	.	.	.	.
-4d	.	2dd	-cker	2b	-cker
-8c	.	.	.	.	.
-8B	.	.	.	.	.
+1e	im	4cc	heil-	1gg	im
+.	.	4b	.	.	.
+.	.	4b	.	.	.
+.	.	8a	.	.	.
+.	.	8g	.	.	.
 =3	=3	=3	=3	=3	=3
-[2A	.	2ee	all/	2cc	all/
+2d	heil-	2a	.	2ff	heil-
+2c	-gen	2cc	-gen	2ee	-gen
+[2g	thron/	2b	thron/	[2dd	thron/
 *-	*-	*-	*-	*-	*-
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental

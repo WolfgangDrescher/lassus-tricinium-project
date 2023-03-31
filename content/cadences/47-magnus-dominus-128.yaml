@@ -1,7 +1,7 @@
-degree: 5
-endBeat: 124
-endLine: 144
-filename: 2ad08da6-f60a-5d5a-9fe7-d237b8f044e4.krn
+degree: 1
+endBeat: 128
+endLine: 142
+filename: 555e6c2e-b585-5e42-9c3c-b619d2d42941.krn
 slices:
     -
         bassus:
@@ -9,11 +9,11 @@ slices:
             scaleDegree: '5'
         beat: 0
         cantus:
-            fbInterval: '7'
-            scaleDegree: _4
+            fbInterval: '3'
+            scaleDegree: 7+
         tenor:
             fbInterval: '5'
-            scaleDegree: _2
+            scaleDegree: '2'
     -
         bassus:
             fbInterval: .
@@ -21,7 +21,7 @@ slices:
         beat: 2
         cantus:
             fbInterval: '6'
-            scaleDegree: '3'
+            scaleDegree: 3+
         tenor:
             fbInterval: '4'
             scaleDegree: '1'
@@ -40,35 +40,57 @@ slices:
         bassus:
             fbInterval: .
             scaleDegree: '5'
+        beat: 5
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 5.5
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '2'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
         beat: 6
         cantus:
             fbInterval: '5'
             scaleDegree: '2'
         tenor:
-            fbInterval: '#3'
+            fbInterval: '3'
             scaleDegree: 7+
     -
         bassus:
             fbInterval: .
-            scaleDegree: r
+            scaleDegree: 6+
         beat: 8
         cantus:
-            fbInterval: .
-            scaleDegree: r
-        tenor:
-            fbInterval: .
+            fbInterval: '3'
             scaleDegree: '1'
-startBeat: 118
-startLine: 136
-triciniumId: 46-omnes-gentes
-ultima: a
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '1'
+startBeat: 122
+startLine: 133
+triciniumId: 47-magnus-dominus
+ultima: c
 voices:
     bassus:
         penultima: 5
-        ultima: 0
+        ultima: 6
     cantus:
         penultima: 2
-        ultima: 0
+        ultima: 1
     tenor:
         penultima: 7
         ultima: 1

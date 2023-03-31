@@ -1,51 +1,51 @@
-degree: 1
-endBeat: 96
-endLine: 121
-filename: 42538f31-2593-55c0-bab3-21c18075eeba.krn
+degree: 6
+endBeat: 44
+endLine: 65
+filename: c2fdc256-b332-5d17-b987-7a7ab20d0784.krn
 slices:
     -
         bassus:
             fbInterval: .
-            scaleDegree: '1'
+            scaleDegree: '7'
         beat: 0
         cantus:
-            fbInterval: '3'
-            scaleDegree: '3'
-        tenor:
             fbInterval: '5'
-            scaleDegree: '5'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '4'
+            scaleDegree: _3
     -
         bassus:
             fbInterval: .
-            scaleDegree: '6'
+            scaleDegree: '7'
+        beat: 1
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '3'
+            scaleDegree: '2'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '1'
         beat: 2
         cantus:
-            fbInterval: '5'
+            fbInterval: '3'
             scaleDegree: '3'
         tenor:
-            fbInterval: '3'
-            scaleDegree: '1'
+            fbInterval: '2'
+            scaleDegree: '2'
     -
         bassus:
             fbInterval: .
-            scaleDegree: '6'
+            scaleDegree: '1'
         beat: 3
         cantus:
-            fbInterval: '4'
-            scaleDegree: '2'
+            fbInterval: '3'
+            scaleDegree: '3'
         tenor:
-            fbInterval: '3'
-            scaleDegree: '1'
-    -
-        bassus:
-            fbInterval: .
-            scaleDegree: '6'
-        beat: 3.5
-        cantus:
-            fbInterval: '3'
-            scaleDegree: '1'
-        tenor:
-            fbInterval: '3'
+            fbInterval: '8'
             scaleDegree: '1'
     -
         bassus:
@@ -78,7 +78,7 @@ slices:
             fbInterval: '5'
             scaleDegree: '2'
         tenor:
-            fbInterval: '2'
+            fbInterval: '#2'
             scaleDegree: 6+
     -
         bassus:
@@ -94,25 +94,25 @@ slices:
     -
         bassus:
             fbInterval: .
-            scaleDegree: r
+            scaleDegree: '6'
         beat: 8
         cantus:
             fbInterval: .
-            scaleDegree: '1'
+            scaleDegree: r
         tenor:
-            fbInterval: .
+            fbInterval: '3'
             scaleDegree: '1'
-startBeat: 90
-startLine: 110
-triciniumId: 46-omnes-gentes
-ultima: d
+startBeat: 37
+startLine: 53
+triciniumId: 47-magnus-dominus
+ultima: a
 voices:
     bassus:
         penultima: 5
-        ultima: 0
+        ultima: 6
     cantus:
         penultima: 2
-        ultima: 1
+        ultima: 0
     tenor:
         penultima: 7
         ultima: 1
