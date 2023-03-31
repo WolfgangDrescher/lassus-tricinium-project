@@ -1,0 +1,27 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 46
+!!!OTL@@LA: Omnes gentes
+!!!OTL-incipit@@DE: Wolauff jhr völcker all
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefG2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=24	=24	=24	=24	=24	=24
+2c	herr-	2ee]	.	2g	-schafft
+2c	-schafft	2ee	-schafft	1a	rei-
+2B	rei-	2.dd	rei-	.	.
+2B	-chen	.	.	2g#i	-chen
+.	.	4dd	-chen	.	.
+=25	=25	=25	=25	=25	=25
+[2A	thut/	2cc	thut/	2a	thut/
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
