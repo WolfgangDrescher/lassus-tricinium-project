@@ -10015,6 +10015,256 @@
         next: null
         spine: 5
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 43
+        next: +m2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 48
+        next: r
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 88
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 89
+        next: +m2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 92
+        next: '-P5'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 114
+        next: +m2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 120
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 121
+        next: '-M2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 143
+        next: P1
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 174
+        next: P1
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 177
+        next: +m2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 190
+        next: +m2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 194
+        next: '-P4'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 27
+        next: +m2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 30
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 34
+        next: +m2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 52
+        next: +m2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 92
+        next: +m2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 94
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 97
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 107
+        next: +P4
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 162
+        next: +m2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 167
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 177
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 180
+        next: '-M3'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 182
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 183
+        next: +m2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 190
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 191
+        next: +m2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 202
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 30
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 32
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 34
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 35
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 43
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 65
+        next: +P4
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 114
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 115
+        next: '-M3'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 126
+        next: '-P5'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 155
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 176
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 178
+        next: '-P5'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 185
+        next: '-P5'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 187
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 190
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 192
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 205
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 +M3:
     -
         lineIndex: 72
@@ -10996,6 +11246,41 @@
         next: '-M2'
         spine: 5
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 39
+        next: '-M2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 131
+        next: '-M2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 25
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 136
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 26
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 109
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 139
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 +M6:
     -
         lineIndex: 72
@@ -12924,6 +13209,71 @@
         next: '-M2'
         spine: 5
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 61
+        next: '-m2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 65
+        next: '-m3'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 97
+        next: '-m2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 207
+        next: null
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 78
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 110
+        next: '-m3'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 140
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 53
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 61
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 68
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 122
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 150
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 163
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 +P5:
     -
         lineIndex: 76
@@ -14040,6 +14390,26 @@
         next: '-M2'
         spine: 3
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 153
+        next: '-P4'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 41
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 89
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 201
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 +P8:
     -
         lineIndex: 93
@@ -14391,6 +14761,11 @@
         next: '-M2'
         spine: 3
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 128
+        next: r
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
 +d4:
     -
         lineIndex: 161
@@ -20528,6 +20903,141 @@
         next: '-m2'
         spine: 5
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 45
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 64
+        next: +P4
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 87
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 90
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 115
+        next: P1
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 146
+        next: P1
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 180
+        next: r
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 191
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 199
+        next: '-m2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 28
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 35
+        next: '-m2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 56
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 93
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 120
+        next: '-P4'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 163
+        next: '-m3'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 185
+        next: r
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 194
+        next: '-m2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 33
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 74
+        next: r
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 107
+        next: +M3
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 113
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 143
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 158
+        next: '-m3'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 170
+        next: '-P5'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 188
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 194
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 207
+        next: null
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 +m3:
     -
         lineIndex: 115
@@ -23169,6 +23679,46 @@
         next: '-M2'
         spine: 5
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 84
+        next: '-m2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 67
+        next: '-m2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 114
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 153
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 99
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 131
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 182
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 196
+        next: '-P5'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 +m6:
     -
         lineIndex: 162
@@ -23520,6 +24070,11 @@
         next: '-P5'
         spine: 3
         triciniumId: 45-deus-noster-refugium
+    -
+        lineIndex: 161
+        next: '-m3'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
 '-M2':
     -
         lineIndex: 32
@@ -35251,6 +35806,241 @@
         next: +M2
         spine: 5
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 41
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 78
+        next: '-m2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 80
+        next: '-P4'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 102
+        next: '-M2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 107
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 123
+        next: '-M2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 128
+        next: P1
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 134
+        next: '-M2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 136
+        next: P1
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 202
+        next: +P4
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 26
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 37
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 39
+        next: '-P4'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 44
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 50
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 65
+        next: +m3
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 74
+        next: +P4
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 80
+        next: '-m2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 86
+        next: '-m2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 100
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 102
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 139
+        next: +P4
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 143
+        next: '-m2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 146
+        next: r
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 161
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 170
+        next: r
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 199
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 201
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 207
+        next: null
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 28
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 31
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 36
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 41
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 45
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 48
+        next: +P4
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 58
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 62
+        next: '-P5'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 81
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 85
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 87
+        next: +P5
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 93
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 95
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 97
+        next: '-m3'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 121
+        next: +P4
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 125
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 204
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 '-M3':
     -
         lineIndex: 77
@@ -36542,6 +37332,21 @@
         next: +M3
         spine: 5
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 89
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 181
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 116
+        next: '-m3'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 '-P4':
     -
         lineIndex: 55
@@ -38218,6 +39023,51 @@
         next: '-M2'
         spine: 1
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 71
+        next: r
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 82
+        next: +m3
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 139
+        next: P1
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 158
+        next: +m6
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 167
+        next: r
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 196
+        next: +m2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 40
+        next: +P5
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 121
+        next: '-P4'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 123
+        next: +P8
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
 '-P5':
     -
         lineIndex: 72
@@ -39879,6 +40729,46 @@
         next: +M3
         spine: 3
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 94
+        next: +P4
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 64
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 128
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 146
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 174
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 181
+        next: +m3
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 186
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 199
+        next: P1
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 '-P8':
     -
         lineIndex: 166
@@ -47906,6 +48796,126 @@
         next: +P4
         spine: 5
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 62
+        next: +m2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 79
+        next: '-M2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 85
+        next: +m2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 100
+        next: '-M2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 201
+        next: '-M2'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 36
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 49
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 71
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 81
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 87
+        next: '-M3'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 144
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 159
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 196
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 46
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 59
+        next: +P4
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 72
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 84
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 94
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 103
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 124
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 153
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 168
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 195
+        next: +m3
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 203
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 '-m3':
     -
         lineIndex: 26
@@ -50557,6 +51567,56 @@
         next: P1
         spine: 3
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 67
+        next: P1
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 150
+        next: P1
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 163
+        next: '-P4'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 64
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 113
+        next: +m3
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 116
+        next: +m2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 164
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 98
+        next: +m3
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 120
+        next: '-M2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 161
+        next: +P4
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
 P1:
     -
         lineIndex: 25
@@ -56898,3 +57958,168 @@ P1:
         next: '-M3'
         spine: 5
         triciniumId: 47-magnus-dominus
+    -
+        lineIndex: 36
+        next: +M3
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 69
+        next: '-P4'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 116
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 130
+        next: +M3
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 137
+        next: '-P4'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 141
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 144
+        next: +m2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 148
+        next: '-m3'
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 151
+        next: +P5
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 176
+        next: +M2
+        spine: 1
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 22
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 23
+        next: +M3
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 45
+        next: '-m2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 61
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 62
+        next: '-m3'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 104
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 115
+        next: '-m3'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 137
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 154
+        next: P1
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 158
+        next: '-m2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 169
+        next: '-M2'
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 178
+        next: +M2
+        spine: 3
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 25
+        next: +M3
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 130
+        next: +m3
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 137
+        next: +M3
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 140
+        next: +m2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 145
+        next: '-P5'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 148
+        next: +P4
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 151
+        next: '-m2'
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 177
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 183
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 191
+        next: +M2
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes
+    -
+        lineIndex: 200
+        next: +P5
+        spine: 5
+        triciniumId: 48-audite-haec-omnes-gentes

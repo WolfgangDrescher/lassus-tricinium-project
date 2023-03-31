@@ -1,0 +1,129 @@
+degree: 5
+endBeat: 40
+endLine: 58
+filename: d84044fd-d4be-5222-80e7-89848e2978de.krn
+slices:
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 0
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '7'
+            scaleDegree: _2
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: 3+
+        beat: 1
+        cantus:
+            fbInterval: '3'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '6'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 2
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '4'
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '4'
+        beat: 3
+        cantus:
+            fbInterval: '7'
+            scaleDegree: 3+
+        tenor:
+            fbInterval: '5'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 4
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '4'
+            scaleDegree: '1'
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 6
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 7
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '2'
+            scaleDegree: 6+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 8
+        cantus:
+            fbInterval: '5'
+            scaleDegree: '2'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: '5'
+        beat: 10
+        cantus:
+            fbInterval: '8'
+            scaleDegree: '5'
+        tenor:
+            fbInterval: '#3'
+            scaleDegree: 7+
+    -
+        bassus:
+            fbInterval: .
+            scaleDegree: r
+        beat: 12
+        cantus:
+            fbInterval: .
+            scaleDegree: '5'
+        tenor:
+            fbInterval: .
+            scaleDegree: '1'
+startBeat: 29
+startLine: 43
+triciniumId: 48-audite-haec-omnes-gentes
+ultima: g
+voices:
+    bassus:
+        penultima: 5
+        ultima: 0
+    cantus:
+        penultima: 2
+        ultima: 5
+    tenor:
+        penultima: 7
+        ultima: 1
