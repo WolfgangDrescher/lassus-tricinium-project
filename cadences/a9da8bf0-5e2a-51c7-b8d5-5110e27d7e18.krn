@@ -1,0 +1,28 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 49
+!!!OTL@@LA: Deus deorum Dominus
+!!!OTL-incipit@@DE: Der starcker Gott im Himmelreich
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC3	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*e:phr	*	*e:phr	*	*e:phr	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=7	=7	=7	=7	=7	=7
+2E	al-	1B	al-	2g#	al-
+2D	-le	.	.	2.a	-le
+1E	gleich/	1B	-le	.	.
+.	.	.	.	8g#i	.
+.	.	.	.	8f#i	.
+.	.	.	.	2g#i	.
+=8	=8	=8	=8	=8	=8
+[2r	.	2A	gleich/	[2a	gleich/
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
