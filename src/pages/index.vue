@@ -53,16 +53,16 @@ const localePath = useLocalePath();
                             </p>
                             <p>
                                 Die 50 Tricinien werden damit in einer dynamischen und vor allem interaktiven Art und
-                                Weise aufbereitet, die es Forschenden ermöglicht, die Antworten auf spezifische
-                                Fragestellungen schnell zu finden und für die Analyse zu nutzen. Auch Studierende, die
-                                im Laufe ihrer Ausbildung häufig mit dem Renaissance-Kontrapunkt in Berührung kommen,
-                                können mit Hilfe der Website die wichtigsten Parameter – wie die Verwendung der Modi,
-                                Imitationen, Ambitus, Textbehandlung – schnell erfassen, um sie in eigene Stilkopien
-                                einzubeziehen. Unter dem Menüpunkt <HyperLink :href="localePath({name:
-                                'learn'})">Lernen</HyperLink> gibt es zusätzliche Materialien mit den wichtigsten
-                                Informationen zu den Modi, Imitationen, Ambitus, Stimmendisposition und der
-                                Textbehandlung sowie einer Liste mit Stücken die sich besonders für das Selbststudium
-                                eignen.
+                                Weise aufbereitet, die es Forschenden und Studierenden ermöglicht, die Antworten auf
+                                spezifische Fragestellungen schnell zu finden und für die Analyse zu nutzen. Studierende
+                                beispielsweise, die im Laufe ihrer Ausbildung mit dem Renaissance-Kontrapunkt in
+                                Berührung kommen, können mit Hilfe der digitalen Werkzeuge auf dieser Website die
+                                wichtigsten Parameter – wie die Verwendung der Modi, der Imitationen, der Ambitus und
+                                der Textbehandlung – schnell erfassen, um sie in eigene Stilkopien einzubeziehen. Unter
+                                dem Menüpunkt <HyperLink :href="localePath({name: 'learn'})">Lernen</HyperLink> gibt es
+                                zusätzliche Materialien mit den wichtigsten Informationen zu den Modi, Imitationen,
+                                Ambitus, Stimmendisposition und der Textbehandlung sowie einer Liste mit Stücken die
+                                sich besonders für das Selbststudium eignen.
                             </p>
                         </FormattedText>
                     </template>
