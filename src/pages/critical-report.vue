@@ -278,7 +278,11 @@ defineI18nRoute({
                             </Subheading>
                             <ol class="flex flex-col list-none pl-0 gap-4">
                                 <li>
-                                    Die ausgefüllten schwarzen Noten im Cantus wurden angeglichen.
+                                    Die ausgefüllten schwarzen Noten im Cantus wurden angeglichen. Vergleiche mit
+                                    <HyperLink
+                                    href="https://www.digitale-sammlungen.de/de/view/bsb00072990?page=56">dieser
+                                    Alternative</HyperLink> (<HyperLink
+                                    href="https://mdz-nbn-resolving.de/details:bsb00072990">Permalink</HyperLink>).
                                 </li>
                             </ol>
                         </div>
@@ -290,7 +294,11 @@ defineI18nRoute({
                             </Subheading>
                             <ol class="flex flex-col list-none pl-0 gap-4">
                                 <li>
-                                    Die ausgefüllten schwarzen Noten im Cantus wurden angeglichen.
+                                    Die ausgefüllten schwarzen Noten im Cantus wurden angeglichen. Vergleiche mit
+                                    <HyperLink
+                                    href="https://www.digitale-sammlungen.de/de/view/bsb00072990?page=57">dieser
+                                    Alternative</HyperLink> (<HyperLink
+                                    href="https://mdz-nbn-resolving.de/details:bsb00072990">Permalink</HyperLink>).
                                 </li>
                             </ol>
                         </div>
