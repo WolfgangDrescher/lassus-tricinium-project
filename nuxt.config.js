@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     ],
     vite: {
         worker: {
-            format: 'es',
+            // format: 'es',
         },
     },
     nitro: {
