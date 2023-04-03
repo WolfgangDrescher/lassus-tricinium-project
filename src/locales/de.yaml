@@ -94,6 +94,7 @@ humdrumFilter.IntervallsatzPresetFilter: Intervallsatz anzeigen
 humdrumFilter.ScaleDegreeFilter: Skalenstufen anzeigen
 humdrumFilter.BassScaleDegreeFilter: Bassstufen anzeigen
 humdrumFilter.HideSpineDataFilter: Stimme ausblenden («Lückentext»)
+humdrumFilter.ShowAllMeasureNumbers: Taktzahlen aller Takten anzeigen
 measuresToYank: 'Zu filternde Takte (-m)'
 extractionOfParticularSpines: 'Stimmen extrahieren'
 regularExpression: Regulärer Ausdruck
