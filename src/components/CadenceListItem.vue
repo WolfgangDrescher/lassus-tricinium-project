@@ -69,6 +69,10 @@ if (showIntervallsatz.value) {
     addFilter(showIntervallsatzFilter);
 }
 
+if (showScaleDegrees.value) {
+    addFilter(showScaleDegreesFilter);
+}
+
 if (!showLyrics.value) {
     addFilter(hideLyricsFilter);
 }
