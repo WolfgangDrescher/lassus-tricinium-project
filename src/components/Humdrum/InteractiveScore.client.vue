@@ -270,7 +270,7 @@ defineExpose({
         </div>
         <div>
             <div class="relative" ref="scoreWrapper">
-                <div class="absolute w-full h-full top-0 left-0 pointer-events-none" ref="markerContainer">
+                <div class="absolute w-full h-full top-0 left-0 pointer-events-none overflow-hidden" ref="markerContainer">
                     <slot :scoreWrapper="$refs.scoreWrapper" :key="scoreKey"></slot>
                 </div>
                 <div ref="scoreContainer" class="verovio-canvas-container">
