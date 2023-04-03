@@ -142,7 +142,18 @@ const location = `T. ${Math.ceil(props.cadence.endBeat / 8)} ♩ ${(props.cadenc
             </div>
         </template>
         <div class="flex flex-col gap-4 mt-4">
-            <VerovioCanvas v-if="data" :data="formattedScoreData" view-mode="horizontal" :scale="35" lazy unload :lazy-delay="100" :options="{mnumInterval: 1}" @score-is-ready="verovioCanvasIsReady" />
+            <VerovioCanvas
+                v-if="data"
+                :data="formattedScoreData"
+                view-mode="horizontal"
+                :scale="35"
+                lazy
+                unload
+                :lazy-delay="100"
+                :options="{mnumInterval: 1}"
+                @score-is-ready="verovioCanvasIsReady"
+                :key="JSON.stringify([showModernClefs, showScaleDegrees, showIntervallsatz, showLyrics])"
+            />
             <MidiPlayer ref="midiPlayer" :url="audioDataUrl" />
             <DataTable v-if="!hideInfo" :items="tableItems" :headers="tableHeaders" direction="column" small />
         </div>
