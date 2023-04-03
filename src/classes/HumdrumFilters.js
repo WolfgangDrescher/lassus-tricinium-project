@@ -525,3 +525,15 @@ export class HideSpineDataFilter extends HumdrumFilter {
         this.addLine(`shed -s ${parseInt(value, 10)} -e "s/.*/$0yy/D s/.*//L s/^[^I].*//I"`);
     }
 }
+
+export class ShowAllMeasureNumbers extends HumdrumFilter {
+    static NAME = 'ShowAllMeasureNumbers';
+    configurable = false;
+    changeable = false;
+    unique = true;
+
+    constructor() {
+        super();
+        this.addLine('mnumInterval 1', '!!!verovio: ');
+    }
+}
