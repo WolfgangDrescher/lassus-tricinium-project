@@ -1,7 +1,7 @@
 degree: 7
-endBeat: 40
-endLine: 61
-filename: 83e2af04-88eb-5579-b10a-2e50d774a7fa.krn
+endBeat: 108
+endLine: 141
+filename: 8bca829f-2ec8-5555-b486-97c489a058ed.krn
 slices:
     -
         bassus:
@@ -9,19 +9,19 @@ slices:
             scaleDegree: 3+
         beat: 0
         cantus:
+            fbInterval: '8'
+            scaleDegree: 3+
+        tenor:
             fbInterval: '3'
             scaleDegree: '5'
-        tenor:
-            fbInterval: '5'
-            scaleDegree: 7+
     -
         bassus:
             fbInterval: .
             scaleDegree: 3+
         beat: 1
         cantus:
-            fbInterval: '3'
-            scaleDegree: '5'
+            fbInterval: '8'
+            scaleDegree: 3+
         tenor:
             fbInterval: '6'
             scaleDegree: '1'
@@ -72,22 +72,22 @@ slices:
     -
         bassus:
             fbInterval: .
-            scaleDegree: 6+
+            scaleDegree: '1'
         beat: 6
         cantus:
-            fbInterval: '5'
+            fbInterval: '3'
             scaleDegree: 3+
         tenor:
-            fbInterval: '3'
+            fbInterval: '8'
             scaleDegree: '1'
-startBeat: 35
-startLine: 51
-triciniumId: 32-exsultate-iusti-in-domino
+startBeat: 103
+startLine: 132
+triciniumId: 32-exultate-iusti-in-domino
 ultima: f
 voices:
     bassus:
         penultima: 2
-        ultima: 6
+        ultima: 1
     cantus:
         penultima: 4
         ultima: 3

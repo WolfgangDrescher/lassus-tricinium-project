@@ -2,7 +2,7 @@
 !!!CDT: 1563-1625
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
 !!!ONM: 32
-!!!OTL@@LA: Exsultate iusti in Domino
+!!!OTL@@LA: Exultate iusti in Domino
 !!!OTL-incipit@@DE: Ihr frommen frewet euch im Herren
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
@@ -14,17 +14,14 @@
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-=23	=23	=23	=23	=23	=23
-2.c	Psal-	4g	Psal-	4e	.
-.	.	4f	.	4f	.
-.	.	4e	.	1g	.
-4B-	.	4d	.	.	.
-2A	.	2.c	.	.	.
-2A	-ter-	.	.	2f#i	-ter-
-.	.	4c	-ter-	.	.
-=24	=24	=24	=24	=24	=24
-0Gll	-lein.	0dll	-lein.	0gll	-lein.
-==	==	==	==	==	==
+2A	-hen	4e	-hen	2cc	-hen
+.	.	2f	eh-	.	.
+1G	eh-	.	.	1b-	eh-
+.	.	8e	.	.	.
+.	.	8d	.	.	.
+.	.	2e	.	.	.
+=6	=6	=6	=6	=6	=6
+[2d	-ren	[2f	-ren/	2a	-ren/
 *-	*-	*-	*-	*-	*-
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental
