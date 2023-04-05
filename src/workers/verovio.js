@@ -14,10 +14,10 @@ class Deferred {
     }
 }
 
-if (typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope) {
+const verovioToolkits = {};
+let verovioModulePromise;
 
-    const verovioToolkits = {};
-    let verovioModulePromise;
+if (typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope) {
 
     if (typeof createVerovioModule === 'function') {
         verovioModulePromise = createVerovioModule();
