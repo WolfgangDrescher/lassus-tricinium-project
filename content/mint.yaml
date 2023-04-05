@@ -9531,6 +9531,11 @@
         spine: 3
         triciniumId: 45-deus-noster-refugium
     -
+        lineIndex: 113
+        next: '-M2'
+        spine: 3
+        triciniumId: 45-deus-noster-refugium
+    -
         lineIndex: 135
         next: '-M2'
         spine: 3
@@ -11772,12 +11777,6 @@
         next: '-M2'
         spine: 1
         triciniumId: 38-dixi-custodiam
-+M9:
-    -
-        lineIndex: 113
-        next: '-M2'
-        spine: 3
-        triciniumId: 45-deus-noster-refugium
 +P4:
     -
         lineIndex: 65
