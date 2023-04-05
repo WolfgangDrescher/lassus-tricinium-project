@@ -537,3 +537,15 @@ export class ShowAllMeasureNumbersFilter extends HumdrumFilter {
         this.addLine('mnumInterval 1', '!!!verovio: ');
     }
 }
+
+export class TieSplitFilter extends HumdrumFilter {
+    static NAME = 'TieSplitFilter';
+    configurable = false;
+    changeable = false;
+    unique = true;
+
+    constructor() {
+        super();
+        this.addLine('tie -s');
+    }
+}
