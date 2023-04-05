@@ -526,8 +526,8 @@ export class HideSpineDataFilter extends HumdrumFilter {
     }
 }
 
-export class ShowAllMeasureNumbers extends HumdrumFilter {
-    static NAME = 'ShowAllMeasureNumbers';
+export class ShowAllMeasureNumbersFilter extends HumdrumFilter {
+    static NAME = 'ShowAllMeasureNumbersFilter';
     configurable = false;
     changeable = false;
     unique = true;

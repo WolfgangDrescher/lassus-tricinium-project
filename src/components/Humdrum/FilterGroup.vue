@@ -27,7 +27,7 @@ import {
     ScaleDegreeFilter,
     BassScaleDegreeFilter,
     HideSpineDataFilter,
-    ShowAllMeasureNumbers,
+    ShowAllMeasureNumbersFilter,
 } from '../../classes/HumdrumFilters.js';
 
 defineProps({
@@ -80,7 +80,7 @@ const allFilters = [
     CustomFilter,
     HideBarlinesFilter,
     HideSpineDataFilter,
-    ShowAllMeasureNumbers,
+    ShowAllMeasureNumbersFilter,
 ];
 
 const filterOptions = allFilters.map(filter => {
