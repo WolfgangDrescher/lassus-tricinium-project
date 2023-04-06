@@ -51,6 +51,7 @@ const verovioCanvasOptions = computed(() => {
         pageMargin: 50,
         options: {
             ...props.verovioOptions,
+            svgBoundingBoxes: true,
         },
         data: formattedScoreData.value,
     });
@@ -169,14 +170,19 @@ function mutationObserverEvent() {
 
 const markerContainer = ref();
 
+function getBBoxElem(elem, selectors) {
+    const selectedElem = elem.querySelector(selectors);
+    return elem.closest('svg').querySelector(`#bbox-${selectedElem?.id} rect`);
+}
+
 function updateBoundingBoxes() {
     markerContainer.value.querySelectorAll('.note-bounding-box').forEach((elem) => elem.remove());
-    scoreContainer.value.querySelectorAll('g.note, g.rest, g.mRest').forEach((elem) => {
-        const noteheadRect = elem.querySelector('.notehead')?.getBoundingClientRect();
-        const stemRect = elem.querySelector('.stem')?.getBoundingClientRect();
-        const flagRect = elem.querySelector('.flag')?.getBoundingClientRect();
-        const dotsRect = elem.querySelector('.dots')?.getBoundingClientRect();
-        const accidRect = elem.querySelector('.accid use') && elem.querySelector('.accid')?.getBoundingClientRect();
+    scoreContainer.value.querySelectorAll('g.note:not(.bounding-box), g.rest:not(.bounding-box), g.mRest:not(.bounding-box)').forEach((elem) => {
+        const noteheadRect = elem.closest('svg').querySelector(`#bbox-${elem.id}`)?.getBoundingClientRect();
+        const stemRect = getBBoxElem(elem, '.stem')?.getBoundingClientRect();
+        const flagRect = getBBoxElem(elem, '.flag')?.getBoundingClientRect();
+        const dotsRect = getBBoxElem(elem, '.dots')?.getBoundingClientRect();
+        const accidRect = elem.querySelector('.accid use') && getBBoxElem(elem, '.accid')?.getBoundingClientRect();
         const rect = elem.getBoundingClientRect();
 
         let left = Infinity;
