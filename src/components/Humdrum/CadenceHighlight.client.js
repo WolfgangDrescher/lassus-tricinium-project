@@ -1,18 +1,18 @@
 function createMarker(startElem, endElem, systemElem, containerElem) {
 
-    endElem = endElem?.querySelector('.notehead') || endElem;
+    endElem = getBBoxElem(endElem) || endElem;
 
-    const systemFirstMeasureStaffRect = systemElem.querySelector('.measure .staff')?.getBoundingClientRect();
-    const systemRect = systemElem.getBoundingClientRect();
+    const systemFirstMeasureStaffRect = selectBBoxElem(systemElem, '.measure .staff')?.getBoundingClientRect();
+    const systemRect = getBBoxElem(systemElem)?.getBoundingClientRect();
     const containerRect = containerElem.getBoundingClientRect();
-    const startRect = startElem?.getBoundingClientRect();
-    const endRect = endElem?.getBoundingClientRect();
+    const startRect = getBBoxElem(startElem)?.getBoundingClientRect();
+    const endRect = getBBoxElem(endElem)?.getBoundingClientRect();
 
     const heightExtender = 10;
     const height = systemRect.height + heightExtender;
 
     const xPosStart = startRect ? startRect.x : (systemFirstMeasureStaffRect ? systemFirstMeasureStaffRect.x: systemRect.x);
-    const xPosEnd = endRect ? endRect.right : systemRect.right;
+    const xPosEnd = endRect ? endRect.right : getBBoxElem(systemElem.querySelector('.measure:last-of-type .staff, .measure .staff'))?.getBoundingClientRect().right;
 
     const widthExtender = 13;
     const width = xPosEnd - xPosStart + widthExtender;

@@ -170,19 +170,14 @@ function mutationObserverEvent() {
 
 const markerContainer = ref();
 
-function getBBoxElem(elem, selectors) {
-    const selectedElem = elem.querySelector(selectors);
-    return elem.closest('svg').querySelector(`#bbox-${selectedElem?.id} rect`);
-}
-
 function updateBoundingBoxes() {
     markerContainer.value.querySelectorAll('.note-bounding-box').forEach((elem) => elem.remove());
     scoreContainer.value.querySelectorAll('g.note:not(.bounding-box), g.rest:not(.bounding-box), g.mRest:not(.bounding-box)').forEach((elem) => {
-        const noteheadRect = elem.closest('svg').querySelector(`#bbox-${elem.id}`)?.getBoundingClientRect();
-        const stemRect = getBBoxElem(elem, '.stem')?.getBoundingClientRect();
-        const flagRect = getBBoxElem(elem, '.flag')?.getBoundingClientRect();
-        const dotsRect = getBBoxElem(elem, '.dots')?.getBoundingClientRect();
-        const accidRect = elem.querySelector('.accid use') && getBBoxElem(elem, '.accid')?.getBoundingClientRect();
+        const noteheadRect = getBBoxElem(elem)?.getBoundingClientRect();
+        const stemRect = selectBBoxElem(elem, '.stem')?.getBoundingClientRect();
+        const flagRect = selectBBoxElem(elem, '.flag')?.getBoundingClientRect();
+        const dotsRect = selectBBoxElem(elem, '.dots')?.getBoundingClientRect();
+        const accidRect = elem.querySelector('.accid use') && selectBBoxElem(elem, '.accid')?.getBoundingClientRect();
         const rect = elem.getBoundingClientRect();
 
         let left = Infinity;
