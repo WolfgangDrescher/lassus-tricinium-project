@@ -1,6 +1,6 @@
 {
   "name": "lassus-tricinium-project",
-  "version": "1.0.0-rc.5",
+  "version": "1.0.0-rc.6",
   "engines": {
     "node": ">=18.12.0",
     "npm": ">=8.19.2"
