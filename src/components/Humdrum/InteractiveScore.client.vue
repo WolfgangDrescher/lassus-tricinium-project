@@ -174,6 +174,7 @@ function updateBoundingBoxes() {
     scoreContainer.value.querySelectorAll('g.note, g.rest, g.mRest').forEach((elem) => {
         const noteheadRect = elem.querySelector('.notehead')?.getBoundingClientRect();
         const stemRect = elem.querySelector('.stem')?.getBoundingClientRect();
+        const flagRect = elem.querySelector('.flag')?.getBoundingClientRect();
         const dotsRect = elem.querySelector('.dots')?.getBoundingClientRect();
         const accidRect = elem.querySelector('.accid use') && elem.querySelector('.accid')?.getBoundingClientRect();
         const rect = elem.getBoundingClientRect();
@@ -194,6 +195,12 @@ function updateBoundingBoxes() {
             right = Math.max(right, stemRect.right);
             top = Math.min(top, stemRect.top);
             bottom = Math.max(bottom, stemRect.bottom);
+        }
+        if (flagRect) {
+            left = Math.min(left, flagRect.left);
+            right = Math.max(right, flagRect.right);
+            top = Math.min(top, flagRect.top);
+            bottom = Math.max(bottom, flagRect.bottom);
         }
         if (accidRect) {
             left = Math.min(left, accidRect.left);
