@@ -12,7 +12,7 @@ function createMarker(startElem, endElem, systemElem, containerElem) {
     const height = systemRect.height + heightExtender;
 
     const xPosStart = startRect ? startRect.x : (systemFirstMeasureStaffRect ? systemFirstMeasureStaffRect.x: systemRect.x);
-    const xPosEnd = endRect ? endRect.right : getBBoxElem(systemElem.querySelector('.measure:last-of-type .staff, .measure .staff'))?.getBoundingClientRect().right;
+    const xPosEnd = endRect ? endRect.right : getBBoxElem([...systemElem.querySelectorAll('.measure:not(.bounding-box)')].at(-1).querySelector('.staff:not(.bounding-box)'))?.getBoundingClientRect().right;
 
     const widthExtender = 13;
     const width = xPosEnd - xPosStart + widthExtender;
