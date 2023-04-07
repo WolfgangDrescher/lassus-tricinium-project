@@ -52,6 +52,7 @@ const verovioCanvasOptions = computed(() => {
         options: {
             ...props.verovioOptions,
             svgBoundingBoxes: true,
+            svgViewBox: true,
         },
         data: formattedScoreData.value,
     });
