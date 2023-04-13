@@ -110,6 +110,6 @@ export default defineEventHandler(async (event) => {
     });
     doc.end();
 
-    event.node.res.setHeader('Content-Disposition', `filename="${id}.mei"`);
+    event.node.res.setHeader('Content-Disposition', `filename="${id}.pdf"`);
     await streamIsFinished.promise;
 });
