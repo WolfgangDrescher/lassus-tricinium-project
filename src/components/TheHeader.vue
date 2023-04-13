@@ -8,7 +8,7 @@ function toggle() {
 </script>
 
 <template>
-    <header class="bg-red-500 text-white bg-patter">
+    <header class="bg-primary-500 text-white bg-patter">
         <div class="flex justify-between items-center py-2 px-4 gap-4">
             <img src="/mhfr-logo-white.svg" class="hidden md:block max-h-[50px] mx-auto" alt="Hochschule für Musik Freiburg" />
             <div class="grow flex items-center gap-4">
@@ -20,7 +20,7 @@ function toggle() {
             </div>
             <div class="flex justify-end items-center">
                 Deutsch
-                <button type="button" @click="toggle" class="inline-flex items-center p-2 ml-3 rounded-lg md:hidden hover:bg-red-300 focus:outline-none focus:ring focus:ring-red-100 focus:ring-opacity-50">
+                <button type="button" @click="toggle" class="inline-flex items-center p-2 ml-3 rounded-lg md:hidden hover:bg-primary-300 focus:outline-none focus:ring focus:ring-primary-100 focus:ring-opacity-50">
                     <Icon name="heroicons-solid:bars-3" class="text-xl" />
                 </button>
             </div>

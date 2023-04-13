@@ -3,7 +3,7 @@ const localePath = useLocalePath();
 </script>
 
 <template>
-    <footer class="py-6 md:py-12 bg-red-500 text-white bg-patter">
+    <footer class="py-6 md:py-12 bg-primary-500 text-white bg-patter">
         <Container>
             <div class="grid md:grid-cols-3 gap-4">
                 <div>
