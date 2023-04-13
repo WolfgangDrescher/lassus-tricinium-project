@@ -79,12 +79,7 @@ export default defineNuxtConfig({
         ],
         defaultLocale: 'de',
         langDir: 'locales/',
-        vueI18n: {
-            fallbackLocale: 'de',
-            legacy: false,
-            locale: 'de',
-        },
-
+        vueI18n: './i18n.config.js',
     },
     content: {
         // defaultLocale: 'de',
