@@ -16,7 +16,7 @@ function onClick() {
     <nav class="bg-gray-100 p-3 md:p-5 hidden shadow md:shadow-none whitespace-nowrap overflow-x-auto" :class="{'is-open': open}" id="header-navigation">
         <div class="lg:container">
             <div class="w-full md:block md:w-auto">
-                <ul class="flex flex-col md:flex-row space-x-4 lg:space-x-8 lg:justify-center">
+                <ul class="flex flex-col md:flex-row md:space-x-4 lg:space-x-8 lg:justify-center">
                     <NavigationItem :href="localePath('index')" @click="onClick">{{ $t('home') }}</NavigationItem>
                     <NavigationItem :href="localePath('about')" @click="onClick">{{ $t('about') }}</NavigationItem>
                     <NavigationItem :href="localePath('tricinium')" @click="onClick">{{ $t('tricinia') }}</NavigationItem>
