@@ -24,4 +24,10 @@ a.active {
 a.active:hover {
     @apply text-white;
 }
+
+@screen md {
+    a.active:hover {
+        @apply text-primary-700;
+    }
+}
 </style>
