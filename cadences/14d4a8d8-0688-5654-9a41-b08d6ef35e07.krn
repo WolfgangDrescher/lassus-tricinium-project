@@ -1,0 +1,28 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 19
+!!!OTL@@LA: Exaudiat te Dominus
+!!!OTL-incipit@@DE: Der Herr erhöre deine klag
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC1	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*F:lyd	*	*F:lyd	*	*F:lyd	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=9	=9	=9	=9	=9	=9
+2F	Ja-	2a	Ja-	2cc	Got-
+2G	-cob	2.g	-cob	2b	-tes
+1d	mild/	.	.	2a	Ja-
+.	.	8f#i	.	.	.
+.	.	8e	.	.	.
+.	.	2f#i	.	2a	-cob
+=10	=10	=10	=10	=10	=10
+2r	.	2g	mild/	[2g	mild/
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
