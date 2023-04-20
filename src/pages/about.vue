@@ -15,7 +15,7 @@ defineI18nRoute({
     <Container>
         <SectionContainer>
             <section>
-                <Heading>About</Heading>
+                <Heading>{{ $t('about') }}</Heading>
             </section>
             <section>
                 <TwoCols>
