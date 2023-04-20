@@ -1692,7 +1692,7 @@
         triciniumId: 09-confitebor-tibi-domine
     -
         lineIndex: 193
-        next: '-P5'
+        next: '-P4'
         spine: 1
         triciniumId: 09-confitebor-tibi-domine
     -
@@ -39083,6 +39083,11 @@
         spine: 1
         triciniumId: 09-confitebor-tibi-domine
     -
+        lineIndex: 194
+        next: r
+        spine: 1
+        triciniumId: 09-confitebor-tibi-domine
+    -
         lineIndex: 213
         next: '-m3'
         spine: 1
@@ -40791,11 +40796,6 @@
     -
         lineIndex: 164
         next: +M2
-        spine: 1
-        triciniumId: 09-confitebor-tibi-domine
-    -
-        lineIndex: 194
-        next: r
         spine: 1
         triciniumId: 09-confitebor-tibi-domine
     -

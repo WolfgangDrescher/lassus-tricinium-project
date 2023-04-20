@@ -1,4 +1,4 @@
-degree: 3
+degree: 1
 endBeat: 176
 endLine: 224
 filename: cdb9f52a-35e6-59fa-b4c4-004f0f920d19.krn
@@ -6,102 +6,102 @@ slices:
     -
         bassus:
             fbInterval: .
-            scaleDegree: 3+
+            scaleDegree: '5'
         beat: 0
         cantus:
             fbInterval: '5'
-            scaleDegree: 7+
+            scaleDegree: '2'
         tenor:
             fbInterval: '#3'
-            scaleDegree: 5+
+            scaleDegree: 7+
     -
         bassus:
             fbInterval: .
-            scaleDegree: 3+
+            scaleDegree: '5'
         beat: 1
         cantus:
             fbInterval: '5'
-            scaleDegree: 7+
+            scaleDegree: '2'
         tenor:
             fbInterval: '#3'
-            scaleDegree: 5+
+            scaleDegree: 7+
     -
         bassus:
             fbInterval: .
-            scaleDegree: '4'
+            scaleDegree: '6'
         beat: 2
         cantus:
             fbInterval: '3'
-            scaleDegree: 6+
+            scaleDegree: '1'
         tenor:
             fbInterval: '3'
-            scaleDegree: 6+
+            scaleDegree: '1'
     -
         bassus:
             fbInterval: .
-            scaleDegree: 3+
+            scaleDegree: '5'
         beat: 4
         cantus:
             fbInterval: '5'
-            scaleDegree: 7+
+            scaleDegree: '2'
         tenor:
             fbInterval: '4'
-            scaleDegree: 6+
+            scaleDegree: '1'
     -
         bassus:
             fbInterval: .
-            scaleDegree: 3+
+            scaleDegree: '5'
         beat: 5
         cantus:
             fbInterval: '5'
-            scaleDegree: 7+
+            scaleDegree: '2'
         tenor:
             fbInterval: '#3'
-            scaleDegree: 5+
+            scaleDegree: 7+
     -
         bassus:
             fbInterval: .
-            scaleDegree: 3+
+            scaleDegree: '5'
         beat: 5.5
         cantus:
             fbInterval: '5'
-            scaleDegree: 7+
+            scaleDegree: '2'
         tenor:
             fbInterval: '2'
-            scaleDegree: 4+
+            scaleDegree: 6+
     -
         bassus:
             fbInterval: .
-            scaleDegree: 3+
+            scaleDegree: '5'
         beat: 6
         cantus:
             fbInterval: '5'
-            scaleDegree: 7+
+            scaleDegree: '2'
         tenor:
             fbInterval: '#3'
-            scaleDegree: 5+
+            scaleDegree: 7+
     -
         bassus:
             fbInterval: .
-            scaleDegree: 6+
+            scaleDegree: '1'
         beat: 8
         cantus:
             fbInterval: '8'
-            scaleDegree: 6+
+            scaleDegree: '1'
         tenor:
             fbInterval: '8'
-            scaleDegree: 6+
+            scaleDegree: '1'
 startBeat: 169
 startLine: 214
 triciniumId: 27-ad-te-domine-clamavi
-ultima: f
+ultima: d
 voices:
     bassus:
-        penultima: 3
-        ultima: 6
-    cantus:
-        penultima: 7
-        ultima: 6
-    tenor:
         penultima: 5
-        ultima: 6
+        ultima: 1
+    cantus:
+        penultima: 2
+        ultima: 1
+    tenor:
+        penultima: 7
+        ultima: 1

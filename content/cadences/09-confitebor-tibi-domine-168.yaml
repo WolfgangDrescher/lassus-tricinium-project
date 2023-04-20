@@ -1,7 +1,7 @@
 degree: 5
 endBeat: 168
 endLine: 201
-filename: 5c17c619-ba84-5b5c-a5be-354f30184985.krn
+filename: 37a3ac05-829f-53a8-940e-2b8f6352f722.krn
 slices:
     -
         bassus:
@@ -61,46 +61,46 @@ slices:
     -
         bassus:
             fbInterval: .
-            scaleDegree: '4'
+            scaleDegree: '5'
         beat: 6
         cantus:
-            fbInterval: '5'
+            fbInterval: '4'
             scaleDegree: '1'
         tenor:
-            fbInterval: '6'
+            fbInterval: '5'
             scaleDegree: '2'
     -
         bassus:
             fbInterval: .
-            scaleDegree: '4'
+            scaleDegree: '5'
         beat: 7
         cantus:
-            fbInterval: '#4'
+            fbInterval: '#3'
             scaleDegree: 7+
         tenor:
-            fbInterval: '6'
+            fbInterval: '5'
             scaleDegree: '2'
     -
         bassus:
             fbInterval: .
-            scaleDegree: '4'
+            scaleDegree: '5'
         beat: 7.5
         cantus:
-            fbInterval: '#3'
+            fbInterval: '#2'
             scaleDegree: 6+
         tenor:
-            fbInterval: '6'
+            fbInterval: '5'
             scaleDegree: '2'
     -
         bassus:
             fbInterval: .
-            scaleDegree: '4'
+            scaleDegree: '5'
         beat: 8
         cantus:
-            fbInterval: '#4'
+            fbInterval: '#3'
             scaleDegree: 7+
         tenor:
-            fbInterval: '6'
+            fbInterval: '5'
             scaleDegree: '2'
     -
         bassus:
@@ -119,7 +119,7 @@ triciniumId: 09-confitebor-tibi-domine
 ultima: a
 voices:
     bassus:
-        penultima: 4
+        penultima: 5
         ultima: 0
     cantus:
         penultima: 7
