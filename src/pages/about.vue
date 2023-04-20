@@ -18,6 +18,49 @@ defineI18nRoute({
                 <Heading>{{ $t('about') }}</Heading>
             </section>
             <section>
+                <Subheading>Features</Subheading>
+                <FormattedText>
+                    <ul class="list-disc pl-10 my-2">
+                        <li>
+                            Auf der Detailansicht eines Tiricniums lässit sich über der Paritur mit
+                            <strong>Humdrum-Filtern</strong> die Derstellung der Partitur dynamisch beeinflussen. Damit
+                            können z.B. moderne Schlüssel verwendet, der Liedtext auszublenden oder Melismen
+                            hervorgehoben werden. Der Humdrum-Filter <code>fb</code> wurde eigens für dieses Projekt
+                            entwickelt. Damit lässt sich per Knopfdruck ein Intervallsatz (direkt unter der jeweiligen
+                            Note oder als «Generalbass») der einzelnen Stimmen anzeigen um so schnell Dissonanzen oder
+                            den Aussenstimmengerüstsatz zu erfassen. Mit dem <code>deg</code>-Filter können Skalenstufen
+                            der einzelnen Noten im Verhältnis zu Modus des Stücks angezeigt werden.
+                        </li>
+                        <li>
+                            Einzelne Tricinien lassen sich als <strong>PDF downloaden</strong>. In Kombination mit den
+                            Humdrum-Filtern lassen sich so z.B. auch Lückentexte mit modernen Schlüsseln ohne Liedtext
+                            downloaden, die sich als Aufgaben für den Unterricht mit Studenten eignen. Dies kann
+                            Kombiniert werden mit der Suche nach einzelnen Tricinien die den <i>cantus firmus</i>
+                            in einer einzigen Stimme haben. Weitere Darstellungsoptionen für die Notengrösse, den
+                            Abstand zwischen den Stimmen und Systemen und der Ausrichtung (Hochformat / Querformat) sind
+                            ebenfalls vorhanden.
+                        </li>
+                        <li>
+                            Auf der Seite mit den Kadenzen ist es möglich einer bestimmten <strong>Klauselflucht
+                            innerhalb der Kadenzen</strong> zu suchen. So können z.B. schnell alle Kadenzen isoliert
+                            weren die im Bassus eine trugschlüssige wendung haben, oder Kadenzen gefunden werden in
+                            denen die Tenorklausel zu der 3 Skalenstufe geführt wird.
+                        </li>
+                        <li>
+                            Besonders <strong>spezielle Kadenzen</strong> – oder auch besonders normale – können im
+                            Filter auf der Seite mit den Kadenzen über den Ungewöhnlichkeits-Slider gesucht werden.
+                        </li>
+                        <li>
+                            Bei der Statistik Seite für <strong>melodische Intervallschritte</strong> kann z.B. nach
+                            einer verminderten Quarte im melodischen Verlauf gesucht werden (Flucht aus der der
+                            Sopranklausel in die Terz) oder nach grossen Sexten aufwärts. Einzelne Beispiele für die
+                            Intervallschritte könnten angeklickt werden und öffnet sich die Detailseite des Triciniums
+                            auf der die Note in der Partitur hervorgehoben wird.
+                        </li>
+                    </ul>
+                </FormattedText>
+            </section>
+            <section>
                 <TwoCols>
                     <template #first>
                         <Subheading :level="2">Humdrum</Subheading>
