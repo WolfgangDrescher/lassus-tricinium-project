@@ -58,6 +58,10 @@ const filterByCantusClausulae = (cantusClausulae, element) => {
     return cantusClausulae.includes(element.cantusClausula);
 };
 
+const filterByWeirdnessFactorRange = (weirdnessFactorRange, element) => {
+    return element.weirdnessFactor >= weirdnessFactorRange[0] && element.weirdnessFactor <= weirdnessFactorRange[1];
+};
+
 export function useCadenceFilter(elements) {
 
     const filter = useCadenceFilterStore();
@@ -76,6 +80,7 @@ export function useCadenceFilter(elements) {
             const bassusClausulaeMatched = filterByBassusClausulae(filter.bassusClausulae, element);
             const tenorClausulaeMatched = filterByTenorClausulae(filter.tenorClausulae, element);
             const cantusClausulaeMatched = filterByCantusClausulae(filter.cantusClausulae, element);
+            const weirdnessFactorRangeMatched = filterByWeirdnessFactorRange(filter.weirdnessFactorRange, element);
 
             return (
                 composerMatches &&
@@ -89,7 +94,8 @@ export function useCadenceFilter(elements) {
                 ultimasMatched &&
                 bassusClausulaeMatched &&
                 tenorClausulaeMatched &&
-                cantusClausulaeMatched
+                cantusClausulaeMatched &&
+                weirdnessFactorRangeMatched
             );
         });
 

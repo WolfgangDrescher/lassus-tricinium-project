@@ -84,6 +84,9 @@ const cantusClausulaOptions = [...new Set(cadences.map(cadence => {
                 <FormDropdown :model-value="filter.cantusClausulae" @update:model-value="updateFilter('cantusClausulae', $event)" :label="$t('cantusClausula')" :options="cantusClausulaOptions" :search-enabled="false" :multiple="true" />
             </div>
             <div>
+                <FormRangeSlider :model-value="filter.weirdnessFactorRange" @update:model-value="updateFilter('weirdnessFactorRange', $event)" :group-label="$t('weirdnessFactor')" />
+            </div>
+            <div>
                 <FormGroup :label="''">
                     <Button @click="resetFilter" block>{{ $t('reset') }}</Button>
                 </FormGroup>

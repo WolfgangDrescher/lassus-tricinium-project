@@ -30,12 +30,17 @@ const tableHeaders = [
         value: 'degree',
         text: t('degree'),
     },
+    {
+        value: 'weirdnessFactor',
+        text: t('weirdnessFactor'),
+    },
 ];
 
 const tableItems = [
     {
         ultima: props.cadence.ultima,
         degree: romanize(props.cadence.degree),
+        weirdnessFactor: `${Math.round(props.cadence.weirdnessFactor * 100)} %`,
     },
 ];
 

@@ -14,6 +14,7 @@ const defaultFilter = {
     bassusClausulae: [],
     tenorClausulae: [],
     cantusClausulae: [],
+    weirdnessFactorRange: [0, 1],
 };
 
 export const useCadenceFilterStore = defineStore('cadence_filter', {

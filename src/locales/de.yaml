@@ -189,3 +189,4 @@ ignoreFbIntervalOrder: Reihenfolge der Stimmen für Generalbassziffern nicht bea
 ignoreScaleDegree: Skalenstufen nicht beachten
 ignoreScaleDegreeOrder: Reihenfolge der Stimmen für Skalenstufen nicht beachten
 voices: Stimmen
+weirdnessFactor: Ungewöhnlichkeit
