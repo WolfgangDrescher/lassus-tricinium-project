@@ -22,7 +22,7 @@ defineI18nRoute({
                 <FormattedText>
                     <ul class="list-disc pl-10 my-2">
                         <li>
-                            Auf der Detailansicht eines Tiricniums lässit sich über der Paritur mit
+                            Auf der Detailansicht eines Tiricniums lässt sich über der Paritur mit
                             <strong>Humdrum-Filtern</strong> die Derstellung der Partitur dynamisch beeinflussen. Damit
                             können z.B. moderne Schlüssel verwendet, der Liedtext auszublenden oder Melismen
                             hervorgehoben werden. Der Humdrum-Filter <code>fb</code> wurde eigens für dieses Projekt
