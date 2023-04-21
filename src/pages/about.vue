@@ -41,6 +41,12 @@ defineI18nRoute({
                             ebenfalls vorhanden.
                         </li>
                         <li>
+                            Auf der Detailansicht eines Triciniums kann bei den Tabs auf der rechten Seite bei
+                            «Kadenzen» die Option <strong>Kadenzen in der Partitur anzeigen</strong> ausgewählt werden.
+                            Damit werden alle Kadenzen direkt in der Partitur mit einer gelben Box hinterlegt um sie so
+                            schnell lokalisieren zu können.
+                        </li>
+                        <li>
                             Auf der Seite mit den Kadenzen ist es möglich einer bestimmten <strong>Klauselflucht
                             innerhalb der Kadenzen</strong> zu suchen. So können z.B. schnell alle Kadenzen isoliert
                             weren die im Bassus eine trugschlüssige wendung haben, oder Kadenzen gefunden werden in
