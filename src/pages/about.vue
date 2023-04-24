@@ -22,20 +22,20 @@ defineI18nRoute({
                 <FormattedText>
                     <ul class="list-disc pl-10 my-2">
                         <li>
-                            Auf der Detailansicht eines Tiricniums lässt sich über der Paritur mit
+                            Auf der Detailansicht eines Triciniums lässt sich über der Partitur mit
                             <strong>Humdrum-Filtern</strong> die Darstellung der Partitur dynamisch verändern. Damit
-                            können z.B. moderne Schlüssel verwendet, der Liedtext auszublenden oder Melismen
+                            können z.B. moderne Schlüssel verwendet, der Liedtext ausgeblendet oder Melismen
                             hervorgehoben werden. Der Humdrum-Filter <code>fb</code> wurde eigens für dieses Projekt
                             entwickelt. Damit lässt sich per Knopfdruck ein Intervallsatz (direkt unter der jeweiligen
-                            Note oder als «Generalbass») der einzelnen Stimmen anzeigen um so schnell dem musikalischen
-                            Satz erfassen zu können. Mit dem <code>deg</code>-Filter können Skalenstufen der einzelnen
-                            Noten im Verhältnis zu Modus des Stücks angezeigt werden.
+                            Note oder als «Generalbass») der einzelnen Stimmen anzeigen, um so schnell den musikalischen
+                            Satz erfassen zu können Mit dem <code>deg</code>-Filter können Skalenstufen der einzelnen
+                            Noten im Verhältnis zum Modus des Stücks angezeigt werden.
                         </li>
                         <li>
-                            Einzelne Tricinien lassen sich als <strong>PDF downloaden</strong>. In Kombination mit den
+                            Die Tricinien lassen sich als <strong>PDF downloaden</strong>. In Kombination mit den
                             Humdrum-Filtern lassen sich so z.B. auch Lückentexte mit modernen Schlüsseln ohne Liedtext
-                            downloaden, die sich als Aufgaben für den Unterricht mit Studenten eignen. Dies kann
-                            kombiniert werden mit der Suche nach einzelnen Tricinien in denen der <i>cantus firmus</i>
+                            downloaden, die sich als Aufgaben für den Unterricht mit Studierenden eignen. Dies kann
+                            kombiniert werden mit der Suche nach einzelnen Tricinien, in denen der <i>cantus firmus</i>
                             nur in einer einzigen Stimme vorkommt. Weitere Darstellungsoptionen für die Notengrösse, den
                             Abstand zwischen den Stimmen und Systemen und der Ausrichtung (Hochformat / Querformat) sind
                             ebenfalls vorhanden.
@@ -43,25 +43,26 @@ defineI18nRoute({
                         <li>
                             Auf der Detailansicht eines Triciniums kann bei den Tabs auf der rechten Seite bei
                             «Kadenzen» die Option <strong>Kadenzen in der Partitur anzeigen</strong> ausgewählt werden.
-                            Damit werden alle Kadenzen direkt in der Partitur mit einer gelben Box hinterlegt um sie so
+                            Damit werden alle Kadenzen direkt in der Partitur mit einer gelben Box hinterlegt um sie
                             schnell lokalisieren zu können.
                         </li>
                         <li>
                             Auf der Seite mit den Kadenzen ist es möglich nach einer bestimmten <strong>Klauselflucht
                             innerhalb der Kadenzen</strong> zu suchen. So können z.B. schnell alle Kadenzen isoliert
-                            werden die im Bassus eine trugschlüssige Wendung haben, oder Kadenzen gefunden werden in
+                            werden, die im Bassus eine trugschlüssige Wendung haben, oder Kadenzen gefunden werden, in
                             denen die Tenorklausel zu der 3. Skalenstufe geführt wird.
                         </li>
                         <li>
-                            Besonders <strong>spezielle Kadenzen</strong> – oder auch besonders normale – können im
+                            Besonders <strong>spezielle Kadenzen</strong> – oder auch besonders regelmässige – können im
                             Filter auf der Seite mit den Kadenzen über den Ungewöhnlichkeits-Slider gesucht werden.
                         </li>
                         <li>
-                            Bei der Statistik Seite für <strong>melodische Intervallschritte</strong> kann z.B. nach
-                            einer verminderten Quarte im melodischen Verlauf gesucht werden (Flucht aus der der
-                            Sopranklausel in die Terz) oder nach grossen Sexten aufwärts. Einzelne Beispiele für die
-                            Intervallschritte könnten angeklickt werden um die Detailseite des Triciniums zu öffnen
-                            auf der die Note in der Partitur hervorgehoben wird.
+                            Auf der Statistik-Seite für <strong>melodische Intervallschritte</strong> können
+                            unterschiedliche Eigenschaften gefiltert werden, so kann z.B. nach einer verminderten Quarte
+                            im melodischen Verlauf gesucht werden (Flucht aus der der Sopranklausel in die Terz) oder
+                            nach grossen Sexten aufwärts. Einzelne Beispiele für die Intervallschritte könnten
+                            angeklickt werden um die Detailseite des Triciniums zu öffnen, auf der die Note in der
+                            Partitur hervorgehoben wird.
                         </li>
                     </ul>
                 </FormattedText>
@@ -77,7 +78,7 @@ defineI18nRoute({
                                     Humdrum
                                 </HyperLink>
                                 zugeordneten <em><code>**kern</code> representation</em> notiert. Der Quellcode der
-                                Partituren für die Tricinien von Lassus sowie den Vorlagen dafür von Caspar Ulenberg ist
+                                Partituren für die Tricinien von Lassus sowie für die Vorlagen von Caspar Ulenberg ist
                                 in zwei separaten Repositories auf GitHub verfügbar:
                             </p>
                             <ul class="list-disc pl-10 my-2">
@@ -95,10 +96,9 @@ defineI18nRoute({
                             <p>
                                 Auf dieser Website wird an einigen Stellen auf den Verovio Humdrum Viewer (VHV)
                                 verlinkt. Dort lässt sich der Quellcode der Partituren parallel mit der visuellen
-                                Ausgabe mit Verovio nebeneinander ansehen. Im Verovio Humdrum Viewer lassen sich
-                                zusätzlich
+                                Ausgabe von Verovio ansehen. Im Verovio Humdrum Viewer lassen sich zusätzliche
                                 <HyperLink href="https://doc.verovio.humdrum.org/filter/">Filter</HyperLink>
-                                auf die Partitur anwenden um so z.B. bestimmte Abschnitte zu isolieren, Terzparallelen
+                                auf die Partitur anwenden, um z.B. bestimmte Abschnitte zu isolieren, Terzparallelen
                                 farbig zu markieren oder die gesamte Partitur zu transponieren. Viele dieser Filter
                                 lassen sich auf der Website dieses Projekts und ohne technisches Vorwissen per Dropdown
                                 über den Partituren auf der Seite der einzelnen Tricinien direkt aktivieren. Eigene
@@ -107,7 +107,7 @@ defineI18nRoute({
                                 Dokumentation.
                             </p>
                             <p>
-                                Besonders Interessant für die Analyse der Tricinien ist der Filter <code>fb</code> mit
+                                Besonders interessant für die Analyse der Tricinien ist der Filter <code>fb</code> mit
                                 dem sich Intervallsätze und Generalbassbezifferung der Harmonien und Akkorde per
                                 Knopfdruck anzeigen lassen können. Ausserdem besteht über den Filter <code>deg</code>
                                 die Möglichkeit Skalenstufen der übergeordneten Tonart, bzw. dem Modus, anzeigen zu
@@ -115,10 +115,10 @@ defineI18nRoute({
                             </p>
                             <p>
                                 Im Verovio Humdrum Viewer gelangt man ausserdem mit einem Doppelklick auf einzelne Noten
-                                direkt auf die entsprechende Passage als Bilddatei des
+                                direkt auf die entsprechende Passage des
                                 <HyperLink
                                 href="https://www.digitale-sammlungen.de/de/details/bsb00075346">Digitalisats</HyperLink>
-                                der Bayerische Staatsbibliothek München.
+                                der Bayerischen Staatsbibliothek München.
                             </p>
                         </FormattedText>
                     </template>
