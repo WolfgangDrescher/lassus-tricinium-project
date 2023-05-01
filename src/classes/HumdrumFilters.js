@@ -105,6 +105,32 @@ export class HumdrumFilter {
     }
 }
 
+export class ClefsFilter extends HumdrumFilter {
+    static NAME = 'ClefsFilter';
+    unique = true;
+    configurable = true;
+
+    constructor(bassus, tenor, cantus) {
+        super();
+        if (this.validateValue(bassus)) {
+            this.bassus = bassus;
+            this.addLine(`shed -s 1 -e "s/^clef[CFG][1-5]/clef${bassus}/I;"`);
+        }
+        if (this.validateValue(tenor)) {
+            this.tenor = tenor;
+            this.addLine(`shed -s 3 -e "s/^clef[CFG][1-5]/clef${tenor}/I;"`);
+        }
+        if (this.validateValue(cantus)) {
+            this.cantus = cantus;
+            this.addLine(`shed -s 5 -e "s/^clef[CFG][1-5]/clef${cantus}/I;"`);
+        }
+    }
+
+    validateValue(value) {
+        return /^[CFG]v?[1-5]$/.test(value);
+    }
+}
+
 export class ModernClefsFilter extends HumdrumFilter {
     static NAME = 'ModernClefsFilter';
     unique = true;

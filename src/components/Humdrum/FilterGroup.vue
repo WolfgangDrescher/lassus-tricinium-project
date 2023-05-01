@@ -28,7 +28,8 @@ import {
     BassScaleDegreeFilter,
     HideSpineDataFilter,
     ShowAllMeasureNumbersFilter,
-    TieSplitFilter
+    TieSplitFilter,
+    ClefsFilter,
 } from '../../classes/HumdrumFilters.js';
 
 defineProps({
@@ -55,6 +56,7 @@ const selectedFilter = ref(null);
 
 const allFilters = [
     ModernClefsFilter,
+    ClefsFilter,
     IntervallsatzPresetFilter,
     FiguredbassPresetFilter,
     FiguredbassFilter,

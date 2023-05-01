@@ -25,6 +25,7 @@ const props = defineProps({
 // FiguredbassFilter
 // ScaleDegreeFilter
 // HideSpineDataFilter
+// ClefsFilter
 
 const emit = defineEmits(['applyFilter']);
 
@@ -82,6 +83,10 @@ function convertArgsToArray() {
         ];
     }
 
+    if (props.filter === 'ClefsFilter') {
+        return [args.bassus, args.tenor, args.cantus];
+    }
+
     return Object.entries(args).map(([_, value]) => {
         return value;
     });
@@ -135,6 +140,12 @@ const DynamicHumdrumFilter = defineComponent({
                 octave: undefined,
                 ties: undefined,
                 showRests: undefined,
+            });
+        } else if (props.filter === 'ClefsFilter') {
+            Object.assign(args, {
+                bassus: undefined,
+                tenor: undefined,
+                cantus: undefined,
             });
         } else {
             Object.assign(args, {});
@@ -420,6 +431,25 @@ const DynamicHumdrumFilter = defineComponent({
                             searchEnabled: false,
                         }),
                     ];
+                    break;
+                case 'ClefsFilter':
+                    elems = ['cantus', 'tenor', 'bassus'].map(voice => {
+                        return h(Dropdown, {
+                            modelValue: args[voice],
+                            ['onUpdate:modelValue']: value => { args[voice] = value; },
+                            label: t(`voice.${voice}`),
+                            asdoptions: [
+                                { value: 1, text: 1 },
+                                { value: 2, text: 2 },
+                            ],
+                            options: ['C','F','G','Gv'].flatMap(clef => {
+                                return Array.from({ length: 5 }, (_, i) => i + 1).map(line => `${clef}${line}`);
+                            }).map(o => ({ value: o, text: o })),
+                            multiple: false,
+                            searchEnabled: false,
+                        });
+                    });
+                    console.log(elems)
                     break;
             }
             return h('div', {

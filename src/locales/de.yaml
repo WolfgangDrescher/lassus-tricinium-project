@@ -68,6 +68,7 @@ tenorClausula: Klausel im Tenor
 cantusClausula: Klausel im Cantus
 total: Total
 humdrumFilter.ModernClefsFilter: Moderne Schlüssel
+humdrumFilter.ClefsFilter: Schlüssel manuell festlegen
 humdrumFilter.MensuralFilter: Mensuralnotation
 humdrumFilter.HideLyricsFilter: Liedtext ausblenden
 humdrumFilter.HideEditorialAccidentalsFilter: Redaktionelle Vorzeichen ausblenden
