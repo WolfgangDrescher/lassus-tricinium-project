@@ -13,6 +13,8 @@ defineProps({
         default: true,
     },
 });
+
+const localePath = useLocalePath();
 </script>
 
 <template>
@@ -25,7 +27,7 @@ defineProps({
                 <div class="flex items-start justify-between w-full">
                     <div class="pl-3 w-full">
                         <div class="text-xl font-medium leading-5 text-gray-800">
-                            <NuxtLink :href="`/tricinium/${tricinium.id}`">
+                            <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: tricinium.id } })">
                                 {{ tricinium.title }}
                             </NuxtLink>
                         </div>
