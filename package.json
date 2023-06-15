@@ -46,7 +46,7 @@
     "eslint": "^8.29.0",
     "eslint-plugin-vue": "^9.5.1",
     "js-yaml": "^4.1.0",
-    "nuxt": "3.4.1",
+    "nuxt": "^3.5.3",
     "nuxt-icon": "^0.4.0"
   }
 }
