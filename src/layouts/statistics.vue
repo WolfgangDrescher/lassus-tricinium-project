@@ -8,7 +8,7 @@ const localePath = useLocalePath();
         <Container>
             <div class="flex flex-col lg:flex-row gap-4">
                 <aside class="lg:w-1/4 shrink-0">
-                    <div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
+                    <div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded">
                         <ul class="space-y-2">
                             <StatisticsSidebarItem :href="localePath('statistics')">{{ $t('overview') }}</StatisticsSidebarItem>
                             <StatisticsSidebarItem :href="localePath('statistics-clefs')">{{ $t('clefs') }}</StatisticsSidebarItem>
