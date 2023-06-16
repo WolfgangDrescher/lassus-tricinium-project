@@ -6,6 +6,21 @@ const { t } = useI18n();
 const localePath = useLocalePath();
 
 const route = useRoute();
+
+// Redirect to tricinium if route param is a number
+if (route.params.id.match(/^\d+$/)) {
+    const nr = parseInt(route.params.id).toString().padStart(2, '0');
+    try {
+        const triciniumData = await queryContent('/lgp').where({
+            _path: new RegExp(`^/lgp/${nr}-`),
+        }).findOne();
+        const tricinium = useTricinium(triciniumData);
+        await navigateTo(localePath({ name: 'tricinium-id', params: { id: tricinium.id } }));
+    } catch (e) {
+        // console.log(e);
+    }
+}
+
 const { data } = await useAsyncData(`/api/tricinium/${route.params.id}`, () => $fetch(`/api/tricinium/${route.params.id}`));
 const tricinium = useTricinium(data.value);
 
