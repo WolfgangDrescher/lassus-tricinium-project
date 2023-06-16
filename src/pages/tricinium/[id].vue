@@ -22,6 +22,12 @@ if (route.params.id.match(/^\d+$/)) {
 }
 
 const { data } = await useAsyncData(`/api/tricinium/${route.params.id}`, () => $fetch(`/api/tricinium/${route.params.id}`));
+
+// Throw 404 if tricinium does not exist
+if (!data.value) {
+    throw createError({ statusCode: 404, statusMessage: 'Page not found' });
+}
+
 const tricinium = useTricinium(data.value);
 
 useHead({
