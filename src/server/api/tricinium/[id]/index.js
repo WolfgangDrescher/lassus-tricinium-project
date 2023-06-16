@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
     const tricinium = await serverQueryContent(event).where({
         _source: 'lgp',
         _path: {
-            $contains: `/lgp/${id}`,
+            $eq: `/lgp/${id}`,
         },
     }).findOne();
     if (tricinium) {
