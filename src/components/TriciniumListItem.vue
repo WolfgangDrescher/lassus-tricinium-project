@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
     tricinium: {
         type: Object,
         required: true,
@@ -15,13 +15,17 @@ defineProps({
 });
 
 const localePath = useLocalePath();
+
+async function navigateToTricinium() {
+    return await navigateTo(localePath({ name: 'tricinium-id', params: { id: props.tricinium.id } }));
+}
 </script>
 
 <template>
     <Card>
         <template v-slot:title>
             <div class="flex items-center">
-                <div class="w-12 h-12 flex justify-center items-center font-serif text-4xl">
+                <div class="w-12 h-12 flex justify-center items-center font-serif text-4xl cursor-pointer" @click="navigateToTricinium">
                     {{ tricinium.nr }}.
                 </div>
                 <div class="flex items-start justify-between w-full">
@@ -44,10 +48,10 @@ const localePath = useLocalePath();
             </div>
         </template>
         <div class="flex flex-col gap-4 mt-4">
-            <div v-if="scoreDisplay === 'lassus' && tricinium.localRawFile">
+            <div v-if="scoreDisplay === 'lassus' && tricinium.localRawFile" @click="navigateToTricinium" class="cursor-pointer">
                 <VerovioCanvas :url="tricinium.localRawFile" :select="{measureRange: '1-4'}" view-mode="horizontal" :scale="35" lazy unload :lazy-delay="100" :options="{ pageMarginBottom: 30 }" />
             </div>
-            <div v-else-if="scoreDisplay === 'ulenberg'">
+            <div v-else-if="scoreDisplay === 'ulenberg'" @click="navigateToTricinium" class="cursor-pointer">
                 <VerovioCanvas :url="tricinium.localUlenbergRawFile" view-mode="horizontal" :scale="35" lazy :options="{ pageMarginBottom: 30 }" />
             </div>
             <div v-if="showLyrics && tricinium.hasLyrics" class="text-sm leading-5 text-gray-600">
