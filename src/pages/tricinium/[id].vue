@@ -6,9 +6,7 @@ const { t } = useI18n();
 const localePath = useLocalePath();
 
 const route = useRoute();
-const { data } = await useAsyncData(`/api/tricinium/${route.params.id}`, () => {
-    return $fetch(`/api/tricinium/${route.params.id}`);
-});
+const { data } = await useAsyncData(`/api/tricinium/${route.params.id}`, () => $fetch(`/api/tricinium/${route.params.id}`));
 const tricinium = useTricinium(data.value);
 
 useHead({
