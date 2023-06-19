@@ -19,6 +19,12 @@ const localePath = useLocalePath();
 async function navigateToTricinium() {
     return await navigateTo(localePath({ name: 'tricinium-id', params: { id: props.tricinium.id } }));
 }
+
+const filter = useTriciniumFilterStore();
+
+function updateFilter(prop, value) {
+    filter.update(prop, value);
+}
 </script>
 
 <template>
@@ -58,9 +64,15 @@ async function navigateToTricinium() {
                 {{ tricinium.lyricsAsString() }}
             </div>
             <BadgeGroup>
-                <Badge text-size="sm" v-if="tricinium.transposition">{{ $t(`transposition.${tricinium.transposition}`) }}</Badge>
-                <Badge text-size="sm" v-if="tricinium.finalis">{{ tricinium.finalis }}</Badge>
-                <Badge text-size="sm" v-if="tricinium.mode">{{ $t(`mode.${tricinium.mode}`) }}</Badge>
+                <Badge text-size="sm" v-if="tricinium.transposition" clickable @click="updateFilter('transposition', filter.transposition === tricinium.transposition ? null : tricinium.transposition)" :selected="filter.transposition === tricinium.transposition">
+                    {{ $t(`transposition.${tricinium.transposition}`) }}
+                </Badge>
+                <Badge text-size="sm" v-if="tricinium.finalis" clickable @click="updateFilter('finalis', filter.finalis.includes(tricinium.finalis) ? filter.finalis.filter(f => f !== tricinium.finalis) : [tricinium.finalis])" :selected="filter.finalis.includes(tricinium.finalis)">
+                    {{ tricinium.finalis }}
+                </Badge>
+                <Badge text-size="sm" v-if="tricinium.mode" clickable @click="updateFilter('modes', filter.modes.includes(tricinium.mode) ? filter.modes.filter(m => m !== tricinium.mode) : [tricinium.mode])" :selected="filter.modes.includes(tricinium.mode)">
+                    {{ $t(`mode.${tricinium.mode}`) }}
+                </Badge>
             </BadgeGroup>
         </div>
     </Card>
