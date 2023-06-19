@@ -27,7 +27,9 @@ ambitus: Ambitus
 ulenberg: Ulenberg
 comments: Bemerkungen
 showScore: Noten einblenden
+hideScore: Noten ausblenden
 showSidebar: Seitenleiste einblenden
+hideSidebar: Seitenleiste ausblenden
 overview: Übersicht
 clefs: Schlüssel
 modes: Modi

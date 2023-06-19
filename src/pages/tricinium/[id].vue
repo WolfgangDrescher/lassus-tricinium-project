@@ -265,12 +265,22 @@ async function downloadPDF() {
             </div>
             <div>
                 <div class="grid grid-cols-2 gap-1">
-                    <Button @click="toggleScore" outline :selected="showScore" :hover="false" :title="$t('showScore')">
-                        <Icon name="heroicons-solid:musical-note" />
-                    </Button>
-                    <Button @click="toggleSidebar" outline :selected="showSidebar" :hover="false" :title="$t('showSidebar')">
-                        <Icon name="heroicons-solid:information-circle" />
-                    </Button>
+                    <VTooltip :hide-triggers="events => [...events]">
+                        <Button @click="toggleScore" outline :selected="showScore" :hover="false" :title="$t('showScore')">
+                            <Icon name="heroicons-solid:musical-note" />
+                        </Button>
+                        <template #popper>
+                            {{ showScore ? $t('hideScore') : $t('showScore') }}
+                        </template>
+                    </VTooltip>
+                    <VTooltip :hide-triggers="events => [...events]">
+                        <Button @click="toggleSidebar" outline :selected="showSidebar" :hover="false" :title="$t('showSidebar')">
+                            <Icon name="heroicons-solid:information-circle" />
+                        </Button>
+                        <template #popper>
+                            {{ showSidebar ? $t('hideSidebar') : $t('showSidebar') }}
+                        </template>
+                    </VTooltip>
                 </div>
             </div>
         </div>
