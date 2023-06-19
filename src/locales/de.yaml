@@ -195,3 +195,7 @@ voices: Stimmen
 weirdnessFactor: Ungewöhnlichkeit
 tableView: Tabellenansicht
 listView: Listenansicht
+chords: Akkorde
+intervals: Intervalle
+numberOfNotesInChord: Anzahl Noten im Akkord
+ignoreDissonances: Dissonanzen ignorieren
