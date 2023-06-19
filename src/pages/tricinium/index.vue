@@ -31,6 +31,7 @@ const scoreOptions = [
 const tableHeaders = [
     { value: 'nr', text: '#', align: 'right' },
     { value: 'title', text: t('title') },
+    { value: 'vhv', text: 'VHV' },
     { value: 'incipit', text: t('incipit') },
     { value: 'composer', text: t('composer') },
     { value: 'mode', text: t('mode') },
@@ -48,6 +49,7 @@ const tableItems = computed(() => {
             id: tricinium.id,
             nr: tricinium.nr,
             title: tricinium.title,
+            vhv: tricinium.vhvHref,
             incipit: tricinium.incipit,
             composer: tricinium.composer,
             mode: tricinium.mode && t(`mode.${tricinium.mode}`),
@@ -120,6 +122,11 @@ const tableItems = computed(() => {
             <template #[`item.title`]="{ item }">
                 <HyperLink :href="localePath({ name: 'tricinium-id', params: { id: item.id }})">
                     {{ item.title }}
+                </HyperLink>
+            </template>
+            <template #[`item.vhv`]="{ item }">
+                <HyperLink :href="item.vhv" target="_blank">
+                    VHV
                 </HyperLink>
             </template>
         </DataTable>
