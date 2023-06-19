@@ -80,12 +80,22 @@ const tableItems = computed(() => {
                     </div>
                 </template>
                 <ButtonGroup>
-                    <Button @click="viewOptions.viewMode='table'" outline :selected="viewOptions.viewMode === 'table'">
-                        <Icon name="heroicons-solid:view-list" />
-                    </Button>
-                    <Button @click="viewOptions.viewMode='score'" outline :selected="viewOptions.viewMode === 'score'">
-                        <Icon name="heroicons-solid:view-grid" />
-                    </Button>
+                    <VTooltip>
+                        <Button @click="viewOptions.viewMode='table'" outline :selected="viewOptions.viewMode === 'table'">
+                            <Icon name="heroicons-solid:view-list" />
+                        </Button>
+                        <template #popper>
+                            {{ $t('tableView') }}
+                        </template>
+                    </VTooltip>
+                    <VTooltip>
+                        <Button @click="viewOptions.viewMode='score'" outline :selected="viewOptions.viewMode === 'score'">
+                            <Icon name="heroicons-solid:view-grid" />
+                        </Button>
+                        <template #popper>
+                            {{ $t('listView') }}
+                        </template>
+                    </VTooltip>
                 </ButtonGroup>
             </div>
         </div>

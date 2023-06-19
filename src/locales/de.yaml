@@ -191,3 +191,5 @@ ignoreScaleDegree: Skalenstufen nicht beachten
 ignoreScaleDegreeOrder: Reihenfolge der Stimmen für Skalenstufen nicht beachten
 voices: Stimmen
 weirdnessFactor: Ungewöhnlichkeit
+tableView: Tabellenansicht
+listView: Listenansicht
