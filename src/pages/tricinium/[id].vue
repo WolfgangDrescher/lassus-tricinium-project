@@ -37,9 +37,7 @@ useHead({
     ],
 });
 
-const { data: triciniaData } = await useAsyncData(`/api/tricinium`, () => {
-    return $fetch(`/api/tricinium`);
-});
+const { data: triciniaData } = await useAsyncData(`/api/tricinium`, () => $fetch(`/api/tricinium`));
 const tricinia = useTricinium(triciniaData.value);
 
 const { data: cadenceData } = await useAsyncData(`cadences-${tricinium.id}`, () => queryContent('/cadences').where({ triciniumId: tricinium.id }).find())
