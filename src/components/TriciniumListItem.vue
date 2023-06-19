@@ -25,12 +25,12 @@ async function navigateToTricinium() {
     <Card>
         <template v-slot:title>
             <div class="flex items-center">
-                <div class="w-12 h-12 flex justify-center items-center font-serif text-4xl cursor-pointer" @click="navigateToTricinium">
+                <div class="w-12 h-12 flex justify-center items-center font-serif text-4xl cursor-pointer hover:text-primary-500" @click="navigateToTricinium">
                     {{ tricinium.nr }}.
                 </div>
                 <div class="flex items-start justify-between w-full">
                     <div class="pl-3 w-full">
-                        <div class="text-xl font-medium leading-5 text-gray-800">
+                        <div class="text-xl font-medium leading-5 text-gray-800 hover:text-primary-500">
                             <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: tricinium.id } })">
                                 {{ tricinium.title }}
                             </NuxtLink>
