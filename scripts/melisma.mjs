@@ -93,6 +93,7 @@ files.forEach(file => {
                         voice: voice.name,
                         filename: melismaFilename,
                         notes,
+                        startBeat: parseFloat(startBeat),
                     };
 
                     fs.writeFileSync(`${__dirname}/../content/melisma/${id}-${voice.name}-${startBeat}.yaml`, yaml.dump(melismaYaml, {
