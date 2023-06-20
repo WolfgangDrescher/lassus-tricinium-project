@@ -1,0 +1,21 @@
+endLine: 41
+filename: 9aa557fa-5804-5e1e-9293-7c8a215a5bd0.krn
+notes:
+    -
+        beat: '0'
+        mint: '[e]'
+    -
+        beat: '2'
+        mint: '+4'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '5.5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '+2'
+startLine: 35
+triciniumId: 23-domini-est-terra
+voice: tenor

@@ -1,0 +1,27 @@
+endLine: 37
+filename: e8ab2303-988a-5a28-ae86-ce5c64364528.krn
+notes:
+    -
+        beat: '0'
+        mint: '[g]'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '6.5'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '+2'
+startLine: 31
+triciniumId: 01-beatus-vir
+voice: cantus

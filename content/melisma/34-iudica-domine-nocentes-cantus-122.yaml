@@ -1,0 +1,33 @@
+endLine: 173
+filename: 4aee9c66-517b-5112-a62c-2efb7e462943.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '0.5'
+        mint: '-2'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '1.5'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '-5'
+    -
+        beat: '4.5'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '5.5'
+        mint: '+2'
+startLine: 162
+triciniumId: 34-iudica-domine-nocentes
+voice: cantus

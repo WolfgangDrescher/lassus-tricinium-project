@@ -1,0 +1,24 @@
+endLine: 101
+filename: 08c19c3d-3971-5f12-8d0c-d27d604a75c6.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '0.5'
+        mint: '-2'
+    -
+        beat: '1'
+        mint: '1'
+    -
+        beat: '1.5'
+        mint: '-2'
+    -
+        beat: '1.75'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '+2'
+startLine: 93
+triciniumId: 05-verba-mea-auribus
+voice: cantus

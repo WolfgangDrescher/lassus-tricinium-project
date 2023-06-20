@@ -1,0 +1,39 @@
+endLine: 95
+filename: 02ddb794-630d-5d2e-a634-4f5bca745560.krn
+notes:
+    -
+        beat: '0'
+        mint: '[dd]'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '-3'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '+2'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '-2'
+    -
+        beat: '13'
+        mint: '1'
+    -
+        beat: '14'
+        mint: '-2'
+startLine: 76
+triciniumId: 10-in-domino-confido
+voice: cantus

@@ -1,0 +1,33 @@
+endLine: 101
+filename: 545f5c45-64fc-52ab-a425-2310e4bf0d64.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+4'
+startLine: 90
+triciniumId: 24-ad-te-domine-levavi-animam
+voice: cantus

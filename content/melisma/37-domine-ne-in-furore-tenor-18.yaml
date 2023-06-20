@@ -1,0 +1,24 @@
+endLine: 42
+filename: b7f76ba8-1f5d-581e-9c9a-a4ec871a9175.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '+4'
+    -
+        beat: '6'
+        mint: '-5'
+    -
+        beat: '9'
+        mint: '+2'
+    -
+        beat: '10'
+        mint: '+2'
+startLine: 32
+triciniumId: 37-domine-ne-in-furore
+voice: tenor

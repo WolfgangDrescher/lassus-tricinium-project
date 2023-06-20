@@ -1,0 +1,60 @@
+endLine: 274
+filename: 86e4e086-0333-555b-b836-56095e9b5838.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '3'
+        mint: '-4'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '+3'
+    -
+        beat: '10'
+        mint: '+2'
+    -
+        beat: '11'
+        mint: '-2'
+    -
+        beat: '12'
+        mint: '-2'
+    -
+        beat: '13'
+        mint: '-2'
+    -
+        beat: '14'
+        mint: '-2'
+    -
+        beat: '16'
+        mint: '+4'
+    -
+        beat: '19'
+        mint: '-2'
+    -
+        beat: '19.5'
+        mint: '-2'
+    -
+        beat: '20'
+        mint: '+2'
+    -
+        beat: '22'
+        mint: '+2'
+    -
+        beat: '26'
+        mint: '+2'
+startLine: 241
+triciniumId: 12-usquequo-domine
+voice: cantus

@@ -1,0 +1,33 @@
+endLine: 117
+filename: cadd90ef-3931-5ad9-9578-768b3ce2d214.krn
+notes:
+    -
+        beat: '0'
+        mint: '[a]'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '9.5'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+2'
+startLine: 101
+triciniumId: 46-omnes-gentes
+voice: cantus

@@ -1,0 +1,39 @@
+endLine: 92
+filename: 4d0445c9-d6cb-5880-ba37-1470c1651505.krn
+notes:
+    -
+        beat: '0'
+        mint: '[g]'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '2.66667'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '-4'
+    -
+        beat: '5'
+        mint: '-3'
+    -
+        beat: '6'
+        mint: '+3'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '1'
+    -
+        beat: '11'
+        mint: '-2'
+    -
+        beat: '11.5'
+        mint: '-2'
+    -
+        beat: '12'
+        mint: '+2'
+startLine: 69
+triciniumId: 12-usquequo-domine
+voice: cantus

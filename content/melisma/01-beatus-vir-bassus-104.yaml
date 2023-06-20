@@ -1,0 +1,27 @@
+endLine: 115
+filename: 1a9e4fcd-0c60-548d-b951-83f91364e02a.krn
+notes:
+    -
+        beat: '0'
+        mint: '[c]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '+2'
+startLine: 107
+triciniumId: 01-beatus-vir
+voice: bassus

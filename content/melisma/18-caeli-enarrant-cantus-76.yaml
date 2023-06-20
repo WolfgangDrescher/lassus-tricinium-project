@@ -1,0 +1,27 @@
+endLine: 96
+filename: 506e7830-d546-5646-b9c1-42a16a2193c7.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '-2'
+startLine: 87
+triciniumId: 18-caeli-enarrant
+voice: cantus

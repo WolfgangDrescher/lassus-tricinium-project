@@ -1,0 +1,45 @@
+endLine: 173
+filename: cdb84fd5-4490-5c5b-b525-1837678bb1d5.krn
+notes:
+    -
+        beat: '0'
+        mint: '[g]'
+    -
+        beat: '0.5'
+        mint: '-2'
+    -
+        beat: '1'
+        mint: '-3'
+    -
+        beat: '1.5'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '2.5'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '-3'
+    -
+        beat: '3.5'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '+3'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '9.5'
+        mint: '-2'
+startLine: 154
+triciniumId: 19-exaudiat-te-dominus
+voice: tenor

@@ -1,0 +1,24 @@
+endLine: 137
+filename: a507b753-2739-59af-ba51-0ccf700559af.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '3.5'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+startLine: 132
+triciniumId: 28-afferte-domino
+voice: tenor

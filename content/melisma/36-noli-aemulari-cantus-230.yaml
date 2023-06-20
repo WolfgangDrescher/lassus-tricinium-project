@@ -1,0 +1,42 @@
+endLine: 264
+filename: 235fe809-184b-5197-93d7-a0075d4f6f8c.krn
+notes:
+    -
+        beat: '0'
+        mint: '[d]'
+    -
+        beat: '1.5'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '2.5'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '3.5'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '4.5'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '+3'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '7.5'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '+2'
+startLine: 247
+triciniumId: 36-noli-aemulari
+voice: cantus

@@ -1,0 +1,30 @@
+endLine: 60
+filename: 1dfc477e-aae4-52f0-8523-8d0bfffa2a3e.krn
+notes:
+    -
+        beat: '0'
+        mint: '[g]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '1'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '5.5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '-3'
+    -
+        beat: '8'
+        mint: '+2'
+startLine: 48
+triciniumId: 16-exaudi-domine-iustitiam
+voice: tenor

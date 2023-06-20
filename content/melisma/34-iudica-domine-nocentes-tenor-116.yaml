@@ -1,0 +1,54 @@
+endLine: 173
+filename: aabe4f48-f092-50a5-95d5-6350fb217fdf.krn
+notes:
+    -
+        beat: '0'
+        mint: '[g]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '3.5'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '4.5'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '5.5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '-5'
+    -
+        beat: '8.5'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '+2'
+    -
+        beat: '9.5'
+        mint: '+2'
+    -
+        beat: '10'
+        mint: '+2'
+    -
+        beat: '10.5'
+        mint: '-2'
+    -
+        beat: '11'
+        mint: '+2'
+    -
+        beat: '11.5'
+        mint: '+2'
+startLine: 152
+triciniumId: 34-iudica-domine-nocentes
+voice: tenor

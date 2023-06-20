@@ -1,0 +1,42 @@
+endLine: 189
+filename: f1db9924-79fc-533a-8d4f-af6ec9473375.krn
+notes:
+    -
+        beat: '0'
+        mint: '[a]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '7.5'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '-2'
+    -
+        beat: '11'
+        mint: '+3'
+    -
+        beat: '12'
+        mint: '-2'
+startLine: 171
+triciniumId: 10-in-domino-confido
+voice: bassus

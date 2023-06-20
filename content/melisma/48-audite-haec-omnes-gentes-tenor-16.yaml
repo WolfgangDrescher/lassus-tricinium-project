@@ -1,0 +1,48 @@
+endLine: 54
+filename: 78c76389-a812-5907-8f9f-e60bd7433093.krn
+notes:
+    -
+        beat: '0'
+        mint: '[g]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '-4'
+    -
+        beat: '10'
+        mint: '+5'
+    -
+        beat: '13'
+        mint: '-2'
+    -
+        beat: '14'
+        mint: '1'
+    -
+        beat: '18'
+        mint: '-2'
+    -
+        beat: '19'
+        mint: '-2'
+    -
+        beat: '20'
+        mint: '+2'
+startLine: 31
+triciniumId: 48-audite-haec-omnes-gentes
+voice: tenor

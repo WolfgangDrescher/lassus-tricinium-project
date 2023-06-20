@@ -1,0 +1,24 @@
+endLine: 168
+filename: 49a02c90-4eb3-5e4d-9837-1adb2d2aa0be.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '3.5'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '+2'
+startLine: 158
+triciniumId: 49-deus-deorum-dominus
+voice: cantus

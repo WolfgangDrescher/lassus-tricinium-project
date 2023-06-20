@@ -1,0 +1,24 @@
+endLine: 255
+filename: c0f34c6a-300b-50f0-adff-d0a7a3d0d123.krn
+notes:
+    -
+        beat: '0'
+        mint: '[dd]'
+    -
+        beat: '1.5'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '-4'
+    -
+        beat: '4.5'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '+2'
+startLine: 245
+triciniumId: 25-iudica-me-domine
+voice: cantus

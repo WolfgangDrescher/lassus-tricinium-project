@@ -1,0 +1,42 @@
+endLine: 226
+filename: fbd4272e-c74d-5ca4-8d45-d8fafadc14c4.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '+4'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '1'
+    -
+        beat: '13'
+        mint: '-2'
+    -
+        beat: '13.5'
+        mint: '-2'
+    -
+        beat: '14'
+        mint: '+2'
+startLine: 209
+triciniumId: 22-dominus-regit-me
+voice: tenor

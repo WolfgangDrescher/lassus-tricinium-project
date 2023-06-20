@@ -1,0 +1,24 @@
+endLine: 190
+filename: 9ebdaa7f-ca4e-55b8-a11a-608def4f58db.krn
+notes:
+    -
+        beat: '0'
+        mint: '[a]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '1'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '7.5'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '+2'
+startLine: 178
+triciniumId: 03-domine-quid-multiplicati
+voice: tenor

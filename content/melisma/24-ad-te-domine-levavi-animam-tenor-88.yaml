@@ -1,0 +1,24 @@
+endLine: 116
+filename: 30900272-4a10-5307-bea6-5df2cb0bd1eb.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '1'
+        mint: '-3'
+    -
+        beat: '2'
+        mint: '+3'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '5.5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '+2'
+startLine: 110
+triciniumId: 24-ad-te-domine-levavi-animam
+voice: tenor

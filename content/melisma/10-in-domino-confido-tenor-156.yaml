@@ -1,0 +1,45 @@
+endLine: 190
+filename: 198c8b6c-d998-5223-8c10-d73c76031d65.krn
+notes:
+    -
+        beat: '0'
+        mint: '[d]'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '+4'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '+2'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+2'
+    -
+        beat: '11'
+        mint: '-8'
+    -
+        beat: '12'
+        mint: '+2'
+startLine: 171
+triciniumId: 10-in-domino-confido
+voice: tenor

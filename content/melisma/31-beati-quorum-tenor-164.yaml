@@ -1,0 +1,36 @@
+endLine: 171
+filename: 96fb27df-86a4-50cd-9efc-e1747e342c79.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '1'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '3.5'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-3'
+    -
+        beat: '7'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '-2'
+startLine: 159
+triciniumId: 31-beati-quorum
+voice: tenor

@@ -1,0 +1,33 @@
+endLine: 216
+filename: 408a7e8f-72cf-5b59-92ff-78c431390c9a.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '1.5'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '+2'
+startLine: 204
+triciniumId: 44-eructavit-cor-meum
+voice: tenor

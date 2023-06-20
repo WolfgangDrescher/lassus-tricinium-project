@@ -1,0 +1,24 @@
+endLine: 160
+filename: 2d228f41-fc8c-5398-8e07-d9f87f83fd3d.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '1'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '5.5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '+2'
+startLine: 148
+triciniumId: 03-domine-quid-multiplicati
+voice: cantus

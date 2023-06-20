@@ -1,0 +1,33 @@
+endLine: 157
+filename: 63ca5388-d502-522d-b4f6-df87e848c959.krn
+notes:
+    -
+        beat: '0'
+        mint: '[a]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '1'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '7.5'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '+2'
+startLine: 146
+triciniumId: 50-miserere-mei-deus
+voice: tenor

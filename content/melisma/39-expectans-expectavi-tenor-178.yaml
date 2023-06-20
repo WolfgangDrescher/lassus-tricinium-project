@@ -1,0 +1,24 @@
+endLine: 193
+filename: 9ff1b7c0-4b0e-5080-8677-7a3698837c71.krn
+notes:
+    -
+        mint: '!!!COM: Lassus, Orlandus'
+    -
+        mint: '!!!CDT: 1532-1594/06/14'
+    -
+        mint: '!!!OPR: Geistliche Psalmen mit dreyen Stimmen'
+    -
+        mint: '!!!ONM: 39'
+    -
+        mint: '!!!OTL@@LA: Expectans expectavi'
+    -
+        mint: '!!!OTL-incipit@@DE: Ich harr auff Gott mit gantzer gir'
+    -
+        beat: '**absb'
+        mint: '**mint'
+    -
+        beat: '='
+        mint: '='
+startLine: 187
+triciniumId: 39-expectans-expectavi
+voice: tenor

@@ -1,0 +1,30 @@
+endLine: 189
+filename: 786c8b2f-23a4-510a-8117-0d8a469b282b.krn
+notes:
+    -
+        beat: '0'
+        mint: '[g]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '3.5'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-3'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '9.5'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+2'
+startLine: 177
+triciniumId: 43-deus-auribus-nostris
+voice: tenor

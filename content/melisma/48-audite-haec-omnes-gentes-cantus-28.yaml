@@ -1,0 +1,27 @@
+endLine: 60
+filename: d018bd77-d3a2-5428-953b-b120fad397b9.krn
+notes:
+    -
+        beat: '0'
+        mint: '[dd]'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+4'
+    -
+        beat: '13'
+        mint: '-2'
+    -
+        beat: '14'
+        mint: '-2'
+startLine: 44
+triciniumId: 48-audite-haec-omnes-gentes
+voice: cantus

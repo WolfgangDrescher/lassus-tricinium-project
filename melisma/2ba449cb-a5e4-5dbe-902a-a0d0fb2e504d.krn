@@ -1,0 +1,24 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 5
+!!!OTL@@LA: Verba mea auribus
+!!!OTL-incipit@@DE: Vernimb Herr meine Wort
+**kern	**text
+*clefG2	*
+*k[b-]	*
+*g:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+=21	=21
+2.b-	mein
+8a	.
+8g	.
+1.f	.
+=22	=22
+*	*
+!! cadence start
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental

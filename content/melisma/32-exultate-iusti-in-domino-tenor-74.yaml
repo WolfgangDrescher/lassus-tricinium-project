@@ -1,0 +1,27 @@
+endLine: 110
+filename: 690440bd-1896-529c-87f3-15cfab23eba7.krn
+notes:
+    -
+        beat: '0'
+        mint: '[d]'
+    -
+        beat: '0.5'
+        mint: '+2'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '1.5'
+        mint: '-3'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '2.5'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '+2'
+startLine: 101
+triciniumId: 32-exultate-iusti-in-domino
+voice: tenor

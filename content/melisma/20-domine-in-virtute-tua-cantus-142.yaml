@@ -1,0 +1,30 @@
+endLine: 171
+filename: 9f31d7bf-61eb-5fb8-a72a-bc3144a4a356.krn
+notes:
+    -
+        beat: '0'
+        mint: '[ff]'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '+2'
+    -
+        beat: '11'
+        mint: '-2'
+    -
+        beat: '11.5'
+        mint: '-2'
+    -
+        beat: '12'
+        mint: '+2'
+startLine: 158
+triciniumId: 20-domine-in-virtute-tua
+voice: cantus

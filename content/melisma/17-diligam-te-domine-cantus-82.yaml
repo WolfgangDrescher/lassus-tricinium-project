@@ -1,0 +1,24 @@
+endLine: 102
+filename: 1e9b8e80-b1c1-5221-9655-e33054540499.krn
+notes:
+    -
+        beat: '0'
+        mint: '[a]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '1'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '7.5'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '+2'
+startLine: 90
+triciniumId: 17-diligam-te-domine
+voice: cantus

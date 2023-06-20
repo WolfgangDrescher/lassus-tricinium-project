@@ -1,0 +1,36 @@
+endLine: 40
+filename: 3beaac25-28bd-514d-980a-7573e7966268.krn
+notes:
+    -
+        beat: '0'
+        mint: '[A]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '+2'
+    -
+        beat: '9'
+        mint: '+2'
+    -
+        beat: '10'
+        mint: '-2'
+    -
+        beat: '13'
+        mint: '-2'
+    -
+        beat: '13.5'
+        mint: '-2'
+    -
+        beat: '14'
+        mint: '-2'
+startLine: 24
+triciniumId: 07-domine-deus-meus
+voice: tenor

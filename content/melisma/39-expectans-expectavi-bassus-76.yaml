@@ -1,0 +1,30 @@
+endLine: 101
+filename: d92327be-6825-5299-9551-ac0d5f325692.krn
+notes:
+    -
+        beat: '0'
+        mint: '[B-]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '1.5'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '2.5'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '3.5'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+startLine: 90
+triciniumId: 39-expectans-expectavi
+voice: bassus

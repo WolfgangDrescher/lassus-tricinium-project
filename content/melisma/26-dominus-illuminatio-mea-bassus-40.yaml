@@ -1,0 +1,36 @@
+endLine: 68
+filename: 879229c6-5ca7-5f67-bd94-55a8b412db37.krn
+notes:
+    -
+        beat: '0'
+        mint: '[d]'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '-3'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '10'
+        mint: '-2'
+    -
+        beat: '11'
+        mint: '-2'
+    -
+        beat: '12'
+        mint: '-2'
+startLine: 55
+triciniumId: 26-dominus-illuminatio-mea
+voice: bassus

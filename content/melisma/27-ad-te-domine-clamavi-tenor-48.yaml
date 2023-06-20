@@ -1,0 +1,27 @@
+endLine: 74
+filename: c63dba44-faf2-566b-b27e-ae3e0ab9a327.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '9.5'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+2'
+startLine: 65
+triciniumId: 27-ad-te-domine-clamavi
+voice: tenor

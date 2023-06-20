@@ -1,0 +1,30 @@
+endLine: 163
+filename: 9eacc1a8-7754-59d9-a353-d2559549d662.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '-5'
+    -
+        beat: '4'
+        mint: '+5'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '7.5'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '+2'
+startLine: 153
+triciniumId: 22-dominus-regit-me
+voice: cantus

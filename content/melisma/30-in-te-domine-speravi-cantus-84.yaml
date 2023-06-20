@@ -1,0 +1,36 @@
+endLine: 125
+filename: d352371b-a37c-5ce5-a843-b78b0459ee4b.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '7.5'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '-3'
+    -
+        beat: '10'
+        mint: '+6'
+startLine: 111
+triciniumId: 30-in-te-domine-speravi
+voice: cantus

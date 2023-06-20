@@ -1,0 +1,27 @@
+endLine: 259
+filename: cbae3cc7-93c2-5277-90aa-3230907effc2.krn
+notes:
+    -
+        beat: '0'
+        mint: '[b]'
+    -
+        beat: '1.5'
+        mint: '-2'
+    -
+        beat: '1.75'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3.5'
+        mint: '-2'
+    -
+        beat: '3.75'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '+2'
+startLine: 247
+triciniumId: 36-noli-aemulari
+voice: tenor

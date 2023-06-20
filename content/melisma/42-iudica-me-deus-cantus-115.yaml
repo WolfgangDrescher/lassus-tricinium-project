@@ -1,0 +1,36 @@
+endLine: 143
+filename: 8e63444f-4f9a-5939-97eb-c1a757437f0c.krn
+notes:
+    -
+        beat: '0'
+        mint: '[ff]'
+    -
+        beat: '0.5'
+        mint: '-2'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '2.5'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '3.5'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '6.5'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '+2'
+startLine: 131
+triciniumId: 42-iudica-me-deus
+voice: cantus

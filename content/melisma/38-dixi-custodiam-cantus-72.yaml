@@ -1,0 +1,69 @@
+endLine: 112
+filename: 895dda2a-3b0c-5aae-8f6e-03bd7d391383.krn
+notes:
+    -
+        beat: '0'
+        mint: '[b-]'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '+2'
+    -
+        beat: '10'
+        mint: '+2'
+    -
+        beat: '11'
+        mint: '-4'
+    -
+        beat: '12'
+        mint: '+3'
+    -
+        beat: '13'
+        mint: '-2'
+    -
+        beat: '15'
+        mint: '-2'
+    -
+        beat: '15.5'
+        mint: '+2'
+    -
+        beat: '16'
+        mint: '+2'
+    -
+        beat: '17'
+        mint: '-2'
+    -
+        beat: '17.5'
+        mint: '-2'
+    -
+        beat: '18'
+        mint: '-2'
+    -
+        beat: '19.5'
+        mint: '-2'
+    -
+        beat: '20'
+        mint: '-2'
+startLine: 85
+triciniumId: 38-dixi-custodiam
+voice: cantus

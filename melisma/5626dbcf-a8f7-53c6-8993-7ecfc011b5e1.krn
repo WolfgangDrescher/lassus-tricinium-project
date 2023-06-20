@@ -1,0 +1,25 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 11
+!!!OTL@@LA: Salvum me fac Deus
+!!!OTL-incipit@@DE: Hilff lieber Herr die heilig frommen
+**kern	**text
+*clefC1	*
+*k[b-]	*
+*g:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2.a	-sen
+*	*
+!! cadence start
+4g	.
+2.g	.
+=18	=18
+8f#i	.
+8e	.
+2f#i	.
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental

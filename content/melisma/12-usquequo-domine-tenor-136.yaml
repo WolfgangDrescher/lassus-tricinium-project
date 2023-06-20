@@ -1,0 +1,30 @@
+endLine: 168
+filename: fed4946d-8ed4-52b9-98de-eb466c9b709b.krn
+notes:
+    -
+        beat: '0'
+        mint: '[d]'
+    -
+        beat: '1'
+        mint: '-3'
+    -
+        beat: '2'
+        mint: '+3'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '1'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '9.5'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+2'
+startLine: 154
+triciniumId: 12-usquequo-domine
+voice: tenor

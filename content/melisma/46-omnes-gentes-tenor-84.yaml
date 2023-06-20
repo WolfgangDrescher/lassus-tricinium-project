@@ -1,0 +1,33 @@
+endLine: 118
+filename: 7eef01a0-bcf3-5b1e-8ad5-21741f4bad48.krn
+notes:
+    -
+        beat: '0'
+        mint: '[ee]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '+4'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '9.5'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+2'
+startLine: 104
+triciniumId: 46-omnes-gentes
+voice: tenor

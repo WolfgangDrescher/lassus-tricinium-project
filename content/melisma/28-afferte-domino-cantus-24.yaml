@@ -1,0 +1,33 @@
+endLine: 52
+filename: d207e70c-23e8-5d1a-9a67-9876be533e81.krn
+notes:
+    -
+        beat: '0'
+        mint: '[b]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '-3'
+    -
+        beat: '6'
+        mint: '+3'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '1'
+    -
+        beat: '11'
+        mint: '-2'
+    -
+        beat: '11.5'
+        mint: '-2'
+    -
+        beat: '12'
+        mint: '+2'
+startLine: 38
+triciniumId: 28-afferte-domino
+voice: cantus

@@ -1,0 +1,30 @@
+endLine: 202
+filename: 903ad73e-ee2b-5f1e-be4c-a17bacf7d307.krn
+notes:
+    -
+        beat: '0'
+        mint: '[dd]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '-2'
+startLine: 193
+triciniumId: 40-beatus-qui-intelligit
+voice: tenor

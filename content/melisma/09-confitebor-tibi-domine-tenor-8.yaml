@@ -1,0 +1,42 @@
+endLine: 42
+filename: 8db2d673-e67d-5b45-9f71-db916f4f58ad.krn
+notes:
+    -
+        beat: '0'
+        mint: '[d]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+2'
+    -
+        beat: '11'
+        mint: '-3'
+    -
+        beat: '12'
+        mint: '+2'
+    -
+        beat: '14'
+        mint: '+3'
+    -
+        beat: '17'
+        mint: '-3'
+    -
+        beat: '18'
+        mint: '+2'
+startLine: 24
+triciniumId: 09-confitebor-tibi-domine
+voice: tenor

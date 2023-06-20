@@ -1,0 +1,39 @@
+endLine: 61
+filename: 1872d280-1426-556b-9a03-2483e4da8d58.krn
+notes:
+    -
+        beat: '0'
+        mint: '[c]'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '3.5'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '5'
+        mint: '-3'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '+4'
+    -
+        beat: '9'
+        mint: '+2'
+    -
+        beat: '10'
+        mint: '+2'
+    -
+        beat: '11'
+        mint: '-3'
+    -
+        beat: '12'
+        mint: '+4'
+startLine: 43
+triciniumId: 50-miserere-mei-deus
+voice: cantus

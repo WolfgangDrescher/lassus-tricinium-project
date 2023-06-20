@@ -1,0 +1,57 @@
+endLine: 207
+filename: f48bc4d5-1524-5bf6-b5c0-c5f9e1f5e426.krn
+notes:
+    -
+        beat: '0'
+        mint: '[g]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '-4'
+    -
+        beat: '10'
+        mint: '+2'
+    -
+        beat: '11'
+        mint: '+2'
+    -
+        beat: '12'
+        mint: '+2'
+    -
+        beat: '13'
+        mint: '+2'
+    -
+        beat: '14'
+        mint: '+2'
+    -
+        beat: '15'
+        mint: '-4'
+    -
+        beat: '16'
+        mint: '+4'
+    -
+        beat: '20'
+        mint: '-2'
+    -
+        beat: '22'
+        mint: '+2'
+    -
+        beat: '24'
+        mint: '-2'
+    -
+        beat: '24.6667'
+        mint: '-2'
+startLine: 180
+triciniumId: 06-domine-ne-in-furore
+voice: tenor

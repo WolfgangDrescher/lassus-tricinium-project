@@ -1,0 +1,48 @@
+endLine: 45
+filename: de2df3b5-6d32-5e68-a66e-ab0ac3fec33f.krn
+notes:
+    -
+        beat: '0'
+        mint: '[f]'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '-3'
+    -
+        beat: '7'
+        mint: '-3'
+    -
+        beat: '8'
+        mint: '+3'
+    -
+        beat: '10'
+        mint: '1'
+    -
+        beat: '12'
+        mint: '-2'
+    -
+        beat: '13'
+        mint: '-2'
+    -
+        beat: '14'
+        mint: '-2'
+    -
+        beat: '15'
+        mint: '+2'
+    -
+        beat: '16'
+        mint: '-2'
+startLine: 28
+triciniumId: 29-exaltabo-te-domine
+voice: cantus

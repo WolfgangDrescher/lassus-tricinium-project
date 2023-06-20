@@ -1,0 +1,27 @@
+endLine: 34
+filename: 48b56e0d-e9cb-5184-9bef-4570ea095a8d.krn
+notes:
+    -
+        beat: '0'
+        mint: '[d]'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '-2'
+startLine: 25
+triciniumId: 28-afferte-domino
+voice: tenor

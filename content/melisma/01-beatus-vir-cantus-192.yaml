@@ -1,0 +1,33 @@
+endLine: 196
+filename: 3a7fa135-503f-5b17-9ee7-97222da7fddb.krn
+notes:
+    -
+        beat: '0'
+        mint: '[gg]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '-2'
+    -
+        beat: '9'
+        mint: '+2'
+    -
+        beat: '10'
+        mint: '+2'
+startLine: 183
+triciniumId: 01-beatus-vir
+voice: cantus

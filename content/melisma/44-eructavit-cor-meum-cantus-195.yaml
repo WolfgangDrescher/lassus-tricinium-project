@@ -1,0 +1,45 @@
+endLine: 213
+filename: dd88ad7e-4eef-5308-97f1-8344a9686531.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '1.5'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '1'
+    -
+        beat: '2.5'
+        mint: '-2'
+    -
+        beat: '2.75'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '4.5'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '+2'
+    -
+        beat: '9'
+        mint: '+2'
+startLine: 197
+triciniumId: 44-eructavit-cor-meum
+voice: cantus

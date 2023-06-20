@@ -1,0 +1,39 @@
+endLine: 194
+filename: 081da7f4-5071-5ed4-a771-9dfd68ba583a.krn
+notes:
+    -
+        beat: '0'
+        mint: '[g]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '3.5'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '+2'
+    -
+        beat: '9'
+        mint: '+2'
+    -
+        beat: '10'
+        mint: '+2'
+    -
+        beat: '11'
+        mint: '+2'
+    -
+        beat: '12'
+        mint: '+2'
+startLine: 177
+triciniumId: 40-beatus-qui-intelligit
+voice: cantus

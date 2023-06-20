@@ -1,0 +1,42 @@
+endLine: 139
+filename: 3423274b-ebe3-5c80-ae98-d453a17f095d.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '-2'
+    -
+        beat: '7'
+        mint: '+2'
+    -
+        beat: '8'
+        mint: '+2'
+    -
+        beat: '11'
+        mint: '-2'
+    -
+        beat: '11.5'
+        mint: '-2'
+    -
+        beat: '12'
+        mint: '+2'
+startLine: 124
+triciniumId: 20-domine-in-virtute-tua
+voice: tenor

@@ -1,0 +1,30 @@
+endLine: 252
+filename: e0694b30-16bb-59a1-ba0b-d6e40282217b.krn
+notes:
+    -
+        beat: '0'
+        mint: '[e]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '+2'
+    -
+        beat: '7'
+        mint: '-2'
+    -
+        beat: '8'
+        mint: '1'
+    -
+        beat: '11'
+        mint: '-2'
+    -
+        beat: '11.5'
+        mint: '-2'
+    -
+        beat: '12'
+        mint: '+2'
+startLine: 237
+triciniumId: 18-caeli-enarrant
+voice: tenor

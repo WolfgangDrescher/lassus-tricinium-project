@@ -1,0 +1,27 @@
+endLine: 192
+filename: 2512032d-442a-5a55-80c9-57c2de9ef92a.krn
+notes:
+    -
+        beat: '0'
+        mint: '[e]'
+    -
+        beat: '1.5'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '2.5'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '+2'
+    -
+        beat: '3.5'
+        mint: '-3'
+    -
+        beat: '4'
+        mint: '+2'
+startLine: 183
+triciniumId: 32-exultate-iusti-in-domino
+voice: cantus

@@ -1,0 +1,36 @@
+endLine: 100
+filename: 8c5d0506-5310-5854-a86c-145a226028a0.krn
+notes:
+    -
+        beat: '0'
+        mint: '[a]'
+    -
+        beat: '0.5'
+        mint: '-2'
+    -
+        beat: '1'
+        mint: '+2'
+    -
+        beat: '1.5'
+        mint: '+2'
+    -
+        beat: '2'
+        mint: '+2'
+    -
+        beat: '3'
+        mint: '-5'
+    -
+        beat: '4.5'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '5.5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+startLine: 87
+triciniumId: 25-iudica-me-domine
+voice: tenor
