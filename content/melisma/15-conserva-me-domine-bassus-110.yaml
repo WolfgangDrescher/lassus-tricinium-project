@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 110
 startLine: 117
 triciniumId: 15-conserva-me-domine
 voice: bassus

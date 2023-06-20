@@ -16,6 +16,7 @@ notes:
     -
         beat: '2'
         mint: '+2'
+startBeat: 118
 startLine: 159
 triciniumId: 19-exaudiat-te-dominus
 voice: bassus

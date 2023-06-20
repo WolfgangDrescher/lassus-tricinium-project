@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 116
 startLine: 116
 triciniumId: 31-beati-quorum
 voice: bassus

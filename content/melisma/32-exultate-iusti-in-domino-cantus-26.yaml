@@ -19,6 +19,7 @@ notes:
     -
         beat: '6'
         mint: '-3'
+startBeat: 26
 startLine: 43
 triciniumId: 32-exultate-iusti-in-domino
 voice: cantus

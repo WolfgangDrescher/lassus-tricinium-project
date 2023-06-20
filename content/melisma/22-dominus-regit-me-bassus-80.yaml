@@ -7,6 +7,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 80
 startLine: 93
 triciniumId: 22-dominus-regit-me
 voice: bassus

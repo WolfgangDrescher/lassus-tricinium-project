@@ -16,6 +16,7 @@ notes:
     -
         beat: '6'
         mint: '-2'
+startBeat: 106
 startLine: 128
 triciniumId: 46-omnes-gentes
 voice: tenor

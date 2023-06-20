@@ -19,6 +19,7 @@ notes:
     -
         beat: '8'
         mint: '-2'
+startBeat: 8
 startLine: 24
 triciniumId: 40-beatus-qui-intelligit
 voice: cantus

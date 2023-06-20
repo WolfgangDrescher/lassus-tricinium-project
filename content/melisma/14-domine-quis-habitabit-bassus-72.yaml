@@ -28,6 +28,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 72
 startLine: 93
 triciniumId: 14-domine-quis-habitabit
 voice: bassus

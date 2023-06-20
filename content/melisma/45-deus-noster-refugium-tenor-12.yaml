@@ -22,6 +22,7 @@ notes:
     -
         beat: '6'
         mint: '+2'
+startBeat: 12
 startLine: 27
 triciniumId: 45-deus-noster-refugium
 voice: tenor

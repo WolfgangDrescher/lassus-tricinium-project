@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 139
 startLine: 166
 triciniumId: 14-domine-quis-habitabit
 voice: cantus

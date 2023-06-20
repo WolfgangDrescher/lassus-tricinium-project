@@ -19,6 +19,7 @@ notes:
     -
         beat: '6'
         mint: '+3'
+startBeat: 58
 startLine: 72
 triciniumId: 38-dixi-custodiam
 voice: cantus

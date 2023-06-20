@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 54
 startLine: 66
 triciniumId: 03-domine-quid-multiplicati
 voice: bassus

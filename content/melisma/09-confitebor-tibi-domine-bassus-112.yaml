@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 112
 startLine: 133
 triciniumId: 09-confitebor-tibi-domine
 voice: bassus

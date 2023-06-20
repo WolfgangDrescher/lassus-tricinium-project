@@ -22,6 +22,7 @@ notes:
     -
         beat: '8'
         mint: '-2'
+startBeat: 76
 startLine: 87
 triciniumId: 18-caeli-enarrant
 voice: cantus

@@ -10,6 +10,7 @@ notes:
     -
         beat: '2'
         mint: '+8'
+startBeat: 96
 startLine: 110
 triciniumId: 22-dominus-regit-me
 voice: cantus

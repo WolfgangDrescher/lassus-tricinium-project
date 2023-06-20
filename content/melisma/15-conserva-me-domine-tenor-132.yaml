@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 132
 startLine: 142
 triciniumId: 15-conserva-me-domine
 voice: tenor

@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 11
 startLine: 31
 triciniumId: 19-exaudiat-te-dominus
 voice: tenor

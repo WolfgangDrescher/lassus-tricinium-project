@@ -31,6 +31,7 @@ notes:
     -
         beat: '10'
         mint: '+2'
+startBeat: 156
 startLine: 173
 triciniumId: 26-dominus-illuminatio-mea
 voice: tenor

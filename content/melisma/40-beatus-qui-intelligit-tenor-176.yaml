@@ -25,6 +25,7 @@ notes:
     -
         beat: '8'
         mint: '-2'
+startBeat: 176
 startLine: 193
 triciniumId: 40-beatus-qui-intelligit
 voice: tenor

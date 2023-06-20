@@ -22,6 +22,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 100
 startLine: 111
 triciniumId: 13-dixit-insipiens
 voice: bassus

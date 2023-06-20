@@ -16,6 +16,7 @@ notes:
     -
         beat: '2'
         mint: '+2'
+startBeat: 80
 startLine: 95
 triciniumId: 25-iudica-me-domine
 voice: bassus

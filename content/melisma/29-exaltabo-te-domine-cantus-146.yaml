@@ -16,6 +16,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 146
 startLine: 160
 triciniumId: 29-exaltabo-te-domine
 voice: cantus

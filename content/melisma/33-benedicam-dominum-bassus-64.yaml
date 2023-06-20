@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 64
 startLine: 80
 triciniumId: 33-benedicam-dominum
 voice: bassus

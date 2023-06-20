@@ -28,6 +28,7 @@ notes:
     -
         beat: '14'
         mint: '+2'
+startBeat: 182
 startLine: 203
 triciniumId: 12-usquequo-domine
 voice: cantus

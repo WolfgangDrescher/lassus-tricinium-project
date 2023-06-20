@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '+3'
+startBeat: 68
 startLine: 81
 triciniumId: 48-audite-haec-omnes-gentes
 voice: bassus

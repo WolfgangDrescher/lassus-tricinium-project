@@ -10,6 +10,7 @@ notes:
     -
         beat: '1'
         mint: '+2'
+startBeat: 169
 startLine: 177
 triciniumId: 04-cum-invocarem
 voice: cantus

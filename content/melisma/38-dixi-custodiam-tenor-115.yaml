@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 115
 startLine: 135
 triciniumId: 38-dixi-custodiam
 voice: tenor

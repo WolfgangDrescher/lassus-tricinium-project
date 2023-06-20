@@ -25,6 +25,7 @@ notes:
     -
         beat: '8'
         mint: '-2'
+startBeat: 184
 startLine: 201
 triciniumId: 40-beatus-qui-intelligit
 voice: bassus

@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+3'
+startBeat: 32
 startLine: 47
 triciniumId: 20-domine-in-virtute-tua
 voice: cantus

@@ -19,6 +19,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 130
 startLine: 164
 triciniumId: 11-salvum-me-fac-deus
 voice: tenor

@@ -19,6 +19,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 82
 startLine: 90
 triciniumId: 17-diligam-te-domine
 voice: cantus

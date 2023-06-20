@@ -19,6 +19,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 25
 startLine: 41
 triciniumId: 05-verba-mea-auribus
 voice: cantus

@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 68
 startLine: 85
 triciniumId: 09-confitebor-tibi-domine
 voice: tenor

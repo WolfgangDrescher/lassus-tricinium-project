@@ -22,6 +22,7 @@ notes:
     -
         beat: '9.5'
         mint: '-2'
+startBeat: 118
 startLine: 127
 triciniumId: 13-dixit-insipiens
 voice: cantus

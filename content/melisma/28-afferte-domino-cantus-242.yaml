@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 242
 startLine: 270
 triciniumId: 28-afferte-domino
 voice: cantus

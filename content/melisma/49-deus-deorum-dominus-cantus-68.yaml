@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 68
 startLine: 73
 triciniumId: 49-deus-deorum-dominus
 voice: cantus

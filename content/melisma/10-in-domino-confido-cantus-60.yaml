@@ -34,6 +34,7 @@ notes:
     -
         beat: '14'
         mint: '-2'
+startBeat: 60
 startLine: 76
 triciniumId: 10-in-domino-confido
 voice: cantus

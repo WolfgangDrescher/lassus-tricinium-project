@@ -43,6 +43,7 @@ notes:
     -
         beat: '18'
         mint: '+2'
+startBeat: 96
 startLine: 113
 triciniumId: 10-in-domino-confido
 voice: tenor

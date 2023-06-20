@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 39
 startLine: 53
 triciniumId: 43-deus-auribus-nostris
 voice: cantus

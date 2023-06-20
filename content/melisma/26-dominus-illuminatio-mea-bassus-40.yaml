@@ -31,6 +31,7 @@ notes:
     -
         beat: '12'
         mint: '-2'
+startBeat: 40
 startLine: 55
 triciniumId: 26-dominus-illuminatio-mea
 voice: bassus

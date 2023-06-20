@@ -7,6 +7,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 172
 startLine: 189
 triciniumId: 13-dixit-insipiens
 voice: tenor

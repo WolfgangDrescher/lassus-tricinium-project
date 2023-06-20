@@ -19,6 +19,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 32
 startLine: 53
 triciniumId: 08-domine-dominus-noster
 voice: cantus

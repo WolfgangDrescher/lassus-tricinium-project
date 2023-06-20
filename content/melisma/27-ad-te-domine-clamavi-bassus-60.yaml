@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '+5'
+startBeat: 60
 startLine: 76
 triciniumId: 27-ad-te-domine-clamavi
 voice: bassus

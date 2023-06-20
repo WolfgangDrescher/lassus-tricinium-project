@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 159
 startLine: 175
 triciniumId: 36-noli-aemulari
 voice: cantus

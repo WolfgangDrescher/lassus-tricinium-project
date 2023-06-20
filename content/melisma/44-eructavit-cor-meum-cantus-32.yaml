@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 32
 startLine: 47
 triciniumId: 44-eructavit-cor-meum
 voice: cantus

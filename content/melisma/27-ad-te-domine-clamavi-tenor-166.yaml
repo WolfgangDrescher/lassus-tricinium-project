@@ -16,6 +16,7 @@ notes:
     -
         beat: '2'
         mint: '+2'
+startBeat: 166
 startLine: 209
 triciniumId: 27-ad-te-domine-clamavi
 voice: tenor

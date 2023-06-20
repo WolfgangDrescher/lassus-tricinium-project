@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+4'
+startBeat: 116
 startLine: 121
 triciniumId: 49-deus-deorum-dominus
 voice: tenor

@@ -16,6 +16,7 @@ notes:
     -
         beat: '2'
         mint: '+2'
+startBeat: 232
 startLine: 253
 triciniumId: 36-noli-aemulari
 voice: bassus

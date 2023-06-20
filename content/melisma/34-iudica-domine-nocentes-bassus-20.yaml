@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 20
 startLine: 37
 triciniumId: 34-iudica-domine-nocentes
 voice: bassus

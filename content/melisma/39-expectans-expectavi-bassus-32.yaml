@@ -25,6 +25,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 32
 startLine: 47
 triciniumId: 39-expectans-expectavi
 voice: bassus

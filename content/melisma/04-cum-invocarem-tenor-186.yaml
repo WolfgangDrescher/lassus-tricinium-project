@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 186
 startLine: 194
 triciniumId: 04-cum-invocarem
 voice: tenor

@@ -19,6 +19,7 @@ notes:
     -
         beat: '6'
         mint: '-2'
+startBeat: 150
 startLine: 174
 triciniumId: 50-miserere-mei-deus
 voice: tenor

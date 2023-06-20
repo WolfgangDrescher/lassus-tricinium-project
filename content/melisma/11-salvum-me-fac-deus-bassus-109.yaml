@@ -16,6 +16,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 109
 startLine: 142
 triciniumId: 11-salvum-me-fac-deus
 voice: bassus

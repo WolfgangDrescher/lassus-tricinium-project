@@ -19,6 +19,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 114
 startLine: 147
 triciniumId: 32-exultate-iusti-in-domino
 voice: tenor

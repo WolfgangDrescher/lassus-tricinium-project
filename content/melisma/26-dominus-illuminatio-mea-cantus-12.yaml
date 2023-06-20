@@ -16,6 +16,7 @@ notes:
     -
         beat: '6'
         mint: '+2'
+startBeat: 12
 startLine: 28
 triciniumId: 26-dominus-illuminatio-mea
 voice: cantus

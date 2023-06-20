@@ -22,6 +22,7 @@ notes:
     -
         beat: '6'
         mint: '+2'
+startBeat: 32
 startLine: 50
 triciniumId: 34-iudica-domine-nocentes
 voice: cantus

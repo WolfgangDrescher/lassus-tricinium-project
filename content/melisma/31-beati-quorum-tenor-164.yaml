@@ -31,6 +31,7 @@ notes:
     -
         beat: '8'
         mint: '-2'
+startBeat: 164
 startLine: 159
 triciniumId: 31-beati-quorum
 voice: tenor

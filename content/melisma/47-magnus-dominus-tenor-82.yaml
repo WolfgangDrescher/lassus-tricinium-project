@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 82
 startLine: 100
 triciniumId: 47-magnus-dominus
 voice: tenor

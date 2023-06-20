@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 196
 startLine: 210
 triciniumId: 25-iudica-me-domine
 voice: tenor

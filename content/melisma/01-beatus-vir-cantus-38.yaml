@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 38
 startLine: 53
 triciniumId: 01-beatus-vir
 voice: cantus

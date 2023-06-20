@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 176
 startLine: 182
 triciniumId: 03-domine-quid-multiplicati
 voice: cantus

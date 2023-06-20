@@ -19,6 +19,7 @@ notes:
     -
         beat: '5'
         mint: '+2'
+startBeat: 235
 startLine: 245
 triciniumId: 25-iudica-me-domine
 voice: cantus

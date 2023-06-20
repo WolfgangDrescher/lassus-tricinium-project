@@ -49,6 +49,7 @@ notes:
     -
         beat: '11.5'
         mint: '+2'
+startBeat: 116
 startLine: 152
 triciniumId: 34-iudica-domine-nocentes
 voice: tenor

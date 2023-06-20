@@ -10,6 +10,7 @@ notes:
     -
         beat: '3.5'
         mint: '+2'
+startBeat: 110
 startLine: 113
 triciniumId: 03-domine-quid-multiplicati
 voice: cantus

@@ -37,6 +37,7 @@ notes:
     -
         beat: '14'
         mint: '+2'
+startBeat: 208
 startLine: 209
 triciniumId: 22-dominus-regit-me
 voice: tenor

@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '+4'
+startBeat: 174
 startLine: 182
 triciniumId: 15-conserva-me-domine
 voice: cantus

@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 210
 startLine: 223
 triciniumId: 46-omnes-gentes
 voice: cantus

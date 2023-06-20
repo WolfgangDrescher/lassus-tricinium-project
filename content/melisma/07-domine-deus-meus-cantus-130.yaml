@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 130
 startLine: 146
 triciniumId: 07-domine-deus-meus
 voice: cantus

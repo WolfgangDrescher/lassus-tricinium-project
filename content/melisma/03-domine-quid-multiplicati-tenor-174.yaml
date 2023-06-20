@@ -19,6 +19,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 174
 startLine: 178
 triciniumId: 03-domine-quid-multiplicati
 voice: tenor

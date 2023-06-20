@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 148
 startLine: 162
 triciniumId: 48-audite-haec-omnes-gentes
 voice: tenor

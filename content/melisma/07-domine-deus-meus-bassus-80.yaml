@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+4'
+startBeat: 80
 startLine: 98
 triciniumId: 07-domine-deus-meus
 voice: bassus

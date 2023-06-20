@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+5'
+startBeat: 96
 startLine: 119
 triciniumId: 24-ad-te-domine-levavi-animam
 voice: bassus

@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 20
 startLine: 36
 triciniumId: 45-deus-noster-refugium
 voice: bassus

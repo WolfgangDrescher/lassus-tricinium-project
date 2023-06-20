@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 146
 startLine: 171
 triciniumId: 05-verba-mea-auribus
 voice: tenor

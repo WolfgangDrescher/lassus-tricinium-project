@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 64
 startLine: 77
 triciniumId: 41-quemadmodum-desiderat
 voice: bassus

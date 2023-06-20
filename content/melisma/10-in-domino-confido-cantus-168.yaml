@@ -10,6 +10,7 @@ notes:
     -
         beat: '2'
         mint: '+2'
+startBeat: 168
 startLine: 188
 triciniumId: 10-in-domino-confido
 voice: cantus

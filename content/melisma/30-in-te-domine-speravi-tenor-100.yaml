@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 100
 startLine: 131
 triciniumId: 30-in-te-domine-speravi
 voice: tenor

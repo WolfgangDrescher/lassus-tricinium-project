@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 282
 startLine: 304
 triciniumId: 12-usquequo-domine
 voice: tenor

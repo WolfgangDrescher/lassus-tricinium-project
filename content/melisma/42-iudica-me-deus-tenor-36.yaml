@@ -16,6 +16,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 36
 startLine: 50
 triciniumId: 42-iudica-me-deus
 voice: tenor

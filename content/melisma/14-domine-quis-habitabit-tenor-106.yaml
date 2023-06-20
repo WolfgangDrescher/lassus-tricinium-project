@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 106
 startLine: 127
 triciniumId: 14-domine-quis-habitabit
 voice: tenor

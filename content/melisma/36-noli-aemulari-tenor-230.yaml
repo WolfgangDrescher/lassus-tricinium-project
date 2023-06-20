@@ -22,6 +22,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 230
 startLine: 247
 triciniumId: 36-noli-aemulari
 voice: tenor

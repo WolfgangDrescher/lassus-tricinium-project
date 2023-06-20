@@ -19,6 +19,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 108
 startLine: 115
 triciniumId: 37-domine-ne-in-furore
 voice: bassus

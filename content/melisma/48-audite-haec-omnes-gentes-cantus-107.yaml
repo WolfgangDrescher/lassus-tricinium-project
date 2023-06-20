@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 107
 startLine: 123
 triciniumId: 48-audite-haec-omnes-gentes
 voice: cantus

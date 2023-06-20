@@ -25,6 +25,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 122
 startLine: 133
 triciniumId: 23-domini-est-terra
 voice: tenor

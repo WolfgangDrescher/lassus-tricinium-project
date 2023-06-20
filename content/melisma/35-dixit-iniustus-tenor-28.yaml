@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 28
 startLine: 42
 triciniumId: 35-dixit-iniustus
 voice: tenor

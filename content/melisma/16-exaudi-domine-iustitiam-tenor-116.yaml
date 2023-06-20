@@ -22,6 +22,7 @@ notes:
     -
         beat: '6'
         mint: '+2'
+startBeat: 116
 startLine: 145
 triciniumId: 16-exaudi-domine-iustitiam
 voice: tenor

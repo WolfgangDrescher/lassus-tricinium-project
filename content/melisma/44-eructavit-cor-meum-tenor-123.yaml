@@ -10,6 +10,7 @@ notes:
     -
         beat: '2'
         mint: '1'
+startBeat: 123
 startLine: 132
 triciniumId: 44-eructavit-cor-meum
 voice: tenor

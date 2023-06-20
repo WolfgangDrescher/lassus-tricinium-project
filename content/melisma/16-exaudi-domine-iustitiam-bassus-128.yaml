@@ -34,6 +34,7 @@ notes:
     -
         beat: '10'
         mint: '+2'
+startBeat: 128
 startLine: 159
 triciniumId: 16-exaudi-domine-iustitiam
 voice: bassus

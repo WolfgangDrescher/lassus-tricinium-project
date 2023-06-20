@@ -16,6 +16,7 @@ notes:
     -
         beat: '6'
         mint: '+5'
+startBeat: 148
 startLine: 158
 triciniumId: 06-domine-ne-in-furore
 voice: tenor

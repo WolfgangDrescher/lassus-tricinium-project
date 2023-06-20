@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 146
 startLine: 165
 triciniumId: 21-deus-deus-meus-respice
 voice: tenor

@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 200
 startLine: 238
 triciniumId: 30-in-te-domine-speravi
 voice: cantus

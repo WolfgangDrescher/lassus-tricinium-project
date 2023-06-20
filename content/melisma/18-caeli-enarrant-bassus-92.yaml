@@ -10,6 +10,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 92
 startLine: 104
 triciniumId: 18-caeli-enarrant
 voice: bassus

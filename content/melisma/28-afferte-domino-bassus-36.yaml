@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 36
 startLine: 51
 triciniumId: 28-afferte-domino
 voice: bassus

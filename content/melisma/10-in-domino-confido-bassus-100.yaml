@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '-2'
+startBeat: 100
 startLine: 118
 triciniumId: 10-in-domino-confido
 voice: bassus

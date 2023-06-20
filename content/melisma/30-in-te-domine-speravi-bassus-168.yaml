@@ -13,6 +13,7 @@ notes:
     -
         beat: '8'
         mint: '-2'
+startBeat: 168
 startLine: 210
 triciniumId: 30-in-te-domine-speravi
 voice: bassus

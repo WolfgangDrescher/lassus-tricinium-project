@@ -13,6 +13,7 @@ notes:
     -
         beat: '6'
         mint: '+2'
+startBeat: 222
 startLine: 218
 triciniumId: 41-quemadmodum-desiderat
 voice: tenor

@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 195
 startLine: 215
 triciniumId: 17-diligam-te-domine
 voice: tenor

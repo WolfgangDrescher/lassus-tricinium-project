@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 48
 startLine: 60
 triciniumId: 02-quare-fremuerunt-gentes
 voice: bassus

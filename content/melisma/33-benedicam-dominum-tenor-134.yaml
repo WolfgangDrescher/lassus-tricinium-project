@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '+8'
+startBeat: 134
 startLine: 149
 triciniumId: 33-benedicam-dominum
 voice: tenor

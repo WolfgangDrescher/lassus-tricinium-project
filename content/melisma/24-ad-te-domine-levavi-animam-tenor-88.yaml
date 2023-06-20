@@ -19,6 +19,7 @@ notes:
     -
         beat: '6'
         mint: '+2'
+startBeat: 88
 startLine: 110
 triciniumId: 24-ad-te-domine-levavi-animam
 voice: tenor

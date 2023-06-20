@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 143
 startLine: 157
 triciniumId: 39-expectans-expectavi
 voice: tenor

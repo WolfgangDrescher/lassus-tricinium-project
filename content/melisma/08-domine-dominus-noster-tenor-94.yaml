@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 94
 startLine: 121
 triciniumId: 08-domine-dominus-noster
 voice: tenor

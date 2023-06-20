@@ -28,6 +28,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 80
 startLine: 106
 triciniumId: 16-exaudi-domine-iustitiam
 voice: cantus

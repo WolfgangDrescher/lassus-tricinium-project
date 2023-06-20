@@ -34,6 +34,7 @@ notes:
     -
         beat: '12'
         mint: '+2'
+startBeat: 102
 startLine: 117
 triciniumId: 33-benedicam-dominum
 voice: cantus

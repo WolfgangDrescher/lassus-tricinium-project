@@ -13,6 +13,7 @@ notes:
     -
         beat: '6'
         mint: '+2'
+startBeat: 146
 startLine: 161
 triciniumId: 20-domine-in-virtute-tua
 voice: tenor

@@ -25,6 +25,7 @@ notes:
     -
         beat: '11'
         mint: '-2'
+startBeat: 20
 startLine: 34
 triciniumId: 29-exaltabo-te-domine
 voice: tenor

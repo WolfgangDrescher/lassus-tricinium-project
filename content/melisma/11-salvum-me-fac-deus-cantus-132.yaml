@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 132
 startLine: 167
 triciniumId: 11-salvum-me-fac-deus
 voice: cantus

@@ -22,6 +22,7 @@ notes:
     -
         beat: '8'
         mint: '-2'
+startBeat: 80
 startLine: 93
 triciniumId: 23-domini-est-terra
 voice: bassus

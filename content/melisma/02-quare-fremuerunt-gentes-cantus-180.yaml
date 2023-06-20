@@ -19,6 +19,7 @@ notes:
     -
         beat: '9.5'
         mint: '-2'
+startBeat: 180
 startLine: 177
 triciniumId: 02-quare-fremuerunt-gentes
 voice: cantus

@@ -19,6 +19,7 @@ notes:
     -
         beat: '6'
         mint: '+2'
+startBeat: 28
 startLine: 39
 triciniumId: 18-caeli-enarrant
 voice: tenor

@@ -13,6 +13,7 @@ notes:
     -
         beat: '3'
         mint: '+2'
+startBeat: 162
 startLine: 184
 triciniumId: 42-iudica-me-deus
 voice: cantus

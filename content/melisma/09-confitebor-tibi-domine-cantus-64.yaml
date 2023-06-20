@@ -16,6 +16,7 @@ notes:
     -
         beat: '4'
         mint: '+4'
+startBeat: 64
 startLine: 81
 triciniumId: 09-confitebor-tibi-domine
 voice: cantus

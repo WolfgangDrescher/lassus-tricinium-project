@@ -22,6 +22,7 @@ notes:
     -
         beat: '8.66667'
         mint: '+2'
+startBeat: 210
 startLine: 233
 triciniumId: 28-afferte-domino
 voice: tenor

@@ -22,6 +22,7 @@ notes:
     -
         beat: '8'
         mint: '-2'
+startBeat: 132
 startLine: 147
 triciniumId: 12-usquequo-domine
 voice: bassus

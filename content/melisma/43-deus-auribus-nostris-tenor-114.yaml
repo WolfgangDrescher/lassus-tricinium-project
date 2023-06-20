@@ -19,6 +19,7 @@ notes:
     -
         beat: '8'
         mint: '+2'
+startBeat: 114
 startLine: 140
 triciniumId: 43-deus-auribus-nostris
 voice: tenor

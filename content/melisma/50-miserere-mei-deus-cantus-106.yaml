@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 106
 startLine: 130
 triciniumId: 50-miserere-mei-deus
 voice: cantus

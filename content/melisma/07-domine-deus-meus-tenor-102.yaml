@@ -13,6 +13,7 @@ notes:
     -
         beat: '4'
         mint: '+2'
+startBeat: 102
 startLine: 120
 triciniumId: 07-domine-deus-meus
 voice: tenor
