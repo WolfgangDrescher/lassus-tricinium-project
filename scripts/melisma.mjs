@@ -107,8 +107,5 @@ files.forEach(file => {
             }
         }
     });
-    
-
-    
 
 });
