@@ -73,8 +73,9 @@ files.forEach(file => {
                     for (let j = i + 1; j < lines.length; j++) {
                         const endLine = lines[j];
                         const endToken = endLine.split('\t')[0];
+                        const endTextToken = endLine.split('\t')[1] ?? '.';
                         if (tokenIsDataRecord(endToken, true)) {
-                            if (endToken.includes('@') || endToken === '.') {
+                            if ((endToken.includes('@') || endToken === '.') && endTextToken === '.') {
                                 endLineNumber = j + 1;
                             } else {
                                 break;
