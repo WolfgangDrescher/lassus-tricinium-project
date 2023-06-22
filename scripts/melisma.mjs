@@ -63,6 +63,9 @@ files.forEach(file => {
             const startBeat = line.split('\t')[2];
             if (tokenIsDataRecord(startToken)) {
                 if (startToken.includes('@')) {
+
+                    console.log(id, voice.name, startBeat);
+
                     const startLineNumber = i + 1;
 
                     // calculate end of a melisma
@@ -143,7 +146,6 @@ files.forEach(file => {
                         sortKeys: true,
                     }));
 
-                    console.log(id, voice.name, startBeat);
                 }
             }
         }
