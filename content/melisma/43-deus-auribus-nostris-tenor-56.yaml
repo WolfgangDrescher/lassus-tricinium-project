@@ -1,5 +1,5 @@
-endLine: 91
-filename: 2cf73684-f763-52d7-960a-49f9de863221.krn
+endLine: 86
+filename: dad6c221-c58d-5c3e-b9a7-d7c08a9a72bc.krn
 notes:
     -
         beat: '0'
@@ -22,15 +22,6 @@ notes:
     -
         beat: '6'
         mint: '+2'
-    -
-        beat: '8'
-        mint: '-2'
-    -
-        beat: '9.5'
-        mint: '-2'
-    -
-        beat: '10'
-        mint: '-2'
 startBeat: 56
 startLine: 73
 triciniumId: 43-deus-auribus-nostris

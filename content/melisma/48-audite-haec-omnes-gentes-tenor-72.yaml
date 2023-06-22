@@ -1,5 +1,5 @@
-endLine: 104
-filename: cfe979a1-6caa-5c89-ac46-45667bdb2a63.krn
+endLine: 89
+filename: afacb64d-1ca1-5c17-9be1-e13e02c538fb.krn
 notes:
     -
         beat: '0'
@@ -9,30 +9,6 @@ notes:
         mint: '-2'
     -
         beat: '4'
-        mint: '-2'
-    -
-        beat: '6'
-        mint: '-3'
-    -
-        beat: '7'
-        mint: '+2'
-    -
-        beat: '8'
-        mint: '+2'
-    -
-        beat: '9'
-        mint: '+2'
-    -
-        beat: '10'
-        mint: '+2'
-    -
-        beat: '12'
-        mint: '+2'
-    -
-        beat: '15'
-        mint: '-2'
-    -
-        beat: '16'
         mint: '-2'
 startBeat: 72
 startLine: 85

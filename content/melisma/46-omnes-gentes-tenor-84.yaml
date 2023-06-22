@@ -1,5 +1,5 @@
-endLine: 118
-filename: 49f336ce-cf30-53e7-8728-b3c22a47b374.krn
+endLine: 111
+filename: e5a7c291-5b21-5205-877b-552d66a89f81.krn
 notes:
     -
         beat: '0'
@@ -16,18 +16,6 @@ notes:
     -
         beat: '4'
         mint: '-2'
-    -
-        beat: '6'
-        mint: '+4'
-    -
-        beat: '9'
-        mint: '-2'
-    -
-        beat: '9.5'
-        mint: '-2'
-    -
-        beat: '10'
-        mint: '+2'
 startBeat: 84
 startLine: 104
 triciniumId: 46-omnes-gentes

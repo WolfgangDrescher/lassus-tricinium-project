@@ -1,5 +1,5 @@
-endLine: 45
-filename: 47f20118-598d-5f5a-bfb9-3af2773c7374.krn
+endLine: 33
+filename: 9de0ab84-7bff-56b6-844b-cc77c1bab66a.krn
 notes:
     -
         beat: '0'
@@ -16,33 +16,6 @@ notes:
     -
         beat: '4'
         mint: '+2'
-    -
-        beat: '6'
-        mint: '-3'
-    -
-        beat: '7'
-        mint: '-3'
-    -
-        beat: '8'
-        mint: '+3'
-    -
-        beat: '10'
-        mint: '1'
-    -
-        beat: '12'
-        mint: '-2'
-    -
-        beat: '13'
-        mint: '-2'
-    -
-        beat: '14'
-        mint: '-2'
-    -
-        beat: '15'
-        mint: '+2'
-    -
-        beat: '16'
-        mint: '-2'
 startBeat: 14
 startLine: 28
 triciniumId: 29-exaltabo-te-domine

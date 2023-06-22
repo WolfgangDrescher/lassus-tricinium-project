@@ -1,5 +1,5 @@
-endLine: 171
-filename: 5307a804-57a7-5da1-b18e-29cc7243319c.krn
+endLine: 164
+filename: 587978c5-bf75-5cc6-8ce5-ac8f34766802.krn
 notes:
     -
         beat: '0'
@@ -13,18 +13,6 @@ notes:
     -
         beat: '6'
         mint: '-2'
-    -
-        beat: '8'
-        mint: '+2'
-    -
-        beat: '11'
-        mint: '-2'
-    -
-        beat: '11.5'
-        mint: '-2'
-    -
-        beat: '12'
-        mint: '+2'
 startBeat: 142
 startLine: 158
 triciniumId: 20-domine-in-virtute-tua

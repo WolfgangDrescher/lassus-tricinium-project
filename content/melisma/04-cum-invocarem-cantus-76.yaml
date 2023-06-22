@@ -1,0 +1,22 @@
+endLine: 96
+filename: 95e1b6c3-e5d2-5e48-b342-bb777e049531.krn
+notes:
+    -
+        beat: '0'
+        mint: '[dd]'
+    -
+        beat: '1'
+        mint: '-2'
+    -
+        beat: '2'
+        mint: '-2'
+    -
+        beat: '3'
+        mint: '-3'
+    -
+        beat: '4'
+        mint: '+2'
+startBeat: 76
+startLine: 87
+triciniumId: 04-cum-invocarem
+voice: cantus

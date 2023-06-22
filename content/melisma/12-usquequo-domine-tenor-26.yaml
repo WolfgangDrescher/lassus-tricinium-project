@@ -1,5 +1,5 @@
-endLine: 55
-filename: ca76ddfd-0591-5bc3-96b5-19d9e383b38f.krn
+endLine: 38
+filename: 67b1f4f7-25a2-5755-b889-2224bf1f01fc.krn
 notes:
     -
         beat: '0'
@@ -7,30 +7,6 @@ notes:
     -
         beat: '3'
         mint: '-3'
-    -
-        beat: '4'
-        mint: '+4'
-    -
-        beat: '8'
-        mint: '-2'
-    -
-        beat: '9'
-        mint: '-2'
-    -
-        beat: '10'
-        mint: '+2'
-    -
-        beat: '13'
-        mint: '-2'
-    -
-        beat: '13.5'
-        mint: '-2'
-    -
-        beat: '14'
-        mint: '+4'
-    -
-        beat: '16'
-        mint: '+2'
 startBeat: 26
 startLine: 36
 triciniumId: 12-usquequo-domine

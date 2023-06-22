@@ -1,5 +1,5 @@
-endLine: 50
-filename: 1c587c46-9b1d-586a-82f5-7d5173e04a28.krn
+endLine: 47
+filename: b612c7ef-2f52-52d5-917d-ef4b877f0d81.krn
 notes:
     -
         beat: '0'
@@ -13,12 +13,6 @@ notes:
     -
         beat: '3'
         mint: '+2'
-    -
-        beat: '4'
-        mint: '+2'
-    -
-        beat: '6'
-        mint: '-3'
 startBeat: 26
 startLine: 43
 triciniumId: 32-exultate-iusti-in-domino

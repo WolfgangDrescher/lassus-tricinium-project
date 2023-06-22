@@ -1,5 +1,5 @@
-endLine: 70
-filename: ebbaf88f-4460-5135-9fab-b0179995f03a.krn
+endLine: 64
+filename: 6f63f8f0-5eed-5fce-9d98-c4e7f8e888e1.krn
 notes:
     -
         beat: '0'
@@ -10,18 +10,6 @@ notes:
     -
         beat: '4'
         mint: '+4'
-    -
-        beat: '6'
-        mint: '-4'
-    -
-        beat: '9'
-        mint: '-2'
-    -
-        beat: '9.5'
-        mint: '-2'
-    -
-        beat: '10'
-        mint: '-2'
 startBeat: 46
 startLine: 58
 triciniumId: 02-quare-fremuerunt-gentes

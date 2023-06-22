@@ -1,5 +1,5 @@
-endLine: 52
-filename: f5000c6d-1d32-510d-b985-b61d418cd230.krn
+endLine: 41
+filename: 7598c29e-4346-54b7-bd5d-4d4c786ee0d6.krn
 notes:
     -
         beat: '0'
@@ -10,24 +10,6 @@ notes:
     -
         beat: '4'
         mint: '-3'
-    -
-        beat: '6'
-        mint: '+3'
-    -
-        beat: '9'
-        mint: '-2'
-    -
-        beat: '10'
-        mint: '1'
-    -
-        beat: '11'
-        mint: '-2'
-    -
-        beat: '11.5'
-        mint: '-2'
-    -
-        beat: '12'
-        mint: '+2'
 startBeat: 24
 startLine: 38
 triciniumId: 28-afferte-domino

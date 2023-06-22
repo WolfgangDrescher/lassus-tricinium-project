@@ -1,5 +1,5 @@
-endLine: 135
-filename: f2cee4cb-833e-5647-ad9c-e6c433f47225.krn
+endLine: 121
+filename: 6c87f43c-7ab6-5df6-8f62-e6dee5534e0e.krn
 notes:
     -
         beat: '0'
@@ -22,27 +22,6 @@ notes:
     -
         beat: '6'
         mint: '-2'
-    -
-        beat: '8'
-        mint: '+5'
-    -
-        beat: '11'
-        mint: '-2'
-    -
-        beat: '12'
-        mint: '-2'
-    -
-        beat: '14'
-        mint: '+3'
-    -
-        beat: '17'
-        mint: '-2'
-    -
-        beat: '17.5'
-        mint: '-2'
-    -
-        beat: '18'
-        mint: '+2'
 startBeat: 96
 startLine: 113
 triciniumId: 10-in-domino-confido

@@ -1,5 +1,5 @@
-endLine: 61
-filename: e60aed2b-4931-5d35-9282-80ea6d4d9af1.krn
+endLine: 52
+filename: bd4a4833-5949-5dd6-9007-c9b19aa79d26.krn
 notes:
     -
         beat: '0'
@@ -19,21 +19,6 @@ notes:
     -
         beat: '6'
         mint: '+2'
-    -
-        beat: '8'
-        mint: '+4'
-    -
-        beat: '9'
-        mint: '+2'
-    -
-        beat: '10'
-        mint: '+2'
-    -
-        beat: '11'
-        mint: '-3'
-    -
-        beat: '12'
-        mint: '+4'
 startBeat: 26
 startLine: 43
 triciniumId: 50-miserere-mei-deus

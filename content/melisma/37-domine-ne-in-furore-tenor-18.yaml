@@ -1,5 +1,5 @@
-endLine: 42
-filename: 37465f60-4bfc-5744-9581-88e44f443cde.krn
+endLine: 37
+filename: 97bf99d6-5396-5ad6-b292-29767647ff58.krn
 notes:
     -
         beat: '0'
@@ -10,15 +10,6 @@ notes:
     -
         beat: '4'
         mint: '+4'
-    -
-        beat: '6'
-        mint: '-5'
-    -
-        beat: '9'
-        mint: '+2'
-    -
-        beat: '10'
-        mint: '+2'
 startBeat: 18
 startLine: 32
 triciniumId: 37-domine-ne-in-furore

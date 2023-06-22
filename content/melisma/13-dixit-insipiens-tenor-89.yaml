@@ -1,5 +1,5 @@
-endLine: 105
-filename: 3e1efebe-f276-53a9-9079-cecf015a5088.krn
+endLine: 102
+filename: dc1c4f5e-520d-5efb-b582-61c92c152447.krn
 notes:
     -
         beat: '0'
@@ -13,12 +13,6 @@ notes:
     -
         beat: '3'
         mint: '+2'
-    -
-        beat: '4'
-        mint: '+2'
-    -
-        beat: '6'
-        mint: '-2'
 startBeat: 89
 startLine: 96
 triciniumId: 13-dixit-insipiens

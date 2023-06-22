@@ -1,0 +1,25 @@
+endLine: 52
+filename: 11af9e93-21ec-59c6-a731-a576ceaadbbc.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '1'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '5.5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '+2'
+startBeat: 30
+startLine: 42
+triciniumId: 28-afferte-domino
+voice: cantus

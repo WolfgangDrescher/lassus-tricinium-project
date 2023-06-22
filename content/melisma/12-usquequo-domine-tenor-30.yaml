@@ -1,0 +1,31 @@
+endLine: 55
+filename: 7abc1dad-a335-59de-82b5-867c7d2b6d32.krn
+notes:
+    -
+        beat: '0'
+        mint: '[c]'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '-2'
+    -
+        beat: '6'
+        mint: '+2'
+    -
+        beat: '9'
+        mint: '-2'
+    -
+        beat: '9.5'
+        mint: '-2'
+    -
+        beat: '10'
+        mint: '+4'
+    -
+        beat: '12'
+        mint: '+2'
+startBeat: 30
+startLine: 39
+triciniumId: 12-usquequo-domine
+voice: tenor

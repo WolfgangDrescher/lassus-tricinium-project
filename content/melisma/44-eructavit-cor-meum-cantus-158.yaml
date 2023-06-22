@@ -1,5 +1,5 @@
-endLine: 175
-filename: 3099ec95-cf71-5af4-8d0c-293b92de5281.krn
+endLine: 167
+filename: c3695408-494e-52e1-a2a9-3c55aa15dea5.krn
 notes:
     -
         beat: '0'
@@ -10,15 +10,6 @@ notes:
     -
         beat: '4'
         mint: '-2'
-    -
-        beat: '6'
-        mint: '1'
-    -
-        beat: '9'
-        mint: '+2'
-    -
-        beat: '10'
-        mint: '+2'
 startBeat: 158
 startLine: 163
 triciniumId: 44-eructavit-cor-meum

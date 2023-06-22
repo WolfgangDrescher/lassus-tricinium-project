@@ -1,0 +1,22 @@
+endLine: 61
+filename: a51a8485-8299-5a7d-9b78-cd06be1cebc2.krn
+notes:
+    -
+        beat: '0'
+        mint: '[cc]'
+    -
+        beat: '3'
+        mint: '-2'
+    -
+        beat: '4'
+        mint: '-2'
+    -
+        beat: '5'
+        mint: '+2'
+    -
+        beat: '6'
+        mint: '+2'
+startBeat: 40
+startLine: 56
+triciniumId: 33-benedicam-dominum
+voice: cantus

@@ -1,5 +1,5 @@
-endLine: 66
-filename: 13d8215f-f938-56e6-9a60-9c5714a260e0.krn
+endLine: 58
+filename: 3374596c-4436-5e42-9500-f3434ff3ac0d.krn
 notes:
     -
         beat: '0'
@@ -13,21 +13,6 @@ notes:
     -
         beat: '4'
         mint: '+2'
-    -
-        beat: '6'
-        mint: '+2'
-    -
-        beat: '7'
-        mint: '-2'
-    -
-        beat: '8'
-        mint: '-2'
-    -
-        beat: '9'
-        mint: '-2'
-    -
-        beat: '10'
-        mint: '-2'
 startBeat: 38
 startLine: 52
 triciniumId: 41-quemadmodum-desiderat

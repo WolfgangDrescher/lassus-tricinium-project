@@ -1,5 +1,5 @@
-endLine: 148
-filename: 5bfd52e7-3fc8-5114-bbcd-9078a031524b.krn
+endLine: 140
+filename: 021b5251-cbd0-58e0-a411-3212fd7de0d4.krn
 notes:
     -
         beat: '0'
@@ -15,18 +15,6 @@ notes:
         mint: '+2'
     -
         beat: '4'
-        mint: '+2'
-    -
-        beat: '6'
-        mint: '+4'
-    -
-        beat: '9'
-        mint: '-2'
-    -
-        beat: '9.5'
-        mint: '-2'
-    -
-        beat: '10'
         mint: '+2'
 startBeat: 112
 startLine: 134
