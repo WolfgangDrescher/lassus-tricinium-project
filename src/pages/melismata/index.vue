@@ -38,7 +38,7 @@ const melismaGroups = computed(() => {
     }).sort((a, b) => b.melismata.length - a.melismata.length);
 });
 
-const { items, addItems } = useArrayLoader(melismaGroups);
+const { items, addItems } = useArrayLoader(melismaGroups, 12);
 </script>
 
 <template>
