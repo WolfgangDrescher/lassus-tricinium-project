@@ -53,9 +53,9 @@ const { items, addItems } = useArrayLoader(melismaGroups);
             </div>
         </div>
 
-        <InfiniteScroll @load="addItems()" :all="items.length === melismaGroups.length">
+        <InfiniteScroll @load="addItems()" :all="items.length === melismaGroups.length" :key="filteredElements.map(e => e.id).join(',')">
             <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4">
-                <div v-for="melismaGroup in items" :key="`${melismaGroup.key}${filteredElements.map(e=>e.id).join(',')}`">
+                <div v-for="melismaGroup in items" :key="melismaGroup.key">
                     <Card>
                         <MelismaSwiper :melismata="melismaGroup.melismata" />
                     </Card>
