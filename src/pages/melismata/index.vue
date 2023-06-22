@@ -49,7 +49,7 @@ const { items, addItems } = useArrayLoader(melismaGroups);
 
         <div class="my-4 flex flex-col md:flex-row gap-4">
             <div class="flex items-center">
-                {{ $t('nOutOfTotalMelismataFoundForSerachParams', { n: filteredMelismata.length, total: melismaData.length }) }}
+                {{ $t('nOutOfTotalMelismataFoundForSerachParams', { n: filteredMelismata.length, total: melismaData.length, groupCount: melismaGroups.length }) }}
             </div>
         </div>
 
