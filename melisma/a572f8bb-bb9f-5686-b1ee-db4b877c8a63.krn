@@ -1,0 +1,30 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 29
+!!!OTL@@LA: Exaltabo te Domine
+!!!OTL-incipit@@DE: Ich wil dich Herr gebürlich loben
+**kern	**text
+*clefC1	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2b	ver-
+*	*
+!! cadence start
+2.cc@	-nom-
+.	.
+4a@	.
+=23	=23
+1b-@	.
+.	.
+.	.
+.	.
+*	*
+[2a	-men/
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

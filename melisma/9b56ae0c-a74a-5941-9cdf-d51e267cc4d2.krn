@@ -1,0 +1,35 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 39
+!!!OTL@@LA: Expectans expectavi
+!!!OTL-incipit@@DE: Ich harr auff Gott mit gantzer gir
+**kern	**text
+*clefC3	*
+*k[b-]	*
+*F:ion	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+=10	=10
+*xywh-#165:121,884,2699,411	*
+2B-	oh-
+2A	-ren
+!! cadence start
+4B-@	kom-
+8A@	.
+8G@	.
+8F@	.
+8G@	.
+8A@	.
+8B-@	.
+=11	=11
+1c@	.
+.	.
+.	.
+.	.
+2F	-men/
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

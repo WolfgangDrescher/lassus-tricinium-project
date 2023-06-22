@@ -1,0 +1,30 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 34
+!!!OTL@@LA: Iudica Domine nocentes
+!!!OTL-incipit@@DE: Herr richte meine widerpart
+**kern	**text
+*clefC1	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2dd	für
+.	.
+4cc@	mich
+8b@	.
+8a@	.
+4b@	.
+4cc	be-
+=9	=9
+*xywh-#44:281,1022,2701,420	*
+1a	-rai-
+!! cadence end; ultima=f
+.	.
+[4d	-ten/
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

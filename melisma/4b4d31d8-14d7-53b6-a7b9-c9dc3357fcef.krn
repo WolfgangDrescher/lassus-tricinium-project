@@ -1,0 +1,35 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 20
+!!!OTL@@LA: Domine in virtute tua
+!!!OTL-incipit@@DE: Der König wird Herr wolgemut
+**kern	**text
+*clefG2	*
+*k[b-]	*
+*F:ion	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+=3	=3
+2b-	wird
+!	!
+4a@	Herr
+4b-@	.
+4cc@	.
+4dd@	.
+2.cc@	.
+=4	=4
+!! cadence start
+.	.
+4g@	.
+2b-@	.
+2a	wol-
+2b-	-ge-
+=5	=5
+*	*
+2cc	-muet/
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

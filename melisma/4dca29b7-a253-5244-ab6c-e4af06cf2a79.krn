@@ -1,0 +1,35 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 13
+!!!OTL@@LA: Dixit insipiens
+!!!OTL-incipit@@DE: Die thoren sprechen wol on schertzen
+**kern	**text
+*clefC3	*
+*k[b-]	*
+*g:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2e-i	mis-
+*	*
+2.g@	-se-
+=20	=20
+.	.
+*	*
+8f#i@	.
+8e@	.
+2f#i@	.
+4g@	.
+!! cadence end; ultima=g
+8fny@	.
+8e@	.
+4d@	.
+4e@	.
+=21	=21
+*xywh-#83:99,1806,2724,592	*
+[2f	-that
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

@@ -1,0 +1,28 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 26
+!!!OTL@@LA: Dominus illuminatio mea
+!!!OTL-incipit@@DE: Gott ist mein liecht mein trost und hail
+**kern	**text
+*clefC1	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2f	mein
+=4	=4
+!! cadence start
+4cc@	trost
+4b@	.
+4b@	.
+8a@	.
+8g@	.
+2f#@	.
+2f#	und
+=	=
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

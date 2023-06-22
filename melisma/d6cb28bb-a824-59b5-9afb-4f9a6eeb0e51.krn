@@ -1,0 +1,40 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 24
+!!!OTL@@LA: Ad te Domine levavi animam
+!!!OTL-incipit@@DE: Zu dir O Gott allein in diesem leben
+**kern	**text
+*clefC4	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2D	in
+=6	=6
+*	*
+2.d@	die-
+*	*
+.	.
+8c@	.
+8B@	.
+*xywh-#150:297,572,2737,448	*
+*lig	*
+1A@	.
+.	.
+.	.
+.	.
+=7	=7
+2.d@	.
+*Xlig	*
+.	.
+.	.
+4c@	.
+!! cadence start
+2B@	.
+[4A	-sem
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

@@ -1,0 +1,29 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 31
+!!!OTL@@LA: Beati quorum
+!!!OTL-incipit@@DE: O selig dem der trewer Gott
+**kern	**text
+*clefC4	*
+*k[]	*
+*a:aeo	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2G	auff-
+!! cadence start
+2.A@	-mist/
+.	.
+4G@	.
+=16	=16
+1F@	.
+.	.
+2r	.
+!! cadence end; ultima=e
+2C	des
+=	=
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

@@ -1,0 +1,33 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 33
+!!!OTL@@LA: Benedicam Dominum
+!!!OTL-incipit@@DE: Ich wil Gott unauffhörlich preisen
+**kern	**text
+*clefC3	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+=10	=10
+*	*
+2e	hei-
+.	.
+2A	-lig
+.	.
+!! cadence start
+2.f@	eh-
+.	.
+8e@	.
+8d@	.
+=11	=11
+2e@	.
+.	.
+.	.
+2e	-ren
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

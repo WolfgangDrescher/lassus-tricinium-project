@@ -1,0 +1,39 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 30
+!!!OTL@@LA: In te Domine speravi
+!!!OTL-incipit@@DE: Mein hertz auff dich thut bawen
+**kern	**text
+*clefC4	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2E	er-
+!! cadence end; ultima=e
+2A	-lö-
+=22	=22
+*	*
+!! cadence start
+2.G@	-sen/
+.	.
+.	.
+4F@	.
+*lig	*
+1E@	.
+.	.
+.	.
+.	.
+=23	=23
+*	*
+1D@	.
+!! cadence end; ultima=d
+*Xlig	*
+.	.
+[2G	auß
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

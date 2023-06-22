@@ -1,0 +1,32 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 3
+!!!OTL@@LA: Domine quid multiplicati
+!!!OTL-incipit@@DE: O Herr ich klag es dir
+**kern	**text
+*clefC3	*
+*k[b-]	*
+*g:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2f	auff-
+=20	=20
+*lig	*
+1e-@	-ma-
+.	.
+.	.
+.	.
+.	.
+1d@	.
+*Xlig	*
+.	.
+.	.
+.	.
+=21	=21
+2G	-chen/
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

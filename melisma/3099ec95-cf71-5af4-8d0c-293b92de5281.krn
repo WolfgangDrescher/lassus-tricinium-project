@@ -1,0 +1,42 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 44
+!!!OTL@@LA: Eructavit cor meum
+!!!OTL-incipit@@DE: Mein hertz herfür wil bringen
+**kern	**text
+*clefC1	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+=20	=20
+1a	die-
+!! cadence end; ultima=f
+.	.
+2b	-sem
+2.cc@	hel-
+=21	=21
+.	.
+4b@	.
+2a@	.
+2.a@	-den
+.	.
+.	.
+.	.
+4b@	.
+=22	=22
+!! cadence start
+2cc@	.
+1dd	eh-
+.	.
+2cc#	-ren-
+.	.
+=23	=23
+*xywh-#54:279,1553,2708,365	*
+2dd	-reich
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

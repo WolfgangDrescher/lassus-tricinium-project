@@ -1,0 +1,27 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 10
+!!!OTL@@LA: In Domino confido
+!!!OTL-incipit@@DE: Mein herzt und mut mit festem trawen
+**kern	**text
+*clefC3	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2A	der
+.	.
+*xywh-#136:284,932,2790,495	*
+4a@	eil
+4g@	.
+4f@	.
+4e@	.
+=14	=14
+2d@	.
+[4c	von
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

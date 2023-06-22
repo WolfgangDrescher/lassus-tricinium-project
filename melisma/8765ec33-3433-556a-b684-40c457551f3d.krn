@@ -1,0 +1,37 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 8
+!!!OTL@@LA: Domine Dominus noster
+!!!OTL-incipit@@DE: Herr unser Herr allmechtig
+**kern	**text
+*clefC2	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2f	e-
+*xywh-#78:292,1372,2724,420	*
+!! cadence start
+2e	-ren-
+2.e@	-brech-
+.	.
+.	.
+=16	=16
+.	.
+4d@	.
+2.d@	.
+.	.
+.	.
+.	.
+8c#i@	.
+8B@	.
+2c#i@	.
+.	.
+=17	=17
+2d	-tig/
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

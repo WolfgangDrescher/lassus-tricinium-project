@@ -1,0 +1,42 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 12
+!!!OTL@@LA: Usquequo Domine
+!!!OTL-incipit@@DE: Wie lang O Herr vergistu mein
+**kern	**text
+*clefC3	*
+*k[b-]	*
+*g:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2e-	jm-
+.	.
+.	.
+2e-	-mer
+.	.
+.	.
+=9	=9
+*	*
+*	*
+4d@	we-
+4B-@	.
+2.d@	.
+!! cadence start
+.	.
+*	*
+4c@	.
+2.c@	.
+.	.
+.	.
+=10	=10
+.	.
+8B@	.
+8A@	.
+2B@	.
+2c	-ren/
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

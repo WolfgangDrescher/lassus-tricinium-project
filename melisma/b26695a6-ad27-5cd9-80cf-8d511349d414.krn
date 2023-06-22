@@ -1,0 +1,25 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 17
+!!!OTL@@LA: Diligam te Domine
+!!!OTL-incipit@@DE: Herr der du meine stercke bist
+**kern	**text
+*clefC3	*
+*k[b-]	*
+*F:ion	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2e	ster-
+2.f@	-cke
+=3	=3
+.	.
+8e@	.
+8d@	.
+2e@	.
+2f	bist/
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

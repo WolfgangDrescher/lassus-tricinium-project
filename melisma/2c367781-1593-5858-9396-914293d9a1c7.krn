@@ -1,0 +1,36 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 42
+!!!OTL@@LA: Iudica me Deus
+!!!OTL-incipit@@DE: Urtheil mich Herr und schaff mit recht
+**kern	**text
+*clefG2	*
+*k[b-]	*
+*F:ion	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2ee-	ver-
+=15	=15
+2cc	-ker-
+4a	-ten
+8ff@	bu-
+8ee@	.
+!! cadence start
+4.dd@	.
+8cc@	.
+8b-@	.
+8a@	.
+2g@	.
+=16	=16
+.	.
+8f#i@	.
+8e@	.
+2f#i@	.
+*xywh-#52:276,1444,2734,416	*
+2b-	-ben/
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

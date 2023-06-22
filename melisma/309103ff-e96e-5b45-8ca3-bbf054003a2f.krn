@@ -1,0 +1,40 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 16
+!!!OTL@@LA: Exaudi Domine iustitiam
+!!!OTL-incipit@@DE: Erhör mein fromkeit trewer Herr
+**kern	**text
+*clefC3	*
+*k[b-]	*
+*g:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+1e-	ai-
+!! cadence end a; ultima=c
+.	.
+.	.
+=15	=15
+1c	-nig
+.	.
+.	.
+.	.
+*	*
+4B-@	hort/
+!! cadence end b; ultima=b-
+4c@	.
+.	.
+4d@	.
+4c@	.
+=16	=16
+4B-@	.
+4A@	.
+2B-@	.
+2r	.
+2B-	die
+=	=
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

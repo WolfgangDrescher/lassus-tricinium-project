@@ -1,0 +1,27 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 23
+!!!OTL@@LA: Domini est terra
+!!!OTL-incipit@@DE: Die welt und all jhr reichethumb
+**kern	**text
+*clefC3	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2A	dem
+=8	=8
+4B-@	Her-
+!! cadence end; ultima=d
+4A@	.
+4G@	.
+4F#@	.
+2G@	.
+2G	-ren/
+=	=
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

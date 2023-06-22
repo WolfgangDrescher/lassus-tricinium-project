@@ -1,0 +1,28 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 2
+!!!OTL@@LA: Quare fremuerunt gentes
+!!!OTL-incipit@@DE: Warumb empören sich die Haiden
+**kern	**text
+*clefG2	*
+*k[]	*
+*d:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+=11	=11
+2b	un-
+2.cc@	-ge-
+.	.
+4b@	.
+2a@	.
+=12	=12
+*xywh-#12:265,974,2768,430	*
+!! cadence start
+2g	-sti-
+2a	-mes
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

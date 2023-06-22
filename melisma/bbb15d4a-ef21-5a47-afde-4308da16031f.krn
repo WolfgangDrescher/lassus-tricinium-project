@@ -1,0 +1,28 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 41
+!!!OTL@@LA: Quemadmodum desiderat
+!!!OTL-incipit@@DE: Wie ein hirsch girlich schreyen thut
+**kern	**text
+*clefC2	*
+*k[b-]	*
+*C:mix	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2f	die
+=9	=9
+!! cadence start
+2.b-@	seel
+.	.
+4a@	.
+2g@	.
+.	.
+.	.
+2a	in
+=	=
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

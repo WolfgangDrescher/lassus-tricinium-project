@@ -1,0 +1,27 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 14
+!!!OTL@@LA: Domine quis habitabit
+!!!OTL-incipit@@DE: Wer wird Herr wolgemut
+**kern	**text
+*clefG2	*
+*k[b-]	*
+*C:mix	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2dd	ru-
+.	.
+2cc@	-he
+.	.
+8b-@	.
+8a@	.
+*	*
+2b-@	.
+=19	=19
+2a	stat
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)
