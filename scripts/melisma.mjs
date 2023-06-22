@@ -49,6 +49,8 @@ execSync(`rm -rf ${__dirname}/../melisma/*`);
 execSync(`mkdir -p ${__dirname}/../content/melisma/`);
 execSync(`mkdir -p ${__dirname}/../melisma/`);
 
+const numberOfWords = 1;
+
 files.forEach(file => {
     const id = getIdFromFilename(file);
 
@@ -62,6 +64,8 @@ files.forEach(file => {
             if (tokenIsDataRecord(startToken)) {
                 if (startToken.includes('@')) {
                     const startLineNumber = i + 1;
+
+                    // calculate end of a melisma
                     let endLineNumber = startLineNumber;
                     for (let j = i; j < lines.length; j++) {
                         const endLine = lines[j];
@@ -75,17 +79,54 @@ files.forEach(file => {
                         }
                     }
                     i = endLineNumber;
+
+                    // extract melisma kern
                     const melismaKern = execSync(`cat ${file} | myank -l ${startLineNumber}-${endLineNumber} --hide-ending | extractxx -f ${voice.spines} | ridxx -d`).toString().trim();
                     
-                    const melismaFilename = `${uuidv5(melismaKern, UUID_NAMESPACE)}.krn`;
-                    fs.writeFileSync(`${__dirname}/../melisma/${melismaFilename}`, melismaKern);
+                    let exampleStartLineNumber = startLineNumber;
+                    let exampleEndLineNumber = endLineNumber;
+                    
+                    // calculate start line number for numberOfWords before melisma
+                    let startWordCount = 0;
+                    for (let k = startLineNumber - 2; k >= 0; k--) {
+                        const line = lines[k];
+                        const textToken = line.split('\t')[1] ?? '.';
+                        if (tokenIsDataRecord(textToken) && !textToken.startsWith('-')) {
+                            startWordCount++;
+                        }
+                        if (startWordCount >= numberOfWords) {
+                            exampleStartLineNumber = k + 1;
+                            break;
+                        }
+                    }
 
+                    // calculate end line number for numberOfWords after melisma
+                    let endWordCount = 0;
+                    for (let l = endLineNumber; l < lines.length; l++) {
+                        const line = lines[l];
+                        const textToken = line.split('\t')[1] ?? '.';
+                        if (tokenIsDataRecord(textToken) && !textToken.endsWith('-')) {
+                            endWordCount++;
+                        }
+                        if (endWordCount >= numberOfWords) {
+                            exampleEndLineNumber = l + 1;
+                            break;
+                        }
+                    }
+                    const exampleKern = execSync(`cat ${file} | myank -l ${exampleStartLineNumber}-${exampleEndLineNumber} --hide-ending | extractxx -f ${voice.spines} | melisma`).toString().trim();
+
+                    // write melisma kern example file
+                    const melismaFilename = `${uuidv5(exampleKern, UUID_NAMESPACE)}.krn`;
+                    fs.writeFileSync(`${__dirname}/../melisma/${melismaFilename}`, exampleKern);
+
+                    // calculate melodic intervals and rhythm of the melisma
                     const mint = execSync(`echo ${escapeShell(melismaKern)} | extractxx -f 1 | beat -ca | mint -d | ridxx -H`).toString().trim();
                     const notes = mint.split('\n').map(line => line.split('\t')).map(([mint, beat]) => ({
                         mint,
                         beat,
                     }));
 
+                    // write yaml config
                     const melismaYaml = {
                         triciniumId: id,
                         startLine: startLineNumber,
