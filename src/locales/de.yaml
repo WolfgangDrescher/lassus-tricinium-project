@@ -199,3 +199,5 @@ chords: Akkorde
 intervals: Intervalle
 numberOfNotesInChord: Anzahl Noten im Akkord
 ignoreDissonances: Dissonanzen ignorieren
+melismata: Melismen
+nOutOfTotalMelismataFoundForSerachParams:  '{n} von {total} Melismen gefunden'
