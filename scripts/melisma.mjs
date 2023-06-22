@@ -81,7 +81,7 @@ files.forEach(file => {
                             }
                         }
                     }
-                    i = endLineNumber;
+                    i = endLineNumber - 1;
 
                     // extract melisma kern
                     const melismaKern = execSync(`cat ${file} | myank -l ${startLineNumber}-${endLineNumber} --hide-ending | extractxx -f ${voice.spines} | ridxx -d`).toString().trim();
