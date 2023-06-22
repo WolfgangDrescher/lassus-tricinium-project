@@ -1,0 +1,38 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 15
+!!!OTL@@LA: Conserva me Domine
+!!!OTL-incipit@@DE: Halt mich O Herr in deiner hut
+**kern	**text
+*clefC1	*
+*k[b-]	*
+*g:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+4f	un-
+4e	.
+4d	.
+4e	.
+=21	=21
+4f	.
+4e	.
+2.f	.
+*	*
+.	.
+4f	-von-
+4b-@	-nö-
+4cc@	.
+=22	=22
+!! cadence start
+4dd@	.
+4d@	.
+1g@	.
+.	.
+2f#	-ten
+=	=
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)

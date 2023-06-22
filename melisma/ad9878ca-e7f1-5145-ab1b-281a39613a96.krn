@@ -1,0 +1,47 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 32
+!!!OTL@@LA: Exultate iusti in Domino
+!!!OTL-incipit@@DE: Ihr frommen frewet euch im Herren
+**kern	**text
+*clefC1	*
+*k[b-]	*
+*g:dor	*
+*M2/1	*
+*met(C|)	*
+*MM180	*
+2b-	auff
+4cc@	In-
+4b-@	.
+4a@	.
+4g@	.
+=18	=18
+4f@	.
+4e@	.
+4d@	.
+4f@	.
+*	*
+2e@	.
+.	.
+2d	-stru-
+.	.
+=19	=19
+*	*
+!! cadence start
+4.e	-men-
+8f	.
+8g	.
+8a	.
+8b-	.
+8g	.
+2.a	.
+.	.
+.	.
+.	.
+4a	-ten
+=	=
+*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (melisma)
