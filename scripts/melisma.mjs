@@ -70,7 +70,7 @@ files.forEach(file => {
 
                     // calculate end of a melisma
                     let endLineNumber = startLineNumber;
-                    for (let j = i; j < lines.length; j++) {
+                    for (let j = i + 1; j < lines.length; j++) {
                         const endLine = lines[j];
                         const endToken = endLine.split('\t')[0];
                         if (tokenIsDataRecord(endToken, true)) {
