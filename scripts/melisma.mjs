@@ -116,11 +116,22 @@ files.forEach(file => {
                             break;
                         }
                     }
-                    const exampleKern = execSync(`cat ${file} | myank -l ${exampleStartLineNumber}-${exampleEndLineNumber} --hide-ending | extractxx -f ${voice.spines} | melisma`).toString().trim();
+                    const exampleMelismaKern = execSync(`cat ${file} | melisma`).toString().trim();
+
+                    // remove marked irrelevant melisma if example has multiple
+                    const exampleLines = exampleMelismaKern.split('\n');
+                    const exampleKern = exampleLines.map((exampleLine, index) => {
+                        if (tokenIsDataRecord(exampleLine) && (index + 1 < startLineNumber || index + 1 > endLineNumber)) {
+                            exampleLine = exampleLine.replaceAll('@', '');
+                        }
+                        return exampleLine;
+                    }).join('\n');
+
+                    const parsedExampleKern = execSync(`echo ${escapeShell(exampleKern)} | myank -l ${exampleStartLineNumber}-${exampleEndLineNumber} --hide-ending | extractxx -f ${voice.spines}`).toString().trim();;
 
                     // write melisma kern example file
-                    const melismaFilename = `${uuidv5(exampleKern, UUID_NAMESPACE)}.krn`;
-                    fs.writeFileSync(`${__dirname}/../melisma/${melismaFilename}`, exampleKern);
+                    const melismaFilename = `${uuidv5(parsedExampleKern, UUID_NAMESPACE)}.krn`;
+                    fs.writeFileSync(`${__dirname}/../melisma/${melismaFilename}`, parsedExampleKern);
 
                     // calculate melodic intervals and rhythm of the melisma
                     const mint = execSync(`echo ${escapeShell(melismaKern)} | extractxx -f 1 | beat -ca | mint -d | ridxx -H`).toString().trim();
