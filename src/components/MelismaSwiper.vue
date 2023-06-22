@@ -103,4 +103,8 @@ onMounted(() => {
 .swiper-button-next::after {
     @apply text-base;
 }
+
+.swiper-pagination-lock {
+    display: block;
+}
 </style>
