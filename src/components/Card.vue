@@ -1,11 +1,15 @@
 <script setup>
 const props = defineProps({
     title: String,
+    borderless: {
+        type: Boolean,
+        default: false,
+    },
 });
 </script>
 
 <template>
-    <div class="p-6 shadow border border-gray-100 rounded">
+    <div :class="{'p-6 shadow border border-gray-100 rounded': !borderless}">
         <div v-if="$slots.title || title" class="border-b border-gray-200 pb-3 mb-3">
             <slot name="title">
                 <div class="text-xl font-medium leading-5 text-gray-800">
