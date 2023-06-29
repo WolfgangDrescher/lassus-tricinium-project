@@ -11367,6 +11367,11 @@
         spine: 3
         triciniumId: 34-iudica-domine-nocentes
     -
+        lineIndex: 36
+        next: +m3
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
         lineIndex: 43
         next: r
         spine: 5
@@ -14603,11 +14608,6 @@
         lineIndex: 66
         next: '-m3'
         spine: 3
-        triciniumId: 34-iudica-domine-nocentes
-    -
-        lineIndex: 36
-        next: +m3
-        spine: 5
         triciniumId: 34-iudica-domine-nocentes
     -
         lineIndex: 131
@@ -19939,7 +19939,7 @@
         triciniumId: 34-iudica-domine-nocentes
     -
         lineIndex: 33
-        next: '-m3'
+        next: P1
         spine: 5
         triciniumId: 34-iudica-domine-nocentes
     -
@@ -52707,11 +52707,6 @@
         spine: 3
         triciniumId: 34-iudica-domine-nocentes
     -
-        lineIndex: 35
-        next: +P5
-        spine: 5
-        triciniumId: 34-iudica-domine-nocentes
-    -
         lineIndex: 90
         next: '-P5'
         spine: 5
@@ -58085,6 +58080,11 @@ P1:
     -
         lineIndex: 27
         next: '-M3'
+        spine: 5
+        triciniumId: 34-iudica-domine-nocentes
+    -
+        lineIndex: 35
+        next: +M3
         spine: 5
         triciniumId: 34-iudica-domine-nocentes
     -
