@@ -33,7 +33,10 @@ const clefsOptions = [...new Set(tricinia.map(tricinium => tricinium.clefs).filt
     text: clefs,
 }));
 
-const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).filter(n => n))].map(finalis => ({
+const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).filter(n => n).sort((a, b) => {
+    const keyNames = ['c', 'd', 'e', 'f', 'g', 'a', 'b'];
+    return keyNames.indexOf(a) - keyNames.indexOf(b);
+}))].map(finalis => ({
     value: finalis,
     text: finalis,
 }));
