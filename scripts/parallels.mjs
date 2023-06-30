@@ -106,18 +106,21 @@ files.forEach(file => {
                                 break;
                             }
 
+                            endLineNumber = j + 1;
+
                             console.log({
                                 startLowerPitch,
                                 startUpperPitch,
                                 endLowerPitch,
                                 endUpperPitch,
-                            })
+                                startLineNumber,
+                                startLine,
+                                endLineNumber,
+                                endLine,
+                                parallelInterval,
+                                voicePair
+                            });
 
-                            endLineNumber = j + 1;
-                            console.log(startLineNumber, startLine)
-                            console.log(endLineNumber, endLine)
-                            console.log(parallelInterval, startLineNumber, endLineNumber, voicePair);
-                            console.log('');
                             i = endLineNumber - 1;
                             break;
                         }
