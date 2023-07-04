@@ -10456,8 +10456,8 @@
         spine: 1
         triciniumId: 50-miserere-mei-deus
     -
-        lineIndex: 63
-        next: P1
+        lineIndex: 67
+        next: +M3
         spine: 1
         triciniumId: 50-miserere-mei-deus
     -
@@ -21743,8 +21743,8 @@
         spine: 1
         triciniumId: 50-miserere-mei-deus
     -
-        lineIndex: 67
-        next: +M3
+        lineIndex: 63
+        next: P1
         spine: 1
         triciniumId: 50-miserere-mei-deus
     -
@@ -60139,12 +60139,12 @@ P1:
         triciniumId: 50-miserere-mei-deus
     -
         lineIndex: 62
-        next: +M2
+        next: +m2
         spine: 1
         triciniumId: 50-miserere-mei-deus
     -
         lineIndex: 65
-        next: +m2
+        next: +M2
         spine: 1
         triciniumId: 50-miserere-mei-deus
     -
