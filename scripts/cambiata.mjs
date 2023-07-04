@@ -104,12 +104,9 @@ files.forEach(file => {
 
                             // if cambiata is found completely
                             if (mintLines.length === 3) {
-                                
-                                const exampleStartLineNumber = getStartLineNumber(kern, startBeatToken);
-                                const exampleEndLineNumber = getEndLineNumber(kern, endBeatToken);
 
                                 // mark cambiata notes in example
-                                const exampleKernLines = execSync(`cat ${file}`).toString().trim().split('\n').map((line, lineIndex) => {
+                                const markedKernLines = execSync(`cat ${file}`).toString().trim().split('\n').map((line, lineIndex) => {
                                     const tokens = line.split('\t');
                                     return tokens.map((token, tokenIndex) => {
                                         if (voice.spine - 1 === tokenIndex && tokenIsDataRecord(token) && lineIndex >= startLineNumber - 1 && lineIndex <= endLineNumber - 1) {
@@ -117,18 +114,23 @@ files.forEach(file => {
                                         }
                                         return token;
                                     }).join('\t');
-                                }).filter(line => {
+                                });
+
+                                const exampleStartLineNumber = getStartLineNumber(kern, startBeatToken);
+                                const exampleEndLineNumber = getEndLineNumber(kern, endBeatToken);
+                                
+                                // extract kern of cambiata exmaple
+                                const stdout = execSync(`echo ${escapeShell(markedKernLines.join('\n'))} | myank -I -l ${exampleStartLineNumber}-${exampleEndLineNumber} --hide-ending`).toString().trim();
+                                const exampleKernLines = stdout.split('\n');
+                                exampleKernLines.push('!!!RDF**kern: @ = marked note (cambiata)');
+                                const exampleKern = exampleKernLines.filter(line => {
                                     // remove distracting lines
                                     return !(line.match(/^!!\s?cadence/) || line.includes('*xywh'));
-                                });
+                                }).join('\n');
                                 
-                                exampleKernLines.push('!!!RDF**kern: @ = marked note (cambiata)');
-                                const exampleKern = exampleKernLines.join('\n');
 
-                                // extract kern of cambiata exmaple
-                                const stdout = execSync(`echo ${escapeShell(exampleKern)} | myank -I -l ${exampleStartLineNumber}-${exampleEndLineNumber} --hide-ending`).toString().trim();
-                                const filename = `${uuidv5(stdout, UUID_NAMESPACE)}.krn`;
-                                fs.writeFileSync(`${__dirname}/../cambiatas/${filename}`, stdout);
+                                const filename = `${uuidv5(exampleKern, UUID_NAMESPACE)}.krn`;
+                                fs.writeFileSync(`${__dirname}/../cambiatas/${filename}`, exampleKern);
 
                                 const config = {
                                     filename,
