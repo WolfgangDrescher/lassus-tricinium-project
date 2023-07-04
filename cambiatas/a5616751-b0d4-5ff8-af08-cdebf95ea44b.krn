@@ -1,0 +1,32 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 22
+!!!OTL@@LA: Dominus regit me
+!!!OTL-incipit@@DE: Mein hirt ist Gott der Herr
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I\'B	*	*I\'T	*	*I\'C	*
+*clefC3	*	*clefC1	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+2B	und	2d]	.	2g	und
+1A	rain/	2e	rein/	2c	rain/
+.	.	2e	zu	2c	Zu
+=26	=26	=26	=26	=26	=26
+1r	.	2g	fri-	2e	fri-
+.	.	2a	-schen	2f	-schen
+2r	.	2b	kü-	2g	kü-
+2A	zu	2cc	-len	2a	-len
+=27	=27	=27	=27	=27	=27
+2c	fri-	4cc	brun-	2e	brun-
+.	.	4b	.	.	.
+[4d	-schen	4a	.	[4f	-nen
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (cambiata)
