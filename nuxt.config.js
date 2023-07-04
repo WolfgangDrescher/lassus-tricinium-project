@@ -56,6 +56,10 @@ export default defineNuxtConfig({
                 baseURL: 'melisma',
                 dir: fileURLToPath(new URL('./melisma', import.meta.url)),
             },
+            {
+                baseURL: 'cambiata',
+                dir: fileURLToPath(new URL('./cambiata', import.meta.url)),
+            },
         ],
     },
     googleFonts: {
