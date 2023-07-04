@@ -6,27 +6,14 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const { data: cambiataData } = await useAsyncData('cambiatas', () => queryContent('/cambiata').find())
-const { data: triciniumData } = await useFetch('/api/tricinium');
-const tricinia = useTricinium(triciniumData.value);
 
 const cambiatas = toRaw(cambiataData.value);
-
-console.log(cambiatas, breakpointsTailwind);
 
 const wrapperEl = ref(null);
 const swiperEl = ref(null);
 const virtualData = ref({
     slides: [],
 });
-
-const { t } = useI18n();
-const localePath = useLocalePath();
-
-function getCaption(cambiata) {
-    const tricinium = tricinia.find(t => t.id === cambiata.triciniumId);
-    const location = `T. ${Math.ceil(cambiata.startBeat / 8)} ♩ ${(cambiata.startBeat % 8) + 1}`;
-    return `${tricinium.nr}. ${tricinium.title}, ${t(`voice.${cambiata.voice}`)}, ${location}`;
-}
 
 onMounted(() => {
     new Swiper(swiperEl.value, {
@@ -59,33 +46,48 @@ onMounted(() => {
         },
     });
 });
+
+const showModernClefs = ref(false);
+const showIntervallsatz = ref(false);
+const hideLyrics = ref(false);
+
+const { t } = useI18n();
+
+const { data: triciniumData } = await useFetch('/api/tricinium');
+const tricinia = useTricinium(triciniumData.value);
+
+function getCaption(cambiata) {
+    const tricinium = tricinia.find(t => t.id === cambiata.triciniumId);
+    const location = `T. ${Math.ceil(cambiata.startBeat / 8)} ♩ ${(cambiata.startBeat % 8) + 1}`;
+    return `${tricinium.nr}. ${tricinium.title}, ${t(`voice.${cambiata.voice}`)}, ${location}`;
+}
 </script>
 
 <template>
-    <div class="relative" ref="wrapperEl">
-        <div class="swiper" ref="swiperEl">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" v-for="cambiata in virtualData.slides" :key="cambiata._id" :style="{ left: `${virtualData.offset}px` }">
-                    <div class="cursor-pointer" @click="navigateTo(localePath({ name: 'tricinium-id', params: { id: cambiata.triciniumId } }))">
-                        <VerovioCanvas :url="`/cambiata/${cambiata.filename}`" />
-                    </div>
-                    <div class="mt-2 text-center">
-                        <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id: cambiata.triciniumId } })">
-                            {{ getCaption(cambiata) }}
-                        </NuxtLink>
+    <div class="mt-4">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-2">
+            <FormCheckbox v-model="showModernClefs" :label="$t('showModernClefs')" />
+            <FormCheckbox v-model="showIntervallsatz" :label="$t('showIntervallsatz')" />
+            <FormCheckbox v-model="hideLyrics" :label="$t('hideLyrics')" />
+        </div>
+        <div class="relative" ref="wrapperEl">
+            <div class="swiper" ref="swiperEl">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" v-for="cambiata in virtualData.slides" :key="cambiata._id" :style="{ left: `${virtualData.offset}px` }">
+                        <CambiataItem :cambiata="cambiata" :show-modern-clefs="showModernClefs" :show-intervallsatz="showIntervallsatz" :hide-lyrics="hideLyrics" :caption="getCaption(cambiata)"/>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex items-center h-10">
-            <div class="self-end">
-                <div class="swiper-button-prev"></div>
-            </div>
-            <div class="flex-grow">
-                <div class="swiper-pagination"></div>
-            </div>
-            <div class="self-end">
-                <div class="swiper-button-next"></div>
+            <div class="flex items-center h-10">
+                <div class="self-end">
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="flex-grow">
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="self-end">
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
         </div>
     </div>
