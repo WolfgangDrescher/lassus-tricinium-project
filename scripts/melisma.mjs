@@ -128,7 +128,7 @@ files.forEach(file => {
                         return exampleLine;
                     }).join('\n');
 
-                    const parsedExampleKern = execSync(`echo ${escapeShell(exampleKern)} | myank -l ${exampleStartLineNumber}-${exampleEndLineNumber} --hide-ending | extractxx -f ${voice.spines}`).toString().trim();;
+                    const parsedExampleKern = execSync(`echo ${escapeShell(exampleKern)} | myank -l ${exampleStartLineNumber}-${exampleEndLineNumber} --hide-ending | extractxx -f ${voice.spines}`).toString().trim();
 
                     // write melisma kern example file
                     const melismaFilename = `${uuidv5(parsedExampleKern, UUID_NAMESPACE)}.krn`;
