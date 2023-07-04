@@ -10,7 +10,6 @@ const localePath = useLocalePath();
 const kern = ref();
 
 const kernWithFilters = computed(() => {
-    console.log(props.filters);
     const filtersString = props.filters.map(filter => `!!!filter: ${filter}`).join('\n');
     return kern.value ? `${kern.value}\n${filtersString}` : '';
 });
