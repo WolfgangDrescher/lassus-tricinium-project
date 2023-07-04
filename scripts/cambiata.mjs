@@ -46,10 +46,10 @@ const voiceMap = [
 
 const cambiata = ['-2', '-3', '+2'];
 
-execSync(`rm -rf ${__dirname}/../content/cambiatas/*`);
-execSync(`rm -rf ${__dirname}/../cambiatas/*`);
-execSync(`mkdir -p ${__dirname}/../content/cambiatas/`);
-execSync(`mkdir -p ${__dirname}/../cambiatas/`);
+execSync(`rm -rf ${__dirname}/../content/cambiata/*`);
+execSync(`rm -rf ${__dirname}/../cambiata/*`);
+execSync(`mkdir -p ${__dirname}/../content/cambiata/`);
+execSync(`mkdir -p ${__dirname}/../cambiata/`);
 
 function getStartLineNumber(kern, beat, beatsBefore = 4) {
     const lines = kern.split('\n');
@@ -130,7 +130,7 @@ files.forEach(file => {
                                 
 
                                 const filename = `${uuidv5(exampleKern, UUID_NAMESPACE)}.krn`;
-                                fs.writeFileSync(`${__dirname}/../cambiatas/${filename}`, exampleKern);
+                                fs.writeFileSync(`${__dirname}/../cambiata/${filename}`, exampleKern);
 
                                 const config = {
                                     filename,
@@ -144,7 +144,7 @@ files.forEach(file => {
 
                                 // save config yaml file
                                 const configFileName = `${id}-${voice.name}-${startBeatToken}.yaml`;
-                                fs.writeFileSync(`${__dirname}/../content/cambiatas/${configFileName}`, yaml.dump(config, {
+                                fs.writeFileSync(`${__dirname}/../content/cambiata/${configFileName}`, yaml.dump(config, {
                                     indent: 4,
                                     lineWidth: -1,
                                     sortKeys: true,
