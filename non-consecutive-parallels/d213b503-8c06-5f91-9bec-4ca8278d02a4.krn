@@ -1,0 +1,24 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 25
+!!!OTL@@LA: Iudica me Domine
+!!!OTL-incipit@@DE: Schaff mir doch recht in Sachen mein
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I\'B	*	*I\'T	*	*I\'C	*
+*clefC3	*	*clefC2	*	*clefG2	*
+*k[b-]	*	*k[b-]	*	*k[b-]	*
+*F:ion	*	*F:ion	*	*F:ion	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=21	=21	=21	=21	=21	=21
+2A@	-such/	2e@	pruff	2cc	such/
+2A@	pruff	1f@	mich	2cc	prüff
+2B-@	mich	.	.	2dd	mich
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (non-consecutive parallels)
