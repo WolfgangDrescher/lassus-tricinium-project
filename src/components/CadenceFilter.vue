@@ -19,7 +19,10 @@ const composerOptions = [...new Set(tricinia.map(tricinium => tricinium.composer
     text: composer,
 }));
 
-const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).filter(n => n))].map(finalis => ({
+const finalisOptions = [...new Set(tricinia.map(tricinium => tricinium.finalis).filter(n => n))].sort((a, b) => {
+    const keyNames = ['c', 'd', 'e', 'f', 'g', 'a', 'b'];
+    return keyNames.indexOf(a) - keyNames.indexOf(b);
+}).map(finalis => ({
     value: finalis,
     text: finalis,
 }));
@@ -29,7 +32,10 @@ const degreeOptions = [...new Set(cadences.map(cadence => cadence.degree).filter
     text: romanize(degree),
 }));
 
-const ultimaOptions = [...new Set(cadences.map(cadence => cadence.ultima).filter(n => n))].map(ultima => ({
+const ultimaOptions = [...new Set(cadences.map(cadence => cadence.ultima).filter(n => n))].sort((a, b) => {
+    const keyNames = ['c', 'd', 'e', 'f', 'g', 'a', 'b-', 'b'];
+    return keyNames.indexOf(a) - keyNames.indexOf(b);
+}).map(ultima => ({
     value: ultima,
     text: ultima,
 }));
