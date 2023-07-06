@@ -105,7 +105,7 @@ files.forEach(file => {
                         const endFbToken = endLine.split('\t')[1];
                         const endKernTokenUpper = endLine.split('\t')[2];
                         const endBeatToken = endLine.split('\t')[3];
-                        if (tokenIsDataRecord(endFbToken)) {
+                        if (tokenIsDataRecord(endFbToken, true)) {
 
                             // Ignore line when both voices have null tokens
                             if (endKernTokenLower === '.' && endKernTokenUpper === '.') {
@@ -125,7 +125,7 @@ files.forEach(file => {
                                 if (!(
                                     (startLowerPitch === endLowerPitch) ||
                                     (startUpperPitch === endUpperPitch)
-                                )) {
+                                ) || endFbToken === '.') {
                                     i = j - 1;
                                     break;
                                 } else {
