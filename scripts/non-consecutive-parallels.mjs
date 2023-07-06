@@ -40,7 +40,7 @@ function getTokenPitch(lineIndex, spineIndex, lines) {
     for (let i = lineIndex; i >= 0; i--) {
         const token = lines[i].split('\t')[spineIndex];
         if (tokenIsDataRecord(token)) {
-            return token.replaceAll(/[^a-zA-Z\-#]/g, '')
+            return token.replaceAll(/[^a-gA-G\-#]/g, '')
         }
     }
     return null;
