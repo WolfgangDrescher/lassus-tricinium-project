@@ -24,16 +24,14 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="flex justify-center">
-        <div>
-            <div @click="navigateTo(localePath({ name: 'tricinium-id', params: { id } }))" class="cursor-pointer">
-                <VerovioCanvas :data="kernWithFilters" />
-            </div>
-            <div v-if="caption" class="flex justify-center mt-2 italic">
-                <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id } })">
-                    {{ caption }}
-                </NuxtLink>
-            </div>
+    <div>
+        <div @click="navigateTo(localePath({ name: 'tricinium-id', params: { id } }))" class="cursor-pointer">
+            <VerovioCanvas :data="kernWithFilters" />
+        </div>
+        <div v-if="caption" class="flex justify-center mt-2 italic">
+            <NuxtLink :to="localePath({ name: 'tricinium-id', params: { id } })">
+                {{ caption }}
+            </NuxtLink>
         </div>
     </div>
 </template>
