@@ -100,6 +100,24 @@ function tokenIsDataRecord(line, includeNullToken = false) {
     return line && !line.startsWith('!') && !line.startsWith('*') && !line.startsWith('=') && !(!includeNullToken && line === '.');
 }
 
+function markScoreLines(lines, lineIndex, lowerVoice, upperVoice) {
+    const resolvedLowerLineIndex = getResolvedTokenLineIndex(lines.join('\n'), lineIndex, lowerVoice - 1);
+    const resolvedUpperLineIndex = getResolvedTokenLineIndex(lines.join('\n'), lineIndex, upperVoice - 1);
+
+    return lines.map((line, lineIdx) => {
+        const tokens = line.split('\t');
+        return tokens.map((token, tokenIdx) => {
+            if (
+                (tokenIdx === parseInt(lowerVoice, 10) - 1 && lineIdx === resolvedLowerLineIndex) ||
+                (tokenIdx === parseInt(upperVoice, 10) - 1 && lineIdx === resolvedUpperLineIndex)
+            ) {
+                return `${token.replace('@', '')}@`;
+            }
+            return token;
+        }).join('\t');
+    });
+}
+
 let count = 0;
 
 const directoryName = 'diminished-fifths';
@@ -116,9 +134,11 @@ files.forEach(file => {
     voicePairs.forEach(voicePair => {
         const kern = execSync(`cat ${file} | extractxx -f ${voicePair} | fb --hint -c | beat -ca`).toString().trim();
         const lines = kern.split('\n');
+        const resolvedStartLines = [];
         lines.forEach((line, lineIndex) => {
             const hintToken = line.split('\t')?.[1];
-            if (hintToken && hintToken.includes('d5')) {
+            if (hintToken && tokenIsDataRecord(hintToken) && hintToken.includes('d5')) {
+                
                 const beatToken = line.split('\t')[3];
                 const lineNumber = lineIndex + 1;
                 const lowerVoice = voicePair.split(',')[0];
@@ -126,20 +146,22 @@ files.forEach(file => {
 
                 const lowerVoiceMarkedLineIndex = getResolvedTokenLineIndex(kern, lineIndex, 0);
                 const upperVoiceMarkedLineIndex = getResolvedTokenLineIndex(kern, lineIndex, 2);
+
+                if (resolvedStartLines.includes(lowerVoiceMarkedLineIndex) || resolvedStartLines.includes(upperVoiceMarkedLineIndex)) {
+                    return;
+                }
+
+                resolvedStartLines.push(lowerVoiceMarkedLineIndex);
+                resolvedStartLines.push(upperVoiceMarkedLineIndex);
                 
                 // mark diminished fifth notes in example
-                const markedKernLines = execSync(`cat ${file}`).toString().trim().split('\n').map((line, lineIdx) => {
-                    const tokens = line.split('\t');
-                    return tokens.map((token, tokenIdx) => {
-                        if (
-                            (tokenIdx === parseInt(lowerVoice, 10) - 1 && lineIdx === lowerVoiceMarkedLineIndex) ||
-                            (tokenIdx === parseInt(upperVoice, 10) - 1 && lineIdx === upperVoiceMarkedLineIndex)
-                        ) {
-                            return `${token}@`;
-                        }
-                        return token;
-                    }).join('\t');
-                });
+                let markedKernLines = execSync(`cat ${file}`).toString().trim().split('\n');
+                for (let i = 0; i < markedKernLines.length; i++) {
+                    const lineHintToken = lines[i].split('\t')?.[1];
+                    if (lineHintToken === 'd5') {
+                        markedKernLines = markScoreLines(markedKernLines, i, lowerVoice, upperVoice);
+                    }
+                }
 
                 const exampleStartLineNumber = getStartLineNumber(kern, beatToken);
                 const exampleEndLineNumber = getEndLineNumber(kern, beatToken);
