@@ -15,9 +15,10 @@ const swiperEl = ref(null);
 const virtualData = ref({
     slides: [],
 });
+let swiper = null;
 
 onMounted(() => {
-    new Swiper(swiperEl.value, {
+    swiper = new Swiper(swiperEl.value, {
         // autoHeight: true,
         modules: [Virtual, Navigation, Pagination],
         spaceBetween: 16,
@@ -51,6 +52,7 @@ onMounted(() => {
 const showModernClefs = ref(false);
 const showIntervallsatz = ref(false);
 const hideLyrics = ref(false);
+const voicePairs = ref([]);
 
 const { t } = useI18n();
 
@@ -62,11 +64,37 @@ function getCaption(item) {
     const location = `T. ${Math.ceil(item.beat / 8)} ♩ ${(item.beat % 8) + 1}`;
     return `${tricinium.nr}. ${tricinium.title}, ${location}`;
 }
+
+watch(voicePairs, (value) => {
+    const filteredSlides = items.filter((item) => {
+        return value.map(voicePair => voicePair.split(',')[0]).includes(item.lowerVoice) && value.map(voicePair => voicePair.split(',')[1]).includes(item.upperVoice);
+    });
+    swiper?.virtual?.removeAllSlides();
+    swiper?.virtual?.appendSlide(value.length === 0 ? items : filteredSlides);
+});
+
+const voicePairOptions = [
+    {
+        text: `${t('voice.bassus')} + ${t('voice.tenor')}`,
+        value: 'bassus,tenor',
+    },
+    {
+        text: `${t('voice.bassus')} + ${t('voice.cantus')}`,
+        value: 'bassus,cantus',
+    },
+    {
+        text: `${t('voice.tenor')} + ${t('voice.cantus')}`,
+        value: 'tenor,cantus',
+    },
+];
 </script>
 
 <template>
     <div class="mt-4">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-2">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-2">
+            <div class="col-span-full">
+                <FormDropdown v-model="voicePairs" :label="$t('voicePairs')" :options="voicePairOptions" multiple :search-enabled="false" />
+            </div>
             <FormCheckbox v-model="showModernClefs" :label="$t('showModernClefs')" />
             <FormCheckbox v-model="showIntervallsatz" :label="$t('showIntervallsatz')" />
             <FormCheckbox v-model="hideLyrics" :label="$t('hideLyrics')" />
