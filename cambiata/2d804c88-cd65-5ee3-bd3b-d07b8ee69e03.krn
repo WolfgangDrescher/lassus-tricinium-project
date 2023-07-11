@@ -1,0 +1,33 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 28
+!!!OTL@@LA: Afferte Domino
+!!!OTL-incipit@@DE: Ihr kinder Gottes hoch von stande
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefC2	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+2A]	.	2a	brin-	2cc]	.
+=16	=16	=16	=16	=16	=16
+2d	gut/	4f	-get	0r	.
+.	.	4g	.	.	.
+2d@	brin-	4a	.	.	.
+.	.	8g	.	.	.
+.	.	8f	.	.	.
+2c@	-get	2e	.	.	.
+2A@	jhm	1f	jm	.	.
+=17	=17	=17	=17	=17	=17
+2B-@	ehr	.	.	1dd	brin-
+2B-	und	4d	ehr	.	.
+.	.	4e	.	.	.
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (cambiata)

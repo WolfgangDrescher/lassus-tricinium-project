@@ -29,7 +29,7 @@ function getFiles(directory, fileList) {
 }
 
 function escapeShell(cmd) {
-    return '"' + cmd.replace(/(["'$`\\])/g, '\\$1') + '"';
+    return '"' + cmd.replace(/(["$`\\])/g, '\\$1') + '"';
 }
 
 const voiceMap = [

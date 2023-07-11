@@ -1,0 +1,34 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 48
+!!!OTL@@LA: Audite hæc omnes gentes
+!!!OTL-incipit@@DE: Hört diß jhr völcker in gemain
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefC2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*C:ion	*	*C:ion	*	*C:ion	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+4E	.	4e]	.	4cc]	.
+=10	=10	=10	=10	=10	=10
+2G	.	2.d	auff	2b	-cken
+2F#	die	.	.	2a	auff
+.	.	4c@	.	.	.
+4G	re-	2B@	.	2g	die
+4A	.	.	.	.	.
+4B	.	4G@	die	2.dd	re-
+4c	.	4A@	.	.	.
+=11	=11	=11	=11	=11	=11
+2d	.	4B	.	.	.
+.	.	4c	.	4cc	.
+2G	-den	2d	.	4b	.
+.	.	.	.	4a	.
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (cambiata)

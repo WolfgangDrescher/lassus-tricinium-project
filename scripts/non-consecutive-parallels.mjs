@@ -33,7 +33,7 @@ function tokenIsDataRecord(line, includeNullToken = false) {
 }
 
 function escapeShell(cmd) {
-    return '"' + cmd.replace(/(["'$`\\])/g, '\\$1') + '"';
+    return '"' + cmd.replace(/(["$`\\])/g, '\\$1') + '"';
 }
 
 function getTokenPitch(lineIndex, spineIndex, lines) {
