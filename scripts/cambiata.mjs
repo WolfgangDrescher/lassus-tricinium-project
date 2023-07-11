@@ -99,7 +99,6 @@ files.forEach(file => {
                     const endBeatToken = endLine.split('\t')[1];
                     if (tokenIsDataRecord(endToken))  {
                         const endLineNumber = j + 1;
-                        i = j;
                         // check if data token matches cambiata pattern
                         if (endToken === cambiata[mintLines.length]) {
                             mintLines.push(endToken);
