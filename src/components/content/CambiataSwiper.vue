@@ -1,5 +1,6 @@
 <script setup>
-import Swiper, { Virtual, Navigation, Pagination } from 'swiper';
+import Swiper from 'swiper';
+import { Virtual, Navigation, Pagination } from 'swiper/modules';
 import { breakpointsTailwind } from '@vueuse/core';
 import 'swiper/css';
 import 'swiper/css/navigation';
