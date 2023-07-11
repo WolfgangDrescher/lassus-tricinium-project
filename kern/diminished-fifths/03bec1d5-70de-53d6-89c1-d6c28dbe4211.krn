@@ -1,28 +1,28 @@
-!!!COM: Lassus, Rudolphus
-!!!CDT: 1563-1625
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
-!!!ONM: 10
-!!!OTL@@LA: In Domino confido
-!!!OTL-incipit@@DE: Mein herzt und mut mit festem trawen
+!!!ONM: 29
+!!!OTL@@LA: Exaltabo te Domine
+!!!OTL-incipit@@DE: Ich wil dich Herr gebürlich loben
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
 *I"Bassus	*	*I"Tenor	*	*I"Cantus	*
 *I'B	*	*I'T	*	*I'C	*
-*clefC3	*	*clefC2	*	*clefG2	*
+*clefC4	*	*clefC3	*	*clefC1	*
 *k[]	*	*k[]	*	*k[]	*
 *d:dor	*	*d:dor	*	*d:dor	*
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-2c	auff	2g	auff	2ee	-nen
-=17	=17	=17	=17	=17	=17
-2d	dei-	2.b-@	dei-	2ff	berg
-2e@	-nen	.	.	2gg	hin
-.	.	4b-@	-nen	.	.
-1f	berg	2a	berg	2cc	zu
-*	*Xij	*	*	*	*
-.	.	2d	hin	2a	en-
-=	=	=	=	=	=
+2F]	.	2.d	-ben	4a]	.
+.	.	.	.	4a	von
+1E	-ben	.	.	2g	o-
+.	.	8c#i	.	.	.
+.	.	8B	.	.	.
+.	.	2c#i@	.	2g@	-ben
+=27	=27	=27	=27	=27	=27
+1D	her/	2d	.	1f#	her/
+.	.	2d	her/	.	.
 *-	*-	*-	*-	*-	*-
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental

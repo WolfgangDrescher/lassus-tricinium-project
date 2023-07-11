@@ -1,29 +1,31 @@
-!!!COM: Lassus, Rudolphus
-!!!CDT: 1563-1625
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
-!!!ONM: 24
-!!!OTL@@LA: Ad te Domine levavi animam
-!!!OTL-incipit@@DE: Zu dir O Gott allein in diesem leben
+!!!ONM: 29
+!!!OTL@@LA: Exaltabo te Domine
+!!!OTL-incipit@@DE: Ich wil dich Herr gebürlich loben
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
 *I"Bassus	*	*I"Tenor	*	*I"Cantus	*
 *I'B	*	*I'T	*	*I'C	*
-*clefC4	*	*clefC1	*	*clefC1	*
+*clefC4	*	*clefC3	*	*clefC1	*
 *k[]	*	*k[]	*	*k[]	*
 *d:dor	*	*d:dor	*	*d:dor	*
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-2A	be-	2a	be-	1f	-sten-
-2.G	-sten-	2.b-@	-stän-	.	.
-.	.	.	.	2e@	-dig-
-4G	-dig-	4b-@	-dig-	.	.
-=18	=18	=18	=18	=18	=18
-2F	-klich	2a	-klich/	4f	-klich
-*	*	*	*Xij	*	*Xij
-.	.	.	.	8e	.
-.	.	.	.	8d	.
-2F	be-	2a	laß	[2c	.
+=26	=26	=26	=26	=26	=26
+1F	o-	2c	o-	2.a	-heilt
+*	*	*	*	*	*Xij
+.	.	2.d	-ben	.	.
+.	.	.	.	4a	von
+1E	-ben	.	.	2g@	o-
+.	.	8c#i@	.	.	.
+.	.	8B	.	.	.
+.	.	2c#i	.	2g	-ben
+=27	=27	=27	=27	=27	=27
+1D	her/	2d	.	1f#	her/
+.	.	2d	her/	.	.
 *-	*-	*-	*-	*-	*-
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental

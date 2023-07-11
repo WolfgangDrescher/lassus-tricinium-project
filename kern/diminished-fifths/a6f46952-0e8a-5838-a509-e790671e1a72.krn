@@ -1,27 +1,29 @@
 !!!COM: Lassus, Rudolphus
 !!!CDT: 1563-1625
 !!!OPR: Geistliche Psalmen mit dreyen Stimmen
-!!!ONM: 46
-!!!OTL@@LA: Omnes gentes
-!!!OTL-incipit@@DE: Wolauff jhr völcker all
-!!!ONB: All notes of the Cantus part have been filled in by hand with an ink pen.
+!!!ONM: 24
+!!!OTL@@LA: Ad te Domine levavi animam
+!!!OTL-incipit@@DE: Zu dir O Gott allein in diesem leben
 **kern	**text	**kern	**text	**kern	**text
 *Ivox	*	*Ivox	*	*Ivox	*
 *I"Bassus	*	*I"Tenor	*	*I"Cantus	*
 *I'B	*	*I'T	*	*I'C	*
-*clefC3	*	*clefG2	*	*clefG2	*
+*clefC4	*	*clefC1	*	*clefC1	*
 *k[]	*	*k[]	*	*k[]	*
 *d:dor	*	*d:dor	*	*d:dor	*
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *MM180	*	*MM180	*	*MM180	*
-2c	-schafft	2ee	-schafft	1a	rei-
-2B	rei-	2.dd@	rei-	.	.
-2B	-chen	.	.	2g#i@	-chen
-.	.	4dd@	-chen	.	.
-=25	=25	=25	=25	=25	=25
-1A	thut/	2cc	thut/	2a	thut/
-.	.	2a	so	2cc	so
+2A	be-	2a	be-	1f	-sten-
+2.G	-sten-	2.b-@	-stän-	.	.
+.	.	.	.	2e@	-dig-
+4G	-dig-	4b-	-dig-	.	.
+=18	=18	=18	=18	=18	=18
+2F	-klich	2a	-klich/	4f	-klich
+*	*	*	*Xij	*	*Xij
+.	.	.	.	8e	.
+.	.	.	.	8d	.
+2F	be-	2a	laß	[2c	.
 *-	*-	*-	*-	*-	*-
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental
