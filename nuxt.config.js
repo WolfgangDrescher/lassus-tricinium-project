@@ -60,6 +60,10 @@ export default defineNuxtConfig({
                 baseURL: 'cambiata',
                 dir: fileURLToPath(new URL('./cambiata', import.meta.url)),
             },
+            {
+                baseURL: 'diminished-fifths',
+                dir: fileURLToPath(new URL('./diminished-fifths', import.meta.url)),
+            },
         ],
     },
     googleFonts: {
