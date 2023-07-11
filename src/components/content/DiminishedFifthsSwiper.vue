@@ -74,7 +74,7 @@ function getCaption(item) {
             <div class="swiper" ref="swiperEl">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" v-for="item in virtualData.slides" :key="item._id" :style="{ left: `${virtualData.offset}px` }">
-                        <DominishedFifthItem :item="item" :show-modern-clefs="showModernClefs" :show-intervallsatz="showIntervallsatz" :hide-lyrics="hideLyrics" :caption="getCaption(item)"/>
+                        <DiminishedFifthItem :item="item" :show-modern-clefs="showModernClefs" :show-intervallsatz="showIntervallsatz" :hide-lyrics="hideLyrics" :caption="getCaption(item)"/>
                     </div>
                 </div>
             </div>
