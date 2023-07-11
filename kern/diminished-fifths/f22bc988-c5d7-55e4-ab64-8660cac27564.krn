@@ -1,0 +1,30 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 29
+!!!OTL@@LA: Exaltabo te Domine
+!!!OTL-incipit@@DE: Ich wil dich Herr gebürlich loben
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC3	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=29	=29	=29	=29	=29	=29
+1F	o-	2c	o-	1a	o-
+.	.	2.d	-ben	.	.
+1E	-ben	.	.	1g@	-ben
+.	.	8c#i@	.	.	.
+.	.	8B	.	.	.
+.	.	2c#i@	.	.	.
+=30	=30	=30	=30	=30	=30
+0Dl	her.	0dll	her.	0f#ll	her.
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (diminished fifth)
