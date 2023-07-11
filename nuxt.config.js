@@ -49,20 +49,8 @@ export default defineNuxtConfig({
                 maxAge: 3600,
             },
             {
-                baseURL: 'cadences',
-                dir: fileURLToPath(new URL('./cadences', import.meta.url)),
-            },
-            {
-                baseURL: 'melisma',
-                dir: fileURLToPath(new URL('./melisma', import.meta.url)),
-            },
-            {
-                baseURL: 'cambiata',
-                dir: fileURLToPath(new URL('./cambiata', import.meta.url)),
-            },
-            {
-                baseURL: 'diminished-fifths',
-                dir: fileURLToPath(new URL('./diminished-fifths', import.meta.url)),
+                baseURL: 'kern',
+                dir: fileURLToPath(new URL('./kern', import.meta.url)),
             },
         ],
     },
