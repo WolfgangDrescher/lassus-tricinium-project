@@ -1,0 +1,34 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 5
+!!!OTL@@LA: Verba mea auribus
+!!!OTL-incipit@@DE: Vernimb Herr meine Wort
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefC1	*	*clefG2	*
+*k[b-]	*	*k[b-]	*	*k[b-]	*
+*g:dor	*	*g:dor	*	*g:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+3...G]	.	8g]	.	8cc	.
+=6	=6	=6	=6	=6	=6
+.	.	1b-	Merck	2dd	.
+1g	an	.	.	4r	.
+.	.	.	.	4ee-	Merck
+.	.	2b-	an	2.dd	an
+2f@	du	2a	du	.	.
+.	.	.	.	4a	du
+=7	=7	=7	=7	=7	=7
+2e-@	trew-	2g	trew-	2b-	trew-
+2c@	-er	2g	-er	2cc	-er
+1d@	hort/	1f#	hort/	2a	hort/
+.	.	.	.	[2dd	die
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (cambiata)

@@ -1,0 +1,34 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 7
+!!!OTL@@LA: Domine Deus meus
+!!!OTL-incipit@@DE: Auff dich mein lieber Herr und Gott
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC3	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*e:phr	*	*e:phr	*	*e:phr	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+4A]	.	4f	.	2cc]	.
+2A	mein	2.e	.	.	.
+.	.	.	.	8b	.
+.	.	.	.	8a	.
+2E	lie-	.	.	4g	.
+.	.	8d	.	8f	.
+.	.	8c	.	8e	.
+2G@	-ber	2B	.	2d	.
+=4	=4	=4	=4	=4	=4
+2F@	Herr	2c	-ber	2a	Herr
+*	*	*	*	*lig	*
+2D@	und	2d	Herr	1bn	und
+[2.E@	Gott/	2.c	uñ	.	.
+.	.	.	.	[4a	.
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (cambiata)

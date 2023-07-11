@@ -1,0 +1,37 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 46
+!!!OTL@@LA: Omnes gentes
+!!!OTL-incipit@@DE: Wolauff jhr völcker all
+!!!ONB: All notes of the Cantus part have been filled in by hand with an ink pen.
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefG2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+=10	=10	=10	=10	=10	=10
+1d	-den/	2gg]	.	2b-	.
+.	.	2.ff	ist	2a	-den/
+1r	.	.	.	1dd@	er
+.	.	4ee	.	.	.
+.	.	4ff	.	.	.
+.	.	4dd	.	.	.
+=11	=11	=11	=11	=11	=11
+2r	.	2ee	.	2cc@	ist
+2d	er	2ff	ein	4a@	ein
+.	.	.	.	4b@	.
+2c	ist	4ee	Herr	4cc	.
+.	.	4dd	.	4dd	.
+2A	ein	4cc	.	2ee	.
+.	.	4b	.	.	.
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (cambiata)

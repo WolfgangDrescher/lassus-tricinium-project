@@ -1,0 +1,33 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 2
+!!!OTL@@LA: Quare fremuerunt gentes
+!!!OTL-incipit@@DE: Warumb empören sich die Haiden
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefC2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*d:dor	*	*d:dor	*	*d:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+2A	thun	2a	thun	2cc	thun
+2e	ei-	2g	ei-	2b	ei-
+2f	-tel	2f@	-tel	2a	-tel
+=20	=20	=20	=20	=20	=20
+2c	ding	2.e@	ding	2g	ding
+*	*Xij	*	*	*	*
+2A	mit	.	.	2cc	mit
+.	.	4c@	mit	.	.
+4G	list	2d@	list	2b	list
+4G	er-	.	.	.	.
+2A	-den-	2c	er-	4e	er-
+.	.	.	.	[4a	-den-
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (cambiata)
