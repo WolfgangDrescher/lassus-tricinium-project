@@ -46,6 +46,8 @@ const voiceMap = [
 
 const cambiata = ['-2', '-3', '+2'];
 
+let count = 0;
+
 execSync(`rm -rf ${__dirname}/../content/cambiata/*`);
 execSync(`rm -rf ${__dirname}/../kern/cambiata/*`);
 execSync(`mkdir -p ${__dirname}/../content/cambiata/`);
@@ -151,6 +153,8 @@ files.forEach(file => {
                                 }));
 
                                 console.log(startLineNumber, endLineNumber, voice.name);
+                                
+                                count++;
 
                                 break;
                             }
@@ -163,3 +167,5 @@ files.forEach(file => {
         }
     });
 });
+
+console.log('Total count: ', count);
