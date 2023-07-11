@@ -100,6 +100,21 @@ function tokenIsDataRecord(line, includeNullToken = false) {
     return line && !line.startsWith('!') && !line.startsWith('*') && !line.startsWith('=') && !(!includeNullToken && line === '.');
 }
 
+function getNoteEndLineIndex(lines, lineIndex, spineIndex) {
+    let endLineIndex = lineIndex;
+    for (let i = lineIndex; i <= lines.length; i++) {
+        const line = lines[i];
+        const token = line.split('\t')[spineIndex];
+        if (tokenIsDataRecord(token)) {
+            break;
+        }
+        if (tokenIsDataRecord(token, true)) {
+            endLineIndex = i;
+        }
+    }
+    return endLineIndex;
+}
+
 function markScoreLines(lines, lineIndex, lowerVoice, upperVoice) {
     const resolvedLowerLineIndex = getResolvedTokenLineIndex(lines.join('\n'), lineIndex, lowerVoice - 1);
     const resolvedUpperLineIndex = getResolvedTokenLineIndex(lines.join('\n'), lineIndex, upperVoice - 1);
@@ -154,9 +169,12 @@ files.forEach(file => {
                 resolvedStartLines.push(lowerVoiceMarkedLineIndex);
                 resolvedStartLines.push(upperVoiceMarkedLineIndex);
                 
+                const endLineIndex = Math.max(getNoteEndLineIndex(lines, lineIndex, 0), getNoteEndLineIndex(lines, lineIndex, 2));
+                const startLineIndex = Math.min(lowerVoiceMarkedLineIndex, upperVoiceMarkedLineIndex);
+
                 // mark diminished fifth notes in example
                 let markedKernLines = execSync(`cat ${file}`).toString().trim().split('\n');
-                for (let i = 0; i < markedKernLines.length; i++) {
+                for (let i = startLineIndex; i <= endLineIndex; i++) {
                     const lineHintToken = lines[i].split('\t')?.[1];
                     if (lineHintToken === 'd5') {
                         markedKernLines = markScoreLines(markedKernLines, i, lowerVoice, upperVoice);
