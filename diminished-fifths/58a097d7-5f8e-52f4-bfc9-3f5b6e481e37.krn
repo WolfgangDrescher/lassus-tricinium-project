@@ -1,0 +1,28 @@
+!!!COM: Lassus, Orlandus
+!!!CDT: 1532-1594/06/14
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 37
+!!!OTL@@LA: Domine ne in furore
+!!!OTL-incipit@@DE: Straff mich Herr nit im eiffermut
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC1	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*e:phr	*	*e:phr	*	*e:phr	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+2G	gar	2.ee	in	2g]	.
+2A	tieff	.	.	1f@	-sen
+.	.	8dd	.	.	.
+.	.	8cc	.	.	.
+2B@	in	2dd	.	.	.
+=19	=19	=19	=19	=19	=19
+2c	mich	2g	mich	2.e	sein/
+[4A	ge-	[4cc	ge-	.	.
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (diminished fifth)

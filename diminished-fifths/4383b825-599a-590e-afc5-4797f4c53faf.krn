@@ -1,0 +1,28 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 50
+!!!OTL@@LA: Miserere mei Deus
+!!!OTL-incipit@@DE: Gott sey mir gnedig dieser zeit
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC4	*	*clefC1	*	*clefC1	*
+*k[]	*	*k[]	*	*k[]	*
+*e:phr	*	*e:phr	*	*e:phr	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+2G	-dig	2g	-dig	4b]	.
+.	.	.	.	4b	-dig
+2A	die-	2.f@	die-	2cc	die-
+2B@	-ser	.	.	2dd	-ser
+.	.	4f	-ser	.	.
+=3	=3	=3	=3	=3	=3
+2c	zeit/	1e	zeit/	2g	zeit/
+2A	nach	.	.	2c	nach
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (diminished fifth)

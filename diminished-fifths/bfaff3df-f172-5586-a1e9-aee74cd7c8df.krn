@@ -1,0 +1,30 @@
+!!!COM: Lassus, Rudolphus
+!!!CDT: 1563-1625
+!!!OPR: Geistliche Psalmen mit dreyen Stimmen
+!!!ONM: 38
+!!!OTL@@LA: Dixi custodiam
+!!!OTL-incipit@@DE: Ich hab also bey mir gedacht
+**kern	**text	**kern	**text	**kern	**text
+*Ivox	*	*Ivox	*	*Ivox	*
+*I"Bassus	*	*I"Tenor	*	*I"Cantus	*
+*I'B	*	*I'T	*	*I'C	*
+*clefC3	*	*clefC1	*	*clefG2	*
+*k[b-]	*	*k[b-]	*	*k[b-]	*
+*g:dor	*	*g:dor	*	*g:dor	*
+*M2/1	*	*M2/1	*	*M2/1	*
+*met(C|)	*	*met(C|)	*	*met(C|)	*
+*MM180	*	*MM180	*	*MM180	*
+4d]	.	4a]	.	4ff	-ne
+2G	-ne	2b-	-ne	2.dd	zun-
+1e@	zun-	1g	zun-	.	.
+.	.	.	.	8cc	.
+.	.	.	.	8b-@	.
+.	.	.	.	4cc	.
+.	.	.	.	4g	.
+=9	=9	=9	=9	=9	=9
+2d	-gen/	1f	-gen/	2b-	.
+2d	hal-	.	.	[2a	-gen/
+*-	*-	*-	*-	*-	*-
+!!!RDF**kern: l = terminal long
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: @ = marked note (diminished fifth)
