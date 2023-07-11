@@ -72,9 +72,9 @@ const voicePairs = [
 const directoryName = 'non-consecutive-parallels';
 
 execSync(`rm -rf ${__dirname}/../content/${directoryName}/*`);
-execSync(`rm -rf ${__dirname}/../${directoryName}/*`);
+execSync(`rm -rf ${__dirname}/../kern/${directoryName}/*`);
 execSync(`mkdir -p ${__dirname}/../content/${directoryName}/`);
-execSync(`mkdir -p ${__dirname}/../${directoryName}/`);
+execSync(`mkdir -p ${__dirname}/../kern/${directoryName}/`);
 
 files.forEach(file => {
     const id = getIdFromFilename(file);
@@ -173,7 +173,7 @@ files.forEach(file => {
 
 
                                         const filename = `${uuidv5(exampleKern, UUID_NAMESPACE)}.krn`;
-                                        fs.writeFileSync(`${__dirname}/../${directoryName}/${filename}`, exampleKern);
+                                        fs.writeFileSync(`${__dirname}/../kern/${directoryName}/${filename}`, exampleKern);
 
                                         const config = {
                                             filename,

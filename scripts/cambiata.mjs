@@ -47,9 +47,9 @@ const voiceMap = [
 const cambiata = ['-2', '-3', '+2'];
 
 execSync(`rm -rf ${__dirname}/../content/cambiata/*`);
-execSync(`rm -rf ${__dirname}/../cambiata/*`);
+execSync(`rm -rf ${__dirname}/../kern/cambiata/*`);
 execSync(`mkdir -p ${__dirname}/../content/cambiata/`);
-execSync(`mkdir -p ${__dirname}/../cambiata/`);
+execSync(`mkdir -p ${__dirname}/../kern/cambiata/`);
 
 function getStartLineNumber(kern, beat, beatsBefore = 4) {
     const lines = kern.split('\n');
@@ -130,7 +130,7 @@ files.forEach(file => {
                                 
 
                                 const filename = `${uuidv5(exampleKern, UUID_NAMESPACE)}.krn`;
-                                fs.writeFileSync(`${__dirname}/../cambiata/${filename}`, exampleKern);
+                                fs.writeFileSync(`${__dirname}/../kern/cambiata/${filename}`, exampleKern);
 
                                 const config = {
                                     filename,

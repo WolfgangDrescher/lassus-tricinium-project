@@ -45,9 +45,9 @@ const voices = [
 ];
 
 execSync(`rm -rf ${__dirname}/../content/melisma/*`);
-execSync(`rm -rf ${__dirname}/../melisma/*`);
+execSync(`rm -rf ${__dirname}/../kern/melisma/*`);
 execSync(`mkdir -p ${__dirname}/../content/melisma/`);
-execSync(`mkdir -p ${__dirname}/../melisma/`);
+execSync(`mkdir -p ${__dirname}/../kern/melisma/`);
 
 const numberOfWords = 1;
 
@@ -132,7 +132,7 @@ files.forEach(file => {
 
                     // write melisma kern example file
                     const melismaFilename = `${uuidv5(parsedExampleKern, UUID_NAMESPACE)}.krn`;
-                    fs.writeFileSync(`${__dirname}/../melisma/${melismaFilename}`, parsedExampleKern);
+                    fs.writeFileSync(`${__dirname}/../kern/melisma/${melismaFilename}`, parsedExampleKern);
 
                     // calculate melodic intervals and rhythm of the melisma
                     const mint = execSync(`echo ${escapeShell(melismaKern)} | extractxx -f 1 | beat -ca | mint -d | ridxx -H`).toString().trim();

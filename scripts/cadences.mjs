@@ -75,7 +75,9 @@ ${finalis.toUpperCase()}	${cadenceUltima.toLowerCase()}`;
 }
 
 execSync(`rm -rf ${__dirname}/../content/cadences/*`);
-execSync(`rm -rf ${__dirname}/../cadences/*`);
+execSync(`rm -rf ${__dirname}/../kern/cadences/*`);
+execSync(`mkdir -p ${__dirname}/../content/cadences/`);
+execSync(`mkdir -p ${__dirname}/../kern/cadences/`);
 
 getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
     const id = getIdFromFilename(file);
@@ -106,7 +108,7 @@ getFiles(`${__dirname}/../lassus-geistliche-psalmen/kern`).forEach(file => {
                 });
                 const fileContent = cadenceFileLines.join('\n');
                 const cadenceFilename = `${uuidv5(fileContent, UUID_NAMESPACE)}.krn`;
-                fs.writeFileSync(`${__dirname}/../cadences/${cadenceFilename}`, fileContent);
+                fs.writeFileSync(`${__dirname}/../kern/cadences/${cadenceFilename}`, fileContent);
 
                 const voices = voiceMap.reduce((accumulator, voice) => {
                     accumulator[voice.name] = {};
