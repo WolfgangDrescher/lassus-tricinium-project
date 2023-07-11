@@ -11,7 +11,7 @@ defineI18nRoute({
     },
 });
 
-const { data } = await useAsyncData('faq', () => queryContent('/faq').find())
+const { data } = await useAsyncData('faq', () => queryContent('/faq').sort({ title: 1 }).find())
 </script>
 
 <template>
