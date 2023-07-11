@@ -32,7 +32,7 @@
     "pinia": "^2.0.27",
     "soundfont-player": "^0.12.0",
     "svg-to-pdfkit": "^0.1.8",
-    "swiper": "^9.1.1",
+    "swiper": "^10.0.0",
     "uuid": "^9.0.0",
     "verovio": "^3.13.1",
     "vue-verovio-canvas": "^1.0.0"
