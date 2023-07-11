@@ -50,7 +50,7 @@ const store = useCadenceHumdrumFiltersStore();
 const { showModernClefs, showIntervallsatz, showLyrics, showScaleDegrees } = storeToRefs(store);
 
 onMounted(async () => {
-    const response = await fetch(`/cadences/${props.cadence.filename}`);
+    const response = await fetch(`/kern/cadences/${props.cadence.filename}`);
     if (!response.ok) {
         throw new Error(`${response.status} ${response.statusText}`);
     }

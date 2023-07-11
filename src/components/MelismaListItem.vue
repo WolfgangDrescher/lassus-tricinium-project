@@ -13,7 +13,7 @@ const { tricinium } = props.melisma;
 const data = ref(null);
 
 onMounted(async () => {
-    const response = await fetch(`/melisma/${props.melisma.filename}`);
+    const response = await fetch(`/kern/melisma/${props.melisma.filename}`);
     if (!response.ok) {
         throw new Error(`${response.status} ${response.statusText}`);
     }

@@ -17,7 +17,7 @@ const localePath = useLocalePath();
 const data = ref(null);
 
 onMounted(async () => {
-    const response = await fetch(`/diminished-fifths/${item.filename}`);
+    const response = await fetch(`/kern/diminished-fifths/${item.filename}`);
     if (!response.ok) {
         throw new Error(`${response.status} ${response.statusText}`);
     }

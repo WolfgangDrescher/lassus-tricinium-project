@@ -17,7 +17,7 @@ const localePath = useLocalePath();
 const data = ref(null);
 
 onMounted(async () => {
-    const response = await fetch(`/cambiata/${cambiata.filename}`);
+    const response = await fetch(`/kern/cambiata/${cambiata.filename}`);
     if (!response.ok) {
         throw new Error(`${response.status} ${response.statusText}`);
     }
