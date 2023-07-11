@@ -144,8 +144,6 @@ files.forEach(file => {
                 const exampleStartLineNumber = getStartLineNumber(kern, beatToken);
                 const exampleEndLineNumber = getEndLineNumber(kern, beatToken);
 
-                console.log({exampleStartLineNumber, exampleEndLineNumber});
-
                 // extract kern of diminished fifth exmaple
                 const stdout = execSync(`echo ${escapeShell(markedKernLines.join('\n'))} | myank -I -l ${exampleStartLineNumber}-${exampleEndLineNumber} --hide-ending`).toString().trim();
                 const exampleKernLines = stdout.split('\n');
@@ -166,6 +164,8 @@ files.forEach(file => {
                     triciniumId: id,
                     beat: parseFloat(beatToken),
                 };
+
+                console.log(voicePair, lineNumber);
 
                 // save config yaml file
                 const configFileName = `${id}-${beatToken}.yaml`;
