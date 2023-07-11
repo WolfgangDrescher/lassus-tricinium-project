@@ -119,7 +119,6 @@ files.forEach(file => {
         lines.forEach((line, lineIndex) => {
             const hintToken = line.split('\t')?.[1];
             if (hintToken && hintToken.includes('d5')) {
-                count++;
                 const beatToken = line.split('\t')[3];
                 const lineNumber = lineIndex + 1;
                 const lowerVoice = voicePair.split(',')[0];
@@ -175,6 +174,9 @@ files.forEach(file => {
                     lineWidth: -1,
                     sortKeys: true,
                 }));
+
+                count++;
+
             }
         });
     });
