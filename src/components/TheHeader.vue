@@ -8,7 +8,7 @@ function toggle() {
 </script>
 
 <template>
-    <header class="bg-primary-500 text-white bg-patter">
+    <header class="bg-primary-500 text-white bg-pattern">
         <div class="flex justify-between items-center py-2 px-4 gap-4">
             <img src="/mhfr-logo-white.svg" class="hidden md:block max-h-[50px] mx-auto" alt="Hochschule für Musik Freiburg" />
             <div class="grow flex items-center gap-4">
